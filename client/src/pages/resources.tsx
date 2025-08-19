@@ -7,159 +7,252 @@ import {
   FileText, 
   Video, 
   BookOpen, 
-  Download, 
   ExternalLink, 
   Calendar,
   Users,
   Settings,
   TrendingUp,
   HelpCircle,
-  Clock
+  Clock,
+  Wrench,
+  BarChart3,
+  MessageSquare,
+  Newspaper
 } from "lucide-react";
 
 const resourceCategories = [
   {
-    id: "documentation",
-    title: "Documentation & Manuals",
-    description: "Installation guides, operation manuals, and technical documentation",
-    icon: FileText,
-    color: "bg-blue-500",
-    items: [
-      {
-        title: "Installation Guide - DeltaForce System",
-        type: "PDF",
-        size: "2.4 MB",
-        description: "Complete installation procedures for DeltaForce hydraulic downforce control",
-        downloadUrl: "#"
-      },
-      {
-        title: "20|20 Operation Manual",
-        type: "PDF", 
-        size: "5.1 MB",
-        description: "Comprehensive guide to 20|20 monitor operation and troubleshooting",
-        downloadUrl: "#"
-      },
-      {
-        title: "SmartFirmer Calibration Procedures",
-        type: "PDF",
-        size: "1.8 MB", 
-        description: "Step-by-step calibration and maintenance procedures",
-        downloadUrl: "#"
-      }
-    ]
-  },
-  {
-    id: "training",
-    title: "Training Resources",
-    description: "Video tutorials, training modules, and certification programs",
-    icon: Video,
-    color: "bg-green-500",
-    items: [
-      {
-        title: "Getting Started with Precision Planting",
-        type: "Video Series",
-        duration: "45 min",
-        description: "Introduction to precision agriculture technology and benefits",
-        viewUrl: "#"
-      },
-      {
-        title: "Advanced 20|20 Features",
-        type: "Interactive Course",
-        duration: "2 hours",
-        description: "Deep dive into advanced monitoring and control features",
-        viewUrl: "#"
-      },
-      {
-        title: "Troubleshooting Common Issues",
-        type: "Video Tutorial",
-        duration: "30 min",
-        description: "Common problems and their solutions for field operations",
-        viewUrl: "#"
-      }
-    ]
-  },
-  {
-    id: "technical",
-    title: "Technical Support",
-    description: "Troubleshooting guides, diagnostic tools, and technical bulletins",
+    id: "topics",
+    title: "Technical Topics",
+    description: "Comprehensive guides organized by equipment category and application",
     icon: Settings,
-    color: "bg-orange-500",
+    color: "bg-green-600",
     items: [
       {
-        title: "Diagnostic Error Codes Reference",
-        type: "Quick Reference",
-        pages: "8 pages",
-        description: "Complete list of system error codes and resolution steps",
-        downloadUrl: "#"
+        title: "Display Monitors",
+        description: "Advanced monitoring and control systems for precision agriculture",
+        url: "https://www.precisionplanting.com/resources?topic=display-monitors"
       },
       {
-        title: "Software Update Procedures",
-        type: "Tech Bulletin",
-        date: "Latest",
-        description: "How to update firmware and software on your systems",
-        downloadUrl: "#"
+        title: "Downforce Control", 
+        description: "Optimize planting pressure for consistent depth and emergence",
+        url: "https://www.precisionplanting.com/resources?topic=downforce-control"
       },
       {
-        title: "Compatibility Matrix",
-        type: "Reference Chart", 
-        date: "2024",
-        description: "Product compatibility across different equipment brands",
-        downloadUrl: "#"
+        title: "Fertilizer Application",
+        description: "Precision nutrient placement systems and strategies",
+        url: "https://www.precisionplanting.com/resources?topic=fertilizer-application"
+      },
+      {
+        title: "Closing Systems",
+        description: "Advanced seed trench closing for improved emergence",
+        url: "https://www.precisionplanting.com/resources?topic=closing-systems"
+      },
+      {
+        title: "Data Management",
+        description: "Field data collection, analysis, and reporting tools",
+        url: "https://www.precisionplanting.com/resources?topic=data-management"
+      },
+      {
+        title: "Seed Meters & Drive Systems",
+        description: "Precision seed singulation and placement technology",
+        url: "https://www.precisionplanting.com/resources?topic=seed-meters-and-drive-systems"
+      },
+      {
+        title: "Row Cleaners",
+        description: "Residue management for optimal seedbed preparation",
+        url: "https://www.precisionplanting.com/resources?topic=row-cleaners"
+      },
+      {
+        title: "Seed Firmers",
+        description: "Consistent seed-to-soil contact for uniform emergence",
+        url: "https://www.precisionplanting.com/resources?topic=seed-firmers"
       }
     ]
   },
   {
-    id: "agronomic",
-    title: "Agronomic Resources",
-    description: "Research data, case studies, and best practices for precision agriculture",
-    icon: TrendingUp,
-    color: "bg-purple-500",
+    id: "guides",
+    title: "Equipment Guides",
+    description: "Detailed maintenance and upgrade guides for your equipment",
+    icon: BookOpen,
+    color: "bg-blue-600",
     items: [
       {
-        title: "ROI Calculator - Precision Planting",
-        type: "Interactive Tool",
-        description: "Calculate return on investment for precision planting technology",
-        viewUrl: "#"
+        title: "Planter Maintenance Guide",
+        description: "Essential maintenance procedures to keep your planter running smoothly",
+        url: "https://www.precisionplanting.com/resources/guides/your-planter-maintenance-guide"
       },
       {
-        title: "Case Study: 15% Yield Increase",
-        type: "Research Paper",
-        pages: "12 pages",
-        description: "Iowa farm achieves 15% corn yield increase with precision technology",
-        downloadUrl: "#"
+        title: "Seeder Maintenance Guide", 
+        description: "Comprehensive maintenance guide for air seeder systems",
+        url: "https://www.precisionplanting.com/resources/guides/your-seeder-maintenance-guide"
       },
       {
-        title: "Best Practices Guide",
-        type: "eBook",
-        pages: "24 pages",
-        description: "Optimize your planting operations for maximum performance",
-        downloadUrl: "#"
+        title: "Crop Stand Evaluation Guide",
+        description: "Assess and optimize crop emergence and stand establishment",
+        url: "https://www.precisionplanting.com/resources/guides/crop-stand-evaluation-guide"
+      },
+      {
+        title: "White VE Series Planter Upgrade Guide",
+        description: "Transform your White VE series planter with precision upgrades",
+        url: "https://www.precisionplanting.com/resources/guides/white-ve-series-planter-upgrade-guide"
+      },
+      {
+        title: "John Deere ExactEmerge Planter Upgrade Guide",
+        description: "Enhance your John Deere ExactEmerge planter performance",
+        url: "https://www.precisionplanting.com/resources/guides/john-deere-exactemerge-planter-upgrade-guide"
       }
     ]
-  }
-];
-
-const upcomingEvents = [
-  {
-    title: "Precision Agriculture Technology Day",
-    date: "March 15, 2024",
-    time: "9:00 AM - 4:00 PM",
-    location: "Premier Ag Solutions - Main Location",
-    description: "Hands-on demonstrations of the latest precision agriculture technology"
   },
   {
-    title: "20|20 Advanced Training Workshop",
-    date: "April 8, 2024", 
-    time: "1:00 PM - 5:00 PM",
-    location: "Online Webinar",
-    description: "Deep dive into advanced features and optimization techniques"
+    id: "videos",
+    title: "Video Library",
+    description: "Educational videos, conference presentations, and training content",
+    icon: Video,
+    color: "bg-red-600",
+    items: [
+      {
+        title: "InsidePTI ‣ Season 1",
+        description: "Behind-the-scenes look at Precision Technology Institute research",
+        url: "https://www.precisionplanting.com/resources/videos/insidepti-season-1"
+      },
+      {
+        title: "InsidePTI ‣ Season 3",
+        description: "Advanced research insights from the Precision Technology Institute",
+        url: "https://www.precisionplanting.com/resources/videos/insidepti-season-3"
+      },
+      {
+        title: "InsidePTI ‣ Season 4",
+        description: "Latest research findings and technology developments",
+        url: "https://www.precisionplanting.com/resources/videos/insidepti-season-4"
+      },
+      {
+        title: "Winter Conference 2025 ‣ Priorities of the Planter Pass",
+        description: "Essential planting priorities for maximum productivity",
+        url: "https://www.precisionplanting.com/resources/videos/winter-conference-2025-priorities-of-the-planter-pass"
+      },
+      {
+        title: "Winter Conference 2025 ‣ Next Level Spraying",
+        description: "Advanced spraying techniques and technology",
+        url: "https://www.precisionplanting.com/resources/videos/winter-conference-2025-next-level-spraying"
+      },
+      {
+        title: "Winter Conference 2023 ‣ Why Adjust Nutrition",
+        description: "The importance of variable rate nutrition management",
+        url: "https://www.precisionplanting.com/resources/videos/winter-conference-2023-why-adjust-nutrition"
+      }
+    ]
   },
   {
-    title: "Spring Equipment Prep Clinic",
-    date: "April 22, 2024",
-    time: "8:00 AM - 12:00 PM", 
-    location: "Premier Ag Solutions - Service Center",
-    description: "Get your precision equipment ready for the planting season"
+    id: "articles",
+    title: "Articles & Case Studies",
+    description: "Technical articles and real-world implementation stories",
+    icon: FileText,
+    color: "bg-purple-600",
+    items: [
+      {
+        title: "From Cleaning to Closing: The Three C's of Emergence",
+        description: "Understanding the critical factors for successful crop emergence",
+        url: "https://www.precisionplanting.com/resources/articles/from-cleaning-to-closing-the-three-cs-of-emergence"
+      },
+      {
+        title: "High Speed Hank | Planter Upgrade Story",
+        description: "How high-speed planting technology transformed one farm's operation",
+        url: "https://www.precisionplanting.com/resources/articles/hank"
+      },
+      {
+        title: "Buy New Bill | Planter Upgrade Story",
+        description: "The economics of upgrading vs. buying new equipment",
+        url: "https://www.precisionplanting.com/resources/articles/bill"
+      },
+      {
+        title: "Downforce Dan | Planter Upgrade Story",
+        description: "Achieving consistent emergence with precision downforce control",
+        url: "https://www.precisionplanting.com/resources/articles/dan"
+      }
+    ]
+  },
+  {
+    id: "research",
+    title: "Research Studies",
+    description: "Data-driven research on precision agriculture technologies",
+    icon: BarChart3,
+    color: "bg-orange-600",
+    items: [
+      {
+        title: "Multi-Year High Management Corn Study",
+        description: "Long-term analysis of high management corn production systems",
+        url: "https://www.precisionplanting.com/resources/research/high-management-corn-study"
+      },
+      {
+        title: "Planter \"All Wrong\" Study – Corn",
+        description: "Impact of planter setup on corn yield and profitability",
+        url: "https://www.precisionplanting.com/resources/research/planter-all-wrong-corn-study"
+      },
+      {
+        title: "High Speed Planting Corn Study",
+        description: "Performance analysis of high-speed planting systems",
+        url: "https://www.precisionplanting.com/resources/research/high-speed-planting-corn-study"
+      },
+      {
+        title: "Emergence Matters (Multi‑year Study)",
+        description: "Comprehensive research on the importance of uniform emergence",
+        url: "https://www.precisionplanting.com/resources/emergencematters"
+      }
+    ]
+  },
+  {
+    id: "farmer-stories",
+    title: "Farmer Success Stories",
+    description: "Real experiences from farmers using precision planting technology",
+    icon: Users,
+    color: "bg-emerald-600",
+    items: [
+      {
+        title: "We Saved Our Farm $200K by Making an Old Planter New Again",
+        description: "How retrofit upgrades delivered massive savings and improved performance",
+        url: "https://www.precisionplanting.com/resources/farmer-story/we-saved-our-farm-200k-by-making-an-old-planter-new-again-with-precision-planting"
+      },
+      {
+        title: "\"In one big day, I was able to get 400 acres planted\"",
+        description: "Achieving efficiency gains through precision planting technology",
+        url: "https://www.precisionplanting.com/resources/farmer-story/in-one-big-day-i-was-able-to-get-400-acres-planted"
+      }
+    ]
+  },
+  {
+    id: "news",
+    title: "Industry News",
+    description: "Latest announcements and developments in precision agriculture",
+    icon: Newspaper,
+    color: "bg-indigo-600",
+    items: [
+      {
+        title: "Precision Planting Launches New Planting System (CornerStone)",
+        description: "Revolutionary new planting system technology introduction",
+        url: "https://www.precisionplanting.com/resources/news/precision-planting-launches-new-planting-system"
+      },
+      {
+        title: "Intelligent Ag and Headsight to Merge Into Precision Planting",
+        description: "Strategic brand consolidation to enhance product offerings",
+        url: "https://www.precisionplanting.com/resources/news/precision-planting-brands-merge"
+      },
+      {
+        title: "The Launch of PTx",
+        description: "Introduction of the next generation Precision Technology platform",
+        url: "https://www.precisionplanting.com/resources/news/the-launch-of-ptx"
+      },
+      {
+        title: "Precision Planting Launches Clarity™",
+        description: "Advanced blockage and flow monitoring system announcement",
+        url: "https://www.precisionplanting.com/resources/news/precision-planting-launches-claritytm-an-advanced-blockage-and-flow-monitoring-system"
+      },
+      {
+        title: "2024 Discounted Grower Financing",
+        description: "Special financing options available for precision agriculture equipment",
+        url: "https://www.precisionplanting.com/resources/news/2024-discounted-grower-financing"
+      }
+    ]
   }
 ];
 
@@ -171,183 +264,119 @@ export default function Resources() {
       {/* Hero Section */}
       <section className="bg-green-900 text-white py-20">
         <div className="container mx-auto px-4">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Resources & Support
+          <div className="text-center max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              Precision Planting Resources
             </h1>
             <p className="text-xl mb-8 opacity-90">
-              Everything you need to maximize your precision agriculture investment
+              Comprehensive guides, research, and educational materials to help you maximize
+              the potential of your precision agriculture equipment and practices.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Badge variant="secondary" className="text-lg px-4 py-2">
-                24/7 Support Available
+            <div className="flex flex-wrap justify-center gap-4 text-sm">
+              <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
+                Technical Guides
               </Badge>
-              <Badge variant="outline" className="text-lg px-4 py-2 border-white text-white">
-                Free Training Included
+              <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
+                Video Training
+              </Badge>
+              <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
+                Research Studies
+              </Badge>
+              <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
+                Success Stories
               </Badge>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Quick Access */}
-      <section className="py-12 border-b">
+      {/* Resources Grid */}
+      <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8 text-center">Quick Access</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <Button variant="outline" className="h-20 flex-col space-y-2" data-testid="button-emergency-support">
-              <HelpCircle className="h-6 w-6" />
-              <span>Emergency Support</span>
-            </Button>
-            <Button variant="outline" className="h-20 flex-col space-y-2" data-testid="button-software-updates">
-              <Download className="h-6 w-6" />
-              <span>Software Updates</span>
-            </Button>
-            <Button variant="outline" className="h-20 flex-col space-y-2" data-testid="button-parts-ordering">
-              <Settings className="h-6 w-6" />
-              <span>Parts Ordering</span>
-            </Button>
-            <Button variant="outline" className="h-20 flex-col space-y-2" data-testid="button-training-schedule">
-              <Calendar className="h-6 w-6" />
-              <span>Training Schedule</span>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Resource Categories */}
-      <section className="py-12">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Resource Library</h2>
-          
-          <div className="space-y-12">
-            {resourceCategories.map(category => {
-              const IconComponent = category.icon;
-              return (
-                <div key={category.id} className="space-y-6">
-                  <div className="flex items-center space-x-4">
-                    <div className={`p-3 rounded-lg ${category.color} text-white`}>
-                      <IconComponent className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h3 className="text-2xl font-bold">{category.title}</h3>
-                      <p className="text-muted-foreground">{category.description}</p>
-                    </div>
+          <div className="space-y-16">
+            {resourceCategories.map((category) => (
+              <div key={category.id} className="space-y-8">
+                {/* Category Header */}
+                <div className="text-center">
+                  <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full ${category.color} text-white mb-4`}>
+                    <category.icon className="h-8 w-8" />
                   </div>
-                  
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {category.items.map((item, index) => (
-                      <Card key={index} className="hover:shadow-lg transition-shadow" data-testid={`card-resource-${category.id}-${index}`}>
-                        <CardHeader>
-                          <div className="flex justify-between items-start mb-2">
-                            <Badge variant="secondary">{item.type}</Badge>
-                            {'size' in item && <span className="text-xs text-muted-foreground">{item.size}</span>}
-                            {'duration' in item && <span className="text-xs text-muted-foreground">{item.duration}</span>}
-                            {'pages' in item && <span className="text-xs text-muted-foreground">{item.pages}</span>}
-                            {'date' in item && <span className="text-xs text-muted-foreground">{item.date}</span>}
-                          </div>
-                          <CardTitle className="text-lg">{item.title}</CardTitle>
-                          <CardDescription>{item.description}</CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                          <div className="flex space-x-2">
-                            {'downloadUrl' in item && (
-                              <Button size="sm" data-testid={`button-download-${category.id}-${index}`}>
-                                <Download className="mr-2 h-4 w-4" />
-                                Download
-                              </Button>
-                            )}
-                            {'viewUrl' in item && (
-                              <Button size="sm" variant="outline" data-testid={`button-view-${category.id}-${index}`}>
-                                <ExternalLink className="mr-2 h-4 w-4" />
-                                View
-                              </Button>
-                            )}
-                          </div>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </div>
+                  <h2 className="text-3xl font-bold mb-4" data-testid={`heading-${category.id}`}>
+                    {category.title}
+                  </h2>
+                  <p className="text-muted-foreground max-w-2xl mx-auto">
+                    {category.description}
+                  </p>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
 
-      {/* Upcoming Events */}
-      <section className="py-12 bg-muted">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Upcoming Training & Events</h2>
-            <p className="text-xl text-muted-foreground">
-              Stay up to date with training opportunities and technology demonstrations
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {upcomingEvents.map((event, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow" data-testid={`card-event-${index}`}>
-                <CardHeader>
-                  <div className="flex items-start justify-between">
-                    <Badge variant="outline" className="mb-2">
-                      <Calendar className="mr-1 h-3 w-3" />
-                      {event.date}
-                    </Badge>
-                  </div>
-                  <CardTitle className="text-xl">{event.title}</CardTitle>
-                  <CardDescription>{event.description}</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-3">
-                  <div className="space-y-2 text-sm">
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-4 w-4 text-muted-foreground" />
-                      <span>{event.time}</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Users className="h-4 w-4 text-muted-foreground" />
-                      <span>{event.location}</span>
-                    </div>
-                  </div>
-                  <Button className="w-full" data-testid={`button-register-event-${index}`}>
-                    Register Now
-                  </Button>
-                </CardContent>
-              </Card>
+                {/* Category Items Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {category.items.map((item, index) => (
+                    <Card key={index} className="hover:shadow-lg transition-shadow duration-300" data-testid={`card-${category.id}-${index}`}>
+                      <CardHeader>
+                        <CardTitle className="text-lg line-clamp-2" data-testid={`title-${category.id}-${index}`}>
+                          {item.title}
+                        </CardTitle>
+                        <CardDescription className="text-sm">
+                          {item.description}
+                        </CardDescription>
+                      </CardHeader>
+                      
+                      <CardContent className="pt-0">
+                        <Button 
+                          asChild 
+                          className="w-full"
+                          data-testid={`button-view-${category.id}-${index}`}
+                        >
+                          <a 
+                            href={item.url} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-2"
+                          >
+                            <ExternalLink className="h-4 w-4" />
+                            View Resource
+                          </a>
+                        </Button>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Support Contact */}
-      <section className="py-12">
+      {/* Call to Action */}
+      <section className="bg-muted py-16">
         <div className="container mx-auto px-4">
-          <Card className="max-w-2xl mx-auto text-center">
-            <CardHeader>
-              <CardTitle className="text-2xl">Need Additional Support?</CardTitle>
-              <CardDescription>
-                Our technical support team is here to help with any questions
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <p className="text-muted-foreground">
-                Can't find what you're looking for? Contact our support team for personalized assistance.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" data-testid="button-contact-support">
-                  <HelpCircle className="mr-2 h-4 w-4" />
+          <div className="text-center max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6">
+              Need Additional Support?
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Our team of precision agriculture experts is ready to help you implement
+              and optimize your precision planting systems.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" asChild data-testid="button-contact-support">
+                <a href="/contact" className="flex items-center gap-2">
+                  <MessageSquare className="h-5 w-5" />
                   Contact Support
-                </Button>
-                <Button variant="outline" size="lg" data-testid="button-schedule-training">
-                  <Calendar className="mr-2 h-4 w-4" />
-                  Schedule Training
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+                </a>
+              </Button>
+              <Button variant="outline" size="lg" asChild data-testid="button-dealer-network">
+                <a href="/dealers" className="flex items-center gap-2">
+                  <Users className="h-5 w-5" />
+                  Find a Dealer
+                </a>
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
-      
+
       <Footer />
     </div>
   );
