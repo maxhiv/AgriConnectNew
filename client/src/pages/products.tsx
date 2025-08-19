@@ -132,7 +132,7 @@ export default function Products() {
                       {product.logoDarkGreen && (
                         <div className="my-4 flex justify-center">
                           <img 
-                            src={product.logoDarkGreen.replace('/src', '')} 
+                            src={product.logoDarkGreen} 
                             alt={`${product.name} logo`}
                             className="h-16 w-auto object-contain"
                             data-testid={`img-product-logo-${product.slug}`}

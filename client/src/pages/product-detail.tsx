@@ -86,7 +86,7 @@ export default function ProductDetail() {
           {product.logoDarkGreen && (
             <div className="mb-8 flex justify-center lg:justify-start">
               <img 
-                src={product.logoDarkGreen.replace('/src', '')} 
+                src={product.logoDarkGreen} 
                 alt={`${product.name} logo`}
                 className="h-24 w-auto object-contain"
                 data-testid="img-product-logo-detail"
