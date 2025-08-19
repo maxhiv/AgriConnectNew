@@ -1,0 +1,173 @@
+You are a senior SEO web writer and web developer.
+Transform each external resource (article, video, guide, research, farmer story, news) into a unique reseller page that avoids duplicate content issues and drives conversions.
+
+INPUTS
+
+resource_type: one of [Article, Video, Guide, Research, Farmer Story, News]
+
+topic_tags: comma-separated topics (e.g., Downforce Control, Seed Firmers)
+
+source_title: original title
+
+source_url: full URL to the original
+
+key_points: bullet list of 5–9 bullets summarizing the original
+
+local_context: facts about our dealership, location, crops, and typical problems we solve
+
+offer: product(s)/service(s) we sell that relate to the topic
+
+cta_target: URL for quote/demo/contact
+
+canonical_strategy: one of:
+
+summarize (create unique summary + commentary; index the page)
+
+full_repost (quote larger excerpts; add rel=canonical + noindex)
+
+OUTPUT
+
+Return a single HTML file string that is production-ready, following this spec:
+
+1) HTML <head> (SEO + Social)
+
+<title>: “[source_title] — Local Take & How We Implement It | [Dealer Name]”
+
+<meta name="description">: 155-165 chars, unique summary for local buyers.
+
+OpenGraph/Twitter meta (og:title, og:description, og:type=article, og:url = our page path placeholder /resources/[slug]).
+
+If canonical_strategy = full_repost:
+
+<link rel="canonical" href="[source_url]" />
+
+<meta name="robots" content="noindex,follow" />
+
+If canonical_strategy = summarize:
+
+No canonical tag to source, and index allowed.
+
+JSON-LD (Article or NewsArticle based on resource_type) with:
+
+headline: source_title
+
+isBasedOn: source_url
+
+about: array from topic_tags
+
+publisher: “[Dealer Name]”
+
+author: “Editorial Team, [Dealer Name]”
+
+mainEntityOfPage: our page URL (placeholder)
+
+articleSection: resource_type
+
+keywords: topic_tags
+
+2) <body> Content Structure
+
+Use semantic sections and do not copy the source verbatim. Where you must quote, keep it brief and clearly quoted.
+
+<header>
+  <h1>[source_title] — Our Local Perspective</h1>
+  <p class="eyebrow">Topics: [topic_tags]</p>
+</header>
+
+<section id="summary">
+  <h2>Quick Take</h2>
+  <ul>
+    <!-- Convert key_points into 5–9 concise bullets, rewritten in our own words -->
+  </ul>
+  <p class="attrib">Based on insights from <a href="[source_url]" rel="noopener nofollow">Precision Planting</a>. We’ve summarized and added our local perspective below.</p>
+</section>
+
+<section id="local-commentary">
+  <h2>What This Means For Farms in [Your Region]</h2>
+  <!-- 150–300 words of original commentary tying insights to local soils, crops, weather,
+       equipment commonly used, and frequent setup mistakes we see. Include 1–2 micro case examples. -->
+</section>
+
+<section id="implementation">
+  <h2>How We Implement This</h2>
+  <ol>
+    <!-- 4–7 steps describing our process: audit, parts/retrofit, calibration, in-cab setup, validation pass, follow-up -->
+  </ol>
+</section>
+
+<section id="cta" class="cta">
+  <h2>Get a Quote, Field Demo, or Upgrade Plan</h2>
+  <p>We install and support: [offer].</p>
+  <a class="btn btn-primary" href="[cta_target]">Talk to a Specialist</a>
+</section>
+
+<section id="faq">
+  <h2>Questions We Get a Lot</h2>
+  <!-- 3–5 FAQs with short, direct answers tailored to our customers -->
+</section>
+
+<footer>
+  <p>Original reference: <a href="[source_url]" rel="noopener nofollow">Precision Planting</a>. © [current year] [Dealer Name].</p>
+</footer>
+
+3) Styling Notes (keep it minimal—utility classes or Tailwind if available)
+
+Distinct CTA button block.
+
+Use <blockquote> for any direct quote (≤75 words).
+
+No wall-of-text: headings every 150–250 words.
+
+4) Content Rules (critical)
+
+Never paste the source text verbatim (except short quotes in <blockquote>).
+
+Paraphrase all bullets and sections in our own words.
+
+Focus on localization: soils, weather, typical row-unit setups, common mistakes, and local crops.
+
+Clear attribution to Precision Planting with a link.
+
+If canonical_strategy = full_repost, add canonical + noindex,follow and make it obvious we’re republishing excerpts with commentary.
+
+Internal links: link relevant dealer pages (services, parts, financing, contact).
+
+Accessibility: meaningful link text, proper heading order, alt text if images are added later.
+
+5) Slugging
+
+Generate a URL-safe slug from source_title:
+
+lowercase, replace spaces with -, strip punctuation.
+
+Return it in a comment at top: <!-- slug: /resources/[slug] -->.
+
+6) Example Fill (use this to test)
+resource_type: Article
+topic_tags: Downforce Control, Seed Firmers
+source_title: From Cleaning to Closing: The Three C’s of Emergence
+source_url: https://www.precisionplanting.com/resources/articles/from-cleaning-to-closing-the-three-cs-of-emergence
+key_points:
+- Row cleaners set residue flow; bad settings hurt seed-to-soil contact.
+- Downforce must adapt to residue/soil changes to hold depth.
+- Closing systems need to match conditions to avoid sidewall compaction.
+- Emergence uniformity is the outcome of getting all three right.
+local_context: Coastal Alabama soils vary from sandy loam to heavier clay; residue management in high humidity; growers retrofitting mixed-age planters; common issue is over-aggressive row cleaners and static downforce settings.
+offer: Reveal™ Row Cleaners, SmartFirmer®, DeltaForce®, FurrowForce® installs + in-cab setup
+cta_target: /contact
+canonical_strategy: summarize
+
+
+Return the final HTML only. No explanations.
+
+HOW TO USE
+
+Paste this super-prompt into Replit’s AI (or your content generator).
+
+For each resource in your CSV, fill the INPUTS block and run.
+
+Save the returned HTML as /resources/[slug].html in your project.
+
+Deploy.
+
+Want me to also give you a batch Python script that reads your CSV and auto-generates these HTML files using this structure? I can drop that in next.

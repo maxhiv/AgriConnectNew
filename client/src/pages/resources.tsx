@@ -17,8 +17,19 @@ import {
   Wrench,
   BarChart3,
   MessageSquare,
-  Newspaper
+  Newspaper,
+  ArrowRight
 } from "lucide-react";
+import { Link } from "wouter";
+
+// Helper function to generate resource slugs
+const getResourceSlug = (title: string): string => {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/^-+|-+$/g, '');
+};
 
 const resourceCategories = [
   {
@@ -323,21 +334,37 @@ export default function Resources() {
                       </CardHeader>
                       
                       <CardContent className="pt-0">
-                        <Button 
-                          asChild 
-                          className="w-full"
-                          data-testid={`button-view-${category.id}-${index}`}
-                        >
-                          <a 
-                            href={item.url} 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="flex items-center justify-center gap-2"
+                        <div className="flex gap-2">
+                          <Button 
+                            asChild 
+                            className="flex-1"
+                            data-testid={`button-local-${category.id}-${index}`}
                           >
-                            <ExternalLink className="h-4 w-4" />
-                            View Resource
-                          </a>
-                        </Button>
+                            <Link 
+                              href={`/resources/${getResourceSlug(item.title)}`}
+                              className="flex items-center justify-center gap-2"
+                            >
+                              <ArrowRight className="h-4 w-4" />
+                              Local Guide
+                            </Link>
+                          </Button>
+                          <Button 
+                            variant="outline"
+                            asChild 
+                            className="flex-1"
+                            data-testid={`button-original-${category.id}-${index}`}
+                          >
+                            <a 
+                              href={item.url} 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                              className="flex items-center justify-center gap-2"
+                            >
+                              <ExternalLink className="h-4 w-4" />
+                              Original
+                            </a>
+                          </Button>
+                        </div>
                       </CardContent>
                     </Card>
                   ))}
