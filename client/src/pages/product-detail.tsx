@@ -52,6 +52,7 @@ export default function ProductDetail() {
   const { data: product, isLoading, error } = useQuery<Product>({
     queryKey: ['/api/products', slug],
     queryFn: () => fetch(`/api/products/${slug}?enrich=true`).then(res => res.json()),
+    enabled: !!slug,
   });
 
   if (isLoading) {
@@ -97,7 +98,7 @@ export default function ProductDetail() {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      
+
       <div className="container mx-auto px-4 py-12">
         {/* Breadcrumb */}
         <div className="mb-8">
@@ -119,7 +120,7 @@ export default function ProductDetail() {
               {product.category}
             </Badge>
           </div>
-          
+
           {product.logoDarkGreen && (
             <div className="mb-8 flex justify-center lg:justify-start">
               <img 
@@ -130,21 +131,21 @@ export default function ProductDetail() {
               />
             </div>
           )}
-          
+
           <h1 className="text-4xl md:text-6xl font-bold mb-4" data-testid="text-product-name">
             {product.enrichedTitle || product.name}
           </h1>
-          
+
           <p className="text-xl text-muted-foreground mb-8" data-testid="text-product-tagline">
             {product.enrichedDescription || product.tagline}
           </p>
-          
+
           {product.extendedDescription && (
             <div className="mb-8 p-4 bg-muted rounded-lg">
               <p className="text-lg">{product.extendedDescription}</p>
             </div>
           )}
-          
+
           <div className="flex flex-wrap gap-4">
             <Button size="lg" asChild data-testid="button-get-quote">
               <Link href="/contact">
@@ -304,7 +305,7 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      
+
       <Footer />
     </div>
   );
