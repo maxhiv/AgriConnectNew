@@ -1,4 +1,6 @@
-import { type User, type InsertUser, type ContactMessage, type InsertContactMessage } from "@shared/schema";
+import { users, contactMessages, type User, type InsertUser, type ContactMessage, type InsertContactMessage } from "@shared/schema";
+import { db } from "./db";
+import { eq } from "drizzle-orm";
 import { randomUUID } from "crypto";
 
 export interface IStorage {
@@ -40,6 +42,8 @@ export class MemStorage implements IStorage {
     const message: ContactMessage = { 
       ...insertMessage, 
       id,
+      phone: insertMessage.phone || null,
+      service: insertMessage.service || null,
       createdAt: new Date()
     };
     this.contactMessages.set(id, message);
@@ -53,4 +57,45 @@ export class MemStorage implements IStorage {
   }
 }
 
-export const storage = new MemStorage();
+// DatabaseStorage implementation
+export class DatabaseStorage implements IStorage {
+  async getUser(id: string): Promise<User | undefined> {
+    const [user] = await db.select().from(users).where(eq(users.id, id));
+    return user || undefined;
+  }
+
+  async getUserByUsername(username: string): Promise<User | undefined> {
+    const [user] = await db.select().from(users).where(eq(users.username, username));
+    return user || undefined;
+  }
+
+  async createUser(insertUser: InsertUser): Promise<User> {
+    const [user] = await db
+      .insert(users)
+      .values(insertUser)
+      .returning();
+    return user;
+  }
+
+  async createContactMessage(insertMessage: InsertContactMessage): Promise<ContactMessage> {
+    const [message] = await db
+      .insert(contactMessages)
+      .values({
+        ...insertMessage,
+        phone: insertMessage.phone || null,
+        service: insertMessage.service || null
+      })
+      .returning();
+    return message;
+  }
+
+  async getContactMessages(): Promise<ContactMessage[]> {
+    const messages = await db
+      .select()
+      .from(contactMessages)
+      .orderBy(contactMessages.createdAt);
+    return messages.reverse(); // Most recent first
+  }
+}
+
+export const storage = new DatabaseStorage();
