@@ -1,0 +1,213 @@
+tep 2) Add a tiny static generator (Python)
+
+This builds:
+
+/public/resources/[slug].html pages from guides
+
+A /data/guides.json index (for widgets, auto-linking)
+
+Topic hubs from your topics list, with auto-populated cards
+
+build.py
+
+import os, json, re, pathlib, html
+from datetime import datetime
+
+ROOT = pathlib.Path(__file__).parent
+CONTENT = ROOT / "content"
+PUBLIC = ROOT / "public"
+DATA = ROOT / "data"
+TPL = ROOT / "templates"
+
+PUBLIC.mkdir(exist_ok=True)
+(PUBLIC / "resources").mkdir(parents=True, exist_ok=True)
+DATA.mkdir(exist_ok=True)
+
+def parse_md(fp):
+    txt = fp.read_text(encoding="utf-8")
+    m = re.match(r"---json\s*(\{.*?\})\s*---json\s*(.*)$", txt, re.S)
+    if not m:
+        raise ValueError(f"Missing or bad JSON front-matter in {fp}")
+    meta = json.loads(m.group(1))
+    body = m.group(2).strip()
+    return meta, body
+
+def md_to_html(md):
+    # ultra-simple markdown→html (headings, lists, paragraphs)
+    md = re.sub(r"^### (.+)$", r"<h3>\1</h3>", md, flags=re.M)
+    md = re.sub(r"^## (.+)$", r"<h2>\1</h2>", md, flags=re.M)
+    md = re.sub(r"^# (.+)$", r"<h1>\1</h1>", md, flags=re.M)
+    md = re.sub(r"(?m)^\s*-\s+(.+)$", r"<li>\1</li>", md)
+    md = re.sub(r"(?s)(<li>.*?</li>)", r"<ul>\1</ul>", md)
+    md = re.sub(r"(?m)^\d+\.\s+(.+)$", r"<li>\1</li>", md)
+    md = re.sub(r"(?s)(<li>.*?</li>)", r"<ol>\1</ol>", md)
+    # paragraphs
+    parts = [p for p in md.split("\n\n") if p.strip()]
+    html_ps = []
+    for p in parts:
+        if p.strip().startswith("<h") or p.strip().startswith("<ul>") or p.strip().startswith("<ol>"):
+            html_ps.append(p)
+        else:
+            html_ps.append(f"<p>{p}</p>")
+    return "\n".join(html_ps)
+
+def render_page(meta, body_html):
+    title = html.escape(meta["title"])
+    desc = html.escape(meta.get("summary",""))
+    slug = meta["slug"]
+    topics = meta.get("topics", [])
+    schema_type = meta.get("schema_type","Article")
+    keywords = ", ".join(meta.get("keywords", []))
+    cta = meta.get("cta", {})
+    cta_btn = f'<a class="btn" href="{cta.get("url","#")}">{html.escape(cta.get("label","Contact Us"))}</a>' if cta else ""
+
+    # Very small template inline (you can move to /templates/guide.html)
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>{title} — Local Guide</title>
+<meta name="description" content="{desc}" />
+<meta name="keywords" content="{html.escape(keywords)}" />
+<link rel="canonical" href="/resources/{slug}.html" />
+<script type="application/ld+json">
+{{
+ "@context":"https://schema.org",
+ "@type":"{schema_type}",
+ "headline": "{title}",
+ "about": {json.dumps(topics)},
+ "datePublished": "{datetime.utcnow().date()}",
+ "mainEntityOfPage": "/resources/{slug}.html",
+ "publisher": {{
+    "@type":"Organization",
+    "name":"[Dealer Name]"
+ }}
+}}
+</script>
+<style>
+body{{font-family:system-ui,Arial,sans-serif;line-height:1.5;margin:0;padding:0 1rem 3rem;max-width:960px}}
+header{{padding:1.5rem 0}}
+.badge{{display:inline-block;background:#eef;padding:.2rem .5rem;border-radius:.5rem;margin-right:.4rem}}
+.grid{{display:grid;gap:1rem}}
+.cards{{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}}
+.card{{border:1px solid #eee;border-radius:.75rem;padding:1rem}}
+.btn{{display:inline-block;padding:.6rem 1rem;border-radius:.5rem;border:1px solid #111;text-decoration:none}}
+hr{{margin:2rem 0}}
+</style>
+</head>
+<body>
+<header>
+  <h1>{title}</h1>
+  <p>{"".join(f'<span class="badge">{html.escape(t)}</span>' for t in topics)}</p>
+  <p>{desc}</p>
+</header>
+
+<main>
+{body_html}
+
+<hr />
+<section id="related">
+  <h2>Related Guides</h2>
+  <div id="related-cards" class="grid cards" data-topics='{json.dumps(topics)}'></div>
+</section>
+
+<section id="cta">
+  <h2>Need help implementing this?</h2>
+  <p>We install, calibrate, and support upgrades that align with this guide.</p>
+  {cta_btn}
+</section>
+</main>
+
+<script>
+// client-side widget: load /data/guides.json and show related by topic
+fetch('/data/guides.json').then(r=>r.json()).then(all=>{
+  const wrap = document.getElementById('related-cards');
+  const topics = JSON.parse(wrap.getAttribute('data-topics')||'[]');
+  const matches = all.filter(g => g.topics.some(t => topics.includes(t))).slice(0,6);
+  wrap.innerHTML = matches.map(g => `
+    <article class="card">
+      <h3>${g.title}</h3>
+      <p>${g.summary||""}</p>
+      <a class="btn" href="/resources/${g.slug}.html">Open</a>
+    </article>
+  `).join('');
+});
+</script>
+
+</body>
+</html>"""
+
+guides = []
+for fp in (CONTENT/"guides").glob("*.md"):
+    meta, md = parse_md(fp)
+    slug = meta.get("slug") or re.sub(r"[^a-z0-9]+","-", meta["title"].lower()).strip("-")
+    meta["slug"] = slug
+    html_body = md_to_html(md)
+    page = render_page(meta, html_body)
+    (PUBLIC/"resources"/f"{slug}.html").write_text(page, encoding="utf-8")
+    # collect index
+    guides.append({
+        "title": meta["title"],
+        "slug": slug,
+        "topics": meta.get("topics", []),
+        "summary": meta.get("summary",""),
+        "keywords": meta.get("keywords",[])
+    })
+
+(DATA/"guides.json").write_text(json.dumps(guides, indent=2), encoding="utf-8")
+
+print(f"Built {len(guides)} guide pages and data/guides.json")
+
+
+Run in Replit shell:
+
+python build.py
+
+Step 3) Auto-insert guide references across your site
+
+Wherever you want a “guide rail” widget (home, product pages, topics), drop this HTML stub; it auto-loads /data/guides.json and filters by data-topics:
+
+<section class="guides-rail">
+  <h2>Recommended Guides</h2>
+  <div id="guides-rail" data-topics='["Downforce Control","Row Cleaners"]'></div>
+</section>
+<script>
+fetch('/data/guides.json').then(r=>r.json()).then(all=>{
+  const el = document.getElementById('guides-rail');
+  const topics = JSON.parse(el.getAttribute('data-topics')||'[]');
+  const items = topics.length ? all.filter(g => g.topics.some(t => topics.includes(t))) : all;
+  el.innerHTML = items.slice(0,4).map(g => `
+    <article class="card">
+      <h3>${g.title}</h3>
+      <p>${g.summary||""}</p>
+      <a class="btn" href="/resources/${g.slug}.html">Read Guide</a>
+    </article>
+  `).join('');
+});
+</script>
+
+
+Result: you can reuse your guides everywhere (topic pages, product pages, blogs) by just setting the page’s relevant data-topics.
+
+Step 4) Optional: build Topic hubs automatically
+
+Create /data/topics.json manually (or from your CSV):
+
+[
+  {"name":"Downforce Control","slug":"downforce-control"},
+  {"name":"Seed Meters & Drive Systems","slug":"seed-meters-and-drive-systems"}
+]
+
+
+Then add a small loop in build.py that reads topics.json, filters guides by topic, and renders /public/resources/topic-[slug].html pages with cards (same pattern as Related Guides).
+
+Step 5) SEO + AEO touches
+
+Every guide page emits JSON-LD (HowTo or Article) to help AEO.
+
+Use unique summary in front-matter for meta description/snippets.
+
+Internal link from product/upgrade pages → relevant guides (widget above).
+
+Add FAQ blocks inside guides for rich results.
