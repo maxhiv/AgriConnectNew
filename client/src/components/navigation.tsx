@@ -1,23 +1,19 @@
 import { useState } from "react";
-import { Menu, X, Sprout } from "lucide-react";
+import { Link, useLocation } from "wouter";
+import { Menu, X, Settings } from "lucide-react";
 
 export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [location] = useLocation();
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const headerOffset = 64;
-      const elementPosition = element.offsetTop;
-      const offsetPosition = elementPosition - headerOffset;
-      
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-      
-      setIsMobileMenuOpen(false);
-    }
+  const isActive = (path: string) => {
+    if (path === '/' && location === '/') return true;
+    if (path !== '/' && location.startsWith(path)) return true;
+    return false;
+  };
+
+  const handleMobileMenuClick = () => {
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -27,58 +23,69 @@ export default function Navigation() {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-pilat font-bold text-ptx-dark-green flex items-center">
-                <Sprout className="mr-2 text-ptx-bright-green" />
-                Vantage South
-              </h1>
+              <Link href="/" className="flex items-center">
+                <h1 className="text-2xl font-pilat font-bold text-ptx-dark-green flex items-center hover:text-ptx-medium-green transition-colors">
+                  <Settings className="mr-2 text-ptx-bright-green" />
+                  Premier Ag Solutions
+                </h1>
+              </Link>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <button 
-                onClick={() => scrollToSection('home')}
-                className="text-ptx-dark-green hover:text-ptx-medium-green px-3 py-2 rounded-md text-sm font-medium transition-colors"
+              <Link 
+                href="/"
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive('/') 
+                    ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                    : 'text-ptx-dark-green hover:text-ptx-medium-green'
+                }`}
                 data-testid="nav-home"
               >
                 Home
-              </button>
-              <button 
-                onClick={() => scrollToSection('about')}
-                className="text-ptx-dark-green hover:text-ptx-medium-green px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                data-testid="nav-about"
-              >
-                About
-              </button>
-              <button 
-                onClick={() => scrollToSection('services')}
-                className="text-ptx-dark-green hover:text-ptx-medium-green px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                data-testid="nav-services"
-              >
-                Services
-              </button>
-              <button 
-                onClick={() => scrollToSection('products')}
-                className="text-ptx-dark-green hover:text-ptx-medium-green px-3 py-2 rounded-md text-sm font-medium transition-colors"
+              </Link>
+              <Link 
+                href="/products"
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive('/products') 
+                    ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                    : 'text-ptx-dark-green hover:text-ptx-medium-green'
+                }`}
                 data-testid="nav-products"
               >
                 Products
-              </button>
-              <button 
-                onClick={() => scrollToSection('news')}
-                className="text-ptx-dark-green hover:text-ptx-medium-green px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                data-testid="nav-news"
+              </Link>
+              <Link 
+                href="/dealers"
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive('/dealers') 
+                    ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                    : 'text-ptx-dark-green hover:text-ptx-medium-green'
+                }`}
+                data-testid="nav-dealers"
               >
-                News
-              </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="text-ptx-dark-green hover:text-ptx-medium-green px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                Locations
+              </Link>
+              <Link 
+                href="/resources"
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive('/resources') 
+                    ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                    : 'text-ptx-dark-green hover:text-ptx-medium-green'
+                }`}
+                data-testid="nav-resources"
+              >
+                Resources
+              </Link>
+              <a 
+                href="#contact"
+                className="bg-ptx-bright-green text-ptx-white px-4 py-2 rounded-md text-sm font-medium hover:bg-ptx-medium-green transition-colors"
                 data-testid="nav-contact"
               >
-                Contact
-              </button>
+                Get Quote
+              </a>
             </div>
           </div>
 
@@ -100,48 +107,62 @@ export default function Navigation() {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-ptx-white border-t border-ptx-neutral-green">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <button 
-              onClick={() => scrollToSection('home')}
-              className="text-ptx-dark-green block px-3 py-2 rounded-md text-base font-medium w-full text-left"
+            <Link 
+              href="/"
+              onClick={handleMobileMenuClick}
+              className={`block px-3 py-2 rounded-md text-base font-medium ${
+                isActive('/') 
+                  ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                  : 'text-ptx-dark-green hover:text-ptx-medium-green'
+              }`}
               data-testid="mobile-nav-home"
             >
               Home
-            </button>
-            <button 
-              onClick={() => scrollToSection('about')}
-              className="text-ptx-dark-green block px-3 py-2 rounded-md text-base font-medium w-full text-left"
-              data-testid="mobile-nav-about"
-            >
-              About
-            </button>
-            <button 
-              onClick={() => scrollToSection('services')}
-              className="text-ptx-dark-green block px-3 py-2 rounded-md text-base font-medium w-full text-left"
-              data-testid="mobile-nav-services"
-            >
-              Services
-            </button>
-            <button 
-              onClick={() => scrollToSection('products')}
-              className="text-ptx-dark-green block px-3 py-2 rounded-md text-base font-medium w-full text-left"
+            </Link>
+            <Link 
+              href="/products"
+              onClick={handleMobileMenuClick}
+              className={`block px-3 py-2 rounded-md text-base font-medium ${
+                isActive('/products') 
+                  ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                  : 'text-ptx-dark-green hover:text-ptx-medium-green'
+              }`}
               data-testid="mobile-nav-products"
             >
               Products
-            </button>
-            <button 
-              onClick={() => scrollToSection('news')}
-              className="text-ptx-dark-green block px-3 py-2 rounded-md text-base font-medium w-full text-left"
-              data-testid="mobile-nav-news"
+            </Link>
+            <Link 
+              href="/dealers"
+              onClick={handleMobileMenuClick}
+              className={`block px-3 py-2 rounded-md text-base font-medium ${
+                isActive('/dealers') 
+                  ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                  : 'text-ptx-dark-green hover:text-ptx-medium-green'
+              }`}
+              data-testid="mobile-nav-dealers"
             >
-              News
-            </button>
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="text-ptx-dark-green block px-3 py-2 rounded-md text-base font-medium w-full text-left"
+              Locations
+            </Link>
+            <Link 
+              href="/resources"
+              onClick={handleMobileMenuClick}
+              className={`block px-3 py-2 rounded-md text-base font-medium ${
+                isActive('/resources') 
+                  ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                  : 'text-ptx-dark-green hover:text-ptx-medium-green'
+              }`}
+              data-testid="mobile-nav-resources"
+            >
+              Resources
+            </Link>
+            <a 
+              href="#contact"
+              onClick={handleMobileMenuClick}
+              className="block px-3 py-2 rounded-md text-base font-medium bg-ptx-bright-green text-ptx-white hover:bg-ptx-medium-green transition-colors"
               data-testid="mobile-nav-contact"
             >
-              Contact
-            </button>
+              Get Quote
+            </a>
           </div>
         </div>
       )}

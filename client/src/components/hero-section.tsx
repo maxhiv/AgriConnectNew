@@ -1,17 +1,6 @@
+import { Link } from "wouter";
+
 export default function HeroSection() {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const headerOffset = 64;
-      const elementPosition = element.offsetTop;
-      const offsetPosition = elementPosition - headerOffset;
-      
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
-  };
 
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
@@ -25,28 +14,33 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black bg-opacity-40" />
       
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
+        <div className="mb-4">
+          <span className="inline-block bg-ptx-bright-green/20 text-ptx-bright-green px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-wide">
+            Retrofit · Optimize · Support
+          </span>
+        </div>
         <h1 className="heading-1 text-4xl md:text-6xl font-pilat font-bold mb-6 text-ptx-white">
-          Cultivating Tomorrow's
-          <span className="text-ptx-bright-green"> Harvest</span>
+          Upgrade the equipment
+          <span className="text-ptx-bright-green"> you already own</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-ptx-white font-lato">
-          Leading agricultural solutions provider dedicated to sustainable farming, innovative technology, and exceptional crop yields.
+          We design upgrade plans that improve singulation, depth, downforce, and application—installed and supported by local experts.
         </p>
-        <div className="space-x-4">
-          <button 
-            className="btn-ptx-primary px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:transform hover:-translate-y-1"
-            onClick={() => scrollToSection('about')}
-            data-testid="button-learn-more"
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link 
+            href="/products"
+            className="btn-ptx-primary px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:transform hover:-translate-y-1 inline-block text-center"
+            data-testid="button-explore-products"
           >
-            Learn More
-          </button>
-          <button 
-            className="btn-ptx-outline border-2 border-ptx-white text-ptx-white hover:bg-ptx-white hover:text-ptx-dark-green px-8 py-3 rounded-lg font-semibold transition-all duration-300"
-            onClick={() => scrollToSection('contact')}
-            data-testid="button-get-quote"
+            Explore Products
+          </Link>
+          <a 
+            href="#contact"
+            className="btn-ptx-outline border-2 border-ptx-white text-ptx-white hover:bg-ptx-white hover:text-ptx-dark-green px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-block text-center"
+            data-testid="button-request-quote"
           >
-            Get Quote
-          </button>
+            Request a Quote
+          </a>
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import { users, contactMessages, type User, type InsertUser, type ContactMessage, type InsertContactMessage } from "@shared/schema";
+import { users, contactMessages, products, type User, type InsertUser, type ContactMessage, type InsertContactMessage, type Product, type InsertProduct } from "@shared/schema";
 import { db } from "./db";
 import { eq } from "drizzle-orm";
 import { randomUUID } from "crypto";
@@ -9,15 +9,22 @@ export interface IStorage {
   createUser(user: InsertUser): Promise<User>;
   createContactMessage(message: InsertContactMessage): Promise<ContactMessage>;
   getContactMessages(): Promise<ContactMessage[]>;
+  getProducts(): Promise<Product[]>;
+  getProductBySlug(slug: string): Promise<Product | undefined>;
+  createProduct(product: InsertProduct): Promise<Product>;
+  getProductsByEquipment(equipment: string): Promise<Product[]>;
+  getProductsByCategory(category: string): Promise<Product[]>;
 }
 
 export class MemStorage implements IStorage {
   private users: Map<string, User>;
   private contactMessages: Map<string, ContactMessage>;
+  private products: Map<string, Product>;
 
   constructor() {
     this.users = new Map();
     this.contactMessages = new Map();
+    this.products = new Map();
   }
 
   async getUser(id: string): Promise<User | undefined> {
@@ -54,6 +61,29 @@ export class MemStorage implements IStorage {
     return Array.from(this.contactMessages.values()).sort(
       (a, b) => b.createdAt.getTime() - a.createdAt.getTime()
     );
+  }
+
+  async getProducts(): Promise<Product[]> {
+    return Array.from(this.products.values());
+  }
+
+  async getProductBySlug(slug: string): Promise<Product | undefined> {
+    return Array.from(this.products.values()).find(p => p.slug === slug);
+  }
+
+  async createProduct(insertProduct: InsertProduct): Promise<Product> {
+    const id = randomUUID();
+    const product: Product = { ...insertProduct, id, createdAt: new Date() };
+    this.products.set(id, product);
+    return product;
+  }
+
+  async getProductsByEquipment(equipment: string): Promise<Product[]> {
+    return Array.from(this.products.values()).filter(p => p.equipment === equipment);
+  }
+
+  async getProductsByCategory(category: string): Promise<Product[]> {
+    return Array.from(this.products.values()).filter(p => p.category === category);
   }
 }
 
@@ -95,6 +125,31 @@ export class DatabaseStorage implements IStorage {
       .from(contactMessages)
       .orderBy(contactMessages.createdAt);
     return messages.reverse(); // Most recent first
+  }
+
+  async getProducts(): Promise<Product[]> {
+    return await db.select().from(products).orderBy(products.name);
+  }
+
+  async getProductBySlug(slug: string): Promise<Product | undefined> {
+    const [product] = await db.select().from(products).where(eq(products.slug, slug));
+    return product || undefined;
+  }
+
+  async createProduct(insertProduct: InsertProduct): Promise<Product> {
+    const [product] = await db
+      .insert(products)
+      .values(insertProduct)
+      .returning();
+    return product;
+  }
+
+  async getProductsByEquipment(equipment: string): Promise<Product[]> {
+    return await db.select().from(products).where(eq(products.equipment, equipment));
+  }
+
+  async getProductsByCategory(category: string): Promise<Product[]> {
+    return await db.select().from(products).where(eq(products.category, category));
   }
 }
 
