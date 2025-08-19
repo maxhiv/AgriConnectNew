@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { 
   ArrowLeft, 
+  ArrowRight,
   ExternalLink, 
   CheckCircle2,
   MessageSquare,
