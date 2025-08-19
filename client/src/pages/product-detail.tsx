@@ -14,7 +14,7 @@ export default function ProductDetail() {
 
   const { data: product, isLoading, error } = useQuery<Product>({
     queryKey: ['/api/products', slug],
-    queryFn: () => fetch(`/api/products/${slug}`).then(res => res.json()),
+    queryFn: () => fetch(`/api/products/${slug}?enrich=true`).then(res => res.json()),
   });
 
   if (isLoading) {
@@ -95,12 +95,18 @@ export default function ProductDetail() {
           )}
           
           <h1 className="text-4xl md:text-6xl font-bold mb-4" data-testid="text-product-name">
-            {product.name}
+            {product.enrichedTitle || product.name}
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8" data-testid="text-product-tagline">
-            {product.tagline}
+            {product.enrichedDescription || product.tagline}
           </p>
+          
+          {product.extendedDescription && (
+            <div className="mb-8 p-4 bg-muted rounded-lg">
+              <p className="text-lg">{product.extendedDescription}</p>
+            </div>
+          )}
           
           <div className="flex flex-wrap gap-4">
             <Button size="lg" asChild data-testid="button-get-quote">
@@ -140,6 +146,33 @@ export default function ProductDetail() {
                 </ul>
               </CardContent>
             </Card>
+
+            {/* Scraped Features from Manufacturer */}
+            {product.scrapedFeatures && product.scrapedFeatures.length > 0 && (
+              <Card>
+                <CardHeader>
+                  <CardTitle>Manufacturer Features</CardTitle>
+                  <CardDescription>
+                    Additional features from the manufacturer's website
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-4">
+                    {product.scrapedFeatures.map((feature, index) => (
+                      <li key={index} className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-lg">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  {product.lastScraped && (
+                    <p className="text-sm text-muted-foreground mt-4">
+                      Last updated: {new Date(product.lastScraped * 1000).toLocaleDateString()}
+                    </p>
+                  )}
+                </CardContent>
+              </Card>
+            )}
 
             {/* Compatibility */}
             {product.worksWith.length > 0 && (
