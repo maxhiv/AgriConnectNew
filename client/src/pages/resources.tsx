@@ -31,6 +31,39 @@ const getResourceSlug = (title: string): string => {
     .replace(/^-+|-+$/g, '');
 };
 
+// Function to add internal links to descriptions
+const addInternalLinks = (description: string, currentTitle: string): string => {
+  const linkableTerms: Record<string, string> = {
+    "display monitors": "/resources/display-monitors",
+    "downforce control": "/resources/downforce-control", 
+    "fertilizer application": "/resources/fertilizer-application",
+    "closing systems": "/resources/closing-systems",
+    "data management": "/resources/data-management",
+    "seed meters": "/resources/seed-meters-drive-systems",
+    "row cleaners": "/resources/row-cleaners",
+    "seed firmers": "/resources/seed-firmers",
+    "DeltaForce": "/product/deltaforce",
+    "vSet": "/product/vset",
+    "SmartFirmer": "/product/smartfirmer",
+    "FurrowForce": "/product/furrowforce",
+    "vApplyHD": "/product/vapplyhd",
+    "Clarity": "/product/clarity",
+    "Reveal": "/product/reveal"
+  };
+
+  let linkedDescription = description;
+  
+  Object.entries(linkableTerms).forEach(([term, url]) => {
+    // Don't link to the current page
+    if (!currentTitle.toLowerCase().includes(term.toLowerCase())) {
+      const regex = new RegExp(`\\b${term}\\b`, 'gi');
+      linkedDescription = linkedDescription.replace(regex, `<a href="${url}" class="text-primary hover:underline">${term}</a>`);
+    }
+  });
+  
+  return linkedDescription;
+};
+
 // LocalGuides Component
 const LocalGuides = ({ maxItems }: { maxItems?: number }) => {
   const allItems = resourceCategories.flatMap(category => category.items.map(item => ({ ...item, category: category.title })));
@@ -391,7 +424,7 @@ export default function Resources() {
                           {item.title}
                         </CardTitle>
                         <CardDescription className="text-sm">
-                          {item.description}
+                          <span dangerouslySetInnerHTML={{ __html: addInternalLinks(item.description, item.title) }} />
                         </CardDescription>
                       </CardHeader>
 

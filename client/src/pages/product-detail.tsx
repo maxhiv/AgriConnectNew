@@ -8,6 +8,43 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, ExternalLink, Phone, Mail } from "lucide-react";
 import type { Product } from "@shared/schema";
 
+// Helper function to get related resources based on product
+const getRelatedResources = (productSlug: string): Array<{slug: string, title: string}> => {
+  const resourceMappings: Record<string, Array<{slug: string, title: string}>> = {
+    "20-20": [
+      { slug: "display-monitors", title: "Display Monitors" },
+      { slug: "data-management", title: "Data Management" }
+    ],
+    "deltaforce": [
+      { slug: "downforce-control", title: "Downforce Control" },
+      { slug: "downforce-dan-planter-upgrade-story", title: "Downforce Dan Success Story" }
+    ],
+    "vset": [
+      { slug: "seed-meters-drive-systems", title: "Seed Meters & Drive Systems" },
+      { slug: "high-speed-hank", title: "High Speed Planting" }
+    ],
+    "smartfirmer": [
+      { slug: "seed-firmers", title: "Seed Firmers" },
+      { slug: "from-cleaning-to-closing-the-three-cs-of-emergence", title: "Three C's of Emergence" }
+    ],
+    "reveal": [
+      { slug: "row-cleaners", title: "Row Cleaners" },
+      { slug: "from-cleaning-to-closing-the-three-cs-of-emergence", title: "Three C's of Emergence" }
+    ],
+    "furrowforce": [
+      { slug: "closing-systems", title: "Closing Systems" },
+      { slug: "from-cleaning-to-closing-the-three-cs-of-emergence", title: "Three C's of Emergence" }
+    ],
+    "vapplyhd": [
+      { slug: "fertilizer-application", title: "Fertilizer Application" }
+    ],
+    "clarity": [
+      { slug: "fertilizer-application", title: "Fertilizer Application" }
+    ]
+  };
+  return resourceMappings[productSlug] || [];
+};
+
 export default function ProductDetail() {
   const params = useParams();
   const slug = params.slug;
@@ -219,6 +256,26 @@ export default function ProductDetail() {
                     Call Us
                   </a>
                 </Button>
+              </CardContent>
+            </Card>
+
+            {/* Related Resources */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Related Resources</CardTitle>
+                <CardDescription>
+                  Learn more about implementing this technology
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                {getRelatedResources(product.slug).map((resource, index) => (
+                  <Button key={index} variant="ghost" asChild className="w-full justify-start">
+                    <Link href={`/resources/${resource.slug}`}>
+                      <ArrowLeft className="mr-2 h-4 w-4" />
+                      {resource.title}
+                    </Link>
+                  </Button>
+                ))}
               </CardContent>
             </Card>
 

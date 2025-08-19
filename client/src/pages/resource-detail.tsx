@@ -15,6 +15,49 @@ import {
 } from "lucide-react";
 import LocalGuides from "@/components/ui/LocalGuides";
 
+// Helper function to get related products based on resource content
+const getRelatedProducts = (resourceId: string): string[] => {
+  const productMappings: Record<string, string[]> = {
+    "display-monitors": ["20-20", "cornerstone-planting-system"],
+    "downforce-control": ["deltaforce", "smartdepth"],
+    "fertilizer-application": ["vapplyhd", "furrowjet", "clarity"],
+    "closing-systems": ["furrowforce"],
+    "data-management": ["20-20", "cornerstone-planting-system"],
+    "seed-meters-drive-systems": ["vset", "vset-select", "vdrive"],
+    "row-cleaners": ["reveal", "cleansweep"],
+    "seed-firmers": ["smartfirmer", "keeton-seed-firmer"],
+    "seeder-maintenance-guide": ["flowsense", "swathmodule"],
+    "high-speed-hank": ["vset", "speedtube", "vdrive"],
+    "downforce-dan-planter-upgrade-story": ["deltaforce", "smartdepth"],
+  };
+  return productMappings[resourceId] || [];
+};
+
+// Helper function to get product display names
+const getProductName = (slug: string): string => {
+  const nameMap: Record<string, string> = {
+    "20-20": "20/20 SeedSense",
+    "cornerstone-planting-system": "CornerStone",
+    "deltaforce": "DeltaForce",
+    "smartdepth": "SmartDepth",
+    "vapplyhd": "vApplyHD",
+    "furrowjet": "FurrowJet",
+    "clarity": "Clarity",
+    "furrowforce": "FurrowForce", 
+    "vset": "vSet",
+    "vset-select": "vSet Select",
+    "vdrive": "vDrive",
+    "reveal": "Reveal",
+    "cleansweep": "CleanSweep",
+    "smartfirmer": "SmartFirmer",
+    "keeton-seed-firmer": "Keeton Seed Firmer",
+    "flowsense": "FlowSense",
+    "swathmodule": "SwathModule",
+    "speedtube": "SpeedTube"
+  };
+  return nameMap[slug] || slug;
+};
+
 interface ResourceData {
   id: string;
   type: string;
@@ -1700,6 +1743,30 @@ export default function ResourceDetail() {
                       <h3 className="font-semibold mb-2">{faq.question}</h3>
                       <p className="text-muted-foreground">{faq.answer}</p>
                     </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* Related Products */}
+          <section id="related-products" className="mb-12">
+            <Card>
+              <CardHeader>
+                <CardTitle>Related Products</CardTitle>
+                <CardDescription>
+                  Products that can help implement these solutions
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {getRelatedProducts(resource.id).map((productSlug, index) => (
+                    <Button key={index} variant="outline" asChild className="h-auto p-4">
+                      <Link href={`/product/${productSlug}`} className="flex flex-col items-center gap-2">
+                        <span className="font-medium">{getProductName(productSlug)}</span>
+                        <ArrowRight className="h-4 w-4" />
+                      </Link>
+                    </Button>
                   ))}
                 </div>
               </CardContent>
