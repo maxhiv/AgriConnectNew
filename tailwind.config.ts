@@ -67,12 +67,30 @@ export default {
         "agri-orange": "var(--agri-orange)",
         "agri-brown": "var(--agri-brown)",
         "agri-cream": "var(--agri-cream)",
+        // PTx Theme Colors
+        "ptx-bright-green": "var(--color-bright-green)",
+        "ptx-medium-green": "var(--color-medium-green)",
+        "ptx-dark-green": "var(--color-dark-green)",
+        "ptx-bright-orange": "var(--color-bright-orange)",
+        "ptx-pumpkin": "var(--color-pumpkin)",
+        "ptx-light-blue": "var(--color-light-blue)",
+        "ptx-bright-blue": "var(--color-bright-blue)",
+        "ptx-light-orange": "var(--color-light-orange)",
+        "ptx-dark-orange": "var(--color-dark-orange)",
+        "ptx-neutral-green": "var(--color-neutral-green)",
+        "ptx-neutral-orange": "var(--color-neutral-orange)",
+        "ptx-white": "var(--color-white)",
+        "ptx-black": "var(--color-black)",
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
         inter: ["Inter", "sans-serif"],
+        // PTx Theme Fonts
+        pilat: ["var(--font-primary)"],
+        "pilat-wide": ["var(--font-primary-wide)"],
+        lato: ["var(--font-secondary)"],
       },
       keyframes: {
         "accordion-down": {

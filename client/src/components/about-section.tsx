@@ -2,36 +2,36 @@ import { CheckCircle } from "lucide-react";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-ptx-neutral-green">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-agri-primary mb-6">
+            <h2 className="heading-2 text-3xl md:text-4xl font-pilat font-bold text-ptx-dark-green mb-6">
               Growing Excellence Since 1985
             </h2>
-            <p className="text-gray-600 text-lg mb-6">
+            <p className="text-ptx-dark-green text-lg mb-6 font-lato">
               For over three decades, GreenHarvest has been at the forefront of agricultural innovation, helping farmers maximize their yields while maintaining sustainable practices. Our commitment to excellence and environmental stewardship has made us a trusted partner for agricultural communities worldwide.
             </p>
             <div className="space-y-4">
               <div className="flex items-start">
-                <CheckCircle className="text-agri-accent text-xl mr-3 mt-1 flex-shrink-0" />
+                <CheckCircle className="text-ptx-bright-green text-xl mr-3 mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold text-agri-primary">Sustainable Practices</h4>
-                  <p className="text-gray-600">Environmentally responsible farming solutions that protect our planet for future generations.</p>
+                  <h4 className="font-semibold text-ptx-dark-green font-pilat">Sustainable Practices</h4>
+                  <p className="text-ptx-dark-green font-lato">Environmentally responsible farming solutions that protect our planet for future generations.</p>
                 </div>
               </div>
               <div className="flex items-start">
-                <CheckCircle className="text-agri-accent text-xl mr-3 mt-1 flex-shrink-0" />
+                <CheckCircle className="text-ptx-bright-green text-xl mr-3 mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold text-agri-primary">Advanced Technology</h4>
-                  <p className="text-gray-600">Cutting-edge equipment and precision agriculture techniques for optimal crop management.</p>
+                  <h4 className="font-semibold text-ptx-dark-green font-pilat">Advanced Technology</h4>
+                  <p className="text-ptx-dark-green font-lato">Cutting-edge equipment and precision agriculture techniques for optimal crop management.</p>
                 </div>
               </div>
               <div className="flex items-start">
-                <CheckCircle className="text-agri-accent text-xl mr-3 mt-1 flex-shrink-0" />
+                <CheckCircle className="text-ptx-bright-green text-xl mr-3 mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold text-agri-primary">Expert Support</h4>
-                  <p className="text-gray-600">Dedicated agricultural specialists providing guidance and support throughout your farming journey.</p>
+                  <h4 className="font-semibold text-ptx-dark-green font-pilat">Expert Support</h4>
+                  <p className="text-ptx-dark-green font-lato">Dedicated agricultural specialists providing guidance and support throughout your farming journey.</p>
                 </div>
               </div>
             </div>

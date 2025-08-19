@@ -41,25 +41,25 @@ export default function ProductsSection() {
   ];
 
   return (
-    <section id="products" className="py-20 bg-white">
+    <section id="products" className="py-20 bg-ptx-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-agri-primary mb-4">
+          <h2 className="heading-2 text-3xl md:text-4xl font-pilat font-bold text-ptx-dark-green mb-4">
             Featured Products & Equipment
           </h2>
-          <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+          <p className="text-ptx-dark-green text-lg max-w-3xl mx-auto font-lato">
             Discover our range of premium agricultural products and equipment designed to enhance your farming operations.
           </p>
         </div>
 
         {/* Equipment Section */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-agri-primary mb-8 text-center">Farm Equipment</h3>
+          <h3 className="eyebrow text-2xl font-bold text-ptx-dark-green mb-8 text-center font-pilat-wide">Farm Equipment</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {equipment.map((item, index) => (
               <div 
                 key={index}
-                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                className="card-ptx rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
                 data-testid={`equipment-card-${index}`}
               >
                 <img 
@@ -68,9 +68,9 @@ export default function ProductsSection() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h4 className="text-xl font-semibold text-agri-primary mb-2">{item.title}</h4>
-                  <p className="text-gray-600 mb-4">{item.description}</p>
-                  <button className="text-agri-secondary font-medium hover:text-agri-primary transition-colors">
+                  <h4 className="text-xl font-semibold text-ptx-dark-green mb-2 font-pilat">{item.title}</h4>
+                  <p className="text-ptx-dark-green mb-4 font-lato">{item.description}</p>
+                  <button className="text-ptx-bright-blue font-medium hover:text-ptx-medium-green transition-colors font-pilat">
                     View Details →
                   </button>
                 </div>
@@ -81,12 +81,12 @@ export default function ProductsSection() {
 
         {/* Fresh Produce Section */}
         <div>
-          <h3 className="text-2xl font-bold text-agri-primary mb-8 text-center">Fresh Produce</h3>
+          <h3 className="eyebrow text-2xl font-bold text-ptx-dark-green mb-8 text-center font-pilat-wide">Fresh Produce</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {produce.map((item, index) => (
               <div 
                 key={index}
-                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                className="card-ptx rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
                 data-testid={`produce-card-${index}`}
               >
                 <img 
@@ -95,8 +95,8 @@ export default function ProductsSection() {
                   className="w-full h-32 object-cover"
                 />
                 <div className="p-4">
-                  <h4 className="font-semibold text-agri-primary mb-1">{item.title}</h4>
-                  <p className="text-sm text-gray-600">{item.description}</p>
+                  <h4 className="font-semibold text-ptx-dark-green mb-1 font-pilat">{item.title}</h4>
+                  <p className="text-sm text-ptx-dark-green font-lato">{item.description}</p>
                 </div>
               </div>
             ))}

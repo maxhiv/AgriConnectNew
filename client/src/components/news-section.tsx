@@ -21,13 +21,13 @@ export default function NewsSection() {
   ];
 
   return (
-    <section id="news" className="py-20 bg-gray-100">
+    <section id="news" className="py-20 bg-ptx-neutral-green">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-agri-primary mb-4">
+          <h2 className="heading-2 text-3xl md:text-4xl font-pilat font-bold text-ptx-dark-green mb-4">
             Latest Agricultural News
           </h2>
-          <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+          <p className="text-ptx-dark-green text-lg max-w-3xl mx-auto font-lato">
             Stay updated with the latest developments in agricultural technology, farming practices, and industry insights.
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function NewsSection() {
           {articles.map((article, index) => (
             <article 
               key={index}
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              className="card-ptx rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
               data-testid={`news-article-${index}`}
             >
               <img 
@@ -45,10 +45,10 @@ export default function NewsSection() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <div className="text-sm text-agri-secondary mb-2">{article.date}</div>
-                <h3 className="text-xl font-semibold text-agri-primary mb-3">{article.title}</h3>
-                <p className="text-gray-600 mb-4">{article.excerpt}</p>
-                <button className="text-agri-secondary font-medium hover:text-agri-primary transition-colors">
+                <div className="eyebrow text-sm text-ptx-medium-green mb-2">{article.date}</div>
+                <h3 className="text-xl font-semibold text-ptx-dark-green mb-3 font-pilat">{article.title}</h3>
+                <p className="text-ptx-dark-green mb-4 font-lato">{article.excerpt}</p>
+                <button className="text-ptx-bright-blue font-medium hover:text-ptx-medium-green transition-colors font-pilat">
                   Read More →
                 </button>
               </div>
@@ -57,7 +57,7 @@ export default function NewsSection() {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-agri-secondary hover:bg-agri-primary text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300" data-testid="button-view-all-news">
+          <button className="btn-ptx-secondary hover:bg-ptx-dark-green text-ptx-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:transform hover:-translate-y-1" data-testid="button-view-all-news">
             View All News
           </button>
         </div>

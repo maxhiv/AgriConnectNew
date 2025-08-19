@@ -1,0 +1,426 @@
+
+/* ==========================================================================
+   PTx Theme (Version 1.0) - packaged for Replit
+   Source: PTx Visual Identity Guidelines v1.2 (April 2025)
+   Notes:
+   - "Pilat" and "Pilat Wide" require a commercial license. Add your font files and adjust @font-face URLs below.
+   - "Lato" is open-source. You can load it via HTML <link> from Google Fonts or keep the stack fallback.
+   - Ensure color contrast meets WCAG (AA minimum) when combining background/text.
+   ========================================================================== */
+
+/* -------------------------
+   Font Faces (placeholders)
+   ------------------------- */
+/* Provide your actual font file paths for Pilat and Pilat Wide */
+@font-face {
+  font-family: "Pilat";
+  src: url("/assets/fonts/Pilat-Regular.woff2") format("woff2"),
+       url("/assets/fonts/Pilat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pilat";
+  src: url("/assets/fonts/Pilat-Bold.woff2") format("woff2"),
+       url("/assets/fonts/Pilat-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pilat Wide";
+  src: url("/assets/fonts/PilatWide-Bold.woff2") format("woff2"),
+       url("/assets/fonts/PilatWide-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* -------------------------
+   CSS Variables (Design Tokens)
+   ------------------------- */
+:root {
+  /* Colors — Primary */
+  --color-bright-green: #51DF92;
+  --color-medium-green: #0C9F50;
+  --color-dark-green: #013B27;
+  --color-bright-orange: #FF6105;
+  --color-pumpkin: #F6911E;
+
+  /* Colors — Secondary */
+  --color-light-blue: #B6F2F6;
+  --color-bright-blue: #425ADC;
+  --color-light-orange: #FFE1B3;
+  --color-dark-orange: #601D00;
+
+  /* Colors — Neutrals */
+  --color-neutral-green: #EAF4F0;
+  --color-neutral-orange: #FEF7F0;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  /* Colors — Semantic (status) */
+  --color-success: #51DF92; /* Green */
+  --color-warning: #FBBF24; /* Yellow */
+  --color-error:   #DC2626; /* Red */
+
+  /* Typography */
+  --font-primary: "Pilat", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-primary-wide: "Pilat Wide", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-secondary: "Lato", "Open Sans", "Aptos", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+  /* Type scale & spacing */
+  --lh-100: 1.0;
+  --lh-120: 1.2;
+  --lh-150: 1.5;
+  --ls-0: 0;
+  --ls-2: 0.02em; /* ≈ 2% */
+  --ls-3: 0.03em; /* ≈ 3% */
+
+  --fs-900: clamp(2.5rem, 1.5rem + 3vw, 4rem); /* display */
+  --fs-800: clamp(2rem, 1.2rem + 2vw, 3rem);   /* h1 */
+  --fs-700: clamp(1.75rem, 1rem + 1.5vw, 2.25rem); /* h2 */
+  --fs-600: 1.5rem;  /* h3 */
+  --fs-500: 1.25rem; /* h4 */
+  --fs-400: 1rem;    /* body */
+  --fs-300: 0.875rem;/* caption */
+
+  /* Layout */
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 6px 20px rgba(0,0,0,.12);
+  --container: 1200px;
+
+  /* Component colors */
+  --btn-primary-bg: var(--color-bright-orange);
+  --btn-primary-text: var(--color-black);
+  --btn-primary-hover: #ff792e;
+
+  --btn-secondary-bg: var(--color-medium-green);
+  --btn-secondary-text: var(--color-white);
+  --btn-secondary-hover: #11b363;
+
+  --link: var(--color-bright-blue);
+  --link-hover: #5b73ff;
+}
+
+/* -------------------------
+   Base & Reset
+   ------------------------- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: var(--color-dark-green);
+  background: var(--color-white);
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  line-height: var(--lh-150);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, svg, video { max-width: 100%; height: auto; }
+
+.container {
+  width: min(100% - 2rem, var(--container));
+  margin-inline: auto;
+}
+
+/* -------------------------
+   Typography & Hierarchy
+   ------------------------- */
+/* Eyebrows / Captions (Pilat Wide, all caps, 3% tracking) */
+.eyebrow {
+  font-family: var(--font-primary-wide);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--ls-3);
+  font-size: var(--fs-300);
+  line-height: var(--lh-100);
+  color: var(--color-medium-green);
+}
+
+/* Headings (Pilat or Pilat Wide, all caps or sentence case) */
+h1, h2, h3, .h1, .h2, .h3 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  letter-spacing: var(--ls-3);
+  line-height: var(--lh-100);
+  margin: 0 0 .5em 0;
+}
+h1, .h1 { font-size: var(--fs-800); }
+h2, .h2 { font-size: var(--fs-700); }
+h3, .h3 { font-size: var(--fs-600); }
+
+/* Subheadings (Lato) */
+h4, h5, .h4, .h5 {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  letter-spacing: var(--ls-0);
+  line-height: var(--lh-120);
+  margin: 0 0 .5em 0;
+}
+h4, .h4 { font-size: var(--fs-500); }
+h5, .h5 { font-size: var(--fs-400); }
+
+/* Body */
+p, li, .text-body {
+  font-family: var(--font-secondary);
+  font-size: var(--fs-400);
+  line-height: var(--lh-150);
+  letter-spacing: var(--ls-0);
+  margin: 0 0 1em 0;
+}
+
+/* CTA / Buttons (Pilat, bold, 2% tracking, uppercase) */
+.cta {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  letter-spacing: var(--ls-2);
+  line-height: var(--lh-100);
+  text-transform: uppercase;
+}
+
+/* ------------------------------------
+   Links
+   ------------------------------------ */
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* ------------------------------------
+   Buttons
+   ------------------------------------ */
+.btn {
+  --btn-bg: var(--btn-primary-bg);
+  --btn-text: var(--btn-primary-text);
+  --btn-hover: var(--btn-primary-hover);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: .875rem 1.25rem;
+  border-radius: var(--radius-lg);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--ls-2);
+  line-height: var(--lh-100);
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  box-shadow: var(--shadow-sm);
+  transition: transform .05s ease, background .2s ease, box-shadow .2s ease;
+}
+.btn:hover { background: var(--btn-hover); box-shadow: var(--shadow-md); }
+.btn:active { transform: translateY(1px); }
+
+.btn-primary {
+  --btn-bg: var(--btn-primary-bg);
+  --btn-text: var(--btn-primary-text);
+  --btn-hover: var(--btn-primary-hover);
+}
+
+.btn-secondary {
+  --btn-bg: var(--btn-secondary-bg);
+  --btn-text: var(--btn-secondary-text);
+  --btn-hover: var(--btn-secondary-hover);
+}
+
+/* Outline variant (accent edge) */
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--color-medium-green);
+  color: var(--color-medium-green);
+}
+.btn-outline:hover {
+  background: var(--color-medium-green);
+  color: var(--color-white);
+}
+
+/* ------------------------------------
+   Badges
+   ------------------------------------ */
+.badge {
+  display: inline-block;
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.badge-success { background: var(--color-success); color: var(--color-black); }
+.badge-warning { background: var(--color-warning); color: var(--color-black); }
+.badge-error   { background: var(--color-error);   color: var(--color-white); }
+
+/* ------------------------------------
+   Cards
+   ------------------------------------ */
+.card {
+  background: var(--color-white);
+  border: 1px solid rgba(0,0,0,.06);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.card-header { padding: 1rem 1.25rem; font-weight: 700; }
+.card-body { padding: 1.25rem; }
+.card-footer { padding: .75rem 1.25rem; background: var(--color-neutral-green); }
+
+/* ------------------------------------
+   Utility Classes (colors)
+   ------------------------------------ */
+.bg-dark-green { background: var(--color-dark-green) !important; }
+.bg-medium-green { background: var(--color-medium-green) !important; }
+.bg-bright-green { background: var(--color-bright-green) !important; }
+.bg-bright-orange { background: var(--color-bright-orange) !important; }
+.bg-pumpkin { background: var(--color-pumpkin) !important; }
+.bg-neutral-green { background: var(--color-neutral-green) !important; }
+.bg-neutral-orange { background: var(--color-neutral-orange) !important; }
+.bg-light-blue { background: var(--color-light-blue) !important; }
+.bg-bright-blue { background: var(--color-bright-blue) !important; }
+.bg-dark-orange { background: var(--color-dark-orange) !important; }
+.bg-white { background: var(--color-white) !important; }
+.bg-black { background: var(--color-black) !important; }
+
+.text-dark-green { color: var(--color-dark-green) !important; }
+.text-medium-green { color: var(--color-medium-green) !important; }
+.text-bright-green { color: var(--color-bright-green) !important; }
+.text-bright-orange { color: var(--color-bright-orange) !important; }
+.text-pumpkin { color: var(--color-pumpkin) !important; }
+.text-neutral-green { color: var(--color-neutral-green) !important; }
+.text-neutral-orange { color: var(--color-neutral-orange) !important; }
+.text-light-blue { color: var(--color-light-blue) !important; }
+.text-bright-blue { color: var(--color-bright-blue) !important; }
+.text-dark-orange { color: var(--color-dark-orange) !important; }
+.text-white { color: var(--color-white) !important; }
+.text-black { color: var(--color-black) !important; }
+
+.border-dark-green { border-color: var(--color-dark-green) !important; }
+.border-medium-green { border-color: var(--color-medium-green) !important; }
+.border-bright-orange { border-color: var(--color-bright-orange) !important; }
+.border-neutral-green { border-color: var(--color-neutral-green) !important; }
+.border-neutral-orange { border-color: var(--color-neutral-orange) !important; }
+
+/* ------------------------------------
+   Utility Classes (layout & text)
+   ------------------------------------ */
+.rounded-lg { border-radius: var(--radius-lg) !important; }
+.rounded-xl { border-radius: var(--radius-xl) !important; }
+.shadow-sm { box-shadow: var(--shadow-sm) !important; }
+.shadow-md { box-shadow: var(--shadow-md) !important; }
+
+.uppercase { text-transform: uppercase !important; }
+.ls-2 { letter-spacing: var(--ls-2) !important; }
+.ls-3 { letter-spacing: var(--ls-3) !important; }
+.lh-100 { line-height: var(--lh-100) !important; }
+.lh-120 { line-height: var(--lh-120) !important; }
+.lh-150 { line-height: var(--lh-150) !important; }
+
+/* ------------------------------------
+   Semantic State Helpers
+   ------------------------------------ */
+.is-success { color: var(--color-success) !important; }
+.is-warning { color: var(--color-warning) !important; }
+.is-error   { color: var(--color-error) !important; }
+
+.bg-success { background: var(--color-success) !important; }
+.bg-warning { background: var(--color-warning) !important; }
+.bg-error   { background: var(--color-error) !important; }
+
+/* ------------------------------------
+   Brand Graphic Helpers
+   ------------------------------------ */
+/* Section — Solid (semi-circle container) */
+.section-solid {
+  position: relative;
+  border-radius: 9999px 9999px 0 0;
+  overflow: hidden;
+  background: var(--color-neutral-green);
+}
+.section-solid--primary { background: var(--color-medium-green); color: var(--color-white); }
+.section-solid img { display: block; width: 100%; height: auto; object-fit: cover; }
+
+/* Section — Lines (edge-anchored pattern) */
+/* This assumes you provide an SVG or PNG line texture. Keep it anchored to an edge. */
+.section-lines {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-neutral-green);
+}
+.section-lines::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0; /* anchored to left edge */
+  width: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  opacity: .35;
+  /* Provide your asset path here (tone-on-tone recommended): */
+  background-image: url("/assets/graphics/ptx-lines-left.svg");
+}
+
+/* Hero graphic window — keep imagery inside the semicircle window */
+.hero-window {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  overflow: hidden;
+  background: var(--color-neutral-green);
+  clip-path: ellipse(75% 60% at 50% 50%); /* rounded semi style */
+}
+.hero-window img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ------------------------------------
+   Accessibility Helpers
+   ------------------------------------ */
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+
+/* ------------------------------------
+   Example Component Tokens (optional usage)
+   ------------------------------------ */
+/* Header */
+.site-header {
+  background: var(--color-white);
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.site-header .logo { height: 40px; }
+
+/* Footer */
+.site-footer {
+  background: var(--color-neutral-orange);
+  color: var(--color-dark-green);
+  padding: 2rem 0;
+}
+
+/* Navigation */
+.nav a {
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+}
+.nav a:hover { background: var(--color-neutral-green); }

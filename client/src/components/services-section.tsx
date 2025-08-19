@@ -35,13 +35,13 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section id="services" className="py-20 bg-agri-cream">
+    <section id="services" className="py-20 bg-ptx-neutral-orange">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-agri-primary mb-4">
+          <h2 className="heading-2 text-3xl md:text-4xl font-pilat font-bold text-ptx-dark-green mb-4">
             Our Agricultural Services
           </h2>
-          <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+          <p className="text-ptx-dark-green text-lg max-w-3xl mx-auto font-lato">
             Comprehensive solutions designed to meet every aspect of modern farming needs, from soil preparation to harvest optimization.
           </p>
         </div>
@@ -52,15 +52,15 @@ export default function ServicesSection() {
             return (
               <div 
                 key={index}
-                className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
+                className="card-ptx rounded-lg p-6 hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
                 data-testid={`service-card-${index}`}
               >
-                <div className="text-agri-accent text-4xl mb-4">
+                <div className="text-ptx-bright-orange text-4xl mb-4">
                   <IconComponent size={48} />
                 </div>
-                <h3 className="text-xl font-semibold text-agri-primary mb-3">{service.title}</h3>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <button className="text-agri-secondary font-medium hover:text-agri-primary transition-colors">
+                <h3 className="text-xl font-semibold text-ptx-dark-green mb-3 font-pilat">{service.title}</h3>
+                <p className="text-ptx-dark-green mb-4 font-lato">{service.description}</p>
+                <button className="text-ptx-bright-blue font-medium hover:text-ptx-medium-green transition-colors font-pilat">
                   Learn More →
                 </button>
               </div>

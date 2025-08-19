@@ -65,25 +65,25 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-agri-primary text-white">
+    <section id="contact" className="section-solid--primary py-20 bg-ptx-dark-green text-ptx-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="heading-2 text-3xl md:text-4xl font-pilat font-bold mb-4">
             Get In Touch
           </h2>
-          <p className="text-agri-cream text-lg max-w-3xl mx-auto">
+          <p className="text-ptx-neutral-green text-lg max-w-3xl mx-auto font-lato">
             Ready to enhance your agricultural operations? Contact our experts for personalized solutions and support.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white rounded-lg p-8 text-gray-800">
-            <h3 className="text-2xl font-bold text-agri-primary mb-6">Send us a Message</h3>
+          <div className="card-ptx rounded-lg p-8 text-ptx-dark-green">
+            <h3 className="heading-3 text-2xl font-bold text-ptx-dark-green mb-6 font-pilat">Send us a Message</h3>
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="firstName" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
                     First Name
                   </label>
                   <Input
@@ -97,7 +97,7 @@ export default function ContactSection() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="lastName" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
                     Last Name
                   </label>
                   <Input
@@ -113,7 +113,7 @@ export default function ContactSection() {
               </div>
               
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="email" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
                   Email Address
                 </label>
                 <Input
@@ -128,7 +128,7 @@ export default function ContactSection() {
               </div>
               
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="phone" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
                   Phone Number
                 </label>
                 <Input
@@ -142,7 +142,7 @@ export default function ContactSection() {
               </div>
               
               <div>
-                <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="service" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
                   Service Interest
                 </label>
                 <Select value={formData.service} onValueChange={(value) => handleInputChange('service', value)}>
@@ -161,7 +161,7 @@ export default function ContactSection() {
               </div>
               
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="message" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
                   Message
                 </label>
                 <Textarea
@@ -177,7 +177,7 @@ export default function ContactSection() {
               
               <Button 
                 type="submit" 
-                className="w-full bg-agri-accent hover:bg-agri-secondary text-white"
+                className="btn-ptx-primary w-full hover:bg-ptx-medium-green text-ptx-white"
                 disabled={contactMutation.isPending}
                 data-testid="button-send-message"
               >
@@ -189,37 +189,37 @@ export default function ContactSection() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+              <h3 className="heading-3 text-2xl font-bold mb-6 font-pilat">Contact Information</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <MapPin className="text-agri-accent text-xl mr-4 mt-1 flex-shrink-0" />
+                  <MapPin className="text-ptx-bright-green text-xl mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold mb-1">Address</h4>
-                    <p className="text-agri-cream">123 Farm Road, Agricultural Valley<br />Green County, ST 12345</p>
+                    <p className="text-ptx-neutral-green font-lato">123 Farm Road, Agricultural Valley<br />Green County, ST 12345</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <Phone className="text-agri-accent text-xl mr-4 mt-1 flex-shrink-0" />
+                  <Phone className="text-ptx-bright-green text-xl mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-agri-cream">(555) 123-4567</p>
+                    <p className="text-ptx-neutral-green font-lato">(555) 123-4567</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <Mail className="text-agri-accent text-xl mr-4 mt-1 flex-shrink-0" />
+                  <Mail className="text-ptx-bright-green text-xl mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-agri-cream">info@greenharvest.com</p>
+                    <p className="text-ptx-neutral-green font-lato">info@greenharvest.com</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <Clock className="text-agri-accent text-xl mr-4 mt-1 flex-shrink-0" />
+                  <Clock className="text-ptx-bright-green text-xl mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold mb-1">Business Hours</h4>
-                    <p className="text-agri-cream">
+                    <p className="text-ptx-neutral-green font-lato">
                       Monday - Friday: 8:00 AM - 6:00 PM<br />
                       Saturday: 9:00 AM - 4:00 PM<br />
                       Sunday: Closed
@@ -230,18 +230,18 @@ export default function ContactSection() {
             </div>
 
             <div>
-              <h4 className="font-semibold mb-4">Follow Us</h4>
+              <h4 className="font-semibold mb-4 font-pilat">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="#" className="text-agri-cream hover:text-agri-accent transition-colors" data-testid="link-facebook">
+                <a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors" data-testid="link-facebook">
                   <Facebook className="text-2xl" />
                 </a>
-                <a href="#" className="text-agri-cream hover:text-agri-accent transition-colors" data-testid="link-twitter">
+                <a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors" data-testid="link-twitter">
                   <Twitter className="text-2xl" />
                 </a>
-                <a href="#" className="text-agri-cream hover:text-agri-accent transition-colors" data-testid="link-instagram">
+                <a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors" data-testid="link-instagram">
                   <Instagram className="text-2xl" />
                 </a>
-                <a href="#" className="text-agri-cream hover:text-agri-accent transition-colors" data-testid="link-linkedin">
+                <a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors" data-testid="link-linkedin">
                   <Linkedin className="text-2xl" />
                 </a>
               </div>

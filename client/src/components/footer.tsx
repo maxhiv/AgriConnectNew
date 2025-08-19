@@ -16,29 +16,29 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-ptx-dark-green text-ptx-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 flex items-center">
-              <Sprout className="mr-2 text-agri-accent" />
+            <h3 className="text-xl font-bold mb-4 flex items-center font-pilat">
+              <Sprout className="mr-2 text-ptx-bright-green" />
               GreenHarvest
             </h3>
-            <p className="text-gray-400 mb-4">
+            <p className="text-ptx-neutral-green mb-4 font-lato">
               Leading agricultural solutions provider dedicated to sustainable farming and innovative technology.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-agri-accent transition-colors" data-testid="footer-facebook">
+              <a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors" data-testid="footer-facebook">
                 <Facebook />
               </a>
-              <a href="#" className="text-gray-400 hover:text-agri-accent transition-colors" data-testid="footer-twitter">
+              <a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors" data-testid="footer-twitter">
                 <Twitter />
               </a>
-              <a href="#" className="text-gray-400 hover:text-agri-accent transition-colors" data-testid="footer-instagram">
+              <a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors" data-testid="footer-instagram">
                 <Instagram />
               </a>
-              <a href="#" className="text-gray-400 hover:text-agri-accent transition-colors" data-testid="footer-linkedin">
+              <a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors" data-testid="footer-linkedin">
                 <Linkedin />
               </a>
             </div>
@@ -46,12 +46,12 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4 font-pilat">Quick Links</h4>
             <ul className="space-y-2">
               <li>
                 <button 
                   onClick={() => scrollToSection('home')}
-                  className="text-gray-400 hover:text-agri-accent transition-colors text-left"
+                  className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors text-left font-lato"
                   data-testid="footer-link-home"
                 >
                   Home
@@ -60,7 +60,7 @@ export default function Footer() {
               <li>
                 <button 
                   onClick={() => scrollToSection('about')}
-                  className="text-gray-400 hover:text-agri-accent transition-colors text-left"
+                  className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors text-left font-lato"
                   data-testid="footer-link-about"
                 >
                   About Us
@@ -69,7 +69,7 @@ export default function Footer() {
               <li>
                 <button 
                   onClick={() => scrollToSection('services')}
-                  className="text-gray-400 hover:text-agri-accent transition-colors text-left"
+                  className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors text-left font-lato"
                   data-testid="footer-link-services"
                 >
                   Services
@@ -78,7 +78,7 @@ export default function Footer() {
               <li>
                 <button 
                   onClick={() => scrollToSection('products')}
-                  className="text-gray-400 hover:text-agri-accent transition-colors text-left"
+                  className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors text-left font-lato"
                   data-testid="footer-link-products"
                 >
                   Products
@@ -87,7 +87,7 @@ export default function Footer() {
               <li>
                 <button 
                   onClick={() => scrollToSection('news')}
-                  className="text-gray-400 hover:text-agri-accent transition-colors text-left"
+                  className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors text-left font-lato"
                   data-testid="footer-link-news"
                 >
                   News
@@ -96,7 +96,7 @@ export default function Footer() {
               <li>
                 <button 
                   onClick={() => scrollToSection('contact')}
-                  className="text-gray-400 hover:text-agri-accent transition-colors text-left"
+                  className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors text-left font-lato"
                   data-testid="footer-link-contact"
                 >
                   Contact
@@ -107,36 +107,36 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Services</h4>
+            <h4 className="text-lg font-semibold mb-4 font-pilat">Services</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Equipment Solutions</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Crop Management</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Soil Analysis</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Precision Agriculture</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Training & Education</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Consulting Services</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Equipment Solutions</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Crop Management</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Soil Analysis</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Precision Agriculture</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Training & Education</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Consulting Services</a></li>
             </ul>
           </div>
 
           {/* Resources */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Resources</h4>
+            <h4 className="text-lg font-semibold mb-4 font-pilat">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Farming Guides</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Weather Updates</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Market Prices</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Technical Support</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">FAQ</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-agri-accent transition-colors">Download Center</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Farming Guides</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Weather Updates</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Market Prices</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Technical Support</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">FAQ</a></li>
+              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Download Center</a></li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">
+        <div className="border-t border-ptx-medium-green mt-8 pt-8 text-center">
+          <p className="text-ptx-neutral-green font-lato">
             © 2024 GreenHarvest Agricultural Solutions. All rights reserved. | 
-            <a href="#" className="hover:text-agri-accent transition-colors ml-1">Privacy Policy</a> | 
-            <a href="#" className="hover:text-agri-accent transition-colors ml-1">Terms of Service</a>
+            <a href="#" className="hover:text-ptx-bright-green transition-colors ml-1">Privacy Policy</a> | 
+            <a href="#" className="hover:text-ptx-bright-green transition-colors ml-1">Terms of Service</a>
           </p>
         </div>
       </div>
