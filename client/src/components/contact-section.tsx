@@ -72,7 +72,7 @@ export default function ContactSection() {
             Get In Touch
           </h2>
           <p className="text-ptx-neutral-green text-lg max-w-3xl mx-auto font-lato">
-            Ready to enhance your agricultural operations? Contact our experts for personalized solutions and support.
+            Have questions about our precision agriculture solutions? Our team is here to help. Fill out the form or use our direct contact information.
           </p>
         </div>
 
@@ -194,8 +194,29 @@ export default function ContactSection() {
                 <div className="flex items-start">
                   <MapPin className="text-ptx-bright-green text-xl mr-4 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold mb-1">Address</h4>
-                    <p className="text-ptx-neutral-green font-lato">123 Farm Road, Agricultural Valley<br />Green County, ST 12345</p>
+                    <h4 className="font-semibold mb-1">Our Locations</h4>
+                    <div className="text-ptx-neutral-green font-lato space-y-3">
+                      <div>
+                        <p className="font-semibold">Samson, AL</p>
+                        <p>4824 County Road 460<br />Samson, AL 36477</p>
+                      </div>
+                      <div>
+                        <p className="font-semibold">Daphne, AL</p>
+                        <p>24001 State Highway 181<br />Daphne, AL 36526</p>
+                      </div>
+                      <div>
+                        <p className="font-semibold">Atmore, AL</p>
+                        <p>1910 E. Nashville Avenue<br />Atmore, AL 36502</p>
+                      </div>
+                      <div>
+                        <p className="font-semibold">Clarksdale, MS</p>
+                        <p>1315 Industrial Park Dr.<br />Clarksdale, MS 38614</p>
+                      </div>
+                      <div>
+                        <p className="font-semibold">Rolling Fork, MS</p>
+                        <p>20790 Highway 61<br />Rolling Fork, MS 39159</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 
@@ -203,7 +224,7 @@ export default function ContactSection() {
                   <Phone className="text-ptx-bright-green text-xl mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-ptx-neutral-green font-lato">(555) 123-4567</p>
+                    <p className="text-ptx-neutral-green font-lato">(888) 982-1997</p>
                   </div>
                 </div>
                 
@@ -211,18 +232,16 @@ export default function ContactSection() {
                   <Mail className="text-ptx-bright-green text-xl mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-ptx-neutral-green font-lato">info@greenharvest.com</p>
+                    <p className="text-ptx-neutral-green font-lato">info@vantage-south.com</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <Clock className="text-ptx-bright-green text-xl mr-4 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold mb-1">Business Hours</h4>
+                    <h4 className="font-semibold mb-1">Hours</h4>
                     <p className="text-ptx-neutral-green font-lato">
-                      Monday - Friday: 8:00 AM - 6:00 PM<br />
-                      Saturday: 9:00 AM - 4:00 PM<br />
-                      Sunday: Closed
+                      Monday - Friday: 8:00 AM - 5:00 PM
                     </p>
                   </div>
                 </div>
