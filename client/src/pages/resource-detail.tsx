@@ -290,6 +290,135 @@ const resourcesData: Record<string, ResourceData> = {
         answer: "Typically requires upgraded seed meters, delivery systems, and sometimes closing wheels or down-pressure systems."
       }
     ]
+  },
+  "closing-systems": {
+    id: "closing-systems",
+    type: "Topic",
+    title: "Closing Systems",
+    url: "https://www.precisionplanting.com/resources?topic=closing-systems",
+    slug: "closing-systems",
+    description: "Advanced seed trench closing for improved emergence and soil contact",
+    topicTags: ["Closing Systems", "Emergence", "Soil Contact"],
+    keyPoints: [
+      "Proper closing eliminates air pockets that delay emergence",
+      "Adjustable closing pressure adapts to soil conditions",
+      "Spike closing wheels work better in wet conditions",
+      "Rubber wheels excel in dry, loose soils",
+      "Correct closing wheel spacing prevents sidewall compaction"
+    ],
+    localContext: "Our region's variable moisture conditions require adaptive closing systems that work in both wet spring conditions and dry summer plantings.",
+    offer: "FurrowForce Closing Systems, Spike Closing Wheels, and Custom Configurations",
+    ctaTarget: "/contact",
+    metaDescription: "Optimize seed trench closing for consistent emergence. Professional installation and setup of closing systems for your soil conditions.",
+    implementationSteps: [
+      "Soil condition assessment and closing wheel evaluation",
+      "Closing system selection based on primary soil types",
+      "Professional installation and adjustment",
+      "Closing pressure calibration for optimal performance",
+      "Field testing across different moisture conditions",
+      "Fine-tuning based on emergence results",
+      "Seasonal adjustment training and support"
+    ],
+    faqs: [
+      {
+        question: "Spike wheels vs rubber wheels - which is better?",
+        answer: "Spike wheels work better in wet, sticky conditions while rubber wheels excel in dry, loose soils. Many growers use both."
+      },
+      {
+        question: "How do I know if my closing is working?",
+        answer: "Check for air pockets, proper soil-to-seed contact, and uniform emergence patterns across the field."
+      },
+      {
+        question: "Can I adjust closing pressure on the go?",
+        answer: "Yes, with FurrowForce systems you can adjust closing pressure from the cab based on changing conditions."
+      }
+    ]
+  },
+  "data-management": {
+    id: "data-management",
+    type: "Topic",
+    title: "Data Management",
+    url: "https://www.precisionplanting.com/resources?topic=data-management",
+    slug: "data-management",
+    description: "Field data collection, analysis, and reporting tools for precision agriculture",
+    topicTags: ["Data Management", "Analytics", "Field Records"],
+    keyPoints: [
+      "Automated data collection reduces human error",
+      "Real-time monitoring enables immediate corrections",
+      "Historical data analysis reveals field patterns",
+      "Cloud storage ensures data accessibility and backup",
+      "Integrated reporting supports agronomic decisions"
+    ],
+    localContext: "Managing data across diverse field conditions helps optimize practices for our region's variable soils and weather patterns.",
+    offer: "FieldView Integration, Data Analytics Services, and Custom Reporting",
+    ctaTarget: "/contact",
+    metaDescription: "Transform field data into actionable insights. Professional data management setup and analytics services for precision agriculture.",
+    implementationSteps: [
+      "Current data collection system assessment",
+      "Platform selection and integration planning",
+      "Hardware installation and connectivity setup",
+      "Data flow configuration and testing",
+      "Custom dashboard and report creation",
+      "User training on data interpretation",
+      "Ongoing analytics support and optimization"
+    ],
+    faqs: [
+      {
+        question: "What data should I be collecting?",
+        answer: "Key metrics include planting population, depth, singulation, emergence, and yield data for each field zone."
+      },
+      {
+        question: "How secure is my farm data?",
+        answer: "All data is encrypted and stored securely with strict privacy controls. You maintain full ownership of your information."
+      },
+      {
+        question: "Can I share data with my agronomist?",
+        answer: "Yes, controlled sharing features allow you to provide access to trusted advisors while maintaining data control."
+      }
+    ]
+  },
+  "seed-meters-drive-systems": {
+    id: "seed-meters-drive-systems",
+    type: "Topic",
+    title: "Seed Meters & Drive Systems",
+    url: "https://www.precisionplanting.com/resources?topic=seed-meters-and-drive-systems",
+    slug: "seed-meters-drive-systems",
+    description: "Precision seed singulation and placement technology for optimal stand establishment",
+    topicTags: ["Seed Meters", "Drive Systems", "Singulation"],
+    keyPoints: [
+      "Vacuum meters provide superior singulation across seed sizes",
+      "Electric drive systems eliminate chain wear and maintenance",
+      "Variable population capability optimizes plant spacing",
+      "Consistent seed delivery improves emergence timing",
+      "Real-time monitoring alerts to singulation issues"
+    ],
+    localContext: "With our diverse crop rotation and varying seed sizes, precision metering systems ensure optimal plant populations for each crop.",
+    offer: "vSet Meters, vDrive Systems, and Population Control Technology",
+    ctaTarget: "/contact",
+    metaDescription: "Achieve precise seed placement with advanced metering systems. Professional installation and calibration for optimal singulation.",
+    implementationSteps: [
+      "Current metering system evaluation",
+      "Meter and drive system selection",
+      "Professional installation and integration",
+      "Calibration for specific seed types",
+      "Population mapping and variable rate setup",
+      "Field validation and performance verification",
+      "Ongoing calibration support and maintenance"
+    ],
+    faqs: [
+      {
+        question: "What's the advantage of vacuum meters?",
+        answer: "Vacuum meters provide consistent singulation across different seed sizes and shapes with less mechanical wear."
+      },
+      {
+        question: "Can I plant different populations across a field?",
+        answer: "Yes, with variable rate systems you can adjust population based on soil productivity zones."
+      },
+      {
+        question: "How often do meters need calibration?",
+        answer: "Initial calibration for each seed lot, with periodic checks during the season and adjustments as needed."
+      }
+    ]
   }
 };
 
@@ -318,17 +447,30 @@ export default function ResourceDetail() {
       <div className="min-h-screen bg-background">
         <Navigation />
         <div className="container mx-auto px-4 py-12">
-          <div className="text-center">
-            <h1 className="text-2xl font-bold mb-4">Resource Not Found</h1>
-            <p className="text-muted-foreground mb-8">
-              The resource you're looking for doesn't exist or has been moved.
+          <div className="text-center max-w-2xl mx-auto">
+            <h1 className="text-3xl font-bold mb-4">Local Guide Coming Soon</h1>
+            <p className="text-lg text-muted-foreground mb-6">
+              We're currently developing a comprehensive local guide for this resource. 
+              In the meantime, you can access the original resource or contact us directly.
             </p>
-            <Button asChild>
-              <Link href="/resources">
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Resources
-              </Link>
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <Button asChild size="lg">
+                <Link href="/contact" className="flex items-center gap-2">
+                  <MessageSquare className="h-5 w-5" />
+                  Talk to a Specialist
+                </Link>
+              </Button>
+              <Button variant="outline" size="lg" asChild>
+                <Link href="/resources" className="flex items-center gap-2">
+                  <ArrowLeft className="h-4 w-4" />
+                  Back to Resources
+                </Link>
+              </Button>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              Have questions about this resource? Our team of precision agriculture experts 
+              is ready to provide personalized guidance for your operation.
+            </p>
           </div>
         </div>
         <Footer />
