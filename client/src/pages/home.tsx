@@ -5,7 +5,7 @@ import ServicesSection from "@/components/services-section";
 import ProductsSection from "@/components/products-section";
 import NewsSection from "@/components/news-section";
 import ContactSection from "@/components/contact-section";
-import Footer from "@/components/footer";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
