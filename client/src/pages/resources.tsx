@@ -378,7 +378,7 @@ export default function Resources() {
                             data-testid={`button-local-${category.id}-${index}`}
                           >
                             <Link 
-                              href={`/resources/${getResourceSlug(item.title)}`}
+                              href={`/resources/${item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}`}
                               className="flex items-center justify-center gap-2"
                             >
                               <ArrowRight className="h-4 w-4" />
