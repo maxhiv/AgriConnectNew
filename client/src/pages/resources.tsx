@@ -31,6 +31,43 @@ const getResourceSlug = (title: string): string => {
     .replace(/^-+|-+$/g, '');
 };
 
+// LocalGuides Component
+const LocalGuides = ({ maxItems }: { maxItems?: number }) => {
+  const allItems = resourceCategories.flatMap(category => category.items.map(item => ({ ...item, category: category.title })));
+  const displayedItems = maxItems ? allItems.slice(0, maxItems) : allItems;
+
+  return (
+    <div className="container mx-auto px-4">
+      <h2 className="text-3xl font-bold text-center mb-8">Local Guides</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {displayedItems.map((item, index) => (
+          <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
+            <CardHeader>
+              <CardTitle className="text-lg line-clamp-2">{item.title}</CardTitle>
+              <CardDescription className="text-sm line-clamp-2">{item.description}</CardDescription>
+            </CardHeader>
+            <CardContent className="pt-0">
+              <Button asChild className="flex-1 w-full">
+                <Link href={`/resources/${getResourceSlug(item.title)}`} className="flex items-center justify-center gap-2">
+                  <ArrowRight className="h-4 w-4" />
+                  View Local Guide
+                </Link>
+              </Button>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+      {maxItems && allItems.length > maxItems && (
+        <div className="text-center mt-8">
+          <Button asChild variant="outline">
+            <Link href="/resources">View All Guides</Link>
+          </Button>
+        </div>
+      )}
+    </div>
+  );
+};
+
 const resourceCategories = [
   {
     id: "topics",
@@ -123,17 +160,17 @@ const resourceCategories = [
     color: "bg-red-600",
     items: [
       {
-        title: "InsidePTI ‣ Season 1",
+        title: "Inside PTI ‣ Season 1",
         description: "Behind-the-scenes look at Precision Technology Institute research",
         url: "https://www.precisionplanting.com/resources/videos/insidepti-season-1"
       },
       {
-        title: "InsidePTI ‣ Season 3",
+        title: "Inside PTI ‣ Season 3",
         description: "Advanced research insights from the Precision Technology Institute",
         url: "https://www.precisionplanting.com/resources/videos/insidepti-season-3"
       },
       {
-        title: "InsidePTI ‣ Season 4",
+        title: "Inside PTI ‣ Season 4",
         description: "Latest research findings and technology developments",
         url: "https://www.precisionplanting.com/resources/videos/insidepti-season-4"
       },
@@ -271,7 +308,7 @@ export default function Resources() {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="bg-green-900 text-white py-20">
         <div className="container mx-auto px-4">
@@ -332,7 +369,7 @@ export default function Resources() {
                           {item.description}
                         </CardDescription>
                       </CardHeader>
-                      
+
                       <CardContent className="pt-0">
                         <div className="flex gap-2">
                           <Button 
@@ -373,6 +410,11 @@ export default function Resources() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Local Guides Section */}
+      <section className="mb-16">
+        <LocalGuides maxItems={5} />
       </section>
 
       {/* Call to Action */}

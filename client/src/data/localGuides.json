@@ -1,0 +1,60 @@
+
+{
+  "guides": [
+    {
+      "id": "john-deere-exactemerge-planter-upgrade-guide",
+      "title": "John Deere ExactEmerge Planter Upgrade Guide",
+      "url": "https://www.precisionplanting.com/resources/guides/john-deere-exactemerge-planter-upgrade-guide",
+      "description": "Enhance your John Deere planter performance.",
+      "topicTags": ["John Deere", "ExactEmerge", "Planter Enhancement"],
+      "keyPoints": [
+        "Can be enhanced with aftermarket technology.",
+        "Precision closing systems improve emergence."
+      ]
+    },
+    {
+      "id": "planter-maintenance-guide",
+      "title": "Planter Maintenance Guide",
+      "url": "https://www.precisionplanting.com/resources/guides/your-planter-maintenance-guide",
+      "description": "Essential maintenance procedures.",
+      "topicTags": ["Planter Maintenance", "Equipment Care"],
+      "keyPoints": [
+        "Pre-season maintenance prevents breakdowns.",
+        "Calibration ensures accurate seed placement."
+      ]
+    },
+    {
+      "id": "white-ve-series-planter-upgrade-guide",
+      "title": "White VE Series Planter Upgrade Guide",
+      "url": "https://www.precisionplanting.com/resources/guides/white-ve-series-planter-upgrade-guide",
+      "description": "Transform your White VE series planter with precision upgrades.",
+      "topicTags": ["White Planter", "Upgrades", "Retrofit"],
+      "keyPoints": [
+        "VE series planters accept most precision technology upgrades.",
+        "ROI typically achieved within 2-3 seasons."
+      ]
+    },
+    {
+      "id": "crop-stand-evaluation-guide",
+      "title": "Crop Stand Evaluation Guide",
+      "url": "https://www.precisionplanting.com/resources/guides/crop-stand-evaluation-guide",
+      "description": "Assess and optimize crop emergence and stand establishment.",
+      "topicTags": ["Stand Evaluation", "Emergence", "Yield Optimization"],
+      "keyPoints": [
+        "Early stand assessment identifies planter performance issues.",
+        "Uniform emergence timing increases yield potential by 5-10%."
+      ]
+    },
+    {
+      "id": "seeder-maintenance-guide",
+      "title": "Seeder Maintenance Guide",
+      "url": "https://www.precisionplanting.com/resources/guides/your-seeder-maintenance-guide",
+      "description": "Comprehensive maintenance guide for air seeder systems.",
+      "topicTags": ["Seeder Maintenance", "Air Seeders", "Equipment Care"],
+      "keyPoints": [
+        "Regular hose inspection prevents blockages during seeding.",
+        "Storage preparation extends equipment life significantly."
+      ]
+    }
+  ]
+}

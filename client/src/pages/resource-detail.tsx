@@ -13,6 +13,7 @@ import {
   Phone,
   ChevronRight
 } from "lucide-react";
+import LocalGuides from "@/components/ui/LocalGuides";
 
 interface ResourceData {
   id: string;
@@ -1705,8 +1706,16 @@ export default function ResourceDetail() {
             </Card>
           </section>
 
+          {/* Related Local Guides */}
+          <section id="related-guides">
+            <LocalGuides 
+              filteredByTags={resource.topicTags} 
+              maxItems={3} 
+            />
+          </section>
+
           {/* Footer */}
-          <footer className="border-t pt-6">
+          <footer className="border-t pt-6 mt-8">
             <p className="text-sm text-muted-foreground">
               Original reference:{' '}
               <a 
