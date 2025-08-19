@@ -276,29 +276,54 @@ const resourceCategories = [
     color: "bg-indigo-600",
     items: [
       {
+        title: "The Journey To Autonomy In Agriculture",
+        description: "Exploring the path toward autonomous farming systems and their impact on modern agriculture",
+        url: "/resources/the-journey-to-autonomy-in-agriculture"
+      },
+      {
+        title: "New Era For Ptx Trimble",
+        description: "Strategic developments and innovations in PTx Trimble's precision agriculture platform",
+        url: "/resources/new-era-for-ptx-trimble"
+      },
+      {
+        title: "Maximize Uptime With Correction Services",
+        description: "How precision correction services improve operational efficiency and reduce downtime",
+        url: "/resources/maximize-uptime-with-correction-services"
+      },
+      {
+        title: "Future Of Crop Protection AI Plant Level Spraying",
+        description: "Advanced AI-driven crop protection with plant-level precision spraying technology",
+        url: "/resources/future-of-crop-protection-ai-plant-level-spraying"
+      },
+      {
+        title: "How AI Is Sowing Seeds Of Revolution",
+        description: "Artificial intelligence transforming agricultural practices and farming operations",
+        url: "/resources/how-ai-is-sowing-seeds-of-revolution"
+      },
+      {
+        title: "Precision Agriculture Trends 2025",
+        description: "Key trends and innovations shaping the future of precision agriculture",
+        url: "/resources/precision-agriculture-trends-2025"
+      },
+      {
+        title: "Elevating Operational Efficiency With Connected Technology",
+        description: "How connected farm technology enhances productivity and operational performance",
+        url: "/resources/elevating-operational-efficiency-with-connected-technology"
+      },
+      {
+        title: "Reality Check Busting The Enduring Myths About Precision Agriculture",
+        description: "Separating fact from fiction in precision agriculture technology adoption",
+        url: "/resources/reality-check-busting-the-enduring-myths-about-precision-agriculture"
+      },
+      {
         title: "Precision Planting Launches New Planting System (CornerStone)",
         description: "Revolutionary new planting system technology introduction",
         url: "https://www.precisionplanting.com/resources/news/precision-planting-launches-new-planting-system"
       },
       {
-        title: "Intelligent Ag and Headsight to Merge Into Precision Planting",
-        description: "Strategic brand consolidation to enhance product offerings",
-        url: "https://www.precisionplanting.com/resources/news/precision-planting-brands-merge"
-      },
-      {
         title: "The Launch of PTx",
         description: "Introduction of the next generation Precision Technology platform",
         url: "https://www.precisionplanting.com/resources/news/the-launch-of-ptx"
-      },
-      {
-        title: "Precision Planting Launches Clarity™",
-        description: "Advanced blockage and flow monitoring system announcement",
-        url: "https://www.precisionplanting.com/resources/news/precision-planting-launches-claritytm-an-advanced-blockage-and-flow-monitoring-system"
-      },
-      {
-        title: "2024 Discounted Grower Financing",
-        description: "Special financing options available for precision agriculture equipment",
-        url: "https://www.precisionplanting.com/resources/news/2024-discounted-grower-financing"
       }
     ]
   }
