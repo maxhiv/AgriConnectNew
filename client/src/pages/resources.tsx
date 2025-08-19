@@ -31,6 +31,16 @@ const getResourceSlug = (title: string): string => {
     .replace(/^-+|-+$/g, '');
 };
 
+// Helper function to check if item has a local guide
+const hasLocalGuide = (item: { url: string }) => {
+  return item.url.startsWith('/resources/');
+};
+
+// Helper function to check if external URL
+const isExternalUrl = (url: string) => {
+  return url.startsWith('http');
+};
+
 
 const resourceCategories = [
   {
@@ -363,35 +373,58 @@ export default function Resources() {
 
                         <CardContent className="pt-0">
                           <div className="flex gap-2">
-                            <Button 
-                              asChild 
-                              className="flex-1"
-                              data-testid={`button-local-${category.id}-${index}`}
-                            >
-                              <Link 
-                                href={`/resources/${getResourceSlug(item.title)}`}
-                                className="flex items-center justify-center gap-2"
+                            {hasLocalGuide(item) ? (
+                              <>
+                                <Button 
+                                  asChild 
+                                  className="flex-1"
+                                  data-testid={`button-local-${category.id}-${index}`}
+                                >
+                                  <Link 
+                                    href={`/resources/${getResourceSlug(item.title)}`}
+                                    className="flex items-center justify-center gap-2"
+                                  >
+                                    <ArrowRight className="h-4 w-4" />
+                                    View Local Guide
+                                  </Link>
+                                </Button>
+                                {isExternalUrl(item.url) && (
+                                  <Button 
+                                    variant="outline"
+                                    asChild 
+                                    className="flex-1"
+                                    data-testid={`button-original-${category.id}-${index}`}
+                                  >
+                                    <a 
+                                      href={item.url} 
+                                      target="_blank" 
+                                      rel="noopener noreferrer"
+                                      className="flex items-center justify-center gap-2"
+                                    >
+                                      <ExternalLink className="h-4 w-4" />
+                                      Original
+                                    </a>
+                                  </Button>
+                                )}
+                              </>
+                            ) : (
+                              <Button 
+                                variant="default"
+                                asChild 
+                                className="w-full"
+                                data-testid={`button-external-${category.id}-${index}`}
                               >
-                                <ArrowRight className="h-4 w-4" />
-                                View Local Guide
-                              </Link>
-                            </Button>
-                            <Button 
-                              variant="outline"
-                              asChild 
-                              className="flex-1"
-                              data-testid={`button-original-${category.id}-${index}`}
-                            >
-                              <a 
-                                href={item.url} 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="flex items-center justify-center gap-2"
-                              >
-                                <ExternalLink className="h-4 w-4" />
-                                Original
-                              </a>
-                            </Button>
+                                <a 
+                                  href={item.url} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer"
+                                  className="flex items-center justify-center gap-2"
+                                >
+                                  <ExternalLink className="h-4 w-4" />
+                                  View Resource
+                                </a>
+                              </Button>
+                            )}
                           </div>
                         </CardContent>
                       </Card>
