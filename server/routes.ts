@@ -15,15 +15,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json({ success: true, message: "Message sent successfully", data: message });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        res.status(400).json({ 
-          success: false, 
-          message: "Invalid form data", 
-          errors: error.errors 
+        res.status(400).json({
+          success: false,
+          message: "Invalid form data",
+          errors: error.errors
         });
       } else {
-        res.status(500).json({ 
-          success: false, 
-          message: "Failed to send message" 
+        res.status(500).json({
+          success: false,
+          message: "Failed to send message"
         });
       }
     }
@@ -35,9 +35,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const messages = await storage.getContactMessages();
       res.json({ success: true, data: messages });
     } catch (error) {
-      res.status(500).json({ 
-        success: false, 
-        message: "Failed to retrieve messages" 
+      res.status(500).json({
+        success: false,
+        message: "Failed to retrieve messages"
       });
     }
   });
@@ -46,7 +46,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.post("/api/scrape-product", async (req, res) => {
     try {
       const { manufacturerUrl } = req.body;
-      
+
       if (!manufacturerUrl) {
         return res.status(400).json({
           success: false,
@@ -56,18 +56,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       const { spawn } = require('child_process');
       const python = spawn('python3', ['server/scraper.py', manufacturerUrl]);
-      
+
       let scraped_data = '';
       let error_data = '';
-      
+
       python.stdout.on('data', (data) => {
         scraped_data += data.toString();
       });
-      
+
       python.stderr.on('data', (data) => {
         error_data += data.toString();
       });
-      
+
       python.on('close', (code) => {
         if (code === 0) {
           try {
@@ -88,7 +88,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           });
         }
       });
-      
+
     } catch (error) {
       res.status(500).json({
         success: false,
@@ -103,7 +103,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const { equipment, category } = req.query;
       let products;
-      
+
       if (equipment) {
         products = await storage.getProductsByEquipment(equipment as string);
       } else if (category) {
@@ -111,77 +111,73 @@ export async function registerRoutes(app: Express): Promise<Server> {
       } else {
         products = await storage.getProducts();
       }
-      
+
       res.json(products);
     } catch (error) {
-      res.status(500).json({ 
-        success: false, 
-        message: "Failed to retrieve products" 
+      res.status(500).json({
+        success: false,
+        message: "Failed to retrieve products"
       });
     }
   });
 
   app.get("/api/products/:slug", async (req, res) => {
-    try {
-      const product = await storage.getProductBySlug(req.params.slug);
-      if (!product) {
-        res.status(404).json({ 
-          success: false, 
-          message: "Product not found" 
-        });
-        return;
-      }
+    const product = await storage.getProductBySlug(req.params.slug);
 
-      // Check if we should enrich with scraped data
-      const { enrich } = req.query;
-      if (enrich === 'true' && product.oemUrl) {
-        try {
-          const { spawn } = require('child_process');
-          const python = spawn('python3', ['server/scraper.py', product.oemUrl]);
-          
-          let scraped_data = '';
-          
-          python.stdout.on('data', (data) => {
-            scraped_data += data.toString();
-          });
-          
-          python.on('close', (code) => {
-            if (code === 0) {
-              try {
-                const scrapedResult = JSON.parse(scraped_data);
-                if (scrapedResult && !scrapedResult.error) {
-                  // Enrich product data with scraped information
-                  const enrichedProduct = {
-                    ...product,
-                    enrichedTitle: scrapedResult.title || product.name,
-                    enrichedDescription: scrapedResult.description || product.tagline,
-                    extendedDescription: scrapedResult.extended_description,
-                    scrapedFeatures: scrapedResult.features || [],
-                    lastScraped: scrapedResult.scraped_at
-                  };
-                  res.json(enrichedProduct);
-                } else {
-                  res.json(product);
-                }
-              } catch (parseError) {
-                res.json(product);
-              }
-            } else {
+    if (!product) {
+      return res.status(404).json({ error: "Product not found" });
+    }
+
+    // Check if enhanced content is requested
+    const enrich = req.query.enrich === 'true';
+
+    if (enrich && product.oemUrl) {
+      try {
+        // Call Python content enhancer
+        const { spawn } = require('child_process');
+        const python = spawn('python3', ['server/scraper.py', product.oemUrl]);
+
+        let output = '';
+        python.stdout.on('data', (data: Buffer) => {
+          output += data.toString();
+        });
+
+        python.on('close', (code: number) => {
+          if (code === 0 && output.trim()) {
+            try {
+              const scrapedData = JSON.parse(output);
+
+              // Enhance product with scraped data
+              const enrichedProduct = {
+                ...product,
+                enrichedTitle: scrapedData.title || product.name,
+                enrichedDescription: scrapedData.description || product.tagline,
+                extendedDescription: scrapedData.extended_description,
+                scrapedFeatures: scrapedData.features || [],
+                lastScraped: scrapedData.scraped_at
+              };
+
+              res.json(enrichedProduct);
+            } catch (parseError) {
+              console.error('Error parsing scraped data:', parseError);
               res.json(product);
             }
-          });
-        } catch (scrapeError) {
-          // If scraping fails, return original product data
+          } else {
+            res.json(product);
+          }
+        });
+
+        python.on('error', (error: Error) => {
+          console.error('Error running scraper:', error);
           res.json(product);
-        }
-      } else {
+        });
+
+      } catch (error) {
+        console.error('Error enhancing product:', error);
         res.json(product);
       }
-    } catch (error) {
-      res.status(500).json({ 
-        success: false, 
-        message: "Failed to retrieve product" 
-      });
+    } else {
+      res.json(product);
     }
   });
 
@@ -192,15 +188,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json({ success: true, data: product });
     } catch (error) {
       if (error instanceof z.ZodError) {
-        res.status(400).json({ 
-          success: false, 
-          message: "Invalid product data", 
-          errors: error.errors 
+        res.status(400).json({
+          success: false,
+          message: "Invalid product data",
+          errors: error.errors
         });
       } else {
-        res.status(500).json({ 
-          success: false, 
-          message: "Failed to create product" 
+        res.status(500).json({
+          success: false,
+          message: "Failed to create product"
         });
       }
     }
@@ -210,22 +206,22 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const product = await storage.getProductBySlug(req.params.slug);
       if (!product) {
-        res.status(404).json({ 
-          success: false, 
-          message: "Product not found" 
+        res.status(404).json({
+          success: false,
+          message: "Product not found"
         });
         return;
       }
-      
+
       // Update product in database using raw SQL
       const updateData = req.body;
-      
+
       // For now, return success - we'll handle the actual update via SQL
       res.json({ success: true, message: "Product updated" });
     } catch (error) {
-      res.status(500).json({ 
-        success: false, 
-        message: "Failed to update product" 
+      res.status(500).json({
+        success: false,
+        message: "Failed to update product"
       });
     }
   });
@@ -236,10 +232,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const jsonPath = path.join(process.cwd(), 'precision-reseller-starter/precision-reseller-starter/data/products.json');
       const jsonData = fs.readFileSync(jsonPath, 'utf8');
       const productsData = JSON.parse(jsonData);
-      
+
       let importedCount = 0;
       let skippedCount = 0;
-      
+
       for (const productData of productsData) {
         try {
           // Check if product already exists
@@ -248,7 +244,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
             skippedCount++;
             continue;
           }
-          
+
           // Transform data to match our schema
           const transformedData = {
             name: productData.name,
@@ -260,7 +256,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
             worksWith: productData.works_with || [],
             slug: productData.slug
           };
-          
+
           const validatedData = insertProductSchema.parse(transformedData);
           await storage.createProduct(validatedData);
           importedCount++;
@@ -269,18 +265,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
           skippedCount++;
         }
       }
-      
-      res.json({ 
-        success: true, 
+
+      res.json({
+        success: true,
         message: `Import completed: ${importedCount} products imported, ${skippedCount} skipped`,
         imported: importedCount,
         skipped: skippedCount
       });
     } catch (error) {
       console.error('Import error:', error);
-      res.status(500).json({ 
-        success: false, 
-        message: "Failed to import products" 
+      res.status(500).json({
+        success: false,
+        message: "Failed to import products"
       });
     }
   });

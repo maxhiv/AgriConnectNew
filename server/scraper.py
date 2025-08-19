@@ -41,6 +41,9 @@ def scrape_product_data(manufacturer_url):
         
         # Try to extract product specifications or features
         features = []
+        technical_specs = []
+        benefits = []
+        applications = []
         
         # Look for common feature list patterns
         feature_selectors = [
@@ -49,13 +52,60 @@ def scrape_product_data(manufacturer_url):
             '.features ul li',
             '.specifications ul li',
             '.product-features li',
-            '.benefits li'
+            '.benefits li',
+            '.key-features li',
+            '.product-highlights li'
+        ]
+        
+        # Look for technical specifications
+        spec_selectors = [
+            '.specifications table tr',
+            '.specs table tr',
+            '.technical-specs li',
+            '.product-specs li'
+        ]
+        
+        # Look for benefits/advantages
+        benefit_selectors = [
+            '.benefits li',
+            '.advantages li',
+            '.why-choose li',
+            '.product-benefits li'
+        ]
+        
+        # Look for applications/use cases
+        application_selectors = [
+            '.applications li',
+            '.use-cases li',
+            '.ideal-for li',
+            '.compatible-with li'
         ]
         
         for selector in feature_selectors:
             feature_elements = soup.select(selector)
             if feature_elements:
-                features.extend([elem.get_text().strip() for elem in feature_elements[:5]])  # Limit to 5
+                features.extend([elem.get_text().strip() for elem in feature_elements[:8]])  # Increased limit
+                break
+                
+        for selector in spec_selectors:
+            spec_elements = soup.select(selector)
+            if spec_elements:
+                for elem in spec_elements[:5]:
+                    spec_text = elem.get_text().strip()
+                    if ':' in spec_text:  # Likely a spec with name:value format
+                        technical_specs.append(spec_text)
+                break
+                
+        for selector in benefit_selectors:
+            benefit_elements = soup.select(selector)
+            if benefit_elements:
+                benefits.extend([elem.get_text().strip() for elem in benefit_elements[:5]])
+                break
+                
+        for selector in application_selectors:
+            app_elements = soup.select(selector)
+            if app_elements:
+                applications.extend([elem.get_text().strip() for elem in app_elements[:5]])
                 break
         
         # Try to extract additional description from product content
@@ -75,11 +125,49 @@ def scrape_product_data(manufacturer_url):
                     extended_description = ' '.join(paragraphs)
                     break
         
+        # Extract image URLs
+        image_urls = []
+        img_selectors = [
+            '.product-image img',
+            '.hero-image img',
+            '.product-gallery img',
+            'img[alt*="product"]'
+        ]
+        
+        for selector in img_selectors:
+            img_elements = soup.select(selector)
+            for img in img_elements[:3]:  # Limit to 3 images
+                src = img.get('src') or img.get('data-src')
+                if src:
+                    if src.startswith('/'):
+                        src = urljoin(manufacturer_url, src)
+                    image_urls.append(src)
+        
+        # Extract compatibility information
+        compatibility = []
+        compat_selectors = [
+            '.compatibility li',
+            '.works-with li',
+            '.compatible li',
+            '.integrates-with li'
+        ]
+        
+        for selector in compat_selectors:
+            compat_elements = soup.select(selector)
+            if compat_elements:
+                compatibility.extend([elem.get_text().strip() for elem in compat_elements[:5]])
+                break
+        
         product_data = {
             'title': title,
             'description': description,
             'extended_description': extended_description,
             'features': features,
+            'technical_specs': technical_specs,
+            'benefits': benefits,
+            'applications': applications,
+            'compatibility': compatibility,
+            'image_urls': image_urls,
             'scraped_at': time.time(),
             'source_url': manufacturer_url
         }
