@@ -29,7 +29,7 @@ export default function Navigation() {
             <div className="flex-shrink-0">
               <h1 className="text-2xl font-pilat font-bold text-ptx-dark-green flex items-center">
                 <Sprout className="mr-2 text-ptx-bright-green" />
-                GreenHarvest
+                Vantage South
               </h1>
             </div>
           </div>

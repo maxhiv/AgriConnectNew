@@ -23,7 +23,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 flex items-center font-pilat">
               <Sprout className="mr-2 text-ptx-bright-green" />
-              GreenHarvest
+              Vantage South
             </h3>
             <p className="text-ptx-neutral-green mb-4 font-lato">
               Leading agricultural solutions provider dedicated to sustainable farming and innovative technology.
@@ -134,7 +134,7 @@ export default function Footer() {
 
         <div className="border-t border-ptx-medium-green mt-8 pt-8 text-center">
           <p className="text-ptx-neutral-green font-lato">
-            © 2024 GreenHarvest Agricultural Solutions. All rights reserved. | 
+            © 2024 Vantage South. All rights reserved. | 
             <a href="#" className="hover:text-ptx-bright-green transition-colors ml-1">Privacy Policy</a> | 
             <a href="#" className="hover:text-ptx-bright-green transition-colors ml-1">Terms of Service</a>
           </p>
