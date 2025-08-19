@@ -54,7 +54,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         });
       }
 
-      const { spawn } = await import('child_process');
+      const { spawn } = await import('node:child_process');
       const python = spawn.spawn('python3', ['server/scraper.py', manufacturerUrl]);
 
       let scraped_data = '';
@@ -134,7 +134,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
     if (enrich && product.oemUrl) {
       try {
         // Call Python content enhancer
-        const { spawn } = await import('child_process');
+        const { spawn } = await import('node:child_process');
         const python = spawn.spawn('python3', ['server/scraper.py', product.oemUrl]);
 
         let output = '';
