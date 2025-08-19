@@ -1,7 +1,7 @@
 import { useParams, Link } from "wouter";
 import { useEffect, useState } from "react";
 import Navigation from "@/components/navigation";
-import { Footer } from "@/components/footer";
+import Footer from "@/components/footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";

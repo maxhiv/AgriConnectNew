@@ -1,6 +1,6 @@
 import { Sprout, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
-export function Footer() {
+export default function Footer() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
