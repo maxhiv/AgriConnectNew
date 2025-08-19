@@ -31,16 +31,42 @@ const getResourceSlug = (title: string): string => {
     .replace(/^-+|-+$/g, '');
 };
 
-// Helper function to check if item has a local guide
-const hasLocalGuide = (item: { url: string }) => {
-  return item.url.startsWith('/resources/');
-};
+// LocalGuides Component
+const LocalGuides = ({ maxItems }: { maxItems?: number }) => {
+  const allItems = resourceCategories.flatMap(category => category.items.map(item => ({ ...item, category: category.title })));
+  const displayedItems = maxItems ? allItems.slice(0, maxItems) : allItems;
 
-// Helper function to check if external URL
-const isExternalUrl = (url: string) => {
-  return url.startsWith('http');
+  return (
+    <div className="container mx-auto px-4">
+      <h2 className="text-3xl font-bold text-center mb-8">Local Guides</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {displayedItems.map((item, index) => (
+          <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
+            <CardHeader>
+              <CardTitle className="text-lg line-clamp-2">{item.title}</CardTitle>
+              <CardDescription className="text-sm line-clamp-2">{item.description}</CardDescription>
+            </CardHeader>
+            <CardContent className="pt-0">
+              <Button asChild className="flex-1 w-full">
+                <Link href={`/resources/${getResourceSlug(item.title)}`} className="flex items-center justify-center gap-2">
+                  <ArrowRight className="h-4 w-4" />
+                  View Local Guide
+                </Link>
+              </Button>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+      {maxItems && allItems.length > maxItems && (
+        <div className="text-center mt-8">
+          <Button asChild variant="outline">
+            <Link href="/resources">View All Guides</Link>
+          </Button>
+        </div>
+      )}
+    </div>
+  );
 };
-
 
 const resourceCategories = [
   {
@@ -358,78 +384,52 @@ export default function Resources() {
 
                 {/* Category Items Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {category.items.map((item, index) => {
-                    const uniqueKey = `${category.id}-${getResourceSlug(item.title)}`;
-                    return (
-                      <Card key={uniqueKey} className="hover:shadow-lg transition-shadow duration-300" data-testid={`card-${category.id}-${index}`}>
-                        <CardHeader>
-                          <CardTitle className="text-lg line-clamp-2" data-testid={`title-${category.id}-${index}`}>
-                            {item.title}
-                          </CardTitle>
-                          <CardDescription className="text-sm line-clamp-3">
-                            {item.description}
-                          </CardDescription>
-                        </CardHeader>
+                  {category.items.map((item, index) => (
+                    <Card key={index} className="hover:shadow-lg transition-shadow duration-300" data-testid={`card-${category.id}-${index}`}>
+                      <CardHeader>
+                        <CardTitle className="text-lg line-clamp-2" data-testid={`title-${category.id}-${index}`}>
+                          {item.title}
+                        </CardTitle>
+                        <CardDescription className="text-sm">
+                          {item.description}
+                        </CardDescription>
+                      </CardHeader>
 
-                        <CardContent className="pt-0">
-                          <div className="flex gap-2">
-                            {hasLocalGuide(item) ? (
-                              <>
-                                <Button 
-                                  asChild 
-                                  className="flex-1"
-                                  data-testid={`button-local-${category.id}-${index}`}
-                                >
-                                  <Link 
-                                    href={`/resources/${getResourceSlug(item.title)}`}
-                                    className="flex items-center justify-center gap-2"
-                                  >
-                                    <ArrowRight className="h-4 w-4" />
-                                    View Local Guide
-                                  </Link>
-                                </Button>
-                                {isExternalUrl(item.url) && (
-                                  <Button 
-                                    variant="outline"
-                                    asChild 
-                                    className="flex-1"
-                                    data-testid={`button-original-${category.id}-${index}`}
-                                  >
-                                    <a 
-                                      href={item.url} 
-                                      target="_blank" 
-                                      rel="noopener noreferrer"
-                                      className="flex items-center justify-center gap-2"
-                                    >
-                                      <ExternalLink className="h-4 w-4" />
-                                      Original
-                                    </a>
-                                  </Button>
-                                )}
-                              </>
-                            ) : (
-                              <Button 
-                                variant="default"
-                                asChild 
-                                className="w-full"
-                                data-testid={`button-external-${category.id}-${index}`}
-                              >
-                                <a 
-                                  href={item.url} 
-                                  target="_blank" 
-                                  rel="noopener noreferrer"
-                                  className="flex items-center justify-center gap-2"
-                                >
-                                  <ExternalLink className="h-4 w-4" />
-                                  View Resource
-                                </a>
-                              </Button>
-                            )}
-                          </div>
-                        </CardContent>
-                      </Card>
-                    );
-                  })}
+                      <CardContent className="pt-0">
+                        <div className="flex gap-2">
+                          <Button 
+                            asChild 
+                            className="flex-1"
+                            data-testid={`button-local-${category.id}-${index}`}
+                          >
+                            <Link 
+                              href={`/resources/${item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}`}
+                              className="flex items-center justify-center gap-2"
+                            >
+                              <ArrowRight className="h-4 w-4" />
+                              Local Guide
+                            </Link>
+                          </Button>
+                          <Button 
+                            variant="outline"
+                            asChild 
+                            className="flex-1"
+                            data-testid={`button-original-${category.id}-${index}`}
+                          >
+                            <a 
+                              href={item.url} 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                              className="flex items-center justify-center gap-2"
+                            >
+                              <ExternalLink className="h-4 w-4" />
+                              Original
+                            </a>
+                          </Button>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
                 </div>
               </div>
             ))}
@@ -437,6 +437,10 @@ export default function Resources() {
         </div>
       </section>
 
+      {/* Local Guides Section */}
+      <section className="mb-16">
+        <LocalGuides maxItems={5} />
+      </section>
 
       {/* Call to Action */}
       <section className="bg-muted py-16">
