@@ -1,0 +1,538 @@
+[
+  {
+    "name": "20|20",
+    "equipment": "Planters",
+    "category": "Display Monitors",
+    "tagline": "Monitor and control planting with high-definition agronomic data.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/2020",
+    "highlights": [
+      "Row-by-row monitoring",
+      "Control compatible systems",
+      "Diagnostics & mapping"
+    ],
+    "works_with": [
+      "DeltaForce",
+      "vDrive",
+      "SmartFirmer"
+    ],
+    "slug": "2020"
+  },
+  {
+    "name": "CornerStone Planting System",
+    "equipment": "Planters",
+    "category": "Planting Systems",
+    "tagline": "Factory-built upgrade package tailored to your planter.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/cornerstone-planting-system",
+    "highlights": [
+      "Custom-configured",
+      "Integrated components",
+      "Dealer-installed"
+    ],
+    "works_with": [
+      "20|20",
+      "DeltaForce",
+      "vDrive"
+    ],
+    "slug": "cornerstone-planting-system"
+  },
+  {
+    "name": "Panorama",
+    "equipment": "Planters",
+    "category": "Data Management",
+    "tagline": "View and share 20|20 maps and reports anywhere.",
+    "oem_url": "https://www.precisionplanting.com/products/panorama",
+    "highlights": [
+      "Web & mobile app",
+      "Automated data sync",
+      "Yield comparisons"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "panorama"
+  },
+  {
+    "name": "AirForce",
+    "equipment": "Planters",
+    "category": "Downforce Control",
+    "tagline": "Automated planter-wide or section downforce.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/airforce",
+    "highlights": [
+      "Consistent depth",
+      "Adaptive control",
+      "Section options"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "airforce"
+  },
+  {
+    "name": "DeltaForce",
+    "equipment": "Planters",
+    "category": "Downforce Control",
+    "tagline": "Hydraulic downforce control per row.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/deltaforce",
+    "highlights": [
+      "Per-row automation",
+      "Responds in real-time",
+      "Improves emergence"
+    ],
+    "works_with": [
+      "20|20",
+      "SmartDepth"
+    ],
+    "slug": "deltaforce"
+  },
+  {
+    "name": "FurrowForce",
+    "equipment": "Planters",
+    "category": "Closing Systems",
+    "tagline": "Two-stage adaptable furrow closing.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/furrowforce",
+    "highlights": [
+      "Removes air pockets",
+      "Firms to retain moisture",
+      "Consistent closure"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "furrowforce"
+  },
+  {
+    "name": "SmartDepth",
+    "equipment": "Planters",
+    "category": "Depth Control",
+    "tagline": "Adjust planting depth from the cab.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/smartdepth",
+    "highlights": [
+      "On-the-go depth changes",
+      "Works with moisture data",
+      "Uniform emergence"
+    ],
+    "works_with": [
+      "20|20",
+      "SmartFirmer"
+    ],
+    "slug": "smartdepth"
+  },
+  {
+    "name": "CleanSweep",
+    "equipment": "Planters",
+    "category": "Row Cleaners",
+    "tagline": "Pneumatic adjustment of row cleaners from the cab.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/cleansweep",
+    "highlights": [
+      "Control residue quickly",
+      "Cab adjustment",
+      "Consistent trench"
+    ],
+    "works_with": [
+      "Reveal"
+    ],
+    "slug": "cleansweep"
+  },
+  {
+    "name": "Reveal",
+    "equipment": "Planters",
+    "category": "Row Cleaners",
+    "tagline": "Frame-mounted residue management.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/reveal",
+    "highlights": [
+      "Stable frame mount",
+      "Independent adjustment",
+      "Better trench opening"
+    ],
+    "works_with": [
+      "CleanSweep"
+    ],
+    "slug": "reveal"
+  },
+  {
+    "name": "DuraWear",
+    "equipment": "Planters",
+    "category": "Row Units & Wear Parts",
+    "tagline": "Long-life parallel arms and wear parts.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/durawear",
+    "highlights": [
+      "Extended life",
+      "Tight tolerances",
+      "Reduced maintenance"
+    ],
+    "works_with": [],
+    "slug": "durawear"
+  },
+  {
+    "name": "Ready Row Unit",
+    "equipment": "Planters",
+    "category": "Row Units & Wear Parts",
+    "tagline": "Base row unit ready for upgrades.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/ready-row-unit",
+    "highlights": [
+      "Upgrade-ready",
+      "Compatible platform",
+      "Quality build"
+    ],
+    "works_with": [],
+    "slug": "ready-row-unit"
+  },
+  {
+    "name": "eSet",
+    "equipment": "Planters",
+    "category": "Seed Meters & Drive Systems",
+    "tagline": "Improved singulation for JD vacuum systems.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/eset",
+    "highlights": [
+      "Accurate singulation",
+      "Easy setup",
+      "Reliable"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "eset"
+  },
+  {
+    "name": "mSet",
+    "equipment": "Planters",
+    "category": "Seed Meters & Drive Systems",
+    "tagline": "Single meter multi-hybrid capability.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/mset",
+    "highlights": [
+      "Switch hybrids",
+      "Maintain accuracy",
+      "Per-field strategy"
+    ],
+    "works_with": [
+      "20|20",
+      "vSet"
+    ],
+    "slug": "mset"
+  },
+  {
+    "name": "PrecisionMeter",
+    "equipment": "Planters",
+    "category": "Seed Meters & Drive Systems",
+    "tagline": "Brush finger meter upgrade.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/precisionmeter",
+    "highlights": [
+      "Even spacing",
+      "Durable design",
+      "Easy maintenance"
+    ],
+    "works_with": [],
+    "slug": "precisionmeter"
+  },
+  {
+    "name": "SwathModule",
+    "equipment": "Planters",
+    "category": "Seed Meters & Drive Systems",
+    "tagline": "Reduce application overlap.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/swathmodule",
+    "highlights": [
+      "Section control",
+      "Input savings",
+      "Mapping ready"
+    ],
+    "works_with": [
+      "RowFlow"
+    ],
+    "slug": "swathmodule"
+  },
+  {
+    "name": "RowFlow",
+    "equipment": "Planters",
+    "category": "Seed Meters & Drive Systems",
+    "tagline": "Clutch and hydraulic drive control.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/rowflow",
+    "highlights": [
+      "Variable rate",
+      "Section control",
+      "Prescription ready"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "rowflow"
+  },
+  {
+    "name": "vSet",
+    "equipment": "Planters",
+    "category": "Seed Meters & Drive Systems",
+    "tagline": "Vacuum meter with high accuracy.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/vset",
+    "highlights": [
+      "Consistent singulation",
+      "Wide crop range",
+      "Proven design"
+    ],
+    "works_with": [
+      "vDrive",
+      "20|20"
+    ],
+    "slug": "vset"
+  },
+  {
+    "name": "vSet Select",
+    "equipment": "Planters",
+    "category": "Seed Meters & Drive Systems",
+    "tagline": "Dual-meter multi-hybrid system.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/vset-select",
+    "highlights": [
+      "Switch hybrids on-the-go",
+      "Maximize yield potential",
+      "Seamless control"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "vset-select"
+  },
+  {
+    "name": "vDrive",
+    "equipment": "Planters",
+    "category": "Seed Meters & Drive Systems",
+    "tagline": "Maintenance-free electric drive.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/vdrive",
+    "highlights": [
+      "No chains/sprockets",
+      "Row-by-row control",
+      "Prescription ready"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "vdrive"
+  },
+  {
+    "name": "BullsEye",
+    "equipment": "Planters",
+    "category": "Seed Tubes",
+    "tagline": "Long-life seed tube with carbide tip.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/bullseye",
+    "highlights": [
+      "Improved spacing",
+      "Durable tip",
+      "Drop-in fit"
+    ],
+    "works_with": [],
+    "slug": "bullseye"
+  },
+  {
+    "name": "SpeedTube",
+    "equipment": "Planters",
+    "category": "Seed Tubes",
+    "tagline": "High-speed seed delivery system.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/speedtube",
+    "highlights": [
+      "Plant faster",
+      "Control placement",
+      "Consistent spacing"
+    ],
+    "works_with": [
+      "vDrive",
+      "20|20"
+    ],
+    "slug": "speedtube"
+  },
+  {
+    "name": "WaveVision",
+    "equipment": "Planters",
+    "category": "Seed Tubes",
+    "tagline": "See seeds, not dust.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/wavevision",
+    "highlights": [
+      "Infrared sensing",
+      "Accurate counts",
+      "Dust immunity"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "wavevision"
+  },
+  {
+    "name": "Keeton Seed Firmer",
+    "equipment": "Planters",
+    "category": "Seed Firmers",
+    "tagline": "Ensure seed-to-soil contact.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/keeton-seed-firmer",
+    "highlights": [
+      "Consistent emergence",
+      "Optional liquid",
+      "Simple retrofit"
+    ],
+    "works_with": [],
+    "slug": "keeton-seed-firmer"
+  },
+  {
+    "name": "SmartFirmer",
+    "equipment": "Planters",
+    "category": "Seed Firmers",
+    "tagline": "Sensor-enabled firmer that reads soil conditions.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/smartfirmer",
+    "highlights": [
+      "Moisture & OM sensing",
+      "Depth guidance",
+      "Real-time maps"
+    ],
+    "works_with": [
+      "20|20",
+      "SmartDepth"
+    ],
+    "slug": "smartfirmer"
+  },
+  {
+    "name": "EMHD",
+    "equipment": "Planters",
+    "category": "Fertilizer Application",
+    "tagline": "Accurate liquid rate control.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/emhd",
+    "highlights": [
+      "Wide rate range",
+      "Stable control",
+      "Easy setup"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "emhd"
+  },
+  {
+    "name": "FlowSense",
+    "equipment": "Planters",
+    "category": "Fertilizer Application",
+    "tagline": "Measure row-by-row liquid flow.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/flowsense",
+    "highlights": [
+      "Detect issues fast",
+      "Better accuracy",
+      "Row-by-row data"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "flowsense"
+  },
+  {
+    "name": "PumpStack",
+    "equipment": "Planters",
+    "category": "Fertilizer Application",
+    "tagline": "Liquid fertilizer pump system.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/pumpstack",
+    "highlights": [
+      "Reliable pumping",
+      "Clean plumbing",
+      "Modular setup"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "pumpstack"
+  },
+  {
+    "name": "RateController",
+    "equipment": "Planters",
+    "category": "Fertilizer Application",
+    "tagline": "Adjust applied rates on the go.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/ratecontroller",
+    "highlights": [
+      "Prescription control",
+      "Stable application",
+      "Easy interface"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "ratecontroller"
+  },
+  {
+    "name": "Conceal",
+    "equipment": "Planters",
+    "category": "Fertilizer Application",
+    "tagline": "Banded nitrogen placement beside the seed trench.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/conceal",
+    "highlights": [
+      "Place N where roots are",
+      "Reduce loss",
+      "Clean rows"
+    ],
+    "works_with": [],
+    "slug": "conceal"
+  },
+  {
+    "name": "FurrowJet",
+    "equipment": "Planters",
+    "category": "Fertilizer Application",
+    "tagline": "In-furrow starter placement.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/furrowjet",
+    "highlights": [
+      "Targeted placement",
+      "Starter efficiency",
+      "Retrofit ready"
+    ],
+    "works_with": [],
+    "slug": "furrowjet"
+  },
+  {
+    "name": "DrySet",
+    "equipment": "Planters",
+    "category": "Fertilizer Application",
+    "tagline": "Row-by-row granular rate control.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/dryset",
+    "highlights": [
+      "Electric drive",
+      "Consistent distribution",
+      "Granular products"
+    ],
+    "works_with": [],
+    "slug": "dryset"
+  },
+  {
+    "name": "vApplyHD",
+    "equipment": "Planters",
+    "category": "Fertilizer Application",
+    "tagline": "Row-by-row liquid control module.",
+    "oem_url": "https://www.precisionplanting.com/products/planters/vapplyhd",
+    "highlights": [
+      "Accurate at any speed",
+      "Multiple products",
+      "Simple plumbing"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "vapplyhd"
+  },
+  {
+    "name": "Clarity",
+    "equipment": "Air Seeders & Drills",
+    "category": "Blockage and Flow Monitoring",
+    "tagline": "Advanced flow and blockage monitoring.",
+    "oem_url": "https://www.precisionplanting.com/products/air-seeders-and-drills/clarity",
+    "highlights": [
+      "Find blockages fast",
+      "Visualize rates",
+      "Improve uptime"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "slug": "clarity"
+  },
+  {
+    "name": "SymphonyNozzle",
+    "equipment": "Sprayers",
+    "category": "Nozzle Control",
+    "tagline": "Independent rate & pressure control at the nozzle.",
+    "oem_url": "https://www.precisionplanting.com/products/sprayers/symphonynozzle",
+    "highlights": [
+      "Section precision",
+      "Consistent droplet size",
+      "Cab control"
+    ],
+    "works_with": [],
+    "slug": "symphonynozzle"
+  }
+]

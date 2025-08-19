@@ -1,0 +1,57 @@
+:root{
+  --brand-bg:#0b1b13;
+  --brand-fg:#ffffff;
+  --brand-accent:#44b36a;
+  --brand-accent-2:#7cd992;
+  --text:#101418;
+  --muted:#6b7280;
+  --card:#0f2419;
+  --border:#e5e7eb;
+}
+html{scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;color:var(--text);background:#fff}
+a{color:var(--brand-accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1200px;margin:0 auto;padding:0 1rem}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1rem;border-radius:.75rem;background:var(--brand-accent);color:#fff;font-weight:700;border:0;cursor:pointer}
+.btn.secondary{background:#0f172a}
+.btn.ghost{background:transparent;border:1px solid var(--border);color:var(--text)}
+.nav{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--border);z-index:40}
+.nav .inner{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem}
+.logo{display:flex;align-items:center;gap:.5rem;font-weight:800;color:#0f172a}
+.logo svg{width:28px;height:28px}
+.menu{display:flex;gap:1rem;flex-wrap:wrap}
+.hero{background:linear-gradient(180deg, var(--brand-bg) 0%, #132b1e 100%);color:var(--brand-fg);padding:4rem 0}
+.hero h1{font-size:clamp(2rem,3.2vw,3.2rem);line-height:1.1;margin:0 0 .75rem}
+.hero p{max-width:56ch;color:#cbd5e1}
+.grid{display:grid;gap:1rem}
+.grid-3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:#fff;border:1px solid var(--border);border-radius:1rem;overflow:hidden;display:flex;flex-direction:column}
+.card .pad{padding:1rem}
+.badge{display:inline-block;background:#ecfdf5;color:#047857;font-weight:700;border-radius:999px;padding:.25rem .5rem;font-size:.75rem}
+.kicker{letter-spacing:.1em;text-transform:uppercase;color:#a7f3d0;font-weight:800;font-size:.8rem}
+.section{padding:3rem 0}
+.section h2{font-size:clamp(1.4rem,2.5vw,2rem);margin:.2rem 0 1rem}
+.footer{margin-top:3rem;border-top:1px solid var(--border);padding:2rem 0;color:#4b5563;font-size:.95rem}
+.filters{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+.input{padding:.625rem .75rem;border:1px solid var(--border);border-radius:.75rem}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border-bottom:1px solid var(--border);padding:.75rem;text-align:left}
+.hero .cta{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1rem}
+/* Responsive image placeholder */
+.ratio{position:relative;width:100%;padding-top:60%;background:linear-gradient(45deg,#0b1b13,#12331f)}
+.ratio .txt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#a7f3d0;font-weight:800;letter-spacing:.08em}
+/* Utility */
+.mt-2{margin-top:.5rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}
+.mb-2{margin-bottom:.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}
+.flex{display:flex}.gap-2{gap:.5rem}.gap-4{gap:1rem}.items-center{align-items:center}.justify-between{justify-content:space-between}
+.hide{display:none}
+small, .muted{color:var(--muted)}
+/* Dark cards section for equipment grid */
+.equip{background:#0c1f16;background:linear-gradient(180deg,#0c1f16,#0b1b13);color:#e2e8f0}
+.equip .card{background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.08);color:#d1fae5}
+.equip a{color:#a7f3d0}
+/* Toast */
+.toast{position:fixed;bottom:1rem;right:1rem;background:#111827;color:#f9fafb;padding:.75rem 1rem;border-radius:.75rem;box-shadow:0 10px 30px rgba(0,0,0,.25);display:none}
+.toast.show{display:block}

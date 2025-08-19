@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Precision Reseller Starter</title>
+  <meta name="description" content="Upgrade the equipment you already own with retrofit solutions and expert local support."/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/style.css"/>
+  <script defer src="assets/app.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Premier Dealer | Precision Planting",
+    "url":"https://example-dealer.com",
+    "logo":"https://example-dealer.com/assets/logo.svg",
+    "sameAs":["https://facebook.com/yourpage","https://www.youtube.com/@yourchannel"]
+  }
+  </script>
+
+</head>
+<body>
+
+  <div class="nav">
+    <div class="inner container">
+      <a class="logo" href="index.html">
+        <img src="assets/logo.svg" alt="Dealer Logo" style="width:28px;height:28px"/>
+        <span>Premier Dealer</span>
+      </a>
+      <div class="menu">
+        <a href="products.html">Products</a>
+        <a href="dealers.html">Locations</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+
+<header class="hero">
+  <div class="container">
+    <span class="kicker">Contact</span>
+    <h1>Request a quote</h1>
+    <p>Tell us about your equipment and goals—we’ll design an upgrade plan that pays for itself.</p>
+  </div>
+</header>
+
+<section class="section" id="quote">
+  <div class="container">
+    <form class="card pad" onsubmit="event.preventDefault(); copyLead();">
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem">
+        <div><label>Name<br><input class="input" required id="name"/></label></div>
+        <div><label>Phone<br><input class="input" required id="phone"/></label></div>
+        <div><label>Email<br><input class="input" required id="email" type="email"/></label></div>
+        <div><label>Equipment<br>
+          <select class="input" id="equip">
+            <option>Planter</option><option>Sprayer</option><option>Seeder/Drill</option><option>Other</option>
+          </select></label></div>
+      </div>
+      <label class="mt-4">Message<br><textarea class="input" id="msg" rows="5" placeholder="Model, rows, acres, goals"></textarea></label>
+      <div class="mt-4 flex gap-4">
+        <button class="btn" type="submit">Copy to Clipboard</button>
+        <a class="btn ghost" href="mailto:sales@example-dealer.com">Email Us</a>
+      </div>
+      <small class="muted mt-2">This static form copies the lead message to your clipboard for quick email or CRM paste. Swap to your form endpoint when ready.</small>
+    </form>
+  </div>
+</section>
+
+
+  <div class="footer">
+    <div class="container">
+      <div class="grid grid-3">
+        <div>
+          <div class="logo"><img src="assets/logo.svg" alt="" style="width:24px;height:24px"/> Premier Dealer</div>
+          <p class="mt-2 muted">Independent reseller. Precision Planting® products and trademarks are used for identification only.</p>
+        </div>
+        <div>
+          <strong>Quick Links</strong>
+          <ul class="mt-2" style="list-style:none;padding:0;margin:0;display:grid;gap:.25rem">
+            <li><a href="products.html">Products</a></li>
+            <li><a href="dealers.html">Locations</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Contact</strong>
+          <p class="mt-2">123 County Rd, Yourtown, ST 00000<br/>
+          (555) 555-5555<br/>
+          <a href="mailto:sales@example-dealer.com">sales@example-dealer.com</a></p>
+        </div>
+      </div>
+      <p class="mt-6 muted">© 2025 Premier Dealer. All rights reserved.</p>
+    </div>
+  </div>
+
+<div class="toast" id="toast" role="status" aria-live="polite">Copied to clipboard</div>
+</body>
+</html>

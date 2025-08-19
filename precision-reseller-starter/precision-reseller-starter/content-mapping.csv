@@ -1,0 +1,7 @@
+Page,Section,Purpose,H1,Copy Guidelines,Media,Primary CTA,Links,Link Type,Notes
+Home,Hero,Value prop + CTA,Upgrade the equipment you already own,"Retrofit planters, sprayers, and seeders for more acres/hour and better stands.",Hero image or farm shot,Explore Products / Request a Quote,/products.html;/contact.html,Internal,
+Home,Three Upgrades,Equipment buckets,Solutions for every pass,Planter downforce/closing; Sprayer rate/pressure; Drill blockage,3 illustrative images,Browse category,/products.html#Planters;/products.html#Sprayers,Internal,
+Products,Filters,Search + filters,Retrofit upgrades for your equipment,Search input; equipment and category filters,—,—,—,—,
+Product Detail,Highlights,Key features list,{Product Name},Top 3–6 selling points,Product photo,Request a Quote,/contact.html#quote,Internal,OEM link
+Resources,Guides,"Manuals, videos",Guides & Events,Link to OEM manuals and local events,—,—,—,External,
+Contact,Form,Lead form,Request a quote,"Name, phone, email, equipment, message",—,Copy to clipboard + email link,mailto:sales@example-dealer.com,Internal,
