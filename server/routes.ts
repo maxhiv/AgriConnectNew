@@ -42,6 +42,62 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Scrape product data from manufacturer URL
+  app.post("/api/scrape-product", async (req, res) => {
+    try {
+      const { manufacturerUrl } = req.body;
+      
+      if (!manufacturerUrl) {
+        return res.status(400).json({
+          success: false,
+          message: "Manufacturer URL is required"
+        });
+      }
+
+      const { spawn } = require('child_process');
+      const python = spawn('python3', ['server/scraper.py', manufacturerUrl]);
+      
+      let scraped_data = '';
+      let error_data = '';
+      
+      python.stdout.on('data', (data) => {
+        scraped_data += data.toString();
+      });
+      
+      python.stderr.on('data', (data) => {
+        error_data += data.toString();
+      });
+      
+      python.on('close', (code) => {
+        if (code === 0) {
+          try {
+            const result = JSON.parse(scraped_data);
+            res.json({ success: true, data: result });
+          } catch (parseError) {
+            res.status(500).json({
+              success: false,
+              message: "Failed to parse scraped data",
+              error: parseError.message
+            });
+          }
+        } else {
+          res.status(500).json({
+            success: false,
+            message: "Scraping failed",
+            error: error_data
+          });
+        }
+      });
+      
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        message: "Failed to initiate scraping",
+        error: error.message
+      });
+    }
+  });
+
   // Product routes
   app.get("/api/products", async (req, res) => {
     try {
@@ -75,7 +131,52 @@ export async function registerRoutes(app: Express): Promise<Server> {
         });
         return;
       }
-      res.json(product);
+
+      // Check if we should enrich with scraped data
+      const { enrich } = req.query;
+      if (enrich === 'true' && product.oemUrl) {
+        try {
+          const { spawn } = require('child_process');
+          const python = spawn('python3', ['server/scraper.py', product.oemUrl]);
+          
+          let scraped_data = '';
+          
+          python.stdout.on('data', (data) => {
+            scraped_data += data.toString();
+          });
+          
+          python.on('close', (code) => {
+            if (code === 0) {
+              try {
+                const scrapedResult = JSON.parse(scraped_data);
+                if (scrapedResult && !scrapedResult.error) {
+                  // Enrich product data with scraped information
+                  const enrichedProduct = {
+                    ...product,
+                    enrichedTitle: scrapedResult.title || product.name,
+                    enrichedDescription: scrapedResult.description || product.tagline,
+                    extendedDescription: scrapedResult.extended_description,
+                    scrapedFeatures: scrapedResult.features || [],
+                    lastScraped: scrapedResult.scraped_at
+                  };
+                  res.json(enrichedProduct);
+                } else {
+                  res.json(product);
+                }
+              } catch (parseError) {
+                res.json(product);
+              }
+            } else {
+              res.json(product);
+            }
+          });
+        } catch (scrapeError) {
+          // If scraping fails, return original product data
+          res.json(product);
+        }
+      } else {
+        res.json(product);
+      }
     } catch (error) {
       res.status(500).json({ 
         success: false, 
