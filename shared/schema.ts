@@ -30,6 +30,9 @@ export const products = pgTable("products", {
   highlights: text("highlights").array().notNull(),
   worksWith: text("works_with").array().notNull(),
   slug: text("slug").notNull().unique(),
+  logoBlack: text("logo_black"),
+  logoDarkGreen: text("logo_dark_green"),
+  logoWhite: text("logo_white"),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
@@ -56,6 +59,9 @@ export const insertProductSchema = createInsertSchema(products).pick({
   highlights: true,
   worksWith: true,
   slug: true,
+  logoBlack: true,
+  logoDarkGreen: true,
+  logoWhite: true,
 });
 
 export type InsertUser = z.infer<typeof insertUserSchema>;

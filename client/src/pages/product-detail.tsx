@@ -83,6 +83,17 @@ export default function ProductDetail() {
             </Badge>
           </div>
           
+          {product.logoDarkGreen && (
+            <div className="mb-8 flex justify-center lg:justify-start">
+              <img 
+                src={product.logoDarkGreen.replace('/src', '')} 
+                alt={`${product.name} logo`}
+                className="h-24 w-auto object-contain"
+                data-testid="img-product-logo-detail"
+              />
+            </div>
+          )}
+          
           <h1 className="text-4xl md:text-6xl font-bold mb-4" data-testid="text-product-name">
             {product.name}
           </h1>

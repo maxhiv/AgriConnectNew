@@ -129,6 +129,16 @@ export default function Products() {
                         <Badge variant="secondary">{product.equipment}</Badge>
                         <Badge variant="outline">{product.category}</Badge>
                       </div>
+                      {product.logoDarkGreen && (
+                        <div className="my-4 flex justify-center">
+                          <img 
+                            src={product.logoDarkGreen.replace('/src', '')} 
+                            alt={`${product.name} logo`}
+                            className="h-16 w-auto object-contain"
+                            data-testid={`img-product-logo-${product.slug}`}
+                          />
+                        </div>
+                      )}
                       <CardTitle className="text-xl">{product.name}</CardTitle>
                       <CardDescription>{product.tagline}</CardDescription>
                     </CardHeader>
