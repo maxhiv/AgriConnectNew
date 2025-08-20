@@ -55,20 +55,20 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       const { spawn } = await import('node:child_process');
-      const python = spawn.spawn('python3', ['server/scraper.py', manufacturerUrl]);
+      const python = spawn('python3', ['server/scraper.py', manufacturerUrl]);
 
       let scraped_data = '';
       let error_data = '';
 
-      python.stdout.on('data', (data) => {
+      python.stdout.on('data', (data: Buffer) => {
         scraped_data += data.toString();
       });
 
-      python.stderr.on('data', (data) => {
+      python.stderr.on('data', (data: Buffer) => {
         error_data += data.toString();
       });
 
-      python.on('close', (code) => {
+      python.on('close', (code: number | null) => {
         if (code === 0) {
           try {
             const result = JSON.parse(scraped_data);
@@ -77,7 +77,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
             res.status(500).json({
               success: false,
               message: "Failed to parse scraped data",
-              error: parseError.message
+              error: parseError instanceof Error ? parseError.message : 'Unknown error'
             });
           }
         } else {
@@ -93,7 +93,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.status(500).json({
         success: false,
         message: "Failed to initiate scraping",
-        error: error.message
+        error: error instanceof Error ? error.message : 'Unknown error'
       });
     }
   });
@@ -135,7 +135,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       try {
         // Call Python content enhancer
         const { spawn } = await import('node:child_process');
-        const python = spawn.spawn('python3', ['server/scraper.py', product.oemUrl]);
+        const python = spawn('python3', ['server/scraper.py', product.oemUrl]);
 
         let output = '';
         python.stdout.on('data', (data: Buffer) => {
@@ -269,32 +269,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json({
         success: true,
         imported: importedCount,
-        updated: updatedCount,
         skipped: skippedCount,
-        message: `Successfully processed ${importedCount + updatedCount} products (${importedCount} new, ${updatedCount} updated), skipped ${skippedCount} with errors`
+        message: `Successfully imported ${importedCount} products, skipped ${skippedCount} with errors`
       });
 
     } catch (error) {
       console.error('CSV Import error:', error);
       res.status(500).json({
         success: false,
-        message: "Failed to import CSV products: " + error.message
-      });
-    }
-  });
-
-      res.json({
-        success: true,
-        imported: importedCount,
-        skipped: skippedCount,
-        message: `Successfully imported ${importedCount} products, skipped ${skippedCount} existing products`
-      });
-
-    } catch (error) {
-      console.error('Import error:', error);
-      res.status(500).json({
-        success: false,
-        message: "Failed to import products: " + error.message
+        message: "Failed to import CSV products: " + (error instanceof Error ? error.message : 'Unknown error')
       });
     }
   });
