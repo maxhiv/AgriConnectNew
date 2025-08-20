@@ -268,6 +268,92 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       res.json({
         success: true,
+        imported: importedCount,
+        updated: updatedCount,
+        skipped: skippedCount,
+        message: `Successfully processed ${importedCount + updatedCount} products (${importedCount} new, ${updatedCount} updated), skipped ${skippedCount} with errors`
+      });
+
+    } catch (error) {
+      console.error('CSV Import error:', error);
+      res.status(500).json({
+        success: false,
+        message: "Failed to import CSV products: " + error.message
+      });
+    }
+  });
+
+      res.json({
+        success: true,
+        imported: importedCount,
+        skipped: skippedCount,
+        message: `Successfully imported ${importedCount} products, skipped ${skippedCount} existing products`
+      });
+
+    } catch (error) {
+      console.error('Import error:', error);
+      res.status(500).json({
+        success: false,
+        message: "Failed to import products: " + error.message
+      });
+    }
+  });
+
+  // Import enriched products from CSV
+  app.post("/api/import-csv-products", async (req, res) => {
+    try {
+      const csvEnrichedPath = path.join(process.cwd(), 'enriched_products_from_csv.json');
+      
+      if (!fs.existsSync(csvEnrichedPath)) {
+        return res.status(400).json({
+          success: false,
+          message: "Enriched CSV data not found. Please run the enrichment script first."
+        });
+      }
+
+      const jsonData = fs.readFileSync(csvEnrichedPath, 'utf8');
+      const productsData = JSON.parse(jsonData);
+
+      let importedCount = 0;
+      let updatedCount = 0;
+      let skippedCount = 0;
+
+      for (const productData of productsData) {
+        try {
+          // Check if product already exists
+          const existingProduct = await storage.getProductBySlug(productData.slug);
+          
+          // Transform data to match our schema
+          const transformedData = {
+            name: productData.name,
+            equipment: productData.equipment,
+            category: productData.category,
+            tagline: productData.tagline,
+            oemUrl: productData.oem_url,
+            highlights: productData.highlights || [],
+            worksWith: productData.works_with || [],
+            slug: productData.slug
+          };
+
+          const validatedData = insertProductSchema.parse(transformedData);
+          
+          if (existingProduct) {
+            // Update existing product with enriched data
+            await storage.updateProduct(existingProduct.id, validatedData);
+            updatedCount++;
+          } else {
+            // Create new product
+            await storage.createProduct(validatedData);
+            importedCount++;
+          }
+        } catch (error) {
+          console.error('Error processing product:', productData.name, error);
+          skippedCount++;
+        }
+      }
+
+      res.json({
+        success: true,
         message: `Import completed: ${importedCount} products imported, ${skippedCount} skipped`,
         imported: importedCount,
         skipped: skippedCount

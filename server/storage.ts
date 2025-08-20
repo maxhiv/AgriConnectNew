@@ -14,6 +14,7 @@ export interface IStorage {
   createProduct(product: InsertProduct): Promise<Product>;
   getProductsByEquipment(equipment: string): Promise<Product[]>;
   getProductsByCategory(category: string): Promise<Product[]>;
+  updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | undefined>;
 }
 
 export class MemStorage implements IStorage {
@@ -46,8 +47,8 @@ export class MemStorage implements IStorage {
 
   async createContactMessage(insertMessage: InsertContactMessage): Promise<ContactMessage> {
     const id = randomUUID();
-    const message: ContactMessage = { 
-      ...insertMessage, 
+    const message: ContactMessage = {
+      ...insertMessage,
       id,
       phone: insertMessage.phone || null,
       service: insertMessage.service || null,
@@ -73,13 +74,13 @@ export class MemStorage implements IStorage {
 
   async createProduct(insertProduct: InsertProduct): Promise<Product> {
     const id = randomUUID();
-    const product: Product = { 
-      ...insertProduct, 
-      id, 
+    const product: Product = {
+      ...insertProduct,
+      id,
       logoBlack: insertProduct.logoBlack || null,
       logoDarkGreen: insertProduct.logoDarkGreen || null,
       logoWhite: insertProduct.logoWhite || null,
-      createdAt: new Date() 
+      createdAt: new Date()
     };
     this.products.set(id, product);
     return product;
@@ -91,6 +92,17 @@ export class MemStorage implements IStorage {
 
   async getProductsByCategory(category: string): Promise<Product[]> {
     return Array.from(this.products.values()).filter(p => p.category === category);
+  }
+
+  // Placeholder for updateProduct in MemStorage if needed for testing
+  async updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | undefined> {
+    const product = this.products.get(id);
+    if (!product) {
+      return undefined;
+    }
+    const updatedProduct: Product = { ...product, ...data, updatedAt: new Date() };
+    this.products.set(id, updatedProduct);
+    return updatedProduct;
   }
 }
 
@@ -147,6 +159,15 @@ export class DatabaseStorage implements IStorage {
     const [product] = await db
       .insert(products)
       .values(insertProduct)
+      .returning();
+    return product;
+  }
+
+  async updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | undefined> {
+    const [product] = await db
+      .update(products)
+      .set({ ...data, updatedAt: new Date() })
+      .where(eq(products.id, id))
       .returning();
     return product;
   }
