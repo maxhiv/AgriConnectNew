@@ -254,27 +254,13 @@ export default function ProductDetail() {
             )}
 
             {/* Research Findings */}
-            {product.researchFindings && product.researchFindings.length > 0 && (
+            {product.researchFindings && (
               <div className="space-y-6">
                 <h2 className="text-2xl font-semibold">Research & Performance Data</h2>
-                <div className="space-y-4">
-                  {product.researchFindings.map((finding, index) => (
-                    <div key={index} className="border rounded-lg p-4 bg-slate-50">
-                      <h3 className="font-semibold text-lg mb-2">{finding.study}</h3>
-                      <p className="text-muted-foreground mb-3 leading-relaxed">
-                        {finding.details}
-                      </p>
-                      {finding.key_metrics && finding.key_metrics.length > 0 && (
-                        <div className="flex flex-wrap gap-2">
-                          {finding.key_metrics.map((metric, metricIndex) => (
-                            <Badge key={metricIndex} variant="secondary" className="text-xs">
-                              {metric}
-                            </Badge>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  ))}
+                <div className="border rounded-lg p-4 bg-slate-50">
+                  <p className="text-muted-foreground leading-relaxed">
+                    {product.researchFindings}
+                  </p>
                 </div>
               </div>
             )}
