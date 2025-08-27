@@ -1,5 +1,5 @@
 import { sql } from "drizzle-orm";
-import { pgTable, text, varchar, timestamp } from "drizzle-orm/pg-core";
+import { pgTable, text, varchar, timestamp, boolean } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
@@ -43,7 +43,7 @@ export const products = pgTable("products", {
   benefits: text("benefits").array(),
   researchFindings: text("research_findings"), // Assuming this will be a JSON or similar type
   compatibilityDetails: text("compatibility_details"), // Assuming this will be a JSON or similar type
-  contentEnriched: pgTable("products").boolean("content_enriched"),
+  contentEnriched: boolean("content_enriched"),
   lastContentUpdate: timestamp("last_content_update"),
 });
 

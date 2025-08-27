@@ -83,6 +83,13 @@ export class MemStorage implements IStorage {
       logoWhite: insertProduct.logoWhite || null,
       primaryImage: insertProduct.primaryImage || null,
       images: insertProduct.images || null,
+      enrichedDescription: insertProduct.enrichedDescription || null,
+      detailedFeatures: insertProduct.detailedFeatures || null,
+      benefits: insertProduct.benefits || null,
+      researchFindings: insertProduct.researchFindings || null,
+      compatibilityDetails: insertProduct.compatibilityDetails || null,
+      contentEnriched: insertProduct.contentEnriched || null,
+      lastContentUpdate: insertProduct.lastContentUpdate || null,
       createdAt: new Date(),
       updatedAt: null
     };
