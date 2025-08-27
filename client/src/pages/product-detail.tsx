@@ -258,9 +258,19 @@ export default function ProductDetail() {
               <div className="space-y-6">
                 <h2 className="text-2xl font-semibold">Research & Performance Data</h2>
                 <div className="border rounded-lg p-4 bg-slate-50">
-                  <p className="text-muted-foreground leading-relaxed">
-                    {product.researchFindings}
-                  </p>
+                  {typeof product.researchFindings === 'string' ? (
+                    <p className="text-muted-foreground leading-relaxed">
+                      {product.researchFindings}
+                    </p>
+                  ) : Array.isArray(product.researchFindings) ? (
+                    <ul className="space-y-2">
+                      {product.researchFindings.map((finding: string, index: number) => (
+                        <li key={index} className="text-muted-foreground leading-relaxed">
+                          • {finding}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : null}
                 </div>
               </div>
             )}
