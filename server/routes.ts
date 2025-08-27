@@ -138,11 +138,16 @@ export async function registerRoutes(app: Express): Promise<Server> {
         const python = spawn('python3', ['server/scraper.py', product.oemUrl]);
 
         let output = '';
+        let responseSent = false;
+
         python.stdout.on('data', (data: Buffer) => {
           output += data.toString();
         });
 
         python.on('close', (code: number) => {
+          if (responseSent) return;
+          responseSent = true;
+
           if (code === 0 && output.trim()) {
             try {
               const scrapedData = JSON.parse(output);
@@ -168,6 +173,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
         });
 
         python.on('error', (error: Error) => {
+          if (responseSent) return;
+          responseSent = true;
           console.error('Error running scraper:', error);
           res.json(product);
         });
@@ -223,11 +230,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Get enhanced product data
-  app.get("/api/products/:slug/enhanced", async (req, res) => {
-    // Import products from JSON file
-    app.post("/api/import-products", async (req, res) => {
-      try {
+  // Import products from JSON file
+  app.post("/api/import-products", async (req, res) => {
+    try {
         const jsonPath = path.join(process.cwd(), 'precision-reseller-starter/precision-reseller-starter/data/products.json');
         const jsonData = fs.readFileSync(jsonPath, 'utf8');
         const productsData = JSON.parse(jsonData);
@@ -349,7 +354,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
     });
 
-    const httpServer = createServer(app);
-    return httpServer;
-  });
+  const httpServer = createServer(app);
+  return httpServer;
 }
