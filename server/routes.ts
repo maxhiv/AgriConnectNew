@@ -403,23 +403,22 @@ export async function registerRoutes(app: Express): Promise<Server> {
             'vDrive Insecticide': 'vdrive-insecticide'
           };
 
-          const targetSlug = slugMapping[productName] || (enrichedData as any).slug;
-          const existingProduct = storage.getProductBySlug(targetSlug);
+          const targetSlug = (enrichedData as any).slug || slugMapping[productName];
+          const existingProduct = await storage.getProductBySlug(targetSlug);
 
           if (existingProduct) {
             // Update existing product with detailed content
-            const updatedProduct = {
-              ...existingProduct,
-              enrichedDescription: (enrichedData as any).enriched_description || existingProduct.description,
-              detailedFeatures: (enrichedData as any).detailed_features || [],
+            const updateData = {
+              enrichedDescription: (enrichedData as any).enrichedDescription,
+              detailedFeatures: (enrichedData as any).detailedFeatures || [],
               benefits: (enrichedData as any).benefits || [],
-              researchFindings: (enrichedData as any).research_findings || [],
-              compatibilityDetails: (enrichedData as any).compatibility_details || {},
-              contentEnriched: true,
-              lastContentUpdate: (enrichedData as any).last_enriched || '2025-01-20'
+              researchFindings: (enrichedData as any).researchFindings,
+              compatibilityDetails: (enrichedData as any).compatibilityDetails,
+              contentEnriched: (enrichedData as any).contentEnriched || true,
+              lastContentUpdate: new Date((enrichedData as any).lastContentUpdate || '2025-08-27')
             };
 
-            await storage.updateProduct(updatedProduct);
+            await storage.updateProduct(existingProduct.id, updateData);
             updatedCount++;
           } else {
             skippedCount++;

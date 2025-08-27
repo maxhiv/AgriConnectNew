@@ -53,6 +53,7 @@ export default function ProductDetail() {
     queryKey: ['/api/products', slug],
     queryFn: () => fetch(`/api/products/${slug}?enrich=true`).then(res => res.json()),
     enabled: !!slug,
+    staleTime: 0, // Always fetch fresh data for product details
   });
 
   if (isLoading) {
