@@ -164,7 +164,57 @@ export default function ProductDetail() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
-          <div className="lg:col-span-2 space-y-8">
+          <div className="lg:col-span-2 space-y-6">
+            {/* Product Image */}
+            {product.primaryImage && (
+              <div className="relative aspect-video bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg overflow-hidden">
+                <img 
+                  src={product.primaryImage} 
+                  alt={product.name}
+                  className="w-full h-full object-contain p-8"
+                  onError={(e) => {
+                    // Fallback to placeholder if image fails to load
+                    e.currentTarget.src = `data:image/svg+xml,${encodeURIComponent(
+                      `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="400" height="300" fill="#f1f5f9"/>
+                        <text x="200" y="150" text-anchor="middle" fill="#64748b" font-size="16">${product.name}</text>
+                      </svg>`
+                    )}`;
+                  }}
+                />
+              </div>
+            )}
+
+            {/* Additional Images */}
+            {product.images && product.images.length > 1 && (
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                {product.images.slice(1, 4).map((image, index) => (
+                  <div key={index} className="aspect-square bg-slate-50 rounded-lg overflow-hidden">
+                    <img 
+                      src={image.path} 
+                      alt={`${product.name} ${index + 2}`}
+                      className="w-full h-full object-contain p-4"
+                    />
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Product Header */}
+            <div className="space-y-4">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Badge variant="secondary">{product.equipment}</Badge>
+                <span>•</span>
+                <span>{product.category}</span>
+              </div>
+
+              <h1 className="text-4xl font-bold tracking-tight">{product.name}</h1>
+
+              {product.tagline && (
+                <p className="text-xl text-muted-foreground">{product.tagline}</p>
+              )}
+            </div>
+
             {/* Key Features */}
             <Card>
               <CardHeader>

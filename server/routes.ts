@@ -202,154 +202,154 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Update product by slug
   app.put("/api/products/:slug", async (req, res) => {
     try {
-      const product = await storage.getProductBySlug(req.params.slug);
-      if (!product) {
-        res.status(404).json({
-          success: false,
-          message: "Product not found"
-        });
-        return;
+      const { slug } = req.params;
+      const validatedData = insertProductSchema.parse(req.body);
+
+      const updated = await storage.updateProductBySlug(slug, validatedData);
+      if (!updated) {
+        return res.status(404).json({ error: "Product not found" });
       }
 
-      // Update product in database using raw SQL
-      const updateData = req.body;
-
-      // For now, return success - we'll handle the actual update via SQL
-      res.json({ success: true, message: "Product updated" });
+      res.json(updated);
     } catch (error) {
-      res.status(500).json({
-        success: false,
-        message: "Failed to update product"
-      });
+      console.error("Error updating product:", error);
+      if (error instanceof z.ZodError) {
+        return res.status(400).json({ error: error.errors });
+      }
+      res.status(500).json({ error: "Failed to update product" });
     }
   });
 
-  // Import products from JSON file
-  app.post("/api/import-products", async (req, res) => {
-    try {
-      const jsonPath = path.join(process.cwd(), 'precision-reseller-starter/precision-reseller-starter/data/products.json');
-      const jsonData = fs.readFileSync(jsonPath, 'utf8');
-      const productsData = JSON.parse(jsonData);
+  // Get enhanced product data
+  app.get("/api/products/:slug/enhanced", async (req, res) => {
+    // Import products from JSON file
+    app.post("/api/import-products", async (req, res) => {
+      try {
+        const jsonPath = path.join(process.cwd(), 'precision-reseller-starter/precision-reseller-starter/data/products.json');
+        const jsonData = fs.readFileSync(jsonPath, 'utf8');
+        const productsData = JSON.parse(jsonData);
 
-      let importedCount = 0;
-      let skippedCount = 0;
+        let importedCount = 0;
+        let skippedCount = 0;
 
-      for (const productData of productsData) {
-        try {
-          // Check if product already exists
-          const existingProduct = await storage.getProductBySlug(productData.slug);
-          if (existingProduct) {
-            skippedCount++;
-            continue;
-          }
+        for (const productData of productsData) {
+          try {
+            // Check if product already exists
+            const existingProduct = await storage.getProductBySlug(productData.slug);
+            if (existingProduct) {
+              skippedCount++;
+              continue;
+            }
 
-          // Transform data to match our schema
-          const transformedData = {
-            name: productData.name,
-            equipment: productData.equipment,
-            category: productData.category,
-            tagline: productData.tagline,
-            oemUrl: productData.oem_url,
-            highlights: productData.highlights || [],
-            worksWith: productData.works_with || [],
-            slug: productData.slug
-          };
+            // Transform data to match our schema
+            const transformedData = {
+              name: productData.name,
+              equipment: productData.equipment,
+              category: productData.category,
+              tagline: productData.tagline,
+              oemUrl: productData.oem_url,
+              highlights: productData.highlights || [],
+              worksWith: productData.works_with || [],
+              slug: productData.slug
+            };
 
-          const validatedData = insertProductSchema.parse(transformedData);
-          await storage.createProduct(validatedData);
-          importedCount++;
-        } catch (error) {
-          console.error('Error importing product:', productData.name, error);
-          skippedCount++;
-        }
-      }
-
-      res.json({
-        success: true,
-        imported: importedCount,
-        skipped: skippedCount,
-        message: `Successfully imported ${importedCount} products, skipped ${skippedCount} with errors`
-      });
-
-    } catch (error) {
-      console.error('CSV Import error:', error);
-      res.status(500).json({
-        success: false,
-        message: "Failed to import CSV products: " + (error instanceof Error ? error.message : 'Unknown error')
-      });
-    }
-  });
-
-  // Import enriched products from CSV
-  app.post("/api/import-csv-products", async (req, res) => {
-    try {
-      const csvEnrichedPath = path.join(process.cwd(), 'enriched_products_from_csv.json');
-      
-      if (!fs.existsSync(csvEnrichedPath)) {
-        return res.status(400).json({
-          success: false,
-          message: "Enriched CSV data not found. Please run the enrichment script first."
-        });
-      }
-
-      const jsonData = fs.readFileSync(csvEnrichedPath, 'utf8');
-      const productsData = JSON.parse(jsonData);
-
-      let importedCount = 0;
-      let updatedCount = 0;
-      let skippedCount = 0;
-
-      for (const productData of productsData) {
-        try {
-          // Check if product already exists
-          const existingProduct = await storage.getProductBySlug(productData.slug);
-          
-          // Transform data to match our schema
-          const transformedData = {
-            name: productData.name,
-            equipment: productData.equipment,
-            category: productData.category,
-            tagline: productData.tagline,
-            oemUrl: productData.oem_url,
-            highlights: productData.highlights || [],
-            worksWith: productData.works_with || [],
-            slug: productData.slug
-          };
-
-          const validatedData = insertProductSchema.parse(transformedData);
-          
-          if (existingProduct) {
-            // Update existing product with enriched data
-            await storage.updateProduct(existingProduct.id, validatedData);
-            updatedCount++;
-          } else {
-            // Create new product
+            const validatedData = insertProductSchema.parse(transformedData);
             await storage.createProduct(validatedData);
             importedCount++;
+          } catch (error) {
+            console.error('Error importing product:', productData.name, error);
+            skippedCount++;
           }
-        } catch (error) {
-          console.error('Error processing product:', productData.name, error);
-          skippedCount++;
         }
+
+        res.json({
+          success: true,
+          imported: importedCount,
+          skipped: skippedCount,
+          message: `Successfully imported ${importedCount} products, skipped ${skippedCount} with errors`
+        });
+
+      } catch (error) {
+        console.error('CSV Import error:', error);
+        res.status(500).json({
+          success: false,
+          message: "Failed to import CSV products: " + (error instanceof Error ? error.message : 'Unknown error')
+        });
       }
+    });
 
-      res.json({
-        success: true,
-        message: `Import completed: ${importedCount} products imported, ${skippedCount} skipped`,
-        imported: importedCount,
-        skipped: skippedCount
-      });
-    } catch (error) {
-      console.error('Import error:', error);
-      res.status(500).json({
-        success: false,
-        message: "Failed to import products"
-      });
-    }
+    // Import enriched products from CSV
+    app.post("/api/import-csv-products", async (req, res) => {
+      try {
+        const csvEnrichedPath = path.join(process.cwd(), 'enriched_products_from_csv.json');
+
+        if (!fs.existsSync(csvEnrichedPath)) {
+          return res.status(400).json({
+            success: false,
+            message: "Enriched CSV data not found. Please run the enrichment script first."
+          });
+        }
+
+        const jsonData = fs.readFileSync(csvEnrichedPath, 'utf8');
+        const productsData = JSON.parse(jsonData);
+
+        let importedCount = 0;
+        let updatedCount = 0;
+        let skippedCount = 0;
+
+        for (const productData of productsData) {
+          try {
+            // Check if product already exists
+            const existingProduct = await storage.getProductBySlug(productData.slug);
+
+            // Transform data to match our schema
+            const transformedData = {
+              name: productData.name,
+              equipment: productData.equipment,
+              category: productData.category,
+              tagline: productData.tagline,
+              oemUrl: productData.oem_url,
+              highlights: productData.highlights || [],
+              worksWith: productData.works_with || [],
+              slug: productData.slug
+            };
+
+            const validatedData = insertProductSchema.parse(transformedData);
+
+            if (existingProduct) {
+              // Update existing product with enriched data
+              await storage.updateProduct(existingProduct.id, validatedData);
+              updatedCount++;
+            } else {
+              // Create new product
+              await storage.createProduct(validatedData);
+              importedCount++;
+            }
+          } catch (error) {
+            console.error('Error processing product:', productData.name, error);
+            skippedCount++;
+          }
+        }
+
+        res.json({
+          success: true,
+          message: `Import completed: ${importedCount} products imported, ${skippedCount} skipped`,
+          imported: importedCount,
+          skipped: skippedCount
+        });
+      } catch (error) {
+        console.error('Import error:', error);
+        res.status(500).json({
+          success: false,
+          message: "Failed to import products"
+        });
+      }
+    });
+
+    const httpServer = createServer(app);
+    return httpServer;
   });
-
-  const httpServer = createServer(app);
-  return httpServer;
 }

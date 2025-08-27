@@ -163,13 +163,40 @@ export class DatabaseStorage implements IStorage {
     return product;
   }
 
-  async updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | undefined> {
-    const [product] = await db
-      .update(products)
-      .set({ ...data, updatedAt: new Date() })
-      .where(eq(products.id, id))
-      .returning();
-    return product;
+  async updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | null> {
+    try {
+      const [updated] = await db
+        .update(products)
+        .set({
+          ...data,
+          updatedAt: new Date().toISOString(),
+        })
+        .where(eq(products.id, id))
+        .returning();
+
+      return updated || null;
+    } catch (error) {
+      console.error("Error updating product:", error);
+      return null;
+    }
+  }
+
+  async updateProductBySlug(slug: string, data: Partial<InsertProduct>): Promise<Product | null> {
+    try {
+      const [updated] = await db
+        .update(products)
+        .set({
+          ...data,
+          updatedAt: new Date().toISOString(),
+        })
+        .where(eq(products.slug, slug))
+        .returning();
+
+      return updated || null;
+    } catch (error) {
+      console.error("Error updating product by slug:", error);
+      return null;
+    }
   }
 
   async getProductsByEquipment(equipment: string): Promise<Product[]> {
