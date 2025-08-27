@@ -264,7 +264,7 @@ export default function ProductDetail() {
                     </p>
                   ) : Array.isArray(product.researchFindings) ? (
                     <ul className="space-y-2">
-                      {product.researchFindings.map((finding: string, index: number) => (
+                      {(product.researchFindings as string[]).map((finding: string, index: number) => (
                         <li key={index} className="text-muted-foreground leading-relaxed">
                           • {finding}
                         </li>

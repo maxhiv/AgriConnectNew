@@ -231,6 +231,25 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Patch update product by slug (for partial updates like images)
+  app.patch("/api/products/:slug", async (req, res) => {
+    try {
+      const { slug } = req.params;
+      const updateData = req.body;
+
+      const existingProduct = await storage.getProductBySlug(slug);
+      if (!existingProduct) {
+        return res.status(404).json({ error: "Product not found" });
+      }
+
+      const updated = await storage.updateProduct(existingProduct.id, updateData);
+      res.json(updated);
+    } catch (error) {
+      console.error("Error patching product:", error);
+      res.status(500).json({ error: "Failed to update product" });
+    }
+  });
+
   // Import products from JSON file
   app.post("/api/import-products", async (req, res) => {
     try {
