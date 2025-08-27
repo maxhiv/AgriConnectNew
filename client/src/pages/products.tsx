@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "wouter";
+import { queryClient } from "@/lib/queryClient";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -16,9 +17,14 @@ export default function Products() {
   const [equipmentFilter, setEquipmentFilter] = useState("all");
   const [categoryFilter, setCategoryFilter] = useState("all");
 
-  const { data: products = [], isLoading } = useQuery<Product[]>({
+  const { data: products = [], isLoading, refetch } = useQuery<Product[]>({
     queryKey: ['/api/products'],
   });
+
+  // Force refresh the data immediately when component mounts
+  useEffect(() => {
+    queryClient.invalidateQueries({ queryKey: ['/api/products'] });
+  }, []);
 
   // Get unique equipment and category values for filters
   const equipmentTypes = Array.from(new Set(products.map(p => p.equipment)));
