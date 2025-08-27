@@ -37,6 +37,14 @@ export const products = pgTable("products", {
   images: text("images").array(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
   updatedAt: timestamp("updated_at").defaultNow(),
+  // Enriched content fields
+  enrichedDescription: text("enriched_description"),
+  detailedFeatures: text("detailed_features").array(),
+  benefits: text("benefits").array(),
+  researchFindings: text("research_findings"), // Assuming this will be a JSON or similar type
+  compatibilityDetails: text("compatibility_details"), // Assuming this will be a JSON or similar type
+  contentEnriched: pgTable("products").boolean("content_enriched"),
+  lastContentUpdate: timestamp("last_content_update"),
 });
 
 export const insertUserSchema = createInsertSchema(users).pick({
@@ -67,6 +75,13 @@ export const insertProductSchema = createInsertSchema(products).pick({
   logoWhite: true,
   primaryImage: true,
   images: true,
+  enrichedDescription: true,
+  detailedFeatures: true,
+  benefits: true,
+  researchFindings: true,
+  compatibilityDetails: true,
+  contentEnriched: true,
+  lastContentUpdate: true,
 });
 
 export type InsertUser = z.infer<typeof insertUserSchema>;
@@ -75,3 +90,47 @@ export type InsertContactMessage = z.infer<typeof insertContactMessageSchema>;
 export type ContactMessage = typeof contactMessages.$inferSelect;
 export type InsertProduct = z.infer<typeof insertProductSchema>;
 export type Product = typeof products.$inferSelect;
+
+// Interfaces for enriched content (assuming these would be used in a frontend context)
+// These are not directly part of the Drizzle schema but represent the data structure.
+
+// export interface ProductImage {
+//   url: string;
+//   alt: string;
+// }
+
+// export interface Product {
+//   id: string;
+//   name: string;
+//   slug: string;
+//   equipment: string;
+//   category: string;
+//   tagline: string;
+//   description?: string;
+//   oemUrl?: string;
+//   highlights: string[];
+//   worksWith: string[];
+//   primaryImage?: string;
+//   images?: ProductImage[];
+//   logoDarkGreen?: string;
+
+//   // Enriched content fields
+//   enrichedDescription?: string;
+//   detailedFeatures?: string[];
+//   benefits?: string[];
+//   researchFindings?: ResearchFinding[];
+//   compatibilityDetails?: CompatibilityDetails;
+//   contentEnriched?: boolean;
+//   lastContentUpdate?: string;
+// }
+
+// export interface ResearchFinding {
+//   study: string;
+//   details: string;
+//   key_metrics?: string[];
+// }
+
+// export interface CompatibilityDetails {
+//   details?: string;
+//   works_with?: string[];
+// }

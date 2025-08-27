@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ExternalLink, Phone, Mail } from "lucide-react";
+import { ArrowLeft, ExternalLink, Phone, Mail, CheckCircle2, MessageSquare } from "lucide-react";
 import type { Product } from "@shared/schema";
 
 // Helper function to get related resources based on product
@@ -200,88 +200,135 @@ export default function ProductDetail() {
               </div>
             )}
 
-            {/* Product Header */}
-            <div className="space-y-4">
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Badge variant="secondary">{product.equipment}</Badge>
-                <span>•</span>
-                <span>{product.category}</span>
+            {/* Enhanced Description */}
+            {product.enrichedDescription && (
+              <div className="space-y-4">
+                <h2 className="text-2xl font-semibold">Overview</h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  {product.enrichedDescription}
+                </p>
               </div>
+            )}
 
-              <h1 className="text-4xl font-bold tracking-tight">{product.name}</h1>
-
-              {product.tagline && (
-                <p className="text-xl text-muted-foreground">{product.tagline}</p>
-              )}
-            </div>
-
-            {/* Key Features */}
-            <Card>
-              <CardHeader>
-                <CardTitle>Key Features & Benefits</CardTitle>
-                <CardDescription>
-                  What makes this product stand out in precision agriculture
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-4">
-                  {product.highlights.map((highlight, index) => (
-                    <li key={index} className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-lg">{highlight}</span>
+            {/* Detailed Features */}
+            {product.detailedFeatures && product.detailedFeatures.length > 0 ? (
+              <div className="space-y-4">
+                <h2 className="text-2xl font-semibold">Key Features & Capabilities</h2>
+                <ul className="space-y-3">
+                  {product.detailedFeatures.map((feature, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-green-600 mt-1 flex-shrink-0" />
+                      <span className="leading-relaxed">{feature}</span>
                     </li>
                   ))}
                 </ul>
-              </CardContent>
-            </Card>
+              </div>
+            ) : (
+              <div className="space-y-4">
+                <h2 className="text-2xl font-semibold">Key Features</h2>
+                <ul className="space-y-2">
+                  {product.highlights.map((feature, index) => (
+                    <li key={index} className="flex items-start gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
-            {/* Scraped Features from Manufacturer */}
-            {product.scrapedFeatures && product.scrapedFeatures.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Manufacturer Features</CardTitle>
-                  <CardDescription>
-                    Additional features from the manufacturer's website
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-4">
-                    {product.scrapedFeatures.map((feature, index) => (
-                      <li key={index} className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                        <span className="text-lg">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  {product.lastScraped && (
-                    <p className="text-sm text-muted-foreground mt-4">
-                      Last updated: {new Date(product.lastScraped * 1000).toLocaleDateString()}
-                    </p>
-                  )}
-                </CardContent>
-              </Card>
+            {/* Benefits */}
+            {product.benefits && product.benefits.length > 0 && (
+              <div className="space-y-4">
+                <h2 className="text-2xl font-semibold">Benefits</h2>
+                <ul className="space-y-3">
+                  {product.benefits.map((benefit, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-blue-600 mt-1 flex-shrink-0" />
+                      <span className="leading-relaxed">{benefit}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Research Findings */}
+            {product.researchFindings && product.researchFindings.length > 0 && (
+              <div className="space-y-6">
+                <h2 className="text-2xl font-semibold">Research & Performance Data</h2>
+                <div className="space-y-4">
+                  {product.researchFindings.map((finding, index) => (
+                    <div key={index} className="border rounded-lg p-4 bg-slate-50">
+                      <h3 className="font-semibold text-lg mb-2">{finding.study}</h3>
+                      <p className="text-muted-foreground mb-3 leading-relaxed">
+                        {finding.details}
+                      </p>
+                      {finding.key_metrics && finding.key_metrics.length > 0 && (
+                        <div className="flex flex-wrap gap-2">
+                          {finding.key_metrics.map((metric, metricIndex) => (
+                            <Badge key={metricIndex} variant="secondary" className="text-xs">
+                              {metric}
+                            </Badge>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
             )}
 
             {/* Compatibility */}
             {product.worksWith.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Compatible Systems</CardTitle>
-                  <CardDescription>
-                    This product integrates seamlessly with these systems
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-                    {product.worksWith.map((compatible, index) => (
-                      <div key={index} className="p-3 bg-muted rounded-lg text-center">
-                        <span className="font-medium">{compatible}</span>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+              <div className="space-y-4">
+                <h2 className="text-2xl font-semibold">Works With</h2>
+                <div className="flex flex-wrap gap-2">
+                  {product.worksWith.map((compatible, index) => (
+                    <Badge key={index} variant="outline" className="text-sm">
+                      {compatible}
+                    </Badge>
+                  ))}
+                </div>
+              </div>
             )}
+
+            {/* Enhanced Compatibility Details */}
+            {product.compatibilityDetails && Object.keys(product.compatibilityDetails).length > 0 && (
+              <div className="space-y-4">
+                <h2 className="text-2xl font-semibold">Compatibility Details</h2>
+                <div className="bg-slate-50 rounded-lg p-4">
+                  {product.compatibilityDetails.details && (
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {product.compatibilityDetails.details}
+                    </p>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Call to Action */}
+            <div className="space-y-4 pt-6 border-t">
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" className="flex-1">
+                  <MessageSquare className="mr-2 h-5 w-5" />
+                  Contact for Quote
+                </Button>
+
+                {product.oemUrl && (
+                  <Button variant="outline" size="lg" asChild className="flex-1">
+                    <a 
+                      href={product.oemUrl} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center"
+                    >
+                      Learn More
+                      <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                )}
+              </div>
+            </div>
           </div>
 
           {/* Sidebar */}

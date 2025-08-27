@@ -5,6 +5,7 @@ import { insertContactMessageSchema, insertProductSchema } from "@shared/schema"
 import { z } from "zod";
 import fs from "fs";
 import path from "path";
+import crypto from 'crypto';
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission
@@ -286,73 +287,182 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
     });
 
-    // Import enriched products from CSV
-    app.post("/api/import-csv-products", async (req, res) => {
-      try {
-        const csvEnrichedPath = path.join(process.cwd(), 'enriched_products_from_csv.json');
+    // Import CSV products endpoint
+  app.post("/api/import-csv-products", async (req, res) => {
+    try {
+      const enrichedProductsFile = 'enriched_products_from_csv.json';
 
-        if (!fs.existsSync(csvEnrichedPath)) {
-          return res.status(400).json({
-            success: false,
-            message: "Enriched CSV data not found. Please run the enrichment script first."
-          });
-        }
-
-        const jsonData = fs.readFileSync(csvEnrichedPath, 'utf8');
-        const productsData = JSON.parse(jsonData);
-
-        let importedCount = 0;
-        let updatedCount = 0;
-        let skippedCount = 0;
-
-        for (const productData of productsData) {
-          try {
-            // Check if product already exists
-            const existingProduct = await storage.getProductBySlug(productData.slug);
-
-            // Transform data to match our schema
-            const transformedData = {
-              name: productData.name,
-              equipment: productData.equipment,
-              category: productData.category,
-              tagline: productData.tagline,
-              oemUrl: productData.oem_url,
-              highlights: productData.highlights || [],
-              worksWith: productData.works_with || [],
-              slug: productData.slug
-            };
-
-            const validatedData = insertProductSchema.parse(transformedData);
-
-            if (existingProduct) {
-              // Update existing product with enriched data
-              await storage.updateProduct(existingProduct.id, validatedData);
-              updatedCount++;
-            } else {
-              // Create new product
-              await storage.createProduct(validatedData);
-              importedCount++;
-            }
-          } catch (error) {
-            console.error('Error processing product:', productData.name, error);
-            skippedCount++;
-          }
-        }
-
-        res.json({
-          success: true,
-          message: `Import completed: ${importedCount} products imported, ${skippedCount} skipped`,
-          imported: importedCount,
-          skipped: skippedCount
-        });
-      } catch (error) {
-        console.error('Import error:', error);
-        res.status(500).json({
+      if (!fs.existsSync(enrichedProductsFile)) {
+        return res.status(400).json({
           success: false,
-          message: "Failed to import products"
+          message: "No enriched products file found. Run enrich-products-csv.py first."
         });
       }
-    });
+
+      const enrichedProducts = JSON.parse(fs.readFileSync(enrichedProductsFile, 'utf8'));
+
+      let importedCount = 0;
+      let updatedCount = 0;
+      let skippedCount = 0;
+
+      for (const productData of enrichedProducts) {
+        try {
+          const existingProduct = await storage.getProductBySlug(productData.slug);
+
+          if (existingProduct) {
+            // Update existing product with enriched data
+            const updatedProduct = {
+              ...existingProduct,
+              ...productData,
+              id: existingProduct.id // Preserve existing ID
+            };
+
+            await storage.updateProduct(updatedProduct);
+            updatedCount++;
+          } else {
+            // Create new product
+            const newProduct = {
+              id: crypto.randomUUID(),
+              ...productData
+            };
+
+            await storage.addProduct(newProduct);
+            importedCount++;
+          }
+        } catch (error) {
+          console.error(`Error processing product ${productData.name}:`, error);
+          skippedCount++;
+        }
+      }
+
+      res.json({
+        success: true,
+        message: `Product import complete`,
+        stats: {
+          imported: importedCount,
+          updated: updatedCount,
+          skipped: skippedCount,
+          total: enrichedProducts.length
+        }
+      });
+
+    } catch (error) {
+      console.error('CSV import error:', error);
+      res.status(500).json({
+        success: false,
+        message: "Failed to import CSV products",
+        error: error instanceof Error ? error.message : 'Unknown error'
+      });
+    }
+  });
+
+  // Import detailed product content endpoint
+  app.post("/api/import-detailed-content", async (req, res) => {
+    try {
+      const detailedProductsFile = 'enriched_products_detailed.json';
+
+      if (!fs.existsSync(detailedProductsFile)) {
+        return res.status(400).json({
+          success: false,
+          message: "No detailed products file found. Run enrich-products-from-document.py first."
+        });
+      }
+
+      const detailedProducts = JSON.parse(fs.readFileSync(detailedProductsFile, 'utf8'));
+
+      let updatedCount = 0;
+      let skippedCount = 0;
+      let errors = [];
+
+      for (const [productName, enrichedData] of Object.entries(detailedProducts)) {
+        try {
+          // Map product name to existing slug
+          const slugMapping: { [key: string]: string } = {
+            '20|20': '2020',
+            'AirForce': 'airforce',
+            'Clarity': 'clarity',
+            'CleanSweep': 'cleansweep',
+            'Conceal': 'conceal',
+            'vSet Seed Meters': 'vset',
+            'DeltaForce': 'deltaforce',
+            'DuraWear Parallel Arms': 'durawear',
+            'DuraWear Gauge Wheel Arms': 'durawear',
+            'FurrowForce': 'furrowforce',
+            'FurrowJet': 'furrowjet',
+            'HeadSight': 'headsight',
+            'MeterMax Ultra': 'metermax-ultra',
+            'Panorama': 'panorama',
+            'ReClaim': 'reclaim',
+            'Ready Row Unit': 'ready-row-unit',
+            'ReconBlockage': 'reconblockage',
+            'ReconSpreader': 'reconspreader',
+            'Reveal': 'reveal',
+            'CornerStone Planting System': 'cornerstone-planting-system',
+            'SeederForce': 'seederforce',
+            'SmartDepth': 'smartdepth',
+            'SmartFirmer': 'smartfirmer',
+            'SpeedTube': 'speedtube',
+            'SymphonyNozzle': 'symphonynozzle',
+            'SymphonyVision': 'symphonyvision',
+            'TrueSense': 'truesense',
+            'TrueSight': 'truesight',
+            'WaveVision': 'wavevision',
+            'YieldSense': 'yieldsense',
+            'mSet': 'mset',
+            'vApplyHD': 'vapplyhd',
+            'vDrive': 'vdrive',
+            'vDrive Insecticide': 'vdrive-insecticide'
+          };
+
+          const targetSlug = slugMapping[productName] || (enrichedData as any).slug;
+          const existingProduct = storage.getProductBySlug(targetSlug);
+
+          if (existingProduct) {
+            // Update existing product with detailed content
+            const updatedProduct = {
+              ...existingProduct,
+              enrichedDescription: (enrichedData as any).enriched_description || existingProduct.description,
+              detailedFeatures: (enrichedData as any).detailed_features || [],
+              benefits: (enrichedData as any).benefits || [],
+              researchFindings: (enrichedData as any).research_findings || [],
+              compatibilityDetails: (enrichedData as any).compatibility_details || {},
+              contentEnriched: true,
+              lastContentUpdate: (enrichedData as any).last_enriched || '2025-01-20'
+            };
+
+            await storage.updateProduct(updatedProduct);
+            updatedCount++;
+          } else {
+            skippedCount++;
+            errors.push(`Product not found: ${productName} (${targetSlug})`);
+          }
+        } catch (error) {
+          console.error(`Error processing detailed content for ${productName}:`, error);
+          skippedCount++;
+          errors.push(`Error processing ${productName}: ${error instanceof Error ? error.message : 'Unknown error'}`);
+        }
+      }
+
+      res.json({
+        success: true,
+        message: `Detailed content import complete`,
+        stats: {
+          updated: updatedCount,
+          skipped: skippedCount,
+          total: Object.keys(detailedProducts).length,
+          errors: errors.slice(0, 10) // Limit errors shown
+        }
+      });
+
+    } catch (error) {
+      console.error('Detailed content import error:', error);
+      res.status(500).json({
+        success: false,
+        message: "Failed to import detailed content",
+        error: error instanceof Error ? error.message : 'Unknown error'
+      });
+    }
+  });
 
   const httpServer = createServer(app);
   return httpServer;
