@@ -15,6 +15,7 @@ export interface IStorage {
   getProductsByEquipment(equipment: string): Promise<Product[]>;
   getProductsByCategory(category: string): Promise<Product[]>;
   updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | undefined>;
+  updateProductBySlug(slug: string, data: Partial<InsertProduct>): Promise<Product | undefined>;
 }
 
 export class MemStorage implements IStorage {
@@ -80,7 +81,10 @@ export class MemStorage implements IStorage {
       logoBlack: insertProduct.logoBlack || null,
       logoDarkGreen: insertProduct.logoDarkGreen || null,
       logoWhite: insertProduct.logoWhite || null,
-      createdAt: new Date()
+      primaryImage: insertProduct.primaryImage || null,
+      images: insertProduct.images || null,
+      createdAt: new Date(),
+      updatedAt: null
     };
     this.products.set(id, product);
     return product;
@@ -94,7 +98,6 @@ export class MemStorage implements IStorage {
     return Array.from(this.products.values()).filter(p => p.category === category);
   }
 
-  // Placeholder for updateProduct in MemStorage if needed for testing
   async updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | undefined> {
     const product = this.products.get(id);
     if (!product) {
@@ -102,6 +105,16 @@ export class MemStorage implements IStorage {
     }
     const updatedProduct: Product = { ...product, ...data, updatedAt: new Date() };
     this.products.set(id, updatedProduct);
+    return updatedProduct;
+  }
+
+  async updateProductBySlug(slug: string, data: Partial<InsertProduct>): Promise<Product | undefined> {
+    const existingProduct = Array.from(this.products.values()).find(p => p.slug === slug);
+    if (!existingProduct) {
+      return undefined;
+    }
+    const updatedProduct: Product = { ...existingProduct, ...data, updatedAt: new Date() };
+    this.products.set(existingProduct.id, updatedProduct);
     return updatedProduct;
   }
 }
@@ -163,39 +176,39 @@ export class DatabaseStorage implements IStorage {
     return product;
   }
 
-  async updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | null> {
+  async updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | undefined> {
     try {
       const [updated] = await db
         .update(products)
         .set({
           ...data,
-          updatedAt: new Date().toISOString(),
+          updatedAt: new Date(),
         })
         .where(eq(products.id, id))
         .returning();
 
-      return updated || null;
+      return updated || undefined;
     } catch (error) {
       console.error("Error updating product:", error);
-      return null;
+      return undefined;
     }
   }
 
-  async updateProductBySlug(slug: string, data: Partial<InsertProduct>): Promise<Product | null> {
+  async updateProductBySlug(slug: string, data: Partial<InsertProduct>): Promise<Product | undefined> {
     try {
       const [updated] = await db
         .update(products)
         .set({
           ...data,
-          updatedAt: new Date().toISOString(),
+          updatedAt: new Date(),
         })
         .where(eq(products.slug, slug))
         .returning();
 
-      return updated || null;
+      return updated || undefined;
     } catch (error) {
       console.error("Error updating product by slug:", error);
-      return null;
+      return undefined;
     }
   }
 

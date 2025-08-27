@@ -36,6 +36,7 @@ export const products = pgTable("products", {
   primaryImage: text("primary_image"),
   images: text("images").array(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow(),
 });
 
 export const insertUserSchema = createInsertSchema(users).pick({
