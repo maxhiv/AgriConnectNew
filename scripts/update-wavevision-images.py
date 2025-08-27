@@ -34,7 +34,7 @@ def update_wavevision_with_images():
     
     # Get current WaveVision product
     try:
-        response = requests.get('http://localhost:5000/api/products/wavevision')
+        response = requests.get('http://0.0.0.0:5000/api/products/wavevision')
         if response.status_code != 200:
             print(f"❌ Failed to get WaveVision product: {response.status_code}")
             return
@@ -49,7 +49,7 @@ def update_wavevision_with_images():
         }
         
         # Update the product
-        response = requests.patch('http://localhost:5000/api/products/wavevision', json=update_data)
+        response = requests.patch('http://0.0.0.0:5000/api/products/wavevision', json=update_data)
         if response.status_code == 200:
             print(f"✅ Successfully updated WaveVision with {len(image_files)} images")
             print(f"Primary image set to: {update_data['primaryImage']}")
