@@ -255,23 +255,22 @@ export default function ProductDetail() {
 
             {/* Research Findings */}
             {product.researchFindings && (
-              <div className="space-y-6">
-                <h2 className="text-2xl font-semibold">Research & Performance Data</h2>
-                <div className="border rounded-lg p-4 bg-slate-50">
-                  {typeof product.researchFindings === 'string' ? (
-                    <p className="text-muted-foreground leading-relaxed">
-                      {product.researchFindings}
-                    </p>
-                  ) : Array.isArray(product.researchFindings) ? (
-                    <ul className="space-y-2">
-                      {(product.researchFindings as string[]).map((finding: string, index: number) => (
-                        <li key={index} className="text-muted-foreground leading-relaxed">
-                          • {finding}
-                        </li>
-                      ))}
-                    </ul>
-                  ) : null}
-                </div>
+              <div className="space-y-4">
+                <h2 className="text-2xl font-semibold">Research Findings</h2>
+                {typeof product.researchFindings === 'string' ? (
+                  <p className="text-muted-foreground leading-relaxed">
+                    {product.researchFindings}
+                  </p>
+                ) : (
+                  <ul className="space-y-2">
+                    {product.researchFindings.map((finding, index) => (
+                      <li key={index} className="flex items-start gap-2">
+                        <span className="text-green-600 mt-1">•</span>
+                        <span className="text-muted-foreground">{finding}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             )}
 
