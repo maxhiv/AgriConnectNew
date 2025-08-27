@@ -311,22 +311,11 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
           if (existingProduct) {
             // Update existing product with enriched data
-            const updatedProduct = {
-              ...existingProduct,
-              ...productData,
-              id: existingProduct.id // Preserve existing ID
-            };
-
-            await storage.updateProduct(updatedProduct);
+            await storage.updateProduct(existingProduct.id, productData);
             updatedCount++;
           } else {
             // Create new product
-            const newProduct = {
-              id: crypto.randomUUID(),
-              ...productData
-            };
-
-            await storage.addProduct(newProduct);
+            await storage.createProduct(productData);
             importedCount++;
           }
         } catch (error) {

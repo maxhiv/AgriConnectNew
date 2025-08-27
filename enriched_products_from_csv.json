@@ -1,0 +1,518 @@
+[
+  {
+    "name": "20|20 (Gen3)",
+    "slug": "2020-gen3",
+    "category": "Planters / Air Seeders / Sprayers / Combines",
+    "subcategory": "Display Monitor",
+    "tagline": "Visualize data in the cab",
+    "description": "Cab monitor that maps agronomic and equipment data in real time and can control paired systems.",
+    "key_features": [
+      "High‑definition row‑by‑row maps",
+      "Diagnose performance in real time",
+      "Control compatible systems",
+      "Panorama data sync"
+    ],
+    "equipped_for": [
+      "Planters",
+      "Air Seeders & Drills",
+      "Sprayers",
+      "Combines"
+    ],
+    "works_with": [
+      "Panorama",
+      "DeltaForce",
+      "SeederForce",
+      "vDrive",
+      "mSet",
+      "vSet",
+      "YieldSense",
+      "Clarity"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/2020",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "High‑definition row‑by‑row maps",
+      "Diagnose performance in real time",
+      "Control compatible systems",
+      "Panorama data sync"
+    ]
+  },
+  {
+    "name": "DeltaForce",
+    "slug": "deltaforce",
+    "category": "Planters",
+    "subcategory": "Downforce Control",
+    "tagline": "Automated downforce control",
+    "description": "Hydraulic cylinders with load cells maintain target gauge‑wheel weight row‑by‑row to ensure consistent depth and emergence.",
+    "key_features": [
+      "Automatically adjusts downforce 200x/sec",
+      "Row‑by‑row control",
+      "Integrates with 20|20",
+      "Research‑backed yield protection"
+    ],
+    "equipped_for": [
+      "Corn",
+      "Soybeans",
+      "Cotton",
+      "Peanuts",
+      "Sugarbeets",
+      "Sunflowers"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/deltaforce",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Automatically adjusts downforce 200x/sec",
+      "Row‑by‑row control",
+      "Integrates with 20|20",
+      "Research‑backed yield protection"
+    ]
+  },
+  {
+    "name": "SpeedTube",
+    "slug": "speedtube",
+    "category": "Planters",
+    "subcategory": "Seed Tubes / High‑speed Planting",
+    "tagline": "High‑speed seed delivery system",
+    "description": "Powered seed belt that delivers seeds to the trench so spacing is maintained at higher ground speeds.",
+    "key_features": [
+      "Doubles planting speed potential",
+      "Consistent spacing at speed",
+      "Works with vDrive and mSet"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "vDrive",
+      "mSet",
+      "20|20"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/speedtube",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Doubles planting speed potential",
+      "Consistent spacing at speed",
+      "Works with vDrive and mSet"
+    ]
+  },
+  {
+    "name": "vSet",
+    "slug": "vset",
+    "category": "Planters",
+    "subcategory": "Seed Meters",
+    "tagline": "Effortless meter accuracy",
+    "description": "Vacuum seed meter that singulates seeds accurately without constant adjustments for size or shape.",
+    "key_features": [
+      "High singulation",
+      "No ongoing adjustments",
+      "Enables electric drive and high‑speed planting"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "vDrive",
+      "20|20",
+      "mSet"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/vset",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "High singulation",
+      "No ongoing adjustments",
+      "Enables electric drive and high‑speed planting"
+    ]
+  },
+  {
+    "name": "vSet Select",
+    "slug": "vset-select",
+    "category": "Planters",
+    "subcategory": "Multi‑Hybrid Meters",
+    "tagline": "Dual meters for on‑the‑go hybrid switching",
+    "description": "Row‑by‑row multi‑hybrid system with two meters per row and common tube for instant hybrid changes.",
+    "key_features": [
+      "Runs hybrid prescriptions",
+      "Instant switching",
+      "Uniform spacing down common tube"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "vDrive",
+      "20|20"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/vsetselect",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Runs hybrid prescriptions",
+      "Instant switching",
+      "Uniform spacing down common tube"
+    ]
+  },
+  {
+    "name": "mSet",
+    "slug": "mset",
+    "category": "Planters",
+    "subcategory": "Multi‑Hybrid Meters",
+    "tagline": "Single‑meter multi‑hybrid",
+    "description": "Divided hopper with one vSet meter for two hybrids; compatible with SpeedTube for high‑speed multi‑hybrid planting.",
+    "key_features": [
+      "Two hybrids from one meter",
+      "Prescription or manual switching",
+      "Works at high speed with SpeedTube"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "vSet",
+      "SpeedTube",
+      "20|20"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/mset?wvideo=9vqwt9f9ec",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Two hybrids from one meter",
+      "Prescription or manual switching",
+      "Works at high speed with SpeedTube"
+    ]
+  },
+  {
+    "name": "PrecisionMeter",
+    "slug": "precisionmeter",
+    "category": "Planters",
+    "subcategory": "Finger Meters",
+    "tagline": "A better finger meter",
+    "description": "Retrofit finger pickup meter with adjustable brush to singulate a wide range of seed sizes and shapes.",
+    "key_features": [
+      "Adjustable brush",
+      "Improved singulation",
+      "Retrofit for Deere finger meters"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "20|20 (monitoring)"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/precisionmeter",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Adjustable brush",
+      "Improved singulation",
+      "Retrofit for Deere finger meters"
+    ]
+  },
+  {
+    "name": "BullsEye",
+    "slug": "bullseye",
+    "category": "Planters",
+    "subcategory": "Seed Tubes",
+    "tagline": "Longer seed tube life, better spacing",
+    "description": "Seed tube with tungsten carbide tip and recessed sensor eye to reduce ricochet and maintain spacing.",
+    "key_features": [
+      "Tungsten carbide wear tip",
+      "Recessed sensor eye",
+      "Improved spacing consistency"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "WaveVision (sensor)"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/bullseye",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Tungsten carbide wear tip",
+      "Recessed sensor eye",
+      "Improved spacing consistency"
+    ]
+  },
+  {
+    "name": "WaveVision",
+    "slug": "wavevision",
+    "category": "Planters",
+    "subcategory": "Seed Sensors",
+    "tagline": "See seeds, not dust",
+    "description": "Mass‑based seed sensor that ignores dust and avoids ricochet issues from optical eyes.",
+    "key_features": [
+      "Counts seed mass not dust",
+      "Tungsten carbide wear tip",
+      "Easy OEM replacement"
+    ],
+    "equipped_for": [
+      "Corn",
+      "Soybeans",
+      "Cotton",
+      "Sugarbeets"
+    ],
+    "works_with": [
+      "20|20; BullsEye tube"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/wavevision",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Counts seed mass not dust",
+      "Tungsten carbide wear tip",
+      "Easy OEM replacement"
+    ]
+  },
+  {
+    "name": "FlowSense",
+    "slug": "flowsense",
+    "category": "Planters / Sidedress Bars",
+    "subcategory": "Liquid Rate Sensor",
+    "tagline": "Measure row‑by‑row fertilizer rates",
+    "description": "Row‑unit liquid flow sensor that shows actual application rate per row so you can correct variability.",
+    "key_features": [
+      "Actual rate per row",
+      "Detects row‑to‑row variability",
+      "Integrates with 20|20"
+    ],
+    "equipped_for": [
+      "Planters",
+      "Sidedress Bars"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/flowsense",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Actual rate per row",
+      "Detects row‑to‑row variability",
+      "Integrates with 20|20"
+    ]
+  },
+  {
+    "name": "FurrowJet",
+    "slug": "furrowjet",
+    "category": "Planters",
+    "subcategory": "In‑Furrow Fertilizer",
+    "tagline": "In‑furrow starter placement",
+    "description": "Firms the seed while placing bands of fertilizer on and near the seed for early root access to nutrients.",
+    "key_features": [
+      "Multi‑band placement",
+      "Firms the seed",
+      "Early nutrient access"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "Liquid systems",
+      "20|20 (monitoring)"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/furrowjet",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Multi‑band placement",
+      "Firms the seed",
+      "Early nutrient access"
+    ]
+  },
+  {
+    "name": "Conceal",
+    "slug": "conceal",
+    "category": "Planters",
+    "subcategory": "Banded Fertilizer",
+    "tagline": "Banded nitrogen placement",
+    "description": "Low‑profile planter fertility attachment that places nutrition ~3 inches from the seed within the gauge wheel.",
+    "key_features": [
+      "Cleanly tucked in row unit",
+      "3\" off‑row placement",
+      "Efficient planter‑pass application"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "20|20 (monitoring)"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/conceal",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Cleanly tucked in row unit",
+      "3\" off‑row placement",
+      "Efficient planter‑pass application"
+    ]
+  },
+  {
+    "name": "Ready Row Unit",
+    "slug": "ready-row-unit",
+    "category": "Planters",
+    "subcategory": "Row Unit",
+    "tagline": "Upgrade what you already own",
+    "description": "Factory row unit retrofit to modernize an existing planter frame and prepare it for new technology.",
+    "key_features": [
+      "Depth calibration system",
+      "Cast iron unit",
+      "16\" openers",
+      "14\" parallel arms",
+      "Multiple gauge/closing options"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "Compatible with Precision Planting tech and attachments"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/planters/readyrowunit",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Depth calibration system",
+      "Cast iron unit",
+      "16\" openers",
+      "14\" parallel arms",
+      "Multiple gauge/closing options"
+    ]
+  },
+  {
+    "name": "CornerStone Planting System",
+    "slug": "cornerstone-planting-system",
+    "category": "Planters",
+    "subcategory": "Complete Planter",
+    "tagline": "Fully custom, factory‑built system",
+    "description": "Factory‑built planting system integrating Precision Planting hardware for easy adjustments and durability.",
+    "key_features": [
+      "Integrated hardware",
+      "Ease of in‑field use",
+      "Durable and serviceable"
+    ],
+    "equipped_for": [
+      "Planters"
+    ],
+    "works_with": [
+      "20|20 and compatible components"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/cornerstone-planting-system",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Planters",
+    "highlights": [
+      "Integrated hardware",
+      "Ease of in‑field use",
+      "Durable and serviceable"
+    ]
+  },
+  {
+    "name": "Clarity",
+    "slug": "clarity",
+    "category": "Dry Fertilizer Applicators / Strip‑Till / Air Seeders & Drills",
+    "subcategory": "Blockage & Flow Monitoring",
+    "tagline": "Advanced flow and blockage metrics",
+    "description": "Real‑time, row‑by‑row flow and blockage visibility on the 20|20 monitor for granular products.",
+    "key_features": [
+      "Row‑by‑row blockage metrics",
+      "HD mapping",
+      "Works on strip‑till, air seeders, drills, dry fertilizer applicators"
+    ],
+    "equipped_for": [
+      "Strip‑till bars",
+      "Dry fertilizer applicators",
+      "Air seeders & drills"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/dry-fertilizer-applicators/clarity",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Air Seeders & Drills",
+    "highlights": [
+      "Row‑by‑row blockage metrics",
+      "HD mapping",
+      "Works on strip‑till, air seeders, drills, dry fertilizer applicators"
+    ]
+  },
+  {
+    "name": "YieldSense",
+    "slug": "yieldsense",
+    "category": "Combines",
+    "subcategory": "Yield Monitoring",
+    "tagline": "High‑definition harvest data",
+    "description": "Yield monitoring system for combines that feeds detailed maps to 20|20 and connected platforms.",
+    "key_features": [
+      "Accurate flow measurement",
+      "Detailed harvest maps",
+      "Integrates with 20|20 and Panorama"
+    ],
+    "equipped_for": [
+      "Combines"
+    ],
+    "works_with": [
+      "20|20",
+      "Panorama"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/combines/yieldsense",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Combines",
+    "highlights": [
+      "Accurate flow measurement",
+      "Detailed harvest maps",
+      "Integrates with 20|20 and Panorama"
+    ]
+  },
+  {
+    "name": "Panorama",
+    "slug": "panorama",
+    "category": "Data Management",
+    "subcategory": "Cloud App",
+    "tagline": "Manage 20|20 maps and data",
+    "description": "App and website for viewing, sharing, and analyzing 20|20 data; automates sending data to trusted platforms.",
+    "key_features": [
+      "Row‑by‑row maps",
+      "Field averages",
+      "Yield comparisons",
+      "Automated data sharing"
+    ],
+    "equipped_for": [
+      "Farms using 20|20"
+    ],
+    "works_with": [
+      "20|20"
+    ],
+    "oem_url": "https://www.precisionplanting.com/products/panorama",
+    "enriched_from_csv": true,
+    "csv_import_date": "2025-01-20",
+    "equipment": "Data Management",
+    "highlights": [
+      "Row‑by‑row maps",
+      "Field averages",
+      "Yield comparisons",
+      "Automated data sharing"
+    ]
+  }
+]
