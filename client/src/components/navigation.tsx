@@ -28,6 +28,11 @@ export default function Navigation() {
                   src="/assets/images/vantage-south-logo.png" 
                   alt="Vantage South" 
                   className="h-10 w-auto hover:opacity-80 transition-opacity"
+                  onError={(e) => {
+                    console.error('Logo failed to load:', e.currentTarget.src);
+                    e.currentTarget.style.display = 'none';
+                  }}
+                  onLoad={() => console.log('Logo loaded successfully')}
                 />
               </Link>
             </div>

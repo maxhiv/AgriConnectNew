@@ -24,6 +24,11 @@ export default function HeroSection() {
             src="/assets/images/vantage-south-logo.png" 
             alt="Vantage South" 
             className="h-16 md:h-20 w-auto mx-auto mb-6 filter brightness-0 invert"
+            onError={(e) => {
+              console.error('Hero logo failed to load:', e.currentTarget.src);
+              e.currentTarget.style.display = 'none';
+            }}
+            onLoad={() => console.log('Hero logo loaded successfully')}
           />
         </div>
         <h1 className="heading-1 text-4xl md:text-6xl font-pilat font-bold mb-6 text-ptx-white">

@@ -26,6 +26,11 @@ export default function Footer() {
                 src="/assets/images/vantage-south-logo.png" 
                 alt="Vantage South" 
                 className="h-8 w-auto filter brightness-0 invert"
+                onError={(e) => {
+                  console.error('Footer logo failed to load:', e.currentTarget.src);
+                  e.currentTarget.style.display = 'none';
+                }}
+                onLoad={() => console.log('Footer logo loaded successfully')}
               />
             </div>
             <p className="text-ptx-neutral-green mb-4 font-lato">
