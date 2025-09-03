@@ -24,10 +24,11 @@ export default function Navigation() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center">
-                <h1 className="text-2xl font-pilat font-bold text-ptx-dark-green flex items-center hover:text-ptx-medium-green transition-colors">
-                  <Settings className="mr-2 text-ptx-bright-green" />
-                  Premier Ag Solutions
-                </h1>
+                <img 
+                  src="/assets/images/vantage-south-logo.png" 
+                  alt="Vantage South" 
+                  className="h-10 w-auto hover:opacity-80 transition-opacity"
+                />
               </Link>
             </div>
           </div>

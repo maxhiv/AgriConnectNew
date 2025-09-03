@@ -21,10 +21,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 flex items-center font-pilat">
-              <Sprout className="mr-2 text-ptx-bright-green" />
-              Vantage South
-            </h3>
+            <div className="mb-4">
+              <img 
+                src="/assets/images/vantage-south-logo.png" 
+                alt="Vantage South" 
+                className="h-8 w-auto filter brightness-0 invert"
+              />
+            </div>
             <p className="text-ptx-neutral-green mb-4 font-lato">
               Leading agricultural solutions provider dedicated to sustainable farming and innovative technology.
             </p>
