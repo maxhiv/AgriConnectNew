@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import planterVideo from "@assets/Three Point Mounted Planters - Reel_1756908609049.mp4";
+import vantageSouthLogo from "@assets/Vanatge South Logo_1756918318333.png";
 
 export default function HeroSection() {
 
@@ -21,14 +22,9 @@ export default function HeroSection() {
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
           <img 
-            src="/assets/images/vantage-south-logo.png" 
+            src={vantageSouthLogo} 
             alt="Vantage South" 
             className="h-16 md:h-20 w-auto mx-auto mb-6 filter brightness-0 invert"
-            onError={(e) => {
-              console.error('Hero logo failed to load:', e.currentTarget.src);
-              e.currentTarget.style.display = 'none';
-            }}
-            onLoad={() => console.log('Hero logo loaded successfully')}
           />
         </div>
         <h1 className="heading-1 text-4xl md:text-6xl font-pilat font-bold mb-6 text-ptx-white">

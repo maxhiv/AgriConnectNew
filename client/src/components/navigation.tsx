@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X, Settings } from "lucide-react";
+import vantageSouthLogo from "@assets/Vanatge South Logo_1756918318333.png";
 
 export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -25,14 +26,9 @@ export default function Navigation() {
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center">
                 <img 
-                  src="/assets/images/vantage-south-logo.png" 
+                  src={vantageSouthLogo} 
                   alt="Vantage South" 
                   className="h-10 w-auto hover:opacity-80 transition-opacity"
-                  onError={(e) => {
-                    console.error('Logo failed to load:', e.currentTarget.src);
-                    e.currentTarget.style.display = 'none';
-                  }}
-                  onLoad={() => console.log('Logo loaded successfully')}
                 />
               </Link>
             </div>

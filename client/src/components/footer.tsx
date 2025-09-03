@@ -1,4 +1,5 @@
 import { Sprout, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import vantageSouthLogo from "@assets/Vanatge South Logo_1756918318333.png";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -23,14 +24,9 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <img 
-                src="/assets/images/vantage-south-logo.png" 
+                src={vantageSouthLogo} 
                 alt="Vantage South" 
                 className="h-8 w-auto filter brightness-0 invert"
-                onError={(e) => {
-                  console.error('Footer logo failed to load:', e.currentTarget.src);
-                  e.currentTarget.style.display = 'none';
-                }}
-                onLoad={() => console.log('Footer logo loaded successfully')}
               />
             </div>
             <p className="text-ptx-neutral-green mb-4 font-lato">
