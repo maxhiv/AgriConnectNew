@@ -1,68 +1,7 @@
-import { useState } from "react";
-import { useMutation } from "@tanstack/react-query";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useToast } from "@/hooks/use-toast";
-import { apiRequest } from "@/lib/queryClient";
 import { MapPin, Phone, Mail, Clock, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
-
-interface ContactFormData {
-  firstName: string;
-  lastName: string;
-  email: string;
-  phone: string;
-  service: string;
-  message: string;
-}
+import { ZohoFormIntegration } from "./zoho-form-integration";
 
 export default function ContactSection() {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState<ContactFormData>({
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    service: '',
-    message: ''
-  });
-
-  const contactMutation = useMutation({
-    mutationFn: async (data: ContactFormData) => {
-      return apiRequest('POST', '/api/contact', data);
-    },
-    onSuccess: () => {
-      toast({
-        title: "Message sent successfully!",
-        description: "We'll get back to you soon.",
-      });
-      setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        service: '',
-        message: ''
-      });
-    },
-    onError: (error: any) => {
-      toast({
-        title: "Error sending message",
-        description: error.message || "Please try again later.",
-        variant: "destructive",
-      });
-    },
-  });
-
-  const handleInputChange = (field: keyof ContactFormData, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    contactMutation.mutate(formData);
-  };
 
   return (
     <section id="contact" className="section-solid--primary py-20 bg-ptx-dark-green text-ptx-white">
@@ -77,113 +16,10 @@ export default function ContactSection() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
+          {/* Zoho Contact Form */}
           <div className="card-ptx rounded-lg p-8 text-ptx-dark-green">
             <h3 className="heading-3 text-2xl font-bold text-ptx-dark-green mb-6 font-pilat">Send us a Message</h3>
-            <form className="space-y-6" onSubmit={handleSubmit}>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
-                    First Name
-                  </label>
-                  <Input
-                    id="firstName"
-                    type="text"
-                    value={formData.firstName}
-                    onChange={(e) => handleInputChange('firstName', e.target.value)}
-                    placeholder="John"
-                    required
-                    data-testid="input-first-name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
-                    Last Name
-                  </label>
-                  <Input
-                    id="lastName"
-                    type="text"
-                    value={formData.lastName}
-                    onChange={(e) => handleInputChange('lastName', e.target.value)}
-                    placeholder="Doe"
-                    required
-                    data-testid="input-last-name"
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
-                  Email Address
-                </label>
-                <Input
-                  id="email"
-                  type="email"
-                  value={formData.email}
-                  onChange={(e) => handleInputChange('email', e.target.value)}
-                  placeholder="john.doe@example.com"
-                  required
-                  data-testid="input-email"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
-                  Phone Number
-                </label>
-                <Input
-                  id="phone"
-                  type="tel"
-                  value={formData.phone}
-                  onChange={(e) => handleInputChange('phone', e.target.value)}
-                  placeholder="(555) 123-4567"
-                  data-testid="input-phone"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="service" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
-                  Service Interest
-                </label>
-                <Select value={formData.service} onValueChange={(value) => handleInputChange('service', value)}>
-                  <SelectTrigger data-testid="select-service">
-                    <SelectValue placeholder="Select a service" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="equipment">Equipment Solutions</SelectItem>
-                    <SelectItem value="crop-management">Crop Management</SelectItem>
-                    <SelectItem value="soil-analysis">Soil Analysis</SelectItem>
-                    <SelectItem value="precision-agriculture">Precision Agriculture</SelectItem>
-                    <SelectItem value="training">Training & Education</SelectItem>
-                    <SelectItem value="consulting">Consulting Services</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-              
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-ptx-dark-green mb-2 font-pilat">
-                  Message
-                </label>
-                <Textarea
-                  id="message"
-                  value={formData.message}
-                  onChange={(e) => handleInputChange('message', e.target.value)}
-                  placeholder="Tell us about your agricultural needs..."
-                  rows={4}
-                  required
-                  data-testid="textarea-message"
-                />
-              </div>
-              
-              <Button 
-                type="submit" 
-                className="btn-ptx-primary w-full hover:bg-ptx-medium-green text-ptx-white"
-                disabled={contactMutation.isPending}
-                data-testid="button-send-message"
-              >
-                {contactMutation.isPending ? "Sending..." : "Send Message"}
-              </Button>
-            </form>
+            <ZohoFormIntegration className="w-full" />
           </div>
 
           {/* Contact Information */}
