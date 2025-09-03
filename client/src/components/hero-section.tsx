@@ -1,6 +1,5 @@
 import { Link } from "wouter";
 import planterVideo from "@assets/Three Point Mounted Planters - Reel_1756908609049.mp4";
-import vantageSouthLogo from "@assets/Vanatge South Logo_1756918318333.png";
 
 export default function HeroSection() {
 
@@ -22,7 +21,7 @@ export default function HeroSection() {
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
           <img 
-            src={vantageSouthLogo} 
+            src="/assets/images/vantage-south-logo.png" 
             alt="Vantage South" 
             className="h-16 md:h-20 w-auto mx-auto mb-6 filter brightness-0 invert"
           />

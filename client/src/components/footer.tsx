@@ -1,5 +1,4 @@
 import { Sprout, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
-import vantageSouthLogo from "@assets/Vanatge South Logo_1756918318333.png";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -24,7 +23,7 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <img 
-                src={vantageSouthLogo} 
+                src="/assets/images/vantage-south-logo.png" 
                 alt="Vantage South" 
                 className="h-8 w-auto filter brightness-0 invert"
               />
