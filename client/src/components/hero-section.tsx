@@ -1,16 +1,21 @@
 import { Link } from "wouter";
+import planterVideo from "@assets/Three Point Mounted Planters - Reel_1756908609049.mp4";
 
 export default function HeroSection() {
 
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-        style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080')"
-        }}
-      />
+      {/* Background Video */}
+      <video 
+        className="absolute inset-0 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src={planterVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <div className="absolute inset-0 bg-black bg-opacity-40" />
       
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
