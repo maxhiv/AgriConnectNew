@@ -35,14 +35,14 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link 
             href="/products"
-            className="btn-ptx-primary px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:transform hover:-translate-y-1 inline-block text-center"
+            className="btn-ptx-primary px-8 py-3 font-semibold transition-all duration-300 hover:transform hover:-translate-y-1 inline-block text-center"
             data-testid="button-explore-products"
           >
             Explore Products
           </Link>
           <a 
             href="#contact"
-            className="btn-ptx-outline border-2 border-ptx-white text-ptx-white hover:bg-ptx-white hover:text-ptx-dark-green px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-block text-center"
+            className="btn-ptx-outline border-2 border-ptx-white text-ptx-white hover:bg-ptx-white hover:text-ptx-dark-green px-8 py-3 font-semibold transition-all duration-300 inline-block text-center"
             data-testid="button-request-quote"
           >
             Request a Quote

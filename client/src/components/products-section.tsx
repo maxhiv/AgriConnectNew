@@ -59,7 +59,7 @@ export default function ProductsSection() {
             {equipment.map((item, index) => (
               <div 
                 key={index}
-                className="card-ptx rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
+                className="card-ptx  overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
                 data-testid={`equipment-card-${index}`}
               >
                 <img 
@@ -86,7 +86,7 @@ export default function ProductsSection() {
             {produce.map((item, index) => (
               <div 
                 key={index}
-                className="card-ptx rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
+                className="card-ptx  overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
                 data-testid={`produce-card-${index}`}
               >
                 <img 

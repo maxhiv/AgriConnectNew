@@ -52,7 +52,7 @@ export default function ServicesSection() {
             return (
               <div 
                 key={index}
-                className="card-ptx rounded-lg p-6 hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
+                className="card-ptx p-6 hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
                 data-testid={`service-card-${index}`}
               >
                 <div className="text-ptx-bright-orange text-4xl mb-4">

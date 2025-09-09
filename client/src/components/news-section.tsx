@@ -36,7 +36,7 @@ export default function NewsSection() {
           {articles.map((article, index) => (
             <article 
               key={index}
-              className="card-ptx rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
+              className="card-ptx  overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
               data-testid={`news-article-${index}`}
             >
               <img 
@@ -57,7 +57,7 @@ export default function NewsSection() {
         </div>
 
         <div className="text-center mt-12">
-          <button className="btn-ptx-secondary hover:bg-ptx-dark-green text-ptx-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:transform hover:-translate-y-1" data-testid="button-view-all-news">
+          <button className="btn-ptx-secondary hover:bg-ptx-dark-green text-ptx-white px-8 py-3  font-semibold transition-all duration-300 hover:transform hover:-translate-y-1" data-testid="button-view-all-news">
             View All News
           </button>
         </div>

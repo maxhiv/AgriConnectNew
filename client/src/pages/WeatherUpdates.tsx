@@ -123,7 +123,7 @@ export default function WeatherUpdates() {
     return (
       <div className="min-h-screen pt-16 flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-ptx-bright-green mx-auto mb-4"></div>
+          <div className="animate-spin h-32 w-32 border-b-2 border-ptx-bright-green mx-auto mb-4"></div>
           <p className="text-ptx-dark-green font-lato">Loading weather data...</p>
         </div>
       </div>
@@ -151,7 +151,7 @@ export default function WeatherUpdates() {
             <select 
               value={selectedLocation}
               onChange={(e) => setSelectedLocation(e.target.value)}
-              className="bg-white border border-ptx-neutral-green rounded-lg px-4 py-2 text-ptx-dark-green font-lato"
+              className="bg-white border border-ptx-neutral-green px-4 py-2 text-ptx-dark-green font-lato"
             >
               {locations.map((location) => (
                 <option key={location.name} value={location.name}>
@@ -206,7 +206,7 @@ export default function WeatherUpdates() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
             {weatherData.forecast.map((day: any, index: number) => (
-              <div key={index} className="text-center p-4 bg-ptx-neutral-green rounded-lg">
+              <div key={index} className="text-center p-4 bg-ptx-neutral-green">
                 <p className="font-semibold text-ptx-dark-green mb-2 font-pilat">{day.day}</p>
                 {getWeatherIcon(day.condition)}
                 <p className="text-lg font-bold text-ptx-dark-green mt-2 font-pilat">

@@ -155,7 +155,7 @@ export default function FarmingGuides() {
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <span className="text-xs bg-ptx-neutral-green text-ptx-dark-green px-2 py-1 rounded mr-3">
+                  <span className="text-xs bg-ptx-neutral-green text-ptx-dark-green px-2 py-1  mr-3">
                     {resource.format}
                   </span>
                   <button className="btn-ptx-primary text-sm px-4 py-2">

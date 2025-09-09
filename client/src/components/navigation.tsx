@@ -44,7 +44,7 @@ export default function Navigation() {
             <div className="ml-10 flex items-baseline space-x-8">
               <Link 
                 href="/"
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-2  text-sm font-medium transition-colors ${
                   isActive('/') 
                     ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
                     : 'text-ptx-dark-green hover:text-ptx-medium-green'
@@ -55,7 +55,7 @@ export default function Navigation() {
               </Link>
               <Link 
                 href="/products"
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-2  text-sm font-medium transition-colors ${
                   isActive('/products') 
                     ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
                     : 'text-ptx-dark-green hover:text-ptx-medium-green'
@@ -66,7 +66,7 @@ export default function Navigation() {
               </Link>
               <Link 
                 href="/dealers"
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-2  text-sm font-medium transition-colors ${
                   isActive('/dealers') 
                     ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
                     : 'text-ptx-dark-green hover:text-ptx-medium-green'
@@ -77,7 +77,7 @@ export default function Navigation() {
               </Link>
               <Link 
                 href="/resources"
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-2  text-sm font-medium transition-colors ${
                   isActive('/resources') 
                     ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
                     : 'text-ptx-dark-green hover:text-ptx-medium-green'
@@ -88,7 +88,7 @@ export default function Navigation() {
               </Link>
               <a 
                 href="#contact"
-                className="bg-ptx-bright-green text-ptx-white px-4 py-2 rounded-md text-sm font-medium hover:bg-ptx-medium-green transition-colors"
+                className="bg-ptx-bright-green text-ptx-white px-4 py-2  text-sm font-medium hover:bg-ptx-medium-green transition-colors"
                 data-testid="nav-contact"
               >
                 Get Quote
@@ -100,7 +100,7 @@ export default function Navigation() {
           <div className="md:hidden">
             <button
               type="button"
-              className="bg-ptx-medium-green text-ptx-white p-2 rounded-md"
+              className="bg-ptx-medium-green text-ptx-white p-2 "
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               data-testid="mobile-menu-button"
             >
@@ -122,7 +122,7 @@ export default function Navigation() {
             <Link 
               href="/"
               onClick={handleMobileMenuClick}
-              className={`block px-3 py-2 rounded-md text-base font-medium ${
+              className={`block px-3 py-2  text-base font-medium ${
                 isActive('/') 
                   ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
                   : 'text-ptx-dark-green hover:text-ptx-medium-green'
@@ -134,7 +134,7 @@ export default function Navigation() {
             <Link 
               href="/products"
               onClick={handleMobileMenuClick}
-              className={`block px-3 py-2 rounded-md text-base font-medium ${
+              className={`block px-3 py-2  text-base font-medium ${
                 isActive('/products') 
                   ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
                   : 'text-ptx-dark-green hover:text-ptx-medium-green'
@@ -146,7 +146,7 @@ export default function Navigation() {
             <Link 
               href="/dealers"
               onClick={handleMobileMenuClick}
-              className={`block px-3 py-2 rounded-md text-base font-medium ${
+              className={`block px-3 py-2  text-base font-medium ${
                 isActive('/dealers') 
                   ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
                   : 'text-ptx-dark-green hover:text-ptx-medium-green'
@@ -158,7 +158,7 @@ export default function Navigation() {
             <Link 
               href="/resources"
               onClick={handleMobileMenuClick}
-              className={`block px-3 py-2 rounded-md text-base font-medium ${
+              className={`block px-3 py-2  text-base font-medium ${
                 isActive('/resources') 
                   ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
                   : 'text-ptx-dark-green hover:text-ptx-medium-green'
@@ -170,7 +170,7 @@ export default function Navigation() {
             <a 
               href="#contact"
               onClick={handleMobileMenuClick}
-              className="block px-3 py-2 rounded-md text-base font-medium bg-ptx-bright-green text-ptx-white hover:bg-ptx-medium-green transition-colors"
+              className="block px-3 py-2  text-base font-medium bg-ptx-bright-green text-ptx-white hover:bg-ptx-medium-green transition-colors"
               data-testid="mobile-nav-contact"
             >
               Get Quote

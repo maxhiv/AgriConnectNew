@@ -21,7 +21,7 @@ export default function ContactSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Zoho Contact Form */}
-          <div className="card-ptx rounded-lg p-8 text-ptx-dark-green">
+          <div className="card-ptx p-8 text-ptx-dark-green">
             <h3 className="heading-3 text-2xl font-bold text-ptx-dark-green mb-6 font-pilat">Send us a Message</h3>
             <ZohoFormIntegration className="w-full" />
           </div>
