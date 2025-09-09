@@ -1,4 +1,5 @@
 import { Sprout, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -130,9 +131,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 font-pilat">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Farming Guides</a></li>
-              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Weather Updates</a></li>
-              <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Market Prices</a></li>
+              <li><Link href="/farming-guides" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Farming Guides</Link></li>
+              <li><Link href="/weather-updates" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Weather Updates</Link></li>
+              <li><Link href="/market-pricing" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Market Prices</Link></li>
               <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Technical Support</a></li>
               <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">FAQ</a></li>
               <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Download Center</a></li>

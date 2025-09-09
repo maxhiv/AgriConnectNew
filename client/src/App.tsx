@@ -10,6 +10,9 @@ import ProductDetail from "@/pages/product-detail";
 import Dealers from "@/pages/dealers";
 import Resources from "@/pages/resources";
 import ResourceDetail from "@/pages/resource-detail";
+import FarmingGuides from "@/pages/FarmingGuides";
+import WeatherUpdates from "@/pages/WeatherUpdates";
+import MarketPricing from "@/pages/MarketPricing";
 
 function Router() {
   return (
@@ -20,6 +23,9 @@ function Router() {
       <Route path="/dealers" component={Dealers} />
       <Route path="/resources" component={Resources} />
       <Route path="/resources/:id" component={ResourceDetail} />
+      <Route path="/farming-guides" component={FarmingGuides} />
+      <Route path="/weather-updates" component={WeatherUpdates} />
+      <Route path="/market-pricing" component={MarketPricing} />
       <Route component={NotFound} />
     </Switch>
   );
