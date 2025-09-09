@@ -133,7 +133,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/farming-guides" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Farming Guides</Link></li>
               <li><Link href="/weather-updates" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Weather Updates</Link></li>
-              <li><Link href="/market-pricing" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Market Prices</Link></li>
               <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Technical Support</a></li>
               <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">FAQ</a></li>
               <li><a href="#" className="text-ptx-neutral-green hover:text-ptx-bright-green transition-colors font-lato">Download Center</a></li>
