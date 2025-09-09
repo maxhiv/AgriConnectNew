@@ -16,7 +16,12 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-ptx-dark-green text-ptx-white py-12">
+    <footer className="text-ptx-white py-12" style={{
+      background: 'linear-gradient(135deg, rgba(1, 59, 39, 0.95), rgba(12, 159, 80, 0.9))',
+      backdropFilter: 'blur(20px)',
+      WebkitBackdropFilter: 'blur(20px)',
+      borderTop: '1px solid rgba(255, 255, 255, 0.1)'
+    }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}

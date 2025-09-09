@@ -4,7 +4,11 @@ import { ZohoFormIntegration } from "./zoho-form-integration";
 export default function ContactSection() {
 
   return (
-    <section id="contact" className="section-solid--primary py-20 bg-ptx-dark-green text-ptx-white">
+    <section id="contact" className="py-20 text-ptx-white" style={{
+      background: 'linear-gradient(135deg, rgba(1, 59, 39, 0.9), rgba(12, 159, 80, 0.8))',
+      backdropFilter: 'blur(10px)',
+      WebkitBackdropFilter: 'blur(10px)'
+    }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="heading-2 text-3xl md:text-4xl font-pilat font-bold mb-4">

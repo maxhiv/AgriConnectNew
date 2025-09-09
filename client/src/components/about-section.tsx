@@ -2,7 +2,7 @@ import { CheckCircle } from "lucide-react";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-ptx-neutral-green">
+    <section id="about" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -42,7 +42,7 @@ export default function AboutSection() {
           <div className="space-y-8">
             {/* Statistics */}
             <div className="text-center">
-              <div className="bg-ptx-white rounded-lg shadow-lg p-8">
+              <div className="card-ptx p-8">
                 <div className="text-6xl font-pilat font-bold text-ptx-bright-orange mb-2">20+</div>
                 <div className="text-lg font-pilat text-ptx-dark-green font-semibold">Years of Excellence</div>
               </div>
