@@ -17,7 +17,13 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="bg-ptx-white shadow-lg sticky top-0 z-50">
+    <nav className="sticky top-0 z-50" style={{
+      background: 'rgba(255, 255, 255, 0.1)',
+      backdropFilter: 'blur(20px)',
+      WebkitBackdropFilter: 'blur(20px)',
+      borderBottom: '1px solid rgba(255, 255, 255, 0.2)',
+      boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)'
+    }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -106,7 +112,12 @@ export default function Navigation() {
 
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-ptx-white border-t border-ptx-neutral-green">
+        <div className="md:hidden border-t" style={{
+          background: 'rgba(255, 255, 255, 0.15)',
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          borderColor: 'rgba(255, 255, 255, 0.2)'
+        }}>
           <div className="px-2 pt-2 pb-3 space-y-1">
             <Link 
               href="/"

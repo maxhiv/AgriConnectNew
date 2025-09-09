@@ -52,11 +52,13 @@
   --color-light-orange: #FFE1B3;
   --color-dark-orange: #601D00;
 
-  /* PTx Colors — Neutrals */
-  --color-neutral-green: #EAF4F0;
-  --color-neutral-orange: #FEF7F0;
+  /* PTx Colors — Neutrals (Brightened) */
+  --color-neutral-green: #F0F9F5;
+  --color-neutral-orange: #FEF9F5;
   --color-white: #FFFFFF;
   --color-black: #000000;
+  --color-background-light: #FAFCFF;
+  --color-background-gradient: linear-gradient(135deg, #FAFCFF 0%, #F0F9F5 100%);
 
   /* PTx Colors — Semantic */
   --color-success: #51DF92;
@@ -114,14 +116,24 @@
   --agri-cream: var(--color-neutral-orange);
 
   /* Layout */
-  --radius: 1rem;
-  --radius-lg: 1rem;
-  --radius-xl: 1.25rem;
+  --radius: 1.5rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
   --shadow-sm: 0 1px 2px rgba(0,0,0,.06);
   --shadow-md: 0 6px 20px rgba(0,0,0,.12);
   --shadow-lg: 0 10px 25px rgba(0,0,0,.15);
   --shadow-xl: 0 20px 40px rgba(0,0,0,.20);
   --container: 1200px;
+
+  /* Glass Effects */
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-bg-light: rgba(255, 255, 255, 0.2);
+  --glass-bg-strong: rgba(255, 255, 255, 0.3);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.15);
+  --backdrop-blur: blur(20px);
+  --backdrop-blur-strong: blur(40px);
 
   /* Component colors */
   --btn-primary-bg: var(--color-bright-orange);
@@ -162,12 +174,14 @@
   }
 
   body {
-    @apply antialiased bg-background text-foreground;
+    @apply antialiased text-foreground;
     font-family: var(--font-secondary);
     font-size: 16px;
     line-height: var(--lh-150);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: var(--color-background-gradient);
+    min-height: 100vh;
   }
 
   img, svg, video {
@@ -231,67 +245,81 @@
     text-transform: uppercase;
   }
 
-  /* PTx Button Styles */
+  /* PTx Glass Button Styles */
   .btn-ptx {
-    @apply inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg border-0 cursor-pointer font-bold uppercase tracking-wider leading-none transition-all duration-200 ease-in-out;
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 cursor-pointer font-bold uppercase tracking-wider leading-none transition-all duration-300 ease-in-out;
     font-family: var(--font-primary);
     letter-spacing: var(--ls-2);
-    box-shadow: var(--shadow-sm);
+    border-radius: var(--radius-lg);
+    border: 1px solid transparent;
+    box-shadow: var(--glass-shadow);
+    backdrop-filter: var(--backdrop-blur);
+    -webkit-backdrop-filter: var(--backdrop-blur);
   }
 
   .btn-ptx:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-1px);
+    box-shadow: var(--glass-shadow-hover);
+    transform: translateY(-2px);
   }
 
   .btn-ptx:active {
-    transform: translateY(1px);
+    transform: translateY(0px);
   }
 
   .btn-ptx-primary {
     @apply btn-ptx;
-    background: var(--btn-primary-bg);
-    color: var(--btn-primary-text);
+    background: linear-gradient(135deg, var(--color-bright-orange), var(--color-pumpkin));
+    color: var(--color-white);
+    border-color: rgba(255, 255, 255, 0.2);
   }
 
   .btn-ptx-primary:hover {
-    background: var(--btn-primary-hover);
+    background: linear-gradient(135deg, var(--color-pumpkin), var(--color-bright-orange));
+    border-color: rgba(255, 255, 255, 0.3);
   }
 
   .btn-ptx-secondary {
     @apply btn-ptx;
-    background: var(--btn-secondary-bg);
-    color: var(--btn-secondary-text);
+    background: linear-gradient(135deg, var(--color-medium-green), var(--color-bright-green));
+    color: var(--color-white);
+    border-color: rgba(255, 255, 255, 0.2);
   }
 
   .btn-ptx-secondary:hover {
-    background: var(--btn-secondary-hover);
+    background: linear-gradient(135deg, var(--color-bright-green), var(--color-medium-green));
+    border-color: rgba(255, 255, 255, 0.3);
   }
 
   .btn-ptx-outline {
     @apply btn-ptx;
-    background: transparent;
-    border: 2px solid var(--color-medium-green);
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
     color: var(--color-medium-green);
   }
 
   .btn-ptx-outline:hover {
-    background: var(--color-medium-green);
-    color: var(--color-white);
+    background: var(--glass-bg-light);
+    border-color: var(--color-medium-green);
+    color: var(--color-medium-green);
   }
 
-  /* PTx Cards */
+  /* PTx Glass Cards */
   .card-ptx {
-    background: var(--color-white);
-    border: 1px solid rgba(0,0,0,.06);
+    background: var(--glass-bg-light);
+    backdrop-filter: var(--backdrop-blur);
+    -webkit-backdrop-filter: var(--backdrop-blur);
+    border: 1px solid var(--glass-border);
     border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--glass-shadow);
     overflow: hidden;
-    transition: box-shadow 0.2s ease;
+    transition: all 0.3s ease;
   }
 
   .card-ptx:hover {
-    box-shadow: var(--shadow-lg);
+    background: var(--glass-bg-strong);
+    box-shadow: var(--glass-shadow-hover);
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.3);
   }
 
   /* Brand graphic helpers */
