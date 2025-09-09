@@ -126,14 +126,14 @@
   --container: 1200px;
 
   /* Glass Effects */
-  --glass-bg: rgba(255, 255, 255, 0.1);
-  --glass-bg-light: rgba(255, 255, 255, 0.2);
-  --glass-bg-strong: rgba(255, 255, 255, 0.3);
-  --glass-border: rgba(255, 255, 255, 0.2);
-  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.15);
-  --backdrop-blur: blur(20px);
-  --backdrop-blur-strong: blur(40px);
+  --glass-bg: rgba(255, 255, 255, 0.25);
+  --glass-bg-light: rgba(255, 255, 255, 0.35);
+  --glass-bg-strong: rgba(255, 255, 255, 0.45);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.25);
+  --backdrop-blur: blur(15px);
+  --backdrop-blur-strong: blur(25px);
 
   /* Component colors */
   --btn-primary-bg: var(--color-bright-orange);
@@ -180,7 +180,7 @@
     line-height: var(--lh-150);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: var(--color-background-gradient);
+    background: linear-gradient(135deg, #E0F7FF 0%, #F0FFF4 35%, #FFF8DC 70%, #F0F8FF 100%);
     min-height: 100vh;
   }
 
