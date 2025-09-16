@@ -1,21 +1,16 @@
 import { Link } from "wouter";
-import planterVideo from "@assets/Three Point Mounted Planters - Reel_1756908609049.mp4";
+import planterImage from "@assets/MF23PV001DS-8S-with-MFVF-16-30-Planter-PLNT0281.jpg";
 
 export default function HeroSection() {
 
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
-      {/* Background Video */}
-      <video 
+      {/* Background Image */}
+      <img 
+        src={planterImage}
+        alt="Precision Agriculture Equipment"
         className="absolute inset-0 w-full h-full object-cover"
-        autoPlay
-        loop
-        muted
-        playsInline
-      >
-        <source src={planterVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      />
       <div className="absolute inset-0 bg-black bg-opacity-40" />
 
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
