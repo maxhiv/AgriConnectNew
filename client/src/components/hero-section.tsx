@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section id="home" className="relative h-screen flex items-center justify-center">
       {/* Background Video */}
       <video 
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-contain"
         autoPlay
         loop
         muted
