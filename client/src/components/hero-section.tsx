@@ -4,7 +4,7 @@ export default function HeroSection() {
 
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
-      {/* Background Video - Multiple fallback sources for deployment */}
+      {/* Background Video - Now served from reliable App Storage */}
       <video 
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
@@ -23,10 +23,10 @@ export default function HeroSection() {
             videoElement.style.display = 'none';
           }
         }}
+        onCanPlay={() => console.log('Video loaded successfully from App Storage')}
       >
-        {/* Try multiple sources for better deployment compatibility */}
-        <source src="/assets/videos/planter-video.mp4" type="video/mp4" />
-        <source src="./assets/videos/planter-video.mp4" type="video/mp4" />
+        {/* Primary source: App Storage hosted video for reliable custom domain deployment */}
+        <source src="/public-objects/videos/planter-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black bg-opacity-40" />
