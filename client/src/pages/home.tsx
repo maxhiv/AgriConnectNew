@@ -9,7 +9,7 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="font-lato bg-ptx-neutral-green">
+    <div className="font-lato bg-white">
       <Navigation />
       <HeroSection />
       <AboutSection />
