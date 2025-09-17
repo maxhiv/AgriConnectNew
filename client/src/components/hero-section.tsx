@@ -4,15 +4,29 @@ export default function HeroSection() {
 
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
-      {/* Background Video */}
+      {/* Background Video - Multiple fallback sources for deployment */}
       <video 
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
         loop
         muted
         playsInline
+        onError={(e) => {
+          console.error('Video failed to load:', e);
+          // Fallback to background image if video fails
+          const videoElement = e.target as HTMLVideoElement;
+          const section = videoElement.closest('section');
+          if (section) {
+            section.style.backgroundImage = 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80")';
+            section.style.backgroundSize = 'cover';
+            section.style.backgroundPosition = 'center';
+            videoElement.style.display = 'none';
+          }
+        }}
       >
+        {/* Try multiple sources for better deployment compatibility */}
         <source src="/assets/videos/planter-video.mp4" type="video/mp4" />
+        <source src="./assets/videos/planter-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black bg-opacity-40" />
