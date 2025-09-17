@@ -1,5 +1,4 @@
 import { Link } from "wouter";
-import planterVideo from "@assets/Three Point Mounted Planters - Reel_1756908609049.mp4";
 
 export default function HeroSection() {
 
@@ -13,7 +12,7 @@ export default function HeroSection() {
         muted
         playsInline
       >
-        <source src={planterVideo} type="video/mp4" />
+        <source src="/assets/videos/planter-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black bg-opacity-40" />
