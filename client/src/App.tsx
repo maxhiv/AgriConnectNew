@@ -12,6 +12,8 @@ import Resources from "@/pages/resources";
 import ResourceDetail from "@/pages/resource-detail";
 import FarmingGuides from "@/pages/FarmingGuides";
 import WeatherUpdates from "@/pages/WeatherUpdates";
+import WordPressPosts from "@/pages/wordpress-posts";
+import WordPressPostDetail from "@/pages/wordpress-post-detail";
 
 function Router() {
   return (
@@ -24,6 +26,8 @@ function Router() {
       <Route path="/resources/:id" component={ResourceDetail} />
       <Route path="/farming-guides" component={FarmingGuides} />
       <Route path="/weather-updates" component={WeatherUpdates} />
+      <Route path="/wordpress/posts" component={WordPressPosts} />
+      <Route path="/wordpress/post/:slug" component={WordPressPostDetail} />
       <Route component={NotFound} />
     </Switch>
   );
