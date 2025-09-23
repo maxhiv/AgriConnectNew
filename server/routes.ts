@@ -7,8 +7,81 @@ import fs from "fs";
 import path from "path";
 import crypto from 'crypto';
 import { ObjectStorageService } from "./objectStorage";
+import { WordPressService } from "./wordpressService";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Initialize WordPress service
+  const wordpressService = new WordPressService();
+
+  // WordPress API endpoints
+  app.get("/api/wordpress/posts", async (req, res) => {
+    try {
+      const limit = parseInt(req.query.limit as string) || 10;
+      const posts = await wordpressService.getPosts(limit);
+      res.json({ success: true, data: posts });
+    } catch (error) {
+      console.error("Error fetching WordPress posts:", error);
+      res.status(500).json({
+        success: false,
+        message: "Failed to fetch posts from WordPress"
+      });
+    }
+  });
+
+  app.get("/api/wordpress/posts/:slug", async (req, res) => {
+    try {
+      const { slug } = req.params;
+      const post = await wordpressService.getPost(slug);
+      if (!post) {
+        return res.status(404).json({
+          success: false,
+          message: "Post not found"
+        });
+      }
+      res.json({ success: true, data: post });
+    } catch (error) {
+      console.error("Error fetching WordPress post:", error);
+      res.status(500).json({
+        success: false,
+        message: "Failed to fetch post from WordPress"
+      });
+    }
+  });
+
+  app.get("/api/wordpress/pages", async (req, res) => {
+    try {
+      const limit = parseInt(req.query.limit as string) || 10;
+      const pages = await wordpressService.getPages(limit);
+      res.json({ success: true, data: pages });
+    } catch (error) {
+      console.error("Error fetching WordPress pages:", error);
+      res.status(500).json({
+        success: false,
+        message: "Failed to fetch pages from WordPress"
+      });
+    }
+  });
+
+  app.get("/api/wordpress/pages/:slug", async (req, res) => {
+    try {
+      const { slug } = req.params;
+      const page = await wordpressService.getPage(slug);
+      if (!page) {
+        return res.status(404).json({
+          success: false,
+          message: "Page not found"
+        });
+      }
+      res.json({ success: true, data: page });
+    } catch (error) {
+      console.error("Error fetching WordPress page:", error);
+      res.status(500).json({
+        success: false,
+        message: "Failed to fetch page from WordPress"
+      });
+    }
+  });
+
   // Public object storage endpoint for serving video and other assets
   app.get("/public-objects/:filePath(*)", async (req, res) => {
     const filePath = req.params.filePath;
