@@ -13,22 +13,27 @@ import { getAllNewsArticles, getNewsArticle } from "./newsArticlesSeed";
 
 async function autoSeedProducts() {
   try {
-    const existingProducts = await storage.getProducts();
-    if (existingProducts.length === 0) {
-      console.log('No products found in database. Auto-seeding catalog...');
-      let importedCount = 0;
-      for (const productData of catalogProducts) {
-        try {
+    console.log('Starting product catalog sync...');
+    let insertedCount = 0;
+    let updatedCount = 0;
+    
+    for (const productData of catalogProducts) {
+      try {
+        const existingProduct = await storage.getProductBySlug(productData.slug);
+        
+        if (existingProduct) {
+          await storage.updateProductBySlug(productData.slug, productData as any);
+          updatedCount++;
+        } else {
           await storage.createProduct(productData as any);
-          importedCount++;
-        } catch (error) {
-          console.error('Error importing product:', productData.name, error);
+          insertedCount++;
         }
+      } catch (error) {
+        console.error('Error syncing product:', productData.name, error);
       }
-      console.log(`Auto-seeded ${importedCount} products into database`);
-    } else {
-      console.log(`Database already has ${existingProducts.length} products`);
     }
+    
+    console.log(`Product catalog sync complete: ${insertedCount} inserted, ${updatedCount} updated`);
   } catch (error) {
     console.error('Error during auto-seed:', error);
   }
