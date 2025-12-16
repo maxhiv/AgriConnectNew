@@ -10,6 +10,7 @@ import { ObjectStorageService } from "./objectStorage";
 import { WordPressService } from "./wordpressService";
 import { catalogProducts, getAllBrands, getAllCategories } from "./productCatalogSeed";
 import { getAllNewsArticles, getNewsArticle } from "./newsArticlesSeed";
+import { getProductImageData } from "./productImagesSeed";
 
 async function autoSeedProducts() {
   try {
@@ -20,12 +21,32 @@ async function autoSeedProducts() {
     for (const productData of catalogProducts) {
       try {
         const existingProduct = await storage.getProductBySlug(productData.slug);
+        // Get image data from exported file
+        const imageData = getProductImageData(productData.slug);
         
         if (existingProduct) {
-          await storage.updateProductBySlug(productData.slug, productData as any);
+          // Merge product data with image data, preserving existing images if not in seed
+          const updateData = {
+            ...productData,
+            primaryImage: (productData as any).primaryImage || imageData?.primaryImage || existingProduct.primaryImage,
+            images: (productData as any).images || imageData?.images || existingProduct.images,
+            logoDarkGreen: (productData as any).logoDarkGreen || imageData?.logoDarkGreen || existingProduct.logoDarkGreen,
+            logoBlack: (productData as any).logoBlack || imageData?.logoBlack || existingProduct.logoBlack,
+            logoWhite: (productData as any).logoWhite || imageData?.logoWhite || existingProduct.logoWhite,
+          };
+          await storage.updateProductBySlug(productData.slug, updateData as any);
           updatedCount++;
         } else {
-          await storage.createProduct(productData as any);
+          // For new products, include image data from export
+          const createData = {
+            ...productData,
+            primaryImage: (productData as any).primaryImage || imageData?.primaryImage,
+            images: (productData as any).images || imageData?.images,
+            logoDarkGreen: (productData as any).logoDarkGreen || imageData?.logoDarkGreen,
+            logoBlack: (productData as any).logoBlack || imageData?.logoBlack,
+            logoWhite: (productData as any).logoWhite || imageData?.logoWhite,
+          };
+          await storage.createProduct(createData as any);
           insertedCount++;
         }
       } catch (error) {
