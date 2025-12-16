@@ -1,63 +1,54 @@
-import { useWordPressPosts, formatWordPressDate, getExcerpt } from "@/hooks/useWordPress";
 import { Link } from "wouter";
 
 export default function NewsSection() {
-  const { data: wordpressData, isLoading: wordpressLoading } = useWordPressPosts(3);
-  
-  const fallbackArticles = [
+  const articles = [
     {
-      image: "https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      date: "March 15, 2024",
-      title: "Precision Agriculture: The Future of Farming",
-      excerpt: "Discover how drone technology and GPS-guided systems are revolutionizing modern agriculture...",
-      isWordPress: false,
-      slug: "",
-      link: "",
+      image: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      date: "December 10, 2024",
+      title: "PTx Trimble NAV-960 Delivers Sub-Inch Accuracy for Alabama Cotton Farmers",
+      excerpt: "Vantage South customers in Houston County report 15% input savings after upgrading to the NAV-960 guidance controller with RTK correction services.",
     },
     {
-      image: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      date: "March 12, 2024",
-      title: "Sustainable Farming Practices for 2024",
-      excerpt: "Learn about the latest sustainable farming techniques that benefit both farmers and the environment...",
-      isWordPress: false,
-      slug: "",
-      link: "",
+      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      date: "November 28, 2024",
+      title: "Variable Rate Technology Transforms Peanut Production in the Wiregrass",
+      excerpt: "Southeast Alabama growers using Ag Leader OptiRx sensors see improved plant health monitoring and optimized fertilizer applications across their fields.",
     },
     {
-      image: "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      date: "March 10, 2024",
-      title: "Record Harvest Yields This Season",
-      excerpt: "Local farmers report exceptional yields thanks to improved farming techniques and favorable weather...",
-      isWordPress: false,
-      slug: "",
-      link: "",
+      image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      date: "November 15, 2024",
+      title: "Vantage South Expands Service Coverage to Central Tennessee",
+      excerpt: "Our newest territory brings precision agriculture solutions to corn and soybean producers in Robertson, Montgomery, and Sumner counties.",
+    },
+    {
+      image: "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      date: "October 30, 2024",
+      title: "Raven Autonomy: The Future of Hands-Free Farming Arrives in Mississippi",
+      excerpt: "Delta region farmers experience the benefits of autonomous tillage and planting operations with Raven's DOT autonomous platform technology.",
+    },
+    {
+      image: "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      date: "October 18, 2024",
+      title: "GFX-1260 Display: Streamlining Farm Operations Across the Southeast",
+      excerpt: "The Android-based 12.1-inch touchscreen simplifies precision agriculture workflows for operators running multiple implements and guidance systems.",
+    },
+    {
+      image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      date: "October 5, 2024",
+      title: "Schedule Your Field Demo: See Precision Ag Technology in Action",
+      excerpt: "Vantage South offers complimentary on-farm demonstrations of guidance systems, variable rate controllers, and yield monitoring equipment throughout our service area.",
     },
   ];
-
-  // Combine WordPress posts with fallback articles
-  const wordPressPosts = wordpressData?.data || [];
-  const articles = [
-    ...wordPressPosts.map(post => ({
-      image: "https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400", // Default image for WordPress posts
-      date: formatWordPressDate(post.date),
-      title: post.title.rendered,
-      excerpt: post.excerpt.rendered ? getExcerpt(post.excerpt.rendered, 120) : getExcerpt(post.content.rendered, 120),
-      isWordPress: true,
-      slug: post.slug,
-      link: post.link,
-    })),
-    ...fallbackArticles,
-  ].slice(0, 3); // Limit to 3 articles total
 
   return (
     <section id="news" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="heading-2 text-3xl md:text-4xl font-pilat font-bold text-ptx-dark-green mb-4">
-            Latest Agricultural News
+            Latest From Vantage South
           </h2>
           <p className="text-ptx-dark-green text-lg max-w-3xl mx-auto font-lato">
-            Stay updated with the latest developments in agricultural technology, farming practices, and industry insights.
+            Stay updated with the latest developments in precision agriculture technology, product innovations, and success stories from our Southeast farming community.
           </p>
         </div>
 
@@ -65,7 +56,7 @@ export default function NewsSection() {
           {articles.map((article, index) => (
             <article 
               key={index}
-              className="card-ptx  overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
+              className="card-ptx overflow-hidden hover:shadow-xl transition-all duration-300 hover:transform hover:-translate-y-1"
               data-testid={`news-article-${index}`}
             >
               <img 
@@ -76,51 +67,23 @@ export default function NewsSection() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-2">
                   <div className="eyebrow text-sm text-ptx-medium-green">{article.date}</div>
-                  {article.isWordPress && (
-                    <span className="px-2 py-1 bg-ptx-bright-blue text-white text-xs rounded font-medium">
-                      WordPress
-                    </span>
-                  )}
                 </div>
                 <h3 className="text-xl font-semibold text-ptx-dark-green mb-3 font-pilat">{article.title}</h3>
                 <p className="text-ptx-dark-green mb-4 font-lato">{article.excerpt}</p>
-                {article.isWordPress ? (
-                  <div className="flex gap-2">
-                    <Link href={`/wordpress/post/${article.slug}`}>
-                      <button className="text-ptx-bright-blue font-medium hover:text-ptx-medium-green transition-colors font-pilat">
-                        Read More →
-                      </button>
-                    </Link>
-                    <a 
-                      href={article.link} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-ptx-medium-green font-medium hover:text-ptx-bright-blue transition-colors font-pilat ml-4"
-                    >
-                      Original ↗
-                    </a>
-                  </div>
-                ) : (
-                  <button className="text-ptx-bright-blue font-medium hover:text-ptx-medium-green transition-colors font-pilat">
-                    Read More →
-                  </button>
-                )}
+                <button className="text-ptx-bright-blue font-medium hover:text-ptx-medium-green transition-colors font-pilat">
+                  Read More →
+                </button>
               </div>
             </article>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/wordpress/posts">
-              <button className="btn-ptx-secondary hover:bg-ptx-dark-green text-ptx-white px-8 py-3 font-semibold transition-all duration-300 hover:transform hover:-translate-y-1" data-testid="button-view-wordpress-posts">
-                View WordPress Posts
-              </button>
-            </Link>
-            <button className="btn-ptx-secondary hover:bg-ptx-dark-green text-ptx-white px-8 py-3 font-semibold transition-all duration-300 hover:transform hover:-translate-y-1" data-testid="button-view-all-news">
-              View All News
+          <Link href="/schedule-field-demo">
+            <button className="btn-ptx-primary px-8 py-3 font-semibold transition-all duration-300 hover:transform hover:-translate-y-1" data-testid="button-schedule-demo">
+              Schedule a Field Demo
             </button>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
