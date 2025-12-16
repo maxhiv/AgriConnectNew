@@ -10,7 +10,31 @@ import { ObjectStorageService } from "./objectStorage";
 import { WordPressService } from "./wordpressService";
 import { catalogProducts, getAllBrands, getAllCategories } from "./productCatalogSeed";
 
+async function autoSeedProducts() {
+  try {
+    const existingProducts = await storage.getProducts();
+    if (existingProducts.length === 0) {
+      console.log('No products found in database. Auto-seeding catalog...');
+      let importedCount = 0;
+      for (const productData of catalogProducts) {
+        try {
+          await storage.createProduct(productData as any);
+          importedCount++;
+        } catch (error) {
+          console.error('Error importing product:', productData.name, error);
+        }
+      }
+      console.log(`Auto-seeded ${importedCount} products into database`);
+    } else {
+      console.log(`Database already has ${existingProducts.length} products`);
+    }
+  } catch (error) {
+    console.error('Error during auto-seed:', error);
+  }
+}
+
 export async function registerRoutes(app: Express): Promise<Server> {
+  await autoSeedProducts();
   // Initialize WordPress service
   const wordpressService = new WordPressService();
 
