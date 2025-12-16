@@ -1,0 +1,240 @@
+You are building a production-ready precision agriculture website + product/services catalog.
+We sell BOTH products and services and serve: Alabama, Mississippi, North Florida (Panhandle/NW FL), Central Tennessee.
+
+PRIMARY GOAL:
+Dominate local SEO in REAL agricultural counties and hub towns (Tier 1 first), not generic statewide pages.
+
+OUTPUT REQUIREMENTS:
+1) Generate a complete SEO-first route map (URLs)
+2) Generate FULL copy (not just templates) for ALL Tier 1 county pages + ALL Tier 1 city pages
+3) Generate templates + full copy for:
+   - Territory hub pages (4)
+   - Core service pages
+   - Crop pages
+4) Include internal linking rules + schema plan (Organization, LocalBusiness, Service, Product, FAQ)
+5) Provide structured JSON configs:
+   - targetLocations (tiers)
+   - seoMeta (title/meta per page)
+   - productsSeed (product catalog with descriptions)
+6) Provide a build-ready React UI + routing + SEO head tags (title/meta/canonical/open graph)
+7) Generate:
+   - sitemap.xml (auto-generated)
+   - robots.txt
+   - canonical URL rules
+   - hreflang strategy (ONLY if needed; otherwise omit)
+8) Provide a scalable “page generator” approach:
+   - All county/city pages generated programmatically from JSON
+   - Unique copy per page (no near-duplicate content)
+9) Create a “Field Demo CTA” component and inject it consistently on location pages.
+
+IMPORTANT RULES:
+- Do NOT create fake offices.
+- Use “We serve” language + counties/cities.
+- Keep location pages unique (no thin/duplicate pages).
+- Include strong CTAs: field demo, install quote, RTK consult, seasonal support.
+- Content tone: farmer-first, practical, confident, not hypey.
+
+=====================================================================
+TARGET LOCATION PRIORITY (TIER 1 FIRST)
+=====================================================================
+
+ALABAMA Tier1CountiesCities = [
+ {county:"Houston", cities:["Dothan","Ashford","Rehobeth"]},
+ {county:"Geneva", cities:["Geneva","Hartford","Slocomb"]},
+ {county:"Henry", cities:["Abbeville","Headland"]},
+ {county:"Coffee", cities:["Enterprise","Elba"]},
+ {county:"Dale", cities:["Ozark"]},
+ {county:"Covington", cities:["Andalusia"]},
+ {county:"Escambia", cities:["Atmore","Brewton"]},
+ {county:"Baldwin", cities:["Robertsdale","Foley","Fairhope"]},
+ {county:"Limestone", cities:["Athens"]},
+ {county:"Madison", cities:["Huntsville"]},
+ {county:"Lauderdale", cities:["Florence"]}
+]
+
+MISSISSIPPI Tier1CountiesCities = [
+ {county:"Washington", cities:["Greenville"]},
+ {county:"Bolivar", cities:["Cleveland"]},
+ {county:"Sunflower", cities:["Indianola","Ruleville"]},
+ {county:"Leflore", cities:["Greenwood"]},
+ {county:"Coahoma", cities:["Clarksdale"]},
+ {county:"Humphreys", cities:["Belzoni"]},
+ {county:"Sharkey", cities:["Rolling Fork"]},
+ {county:"Tunica", cities:["Tunica"]},
+ {county:"Quitman", cities:["Marks"]},
+ {county:"Issaquena", cities:["Mayersville"]}
+]
+
+NORTH FLORIDA Tier1CountiesCities = [
+ {county:"Jackson", cities:["Marianna"]},
+ {county:"Calhoun", cities:["Blountstown"]},
+ {county:"Holmes", cities:["Bonifay"]},
+ {county:"Washington", cities:["Chipley"]}
+]
+
+CENTRAL TENNESSEE Tier1CountiesCities = [
+ {county:"Giles", cities:["Pulaski"]},
+ {county:"Lincoln", cities:["Fayetteville"]},
+ {county:"Bedford", cities:["Shelbyville"]},
+ {county:"Maury", cities:["Columbia"]},
+ {county:"Coffee", cities:["Manchester","Tullahoma"]},
+ {county:"Franklin", cities:["Winchester"]},
+ {county:"Marshall", cities:["Lewisburg"]}
+]
+
+=====================================================================
+REQUIRED PAGE ARCHITECTURE (GENERATE THESE ROUTES)
+=====================================================================
+
+A) TERRITORY HUB PAGES (4)
+- /alabama-precision-agriculture/
+- /mississippi-precision-agriculture/
+- /northwest-florida-precision-agriculture/
+- /central-tennessee-precision-agriculture/
+
+Each hub page MUST include:
+- Tier 1 county list + links to county pages
+- Tier 1 city hubs + links to city pages
+- “Top solutions” modules: guidance/steering, RTK/GNSS, planter upgrades, application control, spreaders
+- “Services we provide” module: installation, calibration, RTK setup, training, in-season support
+- FAQ section + FAQ schema
+- Strong CTA
+
+B) COUNTY PAGES (PROGRAMMATIC)
+URL pattern:
+- /{state}/{county-slug}/precision-agriculture/
+Example:
+- /alabama/houston-county/precision-agriculture/
+
+County page MUST include:
+- Cities served
+- Likely crops in region (cotton, corn, soybeans, peanuts, row crops)
+- Problems solved (overlap, drift, downforce variability, skips/doubles, rate instability, poor mapping visibility)
+- Solutions + internal links to product categories + service pages + crop pages
+- Local proof section: field demo availability, install + seasonal support
+- CTA
+
+C) CITY PAGES (TIER 1 FIRST)
+URL pattern:
+- /{state}/{city-slug}/precision-agriculture/
+Example:
+- /alabama/dothan/precision-agriculture/
+
+City page MUST include:
+- Short local intro
+- 3–5 most relevant products/services modules
+- Links back to county page + territory hub
+- CTA
+
+D) SERVICE PAGES
+- /services/precision-ag-consulting/
+- /services/installation-calibration/
+- /services/rtk-gnss-setup/
+- /services/in-season-support/
+- /services/on-farm-training/
+
+E) CROP PAGES
+- /crops/cotton-precision-ag/
+- /crops/peanut-precision-ag/
+- /crops/corn-precision-ag/
+- /crops/soybean-precision-ag/
+- /crops/row-crops-precision-ag/
+
+F) INTERNAL LINKING RULES
+- Every territory hub links to its Tier 1 counties + top services + top product categories
+- Every county links to territory hub + its Tier 1 cities + 3 relevant services + 2 relevant crop pages
+- Every city links to county + territory hub + 2 crop pages + 2 services
+- Every product category page links to all 4 territory hubs
+
+G) SCHEMA REQUIREMENTS (AUTO-GENERATE JSON-LD)
+- Organization schema with serviceArea
+- LocalBusiness schema ONLY for real physical locations (do not invent addresses)
+- Service schema on service pages
+- Product schema on product pages where appropriate
+- FAQ schema on territory hubs + key service pages
+- Breadcrumb schema on ALL pages
+
+=====================================================================
+EXACT SEO META (TIER 1 COUNTIES + CITIES)
+=====================================================================
+
+Use the following exact titles and meta descriptions for the corresponding pages:
+[KEEP/USE THE EXACT title/meta pairs already provided earlier in this conversation for every Tier 1 county and Tier 1 city.]
+
+Implementation requirement:
+- create seoMeta.json keyed by route path => { title, metaDescription }
+- inject into <head> via React Head component
+- also generate Open Graph tags using same title/description
+- generate canonical tag from baseUrl + route
+
+=====================================================================
+PRODUCT CATALOG SEED JSON (WITH DESCRIPTIONS)
+=====================================================================
+
+Create a file products.seed.json with the JSON array below. Product pages must render:
+- name, shortDescription, description, keyFeatures, brand, category, sourceUrls
+
+Also create:
+- category pages (Displays, Guidance Control, Steering Systems, Receivers, Application Control, Spreaders, Application Technology)
+- internal links from location pages to categories + top products relevant to that region’s crops
+
+JSON:
+[PASTE THE JSON ARRAY FROM EARLIER IN THIS CONVERSATION EXACTLY AS-IS]
+
+=====================================================================
+NEW SUGGESTIONS TO ADD (DO THESE TOO)
+=====================================================================
+
+1) Bulk Page Output Format (so we can drop in content fast):
+- Generate ALL Tier 1 county page bodies in individual markdown files:
+  /content/locations/{state}/{county}/precision-agriculture.md
+- Generate ALL Tier 1 city page bodies in individual markdown files:
+  /content/locations/{state}/{city}/precision-agriculture.md
+Each markdown must include:
+- frontmatter: title, metaDescription, canonical, state, county/city, tier, primaryCrops, primaryServices, primaryCategories
+- body: unique copy with headings, bullets, internal links, CTA block
+
+2) Sitemaps + Indexing:
+- Generate sitemap.xml automatically from routes
+- Include lastmod = build time
+- Create robots.txt with sitemap reference
+
+3) Duplicate Content Guardrails:
+- For every county/city page, include 2–3 unique local angles:
+  (crop emphasis, seasonal workflow, support model, local service language)
+- Add “content variation tokens” so repeated blocks are rewritten, not copied.
+
+4) Product Image Enrichment Script (optional but recommended):
+- Provide a Node/TS script:
+  scripts/enrichProductImages.ts
+  It fetches each sourceUrl and extracts:
+   - og:image
+   - JSON-LD image
+   - fallback first hero <img>
+  Outputs: products.enriched.json
+- No brittle scraping; use safe selectors and graceful fallbacks.
+
+5) Conversion + Tracking:
+- Add a Field Demo form component and route:
+  /schedule-field-demo/
+- Add event tracking hooks for:
+  call clicks, demo submissions, quote requests
+(Use placeholders; do not require external keys.)
+
+6) Local SEO Ops Pack (content engine):
+- Generate 12 blog topics mapped to Tier 1 regions + crops
+- Generate 8 GBP post templates for seasonal moments:
+  pre-plant, planting, side-dress, post-emerge, layby, pre-harvest, harvest, post-harvest
+
+=====================================================================
+NOW GENERATE
+=====================================================================
+
+A) Full route map (all hubs + Tier 1 counties + Tier 1 cities + services + crops + categories + demo page)
+B) seoMeta.json with exact title/meta per Tier 1 route
+C) Full markdown content files for ALL Tier 1 county pages + ALL Tier 1 city pages (unique copy)
+D) Full content for all service pages + crop pages
+E) React UI scaffolding that loads content from /content and products from products.seed.json
+F) scripts/enrichProductImages.ts plus instructions to run it
+G) sitemap.xml + robots.txt + canonical strategy
+H) 90-day rollout plan: Tier 1 launch, then Tier 2 expansion
