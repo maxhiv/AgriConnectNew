@@ -9,6 +9,7 @@ import crypto from 'crypto';
 import { ObjectStorageService } from "./objectStorage";
 import { WordPressService } from "./wordpressService";
 import { catalogProducts, getAllBrands, getAllCategories } from "./productCatalogSeed";
+import { getAllNewsArticles, getNewsArticle } from "./newsArticlesSeed";
 
 async function autoSeedProducts() {
   try {
@@ -268,6 +269,34 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.status(500).json({
         success: false,
         message: "Failed to seed catalog products"
+      });
+    }
+  });
+
+  // News article routes
+  app.get("/api/news", async (_req, res) => {
+    try {
+      const articles = getAllNewsArticles();
+      res.json(articles);
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        message: "Failed to retrieve news articles"
+      });
+    }
+  });
+
+  app.get("/api/news/:slug", async (req, res) => {
+    try {
+      const article = getNewsArticle(req.params.slug);
+      if (!article) {
+        return res.status(404).json({ error: "Article not found" });
+      }
+      res.json(article);
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        message: "Failed to retrieve news article"
       });
     }
   });

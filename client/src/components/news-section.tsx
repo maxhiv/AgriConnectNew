@@ -7,42 +7,42 @@ export default function NewsSection() {
       date: "December 10, 2024",
       title: "PTx Trimble NAV-960 Delivers Sub-Inch Accuracy for Alabama Cotton Farmers",
       excerpt: "Vantage South customers in Houston County report 15% input savings after upgrading to the NAV-960 guidance controller with RTK correction services.",
-      link: "/products?brand=PTx%20Trimble",
+      slug: "ptx-trimble-nav-960-alabama-cotton-farmers",
     },
     {
       image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       date: "November 28, 2024",
       title: "Variable Rate Technology Transforms Peanut Production in the Wiregrass",
       excerpt: "Southeast Alabama growers using Ag Leader OptiRx sensors see improved plant health monitoring and optimized fertilizer applications across their fields.",
-      link: "/products?brand=Ag%20Leader",
+      slug: "variable-rate-technology-peanut-production-wiregrass",
     },
     {
       image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       date: "November 15, 2024",
       title: "Vantage South Expands Service Coverage to Central Tennessee",
       excerpt: "Our newest territory brings precision agriculture solutions to corn and soybean producers in Robertson, Montgomery, and Sumner counties.",
-      link: "/central-tennessee-precision-agriculture",
+      slug: "vantage-south-expands-central-tennessee",
     },
     {
       image: "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       date: "October 30, 2024",
       title: "Raven Autonomy: The Future of Hands-Free Farming Arrives in Mississippi",
       excerpt: "Delta region farmers experience the benefits of autonomous tillage and planting operations with Raven's DOT autonomous platform technology.",
-      link: "/products?brand=Raven",
+      slug: "raven-autonomy-mississippi-delta",
     },
     {
       image: "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       date: "October 18, 2024",
       title: "GFX-1260 Display: Streamlining Farm Operations Across the Southeast",
       excerpt: "The Android-based 12.1-inch touchscreen simplifies precision agriculture workflows for operators running multiple implements and guidance systems.",
-      link: "/product/ptx-gfx-1260",
+      slug: "gfx-1260-display-southeast-operations",
     },
     {
       image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       date: "October 5, 2024",
       title: "Schedule Your Field Demo: See Precision Ag Technology in Action",
       excerpt: "Vantage South offers complimentary on-farm demonstrations of guidance systems, variable rate controllers, and yield monitoring equipment throughout our service area.",
-      link: "/schedule-field-demo",
+      slug: "schedule-field-demo-precision-ag-technology",
     },
   ];
 
@@ -76,7 +76,7 @@ export default function NewsSection() {
                 </div>
                 <h3 className="text-xl font-semibold text-ptx-dark-green mb-3 font-pilat">{article.title}</h3>
                 <p className="text-ptx-dark-green mb-4 font-lato">{article.excerpt}</p>
-                <Link href={article.link}>
+                <Link href={`/news/${article.slug}`}>
                   <span className="text-ptx-bright-blue font-medium hover:text-ptx-medium-green transition-colors font-pilat cursor-pointer">
                     Read More →
                   </span>

@@ -19,6 +19,7 @@ import LocationPage from "@/pages/LocationPage";
 import ServicePage from "@/pages/ServicePage";
 import CropPage from "@/pages/CropPage";
 import FieldDemo from "@/pages/FieldDemo";
+import NewsArticlePage from "@/pages/news-article";
 
 function Router() {
   return (
@@ -33,6 +34,7 @@ function Router() {
       <Route path="/weather-updates" component={WeatherUpdates} />
       <Route path="/wordpress/posts" component={WordPressPosts} />
       <Route path="/wordpress/post/:slug" component={WordPressPostDetail} />
+      <Route path="/news/:slug" component={NewsArticlePage} />
       
       {/* Field Demo - before other dynamic routes */}
       <Route path="/schedule-field-demo" component={FieldDemo} />
