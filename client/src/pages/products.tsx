@@ -248,6 +248,18 @@ function ProductCard({ product, viewMode }: { product: Product; viewMode: "grid"
     return (
       <Card className="hover:shadow-lg transition-shadow" data-testid={`card-product-${product.slug}`}>
         <div className="flex flex-col md:flex-row">
+          {product.primaryImage && (
+            <div className="w-full md:w-48 h-32 bg-slate-50 flex-shrink-0 overflow-hidden">
+              <img 
+                src={product.primaryImage} 
+                alt={product.name}
+                className="w-full h-full object-contain p-2"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
+              />
+            </div>
+          )}
           <CardHeader className="flex-1">
             <div className="flex gap-2 mb-2">
               <Badge variant="secondary">{product.brand}</Badge>
@@ -283,12 +295,25 @@ function ProductCard({ product, viewMode }: { product: Product; viewMode: "grid"
 
   return (
     <Card className="hover:shadow-lg transition-shadow flex flex-col" data-testid={`card-product-${product.slug}`}>
+      {product.primaryImage && (
+        <div className="aspect-video bg-slate-50 overflow-hidden">
+          <img 
+            src={product.primaryImage} 
+            alt={product.name}
+            className="w-full h-full object-contain p-4"
+            onError={(e) => {
+              e.currentTarget.style.display = 'none';
+            }}
+            data-testid={`img-product-${product.slug}`}
+          />
+        </div>
+      )}
       <CardHeader className="flex-1">
         <div className="flex justify-between items-start">
           <Badge variant="secondary">{product.brand}</Badge>
           <Badge variant="outline">{product.category}</Badge>
         </div>
-        {product.logoDarkGreen && (
+        {!product.primaryImage && product.logoDarkGreen && (
           <div className="my-4 flex justify-center">
             <img 
               src={product.logoDarkGreen} 

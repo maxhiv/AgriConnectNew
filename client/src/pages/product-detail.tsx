@@ -190,17 +190,23 @@ export default function ProductDetail() {
             )}
 
             {/* Additional Images */}
-            {product.images && product.images.length > 1 && (
+            {product.images && product.images.length > 0 && (
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {product.images.slice(1, 4).map((image, index) => (
-                  <div key={index} className="aspect-square bg-slate-50 rounded-lg overflow-hidden">
-                    <img 
-                      src={image.path} 
-                      alt={`${product.name} ${index + 2}`}
-                      className="w-full h-full object-contain p-4"
-                    />
-                  </div>
-                ))}
+                {product.images.slice(0, 4).map((image, index) => {
+                  const imageUrl = typeof image === 'string' ? image : (image as any).path;
+                  return (
+                    <div key={index} className="aspect-square bg-slate-50 rounded-lg overflow-hidden">
+                      <img 
+                        src={imageUrl} 
+                        alt={`${product.name} ${index + 1}`}
+                        className="w-full h-full object-contain p-4"
+                        onError={(e) => {
+                          e.currentTarget.style.display = 'none';
+                        }}
+                      />
+                    </div>
+                  );
+                })}
               </div>
             )}
 

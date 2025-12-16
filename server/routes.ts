@@ -396,6 +396,37 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Enrich a single product by fetching metadata from manufacturer URL
+  app.post("/api/products/:slug/enrich", async (req, res) => {
+    try {
+      const { enrichProduct } = await import("./productScraper");
+      const { slug } = req.params;
+      
+      const product = await storage.getProductBySlug(slug);
+      if (!product) {
+        return res.status(404).json({ error: "Product not found" });
+      }
+      
+      const result = await enrichProduct(product.id);
+      res.json(result);
+    } catch (error) {
+      console.error("Error enriching product:", error);
+      res.status(500).json({ error: "Failed to enrich product" });
+    }
+  });
+
+  // Enrich all products (batch operation)
+  app.post("/api/enrich-all-products", async (req, res) => {
+    try {
+      const { enrichAllProducts } = await import("./productScraper");
+      const results = await enrichAllProducts();
+      res.json(results);
+    } catch (error) {
+      console.error("Error enriching all products:", error);
+      res.status(500).json({ error: "Failed to enrich products" });
+    }
+  });
+
   // Import products from JSON file
   app.post("/api/import-products", async (req, res) => {
     try {

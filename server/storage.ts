@@ -10,6 +10,7 @@ export interface IStorage {
   createContactMessage(message: InsertContactMessage): Promise<ContactMessage>;
   getContactMessages(): Promise<ContactMessage[]>;
   getProducts(): Promise<Product[]>;
+  getProduct(id: string): Promise<Product | undefined>;
   getProductBySlug(slug: string): Promise<Product | undefined>;
   createProduct(product: InsertProduct): Promise<Product>;
   getProductsByEquipment(equipment: string): Promise<Product[]>;
@@ -68,6 +69,10 @@ export class MemStorage implements IStorage {
 
   async getProducts(): Promise<Product[]> {
     return Array.from(this.products.values());
+  }
+
+  async getProduct(id: string): Promise<Product | undefined> {
+    return this.products.get(id);
   }
 
   async getProductBySlug(slug: string): Promise<Product | undefined> {
@@ -177,6 +182,11 @@ export class DatabaseStorage implements IStorage {
 
   async getProducts(): Promise<Product[]> {
     return await db.select().from(products).orderBy(products.name);
+  }
+
+  async getProduct(id: string): Promise<Product | undefined> {
+    const [product] = await db.select().from(products).where(eq(products.id, id));
+    return product || undefined;
   }
 
   async getProductBySlug(slug: string): Promise<Product | undefined> {
