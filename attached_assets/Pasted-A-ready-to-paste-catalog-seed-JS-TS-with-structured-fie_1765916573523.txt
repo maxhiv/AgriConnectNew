@@ -1,0 +1,557 @@
+A ready-to-paste catalog seed (JS/TS) with structured fields for each link you provided (name/category/brand/url + short description + a few specs/features where the page exposes them clearly).
+
+A Replit-friendly scraper script that will auto-fill imageUrl (and optionally name/description) by pulling og:image or the first large product image.
+
+1) Paste into Replit: productCatalog.seed.ts
+
+Notes:
+
+imageUrl is left as null here so you can auto-populate it with the scraper below.
+
+Some “category pages” you listed (ex: “Guidance Controllers and Receivers - …/guidance-control”) aren’t a single product; I only included the actual product detail links you pasted.
+
+// productCatalog.seed.ts
+export type Product = {
+  id: string;
+  brand: string;
+  category: string;
+  name: string;
+  url: string;
+  shortDescription?: string;
+  keyFeatures?: string[];
+  specs?: string[];
+  imageUrl?: string | null; // fill via scraper
+};
+
+export const products: Product[] = [
+  // -------------------------
+  // PTx Trimble (PTx Trimble / AGCO)
+  // -------------------------
+  {
+    id: "ptx-gfx-1260",
+    brand: "PTx Trimble",
+    category: "Displays",
+    name: "GFX-1260 Display",
+    url: "https://ptxtrimble.com/en/products/hardware/displays/gfx-1260-display",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-gfx-1060",
+    brand: "PTx Trimble",
+    category: "Displays",
+    name: "GFX-1060 Display",
+    url: "https://ptxtrimble.com/en/products/hardware/displays/gfx-1060-display",
+    shortDescription:
+      "10-inch Android-based display for controlling and executing operations using the Precision-IQ platform.",
+    keyFeatures: ["Android-based", "Precision-IQ platform"],
+    specs: [
+      "10-inch high-definition color touchscreen",
+      "Android-based operating system",
+      "Precision-IQ firmware",
+      "32 GB storage / 4 GB RAM",
+      "Optional ISOBUS task controller & universal terminal",
+      "Control up to 6 input channels and 255 sections",
+    ],
+    imageUrl: null,
+  },
+  {
+    id: "ptx-gfx-350",
+    brand: "PTx Trimble",
+    category: "Displays",
+    name: "GFX-350 Display",
+    url: "https://ptxtrimble.com/en/products/hardware/displays/gfx-350-display",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-nav-960",
+    brand: "PTx Trimble",
+    category: "Guidance Controllers",
+    name: "NAV-960 Guidance Controller",
+    url: "https://ptxtrimble.com/en/products/hardware/guidance-control/nav-960-guidance-controller",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-nav-500",
+    brand: "PTx Trimble",
+    category: "Guidance Controllers",
+    name: "NAV-500 Guidance Controller",
+    url: "https://ptxtrimble.com/en/products/hardware/guidance-control/nav-500-guidance-controller",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-ag-392",
+    brand: "PTx Trimble",
+    category: "Receivers",
+    name: "AG-392 Receiver",
+    url: "https://ptxtrimble.com/en/products/hardware/guidance-control/ag-392-receiver",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-r750",
+    brand: "PTx Trimble",
+    category: "Receivers",
+    name: "R750 Modular GNSS Receiver",
+    url: "https://ptxtrimble.com/en/products/hardware/guidance-control/r750-modular-gnss-receiver",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-autopilot-automated",
+    brand: "PTx Trimble",
+    category: "Steering Systems",
+    name: "Autopilot Automated Steering",
+    url: "https://ptxtrimble.com/en/products/hardware/steering-systems/autopilot-automated-steering",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-autopilot-motor-drive",
+    brand: "PTx Trimble",
+    category: "Steering Systems",
+    name: "Autopilot Motor Drive",
+    url: "https://ptxtrimble.com/en/products/hardware/steering-systems/autopilot-motor-drive",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-ez-pilot-pro",
+    brand: "PTx Trimble",
+    category: "Steering Systems",
+    name: "EZ-Pilot Pro Steering",
+    url: "https://ptxtrimble.com/en/products/hardware/steering-systems/ez-pilot-pro-steering",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-truetracker",
+    brand: "PTx Trimble",
+    category: "Steering Systems",
+    name: "TrueTracker Implement Steering System",
+    url: "https://ptxtrimble.com/en/products/hardware/steering-systems/truetracker-implement-steering-system",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-field-iq-crop-input",
+    brand: "PTx Trimble",
+    category: "Application Control",
+    name: "Field-IQ Crop Input Control System",
+    url: "https://ptxtrimble.com/en/products/hardware/flow-application-control/field-iq-crop-input-control-system",
+    shortDescription:
+      "Manages flow and application to prevent overlap, control rate, monitor delivery/blockage, and automate spreading controls.",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-weedseeker-2",
+    brand: "PTx Trimble",
+    category: "Application Control",
+    name: "WeedSeeker 2 Spot Spray System",
+    url: "https://ptxtrimble.com/en/products/hardware/flow-application-control/weedseeker-2-spot-spray-system",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-field-iq-isobus-liquid",
+    brand: "PTx Trimble",
+    category: "Application Control",
+    name: "Field-IQ ISOBUS Liquid Control System",
+    url: "https://ptxtrimble.com/en/products/hardware/flow-application-control/field-iq-isobus-liquid-control-system",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-wm-fieldform",
+    brand: "PTx Trimble",
+    category: "Land Forming",
+    name: "WM-FieldForm",
+    url: "https://ptxtrimble.com/en/products/hardware/land-forming/wm-fieldform",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-verticalpoint-rtk",
+    brand: "PTx Trimble",
+    category: "Land Forming",
+    name: "VerticalPoint RTK Grade Control",
+    url: "https://ptxtrimble.com/en/products/hardware/land-forming/verticalpoint-rtk-grade-control",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-wm-drain-solution",
+    brand: "PTx Trimble",
+    category: "Subsurface Drainage",
+    name: "WM-Drain Solution",
+    url: "https://ptxtrimble.com/en/products/hardware/subsurface-drainage/wm-drain-solution",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-farmengage",
+    brand: "PTx Trimble",
+    category: "Software",
+    name: "FarmENGAGE",
+    url: "https://www.ptxag.com/en/farmengage/",
+    shortDescription:
+      "Farm operations management software focused on fleet connectivity and operational control.",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-software-subsurface-drainage",
+    brand: "PTx Trimble",
+    category: "Software",
+    name: "Subsurface Drainage Software & Apps",
+    url: "https://ptxtrimble.com/en/products/software/subsurface-drainage",
+    shortDescription:
+      "Design software and cloud apps supporting subsurface drainage projects (including WM-Subsurface, WM-Survey II).",
+    imageUrl: null,
+  },
+  {
+    id: "ptx-software-land-forming",
+    brand: "PTx Trimble",
+    category: "Software",
+    name: "Land Forming Software & Apps",
+    url: "https://ptxtrimble.com/en/products/software/land-forming",
+    shortDescription:
+      "Design software and cloud apps to improve precision and efficiency for land forming.",
+    imageUrl: null,
+  },
+
+  // -------------------------
+  // XAG
+  // -------------------------
+  {
+    id: "xag-p150-max",
+    brand: "XAG",
+    category: "Drones",
+    name: "P150 Max",
+    url: "https://xa.com/en/p150max",
+    imageUrl: null,
+  },
+
+  // -------------------------
+  // Ag Leader
+  // -------------------------
+  {
+    id: "agl-incommand-go",
+    brand: "Ag Leader",
+    category: "Displays",
+    name: "InCommand Go",
+    url: "https://www.agleader.com/incommand-go/",
+    shortDescription:
+      "Year-round display designed to keep map + real-time monitoring together with flexible on-screen tiles.",
+    keyFeatures: ["Year-round functionality", "Dynamic tiles", "Built-in connectivity options"],
+    imageUrl: null,
+  },
+  {
+    id: "agl-steercommand-z2",
+    brand: "Ag Leader",
+    category: "Machine Guidance",
+    name: "SteerCommand Z2",
+    url: "https://www.agleader.com/steercommand-z2/",
+    imageUrl: null,
+  },
+  {
+    id: "agl-steadysteer",
+    brand: "Ag Leader",
+    category: "Machine Guidance",
+    name: "SteadySteer",
+    url: "https://www.agleader.com/steadysteer/",
+    imageUrl: null,
+  },
+  {
+    id: "agl-turnpath",
+    brand: "Ag Leader",
+    category: "Features",
+    name: "TurnPath",
+    url: "https://www.agleader.com/turnpath/",
+    shortDescription:
+      "Automates end-of-row turns for hands-free, repeatable turning sequences via InCommand/InCommand Go.",
+    imageUrl: null,
+  },
+  {
+    id: "agl-rightpath",
+    brand: "Ag Leader",
+    category: "Features",
+    name: "RightPath",
+    url: "https://www.agleader.com/rightpath/",
+    shortDescription:
+      "Passive implement steering to keep the implement centered on the guidance line.",
+    imageUrl: null,
+  },
+  {
+    id: "agl-sureforce",
+    brand: "Ag Leader",
+    category: "Planter Products",
+    name: "SureForce",
+    url: "https://www.agleader.com/sureforce/",
+    imageUrl: null,
+  },
+  {
+    id: "agl-surespeed",
+    brand: "Ag Leader",
+    category: "Planter Products",
+    name: "SureSpeed",
+    url: "https://www.agleader.com/surespeed/",
+    imageUrl: null,
+  },
+  {
+    id: "agl-suredrive",
+    brand: "Ag Leader",
+    category: "Planter Products",
+    name: "SureDrive",
+    url: "https://www.agleader.com/suredrive/",
+    shortDescription:
+      "Electric drives for planters using existing meters; supports row-by-row control, variable rate, and turn compensation.",
+    specs: ["2–90 RPM", "12V system", "6.2A max output", "4.5 Nm max torque"],
+    imageUrl: null,
+  },
+  {
+    id: "agl-surestop",
+    brand: "Ag Leader",
+    category: "Planter Products",
+    name: "SureStop",
+    url: "https://www.agleader.com/surestop/",
+    imageUrl: null,
+  },
+  {
+    id: "agl-rightspot",
+    brand: "Ag Leader",
+    category: "Applicator Products",
+    name: "RightSpot",
+    url: "https://www.agleader.com/rightspot/",
+    imageUrl: null,
+  },
+  {
+    id: "agl-directcommand-l2",
+    brand: "Ag Leader",
+    category: "Applicator Products",
+    name: "DirectCommand L2",
+    url: "https://www.agleader.com/directcommand-l2/",
+    imageUrl: null,
+  },
+  {
+    id: "agl-boomloop",
+    brand: "Ag Leader",
+    category: "Applicator Products",
+    name: "BoomLoop",
+    url: "https://www.agleader.com/boomloop/",
+    imageUrl: null,
+  },
+  {
+    id: "agl-granular",
+    brand: "Ag Leader",
+    category: "Applicator Products",
+    name: "DirectCommand Granular",
+    url: "https://www.agleader.com/granular/",
+    shortDescription:
+      "Granular application controls (autoswath, variable rate, reporting) through InCommand ecosystem.",
+    imageUrl: null,
+  },
+
+  // -------------------------
+  // SurePoint Ag
+  // -------------------------
+  {
+    id: "sp-sentinel",
+    brand: "SurePoint Ag",
+    category: "Liquid Control",
+    name: "Sentinel",
+    url: "https://www.surepointag.com/sentinel",
+    imageUrl: null,
+  },
+  {
+    id: "sp-pumpright",
+    brand: "SurePoint Ag",
+    category: "Liquid Control",
+    name: "PumpRight",
+    url: "https://www.surepointag.com/pumpright",
+    imageUrl: null,
+  },
+  {
+    id: "sp-quickdraw",
+    brand: "SurePoint Ag",
+    category: "Spray Tender",
+    name: "QuickDraw",
+    url: "https://www.surepointag.com/quickdraw",
+    shortDescription:
+      "Automated chemical mixing/loading workflow—enter acres or gallons and rates, and the system calculates batch amounts.",
+    imageUrl: null,
+  },
+  {
+    id: "sp-chemblade",
+    brand: "SurePoint Ag",
+    category: "Spray Tender",
+    name: "ChemBlade",
+    url: "https://www.surepointag.com/chemblade",
+    shortDescription:
+      "Enclosed system to cut/rinse jugs (and handle certain dry products) to improve speed and operator safety.",
+    imageUrl: null,
+  },
+  {
+    id: "sp-arsenal",
+    brand: "SurePoint Ag",
+    category: "Spray Tender",
+    name: "Arsenal Spray Trailer",
+    url: "https://www.surepointag.com/arsenal",
+    shortDescription:
+      "Purpose-built spray trailer platform (multiple lengths) designed for efficiency and safety.",
+    imageUrl: null,
+  },
+
+  // -------------------------
+  // Salford
+  // -------------------------
+  {
+    id: "salford-endurance",
+    brand: "Salford",
+    category: "Spreaders",
+    name: "Endurance Spreader",
+    url: "https://salfordgroup.com/equipment/endurance-spreader/",
+    imageUrl: null,
+  },
+  {
+    id: "salford-grasshopper",
+    brand: "Salford",
+    category: "Spreaders",
+    name: "Grasshopper Spinner Spreader",
+    url: "https://salfordgroup.com/equipment/grasshopper-spinner-spreader/",
+    shortDescription:
+      "Pull-type top-dress applicator designed for row crop and turf; designed for fertilizer/lime with high clearance.",
+    imageUrl: null,
+  },
+  {
+    id: "salford-magnaspread",
+    brand: "Salford",
+    category: "Spreaders",
+    name: "MagnaSpread Spinner Spreader",
+    url: "https://salfordgroup.com/equipment/magnaspread-spinner-spreader/",
+    imageUrl: null,
+  },
+  {
+    id: "salford-sniper",
+    brand: "Salford",
+    category: "Spreaders",
+    name: "Sniper Spinner Spreader",
+    url: "https://salfordgroup.com/equipment/sniper-spinner-spreader/",
+    imageUrl: null,
+  },
+
+  // -------------------------
+  // AMAZONE
+  // -------------------------
+  {
+    id: "amazone-za-ts",
+    brand: "AMAZONE",
+    category: "Spreaders (Mounted)",
+    name: "ZA-TS Mounted Spreader",
+    url: "https://amazone.net/en/products-digital-solutions/agricultural-technology/fertilising-technology/mounted-spreader/za-ts-mounted-spreader-51506",
+    imageUrl: null,
+  },
+  {
+    id: "amazone-zg-tx",
+    brand: "AMAZONE",
+    category: "Spreaders (Trailed)",
+    name: "ZG-TX Trailed Combi Spreader",
+    url: "https://amazone.net/en/products-digital-solutions/agricultural-technology/fertilising-technology/trailed-spreader/zg-tx-trailed-combi-spreader-1453192",
+    imageUrl: null,
+  },
+];
+
+
+A few of the descriptions/specs above are taken directly from the manufacturers’ pages (e.g., GFX-1060 summary + specs, InCommand Go feature descriptions, TurnPath/RightPath summaries, SureDrive tech specs, QuickDraw/ChemBlade/Arsenal basics, etc.). 
+xa.com
++12
+ptxtrimble.com
++12
+agleader.com
++12
+
+2) Auto-extract images (and optionally title/description) in Replit
+
+Create scrapeProductImages.mjs:
+
+// scrapeProductImages.mjs
+// Run: node scrapeProductImages.mjs
+import fs from "node:fs";
+
+const INPUT_FILE = "./productCatalog.seed.json";   // export your products array to JSON
+const OUTPUT_FILE = "./productCatalog.withImages.json";
+
+async function fetchText(url) {
+  const res = await fetch(url, {
+    redirect: "follow",
+    headers: {
+      "user-agent":
+        "Mozilla/5.0 (compatible; CatalogBot/1.0; +https://example.com/bot)",
+      "accept": "text/html,application/xhtml+xml",
+    },
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+  return await res.text();
+}
+
+function pickMeta(html, propertyOrName) {
+  // property="og:image" OR name="description"
+  const propRe = new RegExp(
+    `<meta[^>]+(?:property|name)=["']${propertyOrName}["'][^>]+content=["']([^"']+)["'][^>]*>`,
+    "i"
+  );
+  const m = html.match(propRe);
+  return m?.[1]?.trim() || null;
+}
+
+function absolutizeUrl(baseUrl, maybeRelative) {
+  try {
+    return new URL(maybeRelative, baseUrl).toString();
+  } catch {
+    return null;
+  }
+}
+
+function pickFirstLargeImage(html, baseUrl) {
+  // fallback: first <img src="..."> that isn't a tiny icon
+  const imgRe = /<img[^>]+src=["']([^"']+)["'][^>]*>/gi;
+  let m;
+  while ((m = imgRe.exec(html))) {
+    const src = m[1];
+    if (!src) continue;
+    if (src.includes("svg")) continue;
+    if (src.toLowerCase().includes("icon")) continue;
+    return absolutizeUrl(baseUrl, src);
+  }
+  return null;
+}
+
+async function main() {
+  const products = JSON.parse(fs.readFileSync(INPUT_FILE, "utf8"));
+
+  for (const p of products) {
+    try {
+      const html = await fetchText(p.url);
+
+      const ogImage = pickMeta(html, "og:image");
+      const twitterImage = pickMeta(html, "twitter:image");
+      const bestImage =
+        absolutizeUrl(p.url, ogImage) ||
+        absolutizeUrl(p.url, twitterImage) ||
+        pickFirstLargeImage(html, p.url);
+
+      // Optional: title/description enrichment
+      const ogTitle = pickMeta(html, "og:title");
+      const metaDesc = pickMeta(html, "description");
+
+      p.imageUrl = p.imageUrl || bestImage || null;
+      p.name = p.name || ogTitle || p.name;
+      p.shortDescription = p.shortDescription || metaDesc || p.shortDescription;
+
+      console.log(`✓ ${p.id} -> ${p.imageUrl ?? "NO IMAGE FOUND"}`);
+    } catch (e) {
+      console.warn(`⚠ ${p.id} (${p.url}) -> ${e.message}`);
+      p.imageUrl = p.imageUrl ?? null;
+    }
+  }
+
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(products, null, 2));
+  console.log(`\nDone. Wrote: ${OUTPUT_FILE}`);
+}
+
+main();
+
+How to use it
+
+Save your catalog array as JSON (example: copy products into a file and JSON.stringify it once), or manually create productCatalog.seed.json as a JSON array.
+
+Run: node scrapeProductImages.mjs
+
+Import productCatalog.withImages.json in your app.
