@@ -23,11 +23,15 @@ export const contactMessages = pgTable("contact_messages", {
 export const products = pgTable("products", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
   name: text("name").notNull(),
+  brand: text("brand").notNull().default('Precision Planting'),
   equipment: text("equipment").notNull(),
   category: text("category").notNull(),
   tagline: text("tagline").notNull(),
+  shortDescription: text("short_description"),
   oemUrl: text("oem_url").notNull(),
   highlights: text("highlights").array().notNull(),
+  keyFeatures: text("key_features").array(),
+  specs: text("specs").array(),
   worksWith: text("works_with").array().notNull(),
   slug: text("slug").notNull().unique(),
   logoBlack: text("logo_black"),
@@ -37,12 +41,11 @@ export const products = pgTable("products", {
   images: text("images").array(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
   updatedAt: timestamp("updated_at").defaultNow(),
-  // Enriched content fields
   enrichedDescription: text("enriched_description"),
   detailedFeatures: text("detailed_features").array(),
   benefits: text("benefits").array(),
-  researchFindings: text("research_findings"), // Assuming this will be a JSON or similar type
-  compatibilityDetails: text("compatibility_details"), // Assuming this will be a JSON or similar type
+  researchFindings: text("research_findings"),
+  compatibilityDetails: text("compatibility_details"),
   contentEnriched: boolean("content_enriched"),
   lastContentUpdate: timestamp("last_content_update"),
 });
@@ -63,11 +66,15 @@ export const insertContactMessageSchema = createInsertSchema(contactMessages).pi
 
 export const insertProductSchema = createInsertSchema(products).pick({
   name: true,
+  brand: true,
   equipment: true,
   category: true,
   tagline: true,
+  shortDescription: true,
   oemUrl: true,
   highlights: true,
+  keyFeatures: true,
+  specs: true,
   worksWith: true,
   slug: true,
   logoBlack: true,

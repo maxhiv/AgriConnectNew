@@ -8,6 +8,7 @@ import path from "path";
 import crypto from 'crypto';
 import { ObjectStorageService } from "./objectStorage";
 import { WordPressService } from "./wordpressService";
+import { catalogProducts, getAllBrands, getAllCategories } from "./productCatalogSeed";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Initialize WordPress service
@@ -189,13 +190,68 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Get catalog metadata (brands and categories)
+  app.get("/api/catalog/meta", async (_req, res) => {
+    try {
+      res.json({
+        brands: getAllBrands(),
+        categories: getAllCategories(),
+        totalProducts: catalogProducts.length
+      });
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        message: "Failed to retrieve catalog metadata"
+      });
+    }
+  });
+
+  // Seed catalog products into database
+  app.post("/api/seed-catalog", async (_req, res) => {
+    try {
+      let importedCount = 0;
+      let skippedCount = 0;
+
+      for (const productData of catalogProducts) {
+        try {
+          const existingProduct = await storage.getProductBySlug(productData.slug);
+          if (existingProduct) {
+            skippedCount++;
+            continue;
+          }
+
+          await storage.createProduct(productData as any);
+          importedCount++;
+        } catch (error) {
+          console.error('Error importing catalog product:', productData.name, error);
+          skippedCount++;
+        }
+      }
+
+      res.json({
+        success: true,
+        imported: importedCount,
+        skipped: skippedCount,
+        total: catalogProducts.length,
+        message: `Successfully imported ${importedCount} products, skipped ${skippedCount}`
+      });
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        message: "Failed to seed catalog products"
+      });
+    }
+  });
+
   // Product routes
   app.get("/api/products", async (req, res) => {
     try {
-      const { equipment, category } = req.query;
+      const { equipment, category, brand } = req.query;
       let products;
 
-      if (equipment) {
+      if (brand) {
+        products = await storage.getProductsByBrand(brand as string);
+      } else if (equipment) {
         products = await storage.getProductsByEquipment(equipment as string);
       } else if (category) {
         products = await storage.getProductsByCategory(category as string);

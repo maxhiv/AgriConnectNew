@@ -114,6 +114,9 @@ export default function ProductDetail() {
         {/* Product Header */}
         <div className="mb-12">
           <div className="flex flex-wrap gap-4 items-center mb-4">
+            <Badge variant="default" className="text-lg px-4 py-2 bg-green-700">
+              {product.brand}
+            </Badge>
             <Badge variant="secondary" className="text-lg px-4 py-2">
               {product.equipment}
             </Badge>
@@ -274,8 +277,22 @@ export default function ProductDetail() {
               </div>
             )}
 
+            {/* Specifications */}
+            {product.specs && product.specs.length > 0 && (
+              <div className="space-y-4">
+                <h2 className="text-2xl font-semibold">Specifications</h2>
+                <div className="bg-slate-50 rounded-lg p-4 divide-y">
+                  {product.specs.map((spec, index) => (
+                    <div key={index} className="py-2 text-muted-foreground">
+                      {spec}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Compatibility */}
-            {product.worksWith.length > 0 && (
+            {product.worksWith && product.worksWith.length > 0 && (
               <div className="space-y-4">
                 <h2 className="text-2xl font-semibold">Works With</h2>
                 <div className="flex flex-wrap gap-2">
@@ -380,6 +397,10 @@ export default function ProductDetail() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Brand:</span>
+                    <span className="font-medium">{product.brand}</span>
+                  </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Equipment Type:</span>
                     <span className="font-medium">{product.equipment}</span>

@@ -14,6 +14,7 @@ export interface IStorage {
   createProduct(product: InsertProduct): Promise<Product>;
   getProductsByEquipment(equipment: string): Promise<Product[]>;
   getProductsByCategory(category: string): Promise<Product[]>;
+  getProductsByBrand(brand: string): Promise<Product[]>;
   updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | undefined>;
   updateProductBySlug(slug: string, data: Partial<InsertProduct>): Promise<Product | undefined>;
 }
@@ -78,6 +79,10 @@ export class MemStorage implements IStorage {
     const product: Product = {
       ...insertProduct,
       id,
+      brand: insertProduct.brand || 'Precision Planting',
+      shortDescription: insertProduct.shortDescription || null,
+      keyFeatures: insertProduct.keyFeatures || null,
+      specs: insertProduct.specs || null,
       logoBlack: insertProduct.logoBlack || null,
       logoDarkGreen: insertProduct.logoDarkGreen || null,
       logoWhite: insertProduct.logoWhite || null,
@@ -103,6 +108,10 @@ export class MemStorage implements IStorage {
 
   async getProductsByCategory(category: string): Promise<Product[]> {
     return Array.from(this.products.values()).filter(p => p.category === category);
+  }
+
+  async getProductsByBrand(brand: string): Promise<Product[]> {
+    return Array.from(this.products.values()).filter(p => p.brand === brand);
   }
 
   async updateProduct(id: string, data: Partial<InsertProduct>): Promise<Product | undefined> {
@@ -225,6 +234,10 @@ export class DatabaseStorage implements IStorage {
 
   async getProductsByCategory(category: string): Promise<Product[]> {
     return await db.select().from(products).where(eq(products.category, category));
+  }
+
+  async getProductsByBrand(brand: string): Promise<Product[]> {
+    return await db.select().from(products).where(eq(products.brand, brand));
   }
 }
 
