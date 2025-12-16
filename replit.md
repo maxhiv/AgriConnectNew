@@ -1,10 +1,11 @@
 # Overview
 
-This is a modern full-stack web application for an agricultural business called "GreenHarvest". The application serves as a company website showcasing agricultural services, equipment, and products, with a contact form for customer inquiries. Built with React frontend and Express backend, it demonstrates a professional agricultural business presence with modern web technologies.
+This is a modern full-stack web application for Vantage South, a precision agriculture company serving the Southeast US. The application features a comprehensive SEO-first location page system covering 4 territories (Alabama, Mississippi, NW Florida, Central Tennessee), 32 tier-1 county pages, and 65+ city pages, along with service pages, crop pages, product catalog with manufacturer enrichment, and field demo scheduling. Built with React frontend and Express backend with professional agricultural business presence.
 
 # User Preferences
 
 Preferred communication style: Simple, everyday language.
+Design style: Clean professional design with square corners, white background, glassmorphism effects.
 
 # System Architecture
 
@@ -30,10 +31,50 @@ Preferred communication style: Simple, everyday language.
 - **Fallback Storage**: In-memory storage implementation for development/testing
 - **Validation**: Zod schema validation for data integrity and type safety
 
+## SEO Location Page System
+
+### Data Files
+- **shared/targetLocations.json**: Contains 4 territories, 32 tier-1 counties, 65+ cities with metadata (primary crops, emphasis text)
+- **shared/seoMeta.json**: Title and description for all programmatic SEO pages
+
+### Route Architecture
+- Territory Hub Pages: `/{territory-slug}` (e.g., /alabama-precision-agriculture)
+- County Pages: `/{state}/{county-slug}/precision-agriculture` (e.g., /alabama/houston-county/precision-agriculture)
+- City Pages: `/{state}/{city-slug}/precision-agriculture` (e.g., /alabama/dothan/precision-agriculture)
+- Service Pages: `/services/{service-slug}` (5 services)
+- Crop Pages: `/crops/{crop-slug}` (5 crops)
+- Field Demo: `/schedule-field-demo`
+
+### JSON-LD Schema Markup (client/src/lib/seo.tsx)
+- Organization schema on hub pages
+- LocalBusiness schema on territory and location pages
+- Service schema on service and location pages
+- Product schema on product pages
+- FAQ schema on territory hub pages
+- Breadcrumb schema on all programmatic pages
+
+### Sitemap & SEO Infrastructure (server/routes.ts)
+- Auto-generated /sitemap.xml from targetLocations.json
+- /robots.txt with sitemap reference
+- useSEO hook injects dynamic title/description from seoMeta.json
+
+### Page Components
+- **TerritoryHub.tsx**: 4 territory hub pages with county links, solutions, FAQs
+- **LocationPage.tsx**: Unified component for county and city pages (extracts state from useLocation path)
+- **ServicePage.tsx**: 5 service pages with features, benefits, CTA
+- **CropPage.tsx**: 5 crop pages with challenges, solutions, technology
+- **FieldDemo.tsx**: Field demo scheduling form with validation
+- **FieldDemoCTA.tsx**: CTA component injected on location pages
+
+## Product Catalog
+- 79 products from productData.ts with categories
+- Product enrichment system: 55/79 products have manufacturer images and descriptions
+- Product detail pages with schema markup
+
 ## Component Structure
 - **Layout**: Single-page application with navigation, hero section, and multiple content sections
 - **Sections**: Modular components for About, Services, Products, News, and Contact
-- **Form Handling**: React Hook Form with Zod validation for contact form
+- **Form Handling**: React Hook Form with Zod validation for contact form and field demo form
 - **Responsive Design**: Mobile-first approach with Tailwind breakpoints
 
 ## Development Environment
@@ -75,3 +116,12 @@ Preferred communication style: Simple, everyday language.
 - **Date Handling**: date-fns for date manipulation and formatting
 - **Unique IDs**: nanoid for generating unique identifiers
 - **Class Management**: class-variance-authority for component variant handling
+
+# Recent Changes
+
+- December 2024: Implemented comprehensive SEO location page system with 4 territories, 32 counties, 65+ cities
+- December 2024: Added JSON-LD schema generators (Organization, LocalBusiness, Service, Product, FAQ, Breadcrumb)
+- December 2024: Built auto-generated sitemap.xml and robots.txt endpoints
+- December 2024: Created unified LocationPage component handling county and city routes
+- December 2024: Added FieldDemoCTA components with multiple variants (compact, default, full)
+- December 2024: Enriched 55/79 products with manufacturer images and descriptions
