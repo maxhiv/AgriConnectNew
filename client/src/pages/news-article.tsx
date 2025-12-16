@@ -63,12 +63,10 @@ export default function NewsArticlePage() {
       <Navigation />
       
       <article className="max-w-4xl mx-auto px-4 py-12 md:py-20">
-        <Link href="/#news">
-          <span className="inline-flex items-center gap-2 text-ptx-bright-blue hover:text-ptx-medium-green mb-8 cursor-pointer">
-            <ArrowLeft className="w-4 h-4" />
-            Back to News
-          </span>
-        </Link>
+        <a href="/#news" className="inline-flex items-center gap-2 text-ptx-bright-blue hover:text-ptx-medium-green mb-8 cursor-pointer">
+          <ArrowLeft className="w-4 h-4" />
+          Back to News
+        </a>
 
         <header className="mb-8">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-pilat font-bold text-ptx-dark-green mb-6">
