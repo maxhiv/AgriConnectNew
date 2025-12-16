@@ -141,3 +141,17 @@ export type Product = typeof products.$inferSelect;
 //   details?: string;
 //   works_with?: string[];
 // }
+
+// News Article schema (static content, no database)
+export const newsArticleSchema = z.object({
+  slug: z.string(),
+  title: z.string(),
+  excerpt: z.string(),
+  content: z.string(),
+  image: z.string(),
+  date: z.string(),
+  author: z.string().optional(),
+  category: z.string().optional(),
+});
+
+export type NewsArticle = z.infer<typeof newsArticleSchema>;
