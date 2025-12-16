@@ -1,0 +1,370 @@
+{
+  "baseUrl": "https://vantagesouth.com",
+  "siteName": "Vantage South | Precision Agriculture",
+  "routes": {
+    "/": {
+      "title": "Vantage South | Precision Agriculture Solutions for Southern Farmers",
+      "description": "Vantage South delivers precision agriculture equipment, RTK guidance, and expert support to farmers across Alabama, Mississippi, Northwest Florida, and Central Tennessee."
+    },
+    "/alabama-precision-agriculture": {
+      "title": "Alabama Precision Agriculture | RTK Guidance, Planters & Support | Vantage South",
+      "description": "Precision agriculture solutions for Alabama farmers. RTK/GNSS guidance, planter upgrades, application control, and in-field support across the Wiregrass, Tennessee Valley, and Gulf Coast."
+    },
+    "/mississippi-precision-agriculture": {
+      "title": "Mississippi Delta Precision Agriculture | RTK, Displays & Support | Vantage South",
+      "description": "Precision agriculture for Mississippi Delta farmers. RTK guidance, displays, steering systems, and seasonal support for cotton, soybeans, corn, and rice production."
+    },
+    "/northwest-florida-precision-agriculture": {
+      "title": "Northwest Florida Precision Agriculture | Panhandle Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions for Florida Panhandle farmers. RTK guidance, planter technology, and expert installation for peanut, cotton, and corn operations."
+    },
+    "/central-tennessee-precision-agriculture": {
+      "title": "Central Tennessee Precision Agriculture | Guidance & Planting Tech | Vantage South",
+      "description": "Precision agriculture for Central Tennessee farmers. RTK guidance, steering systems, and planting technology for corn, soybeans, and wheat production."
+    },
+    "/alabama/houston-county/precision-agriculture": {
+      "title": "Houston County AL Precision Agriculture | Dothan Area Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Houston County Alabama farmers near Dothan, Ashford, and Rehobeth. RTK guidance, planter upgrades, and local support for cotton, peanuts, and corn."
+    },
+    "/alabama/geneva-county/precision-agriculture": {
+      "title": "Geneva County AL Precision Agriculture | Wiregrass Farm Technology | Vantage South",
+      "description": "Precision agriculture for Geneva County Alabama farmers. RTK guidance, application control, and installation services for peanut and cotton operations near Geneva, Hartford, and Slocomb."
+    },
+    "/alabama/henry-county/precision-agriculture": {
+      "title": "Henry County AL Precision Agriculture | Abbeville & Headland Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Henry County Alabama. RTK/GNSS guidance, steering systems, and planter technology for cotton and peanut farmers near Abbeville and Headland."
+    },
+    "/alabama/coffee-county/precision-agriculture": {
+      "title": "Coffee County AL Precision Agriculture | Enterprise Area Farm Tech | Vantage South",
+      "description": "Precision agriculture for Coffee County Alabama farmers near Enterprise and Elba. Planter upgrades, RTK guidance, and in-season support for peanut and cotton production."
+    },
+    "/alabama/dale-county/precision-agriculture": {
+      "title": "Dale County AL Precision Agriculture | Ozark Area Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions for Dale County Alabama farmers near Ozark. RTK guidance, application control, and expert calibration for row crop operations."
+    },
+    "/alabama/covington-county/precision-agriculture": {
+      "title": "Covington County AL Precision Agriculture | Andalusia Farm Tech | Vantage South",
+      "description": "Precision agriculture for Covington County Alabama farmers near Andalusia. RTK guidance, steering systems, and installation services for peanut and cotton operations."
+    },
+    "/alabama/escambia-county/precision-agriculture": {
+      "title": "Escambia County AL Precision Agriculture | Atmore & Brewton Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Escambia County Alabama near Atmore and Brewton. RTK/GNSS guidance, planter technology, and seasonal support for row crop farmers."
+    },
+    "/alabama/baldwin-county/precision-agriculture": {
+      "title": "Baldwin County AL Precision Agriculture | Gulf Coast Farm Technology | Vantage South",
+      "description": "Precision agriculture for Baldwin County Alabama farmers near Robertsdale, Foley, and Fairhope. RTK guidance, application control, and expert installation services."
+    },
+    "/alabama/limestone-county/precision-agriculture": {
+      "title": "Limestone County AL Precision Agriculture | Athens Area Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Limestone County Alabama near Athens. Tennessee Valley RTK guidance, steering systems, and planter upgrades for cotton and corn."
+    },
+    "/alabama/madison-county/precision-agriculture": {
+      "title": "Madison County AL Precision Agriculture | Huntsville Area Farm Tech | Vantage South",
+      "description": "Precision agriculture for Madison County Alabama farmers near Huntsville. RTK/GNSS guidance, displays, and calibration services for North Alabama row crop operations."
+    },
+    "/alabama/lauderdale-county/precision-agriculture": {
+      "title": "Lauderdale County AL Precision Agriculture | Florence Area Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Lauderdale County Alabama near Florence. Shoals region RTK guidance, steering systems, and seasonal support for cotton and corn farmers."
+    },
+    "/alabama/dothan/precision-agriculture": {
+      "title": "Dothan AL Precision Agriculture | Wiregrass Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Dothan Alabama. RTK guidance, planter upgrades, and expert installation for Wiregrass cotton, peanut, and corn farmers."
+    },
+    "/alabama/ashford/precision-agriculture": {
+      "title": "Ashford AL Precision Agriculture | Houston County Farm Tech | Vantage South",
+      "description": "Precision agriculture for Ashford Alabama farmers. RTK/GNSS guidance, application control, and local support for row crop operations in Houston County."
+    },
+    "/alabama/rehobeth/precision-agriculture": {
+      "title": "Rehobeth AL Precision Agriculture | Dothan Area Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions for Rehobeth Alabama. RTK guidance, steering systems, and planter technology for cotton and peanut farmers near Dothan."
+    },
+    "/alabama/geneva/precision-agriculture": {
+      "title": "Geneva AL Precision Agriculture | Geneva County Farm Tech | Vantage South",
+      "description": "Precision agriculture for Geneva Alabama farmers. RTK guidance, planter upgrades, and installation services for peanut and cotton operations in the Wiregrass."
+    },
+    "/alabama/hartford/precision-agriculture": {
+      "title": "Hartford AL Precision Agriculture | Geneva County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Hartford Alabama. RTK/GNSS guidance, application control, and in-season support for Geneva County row crop farmers."
+    },
+    "/alabama/slocomb/precision-agriculture": {
+      "title": "Slocomb AL Precision Agriculture | Wiregrass Farm Tech | Vantage South",
+      "description": "Precision agriculture for Slocomb Alabama farmers. RTK guidance, steering systems, and expert calibration for peanut and cotton production in Geneva County."
+    },
+    "/alabama/abbeville/precision-agriculture": {
+      "title": "Abbeville AL Precision Agriculture | Henry County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Abbeville Alabama. RTK guidance, planter technology, and local support for Henry County cotton and peanut farmers."
+    },
+    "/alabama/headland/precision-agriculture": {
+      "title": "Headland AL Precision Agriculture | Henry County Farm Tech | Vantage South",
+      "description": "Precision agriculture for Headland Alabama farmers. RTK/GNSS guidance, application control, and installation services for row crop operations near Henry County."
+    },
+    "/alabama/enterprise/precision-agriculture": {
+      "title": "Enterprise AL Precision Agriculture | Coffee County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Enterprise Alabama. RTK guidance, steering systems, and planter upgrades for Coffee County peanut and cotton farmers."
+    },
+    "/alabama/elba/precision-agriculture": {
+      "title": "Elba AL Precision Agriculture | Coffee County Farm Tech | Vantage South",
+      "description": "Precision agriculture for Elba Alabama farmers. RTK/GNSS guidance, application control, and seasonal support for peanut and cotton production in Coffee County."
+    },
+    "/alabama/ozark/precision-agriculture": {
+      "title": "Ozark AL Precision Agriculture | Dale County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Ozark Alabama. RTK guidance, planter technology, and expert installation for Dale County row crop farmers."
+    },
+    "/alabama/andalusia/precision-agriculture": {
+      "title": "Andalusia AL Precision Agriculture | Covington County Farm Tech | Vantage South",
+      "description": "Precision agriculture for Andalusia Alabama farmers. RTK/GNSS guidance, steering systems, and local support for Covington County peanut and cotton operations."
+    },
+    "/alabama/atmore/precision-agriculture": {
+      "title": "Atmore AL Precision Agriculture | Escambia County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Atmore Alabama. RTK guidance, application control, and installation services for Escambia County row crop farmers."
+    },
+    "/alabama/brewton/precision-agriculture": {
+      "title": "Brewton AL Precision Agriculture | Escambia County Farm Tech | Vantage South",
+      "description": "Precision agriculture for Brewton Alabama farmers. RTK/GNSS guidance, planter upgrades, and seasonal support for cotton and peanut production."
+    },
+    "/alabama/robertsdale/precision-agriculture": {
+      "title": "Robertsdale AL Precision Agriculture | Baldwin County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Robertsdale Alabama. RTK guidance, steering systems, and expert calibration for Gulf Coast row crop farmers."
+    },
+    "/alabama/foley/precision-agriculture": {
+      "title": "Foley AL Precision Agriculture | Baldwin County Farm Tech | Vantage South",
+      "description": "Precision agriculture for Foley Alabama farmers. RTK/GNSS guidance, application control, and installation services for Baldwin County agricultural operations."
+    },
+    "/alabama/fairhope/precision-agriculture": {
+      "title": "Fairhope AL Precision Agriculture | Gulf Coast Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Fairhope Alabama. RTK guidance, planter technology, and local support for Baldwin County farmers."
+    },
+    "/alabama/athens/precision-agriculture": {
+      "title": "Athens AL Precision Agriculture | Limestone County Farm Tech | Vantage South",
+      "description": "Precision agriculture for Athens Alabama farmers. Tennessee Valley RTK guidance, steering systems, and planter upgrades for cotton, corn, and soybean operations."
+    },
+    "/alabama/huntsville/precision-agriculture": {
+      "title": "Huntsville AL Precision Agriculture | Madison County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Huntsville Alabama. RTK/GNSS guidance, displays, and expert installation for North Alabama row crop farmers."
+    },
+    "/alabama/florence/precision-agriculture": {
+      "title": "Florence AL Precision Agriculture | Lauderdale County Farm Tech | Vantage South",
+      "description": "Precision agriculture for Florence Alabama farmers. Shoals region RTK guidance, application control, and seasonal support for cotton and corn production."
+    },
+    "/mississippi/washington-county/precision-agriculture": {
+      "title": "Washington County MS Precision Agriculture | Greenville Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture for Washington County Mississippi farmers near Greenville. Delta RTK guidance, displays, and steering systems for cotton, soybeans, and corn."
+    },
+    "/mississippi/bolivar-county/precision-agriculture": {
+      "title": "Bolivar County MS Precision Agriculture | Cleveland Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Bolivar County Mississippi near Cleveland. RTK/GNSS guidance, planter technology, and support for cotton, soybeans, and rice."
+    },
+    "/mississippi/sunflower-county/precision-agriculture": {
+      "title": "Sunflower County MS Precision Agriculture | Indianola Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture for Sunflower County Mississippi farmers near Indianola and Ruleville. Delta RTK guidance, application control, and installation services."
+    },
+    "/mississippi/leflore-county/precision-agriculture": {
+      "title": "Leflore County MS Precision Agriculture | Greenwood Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Leflore County Mississippi near Greenwood. Cotton Capital RTK guidance, steering systems, and seasonal support."
+    },
+    "/mississippi/coahoma-county/precision-agriculture": {
+      "title": "Coahoma County MS Precision Agriculture | Clarksdale Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture for Coahoma County Mississippi farmers near Clarksdale. North Delta RTK guidance, displays, and planter technology for cotton and soybeans."
+    },
+    "/mississippi/humphreys-county/precision-agriculture": {
+      "title": "Humphreys County MS Precision Agriculture | Belzoni Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions for Humphreys County Mississippi near Belzoni. RTK/GNSS guidance, application control, and installation for soybeans and cotton."
+    },
+    "/mississippi/sharkey-county/precision-agriculture": {
+      "title": "Sharkey County MS Precision Agriculture | Rolling Fork Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture for Sharkey County Mississippi farmers near Rolling Fork. South Delta RTK guidance, steering systems, and expert calibration services."
+    },
+    "/mississippi/tunica-county/precision-agriculture": {
+      "title": "Tunica County MS Precision Agriculture | North Delta Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions for Tunica County Mississippi. North Delta RTK guidance, displays, and planter technology for cotton and soybean operations."
+    },
+    "/mississippi/quitman-county/precision-agriculture": {
+      "title": "Quitman County MS Precision Agriculture | Marks Area Farm Tech | Vantage South",
+      "description": "Precision agriculture for Quitman County Mississippi farmers near Marks. Delta RTK/GNSS guidance, application control, and installation services."
+    },
+    "/mississippi/issaquena-county/precision-agriculture": {
+      "title": "Issaquena County MS Precision Agriculture | Mayersville Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Issaquena County Mississippi near Mayersville. River Delta RTK guidance, steering systems, and seasonal support."
+    },
+    "/mississippi/greenville/precision-agriculture": {
+      "title": "Greenville MS Precision Agriculture | Washington County Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture in Greenville Mississippi. Heart of the Delta RTK guidance, displays, and expert installation for cotton, soybeans, and corn farmers."
+    },
+    "/mississippi/cleveland/precision-agriculture": {
+      "title": "Cleveland MS Precision Agriculture | Bolivar County Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions in Cleveland Mississippi. Delta RTK/GNSS guidance, planter technology, and support for cotton, soybeans, and rice production."
+    },
+    "/mississippi/indianola/precision-agriculture": {
+      "title": "Indianola MS Precision Agriculture | Sunflower County Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture in Indianola Mississippi. Delta RTK guidance, application control, and installation services for cotton and soybean farmers."
+    },
+    "/mississippi/ruleville/precision-agriculture": {
+      "title": "Ruleville MS Precision Agriculture | Sunflower County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Ruleville Mississippi. RTK/GNSS guidance, steering systems, and seasonal support for Delta row crop operations."
+    },
+    "/mississippi/greenwood/precision-agriculture": {
+      "title": "Greenwood MS Precision Agriculture | Leflore County Cotton Capital | Vantage South",
+      "description": "Precision agriculture in Greenwood Mississippi. Cotton Capital RTK guidance, displays, and expert calibration for Delta cotton and soybean farmers."
+    },
+    "/mississippi/clarksdale/precision-agriculture": {
+      "title": "Clarksdale MS Precision Agriculture | Coahoma County Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions in Clarksdale Mississippi. North Delta RTK guidance, planter technology, and installation for cotton and rice operations."
+    },
+    "/mississippi/belzoni/precision-agriculture": {
+      "title": "Belzoni MS Precision Agriculture | Humphreys County Farm Technology | Vantage South",
+      "description": "Precision agriculture in Belzoni Mississippi. RTK/GNSS guidance, application control, and support for soybean and cotton farmers in the Delta."
+    },
+    "/mississippi/rolling-fork/precision-agriculture": {
+      "title": "Rolling Fork MS Precision Agriculture | Sharkey County Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions in Rolling Fork Mississippi. South Delta RTK guidance, steering systems, and expert installation services."
+    },
+    "/mississippi/tunica/precision-agriculture": {
+      "title": "Tunica MS Precision Agriculture | Tunica County Delta Farm Technology | Vantage South",
+      "description": "Precision agriculture in Tunica Mississippi. North Delta RTK/GNSS guidance, displays, and planter technology for cotton and soybean operations."
+    },
+    "/mississippi/marks/precision-agriculture": {
+      "title": "Marks MS Precision Agriculture | Quitman County Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions in Marks Mississippi. Delta RTK guidance, application control, and seasonal support for cotton and rice farmers."
+    },
+    "/mississippi/mayersville/precision-agriculture": {
+      "title": "Mayersville MS Precision Agriculture | Issaquena County Delta Farm Tech | Vantage South",
+      "description": "Precision agriculture in Mayersville Mississippi. River Delta RTK/GNSS guidance, steering systems, and installation services for row crop farmers."
+    },
+    "/florida/jackson-county/precision-agriculture": {
+      "title": "Jackson County FL Precision Agriculture | Marianna Panhandle Farm Tech | Vantage South",
+      "description": "Precision agriculture for Jackson County Florida farmers near Marianna. Florida's top ag county RTK guidance, planter technology, and support for peanuts and cotton."
+    },
+    "/florida/calhoun-county/precision-agriculture": {
+      "title": "Calhoun County FL Precision Agriculture | Blountstown Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions for Calhoun County Florida near Blountstown. Panhandle RTK/GNSS guidance, application control, and installation services."
+    },
+    "/florida/holmes-county/precision-agriculture": {
+      "title": "Holmes County FL Precision Agriculture | Bonifay Panhandle Farm Tech | Vantage South",
+      "description": "Precision agriculture for Holmes County Florida farmers near Bonifay. RTK guidance, steering systems, and expert calibration for peanut and cotton operations."
+    },
+    "/florida/washington-county-fl/precision-agriculture": {
+      "title": "Washington County FL Precision Agriculture | Chipley Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions for Washington County Florida near Chipley. Panhandle RTK guidance, planter technology, and seasonal support."
+    },
+    "/florida/marianna/precision-agriculture": {
+      "title": "Marianna FL Precision Agriculture | Jackson County Panhandle Farm Tech | Vantage South",
+      "description": "Precision agriculture in Marianna Florida. Florida's premier ag hub RTK guidance, displays, and installation for peanut, cotton, and corn farmers."
+    },
+    "/florida/blountstown/precision-agriculture": {
+      "title": "Blountstown FL Precision Agriculture | Calhoun County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Blountstown Florida. Panhandle RTK/GNSS guidance, application control, and support for peanut and cotton operations."
+    },
+    "/florida/bonifay/precision-agriculture": {
+      "title": "Bonifay FL Precision Agriculture | Holmes County Panhandle Farm Tech | Vantage South",
+      "description": "Precision agriculture in Bonifay Florida. RTK guidance, steering systems, and expert installation for Holmes County peanut and cotton farmers."
+    },
+    "/florida/chipley/precision-agriculture": {
+      "title": "Chipley FL Precision Agriculture | Washington County Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions in Chipley Florida. Panhandle RTK/GNSS guidance, planter technology, and seasonal support for row crop farmers."
+    },
+    "/tennessee/giles-county/precision-agriculture": {
+      "title": "Giles County TN Precision Agriculture | Pulaski Farm Technology | Vantage South",
+      "description": "Precision agriculture for Giles County Tennessee farmers near Pulaski. RTK guidance, steering systems, and support for corn, soybeans, and hay production."
+    },
+    "/tennessee/lincoln-county/precision-agriculture": {
+      "title": "Lincoln County TN Precision Agriculture | Fayetteville Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Lincoln County Tennessee near Fayetteville. RTK/GNSS guidance, planter technology, and installation for grain farmers."
+    },
+    "/tennessee/bedford-county/precision-agriculture": {
+      "title": "Bedford County TN Precision Agriculture | Shelbyville Farm Technology | Vantage South",
+      "description": "Precision agriculture for Bedford County Tennessee farmers near Shelbyville. RTK guidance, application control, and expert calibration for corn and soybeans."
+    },
+    "/tennessee/maury-county/precision-agriculture": {
+      "title": "Maury County TN Precision Agriculture | Columbia Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions for Maury County Tennessee near Columbia. Middle Tennessee RTK guidance, displays, and support for corn and soybean operations."
+    },
+    "/tennessee/coffee-county-tn/precision-agriculture": {
+      "title": "Coffee County TN Precision Agriculture | Manchester & Tullahoma Farm Tech | Vantage South",
+      "description": "Precision agriculture for Coffee County Tennessee farmers near Manchester and Tullahoma. RTK/GNSS guidance, steering systems, and installation services."
+    },
+    "/tennessee/franklin-county/precision-agriculture": {
+      "title": "Franklin County TN Precision Agriculture | Winchester Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions for Franklin County Tennessee near Winchester. RTK guidance, planter technology, and seasonal support for grain farmers."
+    },
+    "/tennessee/marshall-county/precision-agriculture": {
+      "title": "Marshall County TN Precision Agriculture | Lewisburg Farm Tech | Vantage South",
+      "description": "Precision agriculture for Marshall County Tennessee farmers near Lewisburg. Middle Tennessee RTK/GNSS guidance, application control, and expert installation."
+    },
+    "/tennessee/pulaski/precision-agriculture": {
+      "title": "Pulaski TN Precision Agriculture | Giles County Farm Technology | Vantage South",
+      "description": "Precision agriculture in Pulaski Tennessee. RTK guidance, steering systems, and support for Giles County corn, soybean, and hay farmers."
+    },
+    "/tennessee/fayetteville/precision-agriculture": {
+      "title": "Fayetteville TN Precision Agriculture | Lincoln County Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions in Fayetteville Tennessee. RTK/GNSS guidance, planter technology, and installation for Lincoln County grain farmers."
+    },
+    "/tennessee/shelbyville/precision-agriculture": {
+      "title": "Shelbyville TN Precision Agriculture | Bedford County Farm Technology | Vantage South",
+      "description": "Precision agriculture in Shelbyville Tennessee. RTK guidance, application control, and expert calibration for Bedford County corn and soybean operations."
+    },
+    "/tennessee/columbia/precision-agriculture": {
+      "title": "Columbia TN Precision Agriculture | Maury County Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions in Columbia Tennessee. Middle Tennessee RTK/GNSS guidance, displays, and support for corn, soybeans, and wheat."
+    },
+    "/tennessee/manchester/precision-agriculture": {
+      "title": "Manchester TN Precision Agriculture | Coffee County Farm Technology | Vantage South",
+      "description": "Precision agriculture in Manchester Tennessee. RTK guidance, steering systems, and installation for Highland Rim corn and soybean farmers."
+    },
+    "/tennessee/tullahoma/precision-agriculture": {
+      "title": "Tullahoma TN Precision Agriculture | Coffee County Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions in Tullahoma Tennessee. RTK/GNSS guidance, planter technology, and seasonal support for Coffee County grain operations."
+    },
+    "/tennessee/winchester/precision-agriculture": {
+      "title": "Winchester TN Precision Agriculture | Franklin County Farm Technology | Vantage South",
+      "description": "Precision agriculture in Winchester Tennessee. RTK guidance, application control, and expert installation for Franklin County corn and soybean farmers."
+    },
+    "/tennessee/lewisburg/precision-agriculture": {
+      "title": "Lewisburg TN Precision Agriculture | Marshall County Farm Tech | Vantage South",
+      "description": "Precision agriculture solutions in Lewisburg Tennessee. Middle Tennessee RTK/GNSS guidance, steering systems, and support for grain production."
+    },
+    "/services/precision-ag-consulting": {
+      "title": "Precision Ag Consulting | Expert Farm Technology Guidance | Vantage South",
+      "description": "Professional precision agriculture consulting for Southern farmers. Technology selection, integration planning, ROI analysis, and implementation strategies for your operation."
+    },
+    "/services/installation-calibration": {
+      "title": "Installation & Calibration Services | Precision Ag Setup | Vantage South",
+      "description": "Expert installation and calibration for precision agriculture equipment. GPS receivers, displays, steering systems, and planters installed and optimized for your farm."
+    },
+    "/services/rtk-gnss-setup": {
+      "title": "RTK/GNSS Setup & Correction Services | Sub-Inch Accuracy | Vantage South",
+      "description": "Professional RTK and GNSS correction setup for precision farming. Sub-inch accuracy guidance configuration, base station setup, and network troubleshooting."
+    },
+    "/services/in-season-support": {
+      "title": "In-Season Support | Field-Ready Technical Help | Vantage South",
+      "description": "Responsive in-season technical support for precision agriculture equipment. Phone, remote, and on-site troubleshooting when you need it during critical planting and application windows."
+    },
+    "/services/on-farm-training": {
+      "title": "On-Farm Training | Precision Ag Equipment Training | Vantage South",
+      "description": "Hands-on precision agriculture training at your farm. Display operation, guidance setup, planter calibration, and data management training for your team."
+    },
+    "/crops/cotton-precision-ag": {
+      "title": "Cotton Precision Agriculture | RTK Guidance & Planter Tech | Vantage South",
+      "description": "Precision agriculture solutions for cotton production. RTK guidance for strip-till and planting, variable rate seeding, automated steering, and yield monitoring technology."
+    },
+    "/crops/peanut-precision-ag": {
+      "title": "Peanut Precision Agriculture | Guidance & Application Control | Vantage South",
+      "description": "Precision agriculture for peanut farming. RTK guidance for bed preparation and planting, variable rate application, steering automation, and harvest optimization."
+    },
+    "/crops/corn-precision-ag": {
+      "title": "Corn Precision Agriculture | Planting Tech & RTK Guidance | Vantage South",
+      "description": "Precision agriculture solutions for corn production. Variable rate planting, RTK guidance for planting and side-dress, automated steering, and yield mapping technology."
+    },
+    "/crops/soybean-precision-ag": {
+      "title": "Soybean Precision Agriculture | Guidance & Seeding Technology | Vantage South",
+      "description": "Precision agriculture for soybean farming. RTK guidance, variable rate seeding, section control, automated steering, and harvest data management solutions."
+    },
+    "/crops/row-crops-precision-ag": {
+      "title": "Row Crop Precision Agriculture | Multi-Crop Farm Technology | Vantage South",
+      "description": "Precision agriculture solutions for diverse row crop operations. Flexible guidance, planting, and application technology that works across cotton, corn, soybeans, and peanuts."
+    },
+    "/schedule-field-demo": {
+      "title": "Schedule a Field Demo | See Precision Ag Technology in Action | Vantage South",
+      "description": "Schedule a free precision agriculture field demonstration. See RTK guidance, planter technology, and steering systems working on your farm before you buy."
+    }
+  }
+}

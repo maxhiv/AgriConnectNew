@@ -14,6 +14,11 @@ import FarmingGuides from "@/pages/FarmingGuides";
 import WeatherUpdates from "@/pages/WeatherUpdates";
 import WordPressPosts from "@/pages/wordpress-posts";
 import WordPressPostDetail from "@/pages/wordpress-post-detail";
+import TerritoryHub from "@/pages/TerritoryHub";
+import LocationPage from "@/pages/LocationPage";
+import ServicePage from "@/pages/ServicePage";
+import CropPage from "@/pages/CropPage";
+import FieldDemo from "@/pages/FieldDemo";
 
 function Router() {
   return (
@@ -28,6 +33,28 @@ function Router() {
       <Route path="/weather-updates" component={WeatherUpdates} />
       <Route path="/wordpress/posts" component={WordPressPosts} />
       <Route path="/wordpress/post/:slug" component={WordPressPostDetail} />
+      
+      {/* Field Demo - before other dynamic routes */}
+      <Route path="/schedule-field-demo" component={FieldDemo} />
+      
+      {/* Service Pages */}
+      <Route path="/services/:slug" component={ServicePage} />
+      
+      {/* Crop Pages */}
+      <Route path="/crops/:slug" component={CropPage} />
+      
+      {/* County and City Pages - unified location handler */}
+      <Route path="/alabama/:location/precision-agriculture" component={LocationPage} />
+      <Route path="/mississippi/:location/precision-agriculture" component={LocationPage} />
+      <Route path="/florida/:location/precision-agriculture" component={LocationPage} />
+      <Route path="/tennessee/:location/precision-agriculture" component={LocationPage} />
+      
+      {/* Territory Hub Pages - specific routes */}
+      <Route path="/alabama-precision-agriculture" component={TerritoryHub} />
+      <Route path="/mississippi-precision-agriculture" component={TerritoryHub} />
+      <Route path="/northwest-florida-precision-agriculture" component={TerritoryHub} />
+      <Route path="/central-tennessee-precision-agriculture" component={TerritoryHub} />
+      
       <Route component={NotFound} />
     </Switch>
   );

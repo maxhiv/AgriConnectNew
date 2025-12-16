@@ -1,0 +1,366 @@
+{
+  "territories": [
+    {
+      "id": "alabama",
+      "name": "Alabama",
+      "slug": "alabama-precision-agriculture",
+      "hubTitle": "Alabama Precision Agriculture",
+      "description": "Precision agriculture solutions for Alabama farmers",
+      "primaryCrops": ["cotton", "peanuts", "corn", "soybeans"],
+      "tier1Counties": [
+        {
+          "county": "Houston",
+          "slug": "houston-county",
+          "cities": [
+            {"name": "Dothan", "slug": "dothan"},
+            {"name": "Ashford", "slug": "ashford"},
+            {"name": "Rehobeth", "slug": "rehobeth"}
+          ],
+          "primaryCrops": ["cotton", "peanuts", "corn"],
+          "emphasis": "Major row crop production hub in the Wiregrass region"
+        },
+        {
+          "county": "Geneva",
+          "slug": "geneva-county",
+          "cities": [
+            {"name": "Geneva", "slug": "geneva"},
+            {"name": "Hartford", "slug": "hartford"},
+            {"name": "Slocomb", "slug": "slocomb"}
+          ],
+          "primaryCrops": ["peanuts", "cotton", "soybeans"],
+          "emphasis": "Heart of Alabama's peanut country"
+        },
+        {
+          "county": "Henry",
+          "slug": "henry-county",
+          "cities": [
+            {"name": "Abbeville", "slug": "abbeville"},
+            {"name": "Headland", "slug": "headland"}
+          ],
+          "primaryCrops": ["cotton", "peanuts", "corn"],
+          "emphasis": "Prime cotton and peanut production"
+        },
+        {
+          "county": "Coffee",
+          "slug": "coffee-county",
+          "cities": [
+            {"name": "Enterprise", "slug": "enterprise"},
+            {"name": "Elba", "slug": "elba"}
+          ],
+          "primaryCrops": ["peanuts", "cotton", "soybeans"],
+          "emphasis": "Historic peanut farming heritage"
+        },
+        {
+          "county": "Dale",
+          "slug": "dale-county",
+          "cities": [
+            {"name": "Ozark", "slug": "ozark"}
+          ],
+          "primaryCrops": ["cotton", "peanuts", "corn"],
+          "emphasis": "Diversified row crop operations"
+        },
+        {
+          "county": "Covington",
+          "slug": "covington-county",
+          "cities": [
+            {"name": "Andalusia", "slug": "andalusia"}
+          ],
+          "primaryCrops": ["peanuts", "cotton", "corn"],
+          "emphasis": "South Alabama agricultural center"
+        },
+        {
+          "county": "Escambia",
+          "slug": "escambia-county",
+          "cities": [
+            {"name": "Atmore", "slug": "atmore"},
+            {"name": "Brewton", "slug": "brewton"}
+          ],
+          "primaryCrops": ["cotton", "peanuts", "soybeans"],
+          "emphasis": "Coastal plain production zone"
+        },
+        {
+          "county": "Baldwin",
+          "slug": "baldwin-county",
+          "cities": [
+            {"name": "Robertsdale", "slug": "robertsdale"},
+            {"name": "Foley", "slug": "foley"},
+            {"name": "Fairhope", "slug": "fairhope"}
+          ],
+          "primaryCrops": ["cotton", "soybeans", "corn"],
+          "emphasis": "Gulf Coast agricultural corridor"
+        },
+        {
+          "county": "Limestone",
+          "slug": "limestone-county",
+          "cities": [
+            {"name": "Athens", "slug": "athens"}
+          ],
+          "primaryCrops": ["cotton", "corn", "soybeans"],
+          "emphasis": "Tennessee Valley production leader"
+        },
+        {
+          "county": "Madison",
+          "slug": "madison-county",
+          "cities": [
+            {"name": "Huntsville", "slug": "huntsville"}
+          ],
+          "primaryCrops": ["cotton", "corn", "soybeans"],
+          "emphasis": "North Alabama precision farming hub"
+        },
+        {
+          "county": "Lauderdale",
+          "slug": "lauderdale-county",
+          "cities": [
+            {"name": "Florence", "slug": "florence"}
+          ],
+          "primaryCrops": ["cotton", "corn", "soybeans"],
+          "emphasis": "Shoals region row crop production"
+        }
+      ]
+    },
+    {
+      "id": "mississippi",
+      "name": "Mississippi",
+      "slug": "mississippi-precision-agriculture",
+      "hubTitle": "Mississippi Precision Agriculture",
+      "description": "Precision agriculture solutions for Mississippi Delta farmers",
+      "primaryCrops": ["cotton", "soybeans", "corn", "rice"],
+      "tier1Counties": [
+        {
+          "county": "Washington",
+          "slug": "washington-county",
+          "cities": [
+            {"name": "Greenville", "slug": "greenville"}
+          ],
+          "primaryCrops": ["cotton", "soybeans", "corn"],
+          "emphasis": "Heart of the Mississippi Delta"
+        },
+        {
+          "county": "Bolivar",
+          "slug": "bolivar-county",
+          "cities": [
+            {"name": "Cleveland", "slug": "cleveland"}
+          ],
+          "primaryCrops": ["cotton", "soybeans", "rice"],
+          "emphasis": "Major Delta cotton and rice producer"
+        },
+        {
+          "county": "Sunflower",
+          "slug": "sunflower-county",
+          "cities": [
+            {"name": "Indianola", "slug": "indianola"},
+            {"name": "Ruleville", "slug": "ruleville"}
+          ],
+          "primaryCrops": ["cotton", "soybeans", "corn"],
+          "emphasis": "Prime Delta farmland"
+        },
+        {
+          "county": "Leflore",
+          "slug": "leflore-county",
+          "cities": [
+            {"name": "Greenwood", "slug": "greenwood"}
+          ],
+          "primaryCrops": ["cotton", "soybeans", "corn"],
+          "emphasis": "Cotton Capital of the Delta"
+        },
+        {
+          "county": "Coahoma",
+          "slug": "coahoma-county",
+          "cities": [
+            {"name": "Clarksdale", "slug": "clarksdale"}
+          ],
+          "primaryCrops": ["cotton", "soybeans", "rice"],
+          "emphasis": "North Delta agricultural center"
+        },
+        {
+          "county": "Humphreys",
+          "slug": "humphreys-county",
+          "cities": [
+            {"name": "Belzoni", "slug": "belzoni"}
+          ],
+          "primaryCrops": ["soybeans", "cotton", "catfish"],
+          "emphasis": "Catfish Capital with row crops"
+        },
+        {
+          "county": "Sharkey",
+          "slug": "sharkey-county",
+          "cities": [
+            {"name": "Rolling Fork", "slug": "rolling-fork"}
+          ],
+          "primaryCrops": ["soybeans", "cotton", "corn"],
+          "emphasis": "South Delta production zone"
+        },
+        {
+          "county": "Tunica",
+          "slug": "tunica-county",
+          "cities": [
+            {"name": "Tunica", "slug": "tunica"}
+          ],
+          "primaryCrops": ["cotton", "soybeans", "corn"],
+          "emphasis": "North Delta precision farming"
+        },
+        {
+          "county": "Quitman",
+          "slug": "quitman-county",
+          "cities": [
+            {"name": "Marks", "slug": "marks"}
+          ],
+          "primaryCrops": ["cotton", "soybeans", "rice"],
+          "emphasis": "Delta row crop production"
+        },
+        {
+          "county": "Issaquena",
+          "slug": "issaquena-county",
+          "cities": [
+            {"name": "Mayersville", "slug": "mayersville"}
+          ],
+          "primaryCrops": ["soybeans", "cotton", "corn"],
+          "emphasis": "Mississippi River Delta farming"
+        }
+      ]
+    },
+    {
+      "id": "florida",
+      "name": "Northwest Florida",
+      "slug": "northwest-florida-precision-agriculture",
+      "hubTitle": "Northwest Florida Precision Agriculture",
+      "description": "Precision agriculture solutions for Florida Panhandle farmers",
+      "primaryCrops": ["peanuts", "cotton", "corn", "soybeans"],
+      "tier1Counties": [
+        {
+          "county": "Jackson",
+          "slug": "jackson-county",
+          "cities": [
+            {"name": "Marianna", "slug": "marianna"}
+          ],
+          "primaryCrops": ["peanuts", "cotton", "corn"],
+          "emphasis": "Florida's top agricultural county"
+        },
+        {
+          "county": "Calhoun",
+          "slug": "calhoun-county",
+          "cities": [
+            {"name": "Blountstown", "slug": "blountstown"}
+          ],
+          "primaryCrops": ["peanuts", "cotton", "soybeans"],
+          "emphasis": "Panhandle peanut production"
+        },
+        {
+          "county": "Holmes",
+          "slug": "holmes-county",
+          "cities": [
+            {"name": "Bonifay", "slug": "bonifay"}
+          ],
+          "primaryCrops": ["peanuts", "cotton", "corn"],
+          "emphasis": "Northwest Florida farming hub"
+        },
+        {
+          "county": "Washington",
+          "slug": "washington-county-fl",
+          "cities": [
+            {"name": "Chipley", "slug": "chipley"}
+          ],
+          "primaryCrops": ["peanuts", "cotton", "soybeans"],
+          "emphasis": "Panhandle row crop center"
+        }
+      ]
+    },
+    {
+      "id": "tennessee",
+      "name": "Central Tennessee",
+      "slug": "central-tennessee-precision-agriculture",
+      "hubTitle": "Central Tennessee Precision Agriculture",
+      "description": "Precision agriculture solutions for Central Tennessee farmers",
+      "primaryCrops": ["corn", "soybeans", "wheat", "hay"],
+      "tier1Counties": [
+        {
+          "county": "Giles",
+          "slug": "giles-county",
+          "cities": [
+            {"name": "Pulaski", "slug": "pulaski"}
+          ],
+          "primaryCrops": ["corn", "soybeans", "hay"],
+          "emphasis": "South Central Tennessee grain production"
+        },
+        {
+          "county": "Lincoln",
+          "slug": "lincoln-county",
+          "cities": [
+            {"name": "Fayetteville", "slug": "fayetteville"}
+          ],
+          "primaryCrops": ["corn", "soybeans", "wheat"],
+          "emphasis": "Middle Tennessee crop leader"
+        },
+        {
+          "county": "Bedford",
+          "slug": "bedford-county",
+          "cities": [
+            {"name": "Shelbyville", "slug": "shelbyville"}
+          ],
+          "primaryCrops": ["corn", "soybeans", "hay"],
+          "emphasis": "Walking Horse country with row crops"
+        },
+        {
+          "county": "Maury",
+          "slug": "maury-county",
+          "cities": [
+            {"name": "Columbia", "slug": "columbia"}
+          ],
+          "primaryCrops": ["corn", "soybeans", "wheat"],
+          "emphasis": "Middle Tennessee agricultural center"
+        },
+        {
+          "county": "Coffee",
+          "slug": "coffee-county-tn",
+          "cities": [
+            {"name": "Manchester", "slug": "manchester"},
+            {"name": "Tullahoma", "slug": "tullahoma"}
+          ],
+          "primaryCrops": ["corn", "soybeans", "hay"],
+          "emphasis": "Highland Rim grain production"
+        },
+        {
+          "county": "Franklin",
+          "slug": "franklin-county",
+          "cities": [
+            {"name": "Winchester", "slug": "winchester"}
+          ],
+          "primaryCrops": ["corn", "soybeans", "hay"],
+          "emphasis": "South Central TN farming"
+        },
+        {
+          "county": "Marshall",
+          "slug": "marshall-county",
+          "cities": [
+            {"name": "Lewisburg", "slug": "lewisburg"}
+          ],
+          "primaryCrops": ["corn", "soybeans", "wheat"],
+          "emphasis": "Middle Tennessee grain belt"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {"id": "consulting", "name": "Precision Ag Consulting", "slug": "precision-ag-consulting"},
+    {"id": "installation", "name": "Installation & Calibration", "slug": "installation-calibration"},
+    {"id": "rtk", "name": "RTK/GNSS Setup", "slug": "rtk-gnss-setup"},
+    {"id": "support", "name": "In-Season Support", "slug": "in-season-support"},
+    {"id": "training", "name": "On-Farm Training", "slug": "on-farm-training"}
+  ],
+  "crops": [
+    {"id": "cotton", "name": "Cotton", "slug": "cotton-precision-ag"},
+    {"id": "peanuts", "name": "Peanuts", "slug": "peanut-precision-ag"},
+    {"id": "corn", "name": "Corn", "slug": "corn-precision-ag"},
+    {"id": "soybeans", "name": "Soybeans", "slug": "soybean-precision-ag"},
+    {"id": "row-crops", "name": "Row Crops", "slug": "row-crops-precision-ag"}
+  ],
+  "productCategories": [
+    {"id": "displays", "name": "Displays", "slug": "displays"},
+    {"id": "guidance", "name": "Guidance Control", "slug": "guidance-control"},
+    {"id": "steering", "name": "Steering Systems", "slug": "steering-systems"},
+    {"id": "receivers", "name": "Receivers", "slug": "receivers"},
+    {"id": "application", "name": "Application Control", "slug": "application-control"},
+    {"id": "spreaders", "name": "Spreaders", "slug": "spreaders"},
+    {"id": "planting", "name": "Planting Technology", "slug": "planting-technology"}
+  ]
+}

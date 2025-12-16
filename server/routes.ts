@@ -648,6 +648,236 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Sitemap.xml generation
+  app.get("/sitemap.xml", async (req, res) => {
+    try {
+      const baseUrl = "https://vantagesouth.com";
+      const now = new Date().toISOString().split('T')[0];
+      
+      // Static routes
+      const staticRoutes = [
+        { url: "/", priority: "1.0", changefreq: "weekly" },
+        { url: "/products", priority: "0.9", changefreq: "weekly" },
+        { url: "/dealers", priority: "0.7", changefreq: "monthly" },
+        { url: "/resources", priority: "0.7", changefreq: "weekly" },
+        { url: "/farming-guides", priority: "0.7", changefreq: "weekly" },
+        { url: "/weather-updates", priority: "0.6", changefreq: "daily" },
+        { url: "/schedule-field-demo", priority: "0.8", changefreq: "monthly" },
+      ];
+
+      // Territory hubs
+      const territoryHubs = [
+        "/alabama-precision-agriculture",
+        "/mississippi-precision-agriculture",
+        "/northwest-florida-precision-agriculture",
+        "/central-tennessee-precision-agriculture"
+      ];
+
+      // Services
+      const services = [
+        "/services/precision-ag-consulting",
+        "/services/installation-calibration",
+        "/services/rtk-gnss-setup",
+        "/services/in-season-support",
+        "/services/on-farm-training"
+      ];
+
+      // Crops
+      const crops = [
+        "/crops/cotton-precision-ag",
+        "/crops/peanut-precision-ag",
+        "/crops/corn-precision-ag",
+        "/crops/soybean-precision-ag",
+        "/crops/row-crops-precision-ag"
+      ];
+
+      // Alabama counties and cities
+      const alabamaLocations = [
+        "/alabama/houston-county/precision-agriculture",
+        "/alabama/geneva-county/precision-agriculture",
+        "/alabama/henry-county/precision-agriculture",
+        "/alabama/coffee-county/precision-agriculture",
+        "/alabama/dale-county/precision-agriculture",
+        "/alabama/covington-county/precision-agriculture",
+        "/alabama/escambia-county/precision-agriculture",
+        "/alabama/baldwin-county/precision-agriculture",
+        "/alabama/limestone-county/precision-agriculture",
+        "/alabama/madison-county/precision-agriculture",
+        "/alabama/lauderdale-county/precision-agriculture",
+        "/alabama/dothan/precision-agriculture",
+        "/alabama/ashford/precision-agriculture",
+        "/alabama/rehobeth/precision-agriculture",
+        "/alabama/geneva/precision-agriculture",
+        "/alabama/hartford/precision-agriculture",
+        "/alabama/slocomb/precision-agriculture",
+        "/alabama/abbeville/precision-agriculture",
+        "/alabama/headland/precision-agriculture",
+        "/alabama/enterprise/precision-agriculture",
+        "/alabama/elba/precision-agriculture",
+        "/alabama/ozark/precision-agriculture",
+        "/alabama/andalusia/precision-agriculture",
+        "/alabama/atmore/precision-agriculture",
+        "/alabama/brewton/precision-agriculture",
+        "/alabama/robertsdale/precision-agriculture",
+        "/alabama/foley/precision-agriculture",
+        "/alabama/fairhope/precision-agriculture",
+        "/alabama/athens/precision-agriculture",
+        "/alabama/huntsville/precision-agriculture",
+        "/alabama/florence/precision-agriculture"
+      ];
+
+      // Mississippi counties and cities
+      const mississippiLocations = [
+        "/mississippi/washington-county/precision-agriculture",
+        "/mississippi/bolivar-county/precision-agriculture",
+        "/mississippi/sunflower-county/precision-agriculture",
+        "/mississippi/leflore-county/precision-agriculture",
+        "/mississippi/coahoma-county/precision-agriculture",
+        "/mississippi/humphreys-county/precision-agriculture",
+        "/mississippi/sharkey-county/precision-agriculture",
+        "/mississippi/tunica-county/precision-agriculture",
+        "/mississippi/quitman-county/precision-agriculture",
+        "/mississippi/issaquena-county/precision-agriculture",
+        "/mississippi/greenville/precision-agriculture",
+        "/mississippi/cleveland/precision-agriculture",
+        "/mississippi/indianola/precision-agriculture",
+        "/mississippi/ruleville/precision-agriculture",
+        "/mississippi/greenwood/precision-agriculture",
+        "/mississippi/clarksdale/precision-agriculture",
+        "/mississippi/belzoni/precision-agriculture",
+        "/mississippi/rolling-fork/precision-agriculture",
+        "/mississippi/tunica/precision-agriculture",
+        "/mississippi/marks/precision-agriculture",
+        "/mississippi/mayersville/precision-agriculture"
+      ];
+
+      // Florida counties and cities
+      const floridaLocations = [
+        "/florida/jackson-county/precision-agriculture",
+        "/florida/calhoun-county/precision-agriculture",
+        "/florida/holmes-county/precision-agriculture",
+        "/florida/washington-county-fl/precision-agriculture",
+        "/florida/marianna/precision-agriculture",
+        "/florida/blountstown/precision-agriculture",
+        "/florida/bonifay/precision-agriculture",
+        "/florida/chipley/precision-agriculture"
+      ];
+
+      // Tennessee counties and cities
+      const tennesseeLocations = [
+        "/tennessee/giles-county/precision-agriculture",
+        "/tennessee/lincoln-county/precision-agriculture",
+        "/tennessee/bedford-county/precision-agriculture",
+        "/tennessee/maury-county/precision-agriculture",
+        "/tennessee/coffee-county-tn/precision-agriculture",
+        "/tennessee/franklin-county/precision-agriculture",
+        "/tennessee/marshall-county/precision-agriculture",
+        "/tennessee/pulaski/precision-agriculture",
+        "/tennessee/fayetteville/precision-agriculture",
+        "/tennessee/shelbyville/precision-agriculture",
+        "/tennessee/columbia/precision-agriculture",
+        "/tennessee/manchester/precision-agriculture",
+        "/tennessee/tullahoma/precision-agriculture",
+        "/tennessee/winchester/precision-agriculture",
+        "/tennessee/lewisburg/precision-agriculture"
+      ];
+
+      // Get products from database
+      const products = await storage.getProducts();
+
+      let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+      xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+
+      // Add static routes
+      for (const route of staticRoutes) {
+        xml += `  <url>\n`;
+        xml += `    <loc>${baseUrl}${route.url}</loc>\n`;
+        xml += `    <lastmod>${now}</lastmod>\n`;
+        xml += `    <changefreq>${route.changefreq}</changefreq>\n`;
+        xml += `    <priority>${route.priority}</priority>\n`;
+        xml += `  </url>\n`;
+      }
+
+      // Add territory hubs
+      for (const url of territoryHubs) {
+        xml += `  <url>\n`;
+        xml += `    <loc>${baseUrl}${url}</loc>\n`;
+        xml += `    <lastmod>${now}</lastmod>\n`;
+        xml += `    <changefreq>weekly</changefreq>\n`;
+        xml += `    <priority>0.9</priority>\n`;
+        xml += `  </url>\n`;
+      }
+
+      // Add services
+      for (const url of services) {
+        xml += `  <url>\n`;
+        xml += `    <loc>${baseUrl}${url}</loc>\n`;
+        xml += `    <lastmod>${now}</lastmod>\n`;
+        xml += `    <changefreq>monthly</changefreq>\n`;
+        xml += `    <priority>0.8</priority>\n`;
+        xml += `  </url>\n`;
+      }
+
+      // Add crops
+      for (const url of crops) {
+        xml += `  <url>\n`;
+        xml += `    <loc>${baseUrl}${url}</loc>\n`;
+        xml += `    <lastmod>${now}</lastmod>\n`;
+        xml += `    <changefreq>monthly</changefreq>\n`;
+        xml += `    <priority>0.8</priority>\n`;
+        xml += `  </url>\n`;
+      }
+
+      // Add location pages
+      const allLocations = [...alabamaLocations, ...mississippiLocations, ...floridaLocations, ...tennesseeLocations];
+      for (const url of allLocations) {
+        xml += `  <url>\n`;
+        xml += `    <loc>${baseUrl}${url}</loc>\n`;
+        xml += `    <lastmod>${now}</lastmod>\n`;
+        xml += `    <changefreq>monthly</changefreq>\n`;
+        xml += `    <priority>0.7</priority>\n`;
+        xml += `  </url>\n`;
+      }
+
+      // Add products
+      for (const product of products) {
+        xml += `  <url>\n`;
+        xml += `    <loc>${baseUrl}/product/${product.slug}</loc>\n`;
+        xml += `    <lastmod>${now}</lastmod>\n`;
+        xml += `    <changefreq>weekly</changefreq>\n`;
+        xml += `    <priority>0.6</priority>\n`;
+        xml += `  </url>\n`;
+      }
+
+      xml += '</urlset>';
+
+      res.set('Content-Type', 'application/xml');
+      res.send(xml);
+    } catch (error) {
+      console.error('Error generating sitemap:', error);
+      res.status(500).send('Error generating sitemap');
+    }
+  });
+
+  // robots.txt
+  app.get("/robots.txt", (req, res) => {
+    const baseUrl = "https://vantagesouth.com";
+    const robotsTxt = `User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: ${baseUrl}/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin and API routes
+Disallow: /api/
+`;
+    res.set('Content-Type', 'text/plain');
+    res.send(robotsTxt);
+  });
+
   const httpServer = createServer(app);
   return httpServer;
 }
