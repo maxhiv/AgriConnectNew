@@ -1,15 +1,28 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Settings } from "lucide-react";
+import { Menu, X, ChevronDown, MapPin } from "lucide-react";
+
+const territories = [
+  { name: "Alabama", slug: "alabama-precision-agriculture" },
+  { name: "Mississippi", slug: "mississippi-precision-agriculture" },
+  { name: "NW Florida", slug: "northwest-florida-precision-agriculture" },
+  { name: "Central Tennessee", slug: "central-tennessee-precision-agriculture" }
+];
 
 export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isLocationsOpen, setIsLocationsOpen] = useState(false);
   const [location] = useLocation();
 
   const isActive = (path: string) => {
     if (path === '/' && location === '/') return true;
     if (path !== '/' && location.startsWith(path)) return true;
     return false;
+  };
+
+  const isLocationActive = () => {
+    return territories.some(t => location.includes(t.slug)) || 
+           location.includes('/precision-agriculture');
   };
 
   const handleMobileMenuClick = () => {
@@ -64,17 +77,56 @@ export default function Navigation() {
               >
                 Products
               </Link>
-              <Link 
-                href="/dealers"
-                className={`px-3 py-2  text-sm font-medium transition-colors ${
-                  isActive('/dealers') 
-                    ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
-                    : 'text-ptx-dark-green hover:text-ptx-medium-green'
-                }`}
-                data-testid="nav-dealers"
+              
+              {/* Locations Dropdown */}
+              <div 
+                className="relative"
+                onMouseEnter={() => setIsLocationsOpen(true)}
+                onMouseLeave={() => setIsLocationsOpen(false)}
               >
-                Locations
-              </Link>
+                <button
+                  className={`px-3 py-2 text-sm font-medium transition-colors flex items-center gap-1 ${
+                    isLocationActive() 
+                      ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                      : 'text-ptx-dark-green hover:text-ptx-medium-green'
+                  }`}
+                  data-testid="nav-locations"
+                >
+                  Locations
+                  <ChevronDown className="h-4 w-4" />
+                </button>
+                
+                {isLocationsOpen && (
+                  <div 
+                    className="absolute left-0 mt-0 w-56 bg-white shadow-lg border border-gray-100"
+                    style={{ top: '100%' }}
+                  >
+                    <div className="py-2">
+                      {territories.map((territory) => (
+                        <Link
+                          key={territory.slug}
+                          href={`/${territory.slug}`}
+                          className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-700"
+                          data-testid={`nav-location-${territory.slug}`}
+                        >
+                          <MapPin className="h-4 w-4" />
+                          {territory.name}
+                        </Link>
+                      ))}
+                      <div className="border-t border-gray-100 mt-2 pt-2">
+                        <Link
+                          href="/schedule-field-demo"
+                          className="flex items-center gap-2 px-4 py-2 text-sm text-green-700 font-medium hover:bg-green-50"
+                          data-testid="nav-field-demo"
+                        >
+                          Schedule Field Demo
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+              
               <Link 
                 href="/resources"
                 className={`px-3 py-2  text-sm font-medium transition-colors ${
@@ -143,18 +195,31 @@ export default function Navigation() {
             >
               Products
             </Link>
+            
+            {/* Mobile Locations */}
+            <div className="px-3 py-2">
+              <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Locations</span>
+            </div>
+            {territories.map((territory) => (
+              <Link 
+                key={territory.slug}
+                href={`/${territory.slug}`}
+                onClick={handleMobileMenuClick}
+                className="block px-6 py-2 text-base font-medium text-ptx-dark-green hover:text-ptx-medium-green"
+                data-testid={`mobile-nav-location-${territory.slug}`}
+              >
+                {territory.name}
+              </Link>
+            ))}
             <Link 
-              href="/dealers"
+              href="/schedule-field-demo"
               onClick={handleMobileMenuClick}
-              className={`block px-3 py-2  text-base font-medium ${
-                isActive('/dealers') 
-                  ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
-                  : 'text-ptx-dark-green hover:text-ptx-medium-green'
-              }`}
-              data-testid="mobile-nav-dealers"
+              className="block px-6 py-2 text-base font-medium text-green-700"
+              data-testid="mobile-nav-field-demo"
             >
-              Locations
+              Schedule Field Demo
             </Link>
+            
             <Link 
               href="/resources"
               onClick={handleMobileMenuClick}
