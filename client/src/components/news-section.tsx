@@ -3,14 +3,14 @@ import { Link } from "wouter";
 export default function NewsSection() {
   const articles = [
     {
-      image: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.ctfassets.net/npb3dl1oqqgh/59KsrYggIdJXOLeK6jy6k/db6bbb9544272a3f254e27fca6ee3a6b/nav-960-1200x630.jpg",
       date: "December 10, 2024",
       title: "PTx Trimble NAV-960 Delivers Sub-Inch Accuracy for Alabama Cotton Farmers",
       excerpt: "Vantage South customers in Houston County report 15% input savings after upgrading to the NAV-960 guidance controller with RTK correction services.",
       slug: "ptx-trimble-nav-960-alabama-cotton-farmers",
     },
     {
-      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-Web-2.png",
       date: "November 28, 2024",
       title: "Variable Rate Technology Transforms Peanut Production in the Wiregrass",
       excerpt: "Southeast Alabama growers using Ag Leader OptiRx sensors see improved plant health monitoring and optimized fertilizer applications across their fields.",
@@ -31,14 +31,14 @@ export default function NewsSection() {
       slug: "raven-autonomy-mississippi-delta",
     },
     {
-      image: "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.ctfassets.net/npb3dl1oqqgh/75aGHURWPb9YxRpqW4xAnL/960bf6be8dabd26b7bd63620360d85e0/agriculture-gfx-1260-display-Aug23-1200x627.png",
       date: "October 18, 2024",
       title: "GFX-1260 Display: Streamlining Farm Operations Across the Southeast",
       excerpt: "The Android-based 12.1-inch touchscreen simplifies precision agriculture workflows for operators running multiple implements and guidance systems.",
       slug: "gfx-1260-display-southeast-operations",
     },
     {
-      image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1586771107445-d3ca888129ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       date: "October 5, 2024",
       title: "Schedule Your Field Demo: See Precision Ag Technology in Action",
       excerpt: "Vantage South offers complimentary on-farm demonstrations of guidance systems, variable rate controllers, and yield monitoring equipment throughout our service area.",
