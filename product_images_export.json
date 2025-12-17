@@ -550,5 +550,92 @@
       "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-10-640x429.jpg",
       "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-05-640x403.jpg"
     ]
+  },
+  "agl-incommand-go": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-Web-2.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-GoInCommand-copy.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-Features-2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/Both-angled-harvest.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-16_AgFiniti-Imperial.png"
+    ]
+  },
+  "agl-steercommand-z2": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingZ2.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SteerCommandZ2_1018x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/SteerCommand-Z2-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/SteerCommand-Z2.png"
+    ]
+  },
+  "agl-steadysteer": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/08/SteadySteer-Header.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SteadySteer-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/12/steadysteerGuidance-Package-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/12/steadysteer10.png",
+      "https://www.agleader.com/wp-content/uploads/2024/12/steadysteer16-1.png"
+    ]
+  },
+  "agl-sureforce": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingSureForce.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureForce-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/SureForce.png"
+    ]
+  },
+  "agl-surespeed": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2025/05/SureSpeed-Header.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2025/05/SureSpeed-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/SureSpeed-hotspot.png",
+      "https://www.agleader.com/wp-content/uploads/2025/05/mixed-fleet-SureSpeed.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/surespeed-brush.png"
+    ]
+  },
+  "agl-suredrive": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingSureDrive.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureDrive-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/SureDrive-hotspot.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/suredrive-emergence.png",
+      "https://www.agleader.com/wp-content/uploads/2024/06/Planting_SureDrive_onrow-768x494-1.png"
+    ]
+  },
+  "agl-rightspot": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/08/RightSpot-Header.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/RightSpot-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/RightSpot-2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/06/BoomLoop-Annimation-2048x293-1.png"
+    ]
+  },
+  "ptx-truetracker": {
+    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/5o3eoxGZ4mh72TcKdfLley/aabe1c10a5c5dbb11a3087b19c8c2cef/ptx-farmengage-bundle-800x960.png",
+    "images": []
+  },
+  "ptx-weedseeker-2": {
+    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/6kYEKMOEi7CbnK2QCkgCnE/bb66783b4b0485716b8b25d1bd2b0c65/agrculture-products-weedseeker2-front-2-800x960.png",
+    "images": []
+  },
+  "ptx-wm-fieldform": {
+    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/MMdb5TWyzyR5i8V0WFqUu/a2b34361ae4cf3c667fb25029ee5144e/agriculture-products-wm-fieldform-800x960.png",
+    "images": []
+  },
+  "ptx-verticalpoint-rtk": {
+    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/4E3dHwe8Klb8j3aBoVNMh1/d57d56f0fff6f455570d77350b339d7c/agriculture-products-verticalpoint-rtk-2-800x960.png",
+    "images": []
+  },
+  "ptx-wm-drain-solution": {
+    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/4mlBWle9VT6GcRpsaJv7YO/0dc506e8e63c05e0f029b79f89cc9b7d/agriculture-products-wmdrain-drainage-2-800x960.png",
+    "images": []
+  },
+  "ptx-farmengage": {
+    "primaryImage": "https://s7d9.scene7.com/is/image/agco/ptxt-farmengage-hero?fmt=png-alpha",
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-man-phone?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-office-computer?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-field-manager?fmt=png-alpha"
+    ]
   }
 }
