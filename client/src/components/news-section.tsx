@@ -38,7 +38,7 @@ export default function NewsSection() {
       slug: "gfx-1260-display-southeast-operations",
     },
     {
-      image: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       date: "October 5, 2024",
       title: "Schedule Your Field Demo: See Precision Ag Technology in Action",
       excerpt: "Vantage South offers complimentary on-farm demonstrations of guidance systems, variable rate controllers, and yield monitoring equipment throughout our service area.",

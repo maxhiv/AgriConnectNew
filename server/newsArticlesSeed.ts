@@ -239,7 +239,7 @@ Whether you're replacing an older display or adding precision capabilities for t
     slug: "schedule-field-demo-precision-ag-technology",
     title: "Schedule Your Field Demo: See Precision Ag Technology in Action",
     excerpt: "Vantage South offers complimentary on-farm demonstrations of guidance systems, variable rate controllers, and yield monitoring equipment throughout our service area.",
-    image: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600",
+    image: "https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600",
     date: "October 5, 2024",
     author: "Vantage South Team",
     category: "Services",
