@@ -1,0 +1,172 @@
+MEGA PROMPT — REPLIT (Production) — Local SEO Page Enrichment with “Local Ag History + Education”
+==============================================================================================
+
+ROLE
+You are a senior full-stack engineer + technical SEO lead building a production-ready enrichment system for an existing precision agriculture website. The site already has deployed location pages for states, counties, and cities.
+
+GOAL
+Enrich every City/County/State page with a localized “Agriculture History + Today’s Practice” education module that:
+- improves topical depth, dwell time, and E-E-A-T
+- stays unique per page (no boilerplate swaps)
+- avoids fabricated statistics or unsourced claims
+- is directly tied to our products/services (history → modern constraints → precision solutions)
+- is safe and scalable
+
+NON-NEGOTIABLES
+1) NO fake offices, NO fake testimonials, NO fabricated “exact numbers” (acreage, yields, rankings) unless cited.
+2) Each page’s module must be unique: different angle, different details, different phrasing.
+3) Educational content must always connect to modern farm operations and to at least 2 relevant solutions we sell.
+4) Citations must be included in a controlled format (URLs stored; do not paste long quotes).
+5) Add internal links to relevant crop pages, service pages, and product categories.
+6) Keep the module compact (200–350 words) + skimmable.
+
+EXISTING CONTEXT
+- We sell BOTH products and services (RTK/GNSS, guidance/steering, planter upgrades, application control, spreaders, training/installation).
+- Territories: Alabama, Mississippi, North Florida (Panhandle), Central Tennessee.
+- Location pages exist for State, County, City routes.
+
+WHAT TO BUILD
+A) DATA MODEL (FILES)
+Create a content enrichment system that outputs a per-page JSON (or MD frontmatter + body) with:
+- placeType: "state" | "county" | "city"
+- state: "AL" | "MS" | "FL" | "TN"
+- placeName: string
+- countyName (optional)
+- primaryCrops: string[]  (e.g., ["cotton","peanuts","corn"])
+- constraints: string[]   (e.g., ["variable soils","tight planting windows","drainage"])
+- angle: one of:
+  ["crop-evolution","soils-water","infrastructure","technology-adoption","resilience-weather","economics-operations"]
+- module:
+  - heading: string
+  - intro: string (1–2 sentences)
+  - bullets: string[] (3 bullets)
+  - bridge: string (how history influences today)
+  - todayTieIn: string (precision decisions)
+  - recommendedSolutions: array of {type:"service|category|product|crop", label, href}
+  - citations: array of {label, url}
+  - cta: {headline, body, href, buttonText}
+- version: string
+- lastUpdated: ISO date
+
+Store these in:
+- /content/enrichment/{state}/{placeSlug}.json
+OR
+- /content/enrichment/{state}/{placeSlug}.md (frontmatter + content)
+
+B) GENERATION WORKFLOW (NO WEB CALLS REQUIRED)
+Since runtime web scraping may be unreliable, implement an “authoring workflow”:
+1) A seed file lists all location pages (state/county/city) with their crops + constraints.
+2) A generator builds enrichment modules using deterministic templates + variation tokens.
+3) A validator checks:
+   - word count 200–350
+   - contains “bridge” + “todayTieIn”
+   - contains >= 2 recommendedSolutions
+   - contains >= 1 citation link
+   - uniqueness: cosine similarity (or simple shingle overlap) vs other modules under same state must be below threshold (implement a simple shingle Jaccard check)
+
+C) PAGE INTEGRATION
+Add a React component <LocalAgContext /> that:
+- loads the enrichment file matching current route
+- renders:
+  H2 heading
+  intro paragraph
+  3 bullet list
+  “How this shapes precision decisions today” paragraph
+  “Recommended next steps” links (internal links)
+  “Sources” list (1–3 links)
+  CTA box at end
+
+Insert this component into:
+- every City page
+- every County page
+- every State hub page (slightly broader language)
+
+D) SEO RULES
+- The module should include the place name naturally (1–2x), NOT stuffed.
+- Add internal links to:
+  - at least 1 crop page (matching primary crops)
+  - at least 1 service page
+  - at least 1 product category page
+- Add FAQ (optional) with 3 Q&As per page type:
+  - City FAQ: “Do you service farms near {City}?” etc.
+  - County FAQ: “Do you offer installs across {County}?” etc.
+  - State FAQ: “Which counties do you prioritize?” etc.
+- Provide JSON-LD:
+  - BreadcrumbList (already likely exists)
+  - FAQPage schema if FAQ enabled
+  - Do NOT add “EducationalOrganization” schema
+
+E) CONTENT QUALITY GUARDRAILS
+1) NO exact stats like “#1 producer” or “X acres” unless cited.
+2) Use safe phrasing:
+   - “Historically, farms in this area have relied on…”
+   - “Commonly associated with…”
+   - “Many operations across the region…”
+3) Each module must include 1 unique local detail chosen from an “evidence-safe” pool:
+   - river basin / watershed mention (if applicable)
+   - soil generalization (clay, sandy loam) only if confident OR phrased cautiously
+   - cropping mix patterns (row crops vs livestock/hay) phrased cautiously
+4) Rotate angles across pages to avoid duplicate content.
+
+F) SEED INPUT (EXAMPLE FORMAT)
+Create: /content/locations.seed.json
+Each record:
+{
+  "route": "/alabama/houston-county/precision-agriculture/",
+  "placeType": "county",
+  "state": "AL",
+  "placeName": "Houston County",
+  "cities": ["Dothan","Ashford","Rehobeth"],
+  "primaryCrops": ["peanuts","cotton","corn"],
+  "constraints": ["sandy soils","tight planting windows","application timing"],
+  "angle": "crop-evolution"
+}
+
+For cities, placeName is the city:
+{
+  "route": "/alabama/dothan/precision-agriculture/",
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Dothan",
+  "countyName": "Houston County",
+  "primaryCrops": ["peanuts","cotton"],
+  "constraints": ["timely planting","efficient spraying"],
+  "angle": "infrastructure"
+}
+
+G) CITATION SOURCES (APPROVED LIST)
+In every enrichment module, pick 1–3 citations from:
+- State extension: Auburn, MSU Extension, UF/IFAS, UT Extension
+- USDA (NASS / ERS) general pages
+- County/region ag heritage organizations (optional)
+Store citations as URL + label only; no long quotes.
+
+IMPLEMENTATION DETAILS
+- Use Node.js + TypeScript for scripts.
+- Use React (or Next.js) for frontend components.
+- Provide minimal dependencies; no heavy NLP libs required.
+- Provide scripts:
+  - scripts/generateEnrichment.ts
+  - scripts/validateEnrichment.ts
+  - scripts/buildSitemap.ts (if not already present)
+
+DELIVERABLES
+1) Folder structure with all files created:
+   - /content/locations.seed.json
+   - /content/enrichment/... generated files
+   - /scripts/generateEnrichment.ts
+   - /scripts/validateEnrichment.ts
+   - /src/components/LocalAgContext.tsx
+   - Integration into page templates
+2) Generate enrichment content for at least:
+   - 2 Alabama counties + 2 Alabama cities
+   - 2 Mississippi counties + 2 Mississippi cities
+   (as working examples)
+3) Provide clear instructions:
+   - npm run generate:enrichment
+   - npm run validate:enrichment
+   - how to add new locations / adjust angles / constraints
+
+NOW DO THE WORK
+- Produce the code scaffolding, seed schema, example seed entries, example generated enrichment JSON/MD, and the React component.
+- Then provide a short “How to operate this system” section with commands and best practices.

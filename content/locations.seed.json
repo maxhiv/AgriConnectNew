@@ -1,0 +1,128 @@
+{
+  "locations": [
+    {
+      "route": "/alabama/houston-county/precision-agriculture",
+      "placeType": "county",
+      "state": "AL",
+      "placeName": "Houston County",
+      "cities": ["Dothan", "Ashford", "Rehobeth"],
+      "primaryCrops": ["peanuts", "cotton", "corn"],
+      "constraints": ["sandy soils", "tight planting windows", "application timing"],
+      "angle": "crop-evolution",
+      "watershed": "Choctawhatchee River Basin",
+      "soilType": "sandy loam"
+    },
+    {
+      "route": "/alabama/dothan/precision-agriculture",
+      "placeType": "city",
+      "state": "AL",
+      "placeName": "Dothan",
+      "countyName": "Houston County",
+      "primaryCrops": ["peanuts", "cotton"],
+      "constraints": ["timely planting", "efficient spraying", "variable soils"],
+      "angle": "infrastructure",
+      "watershed": "Choctawhatchee River Basin",
+      "soilType": "sandy loam"
+    },
+    {
+      "route": "/alabama/geneva-county/precision-agriculture",
+      "placeType": "county",
+      "state": "AL",
+      "placeName": "Geneva County",
+      "cities": ["Geneva", "Hartford", "Slocomb"],
+      "primaryCrops": ["peanuts", "cotton", "soybeans"],
+      "constraints": ["moisture management", "pest pressure", "harvest timing"],
+      "angle": "soils-water",
+      "watershed": "Pea River Basin",
+      "soilType": "sandy loam to clay"
+    },
+    {
+      "route": "/alabama/geneva/precision-agriculture",
+      "placeType": "city",
+      "state": "AL",
+      "placeName": "Geneva",
+      "countyName": "Geneva County",
+      "primaryCrops": ["peanuts", "cotton"],
+      "constraints": ["drainage management", "input optimization"],
+      "angle": "economics-operations",
+      "watershed": "Pea River Basin",
+      "soilType": "sandy loam"
+    },
+    {
+      "route": "/mississippi/washington-county/precision-agriculture",
+      "placeType": "county",
+      "state": "MS",
+      "placeName": "Washington County",
+      "cities": ["Greenville", "Leland"],
+      "primaryCrops": ["cotton", "corn", "soybeans", "rice"],
+      "constraints": ["Delta clay soils", "drainage", "irrigation scheduling"],
+      "angle": "soils-water",
+      "watershed": "Mississippi River Alluvial Plain",
+      "soilType": "heavy clay"
+    },
+    {
+      "route": "/mississippi/greenville/precision-agriculture",
+      "placeType": "city",
+      "state": "MS",
+      "placeName": "Greenville",
+      "countyName": "Washington County",
+      "primaryCrops": ["cotton", "corn", "soybeans"],
+      "constraints": ["compaction management", "water control"],
+      "angle": "technology-adoption",
+      "watershed": "Mississippi River Delta",
+      "soilType": "heavy clay"
+    },
+    {
+      "route": "/mississippi/bolivar-county/precision-agriculture",
+      "placeType": "county",
+      "state": "MS",
+      "placeName": "Bolivar County",
+      "cities": ["Cleveland", "Rosedale"],
+      "primaryCrops": ["cotton", "soybeans", "corn", "rice"],
+      "constraints": ["flood management", "variable yields", "input costs"],
+      "angle": "resilience-weather",
+      "watershed": "Sunflower River Basin",
+      "soilType": "alluvial clay"
+    },
+    {
+      "route": "/mississippi/cleveland/precision-agriculture",
+      "placeType": "city",
+      "state": "MS",
+      "placeName": "Cleveland",
+      "countyName": "Bolivar County",
+      "primaryCrops": ["cotton", "soybeans", "corn"],
+      "constraints": ["precision irrigation", "variable rate needs"],
+      "angle": "crop-evolution",
+      "watershed": "Sunflower River Basin",
+      "soilType": "alluvial clay"
+    }
+  ],
+  "angles": [
+    "crop-evolution",
+    "soils-water",
+    "infrastructure",
+    "technology-adoption",
+    "resilience-weather",
+    "economics-operations"
+  ],
+  "citations": {
+    "AL": [
+      {"label": "Alabama Cooperative Extension System", "url": "https://www.aces.edu/"},
+      {"label": "Auburn University Agriculture", "url": "https://agriculture.auburn.edu/"},
+      {"label": "USDA NASS Alabama", "url": "https://www.nass.usda.gov/Statistics_by_State/Alabama/"}
+    ],
+    "MS": [
+      {"label": "Mississippi State University Extension", "url": "https://extension.msstate.edu/"},
+      {"label": "MSU Delta Research and Extension Center", "url": "https://www.drec.msstate.edu/"},
+      {"label": "USDA NASS Mississippi", "url": "https://www.nass.usda.gov/Statistics_by_State/Mississippi/"}
+    ],
+    "FL": [
+      {"label": "UF/IFAS Extension", "url": "https://ifas.ufl.edu/"},
+      {"label": "USDA NASS Florida", "url": "https://www.nass.usda.gov/Statistics_by_State/Florida/"}
+    ],
+    "TN": [
+      {"label": "UT Extension", "url": "https://extension.tennessee.edu/"},
+      {"label": "USDA NASS Tennessee", "url": "https://www.nass.usda.gov/Statistics_by_State/Tennessee/"}
+    ]
+  }
+}

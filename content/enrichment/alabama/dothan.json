@@ -1,0 +1,76 @@
+{
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Dothan",
+  "countyName": "Houston County",
+  "primaryCrops": [
+    "peanuts",
+    "cotton"
+  ],
+  "constraints": [
+    "timely planting",
+    "efficient spraying",
+    "variable soils"
+  ],
+  "angle": "infrastructure",
+  "module": {
+    "heading": "Agricultural Infrastructure in Dothan",
+    "intro": "Transportation networks and agricultural services in Dothan support a robust peanuts and cotton production system that connects local farms to broader markets. From grain elevators to input suppliers, the infrastructure surrounding agriculture here reflects decades of investment in the region's farming future. Modern additions to this infrastructure include RTK signal networks and data connectivity that enable precision farming at scale.",
+    "bullets": [
+      "Agricultural service infrastructure has grown alongside farm technology needs",
+      "GPS and cellular coverage enables real-time data transfer from field equipment",
+      "Access to RTK correction networks provides centimeter-level guidance accuracy"
+    ],
+    "bridge": "Access to professional installation and ongoing support makes precision technology adoption more practical for operations of all sizes. Rather than figuring out complex systems alone, farmers can rely on trained technicians who ensure equipment works correctly from day one. This support extends through the season, with troubleshooting and adjustments available when needed most.",
+    "todayTieIn": "For peanuts operations dealing with timely planting, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Dothan farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Peanuts Production Solutions",
+        "href": "/crops/peanuts"
+      },
+      {
+        "type": "service",
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension System",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Auburn University Agriculture",
+        "url": "https://agriculture.auburn.edu/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Dothan Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Dothan?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Dothan. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for peanuts in this area?",
+      "answer": "For peanuts production near Dothan, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:41:01.290Z"
+}

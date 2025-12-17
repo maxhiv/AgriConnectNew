@@ -11,6 +11,7 @@ import { WordPressService } from "./wordpressService";
 import { catalogProducts, getAllBrands, getAllCategories } from "./productCatalogSeed";
 import { getAllNewsArticles, getNewsArticle } from "./newsArticlesSeed";
 import { getProductImageData, getProductImages } from "./productImagesSeed";
+import { getEnrichmentContent } from "./enrichmentService";
 
 async function syncProductImages() {
   try {
@@ -164,6 +165,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
         message: "Failed to fetch page from WordPress"
       });
     }
+  });
+
+  // Enrichment content API for location pages
+  app.get("/api/enrichment/:state/:slug", (req, res) => {
+    const { state, slug } = req.params;
+    const content = getEnrichmentContent(state, slug);
+    
+    if (!content) {
+      return res.status(404).json({ error: "Enrichment content not found" });
+    }
+    
+    res.json(content);
   });
 
   // Public object storage endpoint for serving video and other assets

@@ -1,0 +1,76 @@
+{
+  "placeType": "county",
+  "state": "AL",
+  "placeName": "Houston County",
+  "primaryCrops": [
+    "peanuts",
+    "cotton",
+    "corn"
+  ],
+  "constraints": [
+    "sandy soils",
+    "tight planting windows",
+    "application timing"
+  ],
+  "angle": "crop-evolution",
+  "module": {
+    "heading": "How Houston County Agriculture Has Evolved",
+    "intro": "The agricultural landscape of Houston County reflects generations of adaptation, where producers have refined their approach to growing peanuts and cotton. What began as subsistence farming evolved into commercial operations that now feed global markets. Understanding this history helps explain why modern precision approaches resonate so strongly with local growers who value both tradition and progress.",
+    "bullets": [
+      "Historically, farms in this area have relied on peanuts as a primary cash crop, with rotations including cotton",
+      "Local producers have adapted planting practices over decades to work with regional growing conditions",
+      "Modern operations commonly combine traditional knowledge with data-driven decision tools"
+    ],
+    "bridge": "This agricultural heritage directly influences today's precision farming decisions, as modern growers build on proven local practices while integrating new technology. The experience accumulated over decades of peanuts production provides a foundation that precision tools can enhance—not replace. Farmers here know their land; technology helps them act on that knowledge more precisely.",
+    "todayTieIn": "For peanuts operations dealing with sandy soils, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Houston County farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Peanuts Production Solutions",
+        "href": "/crops/peanuts"
+      },
+      {
+        "type": "service",
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension System",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Auburn University Agriculture",
+        "url": "https://agriculture.auburn.edu/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Houston County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Houston County?",
+      "answer": "Yes, we provide professional installation services throughout Houston County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Houston County?",
+      "answer": "Vantage South operates RTK correction networks covering Houston County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Houston County farmers?",
+      "answer": "Houston County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for peanuts operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:41:01.288Z"
+}

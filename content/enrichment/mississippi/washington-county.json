@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "MS",
+  "placeName": "Washington County",
+  "primaryCrops": [
+    "cotton",
+    "corn",
+    "soybeans",
+    "rice"
+  ],
+  "constraints": [
+    "Delta clay soils",
+    "drainage",
+    "irrigation scheduling"
+  ],
+  "angle": "soils-water",
+  "module": {
+    "heading": "Understanding Washington County's Soil and Water Challenges",
+    "intro": "The heavy clay conditions across Washington County present both challenges and opportunities for cotton and corn growers. Situated within the Mississippi River Alluvial Plain, farms here must balance moisture management with nutrient retention, a balance that shifts with each growing season. This complexity makes site-specific management not just beneficial but essential for sustainable profitability.",
+    "bullets": [
+      "Water management remains critical for both irrigation scheduling and drainage control",
+      "Soil variability within fields often exceeds variability between farms",
+      "Precision soil sensing enables variable-rate applications matched to field conditions"
+    ],
+    "bridge": "Addressing Delta clay soils through precision tools allows growers to work with their land's natural variability rather than against it. Zone-based management, informed by soil sampling and yield data, enables producers to treat different parts of their fields according to their actual potential. This approach both improves results and reduces the cost of inputs that would otherwise be wasted.",
+    "todayTieIn": "Modern precision systems help cotton growers tackle Delta clay soils by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State University Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "MSU Delta Research and Extension Center",
+        "url": "https://www.drec.msstate.edu/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Washington County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Washington County?",
+      "answer": "Yes, we provide professional installation services throughout Washington County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Washington County?",
+      "answer": "Vantage South operates RTK correction networks covering Washington County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Washington County farmers?",
+      "answer": "Washington County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:41:01.293Z"
+}

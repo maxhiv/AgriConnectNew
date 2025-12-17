@@ -1,0 +1,76 @@
+{
+  "placeType": "county",
+  "state": "AL",
+  "placeName": "Geneva County",
+  "primaryCrops": [
+    "peanuts",
+    "cotton",
+    "soybeans"
+  ],
+  "constraints": [
+    "moisture management",
+    "pest pressure",
+    "harvest timing"
+  ],
+  "angle": "soils-water",
+  "module": {
+    "heading": "Understanding Geneva County's Soil and Water Challenges",
+    "intro": "Managing soil variability and water resources has long shaped how farmers in Geneva County approach peanuts and cotton production. The sandy loam to clay conditions found across this region create distinct management zones within individual fields, where uniform applications often leave yield potential unrealized. Successful growers here have learned that treating each acre differently is key to consistent results.",
+    "bullets": [
+      "Sandy loam to clay soils require careful management of inputs across fields",
+      "The Pea River Basin influences drainage patterns and irrigation decisions",
+      "Soil sampling and zone mapping help identify areas needing targeted treatment"
+    ],
+    "bridge": "These soil and water characteristics make precision management particularly valuable, as one-size-fits-all approaches often underperform in variable conditions. When fields contain multiple soil types with different yield potentials, applying uniform rates means either under-applying where it's needed or wasting inputs where they can't be used effectively. Precision tools solve this by matching applications to actual field conditions.",
+    "todayTieIn": "Addressing moisture management in peanuts production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Peanuts Production Solutions",
+        "href": "/crops/peanuts"
+      },
+      {
+        "type": "service",
+        "label": "RTK Correction Services",
+        "href": "/services/rtk-correction-services"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension System",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Auburn University Agriculture",
+        "url": "https://agriculture.auburn.edu/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Geneva County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Geneva County?",
+      "answer": "Yes, we provide professional installation services throughout Geneva County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Geneva County?",
+      "answer": "Vantage South operates RTK correction networks covering Geneva County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Geneva County farmers?",
+      "answer": "Geneva County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for peanuts operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:41:01.291Z"
+}

@@ -1,0 +1,76 @@
+{
+  "placeType": "city",
+  "state": "MS",
+  "placeName": "Cleveland",
+  "countyName": "Bolivar County",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "corn"
+  ],
+  "constraints": [
+    "precision irrigation",
+    "variable rate needs"
+  ],
+  "angle": "crop-evolution",
+  "module": {
+    "heading": "How Cleveland Agriculture Has Evolved",
+    "intro": "The agricultural landscape of Cleveland reflects generations of adaptation, where producers have refined their approach to growing cotton and soybeans. What began as subsistence farming evolved into commercial operations that now feed global markets. Understanding this history helps explain why modern precision approaches resonate so strongly with local growers who value both tradition and progress.",
+    "bullets": [
+      "Historically, farms in this area have relied on cotton as a primary cash crop, with rotations including soybeans",
+      "Local producers have adapted planting practices over decades to work with regional growing conditions",
+      "Modern operations commonly combine traditional knowledge with data-driven decision tools"
+    ],
+    "bridge": "Understanding how farming has evolved in Cleveland helps explain why certain precision approaches resonate with local producers. The transition from conventional to precision methods isn't about abandoning what works—it's about doing the same things more accurately and efficiently. Local growers recognize that guidance systems and variable-rate equipment are natural extensions of practices they've always valued.",
+    "todayTieIn": "For cotton operations dealing with precision irrigation, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Cleveland farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Training & Support",
+        "href": "/services/training-support"
+      },
+      {
+        "type": "category",
+        "label": "Guidance Displays",
+        "href": "/products?category=guidance-displays"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State University Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "MSU Delta Research and Extension Center",
+        "url": "https://www.drec.msstate.edu/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Cleveland Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Cleveland?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Cleveland. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Cleveland, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:41:01.296Z"
+}

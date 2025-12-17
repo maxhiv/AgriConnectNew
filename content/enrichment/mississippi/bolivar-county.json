@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "MS",
+  "placeName": "Bolivar County",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "corn",
+    "rice"
+  ],
+  "constraints": [
+    "flood management",
+    "variable yields",
+    "input costs"
+  ],
+  "angle": "resilience-weather",
+  "module": {
+    "heading": "Weather Resilience in Bolivar County Farming",
+    "intro": "Weather variability in Bolivar County has driven farmers to adopt practices that protect cotton and soybeans yields across unpredictable seasons. From excessive spring moisture that delays planting to summer droughts that stress crops, producers here face challenges that demand both preparation and adaptability. Building operational resilience through better equipment and management practices helps farms weather whatever conditions each year brings.",
+    "bullets": [
+      "Variable rainfall patterns require flexible irrigation and drainage strategies",
+      "Timely planting windows demand reliable equipment and efficient field operations",
+      "Heat stress management influences variety selection and planting dates"
+    ],
+    "bridge": "Weather uncertainty reinforces the value of precision tools that help farmers make the most of favorable conditions and minimize losses during challenging periods. When planting windows shrink due to wet conditions, autosteer enables longer operating hours with less fatigue. When drought stresses crops, variable-rate applications ensure that limited resources go where they'll do the most good.",
+    "todayTieIn": "For cotton operations dealing with flood management, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Bolivar County farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "RTK Correction Services",
+        "href": "/services/rtk-correction-services"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State University Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "MSU Delta Research and Extension Center",
+        "url": "https://www.drec.msstate.edu/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Bolivar County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Bolivar County?",
+      "answer": "Yes, we provide professional installation services throughout Bolivar County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Bolivar County?",
+      "answer": "Vantage South operates RTK correction networks covering Bolivar County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Bolivar County farmers?",
+      "answer": "Bolivar County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:41:01.295Z"
+}
