@@ -2,6 +2,7 @@ import { useParams, Link, useLocation } from "wouter";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import { FieldDemoCTA } from "@/components/FieldDemoCTA";
+import LocalAgContext from "@/components/LocalAgContext";
 import { useSEO, generateServiceSchema, generateBreadcrumbSchema, generateLocalBusinessSchema, JsonLd } from "@/lib/seo";
 import targetLocations from "@shared/targetLocations.json";
 import { MapPin, ChevronRight, CheckCircle2, AlertTriangle, Tractor, Compass, Wrench, HeadphonesIcon } from "lucide-react";
@@ -384,6 +385,16 @@ export default function LocationPage() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+        </section>
+
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <LocalAgContext 
+              state={stateSlug} 
+              slug={locationSlug || ''} 
+              className="mb-8"
+            />
           </div>
         </section>
 
