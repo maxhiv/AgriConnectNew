@@ -1,8 +1,7 @@
 // Product image data exported from development database
 // This data is merged during the product sync to ensure images are preserved
 
-import fs from 'fs';
-import path from 'path';
+import productImagesData from '../product_images_export.json';
 
 interface ProductImageData {
   primaryImage?: string;
@@ -12,25 +11,12 @@ interface ProductImageData {
   images?: string[];
 }
 
-let productImagesCache: Record<string, ProductImageData> | null = null;
+const productImagesCache: Record<string, ProductImageData> = productImagesData as Record<string, ProductImageData>;
 
 export function getProductImages(): Record<string, ProductImageData> {
-  if (productImagesCache) {
-    return productImagesCache;
-  }
-  
-  try {
-    const filePath = path.join(process.cwd(), 'product_images_export.json');
-    const data = fs.readFileSync(filePath, 'utf-8');
-    productImagesCache = JSON.parse(data);
-    return productImagesCache || {};
-  } catch (error) {
-    console.error('Error loading product images:', error);
-    return {};
-  }
+  return productImagesCache;
 }
 
 export function getProductImageData(slug: string): ProductImageData | undefined {
-  const images = getProductImages();
-  return images[slug];
+  return productImagesCache[slug];
 }
