@@ -66,6 +66,18 @@ Design style: Clean professional design with square corners, white background, g
 - **FieldDemo.tsx**: Field demo scheduling form with validation
 - **FieldDemoCTA.tsx**: CTA component injected on location pages
 
+### Local SEO Enrichment System
+- **Content Directory**: `content/enrichment/{state}/{location}.json` - Localized agricultural history content
+- **Generator Script**: `scripts/generateEnrichment.ts` - Creates enrichment content from seed templates
+- **Validator Script**: `scripts/validateEnrichment.ts` - Checks 200+ word count, uniqueness, place mentions
+- **Seed File**: `content/enrichment/seed.json` - Location metadata (crops, soils, constraints, citations)
+- **Types**: `shared/enrichmentTypes.ts` - TypeScript interfaces for enrichment data
+- **Backend Service**: `server/enrichmentService.ts` - Loads and serves enrichment content
+- **API Endpoint**: `/api/enrichment/:state/:slug` - Returns enrichment JSON for location
+- **React Component**: `client/src/components/LocalAgContext.tsx` - Displays enrichment with FAQ, citations, CTA
+
+Content angles include: crop-evolution, soils-water, infrastructure, technology-adoption, resilience-weather, economics-operations
+
 ## Product Catalog
 - 79 products from productData.ts with categories
 - Product enrichment system: 55/79 products have manufacturer images and descriptions
@@ -125,3 +137,5 @@ Design style: Clean professional design with square corners, white background, g
 - December 2024: Created unified LocationPage component handling county and city routes
 - December 2024: Added FieldDemoCTA components with multiple variants (compact, default, full)
 - December 2024: Enriched 55/79 products with manufacturer images and descriptions
+- December 2024: Created Local SEO Enrichment system with generator, validator, API endpoint, and React component
+- December 2024: Generated 8 enrichment files for Alabama and Mississippi locations
