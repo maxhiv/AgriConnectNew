@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Andalusia",
+  "countyName": "Covington",
+  "primaryCrops": [
+    "peanuts",
+    "cotton",
+    "corn"
+  ],
+  "constraints": [
+    "soil variability",
+    "disease pressure management",
+    "harvest timing"
+  ],
+  "angle": "economics-operations",
+  "module": {
+    "heading": "Farm Economics and Operations in Andalusia",
+    "intro": "Operational efficiency drives decision-making for Andalusia farms focused on peanuts and cotton production. Labor constraints, equipment costs, and market volatility all factor into how operations plan their seasons. Precision tools that reduce overlap, optimize inputs, and improve timeliness directly address these challenges by putting more control in the farmer's hands.",
+    "bullets": [
+      "Input costs for seed, fertilizer, and chemicals represent major expense categories",
+      "Reducing overlap and optimizing rates directly impacts per-acre profitability",
+      "Labor efficiency gains from automation help address workforce constraints"
+    ],
+    "bridge": "These economic pressures make precision agriculture tools particularly relevant, as documenting input savings and yield improvements directly affects the bottom line. When margins are tight, eliminating overlap on a single pass can save more than the cost of the guidance system that enables it. Precision isn't just about technology—it's about treating farming as a business where every input dollar should generate returns.",
+    "todayTieIn": "Addressing soil variability in peanuts production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Peanuts Production Solutions",
+        "href": "/crops/peanuts"
+      },
+      {
+        "type": "service",
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Andalusia Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Andalusia?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Andalusia. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for peanuts in this area?",
+      "answer": "For peanuts production near Andalusia, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.266Z"
+}

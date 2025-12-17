@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "FL",
+  "placeName": "Chipley",
+  "countyName": "Washington",
+  "primaryCrops": [
+    "peanuts",
+    "cotton",
+    "soybeans"
+  ],
+  "constraints": [
+    "soil variability",
+    "disease pressure management",
+    "harvest timing"
+  ],
+  "angle": "economics-operations",
+  "module": {
+    "heading": "Farm Economics and Operations in Chipley",
+    "intro": "Farm economics in Chipley center on maximizing returns from peanuts and cotton while managing rising input costs. With seed, fertilizer, and chemical expenses climbing, every bushel or pound of yield matters more than ever. Growers here increasingly rely on data-driven decisions to allocate resources where they generate the best returns, treating precision technology as an investment in long-term profitability.",
+    "bullets": [
+      "Input costs for seed, fertilizer, and chemicals represent major expense categories",
+      "Reducing overlap and optimizing rates directly impacts per-acre profitability",
+      "Labor efficiency gains from automation help address workforce constraints"
+    ],
+    "bridge": "Managing soil variability effectively through precision approaches can shift narrow margins toward sustainable profitability. The data captured by modern equipment supports better decisions, from where to apply more fertilizer to where reducing rates won't hurt yields. Over time, this information builds a picture of each field's true potential and how to achieve it efficiently.",
+    "todayTieIn": "Modern precision systems help peanuts growers tackle soil variability by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Peanuts Production Solutions",
+        "href": "/crops/peanuts"
+      },
+      {
+        "type": "service",
+        "label": "Training & Support",
+        "href": "/services/training-support"
+      },
+      {
+        "type": "category",
+        "label": "Guidance Displays",
+        "href": "/products?category=guidance-displays"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UF/IFAS Extension",
+        "url": "https://ifas.ufl.edu/"
+      },
+      {
+        "label": "Florida Farm Bureau",
+        "url": "https://floridafarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Chipley Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Chipley?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Chipley. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for peanuts in this area?",
+      "answer": "For peanuts production near Chipley, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.292Z"
+}

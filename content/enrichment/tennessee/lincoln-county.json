@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "TN",
+  "placeName": "Lincoln County",
+  "countyName": "Lincoln",
+  "primaryCrops": [
+    "corn",
+    "soybeans",
+    "wheat"
+  ],
+  "constraints": [
+    "planting window management",
+    "nitrogen efficiency",
+    "moisture variability"
+  ],
+  "angle": "infrastructure",
+  "module": {
+    "heading": "Agricultural Infrastructure in Lincoln County",
+    "intro": "Transportation networks and agricultural services in Lincoln County support a robust corn and soybeans production system that connects local farms to broader markets. From grain elevators to input suppliers, the infrastructure surrounding agriculture here reflects decades of investment in the region's farming future. Modern additions to this infrastructure include RTK signal networks and data connectivity that enable precision farming at scale.",
+    "bullets": [
+      "Agricultural service infrastructure has grown alongside farm technology needs",
+      "GPS and cellular coverage enables real-time data transfer from field equipment",
+      "Access to RTK correction networks provides centimeter-level guidance accuracy"
+    ],
+    "bridge": "Strong local infrastructure enables farmers to focus on production while relying on nearby support for equipment, inputs, and technology services. When a guidance system needs calibration or a planter upgrade requires fine-tuning, having accessible expertise matters. Vantage South's presence in the region means local growers have a partner who understands their equipment, their crops, and their specific challenges.",
+    "todayTieIn": "For corn operations dealing with planting window management, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Lincoln County farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Corn Production Solutions",
+        "href": "/crops/corn"
+      },
+      {
+        "type": "service",
+        "label": "RTK Correction Services",
+        "href": "/services/rtk-correction-services"
+      },
+      {
+        "type": "category",
+        "label": "Application Control",
+        "href": "/products?category=application-control"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UT Extension",
+        "url": "https://extension.tennessee.edu/"
+      },
+      {
+        "label": "Tennessee Farm Bureau",
+        "url": "https://tnfarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Lincoln County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Lincoln County?",
+      "answer": "Yes, we provide professional installation services throughout Lincoln County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Lincoln County?",
+      "answer": "Vantage South operates RTK correction networks covering Lincoln County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Lincoln County farmers?",
+      "answer": "Lincoln County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for corn operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.294Z"
+}

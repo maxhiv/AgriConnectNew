@@ -2,52 +2,53 @@
   "placeType": "county",
   "state": "AL",
   "placeName": "Houston County",
+  "countyName": "Houston",
   "primaryCrops": [
-    "peanuts",
     "cotton",
+    "peanuts",
     "corn"
   ],
   "constraints": [
-    "sandy soils",
-    "tight planting windows",
-    "application timing"
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
   ],
   "angle": "crop-evolution",
   "module": {
     "heading": "How Houston County Agriculture Has Evolved",
-    "intro": "The agricultural landscape of Houston County reflects generations of adaptation, where producers have refined their approach to growing peanuts and cotton. What began as subsistence farming evolved into commercial operations that now feed global markets. Understanding this history helps explain why modern precision approaches resonate so strongly with local growers who value both tradition and progress.",
+    "intro": "The agricultural landscape of Houston County reflects generations of adaptation, where producers have refined their approach to growing cotton and peanuts. What began as subsistence farming evolved into commercial operations that now feed global markets. Understanding this history helps explain why modern precision approaches resonate so strongly with local growers who value both tradition and progress.",
     "bullets": [
-      "Historically, farms in this area have relied on peanuts as a primary cash crop, with rotations including cotton",
-      "Local producers have adapted planting practices over decades to work with regional growing conditions",
-      "Modern operations commonly combine traditional knowledge with data-driven decision tools"
+      "The shift toward cotton intensification has driven demand for more precise planting and application",
+      "Crop rotations between cotton and peanuts remain common for soil health management",
+      "Yields have improved as growers adopt variety-specific management practices"
     ],
-    "bridge": "This agricultural heritage directly influences today's precision farming decisions, as modern growers build on proven local practices while integrating new technology. The experience accumulated over decades of peanuts production provides a foundation that precision tools can enhance—not replace. Farmers here know their land; technology helps them act on that knowledge more precisely.",
-    "todayTieIn": "For peanuts operations dealing with sandy soils, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Houston County farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "bridge": "Understanding how farming has evolved in Houston County helps explain why certain precision approaches resonate with local producers. The transition from conventional to precision methods isn't about abandoning what works—it's about doing the same things more accurately and efficiently. Local growers recognize that guidance systems and variable-rate equipment are natural extensions of practices they've always valued.",
+    "todayTieIn": "Addressing variable soil conditions in cotton production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
     "recommendedSolutions": [
       {
         "type": "crop",
-        "label": "Peanuts Production Solutions",
-        "href": "/crops/peanuts"
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
       },
       {
         "type": "service",
-        "label": "Planter Technology Upgrades",
-        "href": "/services/planter-technology"
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
       },
       {
         "type": "category",
-        "label": "Planting Technology",
-        "href": "/products?category=planting"
+        "label": "Guidance Displays",
+        "href": "/products?category=guidance-displays"
       }
     ],
     "citations": [
       {
-        "label": "Alabama Cooperative Extension System",
+        "label": "Alabama Cooperative Extension",
         "url": "https://www.aces.edu/"
       },
       {
-        "label": "Auburn University Agriculture",
-        "url": "https://agriculture.auburn.edu/"
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
       }
     ],
     "cta": {
@@ -68,9 +69,9 @@
     },
     {
       "question": "Which products are most popular with Houston County farmers?",
-      "answer": "Houston County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for peanuts operations."
+      "answer": "Houston County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
     }
   ],
   "version": "1.0.0",
-  "lastUpdated": "2025-12-17T14:41:01.288Z"
+  "lastUpdated": "2025-12-17T14:53:00.254Z"
 }

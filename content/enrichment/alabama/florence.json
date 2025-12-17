@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Florence",
+  "countyName": "Lauderdale",
+  "primaryCrops": [
+    "cotton",
+    "corn",
+    "soybeans"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "crop-evolution",
+  "module": {
+    "heading": "How Florence Agriculture Has Evolved",
+    "intro": "Farming in Florence has deep roots in the region's agricultural heritage, with cotton and corn remaining central to local operations. For generations, families across this part of Alabama have built their livelihoods around these crops, developing practices refined through seasons of trial and adaptation. Today's operations carry forward that legacy while embracing new tools that help maximize every acre's potential.",
+    "bullets": [
+      "The shift toward cotton intensification has driven demand for more precise planting and application",
+      "Crop rotations between cotton and corn remain common for soil health management",
+      "Yields have improved as growers adopt variety-specific management practices"
+    ],
+    "bridge": "This agricultural heritage directly influences today's precision farming decisions, as modern growers build on proven local practices while integrating new technology. The experience accumulated over decades of cotton production provides a foundation that precision tools can enhance—not replace. Farmers here know their land; technology helps them act on that knowledge more precisely.",
+    "todayTieIn": "For cotton operations dealing with variable soil conditions, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Florence farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Training & Support",
+        "href": "/services/training-support"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Florence Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Florence?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Florence. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Florence, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.276Z"
+}

@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "MS",
+  "placeName": "Marks",
+  "countyName": "Quitman",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "rice"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "soils-water",
+  "module": {
+    "heading": "Understanding Marks's Soil and Water Challenges",
+    "intro": "The diverse soil conditions across Marks present both challenges and opportunities for cotton and soybeans growers. Farms in this region must balance moisture management with nutrient retention, a balance that shifts with each growing season. This complexity makes site-specific management not just beneficial but essential for sustainable profitability.",
+    "bullets": [
+      "Water management remains critical for both irrigation scheduling and drainage control",
+      "Soil variability within fields often exceeds variability between farms",
+      "Precision soil sensing enables variable-rate applications matched to field conditions"
+    ],
+    "bridge": "These soil and water characteristics make precision management particularly valuable, as one-size-fits-all approaches often underperform in variable conditions. When fields contain multiple soil types with different yield potentials, applying uniform rates means either under-applying where it's needed or wasting inputs where they can't be used effectively. Precision tools solve this by matching applications to actual field conditions.",
+    "todayTieIn": "For cotton operations dealing with variable soil conditions, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Marks farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Training & Support",
+        "href": "/services/training-support"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Marks Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Marks?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Marks. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Marks, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.287Z"
+}

@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Fairhope",
+  "countyName": "Baldwin",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "corn"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "crop-evolution",
+  "module": {
+    "heading": "How Fairhope Agriculture Has Evolved",
+    "intro": "Farming in Fairhope has deep roots in the region's agricultural heritage, with cotton and soybeans remaining central to local operations. For generations, families across this part of Alabama have built their livelihoods around these crops, developing practices refined through seasons of trial and adaptation. Today's operations carry forward that legacy while embracing new tools that help maximize every acre's potential.",
+    "bullets": [
+      "Historically, farms in this area have relied on cotton as a primary cash crop, with rotations including soybeans",
+      "Local producers have adapted planting practices over decades to work with regional growing conditions",
+      "Modern operations commonly combine traditional knowledge with data-driven decision tools"
+    ],
+    "bridge": "Understanding how farming has evolved in Fairhope helps explain why certain precision approaches resonate with local producers. The transition from conventional to precision methods isn't about abandoning what works—it's about doing the same things more accurately and efficiently. Local growers recognize that guidance systems and variable-rate equipment are natural extensions of practices they've always valued.",
+    "todayTieIn": "Addressing variable soil conditions in cotton production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
+      },
+      {
+        "type": "category",
+        "label": "Application Control",
+        "href": "/products?category=application-control"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Fairhope Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Fairhope?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Fairhope. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Fairhope, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.270Z"
+}

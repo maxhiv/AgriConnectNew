@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "FL",
+  "placeName": "Calhoun County",
+  "countyName": "Calhoun",
+  "primaryCrops": [
+    "peanuts",
+    "cotton",
+    "soybeans"
+  ],
+  "constraints": [
+    "soil variability",
+    "disease pressure management",
+    "harvest timing"
+  ],
+  "angle": "crop-evolution",
+  "module": {
+    "heading": "How Calhoun County Agriculture Has Evolved",
+    "intro": "The agricultural landscape of Calhoun County reflects generations of adaptation, where producers have refined their approach to growing peanuts and cotton. What began as subsistence farming evolved into commercial operations that now feed global markets. Understanding this history helps explain why modern precision approaches resonate so strongly with local growers who value both tradition and progress.",
+    "bullets": [
+      "The shift toward peanuts intensification has driven demand for more precise planting and application",
+      "Crop rotations between peanuts and cotton remain common for soil health management",
+      "Yields have improved as growers adopt variety-specific management practices"
+    ],
+    "bridge": "Understanding how farming has evolved in Calhoun County helps explain why certain precision approaches resonate with local producers. The transition from conventional to precision methods isn't about abandoning what works—it's about doing the same things more accurately and efficiently. Local growers recognize that guidance systems and variable-rate equipment are natural extensions of practices they've always valued.",
+    "todayTieIn": "Addressing soil variability in peanuts production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Peanuts Production Solutions",
+        "href": "/crops/peanuts"
+      },
+      {
+        "type": "service",
+        "label": "Training & Support",
+        "href": "/services/training-support"
+      },
+      {
+        "type": "category",
+        "label": "Guidance Displays",
+        "href": "/products?category=guidance-displays"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UF/IFAS Extension",
+        "url": "https://ifas.ufl.edu/"
+      },
+      {
+        "label": "Florida Farm Bureau",
+        "url": "https://floridafarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Calhoun County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Calhoun County?",
+      "answer": "Yes, we provide professional installation services throughout Calhoun County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Calhoun County?",
+      "answer": "Vantage South operates RTK correction networks covering Calhoun County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Calhoun County farmers?",
+      "answer": "Calhoun County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for peanuts operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.290Z"
+}

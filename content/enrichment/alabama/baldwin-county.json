@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "AL",
+  "placeName": "Baldwin County",
+  "countyName": "Baldwin",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "corn"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "technology-adoption",
+  "module": {
+    "heading": "Precision Agriculture Adoption in Baldwin County",
+    "intro": "Technology adoption in Baldwin County reflects a practical approach to improving cotton and soybeans production efficiency. Local growers evaluate equipment and practices based on real-world performance, not marketing promises. This discerning approach has led to steady uptake of proven precision tools that deliver documented savings on inputs while maintaining or improving yields.",
+    "bullets": [
+      "Autosteer adoption has reduced operator fatigue during long planting and harvest days",
+      "Section control on planters and sprayers minimizes overlap and saves inputs",
+      "Cloud-based data platforms enable better agronomic decision-making"
+    ],
+    "bridge": "The return on investment from precision tools becomes clearer as more local farms document their results. Guidance systems that eliminate skip and overlap, section control that cuts input waste, variable-rate seeding that optimizes populations—these tools deliver savings that compound season after season. The question shifts from whether precision pays to how quickly it can be implemented.",
+    "todayTieIn": "For cotton operations dealing with variable soil conditions, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Baldwin County farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Baldwin County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Baldwin County?",
+      "answer": "Yes, we provide professional installation services throughout Baldwin County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Baldwin County?",
+      "answer": "Vantage South operates RTK correction networks covering Baldwin County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Baldwin County farmers?",
+      "answer": "Baldwin County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.269Z"
+}

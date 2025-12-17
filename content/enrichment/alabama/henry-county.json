@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "AL",
+  "placeName": "Henry County",
+  "countyName": "Henry",
+  "primaryCrops": [
+    "cotton",
+    "peanuts",
+    "corn"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "infrastructure",
+  "module": {
+    "heading": "Agricultural Infrastructure in Henry County",
+    "intro": "Henry County's position within the regional agricultural economy has shaped how local farms handle cotton and peanuts production and distribution. Access to processing facilities, equipment dealers, and agricultural services enables operations to focus on what they do best—growing high-quality crops. This support network has expanded over the years to include precision agriculture specialists who help farmers implement the latest technology.",
+    "bullets": [
+      "Proximity to grain elevators and processing facilities supports efficient harvest logistics",
+      "Local equipment dealers and service providers enable rapid support during critical seasons",
+      "Transportation networks connect farms to regional and export markets"
+    ],
+    "bridge": "Strong local infrastructure enables farmers to focus on production while relying on nearby support for equipment, inputs, and technology services. When a guidance system needs calibration or a planter upgrade requires fine-tuning, having accessible expertise matters. Vantage South's presence in the region means local growers have a partner who understands their equipment, their crops, and their specific challenges.",
+    "todayTieIn": "Modern precision systems help cotton growers tackle variable soil conditions by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Henry County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Henry County?",
+      "answer": "Yes, we provide professional installation services throughout Henry County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Henry County?",
+      "answer": "Vantage South operates RTK correction networks covering Henry County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Henry County farmers?",
+      "answer": "Henry County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.261Z"
+}

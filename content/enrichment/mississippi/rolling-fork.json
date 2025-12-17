@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "MS",
+  "placeName": "Rolling Fork",
+  "countyName": "Sharkey",
+  "primaryCrops": [
+    "soybeans",
+    "cotton",
+    "corn"
+  ],
+  "constraints": [
+    "weed pressure",
+    "soil compaction",
+    "variable yield potential"
+  ],
+  "angle": "technology-adoption",
+  "module": {
+    "heading": "Precision Agriculture Adoption in Rolling Fork",
+    "intro": "Farmers across Rolling Fork have increasingly turned to precision technology to optimize soybeans and cotton yields and reduce input costs. What started with basic GPS guidance has evolved into integrated systems that control planting populations, fertilizer rates, and application timing—all based on field-specific data. This adoption reflects a practical approach to farming where measurable results justify every technology investment.",
+    "bullets": [
+      "Autosteer adoption has reduced operator fatigue during long planting and harvest days",
+      "Section control on planters and sprayers minimizes overlap and saves inputs",
+      "Cloud-based data platforms enable better agronomic decision-making"
+    ],
+    "bridge": "The return on investment from precision tools becomes clearer as more local farms document their results. Guidance systems that eliminate skip and overlap, section control that cuts input waste, variable-rate seeding that optimizes populations—these tools deliver savings that compound season after season. The question shifts from whether precision pays to how quickly it can be implemented.",
+    "todayTieIn": "For soybeans operations dealing with weed pressure, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Rolling Fork farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Soybeans Production Solutions",
+        "href": "/crops/soybeans"
+      },
+      {
+        "type": "service",
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Rolling Fork Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Rolling Fork?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Rolling Fork. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for soybeans in this area?",
+      "answer": "For soybeans production near Rolling Fork, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.285Z"
+}

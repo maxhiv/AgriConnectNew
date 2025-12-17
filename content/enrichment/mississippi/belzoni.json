@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "MS",
+  "placeName": "Belzoni",
+  "countyName": "Humphreys",
+  "primaryCrops": [
+    "soybeans",
+    "cotton",
+    "catfish"
+  ],
+  "constraints": [
+    "weed pressure",
+    "soil compaction",
+    "variable yield potential"
+  ],
+  "angle": "soils-water",
+  "module": {
+    "heading": "Understanding Belzoni's Soil and Water Challenges",
+    "intro": "Managing soil variability and water resources has long shaped how farmers in Belzoni approach soybeans and cotton production. The diverse soil conditions found across this region create distinct management zones within individual fields, where uniform applications often leave yield potential unrealized. Successful growers here have learned that treating each acre differently is key to consistent results.",
+    "bullets": [
+      "Variable soil conditions require careful management of inputs across fields",
+      "Regional watersheds influence drainage patterns and irrigation decisions",
+      "Soil sampling and zone mapping help identify areas needing targeted treatment"
+    ],
+    "bridge": "These soil and water characteristics make precision management particularly valuable, as one-size-fits-all approaches often underperform in variable conditions. When fields contain multiple soil types with different yield potentials, applying uniform rates means either under-applying where it's needed or wasting inputs where they can't be used effectively. Precision tools solve this by matching applications to actual field conditions.",
+    "todayTieIn": "For soybeans operations dealing with weed pressure, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Belzoni farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Soybeans Production Solutions",
+        "href": "/crops/soybeans"
+      },
+      {
+        "type": "service",
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Belzoni Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Belzoni?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Belzoni. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for soybeans in this area?",
+      "answer": "For soybeans production near Belzoni, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.284Z"
+}

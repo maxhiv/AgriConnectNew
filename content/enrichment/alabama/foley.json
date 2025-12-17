@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Foley",
+  "countyName": "Baldwin",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "corn"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "economics-operations",
+  "module": {
+    "heading": "Farm Economics and Operations in Foley",
+    "intro": "Farm economics in Foley center on maximizing returns from cotton and soybeans while managing rising input costs. With seed, fertilizer, and chemical expenses climbing, every bushel or pound of yield matters more than ever. Growers here increasingly rely on data-driven decisions to allocate resources where they generate the best returns, treating precision technology as an investment in long-term profitability.",
+    "bullets": [
+      "Input costs for seed, fertilizer, and chemicals represent major expense categories",
+      "Reducing overlap and optimizing rates directly impacts per-acre profitability",
+      "Labor efficiency gains from automation help address workforce constraints"
+    ],
+    "bridge": "Managing variable soil conditions effectively through precision approaches can shift narrow margins toward sustainable profitability. The data captured by modern equipment supports better decisions, from where to apply more fertilizer to where reducing rates won't hurt yields. Over time, this information builds a picture of each field's true potential and how to achieve it efficiently.",
+    "todayTieIn": "Modern precision systems help cotton growers tackle variable soil conditions by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "RTK Correction Services",
+        "href": "/services/rtk-correction-services"
+      },
+      {
+        "type": "category",
+        "label": "Application Control",
+        "href": "/products?category=application-control"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Foley Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Foley?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Foley. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Foley, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.270Z"
+}

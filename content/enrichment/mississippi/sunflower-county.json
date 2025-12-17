@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "MS",
+  "placeName": "Sunflower County",
+  "countyName": "Sunflower",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "corn"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "economics-operations",
+  "module": {
+    "heading": "Farm Economics and Operations in Sunflower County",
+    "intro": "Farm economics in Sunflower County center on maximizing returns from cotton and soybeans while managing rising input costs. With seed, fertilizer, and chemical expenses climbing, every bushel or pound of yield matters more than ever. Growers here increasingly rely on data-driven decisions to allocate resources where they generate the best returns, treating precision technology as an investment in long-term profitability.",
+    "bullets": [
+      "Input costs for seed, fertilizer, and chemicals represent major expense categories",
+      "Reducing overlap and optimizing rates directly impacts per-acre profitability",
+      "Labor efficiency gains from automation help address workforce constraints"
+    ],
+    "bridge": "Managing variable soil conditions effectively through precision approaches can shift narrow margins toward sustainable profitability. The data captured by modern equipment supports better decisions, from where to apply more fertilizer to where reducing rates won't hurt yields. Over time, this information builds a picture of each field's true potential and how to achieve it efficiently.",
+    "todayTieIn": "For cotton operations dealing with variable soil conditions, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Sunflower County farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Sunflower County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Sunflower County?",
+      "answer": "Yes, we provide professional installation services throughout Sunflower County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Sunflower County?",
+      "answer": "Vantage South operates RTK correction networks covering Sunflower County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Sunflower County farmers?",
+      "answer": "Sunflower County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.280Z"
+}

@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "FL",
+  "placeName": "Jackson County",
+  "countyName": "Jackson",
+  "primaryCrops": [
+    "peanuts",
+    "cotton",
+    "corn"
+  ],
+  "constraints": [
+    "soil variability",
+    "disease pressure management",
+    "harvest timing"
+  ],
+  "angle": "resilience-weather",
+  "module": {
+    "heading": "Weather Resilience in Jackson County Farming",
+    "intro": "Weather variability in Jackson County has driven farmers to adopt practices that protect peanuts and cotton yields across unpredictable seasons. From excessive spring moisture that delays planting to summer droughts that stress crops, producers here face challenges that demand both preparation and adaptability. Building operational resilience through better equipment and management practices helps farms weather whatever conditions each year brings.",
+    "bullets": [
+      "Variable rainfall patterns require flexible irrigation and drainage strategies",
+      "Timely planting windows demand reliable equipment and efficient field operations",
+      "Heat stress management influences variety selection and planting dates"
+    ],
+    "bridge": "Weather uncertainty reinforces the value of precision tools that help farmers make the most of favorable conditions and minimize losses during challenging periods. When planting windows shrink due to wet conditions, autosteer enables longer operating hours with less fatigue. When drought stresses crops, variable-rate applications ensure that limited resources go where they'll do the most good.",
+    "todayTieIn": "Addressing soil variability in peanuts production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Peanuts Production Solutions",
+        "href": "/crops/peanuts"
+      },
+      {
+        "type": "service",
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UF/IFAS Extension",
+        "url": "https://ifas.ufl.edu/"
+      },
+      {
+        "label": "Florida Farm Bureau",
+        "url": "https://floridafarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Jackson County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Jackson County?",
+      "answer": "Yes, we provide professional installation services throughout Jackson County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Jackson County?",
+      "answer": "Vantage South operates RTK correction networks covering Jackson County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Jackson County farmers?",
+      "answer": "Jackson County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for peanuts operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.288Z"
+}

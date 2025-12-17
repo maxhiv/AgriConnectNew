@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "TN",
+  "placeName": "Maury County",
+  "countyName": "Maury",
+  "primaryCrops": [
+    "corn",
+    "soybeans",
+    "wheat"
+  ],
+  "constraints": [
+    "planting window management",
+    "nitrogen efficiency",
+    "moisture variability"
+  ],
+  "angle": "crop-evolution",
+  "module": {
+    "heading": "How Maury County Agriculture Has Evolved",
+    "intro": "Farming in Maury County has deep roots in the region's agricultural heritage, with corn and soybeans remaining central to local operations. For generations, families across this part of Tennessee have built their livelihoods around these crops, developing practices refined through seasons of trial and adaptation. Today's operations carry forward that legacy while embracing new tools that help maximize every acre's potential.",
+    "bullets": [
+      "The shift toward corn intensification has driven demand for more precise planting and application",
+      "Crop rotations between corn and soybeans remain common for soil health management",
+      "Yields have improved as growers adopt variety-specific management practices"
+    ],
+    "bridge": "This agricultural heritage directly influences today's precision farming decisions, as modern growers build on proven local practices while integrating new technology. The experience accumulated over decades of corn production provides a foundation that precision tools can enhance—not replace. Farmers here know their land; technology helps them act on that knowledge more precisely.",
+    "todayTieIn": "For corn operations dealing with planting window management, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Maury County farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Corn Production Solutions",
+        "href": "/crops/corn"
+      },
+      {
+        "type": "service",
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UT Extension",
+        "url": "https://extension.tennessee.edu/"
+      },
+      {
+        "label": "Tennessee Farm Bureau",
+        "url": "https://tnfarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Maury County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Maury County?",
+      "answer": "Yes, we provide professional installation services throughout Maury County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Maury County?",
+      "answer": "Vantage South operates RTK correction networks covering Maury County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Maury County farmers?",
+      "answer": "Maury County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for corn operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.295Z"
+}

@@ -2,52 +2,53 @@
   "placeType": "city",
   "state": "AL",
   "placeName": "Dothan",
-  "countyName": "Houston County",
+  "countyName": "Houston",
   "primaryCrops": [
+    "cotton",
     "peanuts",
-    "cotton"
+    "corn"
   ],
   "constraints": [
-    "timely planting",
-    "efficient spraying",
-    "variable soils"
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
   ],
-  "angle": "infrastructure",
+  "angle": "soils-water",
   "module": {
-    "heading": "Agricultural Infrastructure in Dothan",
-    "intro": "Transportation networks and agricultural services in Dothan support a robust peanuts and cotton production system that connects local farms to broader markets. From grain elevators to input suppliers, the infrastructure surrounding agriculture here reflects decades of investment in the region's farming future. Modern additions to this infrastructure include RTK signal networks and data connectivity that enable precision farming at scale.",
+    "heading": "Understanding Dothan's Soil and Water Challenges",
+    "intro": "Managing soil variability and water resources has long shaped how farmers in Dothan approach cotton and peanuts production. The diverse soil conditions found across this region create distinct management zones within individual fields, where uniform applications often leave yield potential unrealized. Successful growers here have learned that treating each acre differently is key to consistent results.",
     "bullets": [
-      "Agricultural service infrastructure has grown alongside farm technology needs",
-      "GPS and cellular coverage enables real-time data transfer from field equipment",
-      "Access to RTK correction networks provides centimeter-level guidance accuracy"
+      "Water management remains critical for both irrigation scheduling and drainage control",
+      "Soil variability within fields often exceeds variability between farms",
+      "Precision soil sensing enables variable-rate applications matched to field conditions"
     ],
-    "bridge": "Access to professional installation and ongoing support makes precision technology adoption more practical for operations of all sizes. Rather than figuring out complex systems alone, farmers can rely on trained technicians who ensure equipment works correctly from day one. This support extends through the season, with troubleshooting and adjustments available when needed most.",
-    "todayTieIn": "For peanuts operations dealing with timely planting, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Dothan farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "bridge": "Addressing variable soil conditions through precision tools allows growers to work with their land's natural variability rather than against it. Zone-based management, informed by soil sampling and yield data, enables producers to treat different parts of their fields according to their actual potential. This approach both improves results and reduces the cost of inputs that would otherwise be wasted.",
+    "todayTieIn": "For cotton operations dealing with variable soil conditions, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Dothan farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
     "recommendedSolutions": [
       {
         "type": "crop",
-        "label": "Peanuts Production Solutions",
-        "href": "/crops/peanuts"
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
       },
       {
         "type": "service",
-        "label": "Planter Technology Upgrades",
-        "href": "/services/planter-technology"
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
       },
       {
         "type": "category",
-        "label": "Steering Systems",
-        "href": "/products?category=steering-systems"
+        "label": "Application Control",
+        "href": "/products?category=application-control"
       }
     ],
     "citations": [
       {
-        "label": "Alabama Cooperative Extension System",
+        "label": "Alabama Cooperative Extension",
         "url": "https://www.aces.edu/"
       },
       {
-        "label": "Auburn University Agriculture",
-        "url": "https://agriculture.auburn.edu/"
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
       }
     ],
     "cta": {
@@ -63,8 +64,8 @@
       "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Dothan. Contact us to discuss your operation's needs."
     },
     {
-      "question": "What precision agriculture solutions work best for peanuts in this area?",
-      "answer": "For peanuts production near Dothan, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Dothan, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
     },
     {
       "question": "How do I get started with precision farming technology?",
@@ -72,5 +73,5 @@
     }
   ],
   "version": "1.0.0",
-  "lastUpdated": "2025-12-17T14:41:01.290Z"
+  "lastUpdated": "2025-12-17T14:53:00.256Z"
 }

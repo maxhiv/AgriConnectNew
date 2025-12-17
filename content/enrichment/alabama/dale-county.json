@@ -1,11 +1,11 @@
 {
-  "placeType": "city",
-  "state": "MS",
-  "placeName": "Greenville",
-  "countyName": "Washington",
+  "placeType": "county",
+  "state": "AL",
+  "placeName": "Dale County",
+  "countyName": "Dale",
   "primaryCrops": [
     "cotton",
-    "soybeans",
+    "peanuts",
     "corn"
   ],
   "constraints": [
@@ -15,8 +15,8 @@
   ],
   "angle": "infrastructure",
   "module": {
-    "heading": "Agricultural Infrastructure in Greenville",
-    "intro": "Transportation networks and agricultural services in Greenville support a robust cotton and soybeans production system that connects local farms to broader markets. From grain elevators to input suppliers, the infrastructure surrounding agriculture here reflects decades of investment in the region's farming future. Modern additions to this infrastructure include RTK signal networks and data connectivity that enable precision farming at scale.",
+    "heading": "Agricultural Infrastructure in Dale County",
+    "intro": "Dale County's position within the regional agricultural economy has shaped how local farms handle cotton and peanuts production and distribution. Access to processing facilities, equipment dealers, and agricultural services enables operations to focus on what they do best—growing high-quality crops. This support network has expanded over the years to include precision agriculture specialists who help farmers implement the latest technology.",
     "bullets": [
       "Proximity to grain elevators and processing facilities supports efficient harvest logistics",
       "Local equipment dealers and service providers enable rapid support during critical seasons",
@@ -32,8 +32,8 @@
       },
       {
         "type": "service",
-        "label": "Guidance & Steering Installation",
-        "href": "/services/guidance-steering-installation"
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
       },
       {
         "type": "category",
@@ -43,16 +43,16 @@
     ],
     "citations": [
       {
-        "label": "Mississippi State Extension",
-        "url": "https://extension.msstate.edu/"
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
       },
       {
-        "label": "Delta Council",
-        "url": "https://www.deltacouncil.org/"
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
       }
     ],
     "cta": {
-      "headline": "Ready to Explore Precision Solutions for Your Greenville Operation?",
+      "headline": "Ready to Explore Precision Solutions for Your Dale County Operation?",
       "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
       "href": "/schedule-field-demo",
       "buttonText": "Schedule a Demo"
@@ -60,18 +60,18 @@
   },
   "faq": [
     {
-      "question": "Do you service farms near Greenville?",
-      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Greenville. Contact us to discuss your operation's needs."
+      "question": "Do you offer installations across Dale County?",
+      "answer": "Yes, we provide professional installation services throughout Dale County, including guidance system setup, autosteer calibration, and planter technology upgrades."
     },
     {
-      "question": "What precision agriculture solutions work best for cotton in this area?",
-      "answer": "For cotton production near Greenville, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+      "question": "What RTK coverage is available in Dale County?",
+      "answer": "Vantage South operates RTK correction networks covering Dale County. We can verify signal strength at your location during a site visit or demonstration."
     },
     {
-      "question": "How do I get started with precision farming technology?",
-      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+      "question": "Which products are most popular with Dale County farmers?",
+      "answer": "Dale County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
     }
   ],
   "version": "1.0.0",
-  "lastUpdated": "2025-12-17T14:53:00.278Z"
+  "lastUpdated": "2025-12-17T14:53:00.265Z"
 }

@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "TN",
+  "placeName": "Franklin County",
+  "countyName": "Franklin",
+  "primaryCrops": [
+    "corn",
+    "soybeans",
+    "hay"
+  ],
+  "constraints": [
+    "planting window management",
+    "nitrogen efficiency",
+    "moisture variability"
+  ],
+  "angle": "economics-operations",
+  "module": {
+    "heading": "Farm Economics and Operations in Franklin County",
+    "intro": "Operational efficiency drives decision-making for Franklin County farms focused on corn and soybeans production. Labor constraints, equipment costs, and market volatility all factor into how operations plan their seasons. Precision tools that reduce overlap, optimize inputs, and improve timeliness directly address these challenges by putting more control in the farmer's hands.",
+    "bullets": [
+      "Input costs for seed, fertilizer, and chemicals represent major expense categories",
+      "Reducing overlap and optimizing rates directly impacts per-acre profitability",
+      "Labor efficiency gains from automation help address workforce constraints"
+    ],
+    "bridge": "Managing planting window management effectively through precision approaches can shift narrow margins toward sustainable profitability. The data captured by modern equipment supports better decisions, from where to apply more fertilizer to where reducing rates won't hurt yields. Over time, this information builds a picture of each field's true potential and how to achieve it efficiently.",
+    "todayTieIn": "Modern precision systems help corn growers tackle planting window management by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Corn Production Solutions",
+        "href": "/crops/corn"
+      },
+      {
+        "type": "service",
+        "label": "RTK Correction Services",
+        "href": "/services/rtk-correction-services"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UT Extension",
+        "url": "https://extension.tennessee.edu/"
+      },
+      {
+        "label": "Tennessee Farm Bureau",
+        "url": "https://tnfarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Franklin County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Franklin County?",
+      "answer": "Yes, we provide professional installation services throughout Franklin County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Franklin County?",
+      "answer": "Vantage South operates RTK correction networks covering Franklin County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Franklin County farmers?",
+      "answer": "Franklin County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for corn operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.298Z"
+}

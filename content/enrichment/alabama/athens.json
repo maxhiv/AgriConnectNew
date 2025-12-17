@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Athens",
+  "countyName": "Limestone",
+  "primaryCrops": [
+    "cotton",
+    "corn",
+    "soybeans"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "infrastructure",
+  "module": {
+    "heading": "Agricultural Infrastructure in Athens",
+    "intro": "Athens's position within the regional agricultural economy has shaped how local farms handle cotton and corn production and distribution. Access to processing facilities, equipment dealers, and agricultural services enables operations to focus on what they do best—growing high-quality crops. This support network has expanded over the years to include precision agriculture specialists who help farmers implement the latest technology.",
+    "bullets": [
+      "Proximity to grain elevators and processing facilities supports efficient harvest logistics",
+      "Local equipment dealers and service providers enable rapid support during critical seasons",
+      "Transportation networks connect farms to regional and export markets"
+    ],
+    "bridge": "Access to professional installation and ongoing support makes precision technology adoption more practical for operations of all sizes. Rather than figuring out complex systems alone, farmers can rely on trained technicians who ensure equipment works correctly from day one. This support extends through the season, with troubleshooting and adjustments available when needed most.",
+    "todayTieIn": "Modern precision systems help cotton growers tackle variable soil conditions by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Athens Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Athens?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Athens. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Athens, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.274Z"
+}

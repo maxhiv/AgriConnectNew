@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Rehobeth",
+  "countyName": "Houston",
+  "primaryCrops": [
+    "cotton",
+    "peanuts",
+    "corn"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "technology-adoption",
+  "module": {
+    "heading": "Precision Agriculture Adoption in Rehobeth",
+    "intro": "Technology adoption in Rehobeth reflects a practical approach to improving cotton and peanuts production efficiency. Local growers evaluate equipment and practices based on real-world performance, not marketing promises. This discerning approach has led to steady uptake of proven precision tools that deliver documented savings on inputs while maintaining or improving yields.",
+    "bullets": [
+      "Autosteer adoption has reduced operator fatigue during long planting and harvest days",
+      "Section control on planters and sprayers minimizes overlap and saves inputs",
+      "Cloud-based data platforms enable better agronomic decision-making"
+    ],
+    "bridge": "Early adopters in the area have demonstrated measurable benefits, encouraging neighboring operations to explore similar precision approaches. When farmers see actual yield maps and input savings from operations they know and trust, the decision to invest becomes easier. Word-of-mouth recommendations carry weight in agricultural communities where reputation matters and results speak louder than advertising.",
+    "todayTieIn": "Modern precision systems help cotton growers tackle variable soil conditions by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Rehobeth Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Rehobeth?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Rehobeth. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Rehobeth, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.257Z"
+}

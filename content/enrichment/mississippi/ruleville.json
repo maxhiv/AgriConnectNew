@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "MS",
+  "placeName": "Ruleville",
+  "countyName": "Sunflower",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "corn"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "soils-water",
+  "module": {
+    "heading": "Understanding Ruleville's Soil and Water Challenges",
+    "intro": "The diverse soil conditions across Ruleville present both challenges and opportunities for cotton and soybeans growers. Farms in this region must balance moisture management with nutrient retention, a balance that shifts with each growing season. This complexity makes site-specific management not just beneficial but essential for sustainable profitability.",
+    "bullets": [
+      "Water management remains critical for both irrigation scheduling and drainage control",
+      "Soil variability within fields often exceeds variability between farms",
+      "Precision soil sensing enables variable-rate applications matched to field conditions"
+    ],
+    "bridge": "Addressing variable soil conditions through precision tools allows growers to work with their land's natural variability rather than against it. Zone-based management, informed by soil sampling and yield data, enables producers to treat different parts of their fields according to their actual potential. This approach both improves results and reduces the cost of inputs that would otherwise be wasted.",
+    "todayTieIn": "For cotton operations dealing with variable soil conditions, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Ruleville farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Ruleville Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Ruleville?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Ruleville. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Ruleville, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.281Z"
+}

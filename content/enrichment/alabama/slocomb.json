@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Slocomb",
+  "countyName": "Geneva",
+  "primaryCrops": [
+    "peanuts",
+    "cotton",
+    "soybeans"
+  ],
+  "constraints": [
+    "soil variability",
+    "disease pressure management",
+    "harvest timing"
+  ],
+  "angle": "soils-water",
+  "module": {
+    "heading": "Understanding Slocomb's Soil and Water Challenges",
+    "intro": "The diverse soil conditions across Slocomb present both challenges and opportunities for peanuts and cotton growers. Farms in this region must balance moisture management with nutrient retention, a balance that shifts with each growing season. This complexity makes site-specific management not just beneficial but essential for sustainable profitability.",
+    "bullets": [
+      "Water management remains critical for both irrigation scheduling and drainage control",
+      "Soil variability within fields often exceeds variability between farms",
+      "Precision soil sensing enables variable-rate applications matched to field conditions"
+    ],
+    "bridge": "These soil and water characteristics make precision management particularly valuable, as one-size-fits-all approaches often underperform in variable conditions. When fields contain multiple soil types with different yield potentials, applying uniform rates means either under-applying where it's needed or wasting inputs where they can't be used effectively. Precision tools solve this by matching applications to actual field conditions.",
+    "todayTieIn": "Modern precision systems help peanuts growers tackle soil variability by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Peanuts Production Solutions",
+        "href": "/crops/peanuts"
+      },
+      {
+        "type": "service",
+        "label": "Training & Support",
+        "href": "/services/training-support"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Slocomb Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Slocomb?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Slocomb. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for peanuts in this area?",
+      "answer": "For peanuts production near Slocomb, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.260Z"
+}

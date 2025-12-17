@@ -12,7 +12,7 @@ import type {
   SeedFile
 } from '../shared/enrichmentTypes';
 
-const seedPath = path.join(process.cwd(), 'content/locations.seed.json');
+const targetLocationsPath = path.join(process.cwd(), 'shared/targetLocations.json');
 const outputBase = path.join(process.cwd(), 'content/enrichment');
 
 const stateNames: Record<StateCode, string> = {
@@ -20,6 +20,51 @@ const stateNames: Record<StateCode, string> = {
   MS: 'Mississippi',
   FL: 'Florida',
   TN: 'Tennessee'
+};
+
+const stateIdToCode: Record<string, StateCode> = {
+  'alabama': 'AL',
+  'mississippi': 'MS',
+  'florida': 'FL',
+  'tennessee': 'TN'
+};
+
+const contentAngles: ContentAngle[] = [
+  'crop-evolution',
+  'soils-water',
+  'infrastructure',
+  'technology-adoption',
+  'resilience-weather',
+  'economics-operations'
+];
+
+const defaultConstraints: Record<string, string[]> = {
+  'cotton': ['variable soil conditions', 'input cost management', 'seasonal labor constraints'],
+  'peanuts': ['soil variability', 'disease pressure management', 'harvest timing'],
+  'corn': ['planting window management', 'nitrogen efficiency', 'moisture variability'],
+  'soybeans': ['weed pressure', 'soil compaction', 'variable yield potential'],
+  'rice': ['water management', 'levee maintenance', 'stand establishment'],
+  'hay': ['cutting timing', 'fertility management', 'field variability'],
+  'wheat': ['planting date optimization', 'disease management', 'input timing']
+};
+
+const stateCitations: Record<StateCode, Citation[]> = {
+  AL: [
+    { label: 'Alabama Cooperative Extension', url: 'https://www.aces.edu/' },
+    { label: 'Alabama Farmers Federation', url: 'https://alfafarmers.org/' }
+  ],
+  MS: [
+    { label: 'Mississippi State Extension', url: 'https://extension.msstate.edu/' },
+    { label: 'Delta Council', url: 'https://www.deltacouncil.org/' }
+  ],
+  FL: [
+    { label: 'UF/IFAS Extension', url: 'https://ifas.ufl.edu/' },
+    { label: 'Florida Farm Bureau', url: 'https://floridafarmbureau.org/' }
+  ],
+  TN: [
+    { label: 'UT Extension', url: 'https://extension.tennessee.edu/' },
+    { label: 'Tennessee Farm Bureau', url: 'https://tnfarmbureau.org/' }
+  ]
 };
 
 const cropLinks: Record<string, string> = {
@@ -248,10 +293,8 @@ function getRecommendedSolutions(seed: LocationSeed): RecommendedSolution[] {
   return solutions;
 }
 
-function getCitations(state: StateCode, seedFile: SeedFile): Citation[] {
-  const stateCitations = seedFile.citations[state] || [];
-  const selected = stateCitations.slice(0, 2);
-  return selected;
+function getCitations(state: StateCode): Citation[] {
+  return stateCitations[state] || [];
 }
 
 function getCTA(seed: LocationSeed): { headline: string; body: string; href: string; buttonText: string } {
@@ -320,7 +363,7 @@ function getFAQ(seed: LocationSeed): FAQItem[] {
   }
 }
 
-function generateEnrichment(seed: LocationSeed, seedFile: SeedFile): LocationEnrichment {
+function generateEnrichment(seed: LocationSeed): LocationEnrichment {
   const module: EnrichmentModule = {
     heading: getAngleHeading(seed.angle, seed.placeName),
     intro: getAngleIntro(seed),
@@ -328,7 +371,7 @@ function generateEnrichment(seed: LocationSeed, seedFile: SeedFile): LocationEnr
     bridge: getBridge(seed),
     todayTieIn: getTodayTieIn(seed),
     recommendedSolutions: getRecommendedSolutions(seed),
-    citations: getCitations(seed.state, seedFile),
+    citations: getCitations(seed.state),
     cta: getCTA(seed)
   };
   
@@ -347,14 +390,6 @@ function generateEnrichment(seed: LocationSeed, seedFile: SeedFile): LocationEnr
   };
 }
 
-function getSlugFromRoute(route: string): string {
-  const parts = route.split('/').filter(Boolean);
-  if (parts.length >= 2) {
-    return parts[1];
-  }
-  return parts[0] || 'unknown';
-}
-
 function getStateFolder(state: StateCode): string {
   const folders: Record<StateCode, string> = {
     AL: 'alabama',
@@ -365,16 +400,93 @@ function getStateFolder(state: StateCode): string {
   return folders[state];
 }
 
+function getConstraintsForCrops(crops: string[]): string[] {
+  const constraints: string[] = [];
+  for (const crop of crops) {
+    const cropConstraints = defaultConstraints[crop.toLowerCase()];
+    if (cropConstraints) {
+      for (const c of cropConstraints) {
+        if (!constraints.includes(c)) {
+          constraints.push(c);
+        }
+      }
+    }
+  }
+  return constraints.slice(0, 3);
+}
+
+function pickAngle(index: number): ContentAngle {
+  return contentAngles[index % contentAngles.length];
+}
+
+interface TargetTerritory {
+  id: string;
+  name: string;
+  tier1Counties: {
+    county: string;
+    slug: string;
+    cities: { name: string; slug: string }[];
+    primaryCrops: string[];
+    emphasis?: string;
+  }[];
+}
+
+interface TargetLocations {
+  territories: TargetTerritory[];
+}
+
 async function main() {
-  console.log('Loading seed file...');
-  const seedData = JSON.parse(fs.readFileSync(seedPath, 'utf-8')) as SeedFile;
+  console.log('Loading targetLocations.json...');
+  const targetData = JSON.parse(fs.readFileSync(targetLocationsPath, 'utf-8')) as TargetLocations;
   
-  console.log(`Found ${seedData.locations.length} locations to process`);
+  const locations: LocationSeed[] = [];
+  let angleIndex = 0;
   
-  for (const seed of seedData.locations) {
-    const enrichment = generateEnrichment(seed, seedData);
+  for (const territory of targetData.territories) {
+    const stateCode = stateIdToCode[territory.id];
+    if (!stateCode) {
+      console.log(`Skipping unknown territory: ${territory.id}`);
+      continue;
+    }
+    
+    for (const county of territory.tier1Counties) {
+      const countyName = `${county.county} County`;
+      const constraints = getConstraintsForCrops(county.primaryCrops);
+      
+      const countySeed: LocationSeed = {
+        placeType: 'county',
+        state: stateCode,
+        placeName: countyName,
+        countyName: county.county,
+        primaryCrops: county.primaryCrops,
+        constraints,
+        angle: pickAngle(angleIndex++),
+        route: `/${territory.id}/${county.slug}/precision-agriculture`
+      };
+      locations.push(countySeed);
+      
+      for (const city of county.cities) {
+        const citySeed: LocationSeed = {
+          placeType: 'city',
+          state: stateCode,
+          placeName: city.name,
+          countyName: county.county,
+          primaryCrops: county.primaryCrops,
+          constraints,
+          angle: pickAngle(angleIndex++),
+          route: `/${territory.id}/${city.slug}/precision-agriculture`
+        };
+        locations.push(citySeed);
+      }
+    }
+  }
+  
+  console.log(`Found ${locations.length} locations to process`);
+  
+  for (const seed of locations) {
+    const enrichment = generateEnrichment(seed);
     const stateFolder = getStateFolder(seed.state);
-    const slug = getSlugFromRoute(seed.route);
+    const slug = seed.route.split('/').filter(Boolean)[1];
     
     const outputDir = path.join(outputBase, stateFolder);
     if (!fs.existsSync(outputDir)) {

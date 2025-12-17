@@ -2,28 +2,28 @@
   "placeType": "county",
   "state": "MS",
   "placeName": "Washington County",
+  "countyName": "Washington",
   "primaryCrops": [
     "cotton",
-    "corn",
     "soybeans",
-    "rice"
+    "corn"
   ],
   "constraints": [
-    "Delta clay soils",
-    "drainage",
-    "irrigation scheduling"
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
   ],
   "angle": "soils-water",
   "module": {
     "heading": "Understanding Washington County's Soil and Water Challenges",
-    "intro": "The heavy clay conditions across Washington County present both challenges and opportunities for cotton and corn growers. Situated within the Mississippi River Alluvial Plain, farms here must balance moisture management with nutrient retention, a balance that shifts with each growing season. This complexity makes site-specific management not just beneficial but essential for sustainable profitability.",
+    "intro": "Managing soil variability and water resources has long shaped how farmers in Washington County approach cotton and soybeans production. The diverse soil conditions found across this region create distinct management zones within individual fields, where uniform applications often leave yield potential unrealized. Successful growers here have learned that treating each acre differently is key to consistent results.",
     "bullets": [
-      "Water management remains critical for both irrigation scheduling and drainage control",
-      "Soil variability within fields often exceeds variability between farms",
-      "Precision soil sensing enables variable-rate applications matched to field conditions"
+      "Variable soil conditions require careful management of inputs across fields",
+      "Regional watersheds influence drainage patterns and irrigation decisions",
+      "Soil sampling and zone mapping help identify areas needing targeted treatment"
     ],
-    "bridge": "Addressing Delta clay soils through precision tools allows growers to work with their land's natural variability rather than against it. Zone-based management, informed by soil sampling and yield data, enables producers to treat different parts of their fields according to their actual potential. This approach both improves results and reduces the cost of inputs that would otherwise be wasted.",
-    "todayTieIn": "Modern precision systems help cotton growers tackle Delta clay soils by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "bridge": "Addressing variable soil conditions through precision tools allows growers to work with their land's natural variability rather than against it. Zone-based management, informed by soil sampling and yield data, enables producers to treat different parts of their fields according to their actual potential. This approach both improves results and reduces the cost of inputs that would otherwise be wasted.",
+    "todayTieIn": "Addressing variable soil conditions in cotton production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
     "recommendedSolutions": [
       {
         "type": "crop",
@@ -32,23 +32,23 @@
       },
       {
         "type": "service",
-        "label": "Application Control Systems",
-        "href": "/services/application-control"
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
       },
       {
         "type": "category",
-        "label": "Planting Technology",
-        "href": "/products?category=planting"
+        "label": "Application Control",
+        "href": "/products?category=application-control"
       }
     ],
     "citations": [
       {
-        "label": "Mississippi State University Extension",
+        "label": "Mississippi State Extension",
         "url": "https://extension.msstate.edu/"
       },
       {
-        "label": "MSU Delta Research and Extension Center",
-        "url": "https://www.drec.msstate.edu/"
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
       }
     ],
     "cta": {
@@ -73,5 +73,5 @@
     }
   ],
   "version": "1.0.0",
-  "lastUpdated": "2025-12-17T14:41:01.293Z"
+  "lastUpdated": "2025-12-17T14:53:00.277Z"
 }

@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "AL",
+  "placeName": "Limestone County",
+  "countyName": "Limestone",
+  "primaryCrops": [
+    "cotton",
+    "corn",
+    "soybeans"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "soils-water",
+  "module": {
+    "heading": "Understanding Limestone County's Soil and Water Challenges",
+    "intro": "The diverse soil conditions across Limestone County present both challenges and opportunities for cotton and corn growers. Farms in this region must balance moisture management with nutrient retention, a balance that shifts with each growing season. This complexity makes site-specific management not just beneficial but essential for sustainable profitability.",
+    "bullets": [
+      "Variable soil conditions require careful management of inputs across fields",
+      "Regional watersheds influence drainage patterns and irrigation decisions",
+      "Soil sampling and zone mapping help identify areas needing targeted treatment"
+    ],
+    "bridge": "These soil and water characteristics make precision management particularly valuable, as one-size-fits-all approaches often underperform in variable conditions. When fields contain multiple soil types with different yield potentials, applying uniform rates means either under-applying where it's needed or wasting inputs where they can't be used effectively. Precision tools solve this by matching applications to actual field conditions.",
+    "todayTieIn": "Modern precision systems help cotton growers tackle variable soil conditions by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
+      },
+      {
+        "type": "category",
+        "label": "Application Control",
+        "href": "/products?category=application-control"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Limestone County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Limestone County?",
+      "answer": "Yes, we provide professional installation services throughout Limestone County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Limestone County?",
+      "answer": "Vantage South operates RTK correction networks covering Limestone County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Limestone County farmers?",
+      "answer": "Limestone County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.274Z"
+}

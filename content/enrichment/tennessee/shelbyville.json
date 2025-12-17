@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "TN",
+  "placeName": "Shelbyville",
+  "countyName": "Bedford",
+  "primaryCrops": [
+    "corn",
+    "soybeans",
+    "hay"
+  ],
+  "constraints": [
+    "planting window management",
+    "nitrogen efficiency",
+    "moisture variability"
+  ],
+  "angle": "economics-operations",
+  "module": {
+    "heading": "Farm Economics and Operations in Shelbyville",
+    "intro": "Operational efficiency drives decision-making for Shelbyville farms focused on corn and soybeans production. Labor constraints, equipment costs, and market volatility all factor into how operations plan their seasons. Precision tools that reduce overlap, optimize inputs, and improve timeliness directly address these challenges by putting more control in the farmer's hands.",
+    "bullets": [
+      "Data-driven decisions enable better allocation of limited operating budgets",
+      "Equipment utilization and timeliness affect both yield potential and costs",
+      "Documentation and record-keeping support lending and compliance requirements"
+    ],
+    "bridge": "Managing planting window management effectively through precision approaches can shift narrow margins toward sustainable profitability. The data captured by modern equipment supports better decisions, from where to apply more fertilizer to where reducing rates won't hurt yields. Over time, this information builds a picture of each field's true potential and how to achieve it efficiently.",
+    "todayTieIn": "Modern precision systems help corn growers tackle planting window management by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Corn Production Solutions",
+        "href": "/crops/corn"
+      },
+      {
+        "type": "service",
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UT Extension",
+        "url": "https://extension.tennessee.edu/"
+      },
+      {
+        "label": "Tennessee Farm Bureau",
+        "url": "https://tnfarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Shelbyville Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Shelbyville?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Shelbyville. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for corn in this area?",
+      "answer": "For corn production near Shelbyville, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.295Z"
+}

@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "AL",
+  "placeName": "Huntsville",
+  "countyName": "Madison",
+  "primaryCrops": [
+    "cotton",
+    "corn",
+    "soybeans"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "resilience-weather",
+  "module": {
+    "heading": "Weather Resilience in Huntsville Farming",
+    "intro": "Building resilience against weather extremes remains a priority for Huntsville producers growing cotton and corn. The region's history includes seasons lost to drought, flood, and storm—lessons that inform today's approach to farm management. Precision technology plays a growing role in this resilience, helping farmers make the most of favorable conditions while minimizing losses when weather turns unfavorable.",
+    "bullets": [
+      "Variable rainfall patterns require flexible irrigation and drainage strategies",
+      "Timely planting windows demand reliable equipment and efficient field operations",
+      "Heat stress management influences variety selection and planting dates"
+    ],
+    "bridge": "Building operational resilience through technology helps farms maintain profitability across variable growing seasons. Precision equipment that increases planting speed, improves application accuracy, and provides real-time field data gives operators more control over outcomes. While no technology can control the weather, the right tools help farmers respond more effectively to whatever conditions develop.",
+    "todayTieIn": "For cotton operations dealing with variable soil conditions, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Huntsville farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
+      },
+      {
+        "type": "category",
+        "label": "Application Control",
+        "href": "/products?category=application-control"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Huntsville Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Huntsville?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Huntsville. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Huntsville, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.275Z"
+}

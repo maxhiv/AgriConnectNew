@@ -1,12 +1,12 @@
 {
   "placeType": "city",
-  "state": "MS",
-  "placeName": "Cleveland",
-  "countyName": "Bolivar",
+  "state": "AL",
+  "placeName": "Headland",
+  "countyName": "Henry",
   "primaryCrops": [
     "cotton",
-    "soybeans",
-    "rice"
+    "peanuts",
+    "corn"
   ],
   "constraints": [
     "variable soil conditions",
@@ -15,15 +15,15 @@
   ],
   "angle": "resilience-weather",
   "module": {
-    "heading": "Weather Resilience in Cleveland Farming",
-    "intro": "Weather variability in Cleveland has driven farmers to adopt practices that protect cotton and soybeans yields across unpredictable seasons. From excessive spring moisture that delays planting to summer droughts that stress crops, producers here face challenges that demand both preparation and adaptability. Building operational resilience through better equipment and management practices helps farms weather whatever conditions each year brings.",
+    "heading": "Weather Resilience in Headland Farming",
+    "intro": "Weather variability in Headland has driven farmers to adopt practices that protect cotton and peanuts yields across unpredictable seasons. From excessive spring moisture that delays planting to summer droughts that stress crops, producers here face challenges that demand both preparation and adaptability. Building operational resilience through better equipment and management practices helps farms weather whatever conditions each year brings.",
     "bullets": [
       "Variable rainfall patterns require flexible irrigation and drainage strategies",
       "Timely planting windows demand reliable equipment and efficient field operations",
       "Heat stress management influences variety selection and planting dates"
     ],
     "bridge": "Building operational resilience through technology helps farms maintain profitability across variable growing seasons. Precision equipment that increases planting speed, improves application accuracy, and provides real-time field data gives operators more control over outcomes. While no technology can control the weather, the right tools help farmers respond more effectively to whatever conditions develop.",
-    "todayTieIn": "For cotton operations dealing with variable soil conditions, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Cleveland farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "todayTieIn": "For cotton operations dealing with variable soil conditions, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Headland farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
     "recommendedSolutions": [
       {
         "type": "crop",
@@ -32,8 +32,8 @@
       },
       {
         "type": "service",
-        "label": "RTK Correction Services",
-        "href": "/services/rtk-correction-services"
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
       },
       {
         "type": "category",
@@ -43,16 +43,16 @@
     ],
     "citations": [
       {
-        "label": "Mississippi State Extension",
-        "url": "https://extension.msstate.edu/"
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
       },
       {
-        "label": "Delta Council",
-        "url": "https://www.deltacouncil.org/"
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
       }
     ],
     "cta": {
-      "headline": "Ready to Explore Precision Solutions for Your Cleveland Operation?",
+      "headline": "Ready to Explore Precision Solutions for Your Headland Operation?",
       "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
       "href": "/schedule-field-demo",
       "buttonText": "Schedule a Demo"
@@ -60,12 +60,12 @@
   },
   "faq": [
     {
-      "question": "Do you service farms near Cleveland?",
-      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Cleveland. Contact us to discuss your operation's needs."
+      "question": "Do you service farms near Headland?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Headland. Contact us to discuss your operation's needs."
     },
     {
       "question": "What precision agriculture solutions work best for cotton in this area?",
-      "answer": "For cotton production near Cleveland, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+      "answer": "For cotton production near Headland, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
     },
     {
       "question": "How do I get started with precision farming technology?",
@@ -73,5 +73,5 @@
     }
   ],
   "version": "1.0.0",
-  "lastUpdated": "2025-12-17T14:53:00.280Z"
+  "lastUpdated": "2025-12-17T14:53:00.262Z"
 }

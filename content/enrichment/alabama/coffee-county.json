@@ -1,8 +1,8 @@
 {
-  "placeType": "city",
+  "placeType": "county",
   "state": "AL",
-  "placeName": "Geneva",
-  "countyName": "Geneva",
+  "placeName": "Coffee County",
+  "countyName": "Coffee",
   "primaryCrops": [
     "peanuts",
     "cotton",
@@ -15,12 +15,12 @@
   ],
   "angle": "economics-operations",
   "module": {
-    "heading": "Farm Economics and Operations in Geneva",
-    "intro": "Farm economics in Geneva center on maximizing returns from peanuts and cotton while managing rising input costs. With seed, fertilizer, and chemical expenses climbing, every bushel or pound of yield matters more than ever. Growers here increasingly rely on data-driven decisions to allocate resources where they generate the best returns, treating precision technology as an investment in long-term profitability.",
+    "heading": "Farm Economics and Operations in Coffee County",
+    "intro": "Farm economics in Coffee County center on maximizing returns from peanuts and cotton while managing rising input costs. With seed, fertilizer, and chemical expenses climbing, every bushel or pound of yield matters more than ever. Growers here increasingly rely on data-driven decisions to allocate resources where they generate the best returns, treating precision technology as an investment in long-term profitability.",
     "bullets": [
-      "Data-driven decisions enable better allocation of limited operating budgets",
-      "Equipment utilization and timeliness affect both yield potential and costs",
-      "Documentation and record-keeping support lending and compliance requirements"
+      "Input costs for seed, fertilizer, and chemicals represent major expense categories",
+      "Reducing overlap and optimizing rates directly impacts per-acre profitability",
+      "Labor efficiency gains from automation help address workforce constraints"
     ],
     "bridge": "Managing soil variability effectively through precision approaches can shift narrow margins toward sustainable profitability. The data captured by modern equipment supports better decisions, from where to apply more fertilizer to where reducing rates won't hurt yields. Over time, this information builds a picture of each field's true potential and how to achieve it efficiently.",
     "todayTieIn": "Addressing soil variability in peanuts production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
@@ -32,8 +32,8 @@
       },
       {
         "type": "service",
-        "label": "Application Control Systems",
-        "href": "/services/application-control"
+        "label": "Training & Support",
+        "href": "/services/training-support"
       },
       {
         "type": "category",
@@ -52,7 +52,7 @@
       }
     ],
     "cta": {
-      "headline": "Ready to Explore Precision Solutions for Your Geneva Operation?",
+      "headline": "Ready to Explore Precision Solutions for Your Coffee County Operation?",
       "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
       "href": "/schedule-field-demo",
       "buttonText": "Schedule a Demo"
@@ -60,18 +60,18 @@
   },
   "faq": [
     {
-      "question": "Do you service farms near Geneva?",
-      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Geneva. Contact us to discuss your operation's needs."
+      "question": "Do you offer installations across Coffee County?",
+      "answer": "Yes, we provide professional installation services throughout Coffee County, including guidance system setup, autosteer calibration, and planter technology upgrades."
     },
     {
-      "question": "What precision agriculture solutions work best for peanuts in this area?",
-      "answer": "For peanuts production near Geneva, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+      "question": "What RTK coverage is available in Coffee County?",
+      "answer": "Vantage South operates RTK correction networks covering Coffee County. We can verify signal strength at your location during a site visit or demonstration."
     },
     {
-      "question": "How do I get started with precision farming technology?",
-      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+      "question": "Which products are most popular with Coffee County farmers?",
+      "answer": "Coffee County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for peanuts operations."
     }
   ],
   "version": "1.0.0",
-  "lastUpdated": "2025-12-17T14:53:00.258Z"
+  "lastUpdated": "2025-12-17T14:53:00.263Z"
 }

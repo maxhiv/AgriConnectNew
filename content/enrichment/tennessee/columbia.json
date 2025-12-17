@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "TN",
+  "placeName": "Columbia",
+  "countyName": "Maury",
+  "primaryCrops": [
+    "corn",
+    "soybeans",
+    "wheat"
+  ],
+  "constraints": [
+    "planting window management",
+    "nitrogen efficiency",
+    "moisture variability"
+  ],
+  "angle": "soils-water",
+  "module": {
+    "heading": "Understanding Columbia's Soil and Water Challenges",
+    "intro": "The diverse soil conditions across Columbia present both challenges and opportunities for corn and soybeans growers. Farms in this region must balance moisture management with nutrient retention, a balance that shifts with each growing season. This complexity makes site-specific management not just beneficial but essential for sustainable profitability.",
+    "bullets": [
+      "Variable soil conditions require careful management of inputs across fields",
+      "Regional watersheds influence drainage patterns and irrigation decisions",
+      "Soil sampling and zone mapping help identify areas needing targeted treatment"
+    ],
+    "bridge": "Addressing planting window management through precision tools allows growers to work with their land's natural variability rather than against it. Zone-based management, informed by soil sampling and yield data, enables producers to treat different parts of their fields according to their actual potential. This approach both improves results and reduces the cost of inputs that would otherwise be wasted.",
+    "todayTieIn": "Addressing planting window management in corn production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Corn Production Solutions",
+        "href": "/crops/corn"
+      },
+      {
+        "type": "service",
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
+      },
+      {
+        "type": "category",
+        "label": "Guidance Displays",
+        "href": "/products?category=guidance-displays"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UT Extension",
+        "url": "https://extension.tennessee.edu/"
+      },
+      {
+        "label": "Tennessee Farm Bureau",
+        "url": "https://tnfarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Columbia Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Columbia?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Columbia. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for corn in this area?",
+      "answer": "For corn production near Columbia, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.296Z"
+}

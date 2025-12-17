@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "MS",
+  "placeName": "Leflore County",
+  "countyName": "Leflore",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "corn"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "infrastructure",
+  "module": {
+    "heading": "Agricultural Infrastructure in Leflore County",
+    "intro": "Transportation networks and agricultural services in Leflore County support a robust cotton and soybeans production system that connects local farms to broader markets. From grain elevators to input suppliers, the infrastructure surrounding agriculture here reflects decades of investment in the region's farming future. Modern additions to this infrastructure include RTK signal networks and data connectivity that enable precision farming at scale.",
+    "bullets": [
+      "Proximity to grain elevators and processing facilities supports efficient harvest logistics",
+      "Local equipment dealers and service providers enable rapid support during critical seasons",
+      "Transportation networks connect farms to regional and export markets"
+    ],
+    "bridge": "Access to professional installation and ongoing support makes precision technology adoption more practical for operations of all sizes. Rather than figuring out complex systems alone, farmers can rely on trained technicians who ensure equipment works correctly from day one. This support extends through the season, with troubleshooting and adjustments available when needed most.",
+    "todayTieIn": "Addressing variable soil conditions in cotton production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
+      },
+      {
+        "type": "category",
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Leflore County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Leflore County?",
+      "answer": "Yes, we provide professional installation services throughout Leflore County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Leflore County?",
+      "answer": "Vantage South operates RTK correction networks covering Leflore County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Leflore County farmers?",
+      "answer": "Leflore County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.282Z"
+}

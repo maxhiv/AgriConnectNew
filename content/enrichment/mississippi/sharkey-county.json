@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "MS",
+  "placeName": "Sharkey County",
+  "countyName": "Sharkey",
+  "primaryCrops": [
+    "soybeans",
+    "cotton",
+    "corn"
+  ],
+  "constraints": [
+    "weed pressure",
+    "soil compaction",
+    "variable yield potential"
+  ],
+  "angle": "infrastructure",
+  "module": {
+    "heading": "Agricultural Infrastructure in Sharkey County",
+    "intro": "Transportation networks and agricultural services in Sharkey County support a robust soybeans and cotton production system that connects local farms to broader markets. From grain elevators to input suppliers, the infrastructure surrounding agriculture here reflects decades of investment in the region's farming future. Modern additions to this infrastructure include RTK signal networks and data connectivity that enable precision farming at scale.",
+    "bullets": [
+      "Proximity to grain elevators and processing facilities supports efficient harvest logistics",
+      "Local equipment dealers and service providers enable rapid support during critical seasons",
+      "Transportation networks connect farms to regional and export markets"
+    ],
+    "bridge": "Access to professional installation and ongoing support makes precision technology adoption more practical for operations of all sizes. Rather than figuring out complex systems alone, farmers can rely on trained technicians who ensure equipment works correctly from day one. This support extends through the season, with troubleshooting and adjustments available when needed most.",
+    "todayTieIn": "Addressing weed pressure in soybeans production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Soybeans Production Solutions",
+        "href": "/crops/soybeans"
+      },
+      {
+        "type": "service",
+        "label": "Training & Support",
+        "href": "/services/training-support"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Sharkey County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Sharkey County?",
+      "answer": "Yes, we provide professional installation services throughout Sharkey County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Sharkey County?",
+      "answer": "Vantage South operates RTK correction networks covering Sharkey County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Sharkey County farmers?",
+      "answer": "Sharkey County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for soybeans operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.285Z"
+}

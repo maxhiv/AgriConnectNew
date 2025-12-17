@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "FL",
+  "placeName": "Bonifay",
+  "countyName": "Holmes",
+  "primaryCrops": [
+    "peanuts",
+    "cotton",
+    "corn"
+  ],
+  "constraints": [
+    "soil variability",
+    "disease pressure management",
+    "harvest timing"
+  ],
+  "angle": "technology-adoption",
+  "module": {
+    "heading": "Precision Agriculture Adoption in Bonifay",
+    "intro": "Technology adoption in Bonifay reflects a practical approach to improving peanuts and cotton production efficiency. Local growers evaluate equipment and practices based on real-world performance, not marketing promises. This discerning approach has led to steady uptake of proven precision tools that deliver documented savings on inputs while maintaining or improving yields.",
+    "bullets": [
+      "Guidance systems have become standard equipment for row crop operations",
+      "Variable-rate seeding and fertilizer application continue to gain adoption",
+      "Yield monitoring provides field-level data for continuous improvement"
+    ],
+    "bridge": "The return on investment from precision tools becomes clearer as more local farms document their results. Guidance systems that eliminate skip and overlap, section control that cuts input waste, variable-rate seeding that optimizes populations—these tools deliver savings that compound season after season. The question shifts from whether precision pays to how quickly it can be implemented.",
+    "todayTieIn": "Modern precision systems help peanuts growers tackle soil variability by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Peanuts Production Solutions",
+        "href": "/crops/peanuts"
+      },
+      {
+        "type": "service",
+        "label": "Planter Technology Upgrades",
+        "href": "/services/planter-technology"
+      },
+      {
+        "type": "category",
+        "label": "Guidance Displays",
+        "href": "/products?category=guidance-displays"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UF/IFAS Extension",
+        "url": "https://ifas.ufl.edu/"
+      },
+      {
+        "label": "Florida Farm Bureau",
+        "url": "https://floridafarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Bonifay Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Bonifay?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Bonifay. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for peanuts in this area?",
+      "answer": "For peanuts production near Bonifay, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.291Z"
+}

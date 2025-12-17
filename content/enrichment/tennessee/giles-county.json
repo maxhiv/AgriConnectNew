@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "TN",
+  "placeName": "Giles County",
+  "countyName": "Giles",
+  "primaryCrops": [
+    "corn",
+    "soybeans",
+    "hay"
+  ],
+  "constraints": [
+    "planting window management",
+    "nitrogen efficiency",
+    "moisture variability"
+  ],
+  "angle": "crop-evolution",
+  "module": {
+    "heading": "How Giles County Agriculture Has Evolved",
+    "intro": "Farming in Giles County has deep roots in the region's agricultural heritage, with corn and soybeans remaining central to local operations. For generations, families across this part of Tennessee have built their livelihoods around these crops, developing practices refined through seasons of trial and adaptation. Today's operations carry forward that legacy while embracing new tools that help maximize every acre's potential.",
+    "bullets": [
+      "The shift toward corn intensification has driven demand for more precise planting and application",
+      "Crop rotations between corn and soybeans remain common for soil health management",
+      "Yields have improved as growers adopt variety-specific management practices"
+    ],
+    "bridge": "Understanding how farming has evolved in Giles County helps explain why certain precision approaches resonate with local producers. The transition from conventional to precision methods isn't about abandoning what works—it's about doing the same things more accurately and efficiently. Local growers recognize that guidance systems and variable-rate equipment are natural extensions of practices they've always valued.",
+    "todayTieIn": "Addressing planting window management in corn production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Corn Production Solutions",
+        "href": "/crops/corn"
+      },
+      {
+        "type": "service",
+        "label": "Application Control Systems",
+        "href": "/services/application-control"
+      },
+      {
+        "type": "category",
+        "label": "Application Control",
+        "href": "/products?category=application-control"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UT Extension",
+        "url": "https://extension.tennessee.edu/"
+      },
+      {
+        "label": "Tennessee Farm Bureau",
+        "url": "https://tnfarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Giles County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Giles County?",
+      "answer": "Yes, we provide professional installation services throughout Giles County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Giles County?",
+      "answer": "Vantage South operates RTK correction networks covering Giles County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Giles County farmers?",
+      "answer": "Giles County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for corn operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.293Z"
+}

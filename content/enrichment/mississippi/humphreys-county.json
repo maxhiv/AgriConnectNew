@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "MS",
+  "placeName": "Humphreys County",
+  "countyName": "Humphreys",
+  "primaryCrops": [
+    "soybeans",
+    "cotton",
+    "catfish"
+  ],
+  "constraints": [
+    "weed pressure",
+    "soil compaction",
+    "variable yield potential"
+  ],
+  "angle": "crop-evolution",
+  "module": {
+    "heading": "How Humphreys County Agriculture Has Evolved",
+    "intro": "The agricultural landscape of Humphreys County reflects generations of adaptation, where producers have refined their approach to growing soybeans and cotton. What began as subsistence farming evolved into commercial operations that now feed global markets. Understanding this history helps explain why modern precision approaches resonate so strongly with local growers who value both tradition and progress.",
+    "bullets": [
+      "The shift toward soybeans intensification has driven demand for more precise planting and application",
+      "Crop rotations between soybeans and cotton remain common for soil health management",
+      "Yields have improved as growers adopt variety-specific management practices"
+    ],
+    "bridge": "This agricultural heritage directly influences today's precision farming decisions, as modern growers build on proven local practices while integrating new technology. The experience accumulated over decades of soybeans production provides a foundation that precision tools can enhance—not replace. Farmers here know their land; technology helps them act on that knowledge more precisely.",
+    "todayTieIn": "Modern precision systems help soybeans growers tackle weed pressure by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Soybeans Production Solutions",
+        "href": "/crops/soybeans"
+      },
+      {
+        "type": "service",
+        "label": "Training & Support",
+        "href": "/services/training-support"
+      },
+      {
+        "type": "category",
+        "label": "Application Control",
+        "href": "/products?category=application-control"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Humphreys County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Humphreys County?",
+      "answer": "Yes, we provide professional installation services throughout Humphreys County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Humphreys County?",
+      "answer": "Vantage South operates RTK correction networks covering Humphreys County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Humphreys County farmers?",
+      "answer": "Humphreys County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for soybeans operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.284Z"
+}

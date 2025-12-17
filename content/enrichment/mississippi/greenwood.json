@@ -1,0 +1,77 @@
+{
+  "placeType": "city",
+  "state": "MS",
+  "placeName": "Greenwood",
+  "countyName": "Leflore",
+  "primaryCrops": [
+    "cotton",
+    "soybeans",
+    "corn"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "technology-adoption",
+  "module": {
+    "heading": "Precision Agriculture Adoption in Greenwood",
+    "intro": "Farmers across Greenwood have increasingly turned to precision technology to optimize cotton and soybeans yields and reduce input costs. What started with basic GPS guidance has evolved into integrated systems that control planting populations, fertilizer rates, and application timing—all based on field-specific data. This adoption reflects a practical approach to farming where measurable results justify every technology investment.",
+    "bullets": [
+      "Guidance systems have become standard equipment for row crop operations",
+      "Variable-rate seeding and fertilizer application continue to gain adoption",
+      "Yield monitoring provides field-level data for continuous improvement"
+    ],
+    "bridge": "Early adopters in the area have demonstrated measurable benefits, encouraging neighboring operations to explore similar precision approaches. When farmers see actual yield maps and input savings from operations they know and trust, the decision to invest becomes easier. Word-of-mouth recommendations carry weight in agricultural communities where reputation matters and results speak louder than advertising.",
+    "todayTieIn": "Modern precision systems help cotton growers tackle variable soil conditions by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
+      },
+      {
+        "type": "category",
+        "label": "Steering Systems",
+        "href": "/products?category=steering-systems"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Mississippi State Extension",
+        "url": "https://extension.msstate.edu/"
+      },
+      {
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Greenwood Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you service farms near Greenwood?",
+      "answer": "Yes, Vantage South provides equipment installation, RTK signal coverage, and ongoing support for farms in and around Greenwood. Contact us to discuss your operation's needs."
+    },
+    {
+      "question": "What precision agriculture solutions work best for cotton in this area?",
+      "answer": "For cotton production near Greenwood, we commonly recommend guidance systems, autosteer, and variable-rate planting or application technology. The best fit depends on your specific equipment and goals."
+    },
+    {
+      "question": "How do I get started with precision farming technology?",
+      "answer": "Start with a field demonstration where we'll show you how guidance and mapping tools work on your own fields. From there, we can recommend solutions that match your operation."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.282Z"
+}

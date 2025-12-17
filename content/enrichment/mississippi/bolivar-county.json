@@ -2,28 +2,28 @@
   "placeType": "county",
   "state": "MS",
   "placeName": "Bolivar County",
+  "countyName": "Bolivar",
   "primaryCrops": [
     "cotton",
     "soybeans",
-    "corn",
     "rice"
   ],
   "constraints": [
-    "flood management",
-    "variable yields",
-    "input costs"
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
   ],
-  "angle": "resilience-weather",
+  "angle": "technology-adoption",
   "module": {
-    "heading": "Weather Resilience in Bolivar County Farming",
-    "intro": "Weather variability in Bolivar County has driven farmers to adopt practices that protect cotton and soybeans yields across unpredictable seasons. From excessive spring moisture that delays planting to summer droughts that stress crops, producers here face challenges that demand both preparation and adaptability. Building operational resilience through better equipment and management practices helps farms weather whatever conditions each year brings.",
+    "heading": "Precision Agriculture Adoption in Bolivar County",
+    "intro": "Technology adoption in Bolivar County reflects a practical approach to improving cotton and soybeans production efficiency. Local growers evaluate equipment and practices based on real-world performance, not marketing promises. This discerning approach has led to steady uptake of proven precision tools that deliver documented savings on inputs while maintaining or improving yields.",
     "bullets": [
-      "Variable rainfall patterns require flexible irrigation and drainage strategies",
-      "Timely planting windows demand reliable equipment and efficient field operations",
-      "Heat stress management influences variety selection and planting dates"
+      "Guidance systems have become standard equipment for row crop operations",
+      "Variable-rate seeding and fertilizer application continue to gain adoption",
+      "Yield monitoring provides field-level data for continuous improvement"
     ],
-    "bridge": "Weather uncertainty reinforces the value of precision tools that help farmers make the most of favorable conditions and minimize losses during challenging periods. When planting windows shrink due to wet conditions, autosteer enables longer operating hours with less fatigue. When drought stresses crops, variable-rate applications ensure that limited resources go where they'll do the most good.",
-    "todayTieIn": "For cotton operations dealing with flood management, precision guidance and variable-rate technology offer practical solutions that translate regional knowledge into field-level decisions. GPS-guided equipment ensures accurate placement of seeds and inputs, while zone mapping enables tailored management across diverse field conditions. These tools help Bolivar County farmers do what they've always done—grow quality crops—with greater accuracy and less waste.",
+    "bridge": "Early adopters in the area have demonstrated measurable benefits, encouraging neighboring operations to explore similar precision approaches. When farmers see actual yield maps and input savings from operations they know and trust, the decision to invest becomes easier. Word-of-mouth recommendations carry weight in agricultural communities where reputation matters and results speak louder than advertising.",
+    "todayTieIn": "Addressing variable soil conditions in cotton production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
     "recommendedSolutions": [
       {
         "type": "crop",
@@ -32,23 +32,23 @@
       },
       {
         "type": "service",
-        "label": "RTK Correction Services",
-        "href": "/services/rtk-correction-services"
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
       },
       {
         "type": "category",
-        "label": "Steering Systems",
-        "href": "/products?category=steering-systems"
+        "label": "Planting Technology",
+        "href": "/products?category=planting"
       }
     ],
     "citations": [
       {
-        "label": "Mississippi State University Extension",
+        "label": "Mississippi State Extension",
         "url": "https://extension.msstate.edu/"
       },
       {
-        "label": "MSU Delta Research and Extension Center",
-        "url": "https://www.drec.msstate.edu/"
+        "label": "Delta Council",
+        "url": "https://www.deltacouncil.org/"
       }
     ],
     "cta": {
@@ -73,5 +73,5 @@
     }
   ],
   "version": "1.0.0",
-  "lastUpdated": "2025-12-17T14:41:01.295Z"
+  "lastUpdated": "2025-12-17T14:53:00.279Z"
 }

@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "AL",
+  "placeName": "Madison County",
+  "countyName": "Madison",
+  "primaryCrops": [
+    "cotton",
+    "corn",
+    "soybeans"
+  ],
+  "constraints": [
+    "variable soil conditions",
+    "input cost management",
+    "seasonal labor constraints"
+  ],
+  "angle": "technology-adoption",
+  "module": {
+    "heading": "Precision Agriculture Adoption in Madison County",
+    "intro": "Technology adoption in Madison County reflects a practical approach to improving cotton and corn production efficiency. Local growers evaluate equipment and practices based on real-world performance, not marketing promises. This discerning approach has led to steady uptake of proven precision tools that deliver documented savings on inputs while maintaining or improving yields.",
+    "bullets": [
+      "Autosteer adoption has reduced operator fatigue during long planting and harvest days",
+      "Section control on planters and sprayers minimizes overlap and saves inputs",
+      "Cloud-based data platforms enable better agronomic decision-making"
+    ],
+    "bridge": "The return on investment from precision tools becomes clearer as more local farms document their results. Guidance systems that eliminate skip and overlap, section control that cuts input waste, variable-rate seeding that optimizes populations—these tools deliver savings that compound season after season. The question shifts from whether precision pays to how quickly it can be implemented.",
+    "todayTieIn": "Modern precision systems help cotton growers tackle variable soil conditions by enabling site-specific management that respects field variability while reducing unnecessary inputs. From sub-inch guidance accuracy to variable-rate prescriptions, today's equipment gives farmers unprecedented control over their operations. The result is better resource utilization, improved yields, and documented performance that supports both operational decisions and business planning.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Cotton Production Solutions",
+        "href": "/crops/cotton"
+      },
+      {
+        "type": "service",
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
+      },
+      {
+        "type": "category",
+        "label": "Application Control",
+        "href": "/products?category=application-control"
+      }
+    ],
+    "citations": [
+      {
+        "label": "Alabama Cooperative Extension",
+        "url": "https://www.aces.edu/"
+      },
+      {
+        "label": "Alabama Farmers Federation",
+        "url": "https://alfafarmers.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Madison County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Madison County?",
+      "answer": "Yes, we provide professional installation services throughout Madison County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Madison County?",
+      "answer": "Vantage South operates RTK correction networks covering Madison County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Madison County farmers?",
+      "answer": "Madison County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for cotton operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.275Z"
+}

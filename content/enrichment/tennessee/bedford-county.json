@@ -1,0 +1,77 @@
+{
+  "placeType": "county",
+  "state": "TN",
+  "placeName": "Bedford County",
+  "countyName": "Bedford",
+  "primaryCrops": [
+    "corn",
+    "soybeans",
+    "hay"
+  ],
+  "constraints": [
+    "planting window management",
+    "nitrogen efficiency",
+    "moisture variability"
+  ],
+  "angle": "resilience-weather",
+  "module": {
+    "heading": "Weather Resilience in Bedford County Farming",
+    "intro": "Building resilience against weather extremes remains a priority for Bedford County producers growing corn and soybeans. The region's history includes seasons lost to drought, flood, and storm—lessons that inform today's approach to farm management. Precision technology plays a growing role in this resilience, helping farmers make the most of favorable conditions while minimizing losses when weather turns unfavorable.",
+    "bullets": [
+      "Season-long weather monitoring informs spray timing and harvest decisions",
+      "Drainage improvements help manage excess moisture during wet periods",
+      "Crop insurance and risk management tools complement precision farming practices"
+    ],
+    "bridge": "Weather uncertainty reinforces the value of precision tools that help farmers make the most of favorable conditions and minimize losses during challenging periods. When planting windows shrink due to wet conditions, autosteer enables longer operating hours with less fatigue. When drought stresses crops, variable-rate applications ensure that limited resources go where they'll do the most good.",
+    "todayTieIn": "Addressing planting window management in corn production benefits from GPS-guided equipment, zone-based management, and real-time monitoring—tools that help farms operate more efficiently. Autosteer reduces operator fatigue during critical planting windows, section control eliminates costly overlap, and yield monitors document results for continuous improvement. Together, these technologies support the decision-making that drives profitability.",
+    "recommendedSolutions": [
+      {
+        "type": "crop",
+        "label": "Corn Production Solutions",
+        "href": "/crops/corn"
+      },
+      {
+        "type": "service",
+        "label": "Guidance & Steering Installation",
+        "href": "/services/guidance-steering-installation"
+      },
+      {
+        "type": "category",
+        "label": "Guidance Displays",
+        "href": "/products?category=guidance-displays"
+      }
+    ],
+    "citations": [
+      {
+        "label": "UT Extension",
+        "url": "https://extension.tennessee.edu/"
+      },
+      {
+        "label": "Tennessee Farm Bureau",
+        "url": "https://tnfarmbureau.org/"
+      }
+    ],
+    "cta": {
+      "headline": "Ready to Explore Precision Solutions for Your Bedford County Operation?",
+      "body": "Schedule a field demonstration to see how guidance, steering, and variable-rate technology can work on your farm.",
+      "href": "/schedule-field-demo",
+      "buttonText": "Schedule a Demo"
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you offer installations across Bedford County?",
+      "answer": "Yes, we provide professional installation services throughout Bedford County, including guidance system setup, autosteer calibration, and planter technology upgrades."
+    },
+    {
+      "question": "What RTK coverage is available in Bedford County?",
+      "answer": "Vantage South operates RTK correction networks covering Bedford County. We can verify signal strength at your location during a site visit or demonstration."
+    },
+    {
+      "question": "Which products are most popular with Bedford County farmers?",
+      "answer": "Bedford County growers commonly choose guidance displays, autosteer systems, and section control for planters and sprayers. Variable-rate seeding is gaining adoption for corn operations."
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-17T14:53:00.295Z"
+}
