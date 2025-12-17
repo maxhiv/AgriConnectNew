@@ -10,7 +10,7 @@ export default function NewsSection() {
       slug: "ptx-trimble-nav-960-alabama-cotton-farmers",
     },
     {
-      image: "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-Web-2.png",
+      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       date: "November 28, 2024",
       title: "Variable Rate Technology Transforms Peanut Production in the Wiregrass",
       excerpt: "Southeast Alabama growers using Ag Leader OptiRx sensors see improved plant health monitoring and optimized fertilizer applications across their fields.",
@@ -38,7 +38,7 @@ export default function NewsSection() {
       slug: "gfx-1260-display-southeast-operations",
     },
     {
-      image: "https://images.unsplash.com/photo-1586771107445-d3ca888129ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       date: "October 5, 2024",
       title: "Schedule Your Field Demo: See Precision Ag Technology in Action",
       excerpt: "Vantage South offers complimentary on-farm demonstrations of guidance systems, variable rate controllers, and yield monitoring equipment throughout our service area.",
