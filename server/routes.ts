@@ -10,7 +10,38 @@ import { ObjectStorageService } from "./objectStorage";
 import { WordPressService } from "./wordpressService";
 import { catalogProducts, getAllBrands, getAllCategories } from "./productCatalogSeed";
 import { getAllNewsArticles, getNewsArticle } from "./newsArticlesSeed";
-import { getProductImageData } from "./productImagesSeed";
+import { getProductImageData, getProductImages } from "./productImagesSeed";
+
+async function syncProductImages() {
+  try {
+    console.log('Starting product image sync...');
+    const allProducts = await storage.getProducts();
+    const productImages = getProductImages();
+    let updatedCount = 0;
+    
+    for (const product of allProducts) {
+      const imageData = productImages[product.slug];
+      if (imageData && imageData.primaryImage) {
+        // Always update with export data to ensure consistency
+        const needsUpdate = !product.primaryImage || product.primaryImage !== imageData.primaryImage;
+        if (needsUpdate) {
+          await storage.updateProductBySlug(product.slug, {
+            primaryImage: imageData.primaryImage,
+            images: imageData.images || product.images,
+            logoDarkGreen: imageData.logoDarkGreen || product.logoDarkGreen,
+            logoBlack: imageData.logoBlack || product.logoBlack,
+            logoWhite: imageData.logoWhite || product.logoWhite,
+          } as any);
+          updatedCount++;
+        }
+      }
+    }
+    
+    console.log(`Product image sync complete: ${updatedCount} products updated with images`);
+  } catch (error) {
+    console.error('Error during image sync:', error);
+  }
+}
 
 async function autoSeedProducts() {
   try {
@@ -62,6 +93,7 @@ async function autoSeedProducts() {
 
 export async function registerRoutes(app: Express): Promise<Server> {
   await autoSeedProducts();
+  await syncProductImages();
   // Initialize WordPress service
   const wordpressService = new WordPressService();
 
