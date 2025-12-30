@@ -637,5 +637,27 @@
       "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-office-computer?fmt=png-alpha",
       "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-field-manager?fmt=png-alpha"
     ]
+  },
+  "xag-p150-max": {
+    "primaryImage": "https://static.xag.cn/img/product-aggregation-en/plant/compare-p150max.png?imageMogr2/format/webp",
+    "images": [
+      "https://static.xag.cn/img/products2025/p150max/7e91d9666979b84d6aeb0e6d027e1fbd.jpg?imageMogr2/format/webp"
+    ]
+  },
+  "xag-p150": {
+    "primaryImage": "https://static.xag.cn/img/product-aggregation-en/plant/compare-p150.png?imageMogr2/format/webp",
+    "images": [
+      "https://static.xag.cn/img/products2024/p150/p150-header.png?imageMogr2/format/webp"
+    ]
+  },
+  "xag-p60": {
+    "primaryImage": "https://static.xag.cn/img/product-aggregation-en/plant/compare-p60.png?imageMogr2/format/webp",
+    "images": [
+      "https://static.xag.cn/img/products2024/p60/banner.png?imageMogr2/format/webp"
+    ]
+  },
+  "xag-p100-pro": {
+    "primaryImage": "https://static.xag.cn/img/products2022/p100pro/p100pro-3d-spray.jpg?imageMogr2/format/webp",
+    "images": []
   }
 }
