@@ -659,5 +659,89 @@
   "xag-p100-pro": {
     "primaryImage": "https://static.xag.cn/img/products2022/p100pro/p100pro-3d-spray.jpg?imageMogr2/format/webp",
     "images": []
+  },
+  "amazone-za-ts": {
+    "primaryImage": "https://amazone.net/resource/image/373402/5x3/930/558/db0abe40b3c58e23690d05b312420d2c/C8478F024FDC1ECAE3EEE120CBDF3B9D/galerie-3-za-ts-fendt-hanglage-d0-kw-pa320033-d2-181128.jpg",
+    "images": [
+      "https://amazone.net/resource/image/373408/5x3/930/558/dd4fadf009dfe96d4fb948526cbf63e9/E5B5222CC2398D1A82ECA8F6C255B443/galerie-1-za-ts-4200-einsatz-claas-d0-kw-4652-d2-181120.jpg",
+      "https://amazone.net/resource/image/373400/5x3/930/558/b44fae7ecdacfa747e0c400932f95d47/E3D28D8C3F19E806CCD29D8E4303E676/galerie-2-za-ts-fendt-002-d1-150929.jpg",
+      "https://amazone.net/resource/image/373390/5x3/930/558/70303e704f371904b7bbf38fbe139e90/DDEA68DAE90C4F7AB4397B63D6D50C39/galerie-4-za-ts-fendt-hanglage-d0-kw-pa320053-d2-181114.jpg",
+      "https://amazone.net/resource/image/1306308/5x3/930/558/e9ed3f53dbdd3063b8b752f28f417936/5DBADCCA5A3841B325FE41C74A9045B5/galerie-5-.jpg"
+    ]
+  },
+  "amazone-zg-tx": {
+    "primaryImage": "https://amazone.net/resource/image/1453118/5x3/930/558/aaeaa86c3d65ef9c1aad06cd0eab3fa/C37B76047547DB4043A06E08C016B2D5/galerie-6-.jpg",
+    "images": [
+      "https://amazone.net/resource/image/1452830/5x3/930/558/c640f08c077148ab89368da613f67490/11E41A151CC1BE9D201BC438B7475A9F/galerie-7-.jpg",
+      "https://amazone.net/resource/image/1452546/5x3/930/558/21c06b8d0e50bc5fdca567df8700d5c9/14DE2ADA5BA8F780D2940A4CD18E0A7F/galerie-1-.jpg",
+      "https://amazone.net/resource/image/1452428/5x3/930/558/e827430a6b357650bf4d96004df2fbed/D100AD98747D7B9D7213C371FEEDCEED/galerie-2-.jpg",
+      "https://amazone.net/resource/image/1452560/5x3/930/558/51f27df79f5ee59f19cf7d3ed095dd6d/EA5B4AFA443BD50A5E7335F5DF2EE3DB/galerie-3-.jpg",
+      "https://amazone.net/resource/image/1452766/5x3/930/558/3c86054624ad1761c46788967421e1a4/41073688085F57A2CE52F6F76814F5DC/galerie-4-.jpg"
+    ]
+  },
+  "agl-boomloop": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/08/BoomLoop-Header.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/08/BoomLoop-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/BoomLoop-Display.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/BoomLoop-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/Untitled-design-46.png"
+    ]
+  },
+  "agl-rightpath": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2025/02/large-RightPath_Web-Header.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2025/01/RightPath-Feature-Photo.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/RightPath-InCommand-Go-16.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/Maximize-Input-large.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/Crowded-Guess-Rows-1.png"
+    ]
+  },
+  "agl-surestop": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingSureStop.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureStop-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/SureStop.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/Soybean_precision-row-cropped.png"
+    ]
+  },
+  "agl-turnpath": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Header.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Feature.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Turn-Preview-1.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Turn-Sequencing.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-on-screen.png"
+    ]
+  },
+  "agl-granular": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/08/Granular-Header.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/08/Granular-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/granular-1-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/Granular-3.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/Granular-2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/Granular-Spreader_-Application-1-1024x683.jpg"
+    ]
+  },
+  "agl-directcommand-l2": {
+    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/L2.png",
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/08/DirectCommand-L2-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2024/11/L2-4.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/L2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/Spinner-Spreader155.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/conventional-sprayer155.png"
+    ]
+  },
+  "sp-arsenal": {
+    "primaryImage": "https://static.wixstatic.com/media/866064_c82e822fd7524fa890b46a744aaf3fbe~mv2.jpg/v1/fill/w_1904,h_992,al_b,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866064_c82e822fd7524fa890b46a744aaf3fbe~mv2.jpg",
+    "images": [
+      "https://static.wixstatic.com/media/914c06_139ce112d52d42f3babeb331a109b97c~mv2.png/v1/fill/w_980,h_456,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Arsenal-spray-trailer-callouts.png",
+      "https://static.wixstatic.com/media/914c06_45cb5466169a4ba6a4ac5c9740566355~mv2.png/v1/crop/x_0,y_0,w_3226,h_1357/fill/w_914,h_382,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Arsenal-spray-trailer-underside-with-callouts.png",
+      "https://static.wixstatic.com/media/866064_596265057db242ca8c06a9e4f3247e61~mv2.jpg/v1/crop/x_728,y_0,w_3994,h_4000/fill/w_225,h_225,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_1185_JPG.jpg",
+      "https://static.wixstatic.com/media/866064_2ea704c6a8c44373a4e0d39ad5363456~mv2.jpg/v1/fill/w_225,h_225,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_1190_JPG.jpg",
+      "https://static.wixstatic.com/media/866064_72ab9505ccc64272a5428922593d1008~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3000.png"
+    ]
   }
 }
