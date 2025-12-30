@@ -1,0 +1,90 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "myOpenSans",
+      "count": 54
+    },
+    {
+      "family": "PingFang SC",
+      "count": 54
+    },
+    {
+      "family": "Microsoft YaHei",
+      "count": 54
+    },
+    {
+      "family": "D-DIN",
+      "count": 10
+    }
+  ],
+  "colors": {
+    "primary": "#CC0000",
+    "accent": "#0069D9",
+    "background": "#F7F7F7",
+    "textPrimary": "#1D1D1F",
+    "link": "#0069D9"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "myOpenSans",
+      "heading": "myOpenSans"
+    },
+    "fontStacks": {
+      "body": [
+        "myOpenSans",
+        "PingFang SC",
+        "Microsoft YaHei"
+      ],
+      "heading": [
+        "myOpenSans",
+        "PingFang SC",
+        "Microsoft YaHei"
+      ],
+      "paragraph": [
+        "myOpenSans",
+        "PingFang SC",
+        "Microsoft YaHei"
+      ]
+    },
+    "fontSizes": {
+      "h1": "12px",
+      "h2": "12px",
+      "body": "12px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "0px"
+  },
+  "components": {},
+  "images": {
+    "logo": "https://static.xag.cn/img/product-aggregation-en/plant/compare-p150max.png?imageMogr2/format/webp",
+    "favicon": null,
+    "ogImage": null
+  },
+  "__framework_hints": [],
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Heuristic fallback: Moderate indicators: in header, no link (brand logos usually link to homepage, penalty), header location, visible, class contains logo, reasonable size. Score: 55. May benefit from LLM validation.",
+    "confidence": 0.5
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": -1,
+      "text": "N/A",
+      "reasoning": "LLM failed"
+    },
+    "secondary": {
+      "index": -1,
+      "text": "N/A",
+      "reasoning": "LLM failed"
+    },
+    "confidence": 0
+  },
+  "confidence": {
+    "buttons": 0,
+    "colors": 0,
+    "overall": 0
+  }
+}
