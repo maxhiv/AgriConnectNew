@@ -52,7 +52,7 @@
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/planters/2020",
     "highlights": [
-      "High\u2011definition row\u2011by\u2011row maps",
+      "High‑definition row‑by‑row maps",
       "Diagnose performance in real time",
       "Control compatible systems",
       "Panorama data sync"
@@ -486,9 +486,9 @@
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/dry-fertilizer-applicators/clarity",
     "highlights": [
-      "Row\u2011by\u2011row blockage metrics",
+      "Row‑by‑row blockage metrics",
       "HD mapping",
-      "Works on strip\u2011till, air seeders, drills, dry fertilizer applicators"
+      "Works on strip‑till, air seeders, drills, dry fertilizer applicators"
     ],
     "keyFeatures": null,
     "specs": null,
@@ -583,8 +583,8 @@
     "oemUrl": "https://www.precisionplanting.com/products/planters/conceal",
     "highlights": [
       "Cleanly tucked in row unit",
-      "3 inch off\u2011row placement",
-      "Efficient planter\u2011pass application"
+      "3 inch off‑row placement",
+      "Efficient planter‑pass application"
     ],
     "keyFeatures": null,
     "specs": null,
@@ -628,12 +628,12 @@
     "brand": "Precision Planting",
     "equipment": "Planters",
     "category": "Planters",
-    "tagline": "Fully custom, factory\u2011built system",
+    "tagline": "Fully custom, factory‑built system",
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/planters/cornerstone-planting-system",
     "highlights": [
       "Integrated hardware",
-      "Ease of in\u2011field use",
+      "Ease of in‑field use",
       "Durable and serviceable"
     ],
     "keyFeatures": null,
@@ -677,9 +677,9 @@
     "oemUrl": "https://www.precisionplanting.com/products/planters/deltaforce",
     "highlights": [
       "Automatically adjusts downforce 200x/sec",
-      "Row\u2011by\u2011row control",
+      "Row‑by‑row control",
       "Integrates with 20|20",
-      "Research\u2011backed yield protection"
+      "Research‑backed yield protection"
     ],
     "keyFeatures": null,
     "specs": null,
@@ -1179,12 +1179,12 @@
     "brand": "Precision Planting",
     "equipment": "Planters",
     "category": "Planters / Sidedress Bars",
-    "tagline": "Measure row\u2011by\u2011row fertilizer rates",
+    "tagline": "Measure row‑by‑row fertilizer rates",
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/planters/flowsense",
     "highlights": [
       "Actual rate per row",
-      "Detects row\u2011to\u2011row variability",
+      "Detects row‑to‑row variability",
       "Integrates with 20|20"
     ],
     "keyFeatures": null,
@@ -1269,11 +1269,11 @@
     "brand": "Precision Planting",
     "equipment": "Planters",
     "category": "Fertilizer Application",
-    "tagline": "In\u2011furrow starter placement",
+    "tagline": "In‑furrow starter placement",
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/planters/furrowjet",
     "highlights": [
-      "Multi\u2011band placement",
+      "Multi‑band placement",
       "Firms the seed",
       "Early nutrient access"
     ],
@@ -1972,7 +1972,7 @@
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/panorama",
     "highlights": [
-      "Row\u2011by\u2011row maps",
+      "Row‑by‑row maps",
       "Field averages",
       "Yield comparisons",
       "Automated data sharing"
@@ -2136,7 +2136,7 @@
     "equipment": "Hardware",
     "category": "Spray Tender",
     "tagline": "Automated chemical mixing system",
-    "shortDescription": "Automated chemical mixing/loading workflow\u2014enter acres or gallons and rates, and the system calculates batch amounts.",
+    "shortDescription": "Automated chemical mixing/loading workflow—enter acres or gallons and rates, and the system calculates batch amounts.",
     "oemUrl": "https://www.surepointag.com/quickdraw",
     "highlights": [
       "Automated mixing",
@@ -2669,8 +2669,8 @@
     "name": "SpeedTube",
     "brand": "Precision Planting",
     "equipment": "Planters",
-    "category": "Seed Tubes / High\u2011speed Planting",
-    "tagline": "High\u2011speed seed delivery system",
+    "category": "Seed Tubes / High‑speed Planting",
+    "tagline": "High‑speed seed delivery system",
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/planters/speedtube",
     "highlights": [
@@ -2821,7 +2821,7 @@
       "Turn compensation"
     ],
     "specs": [
-      "2\u201390 RPM",
+      "2–90 RPM",
       "12V system",
       "6.2A max output",
       "4.5 Nm max torque"
@@ -3367,7 +3367,7 @@
     "brand": "Precision Planting",
     "equipment": "Combines",
     "category": "Combines",
-    "tagline": "High\u2011definition harvest data",
+    "tagline": "High‑definition harvest data",
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/combines/yieldsense",
     "highlights": [
@@ -3560,7 +3560,7 @@
     "brand": "Precision Planting",
     "equipment": "Planters",
     "category": "Planters",
-    "tagline": "Single\u2011meter multi\u2011hybrid",
+    "tagline": "Single‑meter multi‑hybrid",
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/planters/mset",
     "highlights": [
@@ -3694,7 +3694,7 @@
     "highlights": [
       "High singulation",
       "No ongoing adjustments",
-      "Enables electric drive and high\u2011speed planting"
+      "Enables electric drive and high‑speed planting"
     ],
     "keyFeatures": null,
     "specs": null,
@@ -3740,7 +3740,7 @@
     "brand": "Precision Planting",
     "equipment": "Planters",
     "category": "Planters",
-    "tagline": "Dual meters for on\u2011the\u2011go hybrid switching",
+    "tagline": "Dual meters for on‑the‑go hybrid switching",
     "shortDescription": null,
     "oemUrl": "https://www.precisionplanting.com/products/planters/vset-select",
     "highlights": [
@@ -3966,7 +3966,7 @@
     "brand": "Ag Leader",
     "equipment": "Hardware",
     "category": "Displays",
-    "tagline": "A solution for every operation in every season \u2014 the NEW InCommand Go display.",
+    "tagline": "A solution for every operation in every season — the NEW InCommand Go display.",
     "shortDescription": "InCommand Go 16 is Ag Leader's full-featured, year-round 15.6\" display offering unparalleled visibility and control from a single screen. A larger viewing area keeps all information visible on the map screen without switching views, with dynamic, expandable/collapsible tiles and automatic map re-cen",
     "oemUrl": "https://www.agleader.com/incommand-go/",
     "highlights": [
@@ -4048,7 +4048,7 @@
     "brand": "Ag Leader",
     "equipment": "Hardware",
     "category": "Displays",
-    "tagline": "Every hero has a sidekick \u2014 the InCommand Go 10.",
+    "tagline": "Every hero has a sidekick — the InCommand Go 10.",
     "shortDescription": "InCommand Go 10 is a 10.1\" display that can be run as a standalone unit for operations that don't require the full functionality of the InCommand Go 16, or as a companion display alongside a Go 16. It now includes more features than ever before, including AutoSwath, basic planter module support, var",
     "oemUrl": "https://www.agleader.com/incommand-go/",
     "highlights": [
@@ -4138,7 +4138,7 @@
       "Instant response vs. up to 20-second lag for airbag/spring systems",
       "Fits most planters from 1 to 36 row configurations",
       "Dual-acting hydraulic actuator for consistent depth and smooth ride",
-      "Set to low/medium/heavy \u2014 system auto-adjusts to maintain gauge wheel load",
+      "Set to low/medium/heavy — system auto-adjusts to maintain gauge wheel load",
       "Controlled via InCommand Go 16 with row-level graphs and downforce-applied mapping"
     ],
     "specs": [
@@ -4148,7 +4148,7 @@
       "Instant response vs. up to 20-second lag for airbag/spring systems",
       "Fits most planters from 1 to 36 row configurations",
       "Dual-acting hydraulic actuator for consistent depth and smooth ride",
-      "Set to low/medium/heavy \u2014 system auto-adjusts to maintain gauge wheel load",
+      "Set to low/medium/heavy — system auto-adjusts to maintain gauge wheel load",
       "Controlled via InCommand Go 16 with row-level graphs and downforce-applied mapping"
     ],
     "worksWith": [],
@@ -4183,7 +4183,7 @@
     "equipment": "Hardware",
     "category": "Planter Products",
     "tagline": "A high-accuracy seed meter and delivery system providing superior in-ground seed placement at any speed up to 12 mph.",
-    "shortDescription": "SureSpeed is a high-accuracy, aftermarket seed meter and delivery system offering superior in-ground seed placement at any speed up to 12 mph. Its unique meter design and flighted delivery belt \u2014 with the lowest release point in the industry \u2014 maximize singulation and spacing at all speeds. Built wi",
+    "shortDescription": "SureSpeed is a high-accuracy, aftermarket seed meter and delivery system offering superior in-ground seed placement at any speed up to 12 mph. Its unique meter design and flighted delivery belt — with the lowest release point in the industry — maximize singulation and spacing at all speeds. Built wi",
     "oemUrl": "https://www.agleader.com/surespeed/",
     "highlights": [
       "24-volt system with brushless DC motors",
@@ -4227,7 +4227,7 @@
     ],
     "createdAt": "2026-07-27T22:23:12.421Z",
     "updatedAt": "2026-07-27T22:23:12.421Z",
-    "enrichedDescription": "SureSpeed is a high-accuracy, aftermarket seed meter and delivery system offering superior in-ground seed placement at any speed up to 12 mph. Its unique meter design and flighted delivery belt \u2014 with the lowest release point in the industry \u2014 maximize singulation and spacing at all speeds. Built with durable, individually replaceable components (24-volt system, brushless DC motors, Kevlar-reinforced belt), SureSpeed offers unmatched longevity and the lowest cost of ownership in its class. It retrofits most Case IH, Harvest International, John Deere, Kinze, and White planters, supports up to 54 rows, and is tool-free for crop changeover across corn, soybean, wheat/barley, cotton, sugar beet/milo, and sunflower disks.",
+    "enrichedDescription": "SureSpeed is a high-accuracy, aftermarket seed meter and delivery system offering superior in-ground seed placement at any speed up to 12 mph. Its unique meter design and flighted delivery belt — with the lowest release point in the industry — maximize singulation and spacing at all speeds. Built with durable, individually replaceable components (24-volt system, brushless DC motors, Kevlar-reinforced belt), SureSpeed offers unmatched longevity and the lowest cost of ownership in its class. It retrofits most Case IH, Harvest International, John Deere, Kinze, and White planters, supports up to 54 rows, and is tool-free for crop changeover across corn, soybean, wheat/barley, cotton, sugar beet/milo, and sunflower disks.",
     "detailedFeatures": null,
     "benefits": null,
     "researchFindings": null,
@@ -4261,7 +4261,7 @@
       "Variable rate / prescription-based population control",
       "Turn compensation across turns, contours, and terraces",
       "Maintenance-free, sealed construction",
-      "Fits most meters \u2014 installs directly on planter meter",
+      "Fits most meters — installs directly on planter meter",
       "Controlled by InCommand Go 16 display"
     ],
     "specs": [
@@ -4272,7 +4272,7 @@
       "Variable rate / prescription-based population control",
       "Turn compensation across turns, contours, and terraces",
       "Maintenance-free, sealed construction",
-      "Fits most meters \u2014 installs directly on planter meter",
+      "Fits most meters — installs directly on planter meter",
       "Controlled by InCommand Go 16 display"
     ],
     "worksWith": [],
@@ -4289,7 +4289,7 @@
     ],
     "createdAt": "2026-07-27T22:23:12.421Z",
     "updatedAt": "2026-07-27T22:23:12.421Z",
-    "enrichedDescription": "SureDrive is a maintenance-free electric drive that upgrades an existing planter meter with individual row-section control, variable-rate/prescription-based population control, and turn compensation. Each SureDrive row also acts as an individual section shutoff, reducing overlap, wasted seed, and lodged plants, and it automatically adjusts meter speed on each row to keep consistent population around turns, contours, and terraces. Its robust, sealed construction \u2014 four cold-forged, high-grade steel gears, precision bearings, and a drive chain submersed in full synthetic fluid \u2014 eliminates the maintenance of chains and bearings in traditional planter drive systems.",
+    "enrichedDescription": "SureDrive is a maintenance-free electric drive that upgrades an existing planter meter with individual row-section control, variable-rate/prescription-based population control, and turn compensation. Each SureDrive row also acts as an individual section shutoff, reducing overlap, wasted seed, and lodged plants, and it automatically adjusts meter speed on each row to keep consistent population around turns, contours, and terraces. Its robust, sealed construction — four cold-forged, high-grade steel gears, precision bearings, and a drive chain submersed in full synthetic fluid — eliminates the maintenance of chains and bearings in traditional planter drive systems.",
     "detailedFeatures": null,
     "benefits": null,
     "researchFindings": null,
@@ -4307,18 +4307,18 @@
     "equipment": "Hardware",
     "category": "Planter Products",
     "tagline": "SureStop electric row clutches turn planter sections on and off, row-by-row using automatic row shutoffs.",
-    "shortDescription": "SureStop electric row clutches provide individual or per-section row shutoff control to eliminate double planting at end rows, point rows, and partial swaths \u2014 lowering seed cost, increasing yield through even spacing, and increasing productivity by removing the need to slow down at end rows. The 12",
+    "shortDescription": "SureStop electric row clutches provide individual or per-section row shutoff control to eliminate double planting at end rows, point rows, and partial swaths — lowering seed cost, increasing yield through even spacing, and increasing productivity by removing the need to slow down at end rows. The 12",
     "oemUrl": "https://www.agleader.com/surestop/",
     "highlights": [
       "12V electric point row clutches install on each row",
       "Individual or per-section shutoff wiring options",
-      "Fits most planters \u2014 installs on popular brand and model planters",
+      "Fits most planters — installs on popular brand and model planters",
       "Sealed design for year-after-year durability"
     ],
     "keyFeatures": [
       "12V electric point row clutches install on each row",
       "Individual or per-section shutoff wiring options",
-      "Fits most planters \u2014 installs on popular brand and model planters",
+      "Fits most planters — installs on popular brand and model planters",
       "Sealed design for year-after-year durability",
       "Mounts between hex shaft and seed meter to start/stop the meter",
       "Stops seed meter for previously planted areas, headlands, waterways, and field boundaries",
@@ -4327,7 +4327,7 @@
     "specs": [
       "12V electric point row clutches install on each row",
       "Individual or per-section shutoff wiring options",
-      "Fits most planters \u2014 installs on popular brand and model planters",
+      "Fits most planters — installs on popular brand and model planters",
       "Sealed design for year-after-year durability",
       "Mounts between hex shaft and seed meter to start/stop the meter",
       "Stops seed meter for previously planted areas, headlands, waterways, and field boundaries",
@@ -4348,7 +4348,7 @@
     ],
     "createdAt": "2026-07-27T22:23:12.421Z",
     "updatedAt": "2026-07-27T22:23:12.421Z",
-    "enrichedDescription": "SureStop electric row clutches provide individual or per-section row shutoff control to eliminate double planting at end rows, point rows, and partial swaths \u2014 lowering seed cost, increasing yield through even spacing, and increasing productivity by removing the need to slow down at end rows. The 12V clutches mount on each row between the hex shaft and seed meter, use a rugged sealed design for year-after-year durability, and install on popular brand and model planters. Controlled by the InCommand Go displays, SureStop delivers pristine point rows and reduced seed waste.",
+    "enrichedDescription": "SureStop electric row clutches provide individual or per-section row shutoff control to eliminate double planting at end rows, point rows, and partial swaths — lowering seed cost, increasing yield through even spacing, and increasing productivity by removing the need to slow down at end rows. The 12V clutches mount on each row between the hex shaft and seed meter, use a rugged sealed design for year-after-year durability, and install on popular brand and model planters. Controlled by the InCommand Go displays, SureStop delivers pristine point rows and reduced seed waste.",
     "detailedFeatures": null,
     "benefits": null,
     "researchFindings": null,
@@ -6719,5 +6719,401 @@
     "brochures": [],
     "isVendorSweep": true,
     "vendorPriority": true
+  },
+  {
+    "id": "f4c5d36d-a19e-4e70-b748-d573f1a11689",
+    "name": "HeadSight | Corn",
+    "brand": "Precision Planting",
+    "equipment": "Combines",
+    "category": "Header Height Control",
+    "tagline": "Automatic corn header height control",
+    "shortDescription": "Maintaining corn header height control across the field is difficult. HeadSight automatic header height control is accurate and versatile, giving you the ability to focus on other details that matter.",
+    "oemUrl": "https://www.precisionplanting.com/products/headsight-corn",
+    "highlights": [
+      "Automatic calibration",
+      "In-cab monitoring and control of header functions",
+      "Up to 7 height sensors",
+      "Foresight compensates for snout movement near the ground"
+    ],
+    "keyFeatures": null,
+    "specs": null,
+    "worksWith": [
+      "TrueSight",
+      "TrueSense",
+      "HeadSight | Grain"
+    ],
+    "slug": "headsight-corn",
+    "logoBlack": null,
+    "logoDarkGreen": null,
+    "logoWhite": null,
+    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/463c84qpmfmjjg3kf8wpbx7/HeadSight_corn_2024?auto=webp&width=1200",
+    "images": [
+      "https://cdn.bfldr.com/7M6SII1K/as/463c84qpmfmjjg3kf8wpbx7/HeadSight_corn_2024?auto=webp&width=1200",
+      "https://cdn.bfldr.com/7M6SII1K/as/h87fnhh9sm3qhvkvnbsvsmqk/HeadSight_corn_2024?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/vrncbptr6bh8gck9367g53/WhitakerFarms_JohnDeere_Drago-108?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/f9bn5q25fk25sx698c9h3m8/WilraFarms_CaseIH_CaseIH-125?auto=webp&width=800"
+    ],
+    "createdAt": "2026-07-28T21:22:20.415Z",
+    "updatedAt": "2026-07-28T21:22:20.415Z",
+    "enrichedDescription": "HeadSight automatic header height control is an OEM and aftermarket solution for corn headers. Flexible poly arm sensors mounted in the snout measure the vertical distance to the ground, giving the combine an early warning of changes in ground surface, while the HeadSight Control System integrates header functions into the in-cab virtual terminal.",
+    "detailedFeatures": [
+      "Flexible Poly Arm Sensors: Spring-loaded in two directions to maintain constant ground contact and protect the sensor when reversing; works with most combines made in the last 35 years",
+      "HeadSight Control System: Automatic calibration, in-cab monitoring, and control of up to 7 height sensors via the combine's existing virtual terminal",
+      "Foresight: Compensates for snout movement using height sensors, restoring responsiveness that standard systems lose (50-75%) when snout tips touch the ground",
+      "Header Apps: Custom header-specific apps partnered with Capello, Drago, Geringhoff, GTS, and Maya for in-cab monitoring and control"
+    ],
+    "benefits": [
+      "Capture Yield and Decrease Fatigue: Maximizes harvest with minimum stress by handling height/tilt calculation and adjustment automatically",
+      "Consistent Stalk Residue: Accurate height control creates a more consistent stalk-to-residue ratio, improving soil warming and seed bed prep for next planting",
+      "Improves harvestable yield in down corn and allows faster harvest speeds"
+    ],
+    "researchFindings": null,
+    "compatibilityDetails": null,
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-28T21:22:20.415Z"
+  },
+  {
+    "id": "2004d74b-7dfc-42d6-a2d7-e51917d0b4c9",
+    "name": "HeadSight | Grain",
+    "brand": "Precision Planting",
+    "equipment": "Combines",
+    "category": "Header Height Control",
+    "tagline": "Automatic grain header height control",
+    "shortDescription": "Maintaining grain header height control across the field is difficult. HeadSight automatic header height control is accurate and versatile, giving you the ability to focus on other details that matter.",
+    "oemUrl": "https://www.precisionplanting.com/products/headsight-grain",
+    "highlights": [
+      "Three sensor mounting styles: Standard, Terrace, Low-Pro",
+      "Automatic calibration",
+      "Supports up to 7 height sensors",
+      "Feathersight allows running the header up to 15 inches off the ground"
+    ],
+    "keyFeatures": null,
+    "specs": null,
+    "worksWith": [
+      "HeadSight | Corn"
+    ],
+    "slug": "headsight-grain",
+    "logoBlack": null,
+    "logoDarkGreen": null,
+    "logoWhite": null,
+    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/hgm9ksjzm9g5r5r5vcprhc9/HeadSight_Terrace_grain_2024?auto=webp&width=1200",
+    "images": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hgm9ksjzm9g5r5r5vcprhc9/HeadSight_Terrace_grain_2024?auto=webp&width=1200",
+      "https://cdn.bfldr.com/7M6SII1K/as/phvwcgxhrpvss835rn85jmh5/HeadSight_Standard_grain_2024?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/7gc5vjjpsh5stms9w4vpw3b/Low-Pro-Grain_Poly_Arm_Sensor_Mount?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/jcg7v946nbb454b4r7mc3zh/HeadSight_Grain_VT_Screen?auto=webp&width=800"
+    ],
+    "createdAt": "2026-07-28T21:22:20.415Z",
+    "updatedAt": "2026-07-28T21:22:20.415Z",
+    "enrichedDescription": "HeadSight automatic header height control is an OEM and aftermarket solution for grain headers, offered with three poly arm sensor mounting styles (Standard, Terrace, Low-Pro) to accommodate different headers and ground conditions. The HeadSight Control System integrates header functions into the in-cab virtual terminal, and Feathersight software enables precision feathering for rigid cutter bars.",
+    "detailedFeatures": [
+      "Poly Arm Sensors: Standard (mounts behind cutter bar for flex/draper headers), Terrace (narrow profile mounts in front on crop dividers for earlier warning, recommended for challenging terrain), Low-Pro (compact, mounts under cutter bar for rigid configurations)",
+      "HeadSight Control System: Automatic calibration, in-cab monitoring, and control of up to 7 height sensors",
+      "Feathersight Software: Reads height sensors and feeder house lift cylinder pressure to float the header on the ground up to fifteen inches, beyond standard/float mode limitations",
+      "Shelbourne App: Partnership integration for grain headers with rotor/auger speed control, lube cycling, and maintenance reminders in-cab"
+    ],
+    "benefits": [
+      "Capture Yield and Decrease Fatigue: Maximizes harvest with minimum stress, especially in challenging terrain or damaged crops",
+      "Upgrade Your Standard Control: Superior accuracy versus OEM height control systems that come standard on grain headers"
+    ],
+    "researchFindings": null,
+    "compatibilityDetails": null,
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-28T21:22:20.415Z"
+  },
+  {
+    "id": "1a03760e-e047-4ea8-94d0-59006d88319c",
+    "name": "TrueSense",
+    "brand": "Precision Planting",
+    "equipment": "Combines",
+    "category": "Row Guidance",
+    "tagline": "Improved combine steering",
+    "shortDescription": "Standard row guidance systems can be inadequate. TrueSense adds accurate sensing capabilities to improve your OEM combine's steering controls to capture more yield and reduce operator fatigue while harvesting corn.",
+    "oemUrl": "https://www.precisionplanting.com/products/truesense",
+    "highlights": [
+      "Single crop-sensor design",
+      "Improves OEM steering by adding sensing (requires OEM guidance unlock)",
+      "Dual-row sensing for accuracy",
+      "Compatible with John Deere RowSense and Lexion AutoPilot"
+    ],
+    "keyFeatures": null,
+    "specs": null,
+    "worksWith": [
+      "HeadSight | Corn",
+      "TrueSight"
+    ],
+    "slug": "truesense",
+    "logoBlack": null,
+    "logoDarkGreen": null,
+    "logoWhite": null,
+    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/gzmmvbrffw956n4hbnmn3s8h/TrueSense_TrueSight_2024?auto=webp&width=1200",
+    "images": [
+      "https://cdn.bfldr.com/7M6SII1K/as/gzmmvbrffw956n4hbnmn3s8h/TrueSense_TrueSight_2024?auto=webp&width=1200",
+      "https://cdn.bfldr.com/7M6SII1K/as/2pkhphx7699p6khwz9vx8hg/SchlipfFarms_JohnDeere_JohnDeere-116?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/wrxsvxqjxpr8mxf6n3rg8gvp/SchlipfFarms_JohnDeere_JohnDeere-128?auto=webp&width=800"
+    ],
+    "createdAt": "2026-07-28T21:22:20.415Z",
+    "updatedAt": "2026-07-28T21:22:20.415Z",
+    "enrichedDescription": "TrueSense uses a single crop sensor design paired with OEM steering controls to improve row guidance on corn headers, keeping the combine on-row through poor visibility, challenging terrain, and down corn. Unlike TrueSight, it enhances the existing OEM steering system rather than replacing it, and requires an OEM guidance unlock.",
+    "detailedFeatures": [
+      "Dual-Row Sensing: Flexible poly sensor feels for two rows instead of standard single-row detection, improving accuracy and response; auto-engages on/off without leaving the hydro handle",
+      "Works with OEM steering controls rather than replacing them — only compatible with John Deere RowSense and Lexion AutoPilot"
+    ],
+    "benefits": [
+      "Decrease Operator Fatigue: Frees the operator to focus on other cab settings with assurance the header stays on track",
+      "Increase Productivity: Improves material flow and feeding into the header, reducing snout damage and increasing harvest speed in down corn"
+    ],
+    "researchFindings": null,
+    "compatibilityDetails": null,
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-28T21:22:20.415Z"
+  },
+  {
+    "id": "d403f8a1-3981-432e-b9d3-11ebd3454e5e",
+    "name": "TrueSight",
+    "brand": "Precision Planting",
+    "equipment": "Combines",
+    "category": "Row Guidance",
+    "tagline": "Full combine steering control",
+    "shortDescription": "Harvest season can be challenging and stressful. TrueSight controls your combine and steers your corn header to keep you on track, even through poor visibility, sloping terrain and down corn.",
+    "oemUrl": "https://www.precisionplanting.com/products/truesight",
+    "highlights": [
+      "Directly controls steering valves or the steering motor",
+      "Replaces OEM control with advanced steering and control",
+      "Dual-row sensing",
+      "Wide combine compatibility"
+    ],
+    "keyFeatures": null,
+    "specs": null,
+    "worksWith": [
+      "HeadSight | Corn",
+      "TrueSense"
+    ],
+    "slug": "truesight",
+    "logoBlack": null,
+    "logoDarkGreen": null,
+    "logoWhite": null,
+    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/gzmmvbrffw956n4hbnmn3s8h/TrueSense_TrueSight_2024?auto=webp&width=1200",
+    "images": [
+      "https://cdn.bfldr.com/7M6SII1K/as/gzmmvbrffw956n4hbnmn3s8h/TrueSense_TrueSight_2024?auto=webp&width=1200",
+      "https://cdn.bfldr.com/7M6SII1K/as/w5c7ptx5qw6659gsqf2bbghn/JoshStoller_CaseIH_Geringhoff-107?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/8t6f73gvzjfnmwkqxcpms7r/JoshStoller_CaseIH_Geringhoff-121?auto=webp&width=800"
+    ],
+    "createdAt": "2026-07-28T21:22:20.415Z",
+    "updatedAt": "2026-07-28T21:22:20.415Z",
+    "enrichedDescription": "TrueSight provides full combine steering control, directly controlling steering valves or the steering motor to keep the header on-row through poor visibility, sloping terrain, and down corn. Unlike TrueSense, it replaces OEM steering control entirely rather than augmenting it, giving it wide compatibility across combine makes.",
+    "detailedFeatures": [
+      "Dual Row Sensing: Flexible poly sensor feels for two rows for improved accuracy and response, especially in challenging conditions; auto-engages without leaving the hydro handle",
+      "Easy Operation and Calibration: Operators interface directly from the combine's OEM virtual terminal display",
+      "Independent research found a typical corn grower could capture an additional 0.3-0.7 Bu/A in harvested yield compared to manual steering"
+    ],
+    "benefits": [
+      "Decrease Operator Fatigue and increase productivity by reducing snout damage and improving material feeding into the header",
+      "Customer quote: \"I am not sure I would buy a combine without TrueSight. It was a lifesaver for me this year.\" — Gary, Illinois"
+    ],
+    "researchFindings": null,
+    "compatibilityDetails": "TrueSense improves OEM combine steering by adding sensing and requires an OEM guidance unlock (John Deere RowSense / Lexion AutoPilot only). TrueSight instead replaces OEM control outright with wide compatibility across combine makes.",
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-28T21:22:20.415Z"
+  },
+  {
+    "id": "38e53c7a-7c68-4721-9002-cf5841ae36b0",
+    "name": "YieldSight",
+    "brand": "Precision Planting",
+    "equipment": "Combines",
+    "category": "Yield Monitoring",
+    "tagline": "Collect and manage harvest data",
+    "shortDescription": "With YieldSight, the 20|20 can read grain flow and moisture from the OEM system and enable you to view yield maps in both your 20|20 and Panorama — streamlining your data processing workflow.",
+    "oemUrl": "https://www.precisionplanting.com/products/yieldsight",
+    "highlights": [
+      "Reads grain flow and moisture from the OEM system",
+      "Compatible with Ideal and Gleaner combines (2016+)",
+      "In-field yield maps via 20|20",
+      "Post-harvest analysis in Panorama"
+    ],
+    "keyFeatures": null,
+    "specs": null,
+    "worksWith": [
+      "20|20",
+      "Panorama",
+      "YieldSense"
+    ],
+    "slug": "yieldsight",
+    "logoBlack": null,
+    "logoDarkGreen": null,
+    "logoWhite": null,
+    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/psv79bkzpn93v7tv79brpqh/YieldSight_Harnessing?auto=webp&width=1200",
+    "images": [
+      "https://cdn.bfldr.com/7M6SII1K/as/psv79bkzpn93v7tv79brpqh/YieldSight_Harnessing?auto=webp&width=1200",
+      "https://cdn.bfldr.com/7M6SII1K/as/tp8wmf54sv9qh5p84rbw5psr/RingFarms_Gleaner_Drago-105?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/rm6vqzgnj8vr45wx9x5zfwt3/YieldSight_InCab2020?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/3b5g6m849wm3t7rb83vbgwt/Panorama_Yield_x_Hybrid_Split_Map_Mac?auto=webp&width=800"
+    ],
+    "createdAt": "2026-07-28T21:22:20.415Z",
+    "updatedAt": "2026-07-28T21:22:20.415Z",
+    "enrichedDescription": "YieldSight lets the 20|20 read grain flow and moisture directly from the OEM system on Ideal and Gleaner combines (model year 2016+), without requiring YieldSense, so operators can view yield maps in-cab and in Panorama with the same data accuracy as the machine's own flow sensor.",
+    "detailedFeatures": [
+      "Use Your 20|20 to Collect Harvest Data: Read grain flow and moisture from the OEM system and view yield maps in-field throughout harvest",
+      "Yield: 'Instant Dry Yield' (3-second average at current position) and 'Field Average Yield' displayed live",
+      "Moisture: 'Instant' and 'Field Average' moisture values from the moisture sensor",
+      "Summary: Total field acres, yield, moisture, total bushels and pounds harvested once done",
+      "Analyze Data Post-Harvest in Panorama: View harvest data side-by-side with planting and spraying maps"
+    ],
+    "benefits": [
+      "Compatible with Your OEM Machine: Works with Ideal and Gleaner combines without needing YieldSense, same data accuracy as the machine's flow sensor",
+      "Streamlines the full data workflow from in-field collection through post-season analysis"
+    ],
+    "researchFindings": null,
+    "compatibilityDetails": null,
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-28T21:22:20.415Z"
+  },
+  {
+    "id": "895755b0-97b5-4d6b-b8ff-f4bcf4ac8134",
+    "name": "SmokeRow",
+    "brand": "Precision Planting",
+    "equipment": "Sprayers",
+    "category": "Boom Accessories",
+    "tagline": "Spray beyond the boom",
+    "shortDescription": "Weeds at the field edge are hard to control, creeping into your field if left unmanaged. SmokeRow allows you to control end-of-boom nozzles that spray a secondary tank chemistry beyond the boom, eliminating weed escape at the field edge.",
+    "oemUrl": "https://www.precisionplanting.com/products/smokerow",
+    "highlights": [
+      "End-of-boom nozzles spray a secondary tank chemistry",
+      "Two nozzles for short and long-distance coverage",
+      "Simple on/off pump switch, nozzle selector, foot switch",
+      "Targets road ditches, waterways, fencelines, utility poles"
+    ],
+    "keyFeatures": null,
+    "specs": null,
+    "worksWith": [
+      "SymphonyNozzle",
+      "SymphonyVision"
+    ],
+    "slug": "smokerow",
+    "logoBlack": null,
+    "logoDarkGreen": null,
+    "logoWhite": null,
+    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/73vw4r7cpw749fpp2wf76qwf/SmokeRow_left_2025?auto=webp&width=1200",
+    "images": [
+      "https://cdn.bfldr.com/7M6SII1K/as/73vw4r7cpw749fpp2wf76qwf/SmokeRow_left_2025?auto=webp&width=1200",
+      "https://cdn.bfldr.com/7M6SII1K/as/7g8wp9fjhx62777qmfhfccj/20251024_PTXSmokerow_SL2_2671?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/79h5h38wvm36kb7m8wbmck3/20251024_PTXSmokerow_SL2_2690?auto=webp&width=800"
+    ],
+    "createdAt": "2026-07-28T21:22:20.415Z",
+    "updatedAt": "2026-07-28T21:22:20.415Z",
+    "enrichedDescription": "SmokeRow controls end-of-boom nozzles that pull a different herbicide from a secondary tank, spraying beyond the boom to eliminate weed escape at the field edge in the same pass as the rest of the field, saving time and money versus going back in with a hand sprayer.",
+    "detailedFeatures": [
+      "One Pass, Total Control: Nozzles mounted at the end of the boom pull herbicide from a secondary tank to treat field edges in the same pass",
+      "Two nozzles designed for short and long-distance coverage, usable separately or together to modify spray patterns across different widths",
+      "Adapt to Your Needs: Adjust secondary tank chemistry (e.g. non-selective for small grains, broadleaf-only to protect beneficial grasses) via pump switch, nozzle selector, and foot switch"
+    ],
+    "benefits": [
+      "Spray Smarter: Addresses field-edge weed pressure before it impacts yield, instead of waiting to go back with a hand sprayer",
+      "Saves time and reduces chemical exposure"
+    ],
+    "researchFindings": null,
+    "compatibilityDetails": null,
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-28T21:22:20.415Z"
+  },
+  {
+    "id": "f42cc193-0aa9-45cd-8686-635d7fc343fa",
+    "name": "ReClaim",
+    "brand": "Precision Planting",
+    "equipment": "Sprayers",
+    "category": "Boom Accessories",
+    "tagline": "Safe & simple sprayer priming",
+    "shortDescription": "Priming traditional sprayer booms wastes product on the ground. ReClaim eliminates that by priming your booms before a nozzle ever opens, so your first droplets are effective while saving time, product, and reducing environmental risk.",
+    "oemUrl": "https://www.precisionplanting.com/products/sprayers/reclaim",
+    "highlights": [
+      "Primes booms before any nozzle opens",
+      "Works with traditional check-valve and PWM nozzles",
+      "Automates boom cleanout with clean water recirculation",
+      "Retrofits onto existing sprayer"
+    ],
+    "keyFeatures": null,
+    "specs": null,
+    "worksWith": [
+      "SymphonyNozzle",
+      "SymphonyVision"
+    ],
+    "slug": "reclaim",
+    "logoBlack": null,
+    "logoDarkGreen": null,
+    "logoWhite": null,
+    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/nbhfjmchvgfxcnp3tx6j7rr/ReClaim_switch?auto=webp&width=1200",
+    "images": [
+      "https://cdn.bfldr.com/7M6SII1K/as/nbhfjmchvgfxcnp3tx6j7rr/ReClaim_switch?auto=webp&width=1200",
+      "https://cdn.bfldr.com/7M6SII1K/as/mh26hp4q9nqb5tm9gksq8/ReClaim_PWM001?auto=webp&width=800"
+    ],
+    "createdAt": "2026-07-28T21:22:20.415Z",
+    "updatedAt": "2026-07-28T21:22:20.415Z",
+    "enrichedDescription": "ReClaim adds a recirculation system to a sprayer, creating a flow path from the end of each nozzle bar section back to the tank so every nozzle gets the right product concentration before spraying starts. A single switch starts recirculation and indicates when product has returned to the tank, and the system also automates boom cleanout using a clean water tank.",
+    "detailedFeatures": [
+      "Recirculate and Save: New flow path from boom section ends to the tank ensures correct concentration at every nozzle before opening",
+      "Automate Your Boom Cleanout: Circulates clean water through all boom lines back to the tank, eliminating end-cap dead zones where sediment accumulates",
+      "Available for both traditional check-valve nozzles and PWM nozzles (PWM version has streamlined plumbing plus electronic air purge)"
+    ],
+    "benefits": [
+      "Priming Shouldn't Be a Risk: Eliminates the time cost and chemical/safety risk of backing up to a ditch to prime booms",
+      "Customer quote: \"Adding ReClaim has given me confidence...the booms are fully purged and full of straight chemical, ready to spray.\" — Christopher Stoller, Illinois"
+    ],
+    "researchFindings": null,
+    "compatibilityDetails": null,
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-28T21:22:20.415Z"
+  },
+  {
+    "id": "5e43819f-01f6-4f15-b15b-5396cbeb8374",
+    "name": "SymphonyVision",
+    "brand": "Precision Planting",
+    "equipment": "Sprayers",
+    "category": "Camera Systems",
+    "tagline": "Vision-based spot and variable-rate spraying",
+    "shortDescription": "SymphonyVision cameras intelligently adjust sprayer application based on real-time weed detection. Available in Spot (spot-spray only), Rate (vision-based variable rate), and Duo (blanket + spot spray in a single pass) configurations.",
+    "oemUrl": "https://www.precisionplanting.com/products/symphonyvision-duo",
+    "highlights": [
+      "Real-time camera-based weed detection and rate adjustment",
+      "Duo mode: broadcast residuals/fertilizer + spot-spray contact herbicide in one pass",
+      "Retrofittable to current sprayer, no per-acre fees",
+      "Integrates with Panorama for weed density/severity mapping"
+    ],
+    "keyFeatures": null,
+    "specs": null,
+    "worksWith": [
+      "SymphonyNozzle",
+      "20|20",
+      "Panorama",
+      "SmokeRow"
+    ],
+    "slug": "symphonyvision",
+    "logoBlack": null,
+    "logoDarkGreen": null,
+    "logoWhite": null,
+    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/5bk3kjtpxs7tjkj6c5xsg5pb/SymphonyVision_Duo_Product_Image_-_Website?auto=webp&width=1200",
+    "images": [
+      "https://cdn.bfldr.com/7M6SII1K/as/5bk3kjtpxs7tjkj6c5xsg5pb/SymphonyVision_Duo_Product_Image_-_Website?auto=webp&width=1200",
+      "https://cdn.bfldr.com/7M6SII1K/as/vkp32kpntq63r8ss7hxzttwt/PT26-027-CH_SymphonyVision_Duo_John_Deere_Hettinger_Farms_260527_Image_005?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/vhrfbr46fjs4knkcx6wsb5/PT26-027-CH_SymphonyVision_Duo_John_Deere_Hettinger_Farms_260527_Image_033?auto=webp&width=800",
+      "https://cdn.bfldr.com/7M6SII1K/as/tkgcbzfswwgpcs9gsmjsmm3n/SymphonyVision_Duo_Panorama_Coverage_Map?auto=webp&width=800"
+    ],
+    "createdAt": "2026-07-28T21:22:20.415Z",
+    "updatedAt": "2026-07-28T21:22:20.415Z",
+    "enrichedDescription": "SymphonyVision uses onboard cameras to make real-time rate adjustments based on weed detection in the field. SymphonyVision | Spot performs vision-based spot spraying; SymphonyVision | Rate performs vision-based variable rate spraying; and SymphonyVision | Duo combines both, broadcast-applying residuals, fertilizer, or fungicide while simultaneously spot-spraying contact herbicides via a dual-nozzle injection system, preserving primary tank capacity. Duo is a limited commercial launch in spring 2026, with full availability expected fall 2026.",
+    "detailedFeatures": [
+      "Dual Application (Duo): Broadcast residual/fertilizer/fungicide while spot-spraying contact herbicide in the same pass via dual nozzles and an injection system",
+      "See and Adjust: Vision cameras make real-time rate adjustments based on field conditions",
+      "Mix Your Contact on the Go: Injection system carries contact herbicide concentrate, mixed with bulk tank solution and sent to a secondary wet boom on the go",
+      "SymphonyVision Foundation requires 20|20, SymphonyNozzle, and SymphonyVision cameras (count depends on desired capability)",
+      "Panorama integration: Weed Density Map, Weed Severity Map (unique metric combining weed size + density), Weed Type classification, and same-day scouting data"
+    ],
+    "benefits": [
+      "Simplify Spraying: No split-tank management, no separate mixing/rinsing/refilling; preserves primary tank capacity so more acres can be sprayed between fills",
+      "Retrofittable to current sprayer with no per-acre fees and no loss of operational efficiency"
+    ],
+    "researchFindings": null,
+    "compatibilityDetails": "Three configurations available: SymphonyVision | Spot (spot spray only), SymphonyVision | Rate (variable rate only), and SymphonyVision | Duo (both simultaneously). All require the SymphonyVision Foundation (20|20 + SymphonyNozzle + cameras).",
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-28T21:22:20.415Z"
   }
 ]

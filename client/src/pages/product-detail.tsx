@@ -9,42 +9,11 @@ import { ArrowLeft, ExternalLink, Phone, Mail, CheckCircle2, MessageSquare } fro
 import type { Product } from "@shared/schema";
 import { getVendorLogo } from "@/lib/vendorLogos";
 
-// Helper function to get related resources based on product
-const getRelatedResources = (productSlug: string): Array<{slug: string, title: string}> => {
-  const resourceMappings: Record<string, Array<{slug: string, title: string}>> = {
-    "20-20": [
-      { slug: "display-monitors", title: "Display Monitors" },
-      { slug: "data-management", title: "Data Management" }
-    ],
-    "deltaforce": [
-      { slug: "downforce-control", title: "Downforce Control" },
-      { slug: "downforce-dan-planter-upgrade-story", title: "Downforce Dan Success Story" }
-    ],
-    "vset": [
-      { slug: "seed-meters-drive-systems", title: "Seed Meters & Drive Systems" },
-      { slug: "high-speed-hank", title: "High Speed Planting" }
-    ],
-    "smartfirmer": [
-      { slug: "seed-firmers", title: "Seed Firmers" },
-      { slug: "from-cleaning-to-closing-the-three-cs-of-emergence", title: "Three C's of Emergence" }
-    ],
-    "reveal": [
-      { slug: "row-cleaners", title: "Row Cleaners" },
-      { slug: "from-cleaning-to-closing-the-three-cs-of-emergence", title: "Three C's of Emergence" }
-    ],
-    "furrowforce": [
-      { slug: "closing-systems", title: "Closing Systems" },
-      { slug: "from-cleaning-to-closing-the-three-cs-of-emergence", title: "Three C's of Emergence" }
-    ],
-    "vapplyhd": [
-      { slug: "fertilizer-application", title: "Fertilizer Application" }
-    ],
-    "clarity": [
-      { slug: "fertilizer-application", title: "Fertilizer Application" }
-    ]
-  };
-  return resourceMappings[productSlug] || [];
-};
+interface RelatedResource {
+  slug: string;
+  title: string;
+  categoryLabel: string;
+}
 
 export default function ProductDetail() {
   const params = useParams();
@@ -55,6 +24,12 @@ export default function ProductDetail() {
     queryFn: () => fetch(`/api/products/${slug}?enrich=true`).then(res => res.json()),
     enabled: !!slug,
     staleTime: 0, // Always fetch fresh data for product details
+  });
+
+  const { data: relatedResources } = useQuery<RelatedResource[]>({
+    queryKey: ['/api/resources', 'productSlug', slug],
+    queryFn: () => fetch(`/api/resources?productSlug=${slug}`).then(res => res.json()),
+    enabled: !!slug,
   });
 
   if (isLoading) {
@@ -378,24 +353,28 @@ export default function ProductDetail() {
             </Card>
 
             {/* Related Resources */}
-            <Card>
-              <CardHeader>
-                <CardTitle>Related Resources</CardTitle>
-                <CardDescription>
-                  Learn more about implementing this technology
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                {getRelatedResources(product.slug).map((resource, index) => (
-                  <Button key={index} variant="ghost" asChild className="w-full justify-start">
-                    <Link href={`/resources/${resource.slug}`}>
-                      <ArrowLeft className="mr-2 h-4 w-4" />
-                      {resource.title}
-                    </Link>
-                  </Button>
-                ))}
-              </CardContent>
-            </Card>
+            {relatedResources && relatedResources.length > 0 && (
+              <Card>
+                <CardHeader>
+                  <CardTitle>Research & Resources</CardTitle>
+                  <CardDescription>
+                    Real field data and guides for this product
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  {relatedResources.map((resource) => (
+                    <Button key={resource.slug} variant="ghost" asChild className="w-full justify-start h-auto text-left py-2">
+                      <Link href={`/resources/${resource.slug}`}>
+                        <div>
+                          <Badge variant="secondary" className="mb-1 text-xs">{resource.categoryLabel}</Badge>
+                          <div>{resource.title}</div>
+                        </div>
+                      </Link>
+                    </Button>
+                  ))}
+                </CardContent>
+              </Card>
+            )}
 
             {/* Product Info */}
             <Card>

@@ -15,6 +15,9 @@ const products = JSON.parse(
 const vendorResources = JSON.parse(
   fs.readFileSync(path.join(root, "functions", "_data", "vendor-resources.json"), "utf-8")
 );
+const resources = JSON.parse(
+  fs.readFileSync(path.join(root, "functions", "_data", "resources.json"), "utf-8")
+);
 
 const baseUrl = "https://vantage-south.com";
 const now = new Date().toISOString().split("T")[0];
@@ -169,6 +172,7 @@ for (const url of allLocations) xml += urlEntry(url, "monthly", "0.7");
 for (const url of serviceLocationUrls) xml += urlEntry(url, "monthly", "0.6");
 for (const product of products) xml += urlEntry(`/product/${product.slug}`, "weekly", "0.6");
 for (const vendor of vendorResources) xml += urlEntry(`/vendor-resources/${vendor.slug}`, "weekly", "0.6");
+for (const resource of resources) xml += urlEntry(`/resources/${resource.slug}`, "monthly", resource.category === "research" ? "0.7" : "0.6");
 
 xml += "</urlset>";
 
@@ -190,5 +194,5 @@ Disallow: /api/
 fs.writeFileSync(path.join(outDir, "robots.txt"), robotsTxt);
 
 console.log(
-  `Generated sitemap.xml (${staticRoutes.length + territoryHubs.length + services.length + crops.length + allLocations.length + serviceLocationUrls.length + products.length + vendorResources.length} urls) and robots.txt`
+  `Generated sitemap.xml (${staticRoutes.length + territoryHubs.length + services.length + crops.length + allLocations.length + serviceLocationUrls.length + products.length + vendorResources.length + resources.length} urls) and robots.txt`
 );
