@@ -1,0 +1,52 @@
+{
+  "okCount": 681,
+  "failCount": 9,
+  "totalBytes": 22794467,
+  "failures": [
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/58e70fb8d2b8571f859b2b92/1493390307426-RYE2E59G1QOFXJIUDUFI/18156849_793163060834714_3807701917348021456_n.jpg",
+      "error": "HTTP 404",
+      "vendor": "harvest-international"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/58e70fb8d2b8571f859b2b92/1704397489458-3TL2BQWHKJTOY7T86/LT1_OH_10.24.2300013.JPG",
+      "error": "HTTP 404",
+      "vendor": "harvest-international"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/58e70fb8d2b8571f859b2b92/1546372869758-XBST33WMAJ87OYS9HZ9/HI122718_12.jpg",
+      "error": "HTTP 404",
+      "vendor": "harvest-international"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/58e70fb8d2b8571f859b2b92/1730982931477-C813IHHF6S80QCNML93S/2021.05.CommandTill.00026.jpg",
+      "error": "HTTP 404",
+      "vendor": "harvest-international"
+    },
+    {
+      "url": "https://www.agleader.com/wp-content/uploads/2026/04/Z-Row-CLP.png",
+      "error": "HTTP 404",
+      "vendor": "ag-leader"
+    },
+    {
+      "url": "https://www.agleader.com/wp-content/uploads/2026/02/RightSpot-Logo.png",
+      "error": "HTTP 404",
+      "vendor": "ag-leader"
+    },
+    {
+      "url": "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Grasshopper-HDR-03-scaled.jpg",
+      "error": "HTTP 404",
+      "vendor": "salford"
+    },
+    {
+      "url": "https://s7d9.scene7.com/is/image/agco/ptxt-weekseeker2-product-hero?fmt=png-alpha",
+      "error": "HTTP 403",
+      "vendor": "ptx-trimble"
+    },
+    {
+      "url": "https://www.agleader.com/wp-content/uploads/2024/10/Both-angled-harvest.png",
+      "error": "terminated",
+      "vendor": "ag-leader"
+    }
+  ]
+}

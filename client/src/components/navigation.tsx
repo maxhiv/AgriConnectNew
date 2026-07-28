@@ -127,18 +127,29 @@ export default function Navigation() {
                 )}
               </div>
               
-              <Link 
+              <Link
                 href="/resources"
                 className={`px-3 py-2  text-sm font-medium transition-colors ${
-                  isActive('/resources') 
-                    ? 'text-ptx-medium-green bg-ptx-bright-green/10' 
+                  isActive('/resources')
+                    ? 'text-ptx-medium-green bg-ptx-bright-green/10'
                     : 'text-ptx-dark-green hover:text-ptx-medium-green'
                 }`}
                 data-testid="nav-resources"
               >
                 Resources
               </Link>
-              <a 
+              <Link
+                href="/vendor-resources"
+                className={`px-3 py-2  text-sm font-medium transition-colors ${
+                  isActive('/vendor-resources')
+                    ? 'text-ptx-medium-green bg-ptx-bright-green/10'
+                    : 'text-ptx-dark-green hover:text-ptx-medium-green'
+                }`}
+                data-testid="nav-vendor-resources"
+              >
+                Vendors
+              </Link>
+              <a
                 href="#contact"
                 className="bg-ptx-bright-green text-ptx-white px-4 py-2  text-sm font-medium hover:bg-ptx-medium-green transition-colors"
                 data-testid="nav-contact"
@@ -232,7 +243,19 @@ export default function Navigation() {
             >
               Resources
             </Link>
-            <a 
+            <Link
+              href="/vendor-resources"
+              onClick={handleMobileMenuClick}
+              className={`block px-3 py-2  text-base font-medium ${
+                isActive('/vendor-resources')
+                  ? 'text-ptx-medium-green bg-ptx-bright-green/10'
+                  : 'text-ptx-dark-green hover:text-ptx-medium-green'
+              }`}
+              data-testid="mobile-nav-vendor-resources"
+            >
+              Vendors
+            </Link>
+            <a
               href="#contact"
               onClick={handleMobileMenuClick}
               className="block px-3 py-2  text-base font-medium bg-ptx-bright-green text-ptx-white hover:bg-ptx-medium-green transition-colors"

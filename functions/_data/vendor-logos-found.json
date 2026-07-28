@@ -1,0 +1,47 @@
+[
+  {
+    "vendor": "PTx Trimble",
+    "logoUrl": "https://s7d9.scene7.com/is/image/agco/header-ptx-c-90x60?fmt=png-alpha&wid=1200",
+    "notes": "ptxtrimble.com redirects to ptxag.com. The site header itself only serves a white-text 'PTx' wordmark (PTx_Logo_MLight_RGB, invisible on white bg). Found a dark-green/orange full-color version of the same PTx icon+wordmark used on AGCO's corporate site (agcocorp.com brands page), served from AGCO's Scene7 image CDN which also hosts ptxag.com's own logo assets. Verified 200, PNG with alpha. Note: this shows the 'PTx' mark only, not the fuller 'PTx Trimble' text."
+  },
+  {
+    "vendor": "Ag Leader",
+    "logoUrl": "https://www.agleader.com/wp-content/uploads/2024/04/Ag-Leader-Logo1-1.png",
+    "notes": "Found directly in the site header/nav (class=\"nav-logo\"). Blue full-color wordmark with triangle mark, transparent background PNG, works well on white. Verified 200."
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "logoUrl": "https://static.wixstatic.com/media/091105_4f0c35a4af674e9daa2b02fc700dd4b6~mv2.png",
+    "notes": "Site is built on Wix; header logo img src included Wix crop/resize transform params producing a tiny 66x68 thumbnail. Stripped the transform path to get Wix's original full-resolution asset (2000x710 PNG, transparent bg, full color navy/orange 'SurePoint Ag Systems' logo). Verified 200."
+  },
+  {
+    "vendor": "Salford",
+    "logoUrl": "https://salfordgroup.com/wp-content/uploads/2021/10/Salford_Logo_2021__BLK.png",
+    "notes": "Site header only serves a white-outline logo (Salford_Logo_2021_Pack_Outline-White), unusable on white bg. Queried the WordPress media library REST API (wp-json/wp/v2/media?search=Salford_Logo) and found a black version explicitly labeled 'Salford Group Logo - Black' among the uploaded logo pack variants. PNG, transparent background, verified 200."
+  },
+  {
+    "vendor": "AMAZONE",
+    "logoUrl": "https://amazone.net/resource/crblob/1844/9707bc9bce9a3e79fe763c4752fc6ce4/signet-svg-data.svg",
+    "notes": "The site header/nav and their downloadcenter both only serve a white-only 'AMAZONE' wordmark SVG (renders invisible on white backgrounds - verified by rasterizing). Used the footer 'signet' mark instead: an orange square icon containing the AMAZONE tractor/spreader icon and 'AMAZONE' wordmark in white-on-orange - this has its own solid orange fill so it displays correctly on a white page. SVG, verified 200. This is a compact icon-style mark rather than the plain wordmark, but it is an official AMAZONE brand asset used site-wide (also served from their download center as their standard 'signet.svg')."
+  },
+  {
+    "vendor": "360 Yield Center",
+    "logoUrl": "https://www.360yieldcenter.com/wp-content/uploads/2025/04/360-yield-spi.png",
+    "notes": "Header logo on the live site is rendered as inline SVG markup (not a standalone image file), so it can't be linked directly. Used the page's og:image social-share asset instead, which is the full '360 YIELD CENTER' logo graphic (black/red/gray, transparent-friendly on white). PNG 1200x630, verified 200."
+  },
+  {
+    "vendor": "XAG",
+    "logoUrl": "https://static.xag.cn/img/xag-logo.png",
+    "notes": "xa.com/en is heavily JS-rendered; no logo <img> or og:image appeared in the static HTML. Found the logo on XAG's own static asset CDN (static.xag.cn, the same domain the site loads its nav icons and CSS from) at /img/xag-logo.png - a large, high-res (3987x1606) full-color dark-gray/red 'XAG' wordmark on transparent background, ideal for a white page. Verified 200. (A 32x32 favicon.ico with just a red shield 'X' mark was also found as a fallback but the CDN logo is far higher quality.)"
+  },
+  {
+    "vendor": "CapstanAg",
+    "logoUrl": "https://capstanag.com/wp-content/uploads/2020/03/CapstanAG_Full-Logo_CMYK_Leaf_Trademark.png",
+    "notes": "Current site header actually displays a Nordson Precision Agriculture / ARAG co-brand banner, not a standalone CapstanAG logo (CapstanAG was acquired by Nordson). All 'CapstanAG' wordmark assets found on the site (e.g. Nordson_CapstanAG_Logo_white_colored-icon.png) use white text that is invisible on a white background. Used CapstanAG's colored icon/leaf mark instead (green diamond with blue dot pattern, no wordmark text) - PNG, transparent bg, verified 200. This is a mark-only logo; no usable dark/color full 'CapstanAG' wordmark was found."
+  },
+  {
+    "vendor": "Harvest International",
+    "logoUrl": "https://images.squarespace-cdn.com/content/v1/58e70fb8d2b8571f859b2b92/1513049417427-H3G3H66NXK4I5IMHX6I7/favicon.ico",
+    "notes": "Site (Squarespace, transparent-header theme) only serves one logo asset (HI-SQlogo18.png) which is white text with a faint drop-shadow, designed to sit over a photo banner - confirmed via compositing that it is essentially invisible on a plain white background. No alternate dark/color version exists anywhere on the site (checked header, footer, and page meta tags). Used the site favicon instead: a small (73x73) dark-gray 'H' mark icon, verified 200. This is low resolution and icon-only (no 'Harvest International' wordmark) - lowest-confidence result of the 9; may be worth requesting a proper logo file directly from the vendor."
+  }
+]

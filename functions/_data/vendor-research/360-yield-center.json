@@ -1,0 +1,341 @@
+[
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 RAIN",
+    "model": "RAIN",
+    "equipment": "Irrigation",
+    "category": "Autonomous Adaptive Irrigation",
+    "sourceUrl": "https://www.360rain.com/",
+    "tagline": "360 RAIN Adapts on Your Terms",
+    "description": "Adaptive irrigation machine that autonomously delivers water, nutrients, manure, byproduct, and other resources of your choice, banded or broadcast, across your entire field, even in irregular shapes with no corners cut. Covers specialty crop applications in addition to row crops.",
+    "specs": [
+      "Autonomous application technology, no fixed pivot point required",
+      "Delivers water, nutrients, dairy/hog manure, and digestate",
+      "Precision application methods: banded or broadcast",
+      "Full field coverage including irregular field shapes (no corners cut)",
+      "Adaptive application system adjusts on the go",
+      "Suitable for row crops and specialty crops"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/e50230_faca31cad6384ab093274eec8784695f~mv2.png/v1/fit/w_2500,h_1330,al_c/e50230_faca31cad6384ab093274eec8784695f~mv2.png"
+    ],
+    "brochures": [
+      "https://360yieldcenter.box.com/s/jr7ymc8begqs8uki5oyzblx5romi64pt",
+      "https://www.360rain.com/_files/ugd/b5bac6_8bf2c2d1ea374225b1ae7828b07843f3.pdf"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 Y-DROP",
+    "model": "Y-DROP",
+    "equipment": "Sprayers",
+    "category": "Fertilizer Application",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-y-drop/",
+    "tagline": "More Bushels, Less Nitrogen",
+    "description": "Late-season nitrogen application system that drops nitrogen at the base of the plant during a 30+ day application window from V6 to VT growth stages, targeting the root zone where roughly 80% of root mass concentrates. Boosts yields by an average of 13.8 bushels per acre.",
+    "specs": [
+      "Application window: 30+ days, V6 to VT growth stages",
+      "Compatible with 15-inch to 36-inch row spacing",
+      "Four-position adjustable arms for precision placement",
+      "Variable rate nozzles available for customized application rates",
+      "Breakaway brackets with flexible risers for terrain navigation",
+      "Curved hoses prevent tangling; integrated shield protects foliage",
+      "Targets 75% of plant nitrogen demand occurring after V10",
+      "Delivers nitrogen within seven inches of the stalk base",
+      "Average yield boost of 13.8 bushels per acre"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2017/08/360_YDrop_100k.png"
+    ],
+    "brochures": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2023/08/2023-Y-DROP-Sell-Sheet_8.11.23.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/05/Best-Practices-360-Y-DROP-5.6.21.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/05/360-Y-DROP-FAQ-5.2.22.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/01/Nozzle-Orifice-Guide-v2021.5.pdf"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 Y-DROP SIDEDRESS",
+    "model": "Y-DROP SIDEDRESS",
+    "equipment": "Implement",
+    "category": "Planters / Sidedress Bars",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-y-drop-sidedress/",
+    "tagline": "Replace Coulters for Better Uptake, More Bushels",
+    "description": "Upgraded nitrogen placement system that converts existing coulter applicator bars, delivering nitrogen inches from the stalk instead of 15 inches away. Extends the application window to V7 and improves nutrient uptake versus standard coulter application.",
+    "specs": [
+      "Adjustable riser length for mid- to late-season nitrogen application",
+      "Four-position adjustable arms, compatible with 15-36 inch rows",
+      "Breakaway risers protect against uneven terrain",
+      "Variable rate nozzles available for precise rate control",
+      "Simple U-bolt retrofit for common coulter bar sizes (4x6, 5x7, 6x4, 6x6, 7x5, 7x7)",
+      "Compatible with 360 UNDERCOVER for insecticide/fungicide applications",
+      "Average yield increase of over 6 bushels vs. coulter systems",
+      "Studies show 25% more nitrates in plants with base application"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2017/08/360_YDrop_Sidedress_100k.png"
+    ],
+    "brochures": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2023/08/2023-Y-DROP-Sidedress-Sell-Sheet_8.11.23.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2023/03/Y-DROP_Sidedress_Installation_Instructions_3.30.23_V4.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/05/Best-Practices-360-Y-DROP-Sidedress-5.6.21.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/05/360-Y-DROP-Sidedress-FAQ-5.2.22.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/01/Nozzle-Orifice-Guide-v2021.5.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 TANKS",
+    "model": "TANKS",
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-tanks/",
+    "tagline": "Capacity and balance for in-field productivity",
+    "description": "700-gallon liquid nitrogen tank system that contours to the tractor for weight balance, capacity, visibility, and accessibility during on-planter nitrogen application. Improves cab visibility and weight distribution while minimizing compaction.",
+    "specs": [
+      "700-gallon capacity",
+      "Low-profile design improves front and side visibility from the cab",
+      "Does not add to transport width",
+      "Modular support frame for easier shipping and installation",
+      "Improved fore/aft weight distribution reduces front axle loading",
+      "Minimizes pinch-row compaction",
+      "Accessible tractor side panels for servicing",
+      "Compatible with select John Deere 8000R series and Case IH tractor models"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2018/02/360-TANKS_All-Black-01.png"
+    ],
+    "brochures": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2023/08/2023-TANKS-Sell-Sheet_8.11.23.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/02/360TANKS_InstallInstructions_2.26.2021_V9.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/02/360TANKS_CaseIH_InstallInstructions_2.26.2021_V4.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/02/360TANKS_CaseIH_LargeFrame_InstallInstructions_2.26.2021_V3.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/03/360TANKS_JD8RX_InstallInstructions_3.8.2021_V4.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/12/360TANKS_JD8RT_InstallInstructions_11.21.2022_V2.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/05/360-TANKS-FAQ-5.2.22.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/05/Best-Practices-360-TANKS-5.16.22.pdf"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 UNDERCOVER",
+    "model": "UNDERCOVER",
+    "equipment": "Sprayers",
+    "category": "Applicator Products",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-undercover/",
+    "tagline": "Target pests and diseases at the source",
+    "description": "In-canopy application attachment that adds on to the 360 Y-DROP system to deliver crop protection product to the underside of leaves and the base of the plant, targeting diseases and insects that traditional top-of-canopy spray methods miss.",
+    "specs": [
+      "Easy add-on to the 360 Y-DROP system; slides up/down riser for growth-stage positioning",
+      "Up to four multi-directional spray nozzles per unit",
+      "Customizable spray pattern with 150-degree horizontal spray application",
+      "Protective shell design for smooth canopy navigation",
+      "Compatible crops: corn, seed corn, soybeans, wheat, cotton, sugar beets, sorghum",
+      "Targets white mold, bacterial blights, spider mites, whiteflies, sugarcane aphids, soybean aphids"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2017/08/360_Undercover_100k.png"
+    ],
+    "brochures": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2023/08/2023-UNDERCOVER-Sell-Sheet_8.11.23.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/05/Best-Practices-360-UNDERCOVER-5.6.21.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/05/360-UNDERCOVER-FAQ-5.2.22.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2014/11/360_UNDERCOVER_NozzleSelection_QuickSheet.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2015/07/360-UC-OT_Sell-Sheet-FINAL.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2016/07/BASF_TechBulletin_Priaxor_360Undercover_Cotton_highres.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2016/07/BASF_TechBulletin_Priaxor_360Undercover_Soybean_highres.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 BANDIT",
+    "model": "BANDIT",
+    "equipment": "Planters",
+    "category": "Fertilizer Application",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-bandit/",
+    "tagline": "One Pass. Multiple Tasks.",
+    "description": "The simple, safe solution for banding nitrogen with the planter. Bands liquid nitrogen alongside corn seed during planting, positioning it three inches from the seed and 3/4-inch below the soil surface to optimize early root interception while reducing volatilization and eliminating a separate application trip.",
+    "specs": [
+      "Bands liquid nitrogen on both sides of the seed, 3 inches away",
+      "Shallow 3/4-inch placement depth",
+      "Spring-loaded poly tube follows coulter slot for precise placement",
+      "Mounts to row unit in front of the closing wheel",
+      "No impact on gauge wheels or depth settings",
+      "Compact design adds minimal transport width",
+      "Optional drag chain seals nitrogen and covers seed trench",
+      "Compatible with John Deere Max Emerge/7000, Kinze 2000/3000, White 8000/9000, Harvest International Laser Pro 1, Case IH, Great Plains"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2018/02/360-BANDIT_All-BLACK-01.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 WAVE",
+    "model": "WAVE",
+    "equipment": "Planters",
+    "category": "Furrow Management",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-wave/",
+    "tagline": "Enhanced seed-trench closing with rapid starter uptake",
+    "description": "Angled blade planter attachment that improves corn seed emergence by surrounding seeds with moist soil and delivering starter fertilizer strategically. Mounts to the row-unit shank and pivots to follow the seed trench, creating a wave of moist soil that rolls over the seed.",
+    "specs": [
+      "Creates a moist soil wave that rolls over seeds, simplifying closing wheel operation",
+      "Self-aligning pivoting blade follows the seed trench through curves, with safety stop",
+      "Spring-loaded design navigates obstacles without damage or bent alignment",
+      "Liquid tube positions starter fertilizer 3/4 inch right of seed trench, below the seed",
+      "Hardened knife edge for extended wear life",
+      "Mounts to rear of planter row-unit shank",
+      "Compatible with John Deere and Kinze planters"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2019/08/360-WAVE_All-Black-01.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 GLIDE",
+    "model": "GLIDE",
+    "equipment": "Sprayers",
+    "category": "Application Control",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-glide/",
+    "tagline": "Gain control and reduce fatigue",
+    "description": "Reliable, mechanical automatic height control for the 360 Y-DROP system. A sensor rod mounted to the Y-DROP base constantly adjusts position relative to ground level and integrates with existing boom control systems without requiring additional controllers.",
+    "specs": [
+      "Mechanical sensor rod glides over field terrain",
+      "Automatically maintains ideal 360 Y-DROP base position",
+      "Flexible rod design handles contours, turns, and backing",
+      "Three sensors plug into existing control system center module",
+      "Rugged breakaway system for obstruction protection",
+      "Compatible with John Deere BoomTrac Pro, Hagie applicators, and Rogator applicators (Norac UC5 and UC7)",
+      "No additional monitors or elaborate configuration required"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2018/02/360-GLIDE_All-BLACK-01.png"
+    ],
+    "brochures": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2023/08/2023-GLIDE-Sell-Sheet_8.11.23.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/07/360GLIDE_Instructions_NoracUC7_V17-7.1.2022.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/06/360GLIDE_Instructions_BoomTracPro_V10-6.23.2021.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/05/360-GLIDE-FAQ-5.2.22.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/05/Best-Practices-360-GLIDE-5.6.21.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 SOILSCAN",
+    "model": "SOILSCAN",
+    "equipment": "Hardware",
+    "category": "Data Management",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-soilscan/",
+    "tagline": "Measure nitrate levels to maximize nitrogen efficiency",
+    "description": "Portable soil test system that enables field-based testing of nitrogen availability and soil pH with lab-equivalent accuracy in about five minutes. Combines yield goals, crop growth stage, and soil organic matter data to generate customized nitrogen application recommendations.",
+    "specs": [
+      "Real-time soil nitrate and pH measurement",
+      "Five-minute testing turnaround in the field",
+      "iPad-based operating platform with wireless upgrade capability",
+      "Rugged carrying case designed for field durability",
+      "Portable, operates from a truck or ATV",
+      "98% certification rate through the Agricultural Laboratory Proficiency Program",
+      "Customized nitrogen calculator based on yield goals and crop growth stage"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2017/08/360_SoilScan_TM_100k.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 CHAINROLL",
+    "model": "CHAINROLL",
+    "equipment": "Combines",
+    "category": "Residue Management",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-chainroll/",
+    "tagline": "Unlock the nutrients trapped in corn residue",
+    "description": "Precision residue management system that creates seven-inch stalk chains for rapid breakdown and improved nutrient availability. Replaces standard stalk rolls on corn heads, using perforated stalks to accelerate microbial decomposition while allowing row cleaners to remove residue from seed trenches.",
+    "specs": [
+      "Creates seven-inch stalk chains ideal for rapid breakdown and row-cleaner compatibility",
+      "Perforated stalks increase surface area for faster microbial activity",
+      "Combination of cutting flutes and piercing teeth creates chain-like perforated residue",
+      "Reduces seedling blights, wicking, and low ear counts vs. confetti-style chopping",
+      "Demonstrated 2.5-bushel yield advantage over standard stalk rolls",
+      "Direct replacement for existing stalk rolls",
+      "Compatible with John Deere 40/90 and 600 series, Case IH 4000, Geringhoff Northstar heads"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2017/08/360_Chainroll_R_100k.png"
+    ],
+    "brochures": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2023/08/2023-CHAINROLL-Sell-Sheet_8.11.23.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 YIELD SAVER",
+    "model": "YIELD SAVER",
+    "equipment": "Combines",
+    "category": "Row Units & Wear Parts",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-yield-saver/",
+    "tagline": "Don't let yield fall through the cracks",
+    "description": "Corn header attachment using poly blocks and intermeshing bristles to reduce crop loss by cushioning ear impact (reducing butt shelling) and capturing kernels. Reduces header loss by up to 85% in side-by-side testing, with 75%+ ROI potential within three years.",
+    "specs": [
+      "Angled bristles designed for maximum kernel capture",
+      "Traditional-style gathering chain with replaceable brush blocks",
+      "Blocks snap and screw into position for quick replacement",
+      "Average brush block life exceeds 150 acres per row",
+      "Chain wear life similar to traditional gathering chains",
+      "Compatible with John Deere 600/40/90, Case IH 1000-5000, Geringhoff Northstar, Drago Series 1 and 2",
+      "Reduces header loss by up to 85% in side-by-side testing",
+      "Potential savings of ~$16,000 gross yield on a typical 8-row, 1,200-acre operation (2 bu/ac savings)"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2017/08/360_Yield-Saver_R_100k.png"
+    ],
+    "brochures": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2023/08/2023-YIELD-SAVER-Sell-Sheet_8.11.23.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/05/360-YIELD-SAVER-FAQ-5.2.22.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/05/Best-Practices-360-YIELD-SAVER-5.6.21.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2020/09/360YS_Instructions_V6-9.14.2020.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "360 Yield Center",
+    "name": "360 BULLET",
+    "model": "BULLET",
+    "equipment": "Implement",
+    "category": "Tillage",
+    "sourceUrl": "https://www.360yieldcenter.com/products/360-bullet/",
+    "tagline": "Full Fracture and Unrestricted Root Access",
+    "description": "Berm-busting ripper point designed to eliminate undisturbed soil berms that impede root access. Aerodynamically positioned 14-inch wide wings create fault lines that fracture soil across the total profile, improving access to nutrients and water without requiring significantly more horsepower than traditional ripper points.",
+    "specs": [
+      "Eliminates approximately 40% of undisturbed subsoil berms left by standard rippers",
+      "14-inch wide design with precision wing angle and pitch",
+      "Available in cast chrome (high wear), hardened steel (HD+), and fabricated steel with cast nose cap",
+      "Lifts and fractures soil without creating compaction",
+      "Minimal increase in fuel consumption or horsepower requirements",
+      "Compatible with Case IH 870/875/530/730, John Deere 512/2730, Landoll 2410/2430, Kuhn Krause Dominator, DMI 530/730"
+    ],
+    "images": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/06/360-BULLET_All-Black-01.png"
+    ],
+    "brochures": [
+      "https://www.360yieldcenter.com/wp-content/uploads/2023/08/2023-BULLET-Sell-Sheet_8.11.23.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2022/05/360-BULLET-FAQ-5.2.22.pdf",
+      "https://www.360yieldcenter.com/wp-content/uploads/2021/05/Best-Practices-360-BULLET-5.6.21.pdf"
+    ],
+    "priority": false
+  }
+]

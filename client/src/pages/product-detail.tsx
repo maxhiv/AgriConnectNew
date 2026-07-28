@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ExternalLink, Phone, Mail, CheckCircle2, MessageSquare } from "lucide-react";
 import type { Product } from "@shared/schema";
+import { getVendorLogo } from "@/lib/vendorLogos";
 
 // Helper function to get related resources based on product
 const getRelatedResources = (productSlug: string): Array<{slug: string, title: string}> => {
@@ -169,13 +170,13 @@ export default function ProductDetail() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-6">
-            {/* Product Image */}
-            {product.primaryImage && (
+            {/* Product Image (falls back to the vendor's logo when no product photo is available) */}
+            {(product.primaryImage || getVendorLogo(product.brand)) && (
               <div className="relative aspect-video bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg overflow-hidden">
-                <img 
-                  src={product.primaryImage} 
-                  alt={product.name}
-                  className="w-full h-full object-contain p-8"
+                <img
+                  src={product.primaryImage || getVendorLogo(product.brand)!}
+                  alt={product.primaryImage ? product.name : `${product.brand} logo`}
+                  className={product.primaryImage ? "w-full h-full object-contain p-8" : "w-full h-full object-contain p-16"}
                   onError={(e) => {
                     // Fallback to placeholder if image fails to load
                     e.currentTarget.src = `data:image/svg+xml,${encodeURIComponent(

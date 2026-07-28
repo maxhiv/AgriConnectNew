@@ -107,9 +107,15 @@ export default function LocationPage() {
   ];
 
   const relatedServices = targetLocations.services.slice(0, 3);
-  const relatedCrops = targetLocations.crops.filter(crop => 
+  const relatedCrops = targetLocations.crops.filter(crop =>
     county.primaryCrops.includes(crop.id)
   ).slice(0, 2);
+
+  // Alabama and Mississippi have localized service+location landing pages;
+  // other territories fall back to the general service overview page.
+  const hasLocalizedServicePages = stateSlug === "alabama" || stateSlug === "mississippi";
+  const serviceHref = (slug: string) =>
+    hasLocalizedServicePages ? `/${stateSlug}/${locationSlug}/services/${slug}` : `/services/${slug}`;
 
   // City page - simpler version
   if (isCity) {
@@ -180,7 +186,7 @@ export default function LocationPage() {
               <h2 className="text-2xl font-bold mb-6">Services Available Near {city!.name}</h2>
               <div className="grid md:grid-cols-3 gap-6">
                 {topServices.map((service) => (
-                  <Link key={service.slug} href={`/services/${service.slug}`}>
+                  <Link key={service.slug} href={serviceHref(service.slug)}>
                     <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer rounded-none" data-testid={`card-service-${service.slug}`}>
                       <CardContent className="p-6 text-center">
                         <service.icon className="h-12 w-12 text-green-600 mx-auto mb-4" />
@@ -405,7 +411,7 @@ export default function LocationPage() {
                 <h3 className="font-semibold mb-3">Related Services</h3>
                 <div className="flex flex-wrap gap-2">
                   {relatedServices.map(service => (
-                    <Link key={service.id} href={`/services/${service.slug}`}>
+                    <Link key={service.id} href={serviceHref(service.slug)}>
                       <Button variant="outline" size="sm" className="rounded-none" data-testid={`link-service-${service.slug}`}>
                         {service.name}
                       </Button>

@@ -1,0 +1,891 @@
+[
+  {
+    "vendor": "Salford",
+    "name": "BBI Endurance Spreader",
+    "model": "Endurance (16-24 ft)",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/endurance-spreader/",
+    "tagline": "The definition of excellence among litter and lime spreaders on the market today",
+    "description": "A pull-type spreader delivering precision in targeted delivery of organic nutrients, ideal for poultry litter, manure, and shavings. Features hydraulics and a spinner system that achieves a wide spread pattern, available in 16'-24' lengths for farms of all sizes.",
+    "specs": [
+      "Available lengths: 16 ft (304/400 cu-ft), 18 ft (342/450 cu-ft), 20 ft (380/500 cu-ft), 24 ft (456/550 cu-ft)",
+      "Working width: up to 50 ft (15.24 m)",
+      "Hydraulic Binary Manifold with pilot-operated relief",
+      "35-gallon hydraulic reservoir with sight window, temp gauge, drain, vent",
+      "Proprietary 2.5-inch spinner motors, 6 x 1/4-inch spinner fins per spinner",
+      "10-gauge hopper with 7-gauge rails, 45-degree sides, sight window",
+      "Dual rack-and-pinion gate to prevent jamming",
+      "34-inch conveyor with 88K heavy-duty chain",
+      "7-Ton Torsion-Flex tandem axles with 12.5L x 15 implement tires (walking beam suspension optional up to 20-Ton)",
+      "Materials spread: chicken/turkey litter, beet lime, lime, bark, wood chips, shavings, pelletized material, poultry litter and composted manure",
+      "Standard hopper 88\" wide x 51.5\" high; wide profile 96\" wide x 52\" high",
+      "Approximate weight (16 ft model): 8,750 lbs",
+      "Optional controllers: Tee-Jet IC-38 ISOBUS, JD Greenstar Dry ECU, Digi-Star weigh systems"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/04/BBI-Endurance-01-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/04/BBI-Endurance-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/04/BBI-Endurance-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/04/BBI-Endurance-04-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/04/BBI-Endurance-05-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/04/Endurance-Materials-300x240.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/04/Endurance-Hopper-Profile-300x240.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/04/Endurance-Suspension-300x240.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/04/Endurance-Lime-Package-300x240.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "Salford",
+    "name": "Grasshopper Spinner Spreader",
+    "model": "Grasshopper (180 cu-ft)",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/grasshopper-spinner-spreader/",
+    "tagline": "Delivers accurate dry fertilizer application with a compact, reliable design for tight spaces",
+    "description": "The mid-season, top-dress applicator from Salford holds 5 tons of fertilizer or 7 tons of lime. Engineered with high ground-clearance for row cropping and featuring flotation tires to minimize soil compaction, it achieves precision application in row crop and sod/turf farm environments using ground-wheel-drive mechanics and the original Salford spreader system for consistent, wider, flatter spread patterns.",
+    "specs": [
+      "Hopper capacity: 180 cu-ft (5.09 cu-m); holds 5 tons fertilizer or 7 tons lime",
+      "Spinner: 24-inch dished spinner with stainless steel construction",
+      "Materials spread: fertilizer and agricultural lime",
+      "Drive: PTO-driven (Series 6 CV Joint, 540/1000 RPM) or hydraulic-driven spinners",
+      "Application width: up to 60 ft (lime), up to 80 ft (fertilizer)",
+      "Hopper material: 409 or 304 stainless steel; 9-foot hopper with ladder, sight window, jack-operated gate",
+      "Conveyor: stainless steel mesh chain with UHMW comb cover",
+      "Axle: 12-ton rigid, high-clearance with 11.25 x 28 ribbed tires; track width 64\"-72\" reversible",
+      "Transport dimensions: 8 ft width x 8 ft 6 in height; approx. weight 6,000 lbs",
+      "Hitch: CAT 3 cast standard, CAT 4 articulating optional",
+      "Optional spinner speed monitor kit"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Grasshopper-03-scaled.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Grasshopper-02-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Grasshopper-01-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Grasshopper-04-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "Salford",
+    "name": "MagnaSpread Spinner Spreader",
+    "model": "MagnaSpread 16 ft",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/magnaspread-spinner-spreader/",
+    "tagline": "Precision, power, performance.",
+    "description": "Hydraulic pull-type fertilizer/lime spreader. Spreads lime at up to 2 tons per acre at 14 mph with a 60-foot swath, and fertilizer in 80-foot-plus swaths. Optimized for a variety of high-capacity farming applications and equipped with Salford BBI's Binary Manifold for simple connections to precision agriculture electronics.",
+    "specs": [
+      "Hopper capacity: 320 cu-ft standard, 352 cu-ft high hopper",
+      "Lime spread width: up to 60 ft; fertilizer spread width: up to 80+ ft",
+      "Lime application rate: up to 2 tons/acre at 14 mph",
+      "24-inch dished spinner design",
+      "Hydraulic Binary Manifold with pilot-operated relief and manual flow controls; high duty-cycle hydraulics with oil cooler, GR valve, Hy-Torque Manifold",
+      "16-foot stainless steel hopper (409 or 304 stainless) with access ladder, over-slung center 'V' design",
+      "30-inch belt-over-bar chain conveyor (20-inch stainless mesh chain optional)",
+      "14-ton walking beam suspension with 21.5 x 16.1-14 ply tires (20-ton optional)",
+      "Transport width 9 ft 8 in; height 9 ft 4 in; approx. weight 9,500 lbs",
+      "Hitch: CAT 4 cast standard, 106,000 lb draft load capacity; articulating hitch optional",
+      "Optional controllers: Tee-Jet IC-38 ISOBUS, JD Greenstar Dry ECU, Digi-Star weigh systems"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-03-1-1024x686.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-01-1-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-02-1-640x429.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-03-1-640x429.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-04-1-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "Salford",
+    "name": "Sniper Spinner Spreader",
+    "model": "Sniper (264 cu-ft)",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/sniper-spinner-spreader/",
+    "tagline": "The Salford Sniper spinner spreader delivers precision dry fertilizer application with tight spread patterns and consistent rate control.",
+    "description": "The Sniper 120' spreader applies fertilizer across widths up to 120 feet using patent-pending technology for real-time swath adjustment. It reduces overlap and environmental contamination while enabling high-acreage operators to maintain productivity with minimal field passes.",
+    "specs": [
+      "Working width: up to 120 ft for fertilizer; 12-section spread pattern control",
+      "Rate range: 50 lbs/acre at 120' spread width to 650 lbs/acre at 10 mph (65 lbs/ft3 product)",
+      "12' stainless steel hopper (264 cu-ft struck capacity, 8.6-ton rating) with access ladder and tarp",
+      "Dual 10-inch stainless steel mesh chains with independent motors/gearboxes",
+      "Twin independently-driven 30-inch dished stainless steel spinners, PWM-controlled",
+      "90\"-120\" adjustable axles with 380/90R46 tires (800/65R32 optional)",
+      "ISOBUS controller ECU with Swath Control and integrated scale kit",
+      "High duty-cycle hydraulics with oil cooler; four manifolds with PWM valves",
+      "Transport width 9 ft (380 tires) / 11 ft 4 in (800 tires); height 10 ft 5 in; approx. weight 7,500 lbs",
+      "Hitch: CAT 3 cast standard (pintle and clevis included), CAT 4 articulating optional",
+      "Fertilizer only (not rated for AG lime, litter, organics, or seed)"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-05-1-scaled.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-05-1-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-04-1-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-03-1-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-02-1-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-01-1-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/Sniper-Section-Control-Image-300x300.png",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/Section-control-300x136.png",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/Drive-300x169.png",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/spinners-300x222.png"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "Salford",
+    "name": "Cricket Vineyard Spinner Spreader",
+    "model": "Cricket",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/cricket-vineyard-spinner-spreader/",
+    "tagline": "Developed for vineyards, orchards, and small farms with affordability and performance in mind.",
+    "description": "A compact pull-type spinner spreader sized for vineyards, orchards, and small farms, handling fertilizer, lime, and compost with minimal soil compaction.",
+    "specs": [
+      "Capacity: 63.5 cu-ft (2-3 ton)",
+      "7,000-pound rigid axle with 14L implement tires",
+      "Stainless steel spinners, fins, and spread shield",
+      "16-inch stainless steel mesh chain conveyor",
+      "8-foot hopper (48\" wide, struck measurement)",
+      "Working width: up to 10 ft; up to 20 ft fertilizer swath",
+      "15-inch axle ground clearance, 13-inch under spinners",
+      "Reversible wheels for 50\" or 60\" track",
+      "Requires 30-40 hp tractor",
+      "Hydraulic binary manifold with manual flow controls; compatible with aftermarket rate controllers"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Cricket-01-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Cricket-01-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Cricket-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Cricket-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Cricket-04-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Trooper Spinner Spreader",
+    "model": "Trooper (270 cu-ft)",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/trooper-spinner-spreader/",
+    "tagline": "Delivers precise dry fertilizer application with a compact design and easy, reliable operation",
+    "description": "A compact, ground-wheel-drive pull-type spreader built for fleets, offering durable and reliable operation for rental and general fertilizer applications.",
+    "specs": [
+      "270 cubic-foot stainless steel hopper with sight window and ladder",
+      "PTO-driven spinners (60-foot spread) or hydraulic option (80-foot spread)",
+      "Ground-wheel-drive design with 8-inch stainless steel mesh conveyor",
+      "10,000 lb torsion axles with 21.5L x 16.1 flotation tires",
+      "Proprietary flat spread pattern system",
+      "CAT 3 cast hitch with heavy-duty tongue jack",
+      "Approximate weight: 6,500 lbs"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Trooper-01-scaled.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Trooper-02-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Trooper-03-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Trooper-06-640x427.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "MagnaSpread PLUS+ Spinner Spreader",
+    "model": "MagnaSpread Plus 12' (264 cu-ft) / 20' (440 cu-ft)",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/magnaspread-plus-spinner-spreader/",
+    "tagline": "Combines the use of one spreader to maximize both fertilizer and lime application, saving you time and money.",
+    "description": "A dual-purpose hydraulic pull-type spreader that applies both dry fertilizer and lime with a single machine, using a 30-inch dished spinner design and ISOBUS-compatible variable rate technology.",
+    "specs": [
+      "Spreads fertilizer up to 120 ft; lime up to 60 ft with one machine",
+      "Two hopper options: 12' high-profile (264 cu-ft) or 20' wide (440 cu-ft)",
+      "30-inch dished spinner; stainless steel spinners, fins, spread shield",
+      "Hydraulic Binary Manifold with pilot-operated relief and manual flow controls",
+      "High duty-cycle hydraulics with oil cooler and GR valve",
+      "Tandem conveyor drive gearbox with 30-inch belt-over-bar conveyor",
+      "Variable rate ready with ISOBUS compatibility",
+      "Self-contained or plug-to-tractor hydraulics options",
+      "Transport width: 8'9\" (12') or 11'11\" (20'); height up to 10'1\" with tarp"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-Plus-01-scaled.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-Plus-02-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-Plus-03-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-Plus-04-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-Plus-05-640x427.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Liberty HDR Spinner Spreader",
+    "model": "Liberty HDR (200-220 cu-ft)",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/liberty-hdr-spinner-spreader/",
+    "tagline": "The Salford Liberty HDR spinner spreader delivers high-rate, high-capacity dry application with rugged design for tough field conditions.",
+    "description": "A high-rate, high-capacity version of the Liberty spinner spreader built for demanding field conditions, offering precision fertilizer and lime application.",
+    "specs": [
+      "Two hopper options: 200 cu-ft or 220 cu-ft capacity",
+      "10-foot stainless steel hopper with ladder",
+      "24-inch dished spinner for precision coverage",
+      "Hydraulic Binary Manifold with pilot-operated relief; self-contained hydraulics with Series 6 CV joint PTO shaft",
+      "Stainless steel mesh chain conveyor",
+      "7-ton torsion-flex tandem axle (12.5 x 15 implement tires)",
+      "Working width: up to 80 ft fertilizer / 60 ft lime",
+      "Approximate weight: 6,500 lbs",
+      "Optional ISOBUS-ready precision agriculture compatibility and weigh systems"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/Liberty-HDR-1-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Liberty-HDR-02-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Liberty-HDR-03-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Liberty-HDR-04-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Liberty-HDR-06-300x240.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Liberty-HDR-05-300x240.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Binary-Manifold-300x240.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Liberty Spinner Spreader",
+    "model": "Liberty (200-220 cu-ft)",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/liberty-spinner-spreader/",
+    "tagline": "The ideal medium capacity machine for fertilizer and lime applications with unprecedented precision",
+    "description": "A medium-capacity pull-type spinner spreader for fertilizer and lime application, built with a ground-wheel-drive conveyor system for reliable field performance.",
+    "specs": [
+      "10-foot stainless steel hopper (200 or 220 cu-ft capacity options)",
+      "24-inch dished spinner design; stainless steel spinners, fins, spread shield",
+      "Stainless steel mesh chain conveyor; ground-wheel-drive",
+      "7-Ton Torsion-Flex tandem axle with 12.5 x 15 implement tires",
+      "PTO or hydraulic-driven spinner options",
+      "Working width: up to 60 ft (lime) or 80 ft (fertilizer)",
+      "Transport dimensions: 8 ft 2 in wide x 8 ft 10 in high",
+      "Approximate weight: 6,500 lbs",
+      "Laser-cut sight window; heavy-duty tongue jack"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Liberty-01-scaled.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Liberty-01-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Liberty-02-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/BBI-Liberty-Black-Frame-03-640x427.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Grasshopper HDR Spinner Spreader",
+    "model": "Grasshopper HDR (200-220 cu-ft)",
+    "equipment": "Spreaders",
+    "category": "Pull Type Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/grasshopper-hdr-spinner-spreader/",
+    "tagline": "Precision, power, performance for mid-season, top-dress nutrient application",
+    "description": "A hydraulic pull-type spreader holding 6 tons of fertilizer or 7 tons of lime, featuring high ground clearance for row cropping and a consistently wider, flatter spread pattern.",
+    "specs": [
+      "Available hopper sizes: 200 cu-ft or 220 cu-ft",
+      "10-foot stainless steel hopper with ladder",
+      "Hydraulic Binary Manifold with pilot-operated relief; self-contained hydraulics driven by Series 6 CV joint PTO shaft",
+      "Stainless steel spinners, fins, spread shield; stainless steel mesh chain conveyor",
+      "12-ton rigid high-clearance axle",
+      "Spreads lime up to 60 ft at 2 tons/acre at 6 mph; fertilizer at 80+ ft swaths",
+      "ISOBUS-ready Binary Manifold for precision agriculture integration",
+      "Weight: 6,500 lbs",
+      "Transport width: 7'4 7/8\" (fixed) or 11'3\" (adjustable); height 8'6\""
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Grasshopper-HDR-02-scaled.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Grasshopper-HDR-03-scaled.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "SS400+ Chassis Mounted Spinner Spreader",
+    "model": "SS400+",
+    "equipment": "Spreaders",
+    "category": "Mounted Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/ss400-spinner-spreader/",
+    "tagline": "Spread fertilizer 120-ft & lime 70-ft with one machine",
+    "description": "A chassis-mounted spinner spreader applying fertilizer up to 120 feet and lime up to 70 feet with compatible floater chassis. Uses Sniper technology for precise section control and covers 33% more land per pass than competitors.",
+    "specs": [
+      "420 cubic-foot hopper capacity (fertilizer) / 314 cu-ft (lime)",
+      "Dual, independently driven 30-inch spinner disks",
+      "12-section swath control for fertilizer application",
+      "Optional multi-bin insert for two-product application (377 cu-ft total)",
+      "Transport width: 11 ft 6 in",
+      "Hydraulic drive with integrated temperature control",
+      "Manual operated gate",
+      "Compatible with most leading floater chassis (Deere, Case IH, RBR)"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2024/08/SS400-Deere-2-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2024/08/SS400-Case-IH-1-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2024/08/SS400-Case-IH-2-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2024/08/SS400-Deere-1-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2024/08/SS400-Deere-3-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2024/08/SS400-RBR-2-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2024/08/SS400-RBR-3-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2026/01/SS400_JD_LR.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/SS400_CNH.04.30.2025.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "MagnaSpread Truck Mount Spinner Spreader",
+    "model": "MagnaSpread Truck Mount (12/14/16 ft)",
+    "equipment": "Spreaders",
+    "category": "Mounted Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/magnaspread-truck-chassis-mount-spinner-spreader/",
+    "tagline": "Precise dry fertilizer application, wide swath coverage, and durability for demanding jobs",
+    "description": "A truck-chassis-mounted version of the MagnaSpread spinner spreader for precise, wide-swath dry fertilizer and lime application, available in 12, 14, and 16 foot hopper sizes.",
+    "specs": [
+      "Working width: up to 120 ft (fertilizer), 60 ft (lime)",
+      "Hydraulic Binary Manifold with pilot-operated relief and manual flow controls",
+      "High-Speed Conveyor (GR) Valve; overhead-mounted spinner motors",
+      "Stainless steel spinners, fins, spread shield; stainless steel hopper with laser-cut sight window",
+      "30-inch belt-over-bar conveyor system",
+      "Transport width: 9 ft; height: 4 ft 7 in",
+      "Weight: 4,300-5,500 lbs depending on size",
+      "Materials: fertilizer, agricultural lime, seed",
+      "Optional controllers: Tee-Jet IC-38 ISOBUS, JD Greenstar Dry ECU"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-Truck-Mount-1024x768.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-Truck-Mount-640x480.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "BBI Endurance Truck Mount",
+    "model": "Endurance Mounted (16/18/20/24 ft)",
+    "equipment": "Spreaders",
+    "category": "Mounted Spinner Spreaders",
+    "sourceUrl": "https://salfordgroup.com/equipment/endurance-truck-chassis-mount-spinner-spreader/",
+    "tagline": "The industry leader in cost-in-use - the ultimate measure of efficiency in the field",
+    "description": "A truck-chassis-mounted version of the BBI Endurance spreader, designed for precise spreading of heavy organic materials with high capacity and year-round durability.",
+    "specs": [
+      "Available in 16, 18, 20, 24 ft sizes; hopper capacities 320-480 cu-ft",
+      "Hydraulic Binary Manifold with pilot-operated relief and manual flow controls",
+      "Heavy-duty 2-section hydraulic pump with 35-gallon reservoir",
+      "Proprietary 2.5-inch spinner motors, 6 x 1/4-inch spinner fins per spinner",
+      "10-gauge hopper with 7-gauge rails, 45-degree sides, poly floor",
+      "Dual rack-and-pinion gate to prevent jamming",
+      "34-inch conveyor with 88K heavy-duty chain",
+      "Working width: up to 50 ft",
+      "Materials: chicken/turkey litter, beet lime, bark, wood chips, shavings, pelletized materials",
+      "Available controller options: Tee-Jet IC-38 ISOBUS, JD Greenstar, Rate Control Ready"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Endurance-Truck-Mount-02-scaled.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Endurance-Truck-Mount-01-1-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Endurance-Truck-Mount-03-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10086397-BBI-Spreaders-2025.08.20-French-LR-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "HALO VRT",
+    "model": "HALO VRT (15-40 ft)",
+    "equipment": "Tillage",
+    "category": "High-Speed Disk / Variable Rate Tillage",
+    "sourceUrl": "https://salfordgroup.com/equipment/halo-vrt/",
+    "tagline": "The industry's first variable rate tillage machine on a forward folding, high-speed disk frame",
+    "description": "A variable-rate tillage tool enabling on-the-go blade angle adjustments from the cab to adapt to diverse field conditions, performing the work of multiple machines on a single platform. Available in 15, 20, 25, 30, 35, and 40 ft widths.",
+    "specs": [
+      "Adjustable blade angles (2-15 degrees) operated from tractor cab",
+      "22-inch wavy blades with rubber torsion suspension (7.5-inch travel)",
+      "5-inch blade spacing for uniform soil/residue flow",
+      "Single-point hydraulic depth control (1-5 inches)",
+      "Operating speeds up to 14 mph",
+      "Hydraulic fore/aft leveling system",
+      "Forward-folding design transporting under 12 feet wide",
+      "Three finishing system options (rubber roller, flat bar baskets)",
+      "Optional joystick control for blade angle and wing operations",
+      "Flotation tires for maximum field flotation"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/15ft-HALO-VRT-Image-2560-x-1440-px-2-640x360.png",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/Salford-Halo-VRT-in-field-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/Salford-Halo-VRT-in-field-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/Salford-Halo-VRT-in-field-04-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/Salford-Halo-VRT-in-field-05-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/Salford-Halo-VRT-in-field-06-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/Salford-Halo-VRT-in-field-07-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/Salford-Halo-VRT-in-field-08-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/Salford-Halo-VRT-in-field-09-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2026/01/10094522_HALO_LR.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/12/10112041_HALO_FR_LR.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "HALO HSD",
+    "model": "HALO HSD (20-40 ft)",
+    "equipment": "Tillage",
+    "category": "High-Speed Disk / Variable Rate Tillage",
+    "sourceUrl": "https://salfordgroup.com/equipment/halo-hsd/",
+    "tagline": "High-speed disk with maintenance-free blade hubs and advanced seal technology, designed for efficient multi-season tillage",
+    "description": "A high-speed disk on a narrow-folding frame, engineered with superior leveling power. Available in 20, 25, 30, 35, and 40 ft widths.",
+    "specs": [
+      "Operates at 8-14 mph for superior leveling performance",
+      "Individually mounted 22-inch blades with rubber torsion suspension (7.5-inch travel)",
+      "Maintenance-free blade hubs with advanced seal technology",
+      "Single-point depth control (2-5 inches operating depth)",
+      "Hydraulic fore/aft leveling with accumulator protection",
+      "Narrow forward-folding frame design (transports under 12 feet wide)",
+      "Flotation tire options: 600/50-22.5 or 800/40-22.5",
+      "Three finishing system options: 23-inch cage roller, double 14-inch flat bar roller, or Otico wave-profile rubber roller",
+      "CAT 3 or CAT 4 hitch compatibility"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/HSD-01-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/HSD-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/HSD-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/HSD-04-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/HSD-05-640x360.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/HSD-06-640x360.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2026/01/10094522_HALO_LR.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Independent Series I-1100",
+    "model": "I-1100",
+    "equipment": "Tillage",
+    "category": "Vertical Tillage",
+    "sourceUrl": "https://salfordgroup.com/equipment/independent-series-i-1100/",
+    "tagline": "The original vertical tillage machine for seedbed preparation and residue management.",
+    "description": "The first Salford true vertical tillage machine and inaugural Independent Series model, the I-1100 sets the standard for seedbed preparation and residue management.",
+    "specs": [
+      "1.25-inch Coil-Tech Coulter system with 20-inch boron steel blades; 6 inches vertical travel",
+      "Blade options: 8 wave, 13 wave, or combination configurations",
+      "Blade spacing: 7.5 inches for mulch finish",
+      "Operating speed: 8-12 mph; working depth: 0-4 inches",
+      "Durable coulter hub with double tapered cup and cone bearings; 100-hour grease intervals",
+      "4x6 inch tubular steel frame with sealed, welded end caps",
+      "Single point depth adjustment with hydraulic level lift frame",
+      "Finishing system: 14-inch rolling basket + 3 rows of 0.5-inch harrows (standard)",
+      "Available widths: 12, 16, 20, 24, 28, 31, 36, 41 (folding/bi-folding), 50, 60 ft",
+      "Tractor requirement: 144-720 hp depending on width; Category 3 or 4 hitch"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I1100-01-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I1100-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I1100-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I1100-04-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I1100-05-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2026/01/10016967-LITERATURE-INDEPENDENT-SERIES.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10052064-FRENCH-I-SERIES.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Independent Series I-1200",
+    "model": "I-1200",
+    "equipment": "Tillage",
+    "category": "Vertical Tillage",
+    "sourceUrl": "https://salfordgroup.com/equipment/independent-series-i-1200/",
+    "tagline": "Set your highest field standard with the I-1200. The second model in Salford's Independent Series, the I-1200 creates the finest seedbeds.",
+    "description": "A true vertical tillage machine designed with 5-inch blade spacing that delivers forty percent more blades and more weight compared to the I-1100, enabling superior seedbed preparation and residue management.",
+    "specs": [
+      "1.25-inch Coil-Tech Coulter I Mount with 20-inch boron steel blades",
+      "Blade spacing: 5 inches (127 mm)",
+      "Wave options: 8-wave, 13-wave, or combination",
+      "Vertical travel: up to 6 inches for obstacle protection",
+      "Operating speed: 8-12 mph; operating depth: 0-4 inches",
+      "Finishing system: 14-inch rolling basket + 3 rows of 0.5-inch diameter harrows",
+      "Available widths: 12 ft through 60 ft (non-folding to bi-folding configurations)",
+      "Frame: 4x6 inch sealed tubular steel with welded end caps",
+      "Depth control: single-point hydraulic leveling system"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i1200-01-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i1200-01-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i1200-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i1200-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i1200-04-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i1200-05-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2026/01/10016967-LITERATURE-INDEPENDENT-SERIES.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10052064-FRENCH-I-SERIES.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Independent Series I-2100",
+    "model": "I-2100",
+    "equipment": "Tillage",
+    "category": "Vertical Tillage",
+    "sourceUrl": "https://salfordgroup.com/equipment/independent-series-i-2100/",
+    "tagline": "Built for tillage in even the toughest conditions to manage fall residue and prepare spring seedbeds.",
+    "description": "Built for tougher ground conditions, the I-2100 is the next step up in Salford's true vertical tillage Independent Series lineup.",
+    "specs": [
+      "22-inch blades with Coil-Tech Coulter II spring technology",
+      "1 5/8-inch Coil-Tech Coulter II Mount with 5-bolt hubs",
+      "7.5-inch blade spacing for mulch finish",
+      "6 inches of vertical travel for obstacle protection",
+      "Operating speeds: 8-12 mph",
+      "Multiple blade configurations (8-wave, 13-wave, or combination)",
+      "4-inch by 6-inch tubular steel frame",
+      "Standard 14-inch diameter rolling basket with 3 rows of 0.5-inch harrows",
+      "Double tapered cup and cone bearings with 100-hour grease interval",
+      "Single-point depth control (0-4 inches)",
+      "Available in sizes: 12 ft to 60 ft working widths"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i2100-01-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i2100-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i2100-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i2100-04-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/i2100-05-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2026/01/10016967-LITERATURE-INDEPENDENT-SERIES.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10052064-FRENCH-I-SERIES.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Independent Series I-2200",
+    "model": "I-2200",
+    "equipment": "Tillage",
+    "category": "Vertical Tillage",
+    "sourceUrl": "https://salfordgroup.com/equipment/independent-series-i-2200/",
+    "tagline": "A true high-speed vertical tillage tool for creating fine seedbeds and shredding tough fall residue.",
+    "description": "The I-2200 vertical tillage tool with 5-inch spacing and 22-inch blades delivers efficient seedbed prep and residue management.",
+    "specs": [
+      "Independently mounted blades with 1 5/8-inch Coil-Tech Coulter II Mount and 22-inch boron steel blades",
+      "5-inch blade spacing for level field finish",
+      "Operating speed: 8-12 mph with 6 inches of vertical travel for obstacle protection",
+      "Typical operating depth: 0-4 inches",
+      "Blade configurations: 8-wave, 13-wave, or combination",
+      "Durable coulter hub with double tapered cup and cone bearings; 100-hour grease interval",
+      "Heavy-duty frame (4x6-inch tubular steel) with hydraulic level lift",
+      "Finishing system: 14-inch rolling basket plus 3 rows of 0.5-inch tines (20-inch length); Flex Finish option for hydraulic adjustment",
+      "Available sizes: 12 ft to 50 ft working widths",
+      "Tractor requirement: 144-600 hp depending on size; 2 remote hydraulic valves",
+      "Optional features: weight kits, SwitchBlade Shank compatibility, tow hitch, hydraulic adjustments"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I2200-01-1024x683.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I2200-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I2200-03-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I2200-05-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/I-2216-Wellesly-23-resized-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/I-2200-DHS-Field-Day-03-640x360.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2026/01/10016967-LITERATURE-INDEPENDENT-SERIES.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10052064-FRENCH-I-SERIES.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Independent Series I-4100",
+    "model": "I-4100",
+    "equipment": "Tillage",
+    "category": "Vertical Tillage",
+    "sourceUrl": "https://salfordgroup.com/equipment/independent-series-i-4100/",
+    "tagline": "A hybrid vertical tillage machine for residue management and incorporating heavy products.",
+    "description": "Hybrid vertical tillage tool combines concave discs and wavy coulters for enhanced residue management and seedbed preparation.",
+    "specs": [
+      "Two-row configuration: front rows feature shallow concave disc blades; rear rows use 8-wave coulters",
+      "Independently mounted blades with rubber suspension mounts allowing 5 inches vertical travel",
+      "Operating depth: 0-4 inches; operating speed: 8-12 mph",
+      "Blade size: 22-inch diameter; blade spacing: 7.5 inches",
+      "Heavy-duty tubular steel frame (4 x 6 inch)",
+      "Durable Coil-Tech Coulter II mounts with serviceable hub design (100-hour grease interval)",
+      "Finishing system: 14-inch rolling basket + 3 rows of tine harrows",
+      "Available widths: 12 ft to 60 ft (multiple configurations)",
+      "Tractor requirement: 144 hp (12 ft) to 720 hp (60 ft); Category 3 or 4 hitch"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I4100-01-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I4100-02-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2026/01/10016967-LITERATURE-INDEPENDENT-SERIES.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10052064-FRENCH-I-SERIES.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Independent Series I-4200",
+    "model": "I-4200",
+    "equipment": "Tillage",
+    "category": "Vertical Tillage",
+    "sourceUrl": "https://salfordgroup.com/equipment/independent-series-i-4200/",
+    "tagline": "The next generation of vertical tillage and versatility, for residue management and field finish.",
+    "description": "A hybrid vertical tillage machine engineered with concave blades and wavy coulters for efficient residue management and seedbed preparation.",
+    "specs": [
+      "Front two rows feature 22-inch shallow concave blades with rubber suspension mounts; rear two rows use Coil-Tech Coulter II Mounts with 22-inch 8-wave blades",
+      "5 inches vertical travel capability; operating speeds of 8-12 mph",
+      "High-quality boron steel blades; 4x6-inch tubular steel frame with sealed construction",
+      "Single-point depth adjustment (0-4 inches); hydraulic level lift frame for synchronized lifting",
+      "Finishing system: standard 14-inch rolling basket and 3 rows of 0.5-inch diameter, 20-inch length tine harrows (adjustable via hydraulic Flex Finish option)",
+      "Tractor requirements: 180-750 hp depending on size; 2 remote hydraulic valves required",
+      "Available sizes: 12 ft to 50 ft widths with multiple folding configurations",
+      "Optional tow-hitch with hydraulic fold capabilities",
+      "SwitchBlade compatible (anhydrous application shanks)"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I4200-01-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I4200-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I4200-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I4200-04-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I4200-05-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/I4200-06-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2026/01/10016967-LITERATURE-INDEPENDENT-SERIES.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10052064-FRENCH-I-SERIES.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "5200 Enforcer",
+    "model": "5200",
+    "equipment": "Tillage",
+    "category": "Disk Harrow / High-Speed Tillage",
+    "sourceUrl": "https://salfordgroup.com/equipment/5200-enforcer-tillage/",
+    "tagline": "Experience high-speed tillage with the 5200 Enforcer. Level fields and mix soil and residue up to 5\" deep at 9 mph.",
+    "description": "A four-row disk harrow (versus two rows on traditional tandem disks) engineered for high-speed leveling and soil/residue mixing across a range of working widths.",
+    "specs": [
+      "Four rows of blades (vs. two on traditional tandem disks)",
+      "Operates at speeds up to 9 mph; operates at 3-5 inch depth",
+      "Independently mounted blades with rubber compression obstacle protection; up to 5 inches vertical flex",
+      "Available widths: 12, 16, 19, 22, 25, 29, 36, 39 ft",
+      "Finishing system with leveling tines and 14-inch rolling basket",
+      "Manual or hydraulically adjustable (Flex Finish) options",
+      "Tractor requirements: 180-780 hp depending on width",
+      "Category 3 or Category 4 hitch compatibility"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/05/5219-ENFORCER-2-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/5219-ENFORCER-1-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/5219-ENFORCER-3-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/5200-Enforcer-04-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/5200-Enforcer-05-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/5219-ENFORCER-4-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/05/5219-ENFORCER-5-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10108969-Enforcer-LR.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10112038-FRENCH-5200-ENFORCER.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Precision Row Crop Cultivator",
+    "model": "RC1230P (12 Row) / RC1630P (16 Row) / RC2430P (24 Row)",
+    "equipment": "Tillage",
+    "category": "Cultivators",
+    "sourceUrl": "https://salfordgroup.com/equipment/precision-row-crop-cultivator/",
+    "tagline": "Achieve new levels of speed in Crop Management. Experience unmatched speed, precision, and accuracy with Salford's Precision Row Crop Cultivator.",
+    "description": "A camera-guided, high-speed row crop cultivator with machine-learning-based guidance for precision in-row weed control and residue management.",
+    "specs": [
+      "Operating speed: up to 12 mph",
+      "Row spacing: 30 inches",
+      "Camera-based guidance system with machine learning; 20 inches of side shift travel",
+      "18 inches of vertical travel on row units",
+      "15-inch residue-cutting coulter",
+      "18-inch high-speed main sweep with 3 pitch settings",
+      "8-inch wide side sweeps, adjustable 20-26 inches width",
+      "Extra-flotation gauge wheels; 280/70R15 tires",
+      "Finger weeders with three down-pressure settings for in-row weed control",
+      "Engageable/disengageable hilling board",
+      "ISOBUS-compatible dual hydraulic down-pressure zone section control",
+      "Tractor requirement: 3-point hitch (12/16 Row); 2-point hitch (24 Row)"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2024/08/Salford-Precision-Row-Crop-Cultivator-05-New-24-1024x768.png",
+      "https://salfordgroup.com/wp-content/uploads/2024/07/2024-06-05-16row_MY24_Michigan-147_GREYTRACTOR-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2024/07/IMG_2546_GREYTRACTOR-640x480.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2024/07/2024-06-05-16row_MY24_Michigan-125-640x427.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2024/08/SmartRow-Side-Shift-640x640.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/RowCropCultivator.LR_.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Cultivators, S-Tine",
+    "model": "450 S-Tine (19-25 ft) / 550 S-Tine (28-40 ft) / 700 S-Tine (44-62 ft)",
+    "equipment": "Tillage",
+    "category": "Cultivators",
+    "sourceUrl": "https://salfordgroup.com/equipment/cultivators-s-tine/",
+    "tagline": "S-Tine field cultivator with maximum durability designed for preparing superior seedbeds.",
+    "description": "A durable S-Tine field cultivator line built for superior seedbed preparation across a wide range of working widths.",
+    "specs": [
+      "Tine spacing: 4.5 inches with 4-inch long-life cast points",
+      "Underframe clearance: 20 inches",
+      "Operating pressure: 110-200 lbs",
+      "Working widths: 19 ft to 62 ft (11 sizes available)",
+      "Operating depth: 1.5-4 inches; speed: 5-9 mph",
+      "Hydraulic self-leveling frames for consistent ground tracking",
+      "Tandem axles on mainframe and wing sections for even depth",
+      "Heavy-duty frames with oversized hinge pins",
+      "Four finishing options including tine harrows and rolling baskets",
+      "Folding design (single-fold or bi-fold wings)"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/S-Tine-Cultivator-01-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/S-Tine-Cultivator-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/S-Tine-Cultivator-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/S-Tine-Cultivator-04-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10108968_Cultivators.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10112040-FRENCH-CULTIVATORS.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Cultivators, Two Piece S-Tine",
+    "model": "450 2pc S-Tine (19-25 ft) / 550 2pc S-Tine (28-40 ft) / 700 2pc S-Tine (44-62 ft)",
+    "equipment": "Tillage",
+    "category": "Cultivators",
+    "sourceUrl": "https://salfordgroup.com/equipment/cultivators-two-piece-s-tine/",
+    "tagline": "Two-Piece S-Tine cultivators offer 4.5\" spacing, 26\" clearance, and 110-200 lbs pressure for effective seedbed preparation.",
+    "description": "A two-piece S-Tine cultivator line offering extra under-frame clearance for maximum residue flow during seedbed preparation.",
+    "specs": [
+      "Tine spacing: 4.5 inches with 4-inch long life cast points",
+      "Under-frame clearance: 26 inches for maximum residue flow",
+      "Operating pressure: 110-200 lbs",
+      "Depth range: 1.5-4 inches; operating speed: 5-9 mph",
+      "Single-point hydraulic depth control; hydraulic self-leveling frame",
+      "Tandem axles on mainframe and wings",
+      "Heavy-duty oversized frames",
+      "Available widths: 19-62 feet (11 sizes)",
+      "Four finishing options: tine harrows and rolling baskets"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/2pc-S-Tine-Cultivator-01-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/2pc-S-Tine-Cultivator-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/2pc-S-Tine-Cultivator-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/2pc-S-Tine-Cultivator-04-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/2pc-S-Tine-Cultivator-05-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/2pc-S-Tine-Cultivator-06-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/2pc-S-Tine-Cultivator-07-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10108968_Cultivators.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10112040-FRENCH-CULTIVATORS.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Salford",
+    "name": "Cultivators, C-Shank",
+    "model": "450 C-Shank (19-25 ft) / 550 C-Shank (28-32 ft) / 700 C-Shank (40-62 ft)",
+    "equipment": "Tillage",
+    "category": "Cultivators",
+    "sourceUrl": "https://salfordgroup.com/equipment/cultivators-c-shank/",
+    "tagline": "C-Shank cultivators with 7\" spacing, 7\" sweeps, and 200-270 lbs pressure ensure efficient seedbed preparation.",
+    "description": "A C-Shank cultivator line with spring-trip shanks for efficient, durable seedbed preparation across a wide range of working widths.",
+    "specs": [
+      "Shank configuration: 7-inch spacing with 7-inch wide sweeps",
+      "Tip pressure: 200-270 lbs (spring trip shanks)",
+      "Ground clearance: 26 inches under frame",
+      "Single-point hydraulic depth control (standard)",
+      "Heavy-duty frame with oversized hinge pins; hydraulic self-leveling sections",
+      "Tandem axles on mainframe and wing sections for consistent depth",
+      "Operating depth: 2-4 inches; operating speed: 5-8 mph",
+      "Finishing options: three configurations with 0.5-inch tine harrows and optional 11\" or 14\" rolling baskets",
+      "Hitch options: Category 3 (small models) to Category 4 (larger models)",
+      "Available widths: 19, 21, 23, 25, 28, 30, 32, 40, 44, 50, 62 ft",
+      "Tractor requirements: 95-372 hp depending on model; 2 remote hydraulic valves required"
+    ],
+    "images": [
+      "https://salfordgroup.com/wp-content/uploads/2022/06/C-Shank-Cultivator-01-1024x644.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/C-Shank-Cultivator-02-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/C-Shank-Cultivator-03-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/C-Shank-Cultivator-04-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/C-Shank-Cultivator-05-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/C-Shank-Cultivator-06-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/C-Shank-Cultivator-07-640x403.jpg",
+      "https://salfordgroup.com/wp-content/uploads/2022/06/C-Shank-Cultivator-08-640x403.jpg"
+    ],
+    "brochures": [
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10108968_Cultivators.LR_.pdf",
+      "https://salfordgroup.com/wp-content/uploads/2025/04/10112040-FRENCH-CULTIVATORS.pdf"
+    ],
+    "priority": false
+  }
+]

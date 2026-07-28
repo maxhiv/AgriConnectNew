@@ -1,0 +1,463 @@
+[
+  {
+    "vendor": "Amazone",
+    "name": "ZA-TS Mounted Spreader",
+    "model": "ZA-TS (incl. ZA-TS 3200, ZA-TS 4200, ZA-TS 4201)",
+    "equipment": "Fertilising Technology",
+    "category": "Mounted Spreader",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/fertilising-technology/mounted-spreader/za-ts-mounted-spreader-51506",
+    "tagline": "Pure precision from one spreading unit. Highly efficient on a large scale - and yet precise right up to the field boundary.",
+    "description": "Professional fertilisation with high work rates while avoiding over-fertilisation and protecting the environment. The ZA-TS mounted spreader delivers reliable application even in windy conditions or when fertiliser quality is poor, using the TS spreading system for excellent border spread patterns up to 54 m working widths.",
+    "specs": [
+      "Working width: 15 m to 54 m",
+      "Hopper capacity: 1,400 l to 5,000 l",
+      "Application rate: up to 650 kg/min",
+      "Spreading disc drive: mechanical or hydraulic",
+      "Border spreading settings: 16 or 128 positions",
+      "TS spreader unit with excellent border spread patterns",
+      "AutoTS and BorderTS border spreading systems",
+      "ProfisPro rate calibration for accurate application from the first second",
+      "HeadlandControl for uniform yield across the headland with optimised Section Control",
+      "WindControl automatic wind compensation via high-frequency sensors",
+      "ArgusTwin permanent spread fan monitoring for optimum lateral distribution",
+      "ISOBUS compatible"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/1827976/2bdd1e87b5fa977f79a52b009fccc30e/teaser-data.png",
+      "https://amazone.net/resource/image/968986/16x9/930/523/813a61eccb0e2d4f29a8a3bcb9f9d9cb/1A7D5F0DBFF502C06E066695F76E9B02/za-ts4200-claas-d0-kw-p5201718.jpg"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0219&path=99*92&display=infoPages"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "Amazone",
+    "name": "ZG-TX Trailed Combi Spreader",
+    "model": "ZG-TX (incl. ZG-TX 9000 Special, ZG-TX 11200)",
+    "equipment": "Fertilising Technology",
+    "category": "Trailed/Pull-Type Spreader",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/fertilising-technology/trailed-spreader/zg-tx-trailed-combi-spreader-1453192",
+    "tagline": "AMAZONE sets new standards in the combi spreader sector.",
+    "description": "Both granular mineral fertilisers and earth-moist limes can be applied precisely through the one machine by means of a simple conversion between the TS spreading system and the newly developed spreading unit for lime. Quicker and easier conversion between lime and fertiliser spreading with outstanding lateral distribution thanks to the tried-and-tested TS spreading system.",
+    "specs": [
+      "Working width: 15 m to 54 m",
+      "Hopper capacity: 6,800 l to 11,200 l",
+      "Boom options: 1, 2, or 16",
+      "Spreader disc drive: mechanical",
+      "Control systems: EasySet 2 in-cab terminal or ISOBUS",
+      "FlowControl for precise application rates from the first second",
+      "HeadlandControl for perfect lateral distribution through wider spreading",
+      "AutoTS for fertiliser and border spread deflector for lime",
+      "Maximum capacity suited to larger working widths"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/1452796/5e64c07e7e2656c853f646444b178c4d/teaser-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0320&path=99*92&display=infoPages"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "Amazone",
+    "name": "ZA-M Centrifugal Fertiliser Spreader",
+    "model": "ZA-M (incl. ZA-M 1002 Special, ZA-M 1202, ZA-M 1502)",
+    "equipment": "Fertilising Technology",
+    "category": "Mounted Spreader",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/fertilising-technology/mounted-spreader/za-m-mounted-spreader-51846",
+    "tagline": "The ideal machine for both farmers and contractors alike.",
+    "description": "A twin disc centrifugal fertiliser spreader that places great emphasis on safety and reliability, featuring slow-turning, heavy-duty agitators and low disc speed to ensure an even, granule-protecting fertiliser flow.",
+    "specs": [
+      "Hopper capacity: up to 3,000 l",
+      "Spreading width: up to 36 m",
+      "Double-tipped hopper design with optimum shape for continuous flow monitoring",
+      "Complete stainless steel spreading system construction",
+      "Twin disc drive with reduced speeds",
+      "Slow-turning, high-capacity agitation system",
+      "Fine-mesh filling sieves, foldable and lockable",
+      "Double shutter system for rate adjustment",
+      "Standard lighting system, warning signs, and safety bracket"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/51696/8e1ae2feb694359d4c6ac69240d84c5d/za-m-4200-ultra-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0023&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "ZA-V Mounted Spreader",
+    "model": "ZA-V",
+    "equipment": "Fertilising Technology",
+    "category": "Mounted Spreader",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/fertilising-technology/mounted-spreader/za-v-mounted-spreader-51654",
+    "tagline": "Hopper capacity of 1,400 to 4,200 l, reaching impressively high working speeds of up to 30 km/h.",
+    "description": "An ultra-modern fertiliser spreader featuring ISOBUS communication, an integrated weighing system, and hydraulic or electric border spreading capabilities, designed for efficient, high-capacity application with intuitive operation and durable construction.",
+    "specs": [
+      "Hopper capacity: 1,400 - 4,200 l",
+      "Working width: 15 - 36 m",
+      "Working speed: up to 30 km/h",
+      "Application rate: up to 390 kg/min",
+      "Spreader unit options: 2, 6, 8, or 16 outlets",
+      "Spreader drive: mechanical or hydraulic",
+      "Control options: hydraulic shutter actuation, EasySet 2, AmaSpread 2, ISOBUS",
+      "200 Hz Profis weighing system for precise application",
+      "Deep-drawn, seamless base hopper",
+      "Electric Limiter V+ border spreading technology",
+      "QuickSet blade adjustment",
+      "Cathodic dip priming and powder coating for durability"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/2059148/0f118aa0b76cdeeb84946a98462ee62b/za-v-2000-s-aufsatz-d1-240816-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0237&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "ZA-X Perfect Mounted Spreader",
+    "model": "ZA-X Perfect",
+    "equipment": "Fertilising Technology",
+    "category": "Mounted Spreader",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/fertilising-technology/mounted-spreader/za-x-perfect-mounted-spreaders-51566",
+    "tagline": "Twin disc centrifugal spreader for smaller and medium-sized farming or grassland farms.",
+    "description": "Engineered for precise spreading of all commercially available fertiliser types up to 18 m and urea up to 15 m. Designed with user convenience in mind, featuring straightforward adjustment mechanisms and reliable performance across various fertiliser applications.",
+    "specs": [
+      "Spread width: up to 18 m (standard fertilisers); 15 m (urea)",
+      "Double-tipped hopper design with optimum shape for continuous flow monitoring",
+      "Complete spreading system manufactured from stainless steel",
+      "Fine-mesh filling sieves that fold up and lock for accessible cleaning",
+      "Double shutter system for precise rate adjustment and rapid opening/closing",
+      "Optional row spreading attachment for targeted fertilisation in specialty crops",
+      "Simple, easily accessible controls for spread rate and working width adjustment"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/1608252/efce107adc069519279a214917ed4243/teaser-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0025&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "ZA-TS 01 AutoSpread Mounted Spreader",
+    "model": "ZA-TS 01 (incl. ZA-TS 4201 Ultra)",
+    "equipment": "Fertilising Technology",
+    "category": "Mounted Spreader",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/fertilising-technology/mounted-spreader/za-ts-01-mounted-spreader-2127942",
+    "tagline": "The self-adjusting spreader that revolutionises fertiliser spreading.",
+    "description": "Features an autonomous AutoSpread system that monitors actual spread patterns and automatically adjusts spreader settings for optimum distribution, offering new standards in precision and automation with intelligent online connectivity and continuous validation capabilities.",
+    "specs": [
+      "Working width: 15 m to 54 m",
+      "Hopper capacity: 4,200 l to 5,000 l",
+      "Spreading vanes: 128",
+      "Spreader adjustment: autonomous via AutoSpread",
+      "Automatic adjustment based on measurement of actual spread patterns",
+      "CurveControl for curve compensation",
+      "Intelligent connectivity via AmaConnect data platform with continuous spread pattern validation",
+      "Warning system for incorrect or defective spreading vanes",
+      "New border spreading feature - set distance to border and drive",
+      "mySpreader App for simplified operation and centralized spreading information"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/2127950/c2fe50b0d32bd512b5160fe3402b0f3f/teaser-01-za-ts-4201-ultra-lihi-a33-n0-p40-533-b-cms-data.png",
+      "https://amazone.net/resource/blob/2127934/7603c204845f07c84bf8e00f3c7a5ac9/anbaustreuer-za-ts-01-1-schmema-de-cms-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0518&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "ZG-TS Trailed Spreader",
+    "model": "ZG-TS",
+    "equipment": "Fertilising Technology",
+    "category": "Trailed/Pull-Type Spreader",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/fertilising-technology/trailed-spreader/zg-ts-trailed-spreader-51316",
+    "tagline": "High outputs with precise results.",
+    "description": "A trailed fertiliser spreader engineered for large-scale operations requiring both efficiency and precision, delivering reliable application even in windy conditions or when fertiliser quality is poor, and maintaining accuracy right up to the field boundary.",
+    "specs": [
+      "Working width: 15 - 54 m",
+      "Hopper capacity: 7,500 - 10,000 l",
+      "Application rate: up to 650 kg/min",
+      "Spreading disc drive: hydraulic",
+      "Spread pattern positions: 128",
+      "AutoTS and BorderTS precision border spreading systems",
+      "ProfisPro rate calibration for accurate application from startup",
+      "HeadlandControl for optimised section control and uniform headland yields",
+      "WindControl automatic wind compensation for lateral distribution",
+      "ArgusTwin continuous spread fan monitoring"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/51302/cbdde0ed038c64ed70177527a3702a56/zg-ts-aufbaustreuer-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0219&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "Cayros Mounted Reversible Plough",
+    "model": "Cayros",
+    "equipment": "Tillage",
+    "category": "Ploughs",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/cultivation/ploughs/cayros-mounted-reversible-plough-53628",
+    "tagline": "Perfect ploughing for every farm.",
+    "description": "Used for inversion soil tillage, the Cayros mounted reversible ploughs are characterised by their robustness, the (c)plus hardening process, and their ease of pull.",
+    "specs": [
+      "Attachment type: mounted",
+      "Number of furrows/plough bodies: 2 - 6",
+      "Maximum tractor output: 300 hp",
+      "(c)plus hardening process for durability",
+      "Large selection of plough bodies for various applications",
+      "Blockage-free operation with large harvest residues",
+      "Sturdy beam with thick wall dimensions and no welded seams",
+      "Simple sliding headstock adjustment design"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/53556/45264bdec416c3c287300b7d9698a750/cayros-product-image-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0256&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "Teres 300 Mounted Reversible Plough",
+    "model": "Teres 300",
+    "equipment": "Tillage",
+    "category": "Ploughs",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/cultivation/ploughs/teres-300-mounted-reversible-plough-1083344",
+    "tagline": "Perfect ploughing under all conditions.",
+    "description": "A mounted reversible plough engineered for inversion soil tillage, using SpeedBlade plough bodies with patented large front shins on the mouldboard to achieve high working speeds while maintaining minimal wear. The (c)plus hardening process enhances durability and reduces pulling resistance.",
+    "specs": [
+      "Attachment type: mounted",
+      "Number of furrows: 4 - 6",
+      "Maximum tractor power: 300 hp",
+      "Working width per furrow: 30 - 55 cm",
+      "Maximum forward speed: 10 km/h",
+      "Frame material: box section beam, high-strength steel",
+      "ProtectShaft cross-shaft with integrated bearings for shock-load damping",
+      "AutoAdapt hydraulic system for automatic front furrow width adjustment",
+      "Multiple support wheel options (side-mounted and rear-mounted)",
+      "Optional packer and equipment configurations available"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/1083654/d8457bf78169980c973c41151f26b325/teaser-1-teres-5-0-gesamt-ab550-liob-864-d1-220127-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0299&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "Tyrok Semi-Mounted Reversible Ploughs",
+    "model": "Tyrok / Tyrok Onland",
+    "equipment": "Tillage",
+    "category": "Ploughs",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/cultivation/ploughs/tyrok-semi-mounted-reversible-ploughs-979876",
+    "tagline": "Perfect ploughing under all conditions.",
+    "description": "Semi-mounted reversible ploughs engineered for soil inversion work, emphasizing robustness through the (c)plus hardening process and ease of operation, achieving high working speeds even with up to 9 furrows while maintaining minimal wear due to patented, large front shins of the mouldboard.",
+    "specs": [
+      "Attachment type: trailed/semi-mounted",
+      "Maximum tractor power: 400 hp",
+      "Maximum furrows: 9",
+      "Depth adjustment: mechanical or hydraulic",
+      "Beam construction: box section, high-strength steel",
+      "Overload protection: shear bolt safety system",
+      "Over-dimensioned, damped support wheel",
+      "SpeedBlade plough body design",
+      "SmartCenter headstock settings",
+      "SmartTurn hydraulic turnover with end position damping"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/1434184/0e6abf343c35d1d7ace03c3d1d47efc8/teaser-data.png",
+      "https://amazone.net/resource/blob/2090236/7eb298c3b39fe9819c564908220d1502/der-kluegere-gibt-nach-2-tyrok-8schar-fendt-d0-kw-q4190393-d1-251001-cms-data.jpg"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0297&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "Catros+-2 Mounted Compact Disc Harrows",
+    "model": "Catros+-2",
+    "equipment": "Tillage",
+    "category": "Compact Disc Harrows",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/cultivation/compact-disc-harrows/catros-2-mounted-compact-disc-harrows-1451162",
+    "tagline": "Intensive shredding and mixing ahead of mulch sowing.",
+    "description": "Designed for shallow to medium-depth soil preparation, this implement shreds and incorporates all kinds of organic matter while cultivating stubbles, destroying catch crops, or breaking up grassland. Intensively crumbles soil and, with optional rollers and harrows, levels and reconsolidates for optimal seedbed conditions.",
+    "specs": [
+      "Working width: 4 m - 7 m",
+      "Disc diameter: 510 mm",
+      "Working depth: 5 cm - 14 cm",
+      "Attachment type: mounted",
+      "Power requirement: 125 hp - 210 hp (per working width)",
+      "Forward speed: up to 18 km/h",
+      "Hydraulic working depth adjustment via Smart Frame System with depth scale",
+      "Maintenance-free disc bearings with face seal and lifetime lubrication",
+      "Open frame construction with individual disc suspension for contour following",
+      "Optional GreenDrill rear-mounted seeder for single-pass soil tillage and catch crop sowing"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/1451182/ec70f860e1bb37596e95653765cc88b6/teaser-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0053&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "Catros Pro Compact Disc Harrow",
+    "model": "Catros Pro (incl. Catros Plus 8003-2TX Pro, Catros 8003-2TX Pro)",
+    "equipment": "Tillage",
+    "category": "Compact Disc Harrows",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/cultivation/compact-disc-harrows/catros-pro-compact-disc-harrow-2102662",
+    "tagline": "For slurry incorporation.",
+    "description": "A compact disc harrow designed for optimized spreading of organic nutrients like slurry and fermentation residues with minimal loss.",
+    "specs": [
+      "Specially sealed disc bearings",
+      "Optional electric central lubrication system",
+      "Optional reinforced SW 600 pro cage roller",
+      "Vogelsang slurry distributor and hoses pre-installed by manufacturer",
+      "Enhanced corrosion protection via powder coating"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/2102460/dd3deeb2524338bc7dc908f8ac78c1fc/teaser-data.jpg"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "Certos-2TX Trailed Compact Disc Harrow",
+    "model": "Certos-2TX",
+    "equipment": "Tillage",
+    "category": "Compact Disc Harrows",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/cultivation/compact-disc-harrows/certos-tx-trailed-compact-disc-harrow-52548",
+    "tagline": "The specialist in tackling big challenges.",
+    "description": "Designed for intensive soil tillage to a depth of 20 cm. Its larger disc diameter enables deeper penetration and can deal with large quantities of organic material such as maize straw, sunflower remnants, and catch crops without blocking, delivering a homogeneous mix even on challenging soil conditions and suiting medium to large sized farms.",
+    "specs": [
+      "Working width: 5 - 7 m",
+      "Disc diameter: 660 mm",
+      "Working depth: 7 - 20 cm",
+      "Attachment type: trailed",
+      "Power requirement: 200 - 525 hp",
+      "Forward speed: up to 15 km/h",
+      "Maintenance-free disc bearings with face seal and lifetime lubrication",
+      "Open frame construction with individual disc suspension for contour-following capability",
+      "High gross weight for penetration on heavy soils",
+      "Durable, permanently sharp discs manufactured from high-strength steel"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/52510/4ab31c39da1189b5df194649463d038a/freisteller-grosse-anhaenge-kompaktscheibenegge-certos-2tx-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0053&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "Cenio Mounted Cultivator",
+    "model": "Cenio (3-stagger)",
+    "equipment": "Tillage",
+    "category": "Cultivators",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/cultivation/cultivators/cenio-mounted-cultivator-53148",
+    "tagline": "Pure performance with high-speed working.",
+    "description": "A versatile mounted cultivator available in working widths from 3-5 m in rigid or folding versions, suitable for shallow stubble cultivation through topsoil-deep loosening, featuring the C-Mix share system with adaptable shares and packer rollers for varied field conditions.",
+    "specs": [
+      "Working width: 3 - 4 m (5 m available)",
+      "Working depth: 5 - 30 cm",
+      "Tine spacing: 30 cm",
+      "Attachment type: mounted",
+      "Power requirement: from 105 hp",
+      "Forward speed: up to 15 km/h",
+      "C-Mix share system with wear-resistant shares",
+      "Intelligent tine stagger and angling for reduced fuel consumption",
+      "High trigger force overload protection (C-Mix Special and C-Mix Super tines)",
+      "Mechanical or hydraulic depth adjustment",
+      "Optional or standard automatic levelling unit (automatic on folding models)"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/408542/c6ffefae7136ac4f1dcf90a4e89e5e26/teaser-1-cenio3000super-d0-kw-dji-0908-d1-190823-teaser-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0284&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "Cenius-2TX Trailed Cultivator",
+    "model": "Cenius-2TX (4-stagger)",
+    "equipment": "Tillage",
+    "category": "Cultivators",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/cultivation/cultivators/cenius-2tx-trailed-cultivator-53366",
+    "tagline": "Pure performance with high-speed working.",
+    "description": "A 4-stagger trailed cultivator engineered for versatile soil preparation tasks, operating across a range from shallow stubble cultivation through to topsoil deep loosening, featuring the C-Mix share system for optimal soil engagement at various depths.",
+    "specs": [
+      "Working width: 4 - 7 m",
+      "Working depth: 5 - 35 cm",
+      "Tine stagger spacing: 29 cm",
+      "Frame height: 80 cm",
+      "Attachment type: trailed",
+      "Power requirement: from 200 hp (per working width)",
+      "Maximum speed: up to 15 km/h",
+      "C-Mix share system available in C-Mix-Special, C-Mix-Super, and C-Mix-Ultra variants",
+      "Tool-free mechanical or hydraulic depth adjustment",
+      "Large clearance and uninterrupted material flow to handle substantial straw volumes",
+      "Compatible with GreenDrill 501 sowing system and FTender front hopper for single-pass cultivation and seeding"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/53280/56fc2ac5746212e80fb811d2f647c148/freisteller-anhaengegrubber-cenius-2tx-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0057&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "Amazone",
+    "name": "KX/KG Cultimix Mounted Rotary Cultivator",
+    "model": "KX/KG Cultimix",
+    "equipment": "Tillage",
+    "category": "Rotary Harrows & Rotary Cultivators",
+    "sourceUrl": "https://amazone.net/en/products-digital-solutions/agricultural-technology/cultivation/rotary-harrows-rotary-cultivators/kx-rotary-cultivator-52920",
+    "tagline": "High performance for the perfect seedbed.",
+    "description": "A PTO-driven implement functioning as both a rotary cultivator and rotary harrow for active seedbed preparation, operating with maximum reliability and efficiency in combination with a seed drill or on its own.",
+    "specs": [
+      "Working width: 3 m - 6 m",
+      "Tine carriers: 10 tine carriers over 3 m working width",
+      "Power requirement: up to 360 hp",
+      "Working speed: up to 10 km/h",
+      "Drive type: PTO-driven",
+      "Tractor class: 190 hp class (3 m model)",
+      "Quick+Safe quick-change tine system with integrated overload protection",
+      "\"On-grip\" tines for soil penetration under all conditions",
+      "Long-Life-Drive system rated for extreme loads",
+      "Robust forged tine carriers and shaft construction",
+      "Deep frame with double-skinned trough bottom",
+      "Universal setting tool for comfortable depth adjustment"
+    ],
+    "images": [
+      "https://amazone.net/resource/blob/52900/28e36aebe4b3d745676c75d8f40dded0/freisteller-kreiselgrubber-kx-data.png"
+    ],
+    "brochures": [
+      "https://info.amazone.de/displayprospekt.aspx?sprache=1&drucknummer=P0045&path=99*92&display=infoPages"
+    ],
+    "priority": false
+  }
+]

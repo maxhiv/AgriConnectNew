@@ -149,7 +149,7 @@ export default function NewsArticlePage() {
               name: "Vantage South",
               logo: {
                 "@type": "ImageObject",
-                url: "https://vantagesouth.com/assets/images/vantage-south-logo.png",
+                url: "https://vantage-south.com/assets/images/vantage-south-logo.png",
               },
             },
           }),

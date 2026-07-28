@@ -1,0 +1,296 @@
+[
+  {
+    "vendor": "CapstanAg",
+    "name": "PinPoint III ENVELOP",
+    "model": "PinPoint III ENVELOP / PinPoint III Lite",
+    "equipment": "Sprayers",
+    "category": "Individual Nozzle Control System",
+    "sourceUrl": "https://capstanag.com/pinpoint-iii-envelop/",
+    "tagline": "The legacy continues with ultimate precision.",
+    "description": "PinPoint III ENVELOP is CapstanAg's flagship precision spray application system, offering built-in individual nozzle control, turn compensation, and predictive rate control. It can control up to 224 nozzles individually, more than any other system on the market, and integrates directly with ISOBUS VT/UT displays to maintain consistent application rates through speed changes, turns, and overlaps. Available factory-installed through multiple OEM sprayer partners (AGCO, Case IH, Fendt, Hagie, John Deere, Miller/New Holland, Oxbo, AG Trucks, ET, Fast) or as an aftermarket retrofit kit.",
+    "specs": [
+      "Individually controls up to 224 nozzles",
+      "Turn compensation for even boom-wide flow",
+      "Predictive rate control for challenging field conditions",
+      "ISOBUS VT/UT display integration",
+      "Nozzle-by-nozzle diagnostics and system feedback",
+      "Pressure and flow rate controlled independently for consistent droplet size",
+      "High-flow valve capability for large booms and fast speeds",
+      "Factory-installed option through multiple OEM sprayer manufacturers",
+      "Upgrade path available from PinPoint II"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2022/08/Envelop-logo.png",
+      "https://capstanag.com/wp-content/uploads/2024/11/PinPoin-III_Agleader_screen-only.png"
+    ],
+    "brochures": [
+      "https://capstanag.com/wp-content/uploads/2024/04/123000-210-Rev-D-PinPoint-III-ENVELOP-Operators-Manual-web.pdf",
+      "https://capstanag.com/wp-content/uploads/2026/04/123000-205-Rev-A-PinPoint-III-Lite-Operators-Manual.pdf",
+      "https://capstanag.com/wp-content/uploads/2024/11/PP3_Sales_Sheet_2024.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "CapstanAg",
+    "name": "PinPoint III TURF",
+    "model": "PinPoint III TURF",
+    "equipment": "Sprayers",
+    "category": "Turf Rate-Controlled Spray System",
+    "sourceUrl": "https://capstanag.com/pinpoint-iii-turf/",
+    "tagline": "Upgrade your turf application to PinPoint accuracy.",
+    "description": "Built on the PinPoint III platform, PinPoint III TURF is an intelligent rate-controlled PWM application system for turf and golf-course spraying. It automates spray output through task-controller-based sections and turn compensation, giving operators real-time feedback via an ISOBUS display. The system maintains consistent droplet size and exact application rate regardless of ground speed or terrain, improving coverage while cutting chemical waste and cost.",
+    "specs": [
+      "ISOBUS integration directly through VT/UT display",
+      "Task controller-based sections with individual nozzle control capability",
+      "Turn compensation for even flow across the entire boom",
+      "Predictive control locks in target rate under challenging conditions",
+      "Independent flow rate and pressure control for consistent droplet size",
+      "Nozzle diagnostics with system feedback and alarms",
+      "Blend pulse spray adjustment for flow changes",
+      "Edge pass flow adjustment capability",
+      "Selectable GPA or gallons-per-1,000-sq-ft rate settings"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2025/06/PinPoint-III-turf-logo_white-scaled.png",
+      "https://capstanag.com/wp-content/uploads/2025/06/PinPoint-III-LF-WEB_ALT-scaled.png",
+      "https://capstanag.com/wp-content/uploads/2024/12/1000013831-1475x1536.jpg",
+      "https://capstanag.com/wp-content/uploads/2025/08/SG-Interface_square-WEB-1-BW.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "CapstanAg",
+    "name": "PinPoint III LF",
+    "model": "PinPoint III LF",
+    "equipment": "Toolbars",
+    "category": "Liquid Fertilizer Application System",
+    "sourceUrl": "https://capstanag.com/pinpoint-iii-lf/",
+    "tagline": "High rates, high speeds, pinpoint accuracy.",
+    "description": "PinPoint III LF is a liquid fertilizer application system built on the proven PinPoint III platform, offering row-by-row flow and shutoff control plus task-controlled, variable-rate application through most ISOBUS displays. Real-time diagnostics and alarms flag row and plunger issues, while turn compensation keeps output even across the toolbar even at high rates and speeds.",
+    "specs": [
+      "Individual row-by-row flow and shutoff control",
+      "Task-controlled variable-rate capability",
+      "Row and plunger diagnostics with real-time alarms",
+      "ISOBUS VT monitor integration for cab-based control",
+      "Row-to-row uniformity within 6%",
+      "Turn compensation for even boom-wide rates",
+      "Key fob and app functionality for row clog checks and system updates",
+      "Wide speed range operation without changing orifice discs",
+      "Cost-effective variable-rate application package"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2025/06/PinPoint-III-LF-logo_white-1-scaled.png",
+      "https://capstanag.com/wp-content/uploads/2025/06/PinPoint-III-LF-WEB_ALT-scaled.png",
+      "https://capstanag.com/wp-content/uploads/2025/01/Rate-Controller_face_no-lid-1536x1526.png",
+      "https://capstanag.com/wp-content/uploads/2025/08/pp3lf.00_10_12_28.Still004-1024x576.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "CapstanAg",
+    "name": "PinPoint SYNCHRO+",
+    "model": "PinPoint III SYNCHRO+",
+    "equipment": "Toolbars",
+    "category": "Orchard Air-Blast Spray System",
+    "sourceUrl": "https://capstanag.com/pinpoint-synchro/",
+    "tagline": "Tailored to the tree.",
+    "description": "PinPoint SYNCHRO+ is a comprehensive orchard spray system that automatically adjusts pressure to maintain a target application rate independent of travel speed. Customizable boom configurations and ISOBUS task-controller compatibility allow prescription-based, zone-controlled spraying so canopy density and tree size dictate output rather than a fixed calibration chart.",
+    "specs": [
+      "Rate controlled with real-time flow adjustment at constant pressure",
+      "Automation ready: laser, ultrasonic, and radar sensor integration capable",
+      "Pattern shaping for customizable flow across canopy levels",
+      "Variable-rate application by block, pass, or individual tree",
+      "Sensor automation and zone control capability",
+      "No calibration charts or nozzle tables required",
+      "Prescription map application support"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2025/08/Synchro-logo.png",
+      "https://capstanag.com/wp-content/uploads/2025/11/PinPoint-III-LF-WEB_ALT-screen-updated.png",
+      "https://capstanag.com/wp-content/uploads/2025/11/Synchro-.png",
+      "https://capstanag.com/wp-content/uploads/2025/11/Synchro-infographic2_lighter.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "CapstanAg",
+    "name": "SYNCHRO",
+    "model": "Synchro Variable Nozzle Spray System",
+    "equipment": "Toolbars",
+    "category": "Orchard Air-Blast Sprayer Nozzle System",
+    "sourceUrl": "https://capstanag.com/synchro/",
+    "tagline": "Variable nozzle spray system.",
+    "description": "SYNCHRO is an infinitely-variable electronic nozzle system designed to maximize orchard air-blast sprayer nozzle performance. An easy-to-use smart-device setup tool lets operators select droplet size and set rate and pressure to optimize sprayer performance and save product, simplifying the calibration that is otherwise critical to orchard spraying cost and efficiency.",
+    "specs": [
+      "Variable electronic valves provide infinite flow variability",
+      "Smart-device Wi-Fi nozzle configuration",
+      "Momentary switch to change spray profiles for small or no-tree zones",
+      "Speed sensor compensates flow based on ground speed",
+      "Hi-Speed valves for immediate on/off response"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2021/10/Synchro-Web-graphic-2.png"
+    ],
+    "brochures": [
+      "https://capstanag.com/wp-content/uploads/2023/11/Synchro_Sales_Sheet-2023.pdf",
+      "https://capstanag.com/wp-content/uploads/2024/01/113100-596-Rev-B-Synchro-Orchard-Operators-Manual.pdf",
+      "https://capstanag.com/wp-content/uploads/2024/01/113100-597-Rev-D-Synchro-Orchard-QSG.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "CapstanAg",
+    "name": "PinPoint II",
+    "model": "PinPoint II",
+    "equipment": "Sprayers",
+    "category": "Individual Nozzle Control System",
+    "sourceUrl": "https://capstanag.com/pinpoint-ii/",
+    "tagline": "Apply with precision.",
+    "description": "PinPoint II is CapstanAg's original individual nozzle control platform, featuring turn compensation and individual nozzle boundary control to maximize application efficiency and accuracy while minimizing product waste from overlap and inconsistent application. Flow and pressure are controlled independently for accurate, repeatable application even as speed, turns, and overlap conditions change. Fits most sprayer makes and models, with an upgrade kit available to move up to PinPoint III ENVELOP.",
+    "specs": [
+      "Individual nozzle control: every nozzle acts as its own section",
+      "Turn compensation for even flow across the entire boom",
+      "Individual nozzle diagnostics and system feedback",
+      "Pressure controlled independently of rate and speed for consistent droplet size",
+      "Fits most sprayer makes and models",
+      "Upgrade path available to PinPoint III ENVELOP via upgrade kit"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2022/08/PinPoint-II.png",
+      "https://capstanag.com/wp-content/uploads/2022/08/pp2-web-icon-1024x1024.png"
+    ],
+    "brochures": [
+      "https://capstanag.com/wp-content/uploads/2020/02/122200-210-Rev-D-pinpoint__ii_for_sprayers_LORZ.pdf",
+      "https://capstanag.com/wp-content/uploads/2020/06/PinPoint-II-Spec-Sheet-M1000-003.pdf",
+      "https://capstanag.com/wp-content/uploads/2020/05/PinPoint-II_FAQ.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "CapstanAg",
+    "name": "SelectShot",
+    "model": "SelectShot Single Product / Dual Product",
+    "equipment": "Planters",
+    "category": "In-Furrow Precision Application System",
+    "sourceUrl": "https://capstanag.com/selectshot/",
+    "tagline": "Profit with economic input control.",
+    "description": "SelectShot is a patented Dose-Per-Seed application system that delivers targeted in-furrow product application directly to each seed as it is planted. A seed sensor triggers precise dosing at the optimal location, reducing overall input usage while improving ROI. Available in Single Product and Dual Product configurations, it connects to ISOBUS VT/UT displays for operator control and provides row-by-row diagnostics and real-time feedback, and is compatible with most planter makes and models, including Precision Planting SpeedTubes.",
+    "specs": [
+      "Dose-Per-Seed application triggered by seed sensor for precise placement",
+      "ISOBUS integration for VT/UT display control",
+      "Real-time, row-by-row system diagnostics and feedback",
+      "High-speed planting compatible",
+      "Compatible with most planter makes and models, including Precision Planting SpeedTubes",
+      "Reduces overall product usage by applying only where needed"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2021/06/SelectShot-LOGO.png",
+      "https://capstanag.com/wp-content/uploads/2022/08/sst-web-1024x1024.png"
+    ],
+    "brochures": [
+      "https://capstanag.com/wp-content/uploads/2021/07/115700-003-Rev-D_SelectShot-_Single-Product_OM_web.pdf",
+      "https://capstanag.com/wp-content/uploads/2021/07/115700-004-Rev-C_SelectShot_Single-Product_Quick-Start-Guide_web.pdf",
+      "https://capstanag.com/wp-content/uploads/2021/07/115700-103-Rev-B_SelectShot-_Dual-Product_OM_Web.pdf",
+      "https://capstanag.com/wp-content/uploads/2021/07/115700-104-Rev-B_SelectShot-Dual-Product-Quick-Start-Guide_web.pdf",
+      "https://capstanag.com/wp-content/uploads/2021/07/SelectShot™-Sales-Sheet-21-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "CapstanAg",
+    "name": "TATTLER",
+    "model": "TATTLER Electric Row Flow Monitor",
+    "equipment": "Toolbars",
+    "category": "Electric Row Flow Monitoring System",
+    "sourceUrl": "https://capstanag.com/tattler/",
+    "tagline": "Electric row flow monitoring system.",
+    "description": "TATTLER is an electronic, modular row-flow monitoring system that adapts to a wide range of toolbar configurations and handles application rates up to 8 GPM per row. It displays diagnostic data directly through ISOBUS VT monitors already in the cab, eliminating the need for separate ball-indicator monitors, and pairs with SuperCHECK for exceptional row-to-row uniformity.",
+    "specs": [
+      "Electric individual row flow monitoring",
+      "ISOBUS VT integration, no separate monitor required",
+      "Handles application rates up to 8 GPM per row",
+      "Modular design with per-row placement and daisy-chain electronics",
+      "Real-time cab diagnostics via ISOBUS display",
+      "Eliminates need for manual ball-indicator monitoring",
+      "Exceptional row-to-row uniformity when coupled with SuperCHECK"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2024/11/TATTLER_HEADER_WEB-1536x494.png",
+      "https://capstanag.com/wp-content/uploads/2024/11/Tattler-Full-System-Label.png",
+      "https://capstanag.com/wp-content/uploads/2025/08/GX013275.00_00_11_26.Still002-scaled.png",
+      "https://capstanag.com/wp-content/uploads/2025/08/GX013275.00_00_32_25.Still007-scaled.png"
+    ],
+    "brochures": [
+      "https://capstanag.com/wp-content/uploads/2026/02/123400-201-Rev-A-Tattler-Operators-Manual-1.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "CapstanAg",
+    "name": "SwathPRO",
+    "model": "SwathPRO (Air Tractor exclusive)",
+    "equipment": "Aerial",
+    "category": "Aerial Spray Control System",
+    "sourceUrl": "https://capstanag.com/aviation/",
+    "tagline": "Optimize every nozzle.",
+    "description": "SwathPRO is CapstanAg's in-flight aerial application system, sold exclusively through Air Tractor. Electronic pulse-width-modulation solenoids at each nozzle let pilots adjust spray pattern, pressure, and flow directly from the cockpit without landing. ProMaker software generates customizable spray profiles, and the system supports up to 7 selectable nozzle pattern profiles for crosswind compensation, drift mitigation, and application in sensitive or regulated areas with a reduced effective boom width.",
+    "specs": [
+      "Electronic PWM solenoid control at each nozzle",
+      "Up to 7 selectable nozzle pattern profiles",
+      "In-cockpit user interface for on-the-fly adjustments",
+      "ProMaker spray pattern profile generator software",
+      "Crosswind compensation and drift mitigation",
+      "Nozzle-by-nozzle flow control",
+      "Increased acreage per tank load",
+      "Enables application in sensitive/regulated areas with reduced boom width",
+      "Sold exclusively through Air Tractor"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2023/09/SwathPro_boom_2019-2020-2.png",
+      "https://capstanag.com/wp-content/uploads/2022/11/promaker.capstanair.com_-2-1024x629-4.png",
+      "https://capstanag.com/wp-content/uploads/2025/12/Capstan-CounterMat-SwathPRO_Print-scaled.png",
+      "https://capstanag.com/wp-content/uploads/2022/11/selectable-profile.png"
+    ],
+    "brochures": [
+      "https://capstanag.com/wp-content/uploads/2025/01/320700-007-Rev-J-SwathPRO-Installation-Guide.pdf",
+      "https://capstanag.com/wp-content/uploads/2024/12/320700-001-Rev-B-POH-Supplement-for-SwathPRO.pdf",
+      "https://capstanag.com/wp-content/uploads/2024/12/320700-005-Rev-J-Instructions-for-Continued-Airworthiness.pdf",
+      "https://capstanag.com/wp-content/uploads/2024/05/320700-002-Rev-B-ProMaker-for-SwathPRO-Operator-Manual-web.pdf",
+      "https://capstanag.com/wp-content/uploads/2025/03/QLT-TD-054-0139-Rev-B-SwathPRO-Code-Revisions.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "CapstanAg",
+    "name": "Opti-Rate",
+    "model": "Opti-Rate (standard on Steel Green SG54 and SGXL; upgradeable on other Steel Green models)",
+    "equipment": "Toolbars",
+    "category": "Rate-Controlled Spray System (Steel Green Stand-On Sprayers)",
+    "sourceUrl": "https://capstanag.com/steelgreen/",
+    "tagline": "Rate-controlled spray system.",
+    "description": "Opti-Rate is a next-generation liquid application system developed by CapstanAg for Steel Green stand-on sprayers. The intelligent rate-control system automates spray output through nozzle-by-nozzle pulsing at 20 pulses per second, turn compensation, and real-time operator feedback, maintaining consistent droplet size and exact application rate regardless of ground speed or terrain to cut chemical waste and improve coverage accuracy. Standard equipment on the SG54 and SGXL, with upgrade kits available for other Steel Green models.",
+    "specs": [
+      "Built-in rate control: select spray tip, pressure, and application rate",
+      "Pressure independent of speed for consistent droplet size",
+      "Real-time operator feedback: flow rate, tip diagnostics, gallons used, coverage area",
+      "Turn compensation adjusts nozzle output for even coverage around curves",
+      "Nozzle pulsing at 20 pulses per second for precision spraying",
+      "Automatic tip recognition and on-screen configuration",
+      "ISOBUS interface for electronic monitoring and parameter adjustment",
+      "Standard on Steel Green SG54 and SGXL models; upgrade kit available for other models"
+    ],
+    "images": [
+      "https://capstanag.com/wp-content/uploads/2025/05/opti-rate-featured-image-1.png",
+      "https://capstanag.com/wp-content/uploads/2024/12/Force-parts-WEB.png",
+      "https://capstanag.com/wp-content/uploads/2024/12/1000013831-1475x1536.jpg",
+      "https://capstanag.com/wp-content/uploads/2024/12/SG-Interface_square-WEB.png",
+      "https://capstanag.com/wp-content/uploads/2024/12/logo-steelgreen.png",
+      "https://capstanag.com/wp-content/uploads/2025/05/OPTI-RATE-VIDEO.png"
+    ],
+    "brochures": [],
+    "priority": false
+  }
+]

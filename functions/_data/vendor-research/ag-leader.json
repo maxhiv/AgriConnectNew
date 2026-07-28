@@ -1,0 +1,678 @@
+[
+  {
+    "vendor": "Ag Leader",
+    "name": "InCommand Go 16",
+    "model": "InCommand Go 16",
+    "equipment": "Hardware",
+    "category": "Displays",
+    "sourceUrl": "https://www.agleader.com/incommand-go/",
+    "tagline": "A solution for every operation in every season — the NEW InCommand Go display.",
+    "description": "InCommand Go 16 is Ag Leader's full-featured, year-round 15.6\" display offering unparalleled visibility and control from a single screen. A larger viewing area keeps all information visible on the map screen without switching views, with dynamic, expandable/collapsible tiles and automatic map re-centering. It acts as both a Universal Terminal and Task Controller for ISOBUS implements, connects to AgFiniti via built-in Wi-Fi or a new ruggedized cellular modem, and supports DisplayCast to share boundaries, guidance lines, and maps between multiple displays and field activities. It is the flagship display controlling the full range of Ag Leader guidance, planting, application, harvest, and water-management products.",
+    "specs": [
+      "15.6\" year-round touchscreen display",
+      "Cellular modem comes standard*",
+      "Multiple product control (unlock required), up to 8",
+      "External switchbox support",
+      "AutoSwath",
+      "Camera support, up to 4 cameras",
+      "Multiple maps view",
+      "AgFiniti connectivity built in",
+      "DisplayCast (unlock required)",
+      "Full guidance & steering support: SteerCommand Z2, SteadySteer, TurnPath, RightPath",
+      "Full planting support: SureForce, SureSpeed, SureDrive, SureStop, seed monitoring, hydraulic drive control",
+      "Full application support: RightSpot, DirectCommand L2, DirectCommand Granular, ISOBUS Liquid, SmartReport",
+      "Full harvest support: grain & forage yield monitoring, variety tracking & mapping, CartACE (DisplayCast unlock required), Z-Row",
+      "Water management: Intellislope plow control, topography mapping, survey collection",
+      "ISOBUS Universal Terminal and Task Controller support",
+      "Limited-time offer: 6 GB or 90 days of free cellular data plus 90-day free AgFiniti Essentials trial"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-Web-2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-GoInCommand-copy.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-FeaturesArtboard-7.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-FeaturesArtboard-8.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-FeaturesArtboard-9.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-Features-2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-HotSpot.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/Web-Carousel-SizingOpen-Shelldownsized-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-16_AgFiniti-Imperial.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/Both-angled-harvest.png"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "InCommand Go 10",
+    "model": "InCommand Go 10",
+    "equipment": "Hardware",
+    "category": "Displays",
+    "sourceUrl": "https://www.agleader.com/incommand-go/",
+    "tagline": "Every hero has a sidekick — the InCommand Go 10.",
+    "description": "InCommand Go 10 is a 10.1\" display that can be run as a standalone unit for operations that don't require the full functionality of the InCommand Go 16, or as a companion display alongside a Go 16. It now includes more features than ever before, including AutoSwath, basic planter module support, variety tracking, and SmartReports, all backed by the same year-round, all-in-one InCommand interface, AgFiniti connectivity, and ISOBUS Universal Terminal/Task Controller support as the rest of the Go lineup.",
+    "specs": [
+      "10.1\" touchscreen display",
+      "Cellular modem available as an add-on*",
+      "Multiple product control (unlock required), up to 3",
+      "External switchbox support",
+      "AutoSwath",
+      "Camera support, up to 4 cameras",
+      "AgFiniti connectivity built in",
+      "Guidance & steering support: SteerCommand Z2, SteadySteer, TurnPath, RightPath",
+      "Planting support: SureForce, SureSpeed, SureDrive, SureStop, basic planter module support, variety tracking",
+      "Application support: RightSpot, DirectCommand L2, DirectCommand Granular, ISOBUS Liquid, SmartReport",
+      "Harvest support: grain & forage yield monitoring, harvest variety tracking & mapping, CartACE, Z-Row",
+      "Water management: Intellislope plow control, topography mapping, survey collection",
+      "ISOBUS unlock required for Universal Terminal / Task Controller support"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-Web-2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/SureSpeed_Population_Closed-Tiles_InCommand-Go-16_1.0.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/SureSpeed-Rx_2-VarietyLiquid_InCommmand-Go-16_1.0-2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/SureSpeed_Population_2-VarietyLiquid_InCommand-Go-16_1.0-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/Untitled-1Artboard-3.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/seasonsArtboard-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/seasonsArtboard-2.png",
+      "https://www.agleader.com/wp-content/uploads/2025/03/Metric_UT_Application_InCommand-Go-16_1.0-e1752784955860.png"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "SteerCommand Z2",
+    "model": "SteerCommand Z2",
+    "equipment": "Hardware",
+    "category": "Machine Guidance",
+    "sourceUrl": "https://www.agleader.com/steercommand-z2/",
+    "tagline": "Year-round control and high-accuracy steering in a complete package.",
+    "description": "SteerCommand Z2 is Ag Leader's integrated hydraulic steering system, controlled by the year-round InCommand Go displays for industry-leading visibility and control. It provides integrated steering directly to the vehicle CAN bus or hydraulic valve, with user-guided step-by-step calibration and easy tuning from the run screen. SteerCommand Z2 pairs with Ag Leader GPS 6500 and GPS 7500 receivers and a range of correction sources (WAAS to RTK) to match the accuracy needed for any operation, and is upgradable with TurnPath (automated end-of-row turns) and RightPath (passive implement steering).",
+    "specs": [
+      "Integrated hydraulic steering directly to vehicle CAN bus or hydraulic valve",
+      "User step-by-step calibration and easy in-run-screen tuning",
+      "Pairs with Ag Leader GPS 6500 and GPS 7500 receivers",
+      "Compatible correction sources from WAAS to RTK",
+      "Compatible with virtually any brand of equipment operable with an automated steering system",
+      "All-in-one user experience via InCommand Go displays",
+      "Auto detection of steering control module orientation for faster setup",
+      "Guidance patterns including SmartPath for custom pattern based on initial pass",
+      "Compatible with TurnPath and RightPath upgrades"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SteerCommandZ2_1018x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingZ2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/SteerCommand-Z2-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/SteerCommand-Z2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/06/Low-Res-SteerCommandZ2-2.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "SteadySteer",
+    "model": "SteadySteer",
+    "equipment": "Hardware",
+    "category": "Machine Guidance",
+    "sourceUrl": "https://www.agleader.com/steadysteer/",
+    "tagline": "Economical, hands-free assisted steering system paired with a GPS receiver delivering pass-to-pass accuracy to any operation.",
+    "description": "SteadySteer is an economical, hands-free assisted steering wheel system controlled by Ag Leader's year-round InCommand displays. It pairs with an Ag Leader GPS receiver and correction source options to deliver pass-to-pass accuracy from WAAS to RTK. With 13 possible motor orientation options and a detachable, portable motor, SteadySteer installs easily on hundreds of agricultural vehicles and is designed for fast, powerful line acquisition even in tough terrain. It is upgradable with TurnPath and RightPath.",
+    "specs": [
+      "User step-by-step calibration with easy run-screen tuning",
+      "Pairs with Ag Leader GPS receivers and WAAS-to-RTK correction sources",
+      "Can be installed on hundreds of agricultural vehicles",
+      "13 possible motor orientation options with detachable motor",
+      "Maintenance-free, robust, sealed construction",
+      "Portable — simple transfer between vehicles",
+      "Installs directly to the steering column of tractor, combine, application rig, and more",
+      "High-torque motor and gear teeth design for demanding operations",
+      "Compatible with TurnPath and RightPath upgrades"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SteadySteer_558x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/SteadySteer-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/SteadySteer-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/12/steadysteerGuidance-Package-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/12/steadysteer10.png",
+      "https://www.agleader.com/wp-content/uploads/2024/12/steadysteer16-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/SteadySteer-1.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "GPS 7500",
+    "model": "GPS 7500",
+    "equipment": "Hardware",
+    "category": "Receivers",
+    "sourceUrl": "https://www.agleader.com/gps-receiver-systems/",
+    "tagline": "Full-featured receiver that can be used in all precision operations from basic to advanced.",
+    "description": "The GPS 7500 is Ag Leader's full-featured GPS receiver compatible with manual guidance, assisted steering (SteadySteer), and integrated steering (SteerCommand Z2). It supports the widest range of differential correction sources — WAAS/EGNOS/GLIDE, TerraStar-L, TerraStar-C PRO, TerraStar-X, and RTK with RTK ASSIST — with dual frequency performance on WAAS and multi-constellation, multi-frequency performance on RTK. It is RTK relay and base station compatible, DualTrac compatible, and supports advanced features like RTK ASSIST and RightPath passive implement steering.",
+    "specs": [
+      "Steering compatibility: manual guidance, assisted steering (SteadySteer), integrated steering (SteerCommand Z2)",
+      "Differential corrections: WAAS/EGNOS/GLIDE, TerraStar-L, TerraStar-C PRO, TerraStar-X, RTK with RTK ASSIST",
+      "Dual frequency on WAAS / multi-constellation, multi-frequency on RTK",
+      "RTK relay and base station compatible; DualTrac compatible",
+      "Advanced capabilities: RTK ASSIST, RightPath",
+      "RTK ASSIST maintains RTK-level performance for up to 20 minutes during signal interruptions",
+      "StableLoc smooth signal switching between correction sources",
+      "RTK via cellular (InCommand Go NTRIP-RTK), 900/400 MHz radio relay, or satellite (TerraStar-X)"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/08/GPS-Receivers-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2025/08/GPS-7500-7000-features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2025/08/RTK-Assist-1-scaled.png",
+      "https://www.agleader.com/wp-content/uploads/2025/08/StableLoc-graphic.jpg",
+      "https://www.agleader.com/wp-content/uploads/2024/06/Low-Res-GPS7500-web-5.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "GPS 7000",
+    "model": "GPS 7000",
+    "equipment": "Hardware",
+    "category": "Receivers",
+    "sourceUrl": "https://www.agleader.com/gps-receiver-systems/",
+    "tagline": "Entry level receiver that is scalable as your needs evolve.",
+    "description": "The GPS 7000 is Ag Leader's entry-level, scalable GPS receiver, compatible with manual guidance, assisted steering (SteadySteer), and integrated steering (SteerCommand Z2). It supports WAAS/EGNOS/GLIDE, TerraStar-L, TerraStar-C PRO, and RTK correction sources with single frequency performance on WAAS and dual-constellation, dual-frequency performance on RTK — giving operations an affordable path to precision guidance that can scale up over time.",
+    "specs": [
+      "Steering compatibility: manual guidance, assisted steering (SteadySteer), integrated steering (SteerCommand Z2)",
+      "Differential corrections: WAAS/EGNOS/GLIDE, TerraStar-L, TerraStar-C PRO, RTK",
+      "Single frequency on WAAS / dual-constellation, dual-frequency on RTK",
+      "Scalable as operational needs evolve",
+      "StableLoc smooth signal switching between correction sources",
+      "RTK via cellular (InCommand Go NTRIP-RTK) or 900/400 MHz radio relay"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/08/GPS-Receivers-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2025/08/GPS-7500-7000-features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/06/Low-Res-GPS7000-1.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "DualTrac",
+    "model": "DualTrac",
+    "equipment": "Hardware",
+    "category": "Receivers",
+    "sourceUrl": "https://www.agleader.com/dualtrac/",
+    "tagline": "A high-accuracy, dual antenna steering solution for any speed on the farm, down to 0.05 mph (0.08 km/h).",
+    "description": "DualTrac is Ag Leader's dual-antenna, high-accuracy steering solution built for ultra-low-speed precision, performing reliably at speeds as low as 0.05 mph (0.08 km/h). It uses two GPS 7500 receivers to provide the most accurate heading for autosteer, maintaining a stable heading even when the vehicle is not in motion. Pairing with SteerCommand Z2 for high-performance integrated hydraulic steering, DualTrac uses RTK, TerraStar-X, or NTRIP to achieve sub-inch (less than 2.5 cm) accuracy — ideal for specialty crops, vegetables, fruits, transplanting, bedding, drip tape, and other slow-speed field operations.",
+    "specs": [
+      "Performs at speeds as low as 0.05 mph (0.08 km/h)",
+      "Uses two GPS 7500 receivers for most accurate heading",
+      "Pairs with SteerCommand Z2 for integrated hydraulic steering",
+      "Sub-inch (less than 2.5 cm) accuracy via RTK, TerraStar-X, or NTRIP",
+      "GLONASS standard; outputs radar speed for other cab devices",
+      "Up to 20 Hz output",
+      "Rugged smart antenna with integrated magnets and mounting plate with locating pins for easy, repeatable vehicle transfer",
+      "LED diagnostics for system monitoring",
+      "Ideal for specialty crops, vegetables, fruits, transplanting, bedding, drip tape and other slow-speed operations"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/DualTrac_512x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/DualTrac-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/DualTrac-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/DualTrac-2-is-better.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/Untitled-design-47.png",
+      "https://www.agleader.com/wp-content/uploads/2024/06/Low-Res-DualTrac-1.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "TurnPath",
+    "model": "TurnPath",
+    "equipment": "Software Feature",
+    "category": "Features",
+    "sourceUrl": "https://www.agleader.com/turnpath/",
+    "tagline": "Hands-free steering for automatic, repeatable end-of-row turns.",
+    "description": "TurnPath is a one-time-fee unlock that automates end-of-row turns, eliminating the need for manual operation during turns and improving precision. Controlled by the InCommand or InCommand Go display, it benefits every field activity from tillage and planting to spraying and harvesting, and can be tried free for 24 hours via a trial activation from the display. TurnPath requires an unlocked InCommand or InCommand Go display, SteerCommand Z2 or SteadySteer, and a GPS 7500, 7000, 6500, or 6000 receiver.",
+    "specs": [
+      "Requires: InCommand or InCommand Go display unlocked for TurnPath",
+      "Requires: SteerCommand Z2 or SteadySteer",
+      "Requires: GPS 7500, 7000, 6500, or 6000",
+      "Automates turns for tillage, planting, application, and harvest",
+      "Easy calibration/adjustment through InCommand/InCommand Go display",
+      "Choose from different turn sequences",
+      "24-hour free trial available, pausable and resumable"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2025/04/TurnPath-logo.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Feature.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Turn-Preview-1.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Turn-Sequencing.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-on-screen.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-CLP-description.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "RightPath",
+    "model": "RightPath",
+    "equipment": "Hardware",
+    "category": "Features",
+    "sourceUrl": "https://www.agleader.com/rightpath/",
+    "tagline": "Now available! Passive implement steering to keep your implement centered on the guidance line.",
+    "description": "RightPath is a passive implement steering upgrade that keeps the implement — not just the vehicle — centered on the guidance line, ensuring precise input placement, increased operational efficiency, and minimized crop damage and yield loss. Without implement steering, an implement can drift off the intended guidance line by 10 inches or more even on flat ground. RightPath displays cross track error for both vehicle and implement, supports satellite-based corrections (TerraStar-C PRO, TerraStar-X) or RTK, and is compatible with Ag Leader integrated and assisted steering systems across mixed fleets of new or older equipment.",
+    "specs": [
+      "Vehicle requirements: InCommand Go 16 or InCommand Go 10, SteerCommand Z2 or SteadySteer, GPS 7500 at TerraStar-C Pro accuracy or better",
+      "Implement requirements: RightPath-unlocked GPS 7500 (no correction subscription), RightPath cabling/bracket kit",
+      "Supports TerraStar-C PRO, TerraStar-X, or RTK corrections",
+      "Displays cross track error for vehicle (top) and implement (bottom)",
+      "Compatible with mixed fleets of new or older equipment",
+      "Maximizes input placement accuracy (e.g., strip-till, NH3)",
+      "Delivers consistent guess rows in curves and uneven terrain",
+      "Reusable guidance line across subsequent field activities"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2025/01/RightPath-Web-Logo.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/large-RightPath_Web-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2025/01/RightPath-Feature-Photo.png",
+      "https://www.agleader.com/wp-content/uploads/2026/01/web_RightPath-see-your-cross-track-error.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/Crowded-Guess-Rows-1.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/Strip-Till.png",
+      "https://www.agleader.com/wp-content/uploads/2025/02/RightPath-CLP-description.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "SureForce",
+    "model": "SureForce",
+    "equipment": "Hardware",
+    "category": "Planter Products",
+    "sourceUrl": "https://www.agleader.com/sureforce/",
+    "tagline": "Planter hydraulic downforce with uplift.",
+    "description": "SureForce is Ag Leader's hydraulic planter downforce system with uplift, controlled by the InCommand Go 16 display. It instantly applies or removes force to give each row the exact pressure needed for ideal planting depth, replacing manual springs or airbags that can lag up to 20 seconds. SureForce is the most powerful downforce system on the market, maintaining depth in no-till conditions, varying soil types, heavy residue, and compacted areas, while hydraulic uplift prevents sidewall compaction by removing excess weight on the gauge wheels. It offers row-level monitoring, downforce-applied mapping, and works across 1 to 36 row planter configurations.",
+    "specs": [
+      "Individual row control with a gauge wheel sensor on every row",
+      "Up to 250 pounds of uplift and 650 pounds of downforce",
+      "200 load readings per second per row",
+      "Instant response vs. up to 20-second lag for airbag/spring systems",
+      "Fits most planters from 1 to 36 row configurations",
+      "Dual-acting hydraulic actuator for consistent depth and smooth ride",
+      "Set to low/medium/heavy — system auto-adjusts to maintain gauge wheel load",
+      "Controlled via InCommand Go 16 with row-level graphs and downforce-applied mapping"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureForce_580x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingSureForce.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureForce-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2026/02/SureForce-web-hotspot-1.png"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "SureSpeed",
+    "model": "SureSpeed",
+    "equipment": "Hardware",
+    "category": "Planter Products",
+    "sourceUrl": "https://www.agleader.com/surespeed/",
+    "tagline": "A high-accuracy seed meter and delivery system providing superior in-ground seed placement at any speed up to 12 mph.",
+    "description": "SureSpeed is a high-accuracy, aftermarket seed meter and delivery system offering superior in-ground seed placement at any speed up to 12 mph. Its unique meter design and flighted delivery belt — with the lowest release point in the industry — maximize singulation and spacing at all speeds. Built with durable, individually replaceable components (24-volt system, brushless DC motors, Kevlar-reinforced belt), SureSpeed offers unmatched longevity and the lowest cost of ownership in its class. It retrofits most Case IH, Harvest International, John Deere, Kinze, and White planters, supports up to 54 rows, and is tool-free for crop changeover across corn, soybean, wheat/barley, cotton, sugar beet/milo, and sunflower disks.",
+    "specs": [
+      "24-volt system with brushless DC motors",
+      "Kevlar reinforced delivery belt; tool-less disassembly",
+      "Supports up to 54 rows; row-level CAN bus for future expandability",
+      "Accurate seed placement from 3 mph to 12 mph",
+      "Flighted delivery belt with lowest release point in the industry",
+      "Retrofits for Case IH, Harvest International, John Deere, Kinze, and White planters (bulk-fill, 1.7 bu, and 3.0 bu hoppers)",
+      "Tool-free crop changeover via swappable seed disks and ejector wheel",
+      "Supported crop disks: corn, soybean (30\"/20\" & 15\"/20\"), wheat/barley, singulated cotton, sugar beet/milo, oil sunflower",
+      "Pairs with SureForce for consistent depth and smooth ride at high speed"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureSpeed_490x75.png",
+      "https://www.agleader.com/wp-content/uploads/2025/05/SureSpeed-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2025/05/SureSpeed-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2026/02/SureSpeed-web-hotspot.png"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "SureDrive",
+    "model": "SureDrive",
+    "equipment": "Hardware",
+    "category": "Planter Products",
+    "sourceUrl": "https://www.agleader.com/suredrive/",
+    "tagline": "Electric drives for your planter utilizing your existing meter.",
+    "description": "SureDrive is a maintenance-free electric drive that upgrades an existing planter meter with individual row-section control, variable-rate/prescription-based population control, and turn compensation. Each SureDrive row also acts as an individual section shutoff, reducing overlap, wasted seed, and lodged plants, and it automatically adjusts meter speed on each row to keep consistent population around turns, contours, and terraces. Its robust, sealed construction — four cold-forged, high-grade steel gears, precision bearings, and a drive chain submersed in full synthetic fluid — eliminates the maintenance of chains and bearings in traditional planter drive systems.",
+    "specs": [
+      "Capable of operating at 2 to 90 RPM",
+      "12-volt system, 6.2 amps maximum output",
+      "4.5 Nm max torque",
+      "Individual row section control acting as section shutoff",
+      "Variable rate / prescription-based population control",
+      "Turn compensation across turns, contours, and terraces",
+      "Maintenance-free, sealed construction",
+      "Fits most meters — installs directly on planter meter",
+      "Controlled by InCommand Go 16 display"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureDrive_576x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingSureDrive.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureDrive-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2026/02/SureDrive-web-hotspot.png"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "SureStop",
+    "model": "SureStop",
+    "equipment": "Hardware",
+    "category": "Planter Products",
+    "sourceUrl": "https://www.agleader.com/surestop/",
+    "tagline": "SureStop electric row clutches turn planter sections on and off, row-by-row using automatic row shutoffs.",
+    "description": "SureStop electric row clutches provide individual or per-section row shutoff control to eliminate double planting at end rows, point rows, and partial swaths — lowering seed cost, increasing yield through even spacing, and increasing productivity by removing the need to slow down at end rows. The 12V clutches mount on each row between the hex shaft and seed meter, use a rugged sealed design for year-after-year durability, and install on popular brand and model planters. Controlled by the InCommand Go displays, SureStop delivers pristine point rows and reduced seed waste.",
+    "specs": [
+      "12V electric point row clutches install on each row",
+      "Individual or per-section shutoff wiring options",
+      "Fits most planters — installs on popular brand and model planters",
+      "Sealed design for year-after-year durability",
+      "Mounts between hex shaft and seed meter to start/stop the meter",
+      "Stops seed meter for previously planted areas, headlands, waterways, and field boundaries",
+      "Controlled by InCommand Go displays with row-level graphs and map options"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureStop_520x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingSureStop.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/SureStop-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2026/02/SureStop-web-hotspot.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/Soybean_precision-row-cropped.png"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "RightSpot",
+    "model": "RightSpot",
+    "equipment": "Hardware",
+    "category": "Applicator Products",
+    "sourceUrl": "https://www.agleader.com/rightspot/",
+    "tagline": "Individual nozzle-by-nozzle sprayer control.",
+    "description": "RightSpot delivers instant nozzle-by-nozzle swath control, supporting up to 144 nozzles, with flow rate and pressure controlled independently for consistent coverage across a wide range of speeds and terrain. Using Blended Pulse technology, RightSpot's electric solenoids pulse at 10 or 20 Hz to eliminate skips and maintain precise boom pressure and droplet size, including turn compensation that increases flow on faster-moving outer nozzles and decreases flow on slower inner nozzles when spraying curves. Controlled by the InCommand Go 16 display, RightSpot is upgradable with BoomLoop for automated boom recirculation and fits most common self-propelled and pull-type sprayer brands including John Deere, Case, Hagie, Rogator, and Apache.",
+    "specs": [
+      "PWM system designed for a single boom line with one nozzle valve per location",
+      "Up to 144 nozzles with standard 15 Series valves; 110 nozzles with high-rate 24 Series valves",
+      "Supported nozzle bodies: Hypro/Arag, TeeJet, Wilger",
+      "24 Series valve: up to 2.4 gal/min max flow per nozzle valve",
+      "15 Series valve: up to 1.5 gal/min max flow per nozzle valve",
+      "Controlled through the year-round InCommand Go 16 display",
+      "Blended Pulse technology: electric solenoids pulse at 10 or 20 Hz to eliminate spray-pattern skips",
+      "Fits most self-propelled and pull-type sprayers including John Deere, Case, Hagie, Rogator, Apache, and more",
+      "Cabling designed for varying boom widths and nozzle spacing for clean install",
+      "Upgradable with BoomLoop automated boom recirculation"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2026/02/RightSpot-Logo.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/RightSpot-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/RightSpot-Features-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/RightSpot-2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/Coverage-issues-1.png"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "DirectCommand L2",
+    "model": "DirectCommand L2",
+    "equipment": "Hardware",
+    "category": "Applicator Products",
+    "sourceUrl": "https://www.agleader.com/directcommand-l2/",
+    "tagline": "Precision liquid application, elevated efficiency.",
+    "description": "DirectCommand L2 provides section control for up to 36 boom sections with variable-rate application, controlling liquid controllers, planters, sprayers, and NH3 applicators from a single system. It's a buildable platform — when ready for nozzle-by-nozzle precision, growers can easily upgrade from DirectCommand L2 to RightSpot. Controlled by the InCommand Go displays, it offers droplet size monitoring, vapor state monitoring and tube-check safety alerts for NH3/anhydrous toolbars, spinner spreader control with container sequencing, and planter liquid rate control options including electric pump and flowmeter/valve wiring integration.",
+    "specs": [
+      "Section control up to 36 boom sections with variable-rate application",
+      "Supports liquid controller, planter, sprayer, and NH3/anhydrous applicator setups",
+      "Buildable/upgradable to RightSpot nozzle-by-nozzle control",
+      "Droplet size monitoring via InCommand Go displays",
+      "NH3 toolbars: Vapor State Monitoring and Tube Check for plugged application tubes",
+      "Spinner spreader control: up to 3 products, spinner-speed and bin-level based, with container sequencing",
+      "Planter liquid control: electric pump (DC motor driver) or full wiring to liquid control valve, flowmeter, and section control valves"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/DirectCommandL2_1050x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/L2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/DirectCommand-L2-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2024/11/L2-4.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/Spinner-Spreader155.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/conventional-sprayer155.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/U-of-N-091105_Anhydrous001.jpg",
+      "https://www.agleader.com/wp-content/uploads/2024/09/supported-machines-planter.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "BoomLoop",
+    "model": "BoomLoop",
+    "equipment": "Hardware",
+    "category": "Applicator Products",
+    "sourceUrl": "https://www.agleader.com/boomloop/",
+    "tagline": "A simple, effective way to prime without spraying while reducing product buildup in the boom.",
+    "description": "BoomLoop is a fully-integrated, automated recirculation solution for sprayers equipped with RightSpot, creating a streamlined path for product to flow from the ends of the boom back to the tank — eliminating dead spots and buildup opportunities. It automates priming so spray solution fills the entire boom without dispensing to the ground, and automatically sequences section valves so the whole boom is primed or flushed even when folded or not level. BoomLoop is controlled entirely from the InCommand Go 16 display, with visual and audible alerts when active, and lets operators prime/agitate the boom while folding up and driving to the next field.",
+    "specs": [
+      "Fully-integrated recirculation solution paired with RightSpot",
+      "Automated priming avoids dispensing product to the ground",
+      "Automatic section-valve sequencing primes/flushes boom even when folded or not level",
+      "Controlled entirely through InCommand Go 16 display",
+      "Visual and audible alerts when BoomLoop is active",
+      "Enables recirculation/agitation during transport between fields"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/BoomLoop_463x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/BoomLoop-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/BoomLoop-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/BoomLoop-1.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/Screen-Shot-2024-07-09-at-11.23.05-AM-e1720542749781.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "Granular (DirectCommand Granular)",
+    "model": "DirectCommand Granular",
+    "equipment": "Hardware",
+    "category": "Applicator Products",
+    "sourceUrl": "https://www.agleader.com/granular/",
+    "tagline": "DirectCommand Granular Applicator transforms the application process, providing maximum control and efficiency.",
+    "description": "DirectCommand Granular gives spinner spreaders and toolbar applicators AutoSwath (automatic on/off based on field boundaries and already-applied areas), variable-rate application of up to three products, container sequencing with independent container-level monitoring, and easy SmartReport generation with location, product info, applied totals, and as-applied maps. Controlled by the InCommand Go displays, it supports strip-till fertilizer control (up to three granular products alongside anhydrous and nitrogen stabilizer) and spinner spreader control with sequential multi-product application.",
+    "specs": [
+      "AutoSwath: automatic on/off based on field boundaries and applied areas",
+      "Variable rate application of up to three products",
+      "Container sequencing with independent container-level monitoring per channel",
+      "SmartReports: location, product info, applied totals, as-applied maps",
+      "Strip-till fertilizer control: up to 3 granular products plus anhydrous/nitrogen stabilizer",
+      "Spinner spreader control with spinner-speed and bin-level based rate control",
+      "Controlled by InCommand Go displays"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/Granular_472x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/Granular-Header.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/Granular-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2026/02/Granular-hotspot.png",
+      "https://www.agleader.com/wp-content/uploads/2026/02/Application-Granular-Strip-Till-IC-Go-16v2.0.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "Yield Monitor",
+    "model": "Ag Leader Yield Monitoring System",
+    "equipment": "Combines",
+    "category": "Combines",
+    "sourceUrl": "https://www.agleader.com/yield-monitor/",
+    "tagline": "Real-time, accurate yield data for crucial decision-making.",
+    "description": "Ag Leader's Yield Monitor is the time-tested, gold-standard benchmark for combine yield and moisture mapping, trusted on thousands of machines worldwide since 1992. Live yield and moisture mapping instantly show how field conditions affect yield while harvesting, with trustworthy yield data achievable in as little as two calibration loads. It installs on many makes and models at the factory, and aftermarket kits fit most combines made in the last 35 years, using the combine's original elevator chain and, in many cases, existing flow and moisture sensors and elevator mount unit. Controlled by the InCommand Go displays, it includes resettable bushel counters to track grain in the tank.",
+    "specs": [
+      "Live yield and moisture mapping in real time",
+      "Accurate calibration achievable in as little as two calibration loads",
+      "Aftermarket install kits fit most combines made in the last 35 years",
+      "Resettable dual bushel counters viewable on InCommand display",
+      "Uses combine's original elevator chain and, in many cases, existing flow/moisture sensors",
+      "Historical map layer overlays (variety, prescription) for on-the-go yield analysis",
+      "Pairs with CartACE for combine-to-grain-cart connectivity"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/YieldMonitor_731x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/Yield-Monitoring-copy.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/Yield-Monitoring.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/Yield-Monitoring-hotspot.png",
+      "https://www.agleader.com/wp-content/uploads/2024/06/CartACE-Illustration.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "CartACE",
+    "model": "CartACE",
+    "equipment": "Combines",
+    "category": "Combines",
+    "sourceUrl": "https://www.agleader.com/cartace/",
+    "tagline": "Technology that turns drivers into skilled grain cart operators.",
+    "description": "CartACE keeps the combine and grain cart operation moving smoothly by automatically loading a guidance line for the grain cart to follow the combine while unloading on the go — no manual guidance line management needed. It shows the location of all vehicles in the harvest operation and tracks combine grain-tank level right from the InCommand display, leveraging existing Ag Leader displays and steering systems already on the farm with a cellular connection. When it's time to unload, the grain cart engages with the press of a button and autosteer takes over to steer on a line directly under the combine's auger.",
+    "specs": [
+      "Automatically generates guidance line for grain cart to follow combine while unloading on the go",
+      "No manual guidance line management — line created from logged combine data",
+      "Live map and location tracking of entire harvest operation from display or iPad",
+      "Live grain tank counter for the combine",
+      "Leverages existing Ag Leader displays and steering systems with cellular connection",
+      "Press-of-a-button engagement; autosteer assists unloading accuracy"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/CartAce_620x100.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingCartACE.png",
+      "https://www.agleader.com/wp-content/uploads/2024/08/CartACE-Features.png",
+      "https://www.agleader.com/wp-content/uploads/2024/10/CartACE-hotspot.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/CartACE-video-thumbnail.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "Z-Row",
+    "model": "Z-Row",
+    "equipment": "Combines",
+    "category": "Machine Guidance",
+    "sourceUrl": "https://www.agleader.com/z-row/",
+    "tagline": "Fully integrated corn head row guidance",
+    "description": "Z-Row keeps the combine centered between rows for smooth feeding even in poor visibility, down corn, and challenging terrain, integrating row guidance and harvest data into a single InCommand Go display. It works across mixed fleets of new or older equipment by pairing SteerCommand Z2 or SteadySteer with leading corn head sensors — AutoTrac RowSense (John Deere), TrueSight/TrueSense (Precision Planting), or PSR TAC (Reichhardt) — avoiding the cost of replacing an entire steering system. Operators can seamlessly switch between guidance-line steering and Z-Row row guidance without disengaging.",
+    "specs": [
+      "Requires: InCommand Go 16, InCommand Go 10, or InCommand Go 10 (Guidance)",
+      "Requires: SteerCommand Z2 or SteadySteer steering controller",
+      "Requires a compatible corn head sensor: AutoTrac RowSense (John Deere), TrueSight/TrueSense (Precision Planting), or PSR TAC (Reichhardt)",
+      "All-in-one display combines harvest data (yield/moisture) and row guidance",
+      "Cross track error view for row guidance vs. guidance line",
+      "Seamless switching between guidance-line steering and row guidance without disengaging",
+      "One steering solution (SteerCommand Z2/SteadySteer) usable for row and platform heads across the season"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2026/04/Z-Row-web-logo.png",
+      "https://www.agleader.com/wp-content/uploads/2026/05/Z-Row-Hotspot-Hero.png",
+      "https://www.agleader.com/wp-content/uploads/2026/05/Z-Row-Thumbnail-Video.png",
+      "https://www.agleader.com/wp-content/uploads/2026/04/InCommand-Go-16-in-cab.png",
+      "https://www.agleader.com/wp-content/uploads/2026/04/InCommand-Go-10-in-cab.png",
+      "https://www.agleader.com/wp-content/uploads/2026/04/Z-Row-InCommand-Go-HotSpot.png",
+      "https://www.agleader.com/wp-content/uploads/2026/04/Z-Row-CLP.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "Intellislope",
+    "model": "Intellislope",
+    "equipment": "Hardware",
+    "category": "Subsurface Drainage",
+    "sourceUrl": "https://www.agleader.com/intellislope/",
+    "tagline": "Installing drainage tile on your farm made possible with Intellislope.",
+    "description": "Intellislope, controlled by the InCommand Go 16, makes DIY drainage-tile installation possible in three steps: survey the surface elevation, plan tile placement (or import a complete plan from SMS Advanced), and install using AutoTile automatic depth adjustment, GPS-based manual grade control, or pitch control if RTK signal is lost. AutoTile mode calculates grade automatically from survey and target elevation data, while grade control mode uses GPS instead of lasers for easy in-cab adjustment, including grade breaks. Intellislope is built by Ag Leader in partnership with sister company Soil-Max, maker of tile plows.",
+    "specs": [
+      "Three-step workflow: Survey, Plan, Install",
+      "AutoTile mode: automatic depth adjustment from survey + target elevation",
+      "Grade Control mode: GPS-based grade control (no lasers), adjustable in-cab with grade breaks",
+      "Pitch Control mode: maintains desired pitch during RTK signal loss (with pitch plow; not recommended for large-scale installs)",
+      "Import complete tile plans from SMS Advanced software",
+      "SMS validates tile plan grade for soil texture at intended depth and run sizing",
+      "Built by Ag Leader in partnership with sister company Soil-Max tile plows"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/Intellislope_503x75.png",
+      "https://www.agleader.com/wp-content/uploads/2024/07/Intellislope-copy.png",
+      "https://www.agleader.com/wp-content/uploads/2025/08/Survey.png",
+      "https://www.agleader.com/wp-content/uploads/2025/08/Install.png",
+      "https://www.agleader.com/wp-content/uploads/2024/06/grade2-500x375-1.gif",
+      "https://www.agleader.com/wp-content/uploads/2024/06/intellislope-pitch-control1-1280x960-1.png",
+      "https://www.agleader.com/wp-content/uploads/2025/08/SMS-to-InCommand-Go.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "AgFiniti",
+    "model": "AgFiniti",
+    "equipment": "Software",
+    "category": "Data Management",
+    "sourceUrl": "https://www.agleader.com/agfiniti/",
+    "tagline": "Know you are fully connected with AgFiniti.",
+    "description": "AgFiniti is Ag Leader's cloud-based data platform connecting the whole farm operation for real-time decision support. It syncs maps, boundaries, guidance lines, and configurations across displays and mobile devices, lets users query fields and generate simple yield comparison reports, auto-generate prescriptions, and remotely view/control InCommand displays for calibration, setup, and troubleshooting. AgFiniti connects to third-party platforms such as John Deere Operations Center and Climate FieldView, and is offered free (basic mobile viewing) or as a paid AgFiniti Essentials subscription with full sync, remote display control, CartACE, and advanced analysis tools.",
+    "specs": [
+      "Free tier: view maps anywhere, sync with InCommand display, overlay maps, basic query/summary tools, take pictures/notes, print maps/reports, email files, wireless file transfer up to 5 GB, automatic firmware updates",
+      "AgFiniti Essentials: $420/year (USD) — live maps and stats across all devices, full display sync, remote display view/control, CartACE, third-party sync (John Deere Operations Center, Climate FieldView, CNH), 6000 acres / 250 GB cloud storage (expandable)",
+      "Analysis tools: overlay maps to identify trends, view yield by hybrid/soil type/population, equation-based prescriptions, multi-year analysis, machine/personnel location tracking",
+      "Available on iPad, tablet, laptop, and smartphone"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/07/AgFIniti-2.png",
+      "https://www.agleader.com/wp-content/uploads/2024/09/AgFiniti-Query-Fields.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "Ag Leader",
+    "name": "SMS Software",
+    "model": "SMS (Basic / Advanced / Mobile)",
+    "equipment": "Software",
+    "category": "Data Management",
+    "sourceUrl": "https://www.agleader.com/sms-software/",
+    "tagline": "Easy-to-use precision farming software for year-round decision making.",
+    "description": "SMS Software is Ag Leader's desktop precision-farming decision tool covering planting, application, harvest, and field-stewardship workflows — from choosing seed by historic yield performance and building planter reports, to tracking variable-rate application and creating prescriptions, to multi-year harvest trend analysis and soil-sampling/tile-plan management. SMS Basic covers guidance line management, input placement, soil survey downloads, and financial tracking; SMS Advanced adds unlimited project management, 3D terrain viewing, correlation/terrain/NDVI/profit-loss analysis, zone analysis, equation-based prescription writing, and optional Booklet Printing, Water Management, Plot Prescription, and Field Trial modules. SMS Mobile syncs field-collected boundaries, soil samples, crop scouting, and coverage logs back to the desktop, and SMS integrates with AgFiniti for anywhere access.",
+    "specs": [
+      "SMS Basic: $995 one-time fee + $280/yr maintenance (USD) — 5 projects, file processing from most precision-ag displays, guidance line management, aerial/road backgrounds, simple prescriptions, query tools, weather, satellite (Sentinel) imagery, U.S. soil survey import",
+      "SMS Advanced: $2,995 one-time fee + $815/yr maintenance (USD) — unlimited projects, calendar view, dataset playback, 3D plotting/terrain, correlation/terrain/NDVI/profit-loss analysis, zone analysis, equation writing, multi-year averaging, batch commands, optional Booklet Printing/Water Management/Field Trial/Plot Prescription modules",
+      "SMS Mobile: boundary logging, soil sampling, crop scouting, coverage logging, general logging, syncs with desktop software",
+      "Integrates with AgFiniti for anywhere/any-device access to row-by-row planting, application, and harvest data"
+    ],
+    "images": [
+      "https://www.agleader.com/wp-content/uploads/2024/08/SMS2.png"
+    ],
+    "brochures": [],
+    "priority": false
+  }
+]

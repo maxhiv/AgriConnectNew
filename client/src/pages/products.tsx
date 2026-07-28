@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { ExternalLink, Search, Filter, Grid3X3, List } from "lucide-react";
 import type { Product } from "@shared/schema";
+import { getVendorLogo } from "@/lib/vendorLogos";
 
 interface CatalogMeta {
   brands: string[];
@@ -248,12 +249,12 @@ function ProductCard({ product, viewMode }: { product: Product; viewMode: "grid"
     return (
       <Card className="hover:shadow-lg transition-shadow" data-testid={`card-product-${product.slug}`}>
         <div className="flex flex-col md:flex-row">
-          {product.primaryImage && (
+          {(product.primaryImage || getVendorLogo(product.brand)) && (
             <div className="w-full md:w-48 h-32 bg-slate-50 flex-shrink-0 overflow-hidden">
-              <img 
-                src={product.primaryImage} 
-                alt={product.name}
-                className="w-full h-full object-contain p-2"
+              <img
+                src={product.primaryImage || getVendorLogo(product.brand)!}
+                alt={product.primaryImage ? product.name : `${product.brand} logo`}
+                className={product.primaryImage ? "w-full h-full object-contain p-2" : "w-full h-full object-contain p-4"}
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
@@ -295,12 +296,12 @@ function ProductCard({ product, viewMode }: { product: Product; viewMode: "grid"
 
   return (
     <Card className="hover:shadow-lg transition-shadow flex flex-col" data-testid={`card-product-${product.slug}`}>
-      {product.primaryImage && (
+      {(product.primaryImage || getVendorLogo(product.brand)) && (
         <div className="aspect-video bg-slate-50 overflow-hidden">
-          <img 
-            src={product.primaryImage} 
-            alt={product.name}
-            className="w-full h-full object-contain p-4"
+          <img
+            src={product.primaryImage || getVendorLogo(product.brand)!}
+            alt={product.primaryImage ? product.name : `${product.brand} logo`}
+            className={product.primaryImage ? "w-full h-full object-contain p-4" : "w-full h-full object-contain p-8"}
             onError={(e) => {
               e.currentTarget.style.display = 'none';
             }}

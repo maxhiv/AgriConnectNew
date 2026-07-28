@@ -1,0 +1,1032 @@
+[
+  {
+    "vendor": "PTx Trimble",
+    "name": "GFX-350 Display",
+    "model": "GFX-350",
+    "equipment": "Hardware",
+    "category": "Displays",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/displays/gfx-350-display",
+    "tagline": "A single hub for managing in-field work, including auto-guidance and application control.",
+    "description": "GFX displays, powered by Precision-IQ, provide a single hub for managing in-field work, including auto-guidance and application control. The GFX-350 is the entry-level model in the GFX lineup with a 7-inch high-definition touchscreen.",
+    "specs": [
+      "7-inch (17.1 cm) high-definition color touchscreen",
+      "16 GB storage, 1 GB RAM",
+      "2 input channels, 24 sections maximum",
+      "Single external camera support, 1 USB port",
+      "1 CAN port, 1 100Base-T1 (BRR) port",
+      "Standard TeamViewer remote control",
+      "Optional auto asset detection and AutoSync",
+      "Guidance features: Headland, AB, A+ Curve, Pivot, As-Applied, access paths, tram lines",
+      "Application control via optional licenses (Field-IQ, ISOBUS)",
+      "Variable rate and section control for up to 2 channels",
+      "Optional WeedSeeker 2 system support"
+    ],
+    "images": [
+      "https://www.ptxag.com/content/dam/multisite/newco/website/products/gfx-displays/ptxt-gfx-350-studio.png"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "GFX-1060 Display",
+    "model": "GFX-1060",
+    "equipment": "Hardware",
+    "category": "Displays",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/displays/gfx-1060-display",
+    "tagline": "A single hub for managing in-field work, including auto-guidance and application control.",
+    "description": "GFX displays, powered by Precision-IQ, provide a single hub for managing in-field work, including auto-guidance and application control. The GFX-1060 is the mid-tier model with a 10.1-inch touchscreen and expanded I/O for multi-channel application control.",
+    "specs": [
+      "10.1-inch (25.6 cm) high-definition color touchscreen",
+      "32 GB storage, 4 GB RAM",
+      "6 input channels, 255 sections maximum",
+      "Dual external camera support, 2 USB ports",
+      "3 CAN ports, 1 100Base-T1 (BRR) port",
+      "Standard TeamViewer remote control",
+      "Optional auto asset detection and AutoSync",
+      "Guide to Feature Lines guidance capability (standard)",
+      "Field-IQ section control up to 48 sections",
+      "Up to 4 controlled channels for Field-IQ and Serial Rate/TUVR",
+      "Optional multi-channel/multi-product support (2-4 channels)",
+      "Optional WeedSeeker 2 system support"
+    ],
+    "images": [
+      "https://www.ptxag.com/content/dam/multisite/newco/website/products/gfx-displays/ptxt-gfx-1060-studio.png",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-gfx-1060-argentina-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-gfx-1060-australia-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-gfx-1060-us-16-9?fmt=png-alpha"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "GFX-1260 Display",
+    "model": "GFX-1260",
+    "equipment": "Hardware",
+    "category": "Displays",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/displays/gfx-1260-display",
+    "tagline": "A single hub for managing in-field work, including auto-guidance and application control.",
+    "description": "GFX displays, powered by Precision-IQ, provide a single hub for managing in-field work, including auto-guidance and application control. The GFX-1260 is the flagship model with a 12.1-inch touchscreen and the most extensive I/O for large, complex operations.",
+    "specs": [
+      "12.1-inch (30.7 cm) high-definition color touchscreen",
+      "32 GB storage, 4 GB RAM",
+      "6 input channels, 255 sections maximum",
+      "Dual external camera support, 2 USB ports",
+      "3 CAN ports, 2 100Base-T1 (BRR) ports",
+      "Standard TeamViewer remote control",
+      "Optional auto asset detection and AutoSync",
+      "Guide to Feature Lines guidance capability (standard)",
+      "Field-IQ section control up to 48 sections",
+      "Up to 6 controlled channels for Field-IQ and Serial Rate/TUVR",
+      "Optional multi-channel/multi-product support (2-6 channels)",
+      "Optional WeedSeeker 2 system support"
+    ],
+    "images": [
+      "https://www.ptxag.com/content/dam/multisite/newco/website/products/gfx-displays/ptxt-gfx-1260-studio.png"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/h9k88sbtmrtmqr24kzhpnx9t/GFX-1260_Datasheet__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "TMX-2050 Display System",
+    "model": "TMX-2050",
+    "equipment": "Hardware",
+    "category": "Displays",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/displays/tmx-2050-display.html",
+    "tagline": "Ideal for farms that run large implements, need multi-product applications or require subsurface drainage capabilities.",
+    "description": "A large touchscreen display system designed for complex agricultural operations, featuring a 12.1-inch high-definition color touchscreen with Android-based operating system and FmX+ firmware. Supports water management, dual GNSS workflows, implement steering, and ISOBUS compatibility for mixed-fleet equipment control.",
+    "specs": [
+      "12.1-inch (30.8 cm) HD color touchscreen",
+      "Android-based operating system with FmX+ firmware",
+      "32 GB storage capacity",
+      "Customizable run screen with moveable widgets",
+      "Integrated GNSS receiver with multi-receiver expansion capability",
+      "Control up to 6 input channels and 255 sections",
+      "Integrated camera plus external camera support",
+      "USB, ethernet, and HDMI connectivity",
+      "Wi-Fi capability via external dongle/modem",
+      "Optional ISOBUS task controller and Universal Terminal",
+      "Rugged construction for harsh farming environments",
+      "App Central integration for farm operation tools"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-tmx-2050-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-tmx-2050-variable-rate?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-tmx-2050-in-cab?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-tmx-2050-planting-challenger-straight?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autopilot-water-drainage?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-challenger-horsch-planting?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-app-central?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/378nrcvg49mwk3xjfhv62f/TMX-2050_Data_Sheet__EN-US"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "SMART570 Universal Terminal Display",
+    "model": "SMART570",
+    "equipment": "Hardware",
+    "category": "Displays",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/displays/smart570-display.html",
+    "tagline": "Flexible, affordable and compatible with all vehicles or implements equipped with ECUs that support the ISOBUS UT standard.",
+    "description": "Universal terminal offering programmable ISOBUS control across equipment brands supporting UT and AUX-N standards, designed as a dedicated display functioning alongside existing OEM or aftermarket systems.",
+    "specs": [
+      "ISO 11783 ISOBUS compliant and AEF certified for UT and AUX-N standards",
+      "9-pin CPC power/ISOBUS connection",
+      "5.7-inch (14.5 cm) VGA color capacitive dual touch screen",
+      "Rotary encoder and membrane keyboard",
+      "IP66K rated",
+      "Twelve programmable softkey buttons",
+      "Compact flat design for flexible cab installation",
+      "CAN connectivity via cabled CPC connector",
+      "Bright sunlight viewable display"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-smart570-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/smart-570-in-cab",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-planter"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/tchp4fmnhpjj4g65mj7ww/SMART570_Data_Sheet__EN-US"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "NAV-960 Guidance Controller",
+    "model": "NAV-960",
+    "equipment": "Hardware",
+    "category": "Guidance Controllers",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/guidance-control/nav-960-guidance-controller",
+    "tagline": "PTx Trimble's newest receiver with its most advanced technology, offering superior accuracy and reliability for farm operations.",
+    "description": "The NAV-960 is built on an enhanced GNSS engine, powerful processor, rugged design, and advanced inertial sensors. It provides up to 50% better line following and positioning and features embedded IonoGuard technology for performance during solar events. Fully compatible with existing GFX displays and serves as an upgrade to NAV-900 receivers.",
+    "specs": [
+      "Enhanced GNSS engine tracking multiple satellites",
+      "Supports HAS, CLAS correction signals, E6 and L6 bands",
+      "16x more powerful processor than previous models",
+      "IP66-rated with solid aluminum base",
+      "Supports all major GNSS constellations: GPS, GLONASS, Galileo, BeiDou, QZSS, SBAS",
+      "Embedded connectivity: CenterPoint RTX, RangePoint RTX, SBAS, QZSS CLAS, xFill, RTK, VRS",
+      "Integrated WiFi and Bluetooth",
+      "Precision-IQ compatible",
+      "Compatible with GFX displays",
+      "Requires VDM-912 for hydraulic steering installations"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-front-us-9-16?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-prp-nav-960-france-back-9-16?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-working-ground-us-9-16?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-prp-nav-960-planting-france-9-16?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-drone-us-9-16?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ionoguard-us-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-roof-back-9-16?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-roof-front-9-16?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-install-9-16?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/x94ps5xp3r3wbw3crv97wn/PTx_Trimble_NAV-960_Data_Sheet_-_English"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "NAV-500 Guidance Controller",
+    "model": "NAV-500",
+    "equipment": "Hardware",
+    "category": "Guidance Controllers",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/guidance-control/nav-500-guidance-controller",
+    "tagline": "An affordable precision solution capable of receiving corrections from multiple GNSS satellite constellations.",
+    "description": "The NAV-500 is compatible with any PTx Trimble GFX display and delivers sub-meter, repeatable accuracy for full-farm coverage at a cost-effective price. It supports multiple farming activities including tillage, broadacre seeding, spraying, and harvest operations with Trimble ViewPoint RTX correction service or SBAS.",
+    "specs": [
+      "Low-profile rugged housing",
+      "Roll-corrected manual guidance",
+      "Built-in Bluetooth for tethering and device connections",
+      "Two CAN ports",
+      "Multi-satellite corrections (GPS, GLONASS, Galileo, Beidou, QZSS)",
+      "Sub-meter repeatable accuracy",
+      "Full-farm coverage capability"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-500-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-500-fendt-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-500-up-close-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-500-tractor-front-16-9?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "NAV-900 Guidance Controller",
+    "model": "NAV-900",
+    "equipment": "Hardware",
+    "category": "Guidance Controllers",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/guidance/nav-900-guidance-controller.html",
+    "tagline": "One of PTx Trimble's most advanced GNSS receivers, built for maximum uptime.",
+    "description": "The NAV-900 is an advanced GNSS receiver offering superior accuracy and rugged reliability for guidance and steering. It accommodates multiple satellite corrections (GPS, GLONASS, Galileo, Beidou, QZSS), features Trimble's ProPoint positioning engine for improved performance near obstacles, and supports autoguidance when paired with compatible displays and steering systems.",
+    "specs": [
+      "Multi-satellite correction signals (GPS, GLONASS, Galileo, Beidou, QZSS)",
+      "Trimble ProPoint positioning engine",
+      "Trimble IonoGuard technology for RTK signal reliability",
+      "Low-profile rugged housing",
+      "Built-in Bluetooth connectivity",
+      "Compatible with PTx Trimble GFX displays and steering systems",
+      "Supports CenterPoint RTX, CenterPoint VRS, RangePoint RTX corrections",
+      "SBAS, EGNOS, and RTK compatibility",
+      "Simple half-day installation",
+      "Roof-mounted configuration"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-900-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-900-spain-spraying-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-900-brazil-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-900-installation-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ionoguard-us-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-propoint-treeline-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autoguidance-spain-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-correction-options-16-9?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "AG-392 Receiver",
+    "model": "AG-392",
+    "equipment": "Hardware",
+    "category": "Receivers",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/guidance-control/ag-392-receiver",
+    "tagline": "One of PTx Trimble's most advanced GNSS receivers to date, built for maximum uptime and a wide range of accuracy options.",
+    "description": "A GNSS receiver designed to mount on CNHi agricultural vehicle roofs with factory displays (Case IH Pro700, New Holland IntelliView IV, Steyr S-TECH 700), providing positioning and guidance capabilities.",
+    "specs": [
+      "CNHi OEM display compatible",
+      "Full GNSS constellation support (GPS, GLONASS, Galileo, Beidou, QZSS)",
+      "Powerful GNSS engine with enhanced satellite tracking",
+      "Faster RTX convergence times",
+      "Robust performance in harsh environments",
+      "Built-in Bluetooth for device connections"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ag392-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ag-372-1-1?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "R750 Modular GNSS Receiver",
+    "model": "R750",
+    "equipment": "Hardware",
+    "category": "Receivers",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/guidance-control/r750-modular-gnss-receiver",
+    "tagline": "Add repeatable accuracy to all precision agriculture applications.",
+    "description": "With fixed base station, mobile base station and rover receiver configurations available, the R750 GNSS receiver is an ideal choice to add repeatable accuracy to all precision agriculture applications.",
+    "specs": [
+      "Fixed/mobile base station and rover receiver configurations",
+      "Integrated 2.4/5 GHz WiFi, Bluetooth, and worldwide 4G LTE modules",
+      "IP67 water and dust protection rating",
+      "Designed to survive up to 3.6-foot (1.1 m) drop onto hard surface",
+      "USB-C port for data transfer, communications, and power delivery charging",
+      "Trimble IonoGuard technology for enhanced RTK signal tracking",
+      "ProPoint technology utilizing all-in-view GNSS constellations",
+      "Compatible with Trimble CenterPoint RTX and xFill correction services",
+      "Portable, standalone operation or integration with PTx Trimble steering systems",
+      "Suitable for planting, harvesting, specialty crops, land forming, and drainage applications"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-r750-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-r750-1-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-r750-3-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-r750-2-16-9?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "Autopilot Automated Steering",
+    "model": "Autopilot (Hydraulic / CAN-based)",
+    "equipment": "Hardware",
+    "category": "Steering Systems",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/steering-systems/autopilot-automated-steering",
+    "tagline": "Hydraulic and CAN-based options for high-accuracy, hands-free steering.",
+    "description": "PTx Trimble's Autopilot steering system offers hydraulic, motor drive and CAN-based options for controlling a range of machines regardless of brand. Electric, hands-free, automated steering integrates with the vehicle's CAN bus or hydraulics for sub-inch accuracy when combined with the NAV-960 guidance controller.",
+    "specs": [
+      "Electric, hands-free, automated steering system",
+      "Hydraulic and motor drive platform options",
+      "Sub-inch accuracy when combined with NAV-960 guidance controller",
+      "Operates at slow speeds and in reverse",
+      "Integrates with vehicle's CAN bus (CAN-based variant)",
+      "Works with TrueGuide implement guidance and TrueTracker implement steering",
+      "T3 Terrain Compensation for rolling terrain, slopes, rough ground",
+      "NextSwath 2 end-of-row turn technology",
+      "OnSwath advanced line acquisition settings",
+      "FreeForm guidance patterns",
+      "Square Headlands feature for field boundary coverage",
+      "Reduces operator fatigue and improves safety"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autopilot-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autopilot-planting?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autopilot-potatoes?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autopilot-tillage?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-trueguide-terrain-compensation?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-900-precision-iq-nextswath-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-straight-rows?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-freeform-potato-bedforming?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-precision-iq-square-headlands-16-9?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/6z3gfvtnbn9rvj6f79hgtv5p/Guidance__Steering_Brochure__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "Autopilot Motor Drive",
+    "model": "Autopilot Motor Drive (APMD)",
+    "equipment": "Hardware",
+    "category": "Steering Systems",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/steering-systems/autopilot-motor-drive",
+    "tagline": "Hydraulic/motor drive options for high-accuracy, hands-free steering.",
+    "description": "The motor drive variant of PTx Trimble's Autopilot steering system mounts to the steering column for hands-free, automated steering across a range of machine brands and models, delivering sub-inch accuracy when paired with the NAV-960 guidance controller.",
+    "specs": [
+      "Electric, hands-free, automated steering system",
+      "Mounts to steering column (motor drive variant)",
+      "Sub-inch accuracy when combined with NAV-960 guidance controller",
+      "Operates at slow speeds and in reverse",
+      "Works with TrueGuide implement guidance and TrueTracker implement steering",
+      "T3 Terrain Compensation for rolling terrain, slopes, rough ground",
+      "NextSwath 2 end-of-row turn technology",
+      "OnSwath advanced line acquisition settings",
+      "FreeForm guidance patterns",
+      "Square Headlands feature for field boundary coverage",
+      "Reduces operator fatigue and improves safety"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autopilot-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autopilot-planting?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autopilot-potatoes?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-autopilot-tillage?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/6z3gfvtnbn9rvj6f79hgtv5p/Guidance__Steering_Brochure__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "EZ-Pilot Pro Steering",
+    "model": "EZ-Pilot Pro",
+    "equipment": "Hardware",
+    "category": "Steering Systems",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/steering-systems/ez-pilot-pro-steering",
+    "tagline": "High-accuracy guidance across a wide variety of machines for all farming operations.",
+    "description": "The EZ-Pilot Pro system delivers assisted steering while enabling reverse engagement for up to 15 seconds to line up subsequent swaths. Designed for mechanical front-wheel and four-wheel drive tractors and combines, it features terrain compensation technology for precision in challenging field conditions.",
+    "specs": [
+      "NextSwath 2 end-of-row turn technology (with NAV-900 controller)",
+      "Reverse capability up to 15 seconds",
+      "Vehicle engagement while stopped up to 15 seconds",
+      "T3 terrain compensation for rolling terrain and rough ground",
+      "OnSwath advanced line acquisition customization",
+      "FreeForm adaptive guidance patterns",
+      "Square Headlands for field boundary precision",
+      "Quick installation and transfer between vehicles"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ez-pilot-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ez-pilot-pro-spain?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ez-pilot-pro-in-cab?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ez-pilot-pro-up-close?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-trueguide-terrain-compensation?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-straight-rows?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-freeform-potato-bedforming?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-precision-iq-square-headlands-16-9?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/xx6mngt547hxg7h3ngtgwphc/EZ-Pilot_Pro_Data_Sheet__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "EZ-Steer Assisted Steering System",
+    "model": "EZ-Steer",
+    "equipment": "Hardware",
+    "category": "Steering Systems",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/machine-steering/ez-steer-assisted-steering-system.html",
+    "tagline": "Simple, portable, hands-free farming for more than 1,200 vehicle makes and models.",
+    "description": "The EZ-Steer system provides enhanced guidance capabilities by combining a friction wheel and motor mechanism. It integrates with PTx Trimble displays and guidance controllers to enable autonomous steering functionality, reducing operator fatigue while maintaining safety across various field conditions and lighting situations.",
+    "specs": [
+      "Compatible with 1,200+ vehicle models (old and new)",
+      "Hands-free guidance functionality",
+      "Friction wheel and motor-based steering mechanism",
+      "Quick manual disengagement capability",
+      "T2 Terrain Compensation sensors for slope/rough ground correction",
+      "NextSwath 2 end-of-row turn technology",
+      "OnSwath line acquisition customization",
+      "FreeForm adaptive guidance patterns",
+      "Square Headlands auto-guidance feature",
+      "Suitable for low-accuracy operation requirements"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ez-steer-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ez-steer-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-front-us-tractor-disc",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-ez-steer-in-cab-1?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/8q6gmfx39s7sph45j47stsr/EZ-Steer_System_Data_Sheet__EN-US"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "TrueTracker Implement Steering System",
+    "model": "TrueTracker",
+    "equipment": "Hardware",
+    "category": "Steering Systems",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/steering-systems/truetracker-implement-steering-system",
+    "tagline": "Uses your Autopilot system to actively guide the implement independently from your tractor.",
+    "description": "The TrueTracker implement steering system provides independent control of implement positioning during farming operations, enabling separate calibration, multiple guidance patterns, and individualized steering control. It maintains accuracy on challenging terrain and works with implements featuring steerable controls or aftermarket steering solutions.",
+    "specs": [
+      "Corrects implement position independently from tractor guidance path",
+      "Down to 1 inch (2.5 cm) accuracy on repeatable paths",
+      "Advanced terrain compensation for rough/difficult environments and side-slopes",
+      "Works in reverse for improved maneuverability of large implements",
+      "Steer to Zero feature for automatic centering after lifting",
+      "Dual Stage Engage for customized engagement timing",
+      "Compatible with implements with or without built-in steering controls",
+      "Requires GFX-1260 or GFX-1060 display, NAV-960 or NAV-900 controller, and Autopilot/EZ-Pilot Pro system",
+      "Implement-mounted NAV-960 or NAV-900 controller with TrueTracker license"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/TrueTracker%20PRO%20Bundle%20Update?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/TrueTracker%20Pro%20Colorado%20Seaworth%20Farms%20Sugarbeet%20Harvest%20October%202025%20009",
+      "https://s7d9.scene7.com/is/image/agco/PT26-010-VB_TrueTracker_Potato%20Planting_260409_pictures_055",
+      "https://s7d9.scene7.com/is/image/agco/2026-012-CH_Sirmon_Farms_260421_Image_042",
+      "https://s7d9.scene7.com/is/image/agco/PT26-010-VB_TrueTracker_Potato_Planting_260409_pictures_052",
+      "https://s7d9.scene7.com/is/image/agco/PT26-041-VB_TrueTracker___Olivier_Darras_260526_Pictures_4",
+      "https://s7d9.scene7.com/is/image/agco/Agriculture%20Products%20Truetracker%20Implement%20Control_1080x1080?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/PT26-041-VB_TrueTracker_GFX1260_Olivier%20Darras_260526_Pictures_12"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/45pj4r7z2x36b9j654qvk653/TrueTracker_Data_Sheet"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "TrueGuide Implement Guidance System",
+    "model": "TrueGuide",
+    "equipment": "Hardware",
+    "category": "Steering Systems",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/implement-steering/trueguide-implement-guidance.html",
+    "tagline": "Works with your tractor's Autopilot system to passively monitor and correct the position of your implement.",
+    "description": "TrueGuide enables implement guidance that operates independently from tractor paths, reducing drift and improving consistency in broadacre cropping applications where multi-pass repeatability is not critical.",
+    "specs": [
+      "Allows implement to align independently with tractor movement",
+      "Reduces uncontrolled drift by over 50% compared to tractor guidance alone",
+      "Requires GNSS antenna on implement",
+      "Requires Autopilot system and TMX-2050 display",
+      "Improves guess row consistency",
+      "Compatible with various guidance paths"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-trueguide-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-trueguide-holmer?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-trueguide-path?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "Field-IQ Crop Input Control System",
+    "model": "Field-IQ",
+    "equipment": "Hardware",
+    "category": "Application Control",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/flow-application-control/field-iq-crop-input-control-system",
+    "tagline": "Proprietary technology that makes planting, seeding and application activities more productive and efficient.",
+    "description": "PTx Trimble's Field-IQ system manages flow and application to prevent seed and fertilizer overlap, control the rate of material applied, monitor seed delivery and fertilizer blockage, and automatically control spinner speed for spreading.",
+    "specs": [
+      "Compatible with planters, spreaders, sprayers, air seeders, and liquid strip-till bars",
+      "Variable rate application control using Trimble Rawson drives",
+      "Automatic section control with optional Tru Count Electric Row Clutch and Tru Count LiquiBlock Valves",
+      "Seed monitoring functionality",
+      "Spinner speed control",
+      "Modular design enabling expansion and flexibility",
+      "Multi-channel, multi-section, and multi-row control capabilities",
+      "Population and blockage monitoring",
+      "Skip, multiple, and spacing management during operations",
+      "Broad implement compatibility regardless of make/model"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-tmx-field-iq-system-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-system-front?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-system?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-system-au?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-trucount?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-spraying?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "Field-IQ ISOBUS Solutions",
+    "model": "Field-IQ ISOBUS",
+    "equipment": "Hardware",
+    "category": "Application Control",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/flow-application-control/field-iq-isobus-liquid-control-system",
+    "tagline": "Unlock the full potential of your equipment with less time spent troubleshooting.",
+    "description": "An industry-standard protocol enabling cross-brand equipment compatibility. Settings store on implement ECUs and auto-transfer to compatible displays for plug-and-play functionality, managing seed, fertilizer, spray, spread, and slurry applications across mixed-brand fleets.",
+    "specs": [
+      "ISOBUS-compatible display integration",
+      "Electronic Control Unit (ECU) storage",
+      "Multi-implement management from single display",
+      "Seeder/Planter control with overlap reduction",
+      "Spreader control with bin monitoring",
+      "Advanced sprayer section and boom control",
+      "Orchard/Vineyard specialized spraying",
+      "Liquid application rate control (including NH3)",
+      "Slurry system management (up to 18 sections)",
+      "Retrofit capability for older equipment",
+      "Weather station integration",
+      "Blockage sensor system",
+      "Physical aux-switch control options"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-planting?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-spraying-page?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-man?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-justin-smiling?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-massey-field-iq-isobus-spraying?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-seeder-planter?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-spreader?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-sprayer-liquid?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-orchard-spraying?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-blue-tractor?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-field-iq-isobus-slurry?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/8hr8hfrns2mrv6ckxrws4kx/PTx_Trimble_ISOBUS_eBook"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "WeedSeeker 2 Spot Spray System",
+    "model": "WeedSeeker 2",
+    "equipment": "Hardware",
+    "category": "Application Control",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/flow-application-control/weedseeker-2-spot-spray-system",
+    "tagline": "Your Sprayer, Only Smarter.",
+    "description": "PTx Trimble's spot spraying technology uses advanced optics and processing power to detect and eliminate resistant weeds. The system works in various environments including row crops, orchards, and parking areas, enabling herbicide application only to detected weeds.",
+    "specs": [
+      "Intelligent sensor technology",
+      "Lightweight sensors and cabling",
+      "Weed mapping and automatic section control",
+      "Automatic turn compensation",
+      "Universal mount for easy installation",
+      "Day/night operation capability",
+      "Operating speeds up to 25 mph (40 kph)",
+      "Quick automatic calibration",
+      "Herbicide reduction up to 90%",
+      "ISOBUS-compatible display compatibility",
+      "Retrofit capability to existing equipment"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-weekseeker2-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-weedseeker-viticulture-california?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-weedseeker-arg-full-sprayer?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-weedseeker-behind?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-weedseeker2-specialty?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-weekseeker2-field?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "GreenSeeker Handheld Crop Sensor",
+    "model": "GreenSeeker",
+    "equipment": "Hardware",
+    "category": "Application Control",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/flow-application-control/greenseeker-handheld-crop-sensor.html",
+    "tagline": "An affordable, easy-to-use device for assessing crop health.",
+    "description": "The GreenSeeker handheld crop sensor helps farmers evaluate crop vigor and make informed nutrient management decisions. Users trigger instant readings of crop health to apply appropriate fertilizer amounts, boosting efficiency and reducing waste. The device features Bluetooth connectivity to pair with mobile devices for seamless data recording and storage.",
+    "specs": [
+      "Measures crop vigor using red and infrared light to calculate NDVI (0.00-0.99)",
+      "Real-time LCD screen display of readings",
+      "Bluetooth connectivity to smartphones or tablets",
+      "Rechargeable battery with included charger and USB cable",
+      "Includes wrist strap, carry pouch, and quick reference card",
+      "Optional 12V vehicle charger and remote switch kit available"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/GreenSeeker_rebrand?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/Greenseeker_crop%20field",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-greenseeker-handheld",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-greenseeker-in-field"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "WM-FieldForm",
+    "model": "WM-FieldForm",
+    "equipment": "Hardware",
+    "category": "Land Forming",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/land-forming/wm-fieldform",
+    "tagline": "Plan and execute single-scraper grading, leveling and terracing projects using Precision-IQ.",
+    "description": "WM-FieldForm enables planning and execution of single-scraper land forming using Precision-IQ in the GFX-1260 display and NAV-960 guidance controller. It simplifies design, execution and verification through improved visualizations and intuitive workflows.",
+    "specs": [
+      "Compatible with GFX display and NAV-960 receiver",
+      "Compatible steering system optional",
+      "Requires NAV-900 receiver for scraper machine control hardware",
+      "RTK base station required for sub-inch vertical accuracy",
+      "AutoPlane and Simple Plane design tools",
+      "In-field or office-based design creation",
+      "Automatic scraper hydraulic valve control",
+      "Multiplane design support for complex requirements",
+      "Industry-leading dirt balancing algorithms",
+      "GNSS positioning via NAV-960 guidance controller"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-fieldform-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-fieldform-1?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-fieldform-water-mgmt",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-fieldform-3?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-fieldform-4?fmt=png-alpha"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "VerticalPoint RTK Grade Control",
+    "model": "VerticalPoint RTK",
+    "equipment": "Hardware",
+    "category": "Land Forming",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/land-forming/verticalpoint-rtk-grade-control",
+    "tagline": "Maximum vertical accuracy for leveling and land forming operations while increasing productivity.",
+    "description": "The VerticalPoint RTK grade control system networks multiple base stations to deliver dynamic positioning for equipment, achieving maximum vertical accuracy during leveling and land forming projects.",
+    "specs": [
+      "Networks multiple base stations to provide dynamic positioning to receivers on tractors and scraper buckets",
+      "Capability to network up to four satellite rovers to optimize accuracy",
+      "Provides up to 95% uptime during continuous field operations",
+      "Reduces drift caused by inconsistent vertical signals",
+      "Enables live data collection for efficient grade control maintenance over time"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-verticalpoint-rtk-hero%20(1)?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "FieldLevel II System",
+    "model": "FieldLevel II",
+    "equipment": "Hardware",
+    "category": "Land Forming",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/land-forming/fieldlevel-ii-system.html",
+    "tagline": "A comprehensive solution that streamlines every step of the land forming process.",
+    "description": "The FieldLevel II system manages the complete land forming workflow for dual and tandem systems, encompassing surveys, analysis, design, estimates, forming and verification activities. It features 2D and 3D design capabilities and supports both complete design guidance and manual contour-based levee installation methods.",
+    "specs": [
+      "Survey module with RTK precision field mapping",
+      "2D and 3D design options using AutoPlane and Multiplane technology",
+      "Automatic hydraulic valve control for scraper equipment",
+      "Tandem and dual scraper system support",
+      "Compatibility with any equipment make or model",
+      "Installation on TMX-2050 display with hydraulic system components",
+      "Primary and cross slope definition capabilities",
+      "Levee creation via complete design or manual contour guidance",
+      "Integration with WM-Subsurface and WM-Form software"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-fieldlevel-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-fieldlevel-cat?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-fieldlevel-massey-ferguson?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "WM-Drain Solution",
+    "model": "WM-Drain",
+    "equipment": "Hardware",
+    "category": "Subsurface Drainage",
+    "sourceUrl": "https://ptxtrimble.com/en/products/hardware/subsurface-drainage/wm-drain-solution",
+    "tagline": "A concept-to-completion toolset that streamlines the survey, analysis, design, installation and mapping steps of surface and subsurface drainage.",
+    "description": "WM-Drain integrates with PTx Trimble displays (TMX-2050, GFX-1060, GFX-1260) and WM-Subsurface design software to help control ponding, optimize root depth, maximize planting seasons, and minimize nutrient loss through accurate 3D drain placement.",
+    "specs": [
+      "Improves crop yield by up to 30%",
+      "Increases operating efficiency by up to 20% versus laser equipment",
+      "WM-Drain Survey and Design module installed on TMX-2050 display",
+      "Control components for tractor hydraulic systems or self-propelled equipment",
+      "Optional roll-corrected 3D positioning via IMD-600 hardware",
+      "Compatible with NAV-960 guidance controller",
+      "Coming soon: WM-FieldDrain with automated height control on Precision-IQ"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-drain-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-drain-touch-display-1-1?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-drainage-green?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-drainage-yellow?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-tmx-2050-in-cab?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-drainage-tile-plow?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-survey-close?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/npqcmjtgkbs8995v53zjpq3/WM-FieldDrain_Data_Sheet_-_A4",
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "WM-Subsurface Design Software",
+    "model": "WM-Subsurface",
+    "equipment": "Software",
+    "category": "Software",
+    "sourceUrl": "https://ptxtrimble.com/en/products/software/subsurface-drainage",
+    "tagline": "Works with PTx Trimble's WM-Drain solution to ensure optimal placement of tile and drains in both surface and subsurface drainage projects.",
+    "description": "Design software that helps optimize field tile and levee placement to increase crop yields while minimizing nutrient loss through more consistent water tables. Enables users to overlay data layers and visualize fields from multiple perspectives. Desktop software that installs on Microsoft Windows 7 or above.",
+    "specs": [
+      "View data from any angle with vertical exaggeration to visualize field shape and slope",
+      "Determine watershed zones for main, submain, and lateral pipe placement",
+      "Configure contours at any interval for topography visualization",
+      "Enable flow arrows and tributary lines to trace natural surface water flows",
+      "Layer field analysis with aerial images",
+      "Autoslope feature for optimal depth designs and consistent water tables",
+      "Calculate recommended pipe sizes and verify drainage network viability before installation",
+      "Desktop installation on Microsoft Windows 7 or above"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-drainage-survey?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-drainage-tile-plow?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/See%20Your%20Fields%20From%20all%20Angles?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "WM-Form Design Software",
+    "model": "WM-Form",
+    "equipment": "Software",
+    "category": "Software",
+    "sourceUrl": "https://ptxtrimble.com/en/products/software/land-forming",
+    "tagline": "Help fix underproducing fields while controlling the cost of earthworks and minimizing disturbance to valuable topsoil.",
+    "description": "WM-Form design software optimizes water distribution and drainage while integrating with PTx Trimble displays and compatible systems. It provides a comprehensive workflow spanning field surveying, topographic analysis, design creation, earthworks reporting, and land forming operations, leveraging over 30 years of proven water management expertise.",
+    "specs": [
+      "Single or multiple plane grading with best-fit or custom configurations",
+      "Multi-directional water drainage capabilities",
+      "Variable slope design optimization for furrow irrigation",
+      "Section-based individual design functionality",
+      "Multiple design variation generation with 3D comparison tools",
+      "Cut/fill estimates and reporting capabilities",
+      "Seamless integration with WM-FieldForm and FieldLevel II systems",
+      "Compatible with PTx Trimble display systems"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-form-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-land-forming?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-land-forming2?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "WM-Survey II",
+    "model": "WM-Survey II",
+    "equipment": "Software",
+    "category": "Software",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/land-forming/wm-survey-ii-app.html",
+    "tagline": "A free-to-download mobile application that makes it easy to create basic field surveys.",
+    "description": "The WM-Survey II app enables users to conduct field surveys for water management activities, with optional advanced features for automated terrace, waterway, and rice levee design creation, plus 3D surface control file generation.",
+    "specs": [
+      "Free-to-download mobile application",
+      "Compatible with Android version 12 and above via Bluetooth-connected GNSS receiver",
+      "Not currently compatible with Apple products",
+      "Compatible with PTx Trimble displays (GFX-750, GFX-1060, GFX-1260) via App Central",
+      "Intuitive workflows for survey error reduction",
+      "Optional terrace and waterway design automation",
+      "Optional rice levee design creation",
+      "Topographic mapping capabilities",
+      "3D control file and navigation guidance line generation",
+      "RTK correction support for high-accuracy surveys"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-survey-product-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-survey-close?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-survey-wide?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-levee-creation?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-rice-levee?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/6rpwqv8bmkqv6b578xrrp4ng/WM-Survey_II_Data_Sheet__EN-US"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "PTx FarmENGAGE",
+    "model": "FarmENGAGE",
+    "equipment": "Software",
+    "category": "Software",
+    "sourceUrl": "https://www.ptxag.com/en/farmengage/",
+    "tagline": "The next generation of farm operations management software built to bring simplicity, connectivity, and control to your entire fleet.",
+    "description": "Farm operations management platform enabling users to manage equipment fleets regardless of brand or model year from field or office locations. Supports pre-season planning, in-season execution, and post-season analysis workflows, with two tiers: Data (basic) and Operations (advanced analytics).",
+    "specs": [
+      "On-demand real-time status data across mixed fleet operations",
+      "Automated data transfer and syncing between office and in-cab displays",
+      "Centralized data management with automatic information collection",
+      "Live team communication and work order capabilities",
+      "Connectivity Center (for AGCO equipment users)",
+      "Field Manager resource creation and management tools",
+      "Direct Send technology for targeted device deployment",
+      "AutoSync automatic synchronization across connected devices",
+      "Work Orders for streamlined in-field task management",
+      "Third-party data integrations (Raven, John Deere, Case IH, New Holland)",
+      "App Central library on GFX displays",
+      "Two tier options: Data (basic) and Operations (advanced analytics)"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-farmengage-hero?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/fendt-germany-1080x1920",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-man-phone?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-gfx-precision-iq-brazil-sugarcane?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-office-computer?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-conversation?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-field-manager?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-direct-send-gfx-in-cab?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-precision-iq-autosync?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-work-orders?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-api?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-gfx-app-central?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-map?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-office-fields?fmt=png-alpha"
+    ],
+    "brochures": [
+      "https://cdn.bfldr.com/7M6SII1K/as/wfn55827gh4mftm7j66p2jv/PTxT_DataSheet_FarmENGAGE_Overview"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "OutRun Retrofit Autonomy Kit",
+    "model": "OutRun",
+    "equipment": "Hardware",
+    "category": "Autonomy",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/platforms/outrun-retrofit-autonomy-kit.html",
+    "tagline": "Gain autonomy of farm operations from tillage to harvest.",
+    "description": "A self-contained retrofit kit enabling autonomous grain cart operation and tillage tasks. The system allows farmers to move the kit between tractors and switch between operations, featuring 360-degree monitoring, app-based control, and safety protocols including obstacle detection and virtual boundaries.",
+    "specs": [
+      "John Deere 8R (2014+) compatible; Fendt 900 series planned for late 2026",
+      "Grain Cart mode available now; Tillage mode coming 2026",
+      "One-time hardware investment with annual service fee",
+      "Starlink connectivity for rural areas",
+      "Up to 15 mph operation with 15-degree field incline support",
+      "360-degree live feed monitoring via iPad/smartphone",
+      "Virtual boundaries and no-go zones",
+      "Dynamic tillage zones (no-till, slow zones)",
+      "Obstacle detection with auto-stop functionality",
+      "Wireless app control from any location"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/PTX_OutRun_AutonomousTiller_SL1_9200",
+      "https://s7d9.scene7.com/is/image/agco/PTx_OutRun_GrainCart_2",
+      "https://s7d9.scene7.com/is/image/agco/PTx_OutRun_GrainCart_1",
+      "https://s7d9.scene7.com/is/image/agco/Outrun%20Tillage%20Minnesota%20Fendt%20942%20June%202025%20001",
+      "https://s7d9.scene7.com/is/image/agco/PTx_OutRun_GrainCart_3",
+      "https://s7d9.scene7.com/is/image/agco/PTX_OutRun_AutonomousTiller_SL2_5984"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "Trimble RTX Correction Service",
+    "model": "Trimble RTX",
+    "equipment": "Software",
+    "category": "Correction Services",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/correction-services/trimble-rtx.html",
+    "tagline": "Precise point positioning technology that provides real-time, high accuracy positions in the field via satellite or internet.",
+    "description": "Trimble RTX (Real Time eXtended) is Trimble's precise point positioning (PPP) technology that provides real-time, high accuracy positions in the field via satellite or internet, with four service tiers: CenterPoint RTX, RangePoint RTX, ViewPoint RTX, and xFill Premium.",
+    "specs": [
+      "Centimeter-level accuracy (2.5 cm / 1 inch repeatable accuracy)",
+      "Works anywhere without signal interruptions or base station requirement",
+      "Fast initialization (convergence as fast as one minute in RTX FAST coverage areas)",
+      "Reliable networks for consistent uptime",
+      "Satellite-delivered Trimble xFill backup service for connectivity loss",
+      "No base station installation or maintenance required",
+      "Compatible with NAV-500, NAV-960, and NAV-900 guidance controllers",
+      "Four service tiers: CenterPoint RTX, RangePoint RTX, ViewPoint RTX, and xFill Premium"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-soybeans-straight-rows?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-propoint-treeline-16-9?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-drone-uk-nav-900?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-drone-brazil?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-drone-california?fmt=png-alpha"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "Trimble CenterPoint VRS",
+    "model": "CenterPoint VRS",
+    "equipment": "Software",
+    "category": "Correction Services",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/correction-services/trimble-vrs.html",
+    "tagline": "Instant access to RTK-level correction within a fixed network.",
+    "description": "Trimble CenterPoint VRS provides instant access to RTK-level correction within a fixed network via cellular delivery, ensuring the speed and accuracy needed for a wide range of farming applications.",
+    "specs": [
+      "1 inch (< 2.5 cm) accuracy, repeatable year-to-year",
+      "Cellular delivery method",
+      "Instant initialization",
+      "Reliable network with uninterrupted connectivity",
+      "No base station maintenance required",
+      "Compatible with NAV-960, NAV-900, AG-372/AFS-372/PLM 372, AG-392 receivers",
+      "Works with CFX-750/FM750, FmX/FM 1000, TMX-2050/XCN-2050, GFX-350, GFX-750, GFX-1060, GFX-1260 displays",
+      "Applications: drainage, drip irrigation, land forming, strip-till, planting/seeding, spraying, spreading, harvesting"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-harvest-grain-cart-combine?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-fieldlevel-massey-ferguson?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-drainage-yellow?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-wm-fieldform-4?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-france?fmt=png-alpha"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "PTx Trimble",
+    "name": "Trimble xFill",
+    "model": "xFill",
+    "equipment": "Software",
+    "category": "Correction Services",
+    "sourceUrl": "https://www.ptxag.com/us/en/products/brand/ptx-trimble/correction-services/trimble-xfill.html",
+    "tagline": "Seamless, centimeter-level backup corrections via satellite, powered by RTX technology.",
+    "description": "Trimble xFill delivers centimeter-level backup GNSS corrections via satellite when RTK or VRS signal sources experience interruption, maintaining positioning accuracy during connectivity loss without interrupting farming operations.",
+    "specs": [
+      "Two-centimeter horizontal accuracy maintenance during connectivity loss",
+      "1-inch (less than 2.5 cm) repeatable year-to-year accuracy",
+      "Satellite delivery method with worldwide coverage",
+      "Initialization times: <2 minutes in RTX Fast coverage regions; <5 minutes in standard coverage for ProPoint devices; <20 minutes in standard coverage regions",
+      "Compatible with NAV-960, NAV-900, AG-372/AFS-372/PLM 372, AG-392 receivers",
+      "Compatible with CFX-750/FM750, FmX/FM 1000, TMX-2050/XCN-2050, GFX-350, GFX-750, GFX-1060, GFX-1260 displays",
+      "Suitable for strip-till, planting/seeding, spraying, spreading, and harvesting applications"
+    ],
+    "images": [
+      "https://s7d9.scene7.com/is/image/agco/ptxt-planting?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-seeding?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-tillage?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-growing-plants?fmt=png-alpha",
+      "https://s7d9.scene7.com/is/image/agco/ptxt-nav-960-france?fmt=png-alpha"
+    ],
+    "brochures": [],
+    "priority": false
+  }
+]

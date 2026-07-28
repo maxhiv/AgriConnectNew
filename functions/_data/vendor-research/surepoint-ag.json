@@ -1,0 +1,476 @@
+[
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Sentinel",
+    "model": "Sentinel 1000 / Sentinel 2000",
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/sentinel",
+    "tagline": "Eliminate Skips, Overlaps, and Guesswork in Every Application",
+    "description": "Sentinel is a buildable rate control platform for liquid, dry, and NH3 application systems that gives operators real-time visibility into flow, rate, and system performance across the toolbar. It is offered in three tiers - Row Monitoring, Rate Control, and Row Control - and integrates with ISOBUS-compatible displays and John Deere Operations Center with no subscription fee. Sentinel 1000 supports single-product functionality with up to 3 ECU pairing; Sentinel 2000 supports four products for fully customized operations.",
+    "specs": [
+      "Row-to-row variation below 4.6% for 95%+ of operation, average CV of 3.9%",
+      "E-Mag flow meter technology with no moving parts, no calibration required",
+      "20 mesh strainer with 385% larger passageway than traditional systems",
+      "In-cab alerts for flow issues and row blockages; maps as-applied data by row",
+      "Three tiers: Row Monitoring, Rate Control, Row Control (individual row shutoff)",
+      "Controller options: Sentinel 1000 (single product, up to 3 ECUs) and Sentinel 2000 (four products)",
+      "Integrates with ISOBUS displays, John Deere Operations Center, and LiquiShift metering tube management",
+      "Displays flow in GPM and GPA; supports liquid, dry, NH3, direct injection, and drill/seeder applications"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/914c06_8d3465aab8c04390bec396cfe08312fe~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_b55d8a377f4d4de1b15cb5063650f5b5~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_c1baab90626d4b6bb3303763d4a0db28~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_8396cd203568463a984366c141e544d6~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_fd0b0f1af7af4a7a943d93a8c7cdd0ca~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_d5b782b9cdc14c538f8931a12399e3fc~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_c9a3bef40be3422d8cffc605cc58468e~mv2.jpg"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "PumpRight",
+    "model": "PR17 / PR30 / PR40",
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/pumpright",
+    "tagline": "The highest quality variable speed hydraulic drive diaphragm pump out there",
+    "description": "PumpRight is a variable speed hydraulic drive diaphragm pump ideally suited for high-capacity liquid fertilizer applications, providing suction from any tank location. It is self-priming, positive displacement, and includes run-dry protection to eliminate pump and seal damage. Current models PR17, PR30, and PR40 replace the legacy D70, D115, and D160 pumps.",
+    "specs": [
+      "Flow range: 2-80 GPM",
+      "Self-priming; positive displacement delivers consistent output per revolution",
+      "SurePoint E-Mag flow meter with no moving parts",
+      "BLUEFLEX diaphragm system with patented retaining plate for durability",
+      "Oil-lubricated design allows dry-run capability without damage",
+      "Over 15 feet of vertical lift capacity",
+      "Models: PR17, PR30, PR40 (replace legacy D70, D115, D160)"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg",
+      "https://static.wixstatic.com/media/091105_848e3599f3834a65bca7457e46d900d8~mv2.jpg",
+      "https://static.wixstatic.com/media/091105_75acab2f1ef745b8b6c5a63b2c45b5bc~mv2.jpg",
+      "https://static.wixstatic.com/media/866064_d5668382d11f4b4c88710af79ef526ed~mv2.jpg",
+      "https://static.wixstatic.com/media/091105_ce0ecbdfb9874205bebebae7857c8d0c~mv2.jpg",
+      "https://static.wixstatic.com/media/866064_126ba8c99bab49a9aa179391680d41ab~mv2.png",
+      "https://static.wixstatic.com/media/914c06_d198855bff2146febf7f30c3fa8d5496~mv2.jpg"
+    ],
+    "brochures": [
+      "https://www.surepointag.com/_files/ugd/914c06_ed32f937c51748d2bc4e0d79055eb3a4.pdf"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "QuickDraw",
+    "model": "QuickDraw Max / QuickDraw Lite",
+    "equipment": "Hardware",
+    "category": "Spray Tender",
+    "sourceUrl": "https://www.surepointag.com/quickdraw",
+    "tagline": "The Smarter, Safer Way to Mix Batches",
+    "description": "QuickDraw is an automated chemical mixing and loading platform that replaces manual measuring and guesswork with reliable automation, whether a batch needs two products or nine. It reduces fill time, eliminates chemical exposure, and documents date, time, operator, field, machine, and measured product totals per batch. QuickDraw Max is the fully automated system with recipe creation, 4 carriers, up to 9 automated products, and cloud connectivity; QuickDraw Lite is a compact, cost-effective manual/semi-automated option.",
+    "specs": [
+      "QuickDraw Max: recipe creation/saving, 4 carriers, up to 9 automated products + 5 manually added products",
+      "QuickDraw Lite: mass flow or oval gear meter measurement, core batching without full automation",
+      "Mobile or stationary capability; Venturi or pump suction options",
+      "Mass Flow Meter requires no calibration; E-Mag flow meter measures carrier volume",
+      "Automated pump start/stop, CANBUS valve technology, iPad app control",
+      "Automated hose rinse, air purge, and carrier blending (up to 4 carrier products)",
+      "Fertilizer blending: up to 4 high-volume and 9 low-volume products",
+      "Available in English, Spanish, Ukrainian, Russian, French Canadian, Portuguese",
+      "Add-ons: stainless steel eductor, swing-down eductor, 3\" John Blue wet seal pump, ChemBlade, ChemCaddy, BulkBlaster",
+      "Integrates fully with Arsenal Spray Trailers for turnkey automation"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/866064_e0dbc39d98224e178d400dbdd3b1f1cd~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_05dbd53ef10a456ea3acd4484531e87d~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_fb352a58649d4b6bbf2c76c25f2e7657~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_cc080e36773146629093d096d451d5cf~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_2f4abe10b0914634adaaf7f9b74bb068~mv2.png",
+      "https://static.wixstatic.com/media/914c06_c15f5b04c4514fc5ae6aec7bc83f8edf~mv2.png",
+      "https://static.wixstatic.com/media/914c06_d8f555ca40b6449ead92bc448804a5cd~mv2.png",
+      "https://static.wixstatic.com/media/914c06_2d4ce7e9e31140f38061ae1fa7e7a576~mv2.png",
+      "https://static.wixstatic.com/media/914c06_f2463aa8ae4f49b99b03d77713ef4060~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_521b738d4b144f2bbee1488fafa87dfe~mv2.jpg"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "ChemBlade",
+    "model": "ChemBlade Original / ChemBlade Plus / ChemBlade Original With Eductor / ChemBlade ES",
+    "equipment": "Hardware",
+    "category": "Spray Tender",
+    "sourceUrl": "https://www.surepointag.com/chemblade",
+    "tagline": "The highest quality chemical inductor equipment on the market",
+    "description": "ChemBlade lets operators manage chemicals with efficiency, safety, and speed, keeping sprayers in the field instead of idle during loading. The patented knife-and-rinse head pierces, drains, and thoroughly rinses containers automatically, eliminating hand-handling of hazardous chemicals and manual triple-rinsing. ChemBlade Original is the base system; ChemBlade Plus adds an auxiliary rinse head for jugs emptied without the cutting blade; ChemBlade Original With Eductor adds stainless steel construction, a TeeJet rotary rinse head, and dry-bag handling; ChemBlade ES (Enclosed System) fully encloses the cutting/rinsing process so the operator sets the jug inside, closes the lid, and presses a button.",
+    "specs": [
+      "Patented knife and rinse head opens, empties, and rinses containers automatically",
+      "ChemBlade Original: compatible with most 16\" inductor tank lids",
+      "ChemBlade Plus: adds auxiliary rinse head for jugs emptied without the blade",
+      "ChemBlade Original With Eductor: high-grade stainless steel, TeeJet rotary rinse head, accepts 50lb dry bags",
+      "ChemBlade ES: accepts 1-2.5 gallon jugs and 10-50lb dry bags; 50-gallon tank, 1/8\" stainless steel construction",
+      "ChemBlade ES: 1-year full warranty; saves up to one hour per day vs. manual methods",
+      "Accessory - ChemCaddy: partial jug dosing, flip-top lid, optional EasyFlow closed transfer, 2.75-gallon tank",
+      "Accessory - BulkBlaster: rinses totes in place of the lid, integrates with QuickDraw rinse cycle"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/091105_44abf323428d4bb48852fe53fc2e6754~mv2.png",
+      "https://static.wixstatic.com/media/091105_76ba8907a46f4da4b6f7f5789c5fd3eb~mv2.png",
+      "https://static.wixstatic.com/media/091105_d4891a4a7c0d460e8e7f13fb2dca51f0~mv2.png",
+      "https://static.wixstatic.com/media/866064_f9ad31f191714d42925d16fcc5f5e35d~mv2.png",
+      "https://static.wixstatic.com/media/866064_dd8297b54c1240d984cf96ee58a41d1f~mv2.png",
+      "https://static.wixstatic.com/media/091105_8df95560918c4ef9ba37f67b532e4841~mv2.png",
+      "https://static.wixstatic.com/media/091105_bf1c439c33bf4a5085d8c8e46078b4f8~mv2.png"
+    ],
+    "brochures": [
+      "https://www.surepointag.com/_files/ugd/091105_cd922f0f4b774ce1944c88b6177159e7.pdf",
+      "https://www.surepointag.com/_files/ugd/091105_a7ff292df8c545349bb91680b40ee425.pdf",
+      "https://www.surepointag.com/_files/ugd/091105_03a78d36734c4746864883a57013c337.pdf",
+      "https://www.surepointag.com/_files/ugd/091105_51538fe100ef480ba984f43bd6c4d923.pdf",
+      "https://www.surepointag.com/_files/ugd/091105_6e2c4225e2554759a8b742b32ceebe7f.pdf",
+      "https://www.surepointag.com/_files/ugd/091105_e73da862bfa248a295f6b20e8ba7f401.pdf",
+      "https://www.surepointag.com/_files/ugd/091105_d2b716676ba34ef3b1e782ac252d3e09.pdf",
+      "https://www.surepointag.com/_files/ugd/091105_a1b57959535a4e43856ec312bb62d1a5.pdf",
+      "https://www.surepointag.com/_files/ugd/091105_4d90fe5586da4227846a4bfbf35b7606.pdf"
+    ],
+    "priority": true
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Arsenal Spray Trailer",
+    "model": "38' / 42' / 48' with QuickDraw",
+    "equipment": "Hardware",
+    "category": "Spray Tender",
+    "sourceUrl": "https://www.surepointag.com/arsenal",
+    "tagline": "Expertly Designed, All-in-One, Automated Tendering System",
+    "description": "The Arsenal is a purpose-built spray trailer designed specifically for sprayer operators, available in three lengths (38', 42', or 48'). It features a modular loading deck, all plumbing mounted below-deck for a cleaner surface, an integrated QuickDraw automation system, and ChemBlade with a swing-down stainless-steel eductor, letting crews mix and load batches without repeatedly climbing on and off the trailer. It arrives as a complete turnkey setup rather than a retrofit.",
+    "specs": [
+      "Standard: QuickDraw Automated Spray Tender System, Enduraplas tanks, modular loading deck, below-deck plumbing",
+      "Standard: ChemBlade with swing-down stainless-steel eductor, steps & handrail, chemical rinse hose reel",
+      "Trailer lengths: 38', 42', 48'; tank sizes: 2,800 gal or 3,200 gal",
+      "Loading side: driver or passenger; suspension: spring ride or air ride",
+      "Loading method: swing-out load boom (20 ft.) or deck-mounted hose reel (30 ft.)",
+      "Axle configuration: dual or triple; additional tote racks available",
+      "Accessories: toolbox, gravity-fed 2-gallon hand rinse, light kit, 20-gallon equipment rinse tank with pump, jug storage over fenders, AutoCoupler"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/914c06_2818f4d17a524d43aeec6a190675f4f6~mv2.png",
+      "https://static.wixstatic.com/media/914c06_45cb5466169a4ba6a4ac5c9740566355~mv2.png",
+      "https://static.wixstatic.com/media/866064_596265057db242ca8c06a9e4f3247e61~mv2.jpg",
+      "https://static.wixstatic.com/media/866064_2ea704c6a8c44373a4e0d39ad5363456~mv2.jpg",
+      "https://static.wixstatic.com/media/866064_3bdb02399ecc4272add7305f187b8826~mv2.jpg",
+      "https://static.wixstatic.com/media/866064_9e378169c11d420ebcd2888470cf7d1d~mv2.jpg",
+      "https://static.wixstatic.com/media/866064_3053a4fd3d894de6ad0ea1c36053bd04~mv2.jpg"
+    ],
+    "brochures": [],
+    "priority": true
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Tower",
+    "model": "Tower 12-Volt Electric Pump",
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/pumps",
+    "tagline": "For narrow planters and low volume applications",
+    "description": "Tower is a purpose-built 12-volt electric pump system for operations that do not require a high-capacity hydraulic pump. It comes factory pre-assembled for simple installation with only basic electrical and plumbing connections needed.",
+    "specs": [
+      "Flow range: under 5 GPM",
+      "12-volt electric operation",
+      "Electric Pump Driver (EPD) automatically adjusts speed for correct flow",
+      "SurePoint E-Mag flow meter with no moving parts",
+      "Factory pre-assembled for simple installation"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/914c06_43c24e94f9bc489fbae38e74213ee3a8~mv2.jpg"
+    ],
+    "brochures": [
+      "https://www.surepointag.com/_files/ugd/914c06_ed32f937c51748d2bc4e0d79055eb3a4.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Spartan",
+    "model": "Spartan Direct Injection System",
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/pumps",
+    "tagline": "For precision injection and micro-volume applications",
+    "description": "Spartan is a direct injection system for precise application of liquid chemicals, fertilizers, and biologicals without tank mixing, enabling accurate, consistent rates and on-the-go field adjustments. It injects directly into the carrier stream, suited to microbial treatments, variable-rate micronutrients, nutrient stabilizers, and in-furrow insecticides, fungicides, or plant growth regulators.",
+    "specs": [
+      "Application rate: less than 1 gallon per acre",
+      "Direct injection into carrier stream, no tank mixing required",
+      "On-the-go rate adjustments without stopping",
+      "Integrates with Sentinel, John Deere, Ag Leader, Trimble, Case IH, New Holland, and Raven systems"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/914c06_cef8a5b6617a48ed8b7ccec2951b7248~mv2.jpg"
+    ],
+    "brochures": [
+      "https://www.surepointag.com/_files/ugd/914c06_ed32f937c51748d2bc4e0d79055eb3a4.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Dual Metering Tube",
+    "model": null,
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/distribution-systems",
+    "tagline": "Simple, reliable, and lowest cost solution",
+    "description": "Dual Metering Tube eliminates the need to ever change or clean an orifice. Each row has dual check-valve bodies connected to two metering tubes, with an on/off valve to select the small tube, large tube, or both together for the desired flow.",
+    "specs": [
+      "No orifice changes or cleaning required",
+      "Dual check valve design per row",
+      "Flexible application rates via tube selection (small, large, or both)",
+      "Only requires a 20 mesh strainer vs. 80/100 mesh on competing systems"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/911e57_2f8682182c764afc817da1e930811daa~mv2.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "LiquiShift",
+    "model": null,
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/distribution-systems",
+    "tagline": "SurePoint's most popular system",
+    "description": "LiquiShift uses two metering tubes with automatic pressure-based switching technology to keep the distribution system operating at its optimal performance point, and it is compatible with most rate control platforms.",
+    "specs": [
+      "Dual metering tube system",
+      "Automatic tube switching based on system pressure",
+      "Compatible with most rate control platforms",
+      "20 mesh strainer compatible",
+      "Integrates with Sentinel rate control platform"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/911e57_aaa3a52194cd4b068f335724a547b662~mv2.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Sentinel Row Control",
+    "model": null,
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/sentinel-row-control",
+    "tagline": "Individual row resolution accuracy",
+    "description": "Sentinel Row Control uses the Sentinel E-Mag Flow Meter Module to measure flow per row and a Row Control valve to hit the desired application rate at the individual row level; it is the top tier of the Sentinel platform (Row Monitoring, Rate Control, Row Control).",
+    "specs": [
+      "Sentinel E-Mag Flow Meter Module for per-row flow measurement",
+      "Row Control valve for individual row rate control",
+      "20 mesh strainer compatible",
+      "Builds on Sentinel Row Monitoring and Rate Control tiers"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/911e57_d72e72ed495048f9b4b25687df2f6740~mv2.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Sentinel NH3",
+    "model": null,
+    "equipment": "Hardware",
+    "category": "NH3 Application",
+    "sourceUrl": "https://www.surepointag.com/sentinel-nh3",
+    "tagline": "The best ISO anhydrous monitoring system on the market",
+    "description": "Sentinel NH3 is an ISOBUS-compatible anhydrous ammonia monitoring system that uses temperature sensors mounted after the anhydrous manifold to track application row by row, giving in-cab alerts for irregularities so operators can maintain even nitrogen distribution and avoid crop deficiencies. It integrates with existing ISOBUS displays without needing extra cab space and can monitor liquid applications simultaneously.",
+    "specs": [
+      "Row-by-row temperature monitoring via sensors at each manifold outlet",
+      "Real-time detection of broken/plugged knives and faulty section valves",
+      "Audible alarms alert operators to flow variances within seconds",
+      "Prescription application support with auto-average calculation",
+      "Customizable set points for over/under application thresholds",
+      "Sensor diagnostic interface; row blockage mapping capability",
+      "Compatible with most rate control systems; can monitor liquid applications simultaneously"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg",
+      "https://static.wixstatic.com/media/866064_c5b69cfa4efa4d72af257824ffd5eebb~mv2.jpg",
+      "https://static.wixstatic.com/media/2a3966_69dba6262c5b4a408a36f226b62c2f36~mv2.png",
+      "https://static.wixstatic.com/media/091105_83f123ea8c8e4018a95d8af73c5aff71~mv2.png",
+      "https://static.wixstatic.com/media/091105_4a385e73591c414fac7722e348128aea~mv2.png",
+      "https://static.wixstatic.com/media/866064_6f65e2f527e847ff8193ad840f0d53fa~mv2.jpeg"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Torpedo",
+    "model": null,
+    "equipment": "Hardware",
+    "category": "NH3 Application",
+    "sourceUrl": "https://www.surepointag.com/torpedo",
+    "tagline": "Precision NH3 application with unmatched capacity and distribution accuracy",
+    "description": "Torpedo is a high-capacity heat exchanger cooler for anhydrous ammonia application systems, built to maintain row-to-row accuracy at higher operating speeds on modern, wider implements so operators can cover more acres without sacrificing precision.",
+    "specs": [
+      "All stainless steel construction",
+      "Precision flow control valve with 120-degree control range",
+      "1.5\" flow meter; adjustable vapor return orifice",
+      "Rated capacity: 75 GPM at 100 PSI or 55 GPM at 50 PSI tank pressure",
+      "Multiple inlet plumbing kit options (100, 200, 250, 300 systems), flow ratings from 31-70 GPM",
+      "Compatible with section valves, A-360 or vertical dam manifolds, and injection manifold mixing chambers"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/866064_59d1843c18c847f99947be364d16689f~mv2.png",
+      "https://static.wixstatic.com/media/091105_cd1441d0872d4c3696c17f1e834d130d~mv2.png",
+      "https://static.wixstatic.com/media/2a3966_2352432ef1c146e7b5d7d1bbdadb1990~mv2.jpg",
+      "https://static.wixstatic.com/media/2a3966_6399b56e07984ecfb5d268ddc768db3f~mv2.png",
+      "https://static.wixstatic.com/media/091105_e54e0733c0e643b2bf27645efed11ff8~mv2.jpg"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Marksman",
+    "model": "Hydra-Cell Pump / 12VDC Pump / No-Pump Control Unit",
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/marksman",
+    "tagline": "Puts You in Control - Save Time, Reduce Labor, and Know It's Done Right",
+    "description": "Marksman is a smart fertigation and chemigation system giving complete control over irrigation-based applications, with precise measurement and documentation for row and specialty crops that helps prevent costly application errors through remote monitoring and automated record-keeping. It is offered as a Hydra-Cell industrial pump with variable frequency drive, an economy 12VDC pump, or a no-pump VFD control unit for existing injection pumps.",
+    "specs": [
+      "Third-generation (2025) electromagnetic flow metering",
+      "Flow rate control with automatic adjustment for product viscosity variations",
+      "Automated shut-down alarms for off-rate or pressure deviations",
+      "Batch mode injection with preset gallon amounts; digital record logging every 10 minutes",
+      "Cloud-based remote monitoring via dashboard and text alerts",
+      "John Deere Operations Center integration (MY2025+)",
+      "Models: Hydra-Cell Pump (industrial, VFD, high-pressure), 12VDC Pump (economy, low/medium rate), No-Pump Control Unit (VFD controller for existing pumps)"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/914c06_9b4f9d41b8814ab5a58feb186f1a4b0b~mv2.jpg",
+      "https://static.wixstatic.com/media/914c06_fe53a56492f040fab5ffa643b2b30e03~mv2.png",
+      "https://static.wixstatic.com/media/914c06_951867cd16c6426e920c3f0d26ba8c8f~mv2.png",
+      "https://static.wixstatic.com/media/914c06_09b11b1cf83d48d8ba94cdb49927d572~mv2.png",
+      "https://static.wixstatic.com/media/914c06_0a0a692d9e334cbd899842da79e91b8f~mv2.png",
+      "https://static.wixstatic.com/media/914c06_cb3e766c187146ec94a0c18056fbfc7c~mv2.png",
+      "https://static.wixstatic.com/media/914c06_6abd80297970426888e482b7858e3a3e~mv2.png"
+    ],
+    "brochures": [
+      "https://www.surepointag.com/_files/ugd/866064_69aa32d49da44fa1aed7b83f87e38166.pdf",
+      "https://www.surepointag.com/_files/ugd/914c06_5dbdbaf02934416597f3c3c731a1b5f2.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "SureBatch",
+    "model": null,
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/surebatch",
+    "tagline": "SurePoint's precision liquid meter",
+    "description": "SureBatch pumps and accurately meters liquids for injection, spraying, or addition to liquid or dry materials, used for treating dry fertilizer, liquid manure, seed treatment, and micro-nutrient injection into fertilizer batches.",
+    "specs": [
+      "3 operating modes: Batch By Time, Batch By Rate, Flow Rate Continuous",
+      "Stores up to 4 preset recipes",
+      "6-function key-fob remote control for external batch starting",
+      "Available in 12V DC and 120V AC options",
+      "Measurement in gallons or ounces; pump delay capability",
+      "Valve operation control on pump start/stop"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/914c06_f305a50a9eb7414989f628deb832278f~mv2.png",
+      "https://static.wixstatic.com/media/866064_1bc77cfe17294fd6a6c3b1e6efff1344~mv2.png",
+      "https://static.wixstatic.com/media/866064_b56a25ebdc3b45528ae10ed7d1d1fc42~mv2.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "Accelerator",
+    "model": null,
+    "equipment": "Hardware",
+    "category": "Liquid Control",
+    "sourceUrl": "https://www.surepointag.com/accelerator",
+    "tagline": "Get on the fast track with The Accelerator system",
+    "description": "The Accelerator is SurePoint's complete fertilizer kit for low-volume, in-furrow starter or pop-up applications, combining the SurePoint Commander II controller, an electromagnetic flow meter, a Tower II pump system, dual tube metering distribution, and a tank assembly. It is engineered for specialty crops (vegetables, fruits) and small to medium-sized row crop equipment, with three tank size options.",
+    "specs": [
+      "SurePoint Mag Meter: no moving parts, measures ions for constant calibration",
+      "Fertilizer tank: 55, 110, or 155-gallon capacities with integrated flush/rinse water reservoir",
+      "SurePoint Commander II: compact automatic rate controller managing up to three section valves",
+      "Tower II pump system: dual 12-volt electric diaphragm pumps with desiccant moisture absorption",
+      "Garmin GPS speed sensor, pre-calibrated, adhesive-backed installation",
+      "Integrated rinse basin for system flushing",
+      "Compatible with John Deere and Ag Leader rate controllers"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/866064_41f9674dfca0441eba555a5a8b9de2ad~mv2.jpeg",
+      "https://static.wixstatic.com/media/866064_a70492412d034b2384fe9cca26312a93~mv2.png",
+      "https://static.wixstatic.com/media/866064_ad908a712b404e1d99c4de4a75a8ef9c~mv2.png",
+      "https://static.wixstatic.com/media/866064_018135c229104a688e974803c29d0910~mv2.png",
+      "https://static.wixstatic.com/media/091105_13852b72408c4ffdb790894c61e5f5f2~mv2.png",
+      "https://static.wixstatic.com/media/866064_f766b516367a446b99af810e48f0cec3~mv2.png",
+      "https://static.wixstatic.com/media/866064_6d2609d5764d481e970f8f7273cabd14~mv2.png"
+    ],
+    "brochures": [],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "ChemCaddy",
+    "model": null,
+    "equipment": "Hardware",
+    "category": "Spray Tender",
+    "sourceUrl": "https://www.surepointag.com/chemblade",
+    "tagline": "Precise partial-jug chemical dosing",
+    "description": "ChemCaddy is an accessory for partial jug dosing needs, with a standard flip-top lid for pouring jugs and an optional EasyFlow closed transfer system that reduces operator chemical exposure. Multiple jug adaptors allow switching between products without exposure.",
+    "specs": [
+      "Standard flip-top lid for pouring jugs",
+      "Optional EasyFlow closed transfer system reduces chemical exposure",
+      "Multiple jug adaptors for product-to-product switching",
+      "Site gauge with individual ounce lines; 2.75-gallon tank capacity",
+      "Adjustable o-rings for repeatable measurements",
+      "Multiple Venturi manifold options for diverse applications"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/866064_dd8297b54c1240d984cf96ee58a41d1f~mv2.png",
+      "https://static.wixstatic.com/media/091105_8df95560918c4ef9ba37f67b532e4841~mv2.png"
+    ],
+    "brochures": [
+      "https://www.surepointag.com/_files/ugd/091105_d2b716676ba34ef3b1e782ac252d3e09.pdf",
+      "https://www.surepointag.com/_files/ugd/091105_a1b57959535a4e43856ec312bb62d1a5.pdf"
+    ],
+    "priority": false
+  },
+  {
+    "vendor": "SurePoint Ag",
+    "name": "BulkBlaster",
+    "model": null,
+    "equipment": "Hardware",
+    "category": "Spray Tender",
+    "sourceUrl": "https://www.surepointag.com/chemblade",
+    "tagline": "Automated tote rinsing",
+    "description": "BulkBlaster is inserted in place of a tote lid; with supplied pressurized rinse water it rinses the inside of the tote until it is perfectly clean and ready to be repurposed. It integrates with the QuickDraw rinse cycle function.",
+    "specs": [
+      "Replaces tote lid for in-place rinsing",
+      "Uses pressurized rinse water supply",
+      "Integrates with QuickDraw rinse cycle function"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/091105_bf1c439c33bf4a5085d8c8e46078b4f8~mv2.png"
+    ],
+    "brochures": [
+      "https://www.surepointag.com/_files/ugd/091105_4d90fe5586da4227846a4bfbf35b7606.pdf"
+    ],
+    "priority": false
+  }
+]

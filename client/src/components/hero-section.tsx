@@ -25,8 +25,8 @@ export default function HeroSection() {
         }}
         onCanPlay={() => console.log('Video loaded successfully from App Storage')}
       >
-        {/* Primary source: App Storage hosted video for reliable custom domain deployment */}
-        <source src="/public-objects/videos/planter-video.mp4" type="video/mp4" />
+        {/* Hosted on Cloudflare R2 — the file is 75MB, over the 25MB Pages asset limit */}
+        <source src="https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/planter-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black bg-opacity-40" />

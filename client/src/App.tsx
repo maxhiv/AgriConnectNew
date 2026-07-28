@@ -10,6 +10,8 @@ import ProductDetail from "@/pages/product-detail";
 import Dealers from "@/pages/dealers";
 import Resources from "@/pages/resources";
 import ResourceDetail from "@/pages/resource-detail";
+import VendorResources from "@/pages/vendor-resources";
+import VendorResourceDetail from "@/pages/vendor-resource-detail";
 import FarmingGuides from "@/pages/FarmingGuides";
 import WeatherUpdates from "@/pages/WeatherUpdates";
 import WordPressPosts from "@/pages/wordpress-posts";
@@ -17,6 +19,7 @@ import WordPressPostDetail from "@/pages/wordpress-post-detail";
 import TerritoryHub from "@/pages/TerritoryHub";
 import LocationPage from "@/pages/LocationPage";
 import ServicePage from "@/pages/ServicePage";
+import ServiceLocationPage from "@/pages/ServiceLocationPage";
 import CropPage from "@/pages/CropPage";
 import FieldDemo from "@/pages/FieldDemo";
 import NewsArticlePage from "@/pages/news-article";
@@ -30,6 +33,8 @@ function Router() {
       <Route path="/dealers" component={Dealers} />
       <Route path="/resources" component={Resources} />
       <Route path="/resources/:id" component={ResourceDetail} />
+      <Route path="/vendor-resources" component={VendorResources} />
+      <Route path="/vendor-resources/:slug" component={VendorResourceDetail} />
       <Route path="/farming-guides" component={FarmingGuides} />
       <Route path="/weather-updates" component={WeatherUpdates} />
       <Route path="/wordpress/posts" component={WordPressPosts} />
@@ -50,7 +55,11 @@ function Router() {
       <Route path="/mississippi/:location/precision-agriculture" component={LocationPage} />
       <Route path="/florida/:location/precision-agriculture" component={LocationPage} />
       <Route path="/tennessee/:location/precision-agriculture" component={LocationPage} />
-      
+
+      {/* Combined Service + Location Pages - Alabama and Mississippi SEO coverage */}
+      <Route path="/alabama/:location/services/:service" component={ServiceLocationPage} />
+      <Route path="/mississippi/:location/services/:service" component={ServiceLocationPage} />
+
       {/* Territory Hub Pages - specific routes */}
       <Route path="/alabama-precision-agriculture" component={TerritoryHub} />
       <Route path="/mississippi-precision-agriculture" component={TerritoryHub} />

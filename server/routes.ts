@@ -780,7 +780,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Sitemap.xml generation
   app.get("/sitemap.xml", async (req, res) => {
     try {
-      const baseUrl = "https://vantagesouth.com";
+      const baseUrl = "https://vantage-south.com";
       const now = new Date().toISOString().split('T')[0];
       
       // Static routes
@@ -990,7 +990,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   // robots.txt
   app.get("/robots.txt", (req, res) => {
-    const baseUrl = "https://vantagesouth.com";
+    const baseUrl = "https://vantage-south.com";
     const robotsTxt = `User-agent: *
 Allow: /
 
