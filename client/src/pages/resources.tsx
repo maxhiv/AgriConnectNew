@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { BarChart3, FileText, BookOpen, Users, ArrowRight } from "lucide-react";
+import { BarChart3, FileText, BookOpen, Users, ArrowRight, FileDown } from "lucide-react";
 
 interface ResourceSummary {
   slug: string;
@@ -42,9 +42,15 @@ const CATEGORY_META: Record<string, { title: string; description: string; icon: 
     icon: Users,
     color: "bg-emerald-600",
   },
+  manual: {
+    title: "Technical Manuals",
+    description: "Official PTx Trimble product manuals and setup guides for displays, guidance systems, and FarmENGAGE software.",
+    icon: FileDown,
+    color: "bg-slate-600",
+  },
 };
 
-const CATEGORY_ORDER = ["research", "article", "guide", "farmer-story"];
+const CATEGORY_ORDER = ["research", "article", "guide", "farmer-story", "manual"];
 
 export default function Resources() {
   const { data: resources, isLoading } = useQuery<ResourceSummary[]>({

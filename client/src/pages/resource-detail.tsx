@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, ArrowRight, ExternalLink, CheckCircle2, MessageSquare, Phone } from "lucide-react";
+import { ArrowLeft, ArrowRight, ExternalLink, CheckCircle2, MessageSquare, Phone, FileDown } from "lucide-react";
 
 interface Resource {
   id: string;
@@ -17,6 +17,7 @@ interface Resource {
   description: string;
   keyPoints: string[];
   bodyHtml: string;
+  pdfUrl?: string;
   tags: string[];
   relatedProductSlugs: string[];
   featuredImage: string | null;
@@ -90,7 +91,12 @@ export default function ResourceDetail() {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": resource.category === "research" ? "ScholarlyArticle" : "Article",
+    "@type":
+      resource.category === "research"
+        ? "ScholarlyArticle"
+        : resource.category === "manual"
+          ? "TechArticle"
+          : "Article",
     headline: resource.title,
     description: resource.description,
     image: resource.featuredImage || undefined,
@@ -143,10 +149,30 @@ export default function ResourceDetail() {
             </Card>
           )}
 
-          <div
-            className="prose prose-lg max-w-none mb-10 [&_h3]:text-2xl [&_h3]:font-bold [&_h3]:mt-8 [&_h3]:mb-3 [&_h4]:text-xl [&_h4]:font-semibold [&_h4]:mt-6 [&_h4]:mb-2 [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_a]:text-primary [&_a]:underline"
-            dangerouslySetInnerHTML={{ __html: resource.bodyHtml }}
-          />
+          {resource.category === "manual" && resource.pdfUrl ? (
+            <Card className="mb-10 bg-slate-50 border-slate-200">
+              <CardContent className="pt-6 flex items-center justify-between gap-4 flex-wrap">
+                <div className="flex items-center gap-3">
+                  <FileDown className="h-8 w-8 text-slate-600 flex-shrink-0" />
+                  <div>
+                    <div className="font-medium">Official PTx Trimble Documentation</div>
+                    <div className="text-sm text-muted-foreground">PDF download</div>
+                  </div>
+                </div>
+                <Button asChild size="lg">
+                  <a href={resource.pdfUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                    <FileDown className="h-4 w-4" />
+                    Download PDF
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+          ) : (
+            <div
+              className="prose prose-lg max-w-none mb-10 [&_h3]:text-2xl [&_h3]:font-bold [&_h3]:mt-8 [&_h3]:mb-3 [&_h4]:text-xl [&_h4]:font-semibold [&_h4]:mt-6 [&_h4]:mb-2 [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_a]:text-primary [&_a]:underline"
+              dangerouslySetInnerHTML={{ __html: resource.bodyHtml }}
+            />
+          )}
 
           {resource.tags.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-10">
@@ -219,7 +245,7 @@ export default function ResourceDetail() {
                 rel="noopener nofollow"
                 className="text-primary hover:underline inline-flex items-center gap-1"
               >
-                Precision Planting
+                {resource.tags.includes("PTx Trimble") ? "PTx Trimble" : "Precision Planting"}
                 <ExternalLink className="h-3 w-3" />
               </a>
             </p>

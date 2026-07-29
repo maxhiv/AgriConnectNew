@@ -3097,5 +3097,621 @@
     "featuredImage": "https://embed-ssl.wistia.com/deliveries/8acd746c29c749c7a865506cce70df8df35c41c4.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/farmer-story/having-downforce-control-on-my-air-seeder-has-already-increased-my-speed-and-my-productivity",
     "seoKeywords": "seeder, air seeder, monitor, planting, 20|20, downforce, control"
+  },
+  {
+    "id": "gfx-series-display-user-guide",
+    "slug": "gfx-series-display-user-guide",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "GFX Series Display User Guide",
+    "description": "Complete user guide covering setup, navigation, and operation of the GFX-350, GFX-1060, and GFX-1260 displays running Precision-IQ.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Complete user guide covering setup, navigation, and operation of the GFX-350, GFX-1060, and GFX-1260 displays running Precision-IQ.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/GFX-Series-Display-User-Guide.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-gfx-350",
+      "gfx-350-display",
+      "ptx-gfx-1060",
+      "gfx-1060-display",
+      "ptx-gfx-1260",
+      "gfx-1260-display"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/GFX-Series-Display-User-Guide.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/GFX-Series-Display-User-Guide.pdf"
+  },
+  {
+    "id": "track-guide-iii-display-system-installation-and-operating-instructions",
+    "slug": "track-guide-iii-display-system-installation-and-operating-instructions",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "TRACK-Guide III Display System: Installation and Operating Instructions",
+    "description": "Installation and operating instructions for the TRACK-Guide III guidance display system.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Installation and operating instructions for the TRACK-Guide III guidance display system.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/TRACK-Guide-III-Display-System-Installation-and-Operating-Instructions.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/TRACK-Guide-III-Display-System-Installation-and-Operating-Instructions.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/TRACK-Guide-III-Display-System-Installation-and-Operating-Instructions.pdf"
+  },
+  {
+    "id": "track-leader-operating-instructions",
+    "slug": "track-leader-operating-instructions",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "TRACK-Leader Operating Instructions",
+    "description": "Operating instructions for the TRACK-Leader guidance and steering system.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Operating instructions for the TRACK-Leader guidance and steering system.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/TRACK-Leader-Operating-Instructions.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/TRACK-Leader-Operating-Instructions.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/TRACK-Leader-Operating-Instructions.pdf"
+  },
+  {
+    "id": "precision-iq-managing-fields-and-guidance-patterns",
+    "slug": "precision-iq-managing-fields-and-guidance-patterns",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "Precision-IQ: Managing Fields and Guidance Patterns",
+    "description": "User guide for setting up fields and guidance patterns in Precision-IQ, the software platform running on GFX displays.",
+    "keyPoints": [],
+    "bodyHtml": "<p>User guide for setting up fields and guidance patterns in Precision-IQ, the software platform running on GFX displays.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/Precision-IQ-Managing-Fields-and-Guidance-Patterns-User-Guide.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-gfx-350",
+      "gfx-350-display",
+      "ptx-gfx-1060",
+      "gfx-1060-display",
+      "ptx-gfx-1260",
+      "gfx-1260-display"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/Precision-IQ-Managing-Fields-and-Guidance-Patterns-User-Guide.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/Precision-IQ-Managing-Fields-and-Guidance-Patterns-User-Guide.pdf"
+  },
+  {
+    "id": "precision-iq-managing-implements-user-guide",
+    "slug": "precision-iq-managing-implements-user-guide",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "Precision-IQ: Managing Implements User Guide",
+    "description": "User guide for configuring and managing implements within Precision-IQ.",
+    "keyPoints": [],
+    "bodyHtml": "<p>User guide for configuring and managing implements within Precision-IQ.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/Precision-IQ-Managing-Implements-User-Guide.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-gfx-350",
+      "gfx-350-display",
+      "ptx-gfx-1060",
+      "gfx-1060-display",
+      "ptx-gfx-1260",
+      "gfx-1260-display"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/Precision-IQ-Managing-Implements-User-Guide.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/Precision-IQ-Managing-Implements-User-Guide.pdf"
+  },
+  {
+    "id": "remote-output-user-guide",
+    "slug": "remote-output-user-guide",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "Remote Output User Guide",
+    "description": "User guide for configuring remote output functionality on PTx Trimble display systems.",
+    "keyPoints": [],
+    "bodyHtml": "<p>User guide for configuring remote output functionality on PTx Trimble display systems.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/remote-output-user-guide.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/remote-output-user-guide.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/remote-output-user-guide.pdf"
+  },
+  {
+    "id": "gfx-displays-eu-declaration-of-conformity",
+    "slug": "gfx-displays-eu-declaration-of-conformity",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "GFX Displays: EU Declaration of Conformity",
+    "description": "Regulatory EU Declaration of Conformity documentation for the GFX display series.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Regulatory EU Declaration of Conformity documentation for the GFX display series.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/GFX-Displays--EU-Declaration-of-Conformity.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-gfx-350",
+      "gfx-350-display",
+      "ptx-gfx-1060",
+      "gfx-1060-display",
+      "ptx-gfx-1260",
+      "gfx-1260-display"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/GFX-Displays--EU-Declaration-of-Conformity.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/GFX-Displays--EU-Declaration-of-Conformity.pdf"
+  },
+  {
+    "id": "nav-960-eu-declaration-of-conformity",
+    "slug": "nav-960-eu-declaration-of-conformity",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "NAV-960: EU Declaration of Conformity",
+    "description": "Regulatory EU Declaration of Conformity documentation for the NAV-960 guidance controller.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Regulatory EU Declaration of Conformity documentation for the NAV-960 guidance controller.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/Nav-960-EU-Declaration-of-Conformity.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-nav-960",
+      "nav-960-guidance-controller"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/Nav-960-EU-Declaration-of-Conformity.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/Nav-960-EU-Declaration-of-Conformity.pdf"
+  },
+  {
+    "id": "farmengage-agco-equipment-operations-activation",
+    "slug": "farmengage-agco-equipment-operations-activation",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: AGCO Equipment Operations Activation",
+    "description": "Guide for activating AGCO equipment operations data within FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide for activating AGCO equipment operations data within FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-AGCO-Equipment-Operations-Activation.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-AGCO-Equipment-Operations-Activation.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-AGCO-Equipment-Operations-Activation.pdf"
+  },
+  {
+    "id": "farmengage-agco-id",
+    "slug": "farmengage-agco-id",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: AGCO ID",
+    "description": "Guide for linking and managing an AGCO ID within FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide for linking and managing an AGCO ID within FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-AGCO-ID.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-AGCO-ID.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-AGCO-ID.pdf"
+  },
+  {
+    "id": "farmengage-analytics",
+    "slug": "farmengage-analytics",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Analytics",
+    "description": "Guide to the analytics and reporting features in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to the analytics and reporting features in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Analytics.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Analytics.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Analytics.pdf"
+  },
+  {
+    "id": "farmengage-autosync",
+    "slug": "farmengage-autosync",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Autosync",
+    "description": "Guide to Autosync data synchronization in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to Autosync data synchronization in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Autosync.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Autosync.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Autosync.pdf"
+  },
+  {
+    "id": "farmengage-crop-rotation-planning",
+    "slug": "farmengage-crop-rotation-planning",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Crop Rotation Planning",
+    "description": "Guide to planning and managing crop rotations in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to planning and managing crop rotations in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Crop-Rotation-Planning.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Crop-Rotation-Planning.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Crop-Rotation-Planning.pdf"
+  },
+  {
+    "id": "farmengage-crop-zone-activities",
+    "slug": "farmengage-crop-zone-activities",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Crop Zone Activities",
+    "description": "Guide to managing crop zone activities in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to managing crop zone activities in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Crop-Zone-Activities.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Crop-Zone-Activities.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Crop-Zone-Activities.pdf"
+  },
+  {
+    "id": "farmengage-crops-and-crop-seasons",
+    "slug": "farmengage-crops-and-crop-seasons",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Crops and Crop Seasons",
+    "description": "Guide to setting up crops and crop seasons in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to setting up crops and crop seasons in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Crops-and-Crop-Seasons.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Crops-and-Crop-Seasons.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Crops-and-Crop-Seasons.pdf"
+  },
+  {
+    "id": "farmengage-direct-send-and-exporting-resources",
+    "slug": "farmengage-direct-send-and-exporting-resources",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Direct Send and Exporting Resources",
+    "description": "Guide to direct-send data transfer and exporting resources from FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to direct-send data transfer and exporting resources from FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Direct-Send-and-Exporting-Resources.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Direct-Send-and-Exporting-Resources.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmENGAGE-Direct-Send-and-Exporting-Resources.pdf"
+  },
+  {
+    "id": "farmengage-data-inbox",
+    "slug": "farmengage-data-inbox",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Data Inbox",
+    "description": "Guide to managing incoming data through the FarmENGAGE Data Inbox.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to managing incoming data through the FarmENGAGE Data Inbox.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Data-Inbox.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Data-Inbox.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Data-Inbox.pdf"
+  },
+  {
+    "id": "farmengage-equipment-activity-and-crop-zone-activity",
+    "slug": "farmengage-equipment-activity-and-crop-zone-activity",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Equipment Activity & Crop Zone Activity",
+    "description": "Guide to tracking equipment activity alongside crop zone activities in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to tracking equipment activity alongside crop zone activities in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Equipment-Activity-and-Crop-Zone-Activities.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Equipment-Activity-and-Crop-Zone-Activities.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Equipment-Activity-and-Crop-Zone-Activities.pdf"
+  },
+  {
+    "id": "farmengage-equipment",
+    "slug": "farmengage-equipment",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Equipment",
+    "description": "Guide to managing equipment records in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to managing equipment records in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Equipment.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Equipment.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Equipment.pdf"
+  },
+  {
+    "id": "farmengage-farm-map",
+    "slug": "farmengage-farm-map",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Farm Map",
+    "description": "Guide to using the Farm Map feature in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to using the Farm Map feature in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Farm-Map.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Farm-Map.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Farm-Map.pdf"
+  },
+  {
+    "id": "farmengage-field-manager",
+    "slug": "farmengage-field-manager",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Field Manager",
+    "description": "Guide to managing fields using the FarmENGAGE Field Manager.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to managing fields using the FarmENGAGE Field Manager.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Field-Manager.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Field-Manager.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Field-Manager.pdf"
+  },
+  {
+    "id": "farmengage-materials",
+    "slug": "farmengage-materials",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Materials",
+    "description": "Guide to managing materials (seed, fertilizer, chemical products) in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to managing materials (seed, fertilizer, chemical products) in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Materials.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Materials.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Materials.pdf"
+  },
+  {
+    "id": "farmengage-mobile",
+    "slug": "farmengage-mobile",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Mobile",
+    "description": "Guide to using the FarmENGAGE mobile app.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to using the FarmENGAGE mobile app.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Mobile.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Mobile.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Mobile.pdf"
+  },
+  {
+    "id": "farmengage-oem-apis",
+    "slug": "farmengage-oem-apis",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: OEM APIs",
+    "description": "Reference guide to FarmENGAGE's OEM API integrations.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Reference guide to FarmENGAGE's OEM API integrations.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-OEM-APIs.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-OEM-APIs.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-OEM-APIs.pdf"
+  },
+  {
+    "id": "farmengage-people",
+    "slug": "farmengage-people",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: People",
+    "description": "Guide to managing people and user access in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to managing people and user access in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-People.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-People.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-People.pdf"
+  },
+  {
+    "id": "farmengage-prescriptions",
+    "slug": "farmengage-prescriptions",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Prescriptions",
+    "description": "Guide to creating and managing prescriptions in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to creating and managing prescriptions in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Prescriptions.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Prescriptions.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Prescriptions.pdf"
+  },
+  {
+    "id": "farmengage-work-orders",
+    "slug": "farmengage-work-orders",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Work Orders",
+    "description": "Guide to creating and managing work orders in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to creating and managing work orders in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Word-Orders.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Word-Orders.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/FarmEngage-Word-Orders.pdf"
+  },
+  {
+    "id": "farmengage-connectivity-center",
+    "slug": "farmengage-connectivity-center",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Connectivity Center",
+    "description": "Guide to the Connectivity Center for managing device and data connections in FarmENGAGE.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to the Connectivity Center for managing device and data connections in FarmENGAGE.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/farmengage-connectivity-center.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/farmengage-connectivity-center.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/farmengage-connectivity-center.pdf"
+  },
+  {
+    "id": "farmengage-initial-organization-creation-and-management",
+    "slug": "farmengage-initial-organization-creation-and-management",
+    "category": "manual",
+    "categoryLabel": "Technical Manual",
+    "title": "FarmENGAGE: Initial Organization Creation & Management",
+    "description": "Guide to setting up and managing an organization in FarmENGAGE for the first time.",
+    "keyPoints": [],
+    "bodyHtml": "<p>Guide to setting up and managing an organization in FarmENGAGE for the first time.</p><p><a href=\"https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/farmengage-initial-organization-creation-management.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>",
+    "tags": [
+      "PTx Trimble"
+    ],
+    "relatedProductSlugs": [
+      "ptx-farmengage",
+      "ptx-ptx-farmengage"
+    ],
+    "featuredImage": null,
+    "sourceUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/farmengage-initial-organization-creation-management.pdf",
+    "seoKeywords": null,
+    "pdfUrl": "https://pub-a0f4340d0f0e4281b36892845a9483d2.r2.dev/docs/ptx-trimble/farmengage-initial-organization-creation-management.pdf"
   }
 ]
