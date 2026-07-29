@@ -123,7 +123,14 @@ export default function Footer() {
 
         <div className="border-t border-ptx-medium-green mt-8 pt-8 text-center">
           <p className="text-ptx-neutral-green font-lato">
-            © {year} Vantage South. All rights reserved.
+            © {year} Vantage South. All rights reserved. |{" "}
+            <Link href="/privacy-policy" className="hover:text-ptx-bright-green transition-colors" data-testid="footer-link-privacy">
+              Privacy Policy
+            </Link>{" "}
+            |{" "}
+            <Link href="/terms-of-service" className="hover:text-ptx-bright-green transition-colors" data-testid="footer-link-terms">
+              Terms of Service
+            </Link>
           </p>
         </div>
       </div>

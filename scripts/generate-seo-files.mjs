@@ -31,6 +31,8 @@ const staticRoutes = [
   { url: "/weather-updates", priority: "0.6", changefreq: "daily" },
   { url: "/schedule-field-demo", priority: "0.8", changefreq: "monthly" },
   { url: "/vendor-resources", priority: "0.7", changefreq: "weekly" },
+  { url: "/privacy-policy", priority: "0.3", changefreq: "yearly" },
+  { url: "/terms-of-service", priority: "0.3", changefreq: "yearly" },
 ];
 
 const territoryHubs = [

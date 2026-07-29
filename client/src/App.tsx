@@ -23,6 +23,8 @@ import ServiceLocationPage from "@/pages/ServiceLocationPage";
 import CropPage from "@/pages/CropPage";
 import FieldDemo from "@/pages/FieldDemo";
 import NewsArticlePage from "@/pages/news-article";
+import PrivacyPolicy from "@/pages/PrivacyPolicy";
+import TermsOfService from "@/pages/TermsOfService";
 
 function Router() {
   return (
@@ -40,6 +42,8 @@ function Router() {
       <Route path="/wordpress/posts" component={WordPressPosts} />
       <Route path="/wordpress/post/:slug" component={WordPressPostDetail} />
       <Route path="/news/:slug" component={NewsArticlePage} />
+      <Route path="/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/terms-of-service" component={TermsOfService} />
       
       {/* Field Demo - before other dynamic routes */}
       <Route path="/schedule-field-demo" component={FieldDemo} />
