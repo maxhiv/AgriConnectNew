@@ -16,6 +16,7 @@
     "Blockage and Flow Monitoring",
     "Boom Accessories",
     "Camera Systems",
+    "CartACE",
     "Combines",
     "Data Management",
     "Depth Control",
@@ -27,6 +28,7 @@
     "Features",
     "Fertilizer Application",
     "Furrow Management",
+    "GNSS Receivers",
     "Guidance Controllers",
     "Header Height Control",
     "Land Forming",
@@ -58,7 +60,8 @@
     "Steering Systems",
     "Subsurface Drainage",
     "Trailed/Pull-Type Spreader",
+    "Water Management",
     "Yield Monitoring"
   ],
-  "totalProducts": 134
+  "totalProducts": 144
 }
