@@ -163,7 +163,6 @@ async function main() {
   const products = JSON.parse(fs.readFileSync(productsPath, "utf-8"));
   let productsRewritten = 0;
   for (const p of products) {
-    if (!p.isVendorSweep) continue;
     let changed = false;
     if (Array.isArray(p.images)) {
       p.images = p.images.map((u) => {

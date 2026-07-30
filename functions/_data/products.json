@@ -24,13 +24,13 @@
     "logoBlack": "/assets/logos/20-20/20-20-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/20-20/20-20-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/20-20/20-20-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/h38j2hjvxbsj2bhbtw2vh47h/2020_Gen_3_08_20_12_52_32_3840x2160_Redshift_2020_Gen_3_with_Switches_01_r03_goodsystem?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-1.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrur-euatpc-b24rhq/2020_Planter_Downforce_Gen_3?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/5r4zhxvncqjv8rqhqznznfwk/Wayne_Havlat_Crete_NE-3093?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/m69cvv67762xf6fm3mskqr7n/Deltaforce-heatmap-field?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/sqt85tvmjzsxhv3kxstgv3/PP_21_002_Joe_Malecek_Osage_IA-2469?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrur-euatpc-b24rhq/2020_Planter_Downforce_Gen_3?auto=webp&amp;width=480"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-2.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-3.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-4.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-5.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-6.jpg"
     ],
     "createdAt": "2025-08-19T18:42:43.814Z",
     "updatedAt": "2025-12-17T14:30:03.588Z",
@@ -73,13 +73,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/h38j2hjvxbsj2bhbtw2vh47h/2020_Gen_3_08_20_12_52_32_3840x2160_Redshift_2020_Gen_3_with_Switches_01_r03_goodsystem?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-1.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrur-euatpc-b24rhq/2020_Planter_Downforce_Gen_3?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/5r4zhxvncqjv8rqhqznznfwk/Wayne_Havlat_Crete_NE-3093?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/m69cvv67762xf6fm3mskqr7n/Deltaforce-heatmap-field?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/sqt85tvmjzsxhv3kxstgv3/PP_21_002_Joe_Malecek_Osage_IA-2469?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrur-euatpc-b24rhq/2020_Planter_Downforce_Gen_3?auto=webp&amp;width=480"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-2.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-3.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-4.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-5.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-6.jpg"
     ],
     "createdAt": "2025-08-27T17:03:50.868Z",
     "updatedAt": "2025-12-17T14:30:03.613Z",
@@ -97,48 +97,6 @@
     "researchFindings": null,
     "compatibilityDetails": null,
     "contentEnriched": true,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "5e3ed85b-1f7c-4d30-9068-484251e9b009",
-    "name": "AG-392 Receiver",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Receivers",
-    "tagline": "Multi-frequency GNSS receiver for precision guidance",
-    "shortDescription": "High-performance receiver supporting multiple correction sources.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/guidance-control/ag-392-receiver",
-    "highlights": [
-      "Multi-frequency tracking",
-      "Multiple correction sources",
-      "Reliable performance"
-    ],
-    "keyFeatures": [
-      "Multi-frequency GNSS",
-      "RTK capable"
-    ],
-    "specs": [],
-    "worksWith": [
-      "GFX displays",
-      "Guidance controllers"
-    ],
-    "slug": "ptx-ag-392",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/C2fWADfFgKToPcfGHpB6i/b032ba40ef13cdb7889c68da2d44de81/PTx_TrimStacked_MDark_RGB.svg",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/6Jt1VnjDXTDVhTgtvjNabN/272bbeb27a66c91f2d634ba87f210ddc/ag-392-front-angled-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/1skTWnEcWhf4atWVffDB6V/c0b504fa10d262014ff8be5d23864d44/red-tractor-ag-372-800x450.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
-    ],
-    "createdAt": "2025-12-16T23:41:20.566Z",
-    "updatedAt": "2026-07-27T20:07:11.155Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
     "lastContentUpdate": null
   },
   {
@@ -164,13 +122,13 @@
     "logoBlack": "/assets/logos/airforce/airforce-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/airforce/airforce-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/airforce/airforce-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/qfbrwq-frsra8-643ysy/AirForce?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-7.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrwq-frsra8-643ysy/AirForce?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/bz2s887v2k8n4347vmzmr6/John_Deere_Front_Fold_24_Row_-_LBeck_-_Close_Ups_20?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/cq3sp98jpxfmv57hbjmvf4k/Gen_3_Air_Force_Control_Screen?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/qdz8ph-6dfa3s-6z3nre/PP_2013_Spring_Planting_776?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/c6g5cqghqgqvtwxbxf8xf/DeltaForce_Down_Force_Metric_Page_on_2020?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-8.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-9.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-10.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-11.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-12.jpg"
     ],
     "createdAt": "2025-08-19T18:43:06.171Z",
     "updatedAt": "2025-12-17T14:30:03.638Z",
@@ -229,107 +187,16 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://static.wixstatic.com/media/866064_c82e822fd7524fa890b46a744aaf3fbe~mv2.jpg/v1/fill/w_1904,h_992,al_b,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866064_c82e822fd7524fa890b46a744aaf3fbe~mv2.jpg",
+    "primaryImage": "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-1.jpg",
     "images": [
-      "https://static.wixstatic.com/media/914c06_139ce112d52d42f3babeb331a109b97c~mv2.png/v1/fill/w_980,h_456,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Arsenal-spray-trailer-callouts.png",
-      "https://static.wixstatic.com/media/914c06_45cb5466169a4ba6a4ac5c9740566355~mv2.png/v1/crop/x_0,y_0,w_3226,h_1357/fill/w_914,h_382,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Arsenal-spray-trailer-underside-with-callouts.png",
-      "https://static.wixstatic.com/media/866064_596265057db242ca8c06a9e4f3247e61~mv2.jpg/v1/crop/x_728,y_0,w_3994,h_4000/fill/w_225,h_225,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_1185_JPG.jpg",
-      "https://static.wixstatic.com/media/866064_2ea704c6a8c44373a4e0d39ad5363456~mv2.jpg/v1/fill/w_225,h_225,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_1190_JPG.jpg",
-      "https://static.wixstatic.com/media/866064_72ab9505ccc64272a5428922593d1008~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3000.png"
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-2.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-3.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-4.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-5.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-6.jpg"
     ],
     "createdAt": "2025-12-16T23:41:22.058Z",
     "updatedAt": "2026-07-27T20:07:12.931Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "d82b8846-4a0c-4d81-a29e-6396a601adce",
-    "name": "Autopilot Automated Steering",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Steering Systems",
-    "tagline": "Full-featured automated steering system",
-    "shortDescription": "Complete hands-free steering solution for maximum productivity.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/steering-systems/autopilot-automated-steering",
-    "highlights": [
-      "Hands-free operation",
-      "Sub-inch accuracy",
-      "All-terrain capability"
-    ],
-    "keyFeatures": [
-      "Automated steering",
-      "High precision"
-    ],
-    "specs": [],
-    "worksWith": [
-      "NAV-960",
-      "GFX-1260",
-      "GFX-1060"
-    ],
-    "slug": "ptx-autopilot-automated",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/2F07fEOYV9q3SATSUXzqlI/7fffb3c777db23822edec0fca723d99b/agriculture-autopilot-automated-steering-Aug23-1200x627.png",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/1bREJ0QAvjdofaRGkVEDYU/0dc55748059fa2c734d1b974bffc5b5d/agriculture-products-autopilot-2-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/4mGeT4sFk7AJpTMsdmad7v/f312bdec69d6d75aa883805cc82a0ca9/agriculture-products-autopilot-planting-europe-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/4Y3TjPslaewgxnG0tFaiji/922ac5f3888fe065478b4dba99339b4b/agriculture-products-autopilot-isobus-infield-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/6yFc7RuH4SbOFnyrBWVxlj/a3ad96d42e219b5fb2a0ab9df5025a1c/agriculture-products-t3-terrain-compensation-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/31bdD36AOthZxKfLOObBq7/b017b4b69c5731ca6eab0304bd83d646/agriculture-solutions-nextswath-aerial-turn-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
-    ],
-    "createdAt": "2025-12-16T23:41:20.665Z",
-    "updatedAt": "2026-07-27T20:07:11.260Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "c9a534a9-0881-4cd3-baa6-3fcee410c5ea",
-    "name": "Autopilot Motor Drive",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Steering Systems",
-    "tagline": "Motor-driven automated steering for older equipment",
-    "shortDescription": "Retrofit steering solution using motor-driven wheel control.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/steering-systems/autopilot-motor-drive",
-    "highlights": [
-      "Retrofit compatible",
-      "Easy installation",
-      "Reliable performance"
-    ],
-    "keyFeatures": [
-      "Motor-driven control",
-      "Legacy equipment support"
-    ],
-    "specs": [],
-    "worksWith": [
-      "NAV controllers",
-      "GFX displays"
-    ],
-    "slug": "ptx-autopilot-motor-drive",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/6QNL3cCytYrRIwM5e3fz8H/1938e718e91996fd6b610c52cef99503/agriculture-autopilot-motor-drive-Aug23-1200x627.png",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/6n4QJYkxmYpH4bpROGpYRe/40072c6829abe9b61f3873e98e9e80a3/agriculture-products-autopilot-motor-drive-2-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/7iwRzRsSphnOmum0PXJ0EN/6a1bae0227b7e43c64453a8848210cca/agriculture-products-autopilot-motor-drive-closeup-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/4AdjGGGVovSoB63bvXCgK5/2d7cfcba6b3b97576a5192db546c842d/agriculture-products-autopilot-motor-drive-fabry-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/6yFc7RuH4SbOFnyrBWVxlj/a3ad96d42e219b5fb2a0ab9df5025a1c/agriculture-products-t3-terrain-compensation-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/31bdD36AOthZxKfLOObBq7/b017b4b69c5731ca6eab0304bd83d646/agriculture-solutions-nextswath-aerial-turn-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
-    ],
-    "createdAt": "2025-12-16T23:41:20.712Z",
-    "updatedAt": "2026-07-27T20:07:11.313Z",
     "enrichedDescription": null,
     "detailedFeatures": null,
     "benefits": null,
@@ -375,12 +242,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/08/BoomLoop-Header.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-boomloop-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/08/BoomLoop-Features.png",
-      "https://www.agleader.com/wp-content/uploads/2024/07/BoomLoop-Display.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/BoomLoop-1.png",
-      "https://www.agleader.com/wp-content/uploads/2024/07/Untitled-design-46.png"
+      "/assets/vendor-images/ag-leader/ag-leader-boomloop-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-1.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-boomloop-4.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-2.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.775Z",
     "updatedAt": "2026-07-27T20:07:12.609Z",
@@ -413,13 +280,13 @@
     "logoBlack": "/assets/logos/bullseye/bullseye-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/bullseye/bullseye-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/bullseye/bullseye-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/qfbrwq-frsra8-ea78ci/BullsEye?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-13.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrwq-frsra8-ea78ci/BullsEye?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/mhgv5s362jvkkvh7n5752f/BullsEye_prematurewear_1050x600?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/37673698zrx5b8g8hpcxhm/BullsEye_timelapse_1050x600?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbs1c-bui7jk-6unqe6/SpeedTube?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbs3o-8ef7tc-8lyum8/WaveVision?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-14.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-15.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-16.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-17.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-18.jpg"
     ],
     "createdAt": "2025-08-19T18:43:07.323Z",
     "updatedAt": "2025-12-17T14:30:03.662Z",
@@ -458,13 +325,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://static.wixstatic.com/media/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg/v1/fill/w_1920,h_1080,al_c/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg",
+    "primaryImage": "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-7.jpg",
     "images": [
-      "https://static.wixstatic.com/media/091105_4f0c35a4af674e9daa2b02fc700dd4b6~mv2.png/v1/crop/x_58,y_10,w_638,h_661/fill/w_66,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SPA-Horizontal-Logo-2022.png",
-      "https://static.wixstatic.com/media/914c06_735a63307fa44157801f2c1082e21c13~mv2.png/v1/fill/w_152,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/914c06_735a63307fa44157801f2c1082e21c13~mv2.png",
-      "https://static.wixstatic.com/media/911e57_6a8048a516d84cb4b5b3bdd7580d2010~mv2.png/v1/fill/w_165,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Quickdraw%20COLOR%20Logo.png",
-      "https://static.wixstatic.com/media/866064_2afd8a7f36c843d687446f6f5a458156~mv2.png/v1/fill/w_165,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866064_2afd8a7f36c843d687446f6f5a458156~mv2.png",
-      "https://static.wixstatic.com/media/091105_61eef593f6fe493bab069b79de83c733~mv2.png/v1/fill/w_165,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/chemblade%20stroke.png"
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-8.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-9.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-10.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-11.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-12.jpg"
     ],
     "createdAt": "2025-12-16T23:41:22.011Z",
     "updatedAt": "2026-07-27T20:07:12.877Z",
@@ -499,13 +366,13 @@
     "logoBlack": "/assets/logos/clarity/clarity-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/clarity/clarity-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/clarity/clarity-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/996v35fg6q4w4jcfx4gc5ff/Clarity_2023?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-19.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/996v35fg6q4w4jcfx4gc5ff/Clarity_2023?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/ww5j7q5gp26ppwgfr8jwwg8/2020_Gen_3_Dry_Fertilizer_Applicator_Strip_Till_2023?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/wgwr8564rj4b8zvg9zkb8wns/Clarity_Product_Blockage_Poor_Emergence?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/ng4xxvhzkjk4k8mwx3wtsxmb/panorama-screenshots?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/h38j2hjvxbsj2bhbtw2vh47h/2020_Gen_3_08_20_12_52_32_3840x2160_Redshift_2020_Gen_3_with_Switches_01_r03_goodsystem?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-20.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-21.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-22.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-23.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-24.jpg"
     ],
     "createdAt": "2025-08-19T18:43:08.268Z",
     "updatedAt": "2025-12-17T14:30:03.685Z",
@@ -548,13 +415,13 @@
     "logoBlack": "/assets/logos/cleansweep/cleansweep-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/cleansweep/cleansweep-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/cleansweep/cleansweep-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/qfbrwq-frsra8-cm79i/CleanSweep?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-25.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrwq-frsra8-cm79i/CleanSweep?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/fg2xhxbznc64hxf4htc6f44/Hausmann_-_CASE_2150_with_Conceal_Bracket_27?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/qdzmqb-52n9vk-acxqkk/PrecisionPlanting_0415_PPDI_1397?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/83m68bjb7pb86gbv7zx3kxw3/CleanSweep_controller?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/m5hwnzxsh7hqcbv8sh4cv3s/Ponwith__FurrowFinder?auto=webp&amp;format=png&amp;width=256"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-26.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-27.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-28.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-29.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-30.jpg"
     ],
     "createdAt": "2025-08-19T18:43:06.433Z",
     "updatedAt": "2025-12-17T14:30:03.709Z",
@@ -595,13 +462,13 @@
     "logoBlack": "/assets/logos/conceal/conceal-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/conceal/conceal-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/conceal/conceal-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/qfbrx6-ap4a74-2iixdd/Conceal?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-31.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrx6-ap4a74-2iixdd/Conceal?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/xzsj6rrg2qk9qv555bc8wnr9/Conceal_N_Placement_16x9_Website?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/9g6kfqsg5c4t2kw7m6scsp34/Conceal_placement_Curve_website?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/43kcsr2kffbsn75cj3rj2868/Conceal_placement_Bounce_website?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbs23-cvyp2g-dkyjzl/vApplyHD?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-32.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-33.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-34.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-35.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-36.jpg"
     ],
     "createdAt": "2025-08-19T18:43:07.973Z",
     "updatedAt": "2025-12-17T14:30:03.732Z",
@@ -691,13 +558,13 @@
     "logoBlack": "/assets/logos/deltaforce/deltaforce-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/deltaforce/deltaforce-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/deltaforce/deltaforce-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/qfbrx6-ap4a74-c7qqyr/DeltaForce?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-37.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrx6-ap4a74-c7qqyr/DeltaForce?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/w98s5fb655nq9cj768ssz95/Johnson_MaxEmerge_with_22-23_Tanks-54?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/5bppv84pshhs7tcwkjmfrw2k/In_The_Furrow-19?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/rf9nt3995w9g8wjkvvxrq5g/4D7A1362?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/m5hwnzxsh7hqcbv8sh4cv3s/Ponwith__FurrowFinder?auto=webp&amp;format=png&amp;width=256"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-38.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-39.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-40.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-41.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-30.jpg"
     ],
     "createdAt": "2025-08-19T18:42:43.814Z",
     "updatedAt": "2025-12-17T14:30:03.765Z",
@@ -755,13 +622,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/08/Granular-Header.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-granular-directcommand-granular-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/08/Granular-Features.png",
-      "https://www.agleader.com/wp-content/uploads/2024/07/granular-1-1.png",
-      "https://www.agleader.com/wp-content/uploads/2024/07/Granular-3.png",
-      "https://www.agleader.com/wp-content/uploads/2024/07/Granular-2.png",
-      "https://www.agleader.com/wp-content/uploads/2024/07/Granular-Spreader_-Application-1-1024x683.jpg"
+      "/assets/vendor-images/ag-leader/ag-leader-granular-directcommand-granular-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-3.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-4.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-5.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-6.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.822Z",
     "updatedAt": "2026-07-27T20:07:12.659Z",
@@ -813,13 +680,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/L2.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/08/DirectCommand-L2-Features.png",
-      "https://www.agleader.com/wp-content/uploads/2024/11/L2-4.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/L2.png",
-      "https://www.agleader.com/wp-content/uploads/2024/08/Spinner-Spreader155.png",
-      "https://www.agleader.com/wp-content/uploads/2024/08/conventional-sprayer155.png"
+      "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-4.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-7.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-5.png",
+      "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-6.png"
     ],
     "createdAt": "2025-12-16T23:41:21.729Z",
     "updatedAt": "2026-07-27T20:07:12.558Z",
@@ -852,13 +719,13 @@
     "logoBlack": "/assets/logos/dryset/dryset-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/dryset/dryset-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/dryset/dryset-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/vbh8vb3jwzkhpq5sxnkgrb6/DrySet_Argentina_left_2024?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-42.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/vbh8vb3jwzkhpq5sxnkgrb6/DrySet_Argentina_left_2024?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/psrbgx69vftj64vsgmskn/DrySet_Brazil_left_2024?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/bkhm79xnqsmmqs4fx79cmn/DrySet_Meter_1_Sell_Sheet_Website?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/pc7gksv6t4bsw939tvcsht2/Granular_Products_in_Tank?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/sqt85tvmjzsxhv3kxstgv3/PP_21_002_Joe_Malecek_Osage_IA-2469?auto=webp&amp;width=480"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-43.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-44.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-45.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-46.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-5.jpg"
     ],
     "createdAt": "2025-08-19T18:43:08.121Z",
     "updatedAt": "2025-12-17T14:30:03.788Z",
@@ -891,13 +758,13 @@
     "logoBlack": "/assets/logos/durawear/durawear-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/durawear/durawear-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/durawear/durawear-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/xghtsttvkxbpxbfrpccmj9/DuraWear_Parallel_Arms_and_Gauge_Wheels_Arms_2023?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-47.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/tvsntvpjwq7tfqbx6rfkzn5/DepthHandle_DuraWear_left_2025?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/vr835cjf35qbswwnw3ggxvw6/DuraWear_Parallel_Arms_2022?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/88h84hpmfp95jzw3ms9g89/DuraWear_Gauge_Wheel_Arms_2023?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/4zfnnpf4jsnzhhpcc867pqtf/DepthStop_front_2025?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/sv25j73rxvmr5rnwtqn54k36/SeedTubeGuard_front_2025?auto=webp&amp;width=512"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-48.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-49.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-50.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-51.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-52.jpg"
     ],
     "createdAt": "2025-08-19T18:43:06.581Z",
     "updatedAt": "2025-12-17T14:30:03.811Z",
@@ -932,61 +799,16 @@
     "logoBlack": "/assets/logos/emhd/emhd-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/emhd/emhd-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/emhd/emhd-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/4t6kmwnjr6nc5sf7fn9vk9rt/EMHD_Product_Featured_Image?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-53.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/phc575pbvj34jnw9cwf7np9b/EMHD_FlowSense_2022?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/cf36bc2hg9bswrfc6q973p7s/2020_Nitrogen_Gen_3?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/sxqfv4g8382r5fxs5cf6h99m/FurrowJet_SmartFirmer_2021?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrx6-ap4a74-2iixdd/Conceal?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/hnq7vr6xwj9fsj4mb5g6x/PumpStack_2021?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-54.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-55.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-56.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-57.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-58.jpg"
     ],
     "createdAt": "2025-08-19T18:43:07.677Z",
     "updatedAt": "2025-12-17T14:30:03.836Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "fda14600-eeaa-4938-b892-f1893444f0c5",
-    "name": "EZ-Pilot Pro Steering",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Steering Systems",
-    "tagline": "Affordable assisted steering solution",
-    "shortDescription": "Entry-level assisted steering for cost-conscious operations.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/steering-systems/ez-pilot-pro-steering",
-    "highlights": [
-      "Affordable option",
-      "Easy installation",
-      "Reliable guidance"
-    ],
-    "keyFeatures": [
-      "Assisted steering",
-      "Budget-friendly"
-    ],
-    "specs": [],
-    "worksWith": [
-      "GFX-350",
-      "NAV-500"
-    ],
-    "slug": "ptx-ez-pilot-pro",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/49fKMwK1a0kKhndSJjAC2x/65699f54801948c63be25064bee4b486/agriculture-ez-pilot-pro-steering-Aug23-1200x627.png",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/3kDysf82cwJEfwmozOhLY8/d22e9182bf95c7fa6aa2572888aea2c2/agriculture-products-ezpilot-pro-steering-2-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/5hDXBz2iSQMcpbotY2s0N2/c1c2e39fc6ddb38b01825b459679dd38/agriculture-products-ezpilotpro-incab-steering-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/3F6vbiEp3orImTGJaDJKfH/953f18c25af754170ca90ef2739e7d84/agriculture-products-ezpilotpro-incab-steeringcolumn-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/6yFc7RuH4SbOFnyrBWVxlj/a3ad96d42e219b5fb2a0ab9df5025a1c/agriculture-products-t3-terrain-compensation-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/11VIgqfxIbadmWARHS0IKt/2a9e1dd3ea86beabf4b84e485d825730/agriculture-products-autopilot-onswath-aerial-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
-    ],
-    "createdAt": "2025-12-16T23:41:20.759Z",
-    "updatedAt": "2026-07-27T20:07:11.367Z",
     "enrichedDescription": null,
     "detailedFeatures": null,
     "benefits": null,
@@ -1022,13 +844,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Endurance-01-1024x644.jpg",
+    "primaryImage": "/assets/vendor-images/salford/salford-extra-1.jpg",
     "images": [
-      "https://www.facebook.com/tr?id=948203157437696&ev=PageView&noscript=1",
-      "https://salfordgroup.com/wp-content/uploads/2025/04/Salford_Logo_2021_Pack_Outline-White-new-640x210.png",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Endurance-01-640x403.jpg",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Endurance-02-640x403.jpg",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Endurance-03-640x403.jpg"
+      "/assets/vendor-images/salford/salford-extra-2.jpg",
+      "/assets/vendor-images/salford/salford-extra-3.jpg",
+      "/assets/vendor-images/salford/salford-extra-4.jpg",
+      "/assets/vendor-images/salford/salford-extra-5.jpg"
     ],
     "createdAt": "2025-12-16T23:41:22.106Z",
     "updatedAt": "2026-07-27T20:07:12.983Z",
@@ -1066,11 +887,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://s7d9.scene7.com/is/image/agco/ptxt-farmengage-hero?fmt=png-alpha",
+    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-1.webp",
     "images": [
-      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-man-phone?fmt=png-alpha",
-      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-office-computer?fmt=png-alpha",
-      "https://s7d9.scene7.com/is/image/agco/ptx-farmengage-field-manager?fmt=png-alpha"
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-3.webp",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-5.webp",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-7.webp"
     ],
     "createdAt": "2025-12-16T23:41:21.145Z",
     "updatedAt": "2026-07-27T20:07:11.781Z",
@@ -1110,13 +931,9 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/33GZC1Tq2l2rCTjWNBYphR/22148654b26736885fbfdccd5cb61a8f/agriculture-field-iq-crop-input-control-system-Aug23-1200x627.png",
+    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-fieldiq-cropinput-planter.jpg",
     "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/7f7CNBr6cVMvzoWOoGGQ0o/07e670949d45efe9de8ec6c497d2cc10/agriculture-products-fieldiq-crop-input-control-2-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/5hOqGGGSeTuSS28iGry779/1116efdf634202ecd4abaad1eedd2f69/agriculture-products-fieldiq-isobus-video-1-800x450.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/2W8QcqtpgBJdAFXbttimHB/d0f1c6c5754c1925a282c8a48a1ddd6c/agriculture-solutions-field-iq-isobus-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/c3Z4Aao9A0FSmXVBdE4b6/8002474689004f9c9d8de998211a6d86/agriculture-solutions-fieldiq-isobus-caseih-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/1RFlTUzBevaTUfErLcuIRJ/283fdabc06ac96bfee8a37f3504ac380/agriculture-products-tru-count-aerial-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
+      "/assets/vendor-images/ptx-trimble/ptx-fieldiq-cropinput-planter.jpg"
     ],
     "createdAt": "2025-12-16T23:41:20.856Z",
     "updatedAt": "2026-07-27T20:07:11.469Z",
@@ -1155,13 +972,10 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/1Dx5KFUw598ehEVtkcxBvM/2c81cc04d6b43203cc65605e18ef8dee/agriculture-field-iq-isobus-liquid-control-system-Aug23-1200x627.png",
+    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-fieldiq-isobus-liquid-tanker.jpg",
     "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/7vzRfFk90aLByxEm4tx7aK/8ef4c16ba778c889c253337902854b06/agriculture-products-fieldiq-isobus-liquid-2-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/5hOqGGGSeTuSS28iGry779/1116efdf634202ecd4abaad1eedd2f69/agriculture-products-fieldiq-isobus-video-1-800x450.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/2Cp5ZpJxlJ4xOz5C8nwjsK/fafcaabd162bd0149f3e746c6fc2ae62/agriculture-products-fieldiq-isobus-ammonia-application-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/7rPgMWww8ctqc2dYP3KsVo/6e832ba7e661f5b873b92d346f450d8b/agriculture-products-fieldiq-isobus-liquid-spraying-application-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/3rKJII1fioqxwdHvGUqjdA/e8d27fe4af443795fe1d7a5eef863092/solutions-overview-planting-cat-isobus-3200x1120.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
+      "/assets/vendor-images/ptx-trimble/ptx-fieldiq-isobus-liquid-tanker.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-fieldiq-isobus-liquid-orchard.jpg"
     ],
     "createdAt": "2025-12-16T23:41:20.955Z",
     "updatedAt": "2026-07-27T20:07:11.572Z",
@@ -1196,13 +1010,13 @@
     "logoBlack": "/assets/logos/flowsense/flowsense-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/flowsense/flowsense-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/flowsense/flowsense-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/5xbc2cmr9p3pr3s9mmpkx96/FlowSense?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-59.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/5xbc2cmr9p3pr3s9mmpkx96/FlowSense?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/mhmcfpqwrgngwtbwtk56qf/2020_Nitrogen_Sidedress?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/n426fz53tm49rwhkjh3zbcw/FlowSense_AUX_Website?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/3btp3vxzsr24gk7tgm9nmf/PP_21_002_Steve_Renze_Manilla_IA-9945?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/8cjxgjswfs3rf5n97mh4b7/EM_FlowSense_Website?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-60.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-61.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-62.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-63.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-64.jpg"
     ],
     "createdAt": "2025-08-19T18:43:07.751Z",
     "updatedAt": "2025-12-17T14:30:03.859Z",
@@ -1238,13 +1052,13 @@
     "logoBlack": "/assets/logos/furrowforce/furrowforce-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/furrowforce/furrowforce-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/furrowforce/furrowforce-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/qfbrxd-czh72w-27xyyc/FurrowForce?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-65.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrxd-czh72w-27xyyc/FurrowForce?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/3wgvf3vk6n3jpbbt4vqwc9v3/FurrowForce_AGCO_2021?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/bfrmvhntbqqzwjpv3hwh36w/FurrowForce_CaseIH_2021?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/28k8sbhptt66qjcttkhzsc3j/20220302_PrecisionPlanting_SLP_6242_1?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/7c8w68fxws37tw99xq4rhbrk/FurrowForce_Sensing_Only_Website16x9?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-66.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-67.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-68.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-69.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-70.jpg"
     ],
     "createdAt": "2025-08-19T18:43:06.284Z",
     "updatedAt": "2025-12-17T14:30:03.881Z",
@@ -1287,13 +1101,13 @@
     "logoBlack": "/assets/logos/furrowjet/furrowjet-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/furrowjet/furrowjet-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/furrowjet/furrowjet-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/sxqfv4g8382r5fxs5cf6h99m/FurrowJet_SmartFirmer_2021?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-71.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/sxqfv4g8382r5fxs5cf6h99m/FurrowJet_SmartFirmer_2021?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/8ck4gqckcgx4tt6x8pt42k/FurrowJet_Middle_orange?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/sqfx9g8b4p9vqcmsg57n5rqx/FurrowJet_Sides_orange?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/bq6c2xks9k8cshhwqqfnhs2k/FJ_ThreeStripes_O?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/g42f9r8bgp59n9nwcpz6xn8/FurrowJet_fjtestplot_1050x600?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-72.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-73.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-74.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-75.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-76.jpg"
     ],
     "createdAt": "2025-08-19T18:43:08.047Z",
     "updatedAt": "2025-12-17T14:30:03.905Z",
@@ -1312,151 +1126,6 @@
     "researchFindings": "Research shows FurrowJet applications improve early season plant vigor and can increase yield by providing targeted nutrition during critical early growth stages.",
     "compatibilityDetails": null,
     "contentEnriched": true,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "2fc9724e-0095-4b7c-acc8-db47da26346d",
-    "name": "GFX-1060 Display",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Displays",
-    "tagline": "10-inch Android-based display for precision agriculture",
-    "shortDescription": "10-inch Android-based display for controlling and executing operations using the Precision-IQ platform.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/displays/gfx-1060-display",
-    "highlights": [
-      "Android-based",
-      "Precision-IQ platform",
-      "ISOBUS compatible"
-    ],
-    "keyFeatures": [
-      "Android-based",
-      "Precision-IQ platform"
-    ],
-    "specs": [
-      "10-inch high-definition color touchscreen",
-      "Android-based operating system",
-      "Precision-IQ firmware",
-      "32 GB storage / 4 GB RAM",
-      "Optional ISOBUS task controller & universal terminal",
-      "Control up to 6 input channels and 255 sections"
-    ],
-    "worksWith": [
-      "NAV-960",
-      "NAV-500",
-      "Field-IQ"
-    ],
-    "slug": "ptx-gfx-1060",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/3aVGHvxBL6faubdKvIat5V/f887815e9dbcebc2b82b44d133b784e8/agriculture-gfx-1060-display-Aug23-1200x627.png",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/62VyosKAcwWFtS9EFpDAEF/0970deb221b57fbd8755dd1d977ecaec/agriculture-products-gfx1060-left-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/183y5UlQzfN58WPBqqzbdi/4ba36e8a9bf97f316e832d01c5d58b60/agriculture-gfx-overview-video-still-frame.png?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/7wZZ5jsojJnCPiD4pYkTms/cfc13705f27e7689032008934b457fbf/agriculture-products-gfx1060-customer-incab-uk-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/4y2idrNnaUasr6P97UALLz/9dc8af17e7796e19c9d1f28241324cf3/agriculture-products-gfx1060-fieldiq-incab-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/4h4SBF6YvfBMFycCs8lr6h/6c5c58b90ef8cb9bb452e7f49a1dd254/agriculture-products-precisioniq-display-incab-1-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
-    ],
-    "createdAt": "2025-12-16T23:41:20.359Z",
-    "updatedAt": "2026-07-27T20:07:10.934Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "361c544e-7202-430e-a248-39c6ccc41e32",
-    "name": "GFX-1260 Display",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Displays",
-    "tagline": "Premium 12.1-inch display for precision agriculture operations",
-    "shortDescription": "Advanced 12.1-inch display for controlling and executing precision agriculture operations.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/displays/gfx-1260-display",
-    "highlights": [
-      "Large 12.1-inch touchscreen",
-      "Android-based platform",
-      "Precision-IQ compatible"
-    ],
-    "keyFeatures": [
-      "Android-based",
-      "Precision-IQ platform",
-      "High-definition display"
-    ],
-    "specs": [],
-    "worksWith": [
-      "NAV-960",
-      "NAV-500",
-      "Autopilot systems"
-    ],
-    "slug": "ptx-gfx-1260",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/75aGHURWPb9YxRpqW4xAnL/960bf6be8dabd26b7bd63620360d85e0/agriculture-gfx-1260-display-Aug23-1200x627.png",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/mFBkCqPnJtbuCUzPAAFJ8/0dea9f418a12a1719728cd74f52acfce/agriculture-products-gfx1260-left-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/1s2BXOJInR5GuqVBP4lBAJ/eabb8acfbee66855adf92df8e4261efc/agriculture-gfx-benefits-video-still-frame.png?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/Tm5vmuw1J1H1IxUKnuYkW/06019bba682c8f98dcbf7e5df76d37e9/agriculture-products-gfx1260-incab-setting-implement-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/1q6IYMevJ6BlypsfoQL821/c42578b76946d34bd91080bf25f3f34d/agriculture-products-gfx1260-roller-infield-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/4h4SBF6YvfBMFycCs8lr6h/6c5c58b90ef8cb9bb452e7f49a1dd254/agriculture-products-precisioniq-display-incab-1-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
-    ],
-    "createdAt": "2025-12-16T23:41:20.303Z",
-    "updatedAt": "2026-07-27T20:07:10.876Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "b45d1b5e-85e9-4b13-a558-1c173eef72d6",
-    "name": "GFX-350 Display",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Displays",
-    "tagline": "Compact 7-inch display for essential guidance functions",
-    "shortDescription": "Entry-level display for basic guidance and application control.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/displays/gfx-350-display",
-    "highlights": [
-      "Compact 7-inch screen",
-      "Cost-effective solution",
-      "Easy to use"
-    ],
-    "keyFeatures": [
-      "Compact design",
-      "Essential features"
-    ],
-    "specs": [],
-    "worksWith": [
-      "EZ-Pilot Pro",
-      "NAV-500"
-    ],
-    "slug": "ptx-gfx-350",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/49y2HcfussnCYJCTJHRJ6h/2b7225ef8683b8a114f1e907906a7d95/agriculture-gfx-350-display-Aug23-1200x627.png",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/3G5kYQ3fQ13WPzsx2CvgHn/a006c5bd1473b00aa541066a56fff3b5/agriculture-products-gfx350-display-left-3-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/i0oUNZIffOJiARc0BvAoD/495f468e31b83fd835b6a12987f99f00/agriculture-solutions-GFX-350-display-video-800x450.png?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/bdPNY6dcTTRCiVAfmmFlL/bc4d57588ba0f6ae3beaea7a8fcdc00e/agriculture-products-gfx350-ezpilot-incab-guidance-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/2wALl6mbePohe9psltHc1L/568bbdc3d822aa9b943783be36b95bd9/agriculture-products-gfx350-nav500-infield-italy-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/4h4SBF6YvfBMFycCs8lr6h/6c5c58b90ef8cb9bb452e7f49a1dd254/agriculture-products-precisioniq-display-incab-1-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
-    ],
-    "createdAt": "2025-12-16T23:41:20.406Z",
-    "updatedAt": "2026-07-27T20:07:10.987Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
     "lastContentUpdate": null
   },
   {
@@ -1486,13 +1155,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://salfordgroup.com/wp-content/uploads/2022/05/Grasshopper-01-1024x644.jpg",
+    "primaryImage": "/assets/vendor-images/salford/salford-extra-6.jpg",
     "images": [
-      "https://www.facebook.com/tr?id=948203157437696&ev=PageView&noscript=1",
-      "https://salfordgroup.com/wp-content/uploads/2025/04/Salford_Logo_2021_Pack_Outline-White-new-640x210.png",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/Grasshopper-01-640x403.jpg",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/Grasshopper-02-640x403.jpg",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/Grasshopper-03-640x403.jpg"
+      "/assets/vendor-images/salford/salford-extra-2.jpg",
+      "/assets/vendor-images/salford/salford-extra-7.jpg",
+      "/assets/vendor-images/salford/salford-extra-8.jpg",
+      "/assets/vendor-images/salford/salford-extra-9.jpg"
     ],
     "createdAt": "2025-12-16T23:41:22.153Z",
     "updatedAt": "2026-07-27T20:07:13.035Z",
@@ -1533,12 +1201,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-Web-2.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-1.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-GoInCommand-copy.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-Features-2.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/Both-angled-harvest.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/InCommand-Go-16_AgFiniti-Imperial.png"
+      "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-2.png",
+      "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-6.png",
+      "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-10.png",
+      "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-9.png"
     ],
     "createdAt": "2025-12-16T23:41:21.241Z",
     "updatedAt": "2026-07-27T20:07:12.039Z",
@@ -1617,108 +1285,15 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-09-1024x686.jpg",
+    "primaryImage": "/assets/vendor-images/salford/salford-extra-10.jpg",
     "images": [
-      "https://www.facebook.com/tr?id=948203157437696&ev=PageView&noscript=1",
-      "https://salfordgroup.com/wp-content/uploads/2025/04/Salford_Logo_2021_Pack_Outline-White-new-640x210.png",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-09-640x429.jpg",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-10-640x429.jpg",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-MagnaSpread-05-640x403.jpg"
+      "/assets/vendor-images/salford/salford-extra-2.jpg",
+      "/assets/vendor-images/salford/salford-extra-11.jpg",
+      "/assets/vendor-images/salford/salford-extra-12.jpg",
+      "/assets/vendor-images/salford/salford-extra-13.jpg"
     ],
     "createdAt": "2025-12-16T23:41:22.199Z",
     "updatedAt": "2026-07-27T20:07:13.084Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "8d5a5c5d-aa36-40d2-94b4-683de8a0fe64",
-    "name": "NAV-500 Guidance Controller",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Guidance Controllers",
-    "tagline": "Reliable mid-range GNSS guidance controller",
-    "shortDescription": "Cost-effective guidance controller for precision agriculture.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/guidance-control/nav-500-guidance-controller",
-    "highlights": [
-      "Reliable accuracy",
-      "Multi-constellation support",
-      "Affordable"
-    ],
-    "keyFeatures": [
-      "Multi-constellation GNSS",
-      "Reliable performance"
-    ],
-    "specs": [],
-    "worksWith": [
-      "GFX-1060",
-      "GFX-350",
-      "EZ-Pilot Pro"
-    ],
-    "slug": "ptx-nav-500",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/699Jrz52f3Ygf6sj3V5o7g/57ea36713364e8708b6df2da28a4a05b/agriculture-nav-500-guidance-controller-Aug23-1200x627.png",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/7nGf134a7X44FLoFzIG4De/92caf406e5397e535ec96fec1ef656a3/agriculture-products-nav500-receiver-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/bmPPU29t2Bz22rE2O2tRP/d6ffbb8f3e6b55f5edc2a472b8119f09/agriculture-products-nav500-tractor-fronton-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/3poD9kGJLRJQtvmsZU13er/c7ca5265b1a38f07a55ff6c494e75b03/agriculture-products-nav500-cab-roof-cornfield-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/7z9Ewt7wWWJg6cRJA5Vbby/dd978dc82680a8331ea95835df5cf7ff/agriculture-products-nav500-guidance-controller-front-560x560.jpg?w=180",
-      "https://images.ctfassets.net/npb3dl1oqqgh/5hVioVTTfyuutG2ERFqUoS/a86aef3fab7f7abdcf9090713264b82f/agriculture-products-nav500-guidance-controller-angled-560x560.jpg?w=180"
-    ],
-    "createdAt": "2025-12-16T23:41:20.515Z",
-    "updatedAt": "2026-07-27T20:07:11.102Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "247e4e46-1bfd-4942-bbbe-49dbb9897595",
-    "name": "NAV-960 Guidance Controller",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Guidance Controllers",
-    "tagline": "High-accuracy GNSS guidance controller",
-    "shortDescription": "Premium guidance controller with centimeter-level accuracy.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/guidance-control/nav-960-guidance-controller",
-    "highlights": [
-      "Centimeter-level accuracy",
-      "Multi-constellation GNSS",
-      "Integrated INS"
-    ],
-    "keyFeatures": [
-      "High-accuracy positioning",
-      "Integrated inertial system"
-    ],
-    "specs": [],
-    "worksWith": [
-      "GFX-1260",
-      "GFX-1060",
-      "Autopilot"
-    ],
-    "slug": "ptx-nav-960",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/59KsrYggIdJXOLeK6jy6k/db6bbb9544272a3f254e27fca6ee3a6b/nav-960-1200x630.jpg",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/48vDgDXjJotwgJbUk3gyx5/dafde43eef8b5350bc85b8a38a751506/NAV-960_PTx_front_large_FINAL.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/63obhiE9veNj6oD9vWyzpD/a8e8df9baadc87bd629177a59071b3e2/ptxt-nav-960-sizzle-reel-thumbnail.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/5gPyO1hn4aq01uzaE1AdGE/5c3a88983e45aa66fc8e572e0d19894e/nav-960-vehicle-positioning-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/6Qep8ewEutOl6oWptxrYbt/e871d8ac23eded4d75d7a5c5ac0d7b4a/nav-960-ionoguard-272x181.JPG?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/47I0NXK39Gy7CJLCdVHGhA/6b5f15e3137f016662cd01e002e406ff/nav-960-processor-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
-    ],
-    "createdAt": "2025-12-16T23:41:20.457Z",
-    "updatedAt": "2026-07-27T20:07:11.040Z",
     "enrichedDescription": null,
     "detailedFeatures": null,
     "benefits": null,
@@ -1772,8 +1347,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://static.xag.cn/img/products2022/p100pro/p100pro-3d-spray.jpg?imageMogr2/format/webp",
-    "images": [],
+    "primaryImage": "/assets/vendor-images/xag/xag-p100pro-hero.jpg",
+    "images": [
+      "/assets/vendor-images/xag/xag-p100pro-hero.jpg",
+      "/assets/vendor-images/xag/xag-p100pro-flying-1.jpg",
+      "/assets/vendor-images/xag/xag-p100pro-flying-2.jpg"
+    ],
     "createdAt": "2025-12-30T17:46:35.108Z",
     "updatedAt": "2026-07-27T20:07:11.985Z",
     "enrichedDescription": null,
@@ -1829,9 +1408,9 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://static.xag.cn/img/product-aggregation-en/plant/compare-p150.png?imageMogr2/format/webp",
+    "primaryImage": "/assets/vendor-images/xag/xag-extra-2.jpg",
     "images": [
-      "https://static.xag.cn/img/products2024/p150/p150-header.png?imageMogr2/format/webp"
+      "/assets/vendor-images/xag/xag-extra-3.jpg"
     ],
     "createdAt": "2025-12-30T17:46:35.019Z",
     "updatedAt": "2026-07-27T20:07:11.883Z",
@@ -1889,9 +1468,9 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://static.xag.cn/img/product-aggregation-en/plant/compare-p150max.png?imageMogr2/format/webp",
+    "primaryImage": "/assets/vendor-images/xag/xag-extra-4.jpg",
     "images": [
-      "https://static.xag.cn/img/products2025/p150max/7e91d9666979b84d6aeb0e6d027e1fbd.jpg?imageMogr2/format/webp"
+      "/assets/vendor-images/xag/xag-xag-p150-max-1.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.192Z",
     "updatedAt": "2026-07-27T20:07:11.832Z",
@@ -1948,9 +1527,9 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://static.xag.cn/img/product-aggregation-en/plant/compare-p60.png?imageMogr2/format/webp",
+    "primaryImage": "/assets/vendor-images/xag/xag-extra-5.jpg",
     "images": [
-      "https://static.xag.cn/img/products2024/p60/banner.png?imageMogr2/format/webp"
+      "/assets/vendor-images/xag/xag-extra-6.jpg"
     ],
     "createdAt": "2025-12-30T17:46:35.063Z",
     "updatedAt": "2026-07-27T20:07:11.933Z",
@@ -1986,13 +1565,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/7nqpxpqc7hsxkh3j57h8/Pano_NewsHeader?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-77.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/c6s4jgcvnrctfrk47qhqg6v/Panorama_card_image?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/45f5hbfmpc7g67pwnrw7h/Panorama_iPhone_and_Macbook_Mockup?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/vxqpb9sv4hthngx8c49tn6n/Schleder_at_Laptop_in_Shop?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbrur-euatpc-b24rhq/2020_Planter_Downforce_Gen_3?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/c6s4jgcvnrctfrk47qhqg6v/Panorama_card_image?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-78.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-79.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-80.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-6.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-81.jpg"
     ],
     "createdAt": "2025-08-19T18:43:06.095Z",
     "updatedAt": "2025-12-17T14:30:03.931Z",
@@ -2025,13 +1604,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/qfbryi-fr53fk-amsnq0/Precision_Finger_Meter?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-82.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbryi-fr53fk-amsnq0/Precision_Finger_Meter?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/qdzlhy-7ef5mw-2q0dx3/20150516_PrecisionSpring_MG_7889?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/xk9kwgqq45swfvwzrb44mt/IMG_3520?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbryi-fr53fk-amsnq0/Precision_Finger_Meter?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/wzxp3r9bbjpvcwpshwjrjkrn/Haggie-1?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-83.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-84.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-85.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-86.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-87.jpg"
     ],
     "createdAt": "2025-08-19T18:43:06.878Z",
     "updatedAt": "2025-12-17T14:30:03.954Z",
@@ -2070,13 +1649,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://static.wixstatic.com/media/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg/v1/fill/w_1920,h_1080,al_c/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg",
+    "primaryImage": "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-7.jpg",
     "images": [
-      "https://static.wixstatic.com/media/091105_4f0c35a4af674e9daa2b02fc700dd4b6~mv2.png/v1/crop/x_58,y_10,w_638,h_661/fill/w_66,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SPA-Horizontal-Logo-2022.png",
-      "https://static.wixstatic.com/media/914c06_735a63307fa44157801f2c1082e21c13~mv2.png/v1/fill/w_152,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/914c06_735a63307fa44157801f2c1082e21c13~mv2.png",
-      "https://static.wixstatic.com/media/911e57_6a8048a516d84cb4b5b3bdd7580d2010~mv2.png/v1/fill/w_165,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Quickdraw%20COLOR%20Logo.png",
-      "https://static.wixstatic.com/media/866064_2afd8a7f36c843d687446f6f5a458156~mv2.png/v1/fill/w_165,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866064_2afd8a7f36c843d687446f6f5a458156~mv2.png",
-      "https://static.wixstatic.com/media/091105_61eef593f6fe493bab069b79de83c733~mv2.png/v1/fill/w_165,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/chemblade%20stroke.png"
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-8.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-9.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-10.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-11.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-12.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.917Z",
     "updatedAt": "2026-07-27T20:07:12.775Z",
@@ -2111,13 +1690,13 @@
     "logoBlack": "/assets/logos/pumpstack/pumpstack-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/pumpstack/pumpstack-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/pumpstack/pumpstack-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/rpjkzr8ctjc83jwqnhgmctq/PumpStack_website_header?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-88.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/hnq7vr6xwj9fsj4mb5g6x/PumpStack_2021?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/263jb4wvfv33h88kggbc2j9j/John_Deere_StackFold_12_Row_-_DWeedin_-_Drone_26?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/45q8585bvq6h7vjv9qxqwsxv/TX_Drone-47?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/h38j2hjvxbsj2bhbtw2vh47h/2020_Gen_3_08_20_12_52_32_3840x2160_Redshift_2020_Gen_3_with_Switches_01_r03_goodsystem?auto=webp&amp;width=500",
-      "https://cdn.bfldr.com/7M6SII1K/as/r6prrv5xnzr7254gzp6p8bw/RateController_2021?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-89.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-90.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-91.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-24.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-92.jpg"
     ],
     "createdAt": "2025-08-19T18:43:07.825Z",
     "updatedAt": "2025-12-17T14:30:03.977Z",
@@ -2156,61 +1735,16 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://static.wixstatic.com/media/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg/v1/fill/w_1920,h_1080,al_c/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg",
+    "primaryImage": "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-7.jpg",
     "images": [
-      "https://static.wixstatic.com/media/091105_4f0c35a4af674e9daa2b02fc700dd4b6~mv2.png/v1/crop/x_58,y_10,w_638,h_661/fill/w_66,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SPA-Horizontal-Logo-2022.png",
-      "https://static.wixstatic.com/media/914c06_735a63307fa44157801f2c1082e21c13~mv2.png/v1/fill/w_152,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/914c06_735a63307fa44157801f2c1082e21c13~mv2.png",
-      "https://static.wixstatic.com/media/911e57_6a8048a516d84cb4b5b3bdd7580d2010~mv2.png/v1/fill/w_165,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Quickdraw%20COLOR%20Logo.png",
-      "https://static.wixstatic.com/media/866064_2afd8a7f36c843d687446f6f5a458156~mv2.png/v1/fill/w_165,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866064_2afd8a7f36c843d687446f6f5a458156~mv2.png",
-      "https://static.wixstatic.com/media/091105_61eef593f6fe493bab069b79de83c733~mv2.png/v1/fill/w_165,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/chemblade%20stroke.png"
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-8.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-9.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-10.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-11.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-12.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.964Z",
     "updatedAt": "2026-07-27T20:07:12.826Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "661f7c9f-a368-4762-acc6-9fc6f10931a0",
-    "name": "R750 Modular GNSS Receiver",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Receivers",
-    "tagline": "Next-generation modular GNSS receiver",
-    "shortDescription": "Flexible modular receiver with advanced positioning capabilities.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/guidance-control/r750-modular-gnss-receiver",
-    "highlights": [
-      "Modular design",
-      "Future-proof technology",
-      "High accuracy"
-    ],
-    "keyFeatures": [
-      "Modular architecture",
-      "Advanced GNSS tracking"
-    ],
-    "specs": [],
-    "worksWith": [
-      "GFX displays",
-      "NAV controllers"
-    ],
-    "slug": "ptx-r750",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/6sa0QXceBEucb6Pcl3rRZj/dbe49e4e2823e1f374d4405bd8390326/agriculture-r750-modular-gnss-receiver-Aug23-1200x627.png",
-    "images": [
-      "https://images.ctfassets.net/npb3dl1oqqgh/3vFEgPoIKRSjZwXHT3cKC8/c16fcdbc1d3821f6af49ba4a7b6a551b/agriculture-products-r750-rover-2-800x960.png",
-      "https://images.ctfassets.net/npb3dl1oqqgh/7CTPKow1AXtMovOioXSNKF/d6d3c1542840078784f9a3c305656f5a/agriculture-products-r750-receiver-infield-3-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/48dikIUc3XAsmejfvXdy5u/32776e5eb3f91214748caa38fa0d1307/agriculture-products-r750-receiver-tractor-520x320.jpg",
-      "https://images.ctfassets.net/npb3dl1oqqgh/6wekgxVB5EhVAq0hv5tWL/1e39a72be65cda51b3cd94a918a122f8/agriculture-solutions-propoint-correction-services-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90",
-      "https://images.ctfassets.net/npb3dl1oqqgh/5s3zQxtV0Q2YNT3PkdNSYx/3d9bea31a86531f542d22f361cdfead0/agriculture-products-centerpoint-field-rows-272x181.jpg?fm=jpg&amp;fl=progressive&amp;w=50&amp;h=50&amp;q=90"
-    ],
-    "createdAt": "2025-12-16T23:41:20.616Z",
-    "updatedAt": "2026-07-27T20:07:11.205Z",
     "enrichedDescription": null,
     "detailedFeatures": null,
     "benefits": null,
@@ -2242,13 +1776,13 @@
     "logoBlack": "/assets/logos/ratecontroller/ratecontroller-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/ratecontroller/ratecontroller-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/ratecontroller/ratecontroller-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/r6prrv5xnzr7254gzp6p8bw/RateController_2021?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-93.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/r6prrv5xnzr7254gzp6p8bw/RateController_2021?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/67nk3vmvk6gkmrtqpsvfgm3/Swath_Module_and_Rate_Controller_004?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/2m8z4f3t6v8vk824xw48cq/20220427_PrecisionPlanting_SLP_8697?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/2vvrx93mw4tmvs8pcn6tkrq/vDrive_flawlessly_1050x600?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/qsrxbqjfczcjmgpr9h9bc9z/SwathModule_left_2024?auto=webp&amp;width=480"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-94.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-95.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-96.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-97.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-98.jpg"
     ],
     "createdAt": "2025-08-19T18:43:07.899Z",
     "updatedAt": "2025-12-17T14:30:04.001Z",
@@ -2325,13 +1859,13 @@
     "logoBlack": "/assets/logos/reveal/reveal-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/reveal/reveal-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/reveal/reveal-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/kxv7nn5vgbr9vb3b4jv6x9j/Reveal?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-99.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/kxv7nn5vgbr9vb3b4jv6x9j/Reveal?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/ccgpj5g9fmhfv9bcqkv46fz/Kelly_-_Case_IH_2150_with_Reveal_27?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/hj95tztfb9tz2hx5tg2cxhp7/David_Myers_Manual_FurrowForce_and_Reveal_12?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/cgsm46t6hfv7h9j62q6cfbx9/Josh_Sass?auto=webp&amp;format=png&amp;width=256",
-      "https://cdn.bfldr.com/7M6SII1K/as/vtxckznrvgxtjq5fsjnftsfh/Reveal_Tine_Wheel_Website?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-100.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-101.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-102.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-103.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-104.jpg"
     ],
     "createdAt": "2025-08-19T18:43:06.506Z",
     "updatedAt": "2025-12-17T14:30:04.024Z",
@@ -2382,12 +1916,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2025/02/large-RightPath_Web-Header.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-rightpath-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2025/01/RightPath-Feature-Photo.png",
-      "https://www.agleader.com/wp-content/uploads/2025/02/RightPath-InCommand-Go-16.png",
-      "https://www.agleader.com/wp-content/uploads/2025/02/Maximize-Input-large.png",
-      "https://www.agleader.com/wp-content/uploads/2025/02/Crowded-Guess-Rows-1.png"
+      "/assets/vendor-images/ag-leader/ag-leader-rightpath-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-8.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-9.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-rightpath-5.png"
     ],
     "createdAt": "2025-12-16T23:41:21.438Z",
     "updatedAt": "2026-07-27T20:07:12.248Z",
@@ -2426,11 +1960,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/08/RightSpot-Header.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-rightspot-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/07/RightSpot-Features-1.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/RightSpot-2.png",
-      "https://www.agleader.com/wp-content/uploads/2024/06/BoomLoop-Annimation-2048x293-1.png"
+      "/assets/vendor-images/ag-leader/ag-leader-rightspot-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-rightspot-4.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-10.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.682Z",
     "updatedAt": "2026-07-27T20:07:12.507Z",
@@ -2465,13 +1999,13 @@
     "logoBlack": "/assets/logos/rowflow/rowflow-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/rowflow/rowflow-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/rowflow/rowflow-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/gvbskbhxzctcjrnjk26547s/RowFlow?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-105.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/pgkmg4gwvzfr8fvtgg35rqk/RowFlow_HydraulicMotor_2021?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/rpbwp9th9ncmwkfsvcj68j/vDrive_saveseedsoybean_1050x600?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/mg8hswphwprb2b753rsqbwkc/RowFlow_Clutch?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/h2v4jj68w96sg45v5x5cksh/RowFlow_SeedSense_2020_Website_16x9?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/h38j2hjvxbsj2bhbtw2vh47h/2020_Gen_3_08_20_12_52_32_3840x2160_Redshift_2020_Gen_3_with_Switches_01_r03_goodsystem?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-106.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-107.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-108.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-109.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-24.jpg"
     ],
     "createdAt": "2025-08-19T18:43:07.026Z",
     "updatedAt": "2025-12-17T14:30:04.047Z",
@@ -2510,13 +2044,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://static.wixstatic.com/media/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg/v1/fill/w_1920,h_1080,al_c/091105_96ba6564f6fa412f9ab57df6f18c67a3~mv2.jpg",
+    "primaryImage": "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-7.jpg",
     "images": [
-      "https://static.wixstatic.com/media/091105_4f0c35a4af674e9daa2b02fc700dd4b6~mv2.png/v1/crop/x_58,y_10,w_638,h_661/fill/w_66,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SPA-Horizontal-Logo-2022.png",
-      "https://static.wixstatic.com/media/914c06_735a63307fa44157801f2c1082e21c13~mv2.png/v1/fill/w_152,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/914c06_735a63307fa44157801f2c1082e21c13~mv2.png",
-      "https://static.wixstatic.com/media/911e57_6a8048a516d84cb4b5b3bdd7580d2010~mv2.png/v1/fill/w_165,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Quickdraw%20COLOR%20Logo.png",
-      "https://static.wixstatic.com/media/866064_2afd8a7f36c843d687446f6f5a458156~mv2.png/v1/fill/w_165,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866064_2afd8a7f36c843d687446f6f5a458156~mv2.png",
-      "https://static.wixstatic.com/media/091105_61eef593f6fe493bab069b79de83c733~mv2.png/v1/fill/w_165,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/chemblade%20stroke.png"
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-8.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-9.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-10.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-11.jpg",
+      "/assets/vendor-images/surepoint-ag/surepoint-ag-extra-12.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.869Z",
     "updatedAt": "2026-07-27T20:07:12.717Z",
@@ -2552,13 +2086,13 @@
     "logoBlack": "/assets/logos/smartdepth/smartdepth-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/smartdepth/smartdepth-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/smartdepth/smartdepth-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/k93vmnfvqjcbk9qvppn25tq/SmartDepth?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-110.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/k93vmnfvqjcbk9qvppn25tq/SmartDepth?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/mcs8sw7x2663t73rrgn999kn/4D7A9768?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/7mjn8w3c68s8m4ckgkh9/Block_Check_Depth_Test?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/mzgrs34r5km3jxc9qckbtt6/Gen_3_20_20_SmartDepth_Screen_16x9?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/mjgrhp7r36sw6q7q3zj5fjr9/Emergence_vs_Planting_Depth?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-111.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-112.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-113.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-114.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-115.jpg"
     ],
     "createdAt": "2025-08-19T18:43:06.358Z",
     "updatedAt": "2025-12-17T14:30:04.072Z",
@@ -2594,13 +2128,13 @@
     "logoBlack": "/assets/logos/smartfirmer/smartfirmer-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/smartfirmer/smartfirmer-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/smartfirmer/smartfirmer-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/qfbs1c-bui7jk-chxvez/SmartFirmer?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-116.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbs1c-bui7jk-chxvez/SmartFirmer?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/sxqfv4g8382r5fxs5cf6h99m/FurrowJet_SmartFirmer_2021?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/kc27ghzjjr5jqp79q5zs5w3/Harvest_International_Stackfold_16_Row_MNovacek_10?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/xx2f5znmjkwtkn7zbhm4sfv/SmartFirmer_hero_1050x600?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/v9bqkf8c7jrq2f7895nj4c/PP_21_001_Dave_Hedgeman_Dodge_NE-0853?auto=webp&amp;width=500"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-117.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-72.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-118.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-119.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-120.jpg"
     ],
     "createdAt": "2025-08-19T18:42:43.814Z",
     "updatedAt": "2025-12-17T14:30:04.094Z",
@@ -2646,13 +2180,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-01-1024x644.jpg",
+    "primaryImage": "/assets/vendor-images/salford/salford-extra-14.jpg",
     "images": [
-      "https://www.facebook.com/tr?id=948203157437696&ev=PageView&noscript=1",
-      "https://salfordgroup.com/wp-content/uploads/2025/04/Salford_Logo_2021_Pack_Outline-White-new-640x210.png",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-01-640x403.jpg",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-02-640x403.jpg",
-      "https://salfordgroup.com/wp-content/uploads/2022/05/BBI-Sniper-03-640x403.jpg"
+      "/assets/vendor-images/salford/salford-extra-2.jpg",
+      "/assets/vendor-images/salford/salford-extra-15.jpg",
+      "/assets/vendor-images/salford/salford-extra-16.jpg",
+      "/assets/vendor-images/salford/salford-extra-17.jpg"
     ],
     "createdAt": "2025-12-16T23:41:22.246Z",
     "updatedAt": "2026-07-27T20:07:13.134Z",
@@ -2689,12 +2222,12 @@
     "logoBlack": "/assets/logos/speedtube/speedtube-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/speedtube/speedtube-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/speedtube/speedtube-white-rgb.svg",
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/qfbs1c-bui7jk-6unqe6/SpeedTube?auto=webp&amp;width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-121.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/qfbs1c-bui7jk-6unqe6/SpeedTube?auto=webp&amp;width=512",
-      "https://cdn.bfldr.com/7M6SII1K/as/qh2gxbm75xqh9t3j4pt4skg/SpeedTube_workwithweather_1050x600?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/3xgqchsb7wcjckxxwmxj47q4/IMG_3990?auto=webp&amp;width=480",
-      "https://cdn.bfldr.com/7M6SII1K/as/h38j2hjvxbsj2bhbtw2vh47h/2020_Gen_3_08_20_12_52_32_3840x2160_Redshift_2020_Gen_3_with_Switches_01_r03_goodsystem?auto=webp&amp;width=500",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-122.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-123.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-124.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-24.jpg",
       "https://embed-ssl.wistia.com/deliveries/05dbafe14abbdacd3c2796b259230d35.jpg?auto=webp&amp;width=500"
     ],
     "createdAt": "2025-08-19T18:43:07.398Z",
@@ -2742,12 +2275,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/08/SteadySteer-Header.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-steadysteer-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/07/SteadySteer-Features-1.png",
-      "https://www.agleader.com/wp-content/uploads/2024/12/steadysteerGuidance-Package-1.png",
-      "https://www.agleader.com/wp-content/uploads/2024/12/steadysteer10.png",
-      "https://www.agleader.com/wp-content/uploads/2024/12/steadysteer16-1.png"
+      "/assets/vendor-images/ag-leader/ag-leader-steadysteer-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-steadysteer-4.png",
+      "/assets/vendor-images/ag-leader/ag-leader-steadysteer-5.png",
+      "/assets/vendor-images/ag-leader/ag-leader-steadysteer-6.png"
     ],
     "createdAt": "2025-12-16T23:41:21.343Z",
     "updatedAt": "2026-07-27T20:07:12.141Z",
@@ -2786,11 +2319,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingZ2.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/07/SteerCommandZ2_1018x75.png",
-      "https://www.agleader.com/wp-content/uploads/2024/07/SteerCommand-Z2-Features.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/SteerCommand-Z2.png"
+      "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-1.png",
+      "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-4.png"
     ],
     "createdAt": "2025-12-16T23:41:21.295Z",
     "updatedAt": "2026-07-27T20:07:12.091Z",
@@ -2834,12 +2367,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingSureDrive.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-suredrive-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/07/SureDrive-Features-1.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/SureDrive-hotspot.png",
-      "https://www.agleader.com/wp-content/uploads/2024/08/suredrive-emergence.png",
-      "https://www.agleader.com/wp-content/uploads/2024/06/Planting_SureDrive_onrow-768x494-1.png"
+      "/assets/vendor-images/ag-leader/ag-leader-suredrive-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-11.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-12.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-13.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.579Z",
     "updatedAt": "2026-07-27T20:07:12.404Z",
@@ -2878,10 +2411,10 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingSureForce.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-sureforce-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/07/SureForce-Features-1.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/SureForce.png"
+      "/assets/vendor-images/ag-leader/ag-leader-sureforce-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-14.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.484Z",
     "updatedAt": "2026-07-27T20:07:12.302Z",
@@ -2920,12 +2453,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2025/05/SureSpeed-Header.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-surespeed-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2025/05/SureSpeed-Features.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/SureSpeed-hotspot.png",
-      "https://www.agleader.com/wp-content/uploads/2025/05/mixed-fleet-SureSpeed.png",
-      "https://www.agleader.com/wp-content/uploads/2024/07/surespeed-brush.png"
+      "/assets/vendor-images/ag-leader/ag-leader-surespeed-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-15.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-16.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-17.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.531Z",
     "updatedAt": "2026-07-27T20:07:12.354Z",
@@ -2974,11 +2507,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2024/07/new-web-image-sizingSureStop.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-surestop-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2024/07/SureStop-Features-1.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/SureStop.png",
-      "https://www.agleader.com/wp-content/uploads/2024/08/Soybean_precision-row-cropped.png"
+      "/assets/vendor-images/ag-leader/ag-leader-surestop-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-extra-18.jpg",
+      "/assets/vendor-images/ag-leader/ag-leader-surestop-5.png"
     ],
     "createdAt": "2025-12-16T23:41:21.634Z",
     "updatedAt": "2026-07-27T20:07:12.455Z",
@@ -3093,8 +2626,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/5o3eoxGZ4mh72TcKdfLley/aabe1c10a5c5dbb11a3087b19c8c2cef/ptx-farmengage-bundle-800x960.png",
-    "images": [],
+    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-truetracker-hero.jpg",
+    "images": [
+      "/assets/vendor-images/ptx-trimble/ptx-truetracker-hero.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-truetracker-tractor.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-truetracker-implement.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-truetracker-incab.jpg"
+    ],
     "createdAt": "2025-12-16T23:41:20.807Z",
     "updatedAt": "2026-07-27T20:07:11.419Z",
     "enrichedDescription": null,
@@ -3143,132 +2681,15 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Header.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-turnpath-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Feature.png",
-      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Turn-Preview-1.png",
-      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-Turn-Sequencing.png",
-      "https://www.agleader.com/wp-content/uploads/2025/02/TurnPath-on-screen.png"
+      "/assets/vendor-images/ag-leader/ag-leader-turnpath-3.png",
+      "/assets/vendor-images/ag-leader/ag-leader-turnpath-4.png",
+      "/assets/vendor-images/ag-leader/ag-leader-turnpath-5.png",
+      "/assets/vendor-images/ag-leader/ag-leader-turnpath-6.png"
     ],
     "createdAt": "2025-12-16T23:41:21.390Z",
     "updatedAt": "2026-07-27T20:07:12.192Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "6898c084-644c-4476-a8f3-86b089057346",
-    "name": "VerticalPoint RTK Grade Control",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Land Forming",
-    "tagline": "RTK-based grade control for land leveling",
-    "shortDescription": "High-precision RTK grade control for land forming applications.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/land-forming/verticalpoint-rtk-grade-control",
-    "highlights": [
-      "RTK precision",
-      "Vertical accuracy",
-      "Real-time control"
-    ],
-    "keyFeatures": [
-      "RTK positioning",
-      "Grade control"
-    ],
-    "specs": [],
-    "worksWith": [
-      "Land forming equipment",
-      "GFX displays"
-    ],
-    "slug": "ptx-verticalpoint-rtk",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/4E3dHwe8Klb8j3aBoVNMh1/d57d56f0fff6f455570d77350b339d7c/agriculture-products-verticalpoint-rtk-2-800x960.png",
-    "images": [],
-    "createdAt": "2025-12-16T23:41:21.051Z",
-    "updatedAt": "2026-07-27T20:07:11.674Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "96d18c9e-32c7-43c2-80ea-b9d9b1d44748",
-    "name": "WM-Drain Solution",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Subsurface Drainage",
-    "tagline": "Complete subsurface drainage solution",
-    "shortDescription": "Integrated drainage installation guidance and control system.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/subsurface-drainage/wm-drain-solution",
-    "highlights": [
-      "Precision installation",
-      "Grade control",
-      "Drainage planning"
-    ],
-    "keyFeatures": [
-      "Drainage guidance",
-      "Installation control"
-    ],
-    "specs": [],
-    "worksWith": [
-      "Tile plows",
-      "GFX displays"
-    ],
-    "slug": "ptx-wm-drain-solution",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/4mlBWle9VT6GcRpsaJv7YO/0dc506e8e63c05e0f029b79f89cc9b7d/agriculture-products-wmdrain-drainage-2-800x960.png",
-    "images": [],
-    "createdAt": "2025-12-16T23:41:21.098Z",
-    "updatedAt": "2026-07-27T20:07:11.727Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
-  },
-  {
-    "id": "719e4dba-e597-4455-9ae9-ccb91baf860c",
-    "name": "WM-FieldForm",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Land Forming",
-    "tagline": "Precision land forming and leveling system",
-    "shortDescription": "Automated grade control for efficient land forming operations.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/land-forming/wm-fieldform",
-    "highlights": [
-      "Automated grading",
-      "Precision leveling",
-      "Improved drainage"
-    ],
-    "keyFeatures": [
-      "Grade control",
-      "Land forming automation"
-    ],
-    "specs": [],
-    "worksWith": [
-      "Scrapers",
-      "Land planes"
-    ],
-    "slug": "ptx-wm-fieldform",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/MMdb5TWyzyR5i8V0WFqUu/a2b34361ae4cf3c667fb25029ee5144e/agriculture-products-wm-fieldform-800x960.png",
-    "images": [],
-    "createdAt": "2025-12-16T23:41:21.003Z",
-    "updatedAt": "2026-07-27T20:07:11.623Z",
     "enrichedDescription": null,
     "detailedFeatures": null,
     "benefits": null,
@@ -3300,10 +2721,11 @@
     "logoBlack": "/assets/logos/wavevision/wavevision-black-rgb.svg",
     "logoDarkGreen": "/assets/logos/wavevision/wavevision-darkgreen-rgb.svg",
     "logoWhite": "/assets/logos/wavevision/wavevision-white-rgb.svg",
-    "primaryImage": "/assets/images/products/WaveVision/WaveVision_2021.png",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-wavevision-main.jpg",
     "images": [
-      "[object Object]",
-      "[object Object]"
+      "/assets/vendor-images/precision-planting/precision-planting-wavevision-main.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-wavevision-hero.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-wavevision-avoidwear.jpg"
     ],
     "createdAt": "2025-08-19T18:43:07.472Z",
     "updatedAt": "2025-09-03T13:48:09.696Z",
@@ -3349,8 +2771,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://images.ctfassets.net/npb3dl1oqqgh/6kYEKMOEi7CbnK2QCkgCnE/bb66783b4b0485716b8b25d1bd2b0c65/agrculture-products-weedseeker2-front-2-800x960.png",
-    "images": [],
+    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-weedseeker2-hero.jpg",
+    "images": [
+      "/assets/vendor-images/ptx-trimble/ptx-weedseeker2-hero.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-weedseeker2-field.jpg"
+    ],
     "createdAt": "2025-12-16T23:41:20.910Z",
     "updatedAt": "2026-07-27T20:07:11.522Z",
     "enrichedDescription": null,
@@ -3441,12 +2866,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://amazone.net/resource/image/373402/5x3/930/558/db0abe40b3c58e23690d05b312420d2c/C8478F024FDC1ECAE3EEE120CBDF3B9D/galerie-3-za-ts-fendt-hanglage-d0-kw-pa320033-d2-181128.jpg",
+    "primaryImage": "/assets/vendor-images/amazone/amazone-extra-1.jpg",
     "images": [
-      "https://amazone.net/resource/image/373408/5x3/930/558/dd4fadf009dfe96d4fb948526cbf63e9/E5B5222CC2398D1A82ECA8F6C255B443/galerie-1-za-ts-4200-einsatz-claas-d0-kw-4652-d2-181120.jpg",
-      "https://amazone.net/resource/image/373400/5x3/930/558/b44fae7ecdacfa747e0c400932f95d47/E3D28D8C3F19E806CCD29D8E4303E676/galerie-2-za-ts-fendt-002-d1-150929.jpg",
-      "https://amazone.net/resource/image/373390/5x3/930/558/70303e704f371904b7bbf38fbe139e90/DDEA68DAE90C4F7AB4397B63D6D50C39/galerie-4-za-ts-fendt-hanglage-d0-kw-pa320053-d2-181114.jpg",
-      "https://amazone.net/resource/image/1306308/5x3/930/558/e9ed3f53dbdd3063b8b752f28f417936/5DBADCCA5A3841B325FE41C74A9045B5/galerie-5-.jpg"
+      "/assets/vendor-images/amazone/amazone-extra-2.jpg",
+      "/assets/vendor-images/amazone/amazone-extra-3.jpg",
+      "/assets/vendor-images/amazone/amazone-extra-4.jpg",
+      "/assets/vendor-images/amazone/amazone-extra-5.jpg"
     ],
     "createdAt": "2025-12-16T23:41:22.292Z",
     "updatedAt": "2026-07-27T20:07:13.183Z",
@@ -3497,13 +2922,13 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://amazone.net/resource/image/1453118/5x3/930/558/aaeaa86c3d65ef9c1aad06cd0eab3fa/C37B76047547DB4043A06E08C016B2D5/galerie-6-.jpg",
+    "primaryImage": "/assets/vendor-images/amazone/amazone-extra-6.jpg",
     "images": [
-      "https://amazone.net/resource/image/1452830/5x3/930/558/c640f08c077148ab89368da613f67490/11E41A151CC1BE9D201BC438B7475A9F/galerie-7-.jpg",
-      "https://amazone.net/resource/image/1452546/5x3/930/558/21c06b8d0e50bc5fdca567df8700d5c9/14DE2ADA5BA8F780D2940A4CD18E0A7F/galerie-1-.jpg",
-      "https://amazone.net/resource/image/1452428/5x3/930/558/e827430a6b357650bf4d96004df2fbed/D100AD98747D7B9D7213C371FEEDCEED/galerie-2-.jpg",
-      "https://amazone.net/resource/image/1452560/5x3/930/558/51f27df79f5ee59f19cf7d3ed095dd6d/EA5B4AFA443BD50A5E7335F5DF2EE3DB/galerie-3-.jpg",
-      "https://amazone.net/resource/image/1452766/5x3/930/558/3c86054624ad1761c46788967421e1a4/41073688085F57A2CE52F6F76814F5DC/galerie-4-.jpg"
+      "/assets/vendor-images/amazone/amazone-extra-7.jpg",
+      "/assets/vendor-images/amazone/amazone-extra-8.jpg",
+      "/assets/vendor-images/amazone/amazone-extra-9.jpg",
+      "/assets/vendor-images/amazone/amazone-extra-10.jpg",
+      "/assets/vendor-images/amazone/amazone-extra-11.jpg"
     ],
     "createdAt": "2025-12-16T23:41:22.338Z",
     "updatedAt": "2026-07-27T20:07:13.232Z",
@@ -4027,7 +3452,7 @@
       "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-7.png",
       "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-8.png",
       "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-9.png",
-      "https://www.agleader.com/wp-content/uploads/2024/10/Both-angled-harvest.png"
+      "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-10.png"
     ],
     "createdAt": "2026-07-27T22:23:12.421Z",
     "updatedAt": "2026-07-27T22:23:12.421Z",
@@ -4403,9 +3828,8 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://www.agleader.com/wp-content/uploads/2026/02/RightSpot-Logo.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-rightspot-2.png",
     "images": [
-      "https://www.agleader.com/wp-content/uploads/2026/02/RightSpot-Logo.png",
       "/assets/vendor-images/ag-leader/ag-leader-rightspot-2.png",
       "/assets/vendor-images/ag-leader/ag-leader-rightspot-3.png",
       "/assets/vendor-images/ag-leader/ag-leader-rightspot-4.jpg",
@@ -5476,9 +4900,8 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://s7d9.scene7.com/is/image/agco/ptxt-weekseeker2-product-hero?fmt=png-alpha",
+    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-2.jpg",
     "images": [
-      "https://s7d9.scene7.com/is/image/agco/ptxt-weekseeker2-product-hero?fmt=png-alpha",
       "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-2.jpg",
       "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-3.jpg",
       "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-4.jpg",
@@ -6746,12 +6169,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/463c84qpmfmjjg3kf8wpbx7/HeadSight_corn_2024?auto=webp&width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-125.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/463c84qpmfmjjg3kf8wpbx7/HeadSight_corn_2024?auto=webp&width=1200",
-      "https://cdn.bfldr.com/7M6SII1K/as/h87fnhh9sm3qhvkvnbsvsmqk/HeadSight_corn_2024?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/vrncbptr6bh8gck9367g53/WhitakerFarms_JohnDeere_Drago-108?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/f9bn5q25fk25sx698c9h3m8/WilraFarms_CaseIH_CaseIH-125?auto=webp&width=800"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-125.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-126.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-127.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-128.jpg"
     ],
     "createdAt": "2026-07-28T21:22:20.415Z",
     "updatedAt": "2026-07-28T21:22:20.415Z",
@@ -6796,12 +6219,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/hgm9ksjzm9g5r5r5vcprhc9/HeadSight_Terrace_grain_2024?auto=webp&width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-129.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/hgm9ksjzm9g5r5r5vcprhc9/HeadSight_Terrace_grain_2024?auto=webp&width=1200",
-      "https://cdn.bfldr.com/7M6SII1K/as/phvwcgxhrpvss835rn85jmh5/HeadSight_Standard_grain_2024?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/7gc5vjjpsh5stms9w4vpw3b/Low-Pro-Grain_Poly_Arm_Sensor_Mount?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/jcg7v946nbb454b4r7mc3zh/HeadSight_Grain_VT_Screen?auto=webp&width=800"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-129.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-130.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-131.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-132.jpg"
     ],
     "createdAt": "2026-07-28T21:22:20.415Z",
     "updatedAt": "2026-07-28T21:22:20.415Z",
@@ -6846,11 +6269,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/gzmmvbrffw956n4hbnmn3s8h/TrueSense_TrueSight_2024?auto=webp&width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-133.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/gzmmvbrffw956n4hbnmn3s8h/TrueSense_TrueSight_2024?auto=webp&width=1200",
-      "https://cdn.bfldr.com/7M6SII1K/as/2pkhphx7699p6khwz9vx8hg/SchlipfFarms_JohnDeere_JohnDeere-116?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/wrxsvxqjxpr8mxf6n3rg8gvp/SchlipfFarms_JohnDeere_JohnDeere-128?auto=webp&width=800"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-133.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-134.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-135.jpg"
     ],
     "createdAt": "2026-07-28T21:22:20.415Z",
     "updatedAt": "2026-07-28T21:22:20.415Z",
@@ -6893,11 +6316,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/gzmmvbrffw956n4hbnmn3s8h/TrueSense_TrueSight_2024?auto=webp&width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-133.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/gzmmvbrffw956n4hbnmn3s8h/TrueSense_TrueSight_2024?auto=webp&width=1200",
-      "https://cdn.bfldr.com/7M6SII1K/as/w5c7ptx5qw6659gsqf2bbghn/JoshStoller_CaseIH_Geringhoff-107?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/8t6f73gvzjfnmwkqxcpms7r/JoshStoller_CaseIH_Geringhoff-121?auto=webp&width=800"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-133.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-136.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-137.jpg"
     ],
     "createdAt": "2026-07-28T21:22:20.415Z",
     "updatedAt": "2026-07-28T21:22:20.415Z",
@@ -6942,12 +6365,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/psv79bkzpn93v7tv79brpqh/YieldSight_Harnessing?auto=webp&width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-138.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/psv79bkzpn93v7tv79brpqh/YieldSight_Harnessing?auto=webp&width=1200",
-      "https://cdn.bfldr.com/7M6SII1K/as/tp8wmf54sv9qh5p84rbw5psr/RingFarms_Gleaner_Drago-105?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/rm6vqzgnj8vr45wx9x5zfwt3/YieldSight_InCab2020?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/3b5g6m849wm3t7rb83vbgwt/Panorama_Yield_x_Hybrid_Split_Map_Mac?auto=webp&width=800"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-138.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-139.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-140.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-141.jpg"
     ],
     "createdAt": "2026-07-28T21:22:20.415Z",
     "updatedAt": "2026-07-28T21:22:20.415Z",
@@ -6993,11 +6416,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/73vw4r7cpw749fpp2wf76qwf/SmokeRow_left_2025?auto=webp&width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-142.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/73vw4r7cpw749fpp2wf76qwf/SmokeRow_left_2025?auto=webp&width=1200",
-      "https://cdn.bfldr.com/7M6SII1K/as/7g8wp9fjhx62777qmfhfccj/20251024_PTXSmokerow_SL2_2671?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/79h5h38wvm36kb7m8wbmck3/20251024_PTXSmokerow_SL2_2690?auto=webp&width=800"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-142.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-143.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-144.jpg"
     ],
     "createdAt": "2026-07-28T21:22:20.415Z",
     "updatedAt": "2026-07-28T21:22:20.415Z",
@@ -7041,10 +6464,10 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/nbhfjmchvgfxcnp3tx6j7rr/ReClaim_switch?auto=webp&width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-145.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/nbhfjmchvgfxcnp3tx6j7rr/ReClaim_switch?auto=webp&width=1200",
-      "https://cdn.bfldr.com/7M6SII1K/as/mh26hp4q9nqb5tm9gksq8/ReClaim_PWM001?auto=webp&width=800"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-145.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-146.jpg"
     ],
     "createdAt": "2026-07-28T21:22:20.415Z",
     "updatedAt": "2026-07-28T21:22:20.415Z",
@@ -7090,12 +6513,12 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "https://cdn.bfldr.com/7M6SII1K/as/5bk3kjtpxs7tjkj6c5xsg5pb/SymphonyVision_Duo_Product_Image_-_Website?auto=webp&width=1200",
+    "primaryImage": "/assets/vendor-images/precision-planting/precision-planting-extra-147.jpg",
     "images": [
-      "https://cdn.bfldr.com/7M6SII1K/as/5bk3kjtpxs7tjkj6c5xsg5pb/SymphonyVision_Duo_Product_Image_-_Website?auto=webp&width=1200",
-      "https://cdn.bfldr.com/7M6SII1K/as/vkp32kpntq63r8ss7hxzttwt/PT26-027-CH_SymphonyVision_Duo_John_Deere_Hettinger_Farms_260527_Image_005?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/vhrfbr46fjs4knkcx6wsb5/PT26-027-CH_SymphonyVision_Duo_John_Deere_Hettinger_Farms_260527_Image_033?auto=webp&width=800",
-      "https://cdn.bfldr.com/7M6SII1K/as/tkgcbzfswwgpcs9gsmjsmm3n/SymphonyVision_Duo_Panorama_Coverage_Map?auto=webp&width=800"
+      "/assets/vendor-images/precision-planting/precision-planting-extra-147.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-148.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-149.jpg",
+      "/assets/vendor-images/precision-planting/precision-planting-extra-150.jpg"
     ],
     "createdAt": "2026-07-28T21:22:20.415Z",
     "updatedAt": "2026-07-28T21:22:20.415Z",

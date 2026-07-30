@@ -19,7 +19,7 @@
       "furrowjet",
       "conceal"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/bc8rqkv3mmhzj3bp334s6tqg/2021-2025_Multi-Year_Broadcast_vs_Banding_Soybean_Study_Yield?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-1.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/dry-fertilizer-soybean-study",
     "seoKeywords": "Precision Planting, PTI, farm, research, agronomy, trials, agriculture, soybean, broadcast, band, banding, fertilizer, soybean"
   },
@@ -44,7 +44,7 @@
       "furrowjet",
       "conceal"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/n79v3vfp8k6m2pqpb658p4hj/2025_Soybean_100_Broadcast_vs_Banded_Rates_Economics?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-2.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/dry-fertilizer-rate-efficiency-soybean-study",
     "seoKeywords": "Precision Planting, PTI, research, farm, agronomy, agriculture, trials, soybean, broadcast, band, banding, strip-till, fertilizer"
   },
@@ -73,7 +73,7 @@
       "cleansweep",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/qg8xw8vrg3mfhtjm6ttcvp/2021-2025_PTI_Farm_All_Wrong_Study_Yield?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-3.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/planter-all-wrong-corn-study",
     "seoKeywords": "Precision Planting, PTI, agronomy, agriculture, research, farm, all wrong, plant, planter, planting, singulation, downforce, residue"
   },
@@ -100,7 +100,7 @@
     "relatedProductSlugs": [
       "conceal"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/85gx7pfgwc8jnb7n3kcm7mm/2021-2025_Multi-Year_Soybean_after_Corn_Cover_Crop_Study_Yield?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-4.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/corn-and-soybean-cover-crop-study",
     "seoKeywords": "Precision Planting, PTI, farm, research, agriculture, agronomy, cover crop, continuous corn, corn after corn, corn after soybean, soybean after corn, crop rotation, soil, soil health, barley, oat, radish, tillage, strip-till, seed, cost, HumicPT, chicken litter, soil health, corn, soybean, plant, planter, planting, erosion"
   },
@@ -127,7 +127,7 @@
       "vset-select",
       "speedtube"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/vnjkwmbtscwz69fp7jkr8gms/PP_21_002_Joe_Malecek_Osage_IA-2344?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-5.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/multi-genetic-corn-planting-study",
     "seoKeywords": "Precision Planting, PTI, farm, research, agriculture, agronomy, corn, plant, planting, planter, multi-genetic, genetic, multi-variety, variety, multi-hybrid, hybrid, seeding, seeding rate, placement, offensive, defensive, zone, yield"
   },
@@ -150,7 +150,7 @@
     "relatedProductSlugs": [
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/sfrt3zfj5xfgntvs6vz28jw/Corn_014?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-6.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/organic-corn-study",
     "seoKeywords": "Precision Planting, PTI, farm, research, agriculture, agronomy, organic, non-GMO, GMO, conventional, traditional, weed control, weeds, nutrient management, residual, glyphosate, seed, herbicide, Conceal, FurrowJet, fertilizer, corn, corn management, economics"
   },
@@ -174,7 +174,7 @@
     "relatedProductSlugs": [
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/6h3nrwtw4ckmkhhn98v84t6/Corn27?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-7.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/phantom-yield-loss-corn-study",
     "seoKeywords": "Precision Planting, PTI, farm, research, agriculture, agronomy, harvest, harvesting, phantom, yield loss, yield, corn, drying, commercial, on-farm, GSI, shrink, grain, moisture"
   },
@@ -200,7 +200,7 @@
     "relatedProductSlugs": [
       "furrowjet"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/bq6c2xks9k8cshhwqqfnhs2k/FJ_ThreeStripes_O?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-8.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/in-furrow-fertilizer-furrowjet-study-in-corn",
     "seoKeywords": "Precision Planting, PTI, research, agriculture, agronomy, FurrowJet, in-furrow, fertilizer, liquid fertilizer, application, swine effluent, swine manure, Marco, Nachurs, AgroLiquid, Corteva, starter fertilizer, fungicide, insecticide, nitrogen, biological"
   },
@@ -226,7 +226,7 @@
     "relatedProductSlugs": [
       "deltaforce"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/c6g5cqghqgqvtwxbxf8xf/DeltaForce_Down_Force_Metric_Page_on_2020?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-9.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/downforce-management-soybean-study",
     "seoKeywords": null
   },
@@ -247,7 +247,7 @@
       "Soybeans"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/cfn8s84prjp6q87b9cwhg2c/PPStripTill2024-30?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-10.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/soybean-tillage-study",
     "seoKeywords": "Precision Planting, PTI, research, farm, agriculture, agronomy, soybean, bean, tillage, no-till, vertical till, strip-till, conventional till, yield, economics, soybean after corn, rotation, pre-strip, stalk decomposition, corn stalks"
   },
@@ -272,7 +272,7 @@
     "relatedProductSlugs": [
       "furrowforce"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/bx3v75n3k3vvk54pv8vq5gwr/Todd_Westerfeld_running_FurrowForce?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-11.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/soybean-closing-system-no-till-study",
     "seoKeywords": "Precision Planting, Precision, PTI, reasearch, farm, soybean, bean, closing, closing wheel, closing system, FurrowForce, Case, Martin f Crusher, dual rubber, Yetter Poly Twister, Razor, 2-stage, manual, automatic, farm, farming, plant, planter, planting"
   },
@@ -300,7 +300,7 @@
       "conceal",
       "furrowjet"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/stqwbhfq9nwn4xtvc8b3rmpn/LaFont_ExactEmerge_with_22-23_Tanks-57?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-12.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/nitrogen-rate-placement-corn-study",
     "seoKeywords": "fertilizer, nitrogen, triple split, double split, single application"
   },
@@ -325,7 +325,7 @@
     "relatedProductSlugs": [
       "conceal"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/xzsj6rrg2qk9qv555bc8wnr9/Conceal_N_Placement_16x9_Website?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-13.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/nitrogen-rate-corn-study",
     "seoKeywords": "Precision Planting, Precision, plant, planter, planting, Conceal, nitrogen, placement, rate, band, single band, dual band, broadcast, spreader, liquid, pounds per acre, at-plant, farm, farmer, agriculture, agronomy, research, PTI"
   },
@@ -353,7 +353,7 @@
       "conceal",
       "vapplyhd"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/mkpqcc7pbwjrcg9shfm9g44t/Fertilizer_Conventional_Broadcast_vs_Banding?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-14.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/broadcast-vs-banding-fertilizer-study",
     "seoKeywords": null
   },
@@ -379,7 +379,7 @@
       "vset",
       "vset-select"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/x59g7pxrmq9nj9fr3hw5xp/20201007_PrecisoinPlanting_SLP_1530?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-15.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/soybean-singulation-study",
     "seoKeywords": null
   },
@@ -426,7 +426,7 @@
       "Planters"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/np6ttsg6trghmr38g674vswz/DJI_0293_Jason_Derschmidt_2022-05-12?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-16.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/weight-management-and-tire-inflation-study",
     "seoKeywords": "Precision Planting, Precision, plant, planter, planting, farmer, farm, agriculture, seed, Fendt, Momentum, tractor, weight, weight management, tire inflation, automatic, hydraulic, weight distribution, tire pressure, tire air pressure compaction, load cells, surface area"
   },
@@ -478,7 +478,7 @@
     "relatedProductSlugs": [
       "furrowjet"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/xhcx64cxw98wmnqwv9jh3ngj/2025_Corn_Starter_Fertilizer_Response_by_Plant_Date_Yield__Net_Return?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-17.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/starter-fertilizer-planting-date-study",
     "seoKeywords": null
   },
@@ -504,7 +504,7 @@
     "relatedProductSlugs": [
       "deltaforce"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/j8rf9qpnqptngs47v4tbb99/Wayne_Havlat_Crete_NE-3029?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-18.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/corn-downforce-study",
     "seoKeywords": "downforce, deltaforce, corn, planter, planting, down force"
   },
@@ -531,7 +531,7 @@
       "vdrive",
       "vset"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/bxkmf86s6pm4b9rpvz7jbwc/2018-2025_Soybean_Planting_Date_Results?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-19.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/soybean-planting-date-study",
     "seoKeywords": null
   },
@@ -556,7 +556,7 @@
     "relatedProductSlugs": [
       "speedtube"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/qr833n74fc9668wq28pb39hc/2018-2025_Corn_Planting_Date_Yield_Summary?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-20.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/corn-planting-date-study",
     "seoKeywords": null
   },
@@ -582,7 +582,7 @@
     "relatedProductSlugs": [
       "speedtube"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/gpw7gp258cfj6x7rv8vf64kj/Johnson_MaxEmerge_with_22-23_Tanks-50?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-21.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/high-speed-planting-soybean-study",
     "seoKeywords": "high speed, high-speed, fast, "
   },
@@ -606,7 +606,7 @@
     "relatedProductSlugs": [
       "furrowforce"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/nw4p4g93sfzbcrct55gjvrk/CornerStone_16BushelHopperSRM_LiquidSystem_Front_2025?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-22.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/closing-wheel-performance-corn",
     "seoKeywords": null
   },
@@ -633,7 +633,7 @@
       "cleansweep",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/fm6rfftx7t5ng4st5fb62z/29?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-23.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/reveal-residue-management-soybean-study",
     "seoKeywords": "reveal, residue, residue manager, residue management"
   },
@@ -655,7 +655,7 @@
       "Corn"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/3xttphttj8xknxbcg5vfx82w/DJI_0356?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-24.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/drainage-tile-water-management-study",
     "seoKeywords": null
   },
@@ -676,7 +676,7 @@
       "Corn"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/vfgmgjg3pxr973fhqstj4jms/2017-2025_Chopping_Corn_Head_Advantage_Over_Stalk_Roller?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-25.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/chopping-corn-head-study",
     "seoKeywords": null
   },
@@ -702,7 +702,7 @@
       "keeton-seed-firmer",
       "smartfirmer"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/2r5mrc63rkqkg9x6n4nsrbz/John_Deere_Front_Fold_24_Row_-_LBeck_-_Close_Ups_23?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-26.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/keeton-seed-firmer-soybean",
     "seoKeywords": null
   },
@@ -729,7 +729,7 @@
       "keeton-seed-firmer",
       "smartfirmer"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/qdzdri-b0zloo-axfgu9/PP_2013_Spring_Planting_375?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-27.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/keeton-seed-firmer-study",
     "seoKeywords": "keeton, seed"
   },
@@ -756,7 +756,7 @@
       "cleansweep",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/ccgpj5g9fmhfv9bcqkv46fz/Kelly_-_Case_IH_2150_with_Reveal_27?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-28.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/reveal-residue-management-corn-study",
     "seoKeywords": "residue management, residue, corn residue, corn after corn, reveal, cleansweep"
   },
@@ -782,7 +782,7 @@
       "smartdepth",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/xwmfxs9p97bjwntkgfrctxg/Deere_Front_Fold_-_24_Row_-_RVaugh_2?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-29.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/corn-planting-depth-study",
     "seoKeywords": null
   },
@@ -808,7 +808,7 @@
       "vset",
       "vdrive"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/m4g993rmnw7sr6wbk7mb97b/Corn_Singulation_Study_2018-2023?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-30.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/corn-singulation-study",
     "seoKeywords": null
   },
@@ -832,7 +832,7 @@
       "ready-row-unit",
       "furrowforce"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/nffhwmzfcfsgcwn5hqg4m6v/4D7A1599-43042512-14793dd?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-31.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/emergence-corn-study",
     "seoKeywords": null
   },
@@ -859,7 +859,7 @@
       "speedtube",
       "ready-row-unit"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/c47x5jtcrq6b9trnr69stcrm/Leaf_Orientation_Jason_Webster_in_the_Corn_Field?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-32.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/leaf-orientation-corn-study",
     "seoKeywords": null
   },
@@ -886,7 +886,7 @@
       "smartdepth",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/f7st8jknp5p4f47jpn5q9s/A018_12061813_C002braw18_13_14_48Still002?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-33.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/soybean-planting-depth-study",
     "seoKeywords": null
   },
@@ -914,7 +914,7 @@
       "conceal",
       "ready-row-unit"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/nmvqxsk8qxb6588qh3pnh/Historical_PTI_Farm_High_Corn_Yield?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-34.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/high-management-corn-study",
     "seoKeywords": "high yield, high management, corn"
   },
@@ -939,7 +939,7 @@
     "relatedProductSlugs": [
       "truesight"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/qjvtgwvwrc2gxb85snq8ct/CLAAS_Geringhoff-109?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-35.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/truesight-harvest-loss-report",
     "seoKeywords": "combine, guidance, row guidance, harvest, corn, corn field, corn harvest, yield, research"
   },
@@ -966,7 +966,7 @@
       "ratecontroller",
       "flowsense"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/cfn8s84prjp6q87b9cwhg2c/PPStripTill2024-30?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-10.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/liquid-dry-fall-strip-till-soybean-study",
     "seoKeywords": null
   },
@@ -993,7 +993,7 @@
       "conceal",
       "furrowjet"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/kkgvr9svxgkv7qrhgc7pq/2018-2023_Single_Application_Pre-Emerge_N_Yield?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-36.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/conceal-vs-weed-feed-corn",
     "seoKeywords": "fertilizer, conceal, nitrogen, dual band, single band, banded, broadcast"
   },
@@ -1019,7 +1019,7 @@
       "conceal",
       "furrowjet"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/c63hs89jjp66gnh7pn8s6bnb/Conceal_Bands?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-37.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/single-dual-band-nitrogen-study",
     "seoKeywords": "fertilizer, conceal, nitrogen, dual band, single band, banded"
   },
@@ -1044,7 +1044,7 @@
       "Fertilizer Application"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/5stpm7frw9sp47xbh66tsscz/StripTill_04-11-23-13?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-38.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/dry-fertilizer-rate-efficiency-study",
     "seoKeywords": "fertilizer, dry, soil, levels, P, K"
   },
@@ -1071,7 +1071,7 @@
       "furrowjet",
       "conceal"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/x59g7pxrmq9nj9fr3hw5xp/20201007_PrecisoinPlanting_SLP_1530?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-15.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/high-yield-soybean-study",
     "seoKeywords": null
   },
@@ -1097,7 +1097,7 @@
       "furrowjet",
       "conceal"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/4frjqjg9xsrmsj5jfx3mb4w/PTIFarm_2022_High_Management_Corn_Study__Economics?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-39.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/research/high-yield-corn-study",
     "seoKeywords": null
   },
@@ -1132,7 +1132,7 @@
       "reclaim",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/xprgkb6p88qqwfbjc2n7sgt/Weeds_Sprayer_Article?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-40.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/sprayer-maintenance-basics",
     "seoKeywords": "sprayers, spraying, sprayer maintenance, maintenance, sprayer checklist, maintenance checklist, sprayer nozzle"
   },
@@ -1167,7 +1167,7 @@
       "panorama",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/jrjwt7bfmkchk9b934kxz7x/2020-livestream?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-41.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/panorama-livestream",
     "seoKeywords": "Precision Planting, PrecisionPlanting, Panorama, 20|20, view, report, analysis, analyze, map, field, client, farm, field, plant, planting, planter, sidedress, side-dress, spray, sprayer, spraying, striptill, strip-till, harvest, harvesting, hybrid, liquid, granular, filter, filtering, pass, Show Passes, planting date, harvest date, population, yield, moisture, workflow, season, weather data, singulation, skips, furrow moisture, downforce, in-field statistics, growing season, insights, Precision Planting, LiveStream, remote support, remote configuration, LiveStream Editing, in-cab"
   },
@@ -1202,7 +1202,7 @@
       "panorama",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/vxqpb9sv4hthngx8c49tn6n/Schleder_at_Laptop_in_Shop?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-42.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/panorama-third-party-data-support",
     "seoKeywords": "Panorama, 20|20, view, report, analysis, analyze, map, field, client, farm, field, plant, planting, planter, sidedress, side-dress, spray, sprayer, spraying, striptill, strip-till, harvest, harvesting, hybrid, liquid, granular, filter, filtering, pass, Show Passes, planting date, harvest date, population, yield, moisture, workflow, season, weather data, singulation, skips, furrow moisture, downforce, in-field statistics, growing season, insights, Precision Planting, third-party, support, application, single application, data, John Deere Ops Center, John Deere, Operations Center, ISOXML, file type, Pro 1200, Case IH, Fendt, Gleaner, Raven, shapefile, data transfer, live data, machine diagnostics, data import, data upload"
   },
@@ -1237,7 +1237,7 @@
       "panorama",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/hk3shgr9q5rz7qnx8zwrr3kc/Panorama_Reports?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-43.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/panorama-reports-101",
     "seoKeywords": "Panorama, 20|20, report, analysis, analyze, input, condensed, agronomic, map, field, client, farm, field, plant, planting, planter, sidedress, side-dress, spray, sprayer, spraying, striptill, strip-till, harvest, harvesting, hybrid, liquid, granular, filter, filtering, pass, Show Passes, planting date, harvest date, population, yield, moisture, workflow, season, weather data, singulation, skips, furrow moisture, downforce, in-field statistics, growing season, insights, Precision Planting"
   },
@@ -1264,7 +1264,7 @@
       "panorama",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/qbk8fcrvv5gsb9cgs4q8mv6/SymphonyVision_Spot_Illinois_PTI_Massey_Ferguson_530R_June_2025_050?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-44.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/does-blanket-applying-contact-chemical-hurt-yield",
     "seoKeywords": "Precision Planting, Precision, agronomy, herbicide, spray, sprayer, spraying, boom, nozzle, weeds, chemical weed control, weed pressure, weed escape, application rate, weed severity, mode of action, variable-rate application, spot spraying, SymphonyVision, SymphonyVision | Rate, SymphonyVision | Spot, SymphonyVision | Duo, SymphonyNozzle, Panorama, 20|20, input costs, cost per acre, dual boom, residual, contact herbicide, weed control cost, chemical cost, chemical use, yield, blanket application, blanket applying, Roundup, Liberty, Dicamba, Atrazine, Callisto, Enlist, corn, soybean"
   },
@@ -1292,7 +1292,7 @@
       "smokerow",
       "panorama"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/qeaavx-7td4x4-27z1wi/WATERHEMP_-_CG_-_WIDE?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-45.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/ways-weeds-move",
     "seoKeywords": "Precision Planting, PTx, agronomy, weed, weeds, weed escape, weed spread, spray, sprayer, spraying, water, water management, seed, reseed, run-off, equipment, weed control, weed pressure, weed severity, chemical program, boom, nozzle, Mode of action, Variable-rate application, spot spraying, broadcast spraying, SymphonyVision, SymphonyVision | Rate, SymphonyVision | Spot, SymphonyVision | Duo, SymphonyNozzle, SmokeRow, Panorama, 20|20, input costs, bottom line, dual boom, residual, field edge, waterway, camera-based spraying"
   },
@@ -1320,7 +1320,7 @@
       "symphonynozzle",
       "smokerow"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/wp9pp7q4mz95svx35h8bs6/PT26-027-CH_SymphonyVision_Duo_John_Deere_Hettinger_Farms_260527_Image_001?auto=webp",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-46.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/the-role-of-residuals",
     "seoKeywords": "boom, nozzle, PWM, swath control, Chemical weed control, Weed pressure, Weed escapes, Application rate, Weed severity, Mode of action, Variable-rate application, Spot spraying, SymphonyVision, SymphonyVision | Rate, SymphonyVision | Spot, SymphonyNozzle, Panorama, 20|20, Input costs, Cost per acre, Bottom line, dual boom, redidual"
   },
@@ -1354,7 +1354,7 @@
       "panorama",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/k37sxsw33wxjmwfwr3gvgm8/Panorama_-_Assigning_Prescription_Rate_Zones?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-47.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/auto-create-prescriptions-with-panorama",
     "seoKeywords": "Panorama, Planning Mode, Field Applications, Plans, Boundaries, Prescriptions, Map Layers, Data, 20|20, SmartFirmer, Elevation Map, Variable Rate Seeding, Prescription Zones, Seeds per Acre, Auto Create, Boundary Creation, Rate Zones, Equipment-Wide Data, Field Data, Plan Activation, vDrive Control, Precision Agriculture, Input Optimization, Field Planning Tools"
   },
@@ -1382,7 +1382,7 @@
       "panorama",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/mf9sssvgb79wrzmxmmrhpn6k/SymphonyVision021?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-48.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/unlock-the-potential-of-variable-rate-spraying",
     "seoKeywords": "Chemical weed control, Weed pressure, Weed escapes, Application rate, Weed severity, Mode of action, Variable-rate application, Spot spraying, SymphonyVision, SymphonyVision | Rate, SymphonyVision | Spot, SymphonyNozzle, Panorama, 20|20, Input costs, Cost per acre, Yield recovery, Bottom line"
   },
@@ -1410,7 +1410,7 @@
       "symphonynozzle",
       "smokerow"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/7g2qf6f648xrqzbxcw7znwnk/SymphonyVision_Rate_Kansas_Steve_Arnold_Case_Patriot_4430_May_2025_May_2025_026?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-49.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/which-symphonyvision-system-is-right-for-you",
     "seoKeywords": "Rate controller, automatic section valves, boom, nozzle, PWM, swath control, Chemical weed control, Weed pressure, Weed escapes, Application rate, Weed severity, Mode of action, Variable-rate application, Spot spraying, SymphonyVision, SymphonyVision | Rate, SymphonyVision | Spot, SymphonyNozzle, Panorama, 20|20, Input costs, Cost per acre, Yield recovery, Bottom line"
   },
@@ -1472,7 +1472,7 @@
       "panorama",
       "symphonynozzle"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/nps435ggr5kc4bnkfwf28xq/SymphonyVision025?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-50.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/crop-scouting-with-symphonyvision",
     "seoKeywords": "Scouting, chemical program, SymphonyVision, field mapping, weeds, weed control, sprayer, spraying, weed management, weed severity, weed density"
   },
@@ -1504,7 +1504,7 @@
       "symphonyvision",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/2vw9q7rnnn9mczt773ckv93/WATERHEMP_1?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-51.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/the-risk-of-weed-escapes",
     "seoKeywords": "sprayer, spraying, chemicals, chemical, herbicide program, herbicides, herbicide chemicals, spraying weeds, weeds, MOAs, modes of action, chemical performance, weed escape, waterhemp, SymphonyNozzle, PWM, weed control"
   },
@@ -1548,7 +1548,7 @@
       "symphonynozzle",
       "panorama"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/3q88x35rsrmtm5gkp6ptr6t/20200714_ChristyFarmsSLP_9781?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-52.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/crop-scouting-101",
     "seoKeywords": "sprayer, spraying, chemicals, chemical, herbicide program, herbicides, herbicide chemicals, spraying weeds, weeds, MOAs, modes of action, chemical performance, chemical resistance, chemical rates, herbicide rates, pesticides, pests, disease, weed size, weed density, weed severity"
   },
@@ -1735,7 +1735,7 @@
       "symphonynozzle",
       "panorama"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/3tbgbx9k5fxg2wkrrc76rc6p/symphonynozzle-feat-image?auto=webp&format=png&width=800",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-53.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/chemical-rates-101",
     "seoKeywords": "sprayer, spraying, chemicals, chemical, herbicide program, herbicides, herbicide chemicals, spraying weeds, weeds, contact herbicide, systemic herbicide, soil residual herbicide, MOAs, modes of action, adjuvants, chemical performance, chemical resistance, how to choose an herbicide, how to choose a chemical, what herbicide do I need, what herbicide is right for me, what is an herbicide, what is a chemical, what is a sprayer program, what is an herbicide program, chemical rates, herbicide rates, label rates"
   },
@@ -1759,7 +1759,7 @@
       "Planters"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/945fg676v97qx4hc4kjbjk/A026_02221155_C050braw11_55_49_29Still002?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-54.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/should-i-calibrate-my-seed-meters",
     "seoKeywords": null
   },
@@ -1797,7 +1797,7 @@
       "2020",
       "panorama"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/gg8t8w4tmq8t339jp68nb84/Symphony202316?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-55.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/sprayer-dictionary",
     "seoKeywords": "sprayer, dictionary, sprayer terms, spraying, Boom Priming, nozzles, PWM, herbicide, insecticide, fungicide, pre-emergence, post-emergence"
   },
@@ -1838,7 +1838,7 @@
       "symphonynozzle",
       "panorama"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/ptx8c73x4g6hnz6ftksh25p5/SymphonyVision027_Weeds?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-56.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/herbicide-programs-101",
     "seoKeywords": "sprayer, spraying, chemicals, chemical, herbicide program, herbicides, herbicide chemicals, spraying weeds, weeds, contact herbicide, systemic herbicide, soil residual herbicide, MOAs, modes of action, adjuvants, chemical performance, chemical resistance, how to choose an herbicide, how to choose a chemical, what herbicide do I need, what herbicide is right for me, what is an herbicide, what is a chemical, what is a sprayer program, what is an herbicide program"
   },
@@ -1871,7 +1871,7 @@
       "deltaforce",
       "furrowforce"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/mqsqmgrq8nwk55vrsvvw8bt/From_Cleaning_to_Closing?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-57.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/from-cleaning-to-closing-the-three-cs-of-emergence",
     "seoKeywords": null
   },
@@ -1897,7 +1897,7 @@
       "Air Seeders & Drills"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/m8nmfpfg54bbqqtt35rznzst/MG_1620?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-58.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/how-to-do-emergence-flagging",
     "seoKeywords": null
   },
@@ -1924,7 +1924,7 @@
       "Air Seeders & Drills"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/6tp8mpks35rhnn8t5ss23vq/Emergence_FeatImg_Flag?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-59.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/do-i-have-uneven-emergence",
     "seoKeywords": null
   },
@@ -1959,7 +1959,7 @@
       "2020",
       "deltaforce"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/h6vksfqkrzphqrtrvxqm5thc/fundamentals_emergence_1_1050x600?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-60.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/3-keys-to-consistent-emergence",
     "seoKeywords": "planting, planter, emergence, germination, soil density, soil compaction, crops, seed, closing wheel, row cleaner, downforce, down pressure, monitor, seed firmer"
   },
@@ -1992,7 +1992,7 @@
       "furrowforce",
       "reveal"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/xhtngpcv8snsk9w7hnnkvstj/Emergence_FeatImg_Cause?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-61.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/what-causes-uneven-emergence",
     "seoKeywords": null
   },
@@ -2017,7 +2017,7 @@
       "2020",
       "clarity"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/fwffg5t5hwbsx45tnp5f8w/View_Your_Seeder_Performance_Like_Never_Before_Header_Image?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-62.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/view-your-seeder-performance-like-never-before",
     "seoKeywords": null
   },
@@ -2055,7 +2055,7 @@
       "deltaforce",
       "speedtube"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/qdzn71-9fs260-ezn1ox/PrecisionPlanting_0415_PPDI_1657?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-63.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/the-secret-to-why-most-planters-still-dont-achieve-the-best-stands",
     "seoKeywords": null
   },
@@ -2093,7 +2093,7 @@
       "2020",
       "deltaforce"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/rf9nt3995w9g8wjkvvxrq5g/4D7A1362?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-64.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/achieving-consistent-emergence-takes-a-system",
     "seoKeywords": "planting, planter, emergence, germination, soil density, soil compaction, crops, seed, closing wheel, row cleaner, downforce, down pressure, monitor, seed firmer"
   },
@@ -2120,7 +2120,7 @@
       "Air Seeders & Drills"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/3hgm9m6bjgck53sk4zj87b2/Emergence_FeatImg_Cost?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-65.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/why-does-emergence-matter",
     "seoKeywords": null
   },
@@ -2147,7 +2147,7 @@
       "Air Seeders & Drills"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/nkn3pgpsnxvn75cccbrwpvz/Emergence_FeatImg_Correct?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-66.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/how-do-i-fix-uneven-emergence",
     "seoKeywords": null
   },
@@ -2202,7 +2202,7 @@
       "Fertilizer Application"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/263jb4wvfv33h88kggbc2j9j/John_Deere_StackFold_12_Row_-_DWeedin_-_Drone_26?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-67.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/getting-the-most-from-your-nutrient-dollar",
     "seoKeywords": null
   },
@@ -2231,7 +2231,7 @@
       "conceal",
       "vapplyhd"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/39b8qfgjf63qgqbfmspcnwt/ConcealFurrowJet_placement_web_RGB?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-68.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/articles/an-easier-start-with-fertilizer",
     "seoKeywords": null
   },
@@ -2257,7 +2257,7 @@
       "Planters"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/7rh7fhm59qxjh863h563w4b/Planter_Maintenance_Guide_Article_Featured_Image?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-69.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/your-planter-maintenance-guide",
     "seoKeywords": "\"planter maintenance\", maintenance, guide, \"meter calibration\", \"meter testing\", \"disk openers\", maintenance guide, maintenance checklist"
   },
@@ -2278,7 +2278,7 @@
       "Air Seeders & Drills"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/vm98cmqcjwcgg6qc75bjspqh/Seeder_Maintenance_Series?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-70.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/your-seeder-maintenance-guide",
     "seoKeywords": "\"seeder maintenance\", maintenance, guide, \"air seeder maintenance\", \"drill maintenance\""
   },
@@ -2304,7 +2304,7 @@
       "Sprayers"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/pqrvsxpm96mt3gnwkx84fh83/Sprayer_Maintenance_Guide_Cover_Image?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-71.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/sprayer-maintenance-guide",
     "seoKeywords": "sprayer maintenance, maintenance, guide, boom, spray tips, plumbing, engine, chassis, safety, routine maintenance"
   },
@@ -2331,7 +2331,7 @@
       "Fertilizer Application"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/2627sjr5mpvr4tfxvskk9g4q/20210521_PrecisionPlantingSLP_1795?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-72.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/case-ih-2000-series-planter-upgrade-guide",
     "seoKeywords": "Case IH®, 2000 series, planter, upgrade"
   },
@@ -2358,7 +2358,7 @@
       "Fertilizer Application"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/stqwbhfq9nwn4xtvc8b3rmpn/LaFont_ExactEmerge_with_22-23_Tanks-57?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-12.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/john-deere-exactemerge-planter-upgrade-guide",
     "seoKeywords": "John Deere, exact, emerge, planter, upgrade"
   },
@@ -2385,7 +2385,7 @@
       "Fertilizer Application"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/np6ttsg6trghmr38g674vswz/DJI_0293_Jason_Derschmidt_2022-05-12?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-16.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/fendt-momentum-planter-upgrade-guide",
     "seoKeywords": "Fendt®, Momentum®, planter, upgrade"
   },
@@ -2412,7 +2412,7 @@
       "Fertilizer Application"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/mtfv4wqvfhg36vxsfxpn2g69/MF23PV001DS-8S-with-MFVF-16-30-Planter-PLNT0341?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-73.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/massey-ferguson-mfvf-planter-upgrade-guide",
     "seoKeywords": "Massey Ferguson, MFVF, planter, upgrade"
   },
@@ -2439,7 +2439,7 @@
       "Fertilizer Application"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/gf9w9h266vtcj5bqx4ffgg4/IMG_4857?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-74.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/white-ve-series-planter-upgrade-guide",
     "seoKeywords": "White®, VE Series, planter, upgrade"
   },
@@ -2466,7 +2466,7 @@
       "Fertilizer Application"
     ],
     "relatedProductSlugs": [],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/jtqz57k8xn4bvptx5hkkb4/FarmEquipment-Fendt718Horsch_Maistro_8CC_Grey_RUs_back_2_190324_Tonkens_TS?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-75.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/horsch-maestro-planter-upgrade-guide",
     "seoKeywords": "Horsch®, Maestro®, Maestro SP, planter, upgrade"
   },
@@ -2494,7 +2494,7 @@
     "relatedProductSlugs": [
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/6q3m38n4hfjgwnq2zc6cp8r/Crop_Stand_Evaluation_Guide_-_1920x1080?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-76.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/guides/crop-stand-evaluation-guide",
     "seoKeywords": null
   },
@@ -2579,7 +2579,7 @@
     "relatedProductSlugs": [
       "reveal"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/hzsvtss863c76ncf6vfsssw/Brian_Scott_Reveal_Up_Close?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-77.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/farmer-story/a-season-with-precision-planting-reveal-row-cleaners",
     "seoKeywords": "Reveal, row cleaner, row cleaners, planter, planting, planters, Brian Scott, The Farmer's Life, row cleaners for no-till corn, row cleaners for cover crops, row cleaners for double crop soybeans"
   },
@@ -2614,7 +2614,7 @@
       "deltaforce",
       "2020"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/4c63jbmwsph3939h6p48pbf/Brian_Scott_Article2?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-78.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/farmer-story/why-retrofitting-a-used-planter-was-more-practical-for-our-farm-than-buying-new",
     "seoKeywords": "planter, planting, upgrade, meters, retrofit, seed firmer, closing wheel, seed meter, downforce, down pressure, monitor, automatic downforce, row cleaners, electric drive"
   },
@@ -2649,7 +2649,7 @@
       "vset",
       "vdrive"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/3t5vpxkbgq4jc7qxts9fhqg/Sass_Planter_Card_Image_15?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-79.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/farmer-story/we-saved-our-farm-200k-by-making-an-old-planter-new-again-with-precision-planting",
     "seoKeywords": "planter, planting, upgrade, meters, closing system, retrofit, seed tube, seed meter, seed firmer, closing wheel, downforce, hydraulic downforce, automatic downforce, row cleaner, row cleaners, 20|20, planter monitor, rebuild, retrofit"
   },
@@ -2842,7 +2842,7 @@
       "vdrive",
       "deltaforce"
     ],
-    "featuredImage": "https://cdn.bfldr.com/7M6SII1K/as/vm4g3hr7qhtr67nsk49wts/Ponwith__Emily_and_Ryan?auto=webp&format=png",
+    "featuredImage": "/assets/vendor-images/resources/resources-extra-80.jpg",
     "sourceUrl": "https://www.precisionplanting.com/resources/farmer-story/personalizing-our-new-to-us-planter-a-tiered-approach",
     "seoKeywords": "planter, planting, upgrade, meters, closing system, retrofit, seed tube, seed meter, seed firmer, closing wheel, high-speed planting, high-speed planter, downforce"
   },
