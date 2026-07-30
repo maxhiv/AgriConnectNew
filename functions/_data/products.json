@@ -680,7 +680,7 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-2.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-2.jpg",
     "images": [
       "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-3.png",
       "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-4.png",
@@ -1203,7 +1203,7 @@
     "logoWhite": null,
     "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-1.png",
     "images": [
-      "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-2.png",
+      "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-2.jpg",
       "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-6.png",
       "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-10.png",
       "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-9.png"
@@ -1963,7 +1963,7 @@
     "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-rightspot-2.png",
     "images": [
       "/assets/vendor-images/ag-leader/ag-leader-rightspot-3.png",
-      "/assets/vendor-images/ag-leader/ag-leader-rightspot-4.png",
+      "/assets/vendor-images/ag-leader/ag-leader-rightspot-4.jpg",
       "/assets/vendor-images/ag-leader/ag-leader-extra-10.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.682Z",
@@ -2319,11 +2319,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-2.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-2.jpg",
     "images": [
       "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-1.png",
       "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-3.png",
-      "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-4.png"
+      "/assets/vendor-images/ag-leader/ag-leader-steercommand-z2-4.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.295Z",
     "updatedAt": "2026-07-27T20:07:12.091Z",
@@ -2411,7 +2411,7 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-sureforce-2.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-sureforce-2.jpg",
     "images": [
       "/assets/vendor-images/ag-leader/ag-leader-sureforce-3.png",
       "/assets/vendor-images/ag-leader/ag-leader-extra-14.jpg"
@@ -2507,11 +2507,11 @@
     "logoBlack": null,
     "logoDarkGreen": null,
     "logoWhite": null,
-    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-surestop-2.png",
+    "primaryImage": "/assets/vendor-images/ag-leader/ag-leader-surestop-2.jpg",
     "images": [
       "/assets/vendor-images/ag-leader/ag-leader-surestop-3.png",
       "/assets/vendor-images/ag-leader/ag-leader-extra-18.jpg",
-      "/assets/vendor-images/ag-leader/ag-leader-surestop-5.png"
+      "/assets/vendor-images/ag-leader/ag-leader-surestop-5.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.634Z",
     "updatedAt": "2026-07-27T20:07:12.455Z",

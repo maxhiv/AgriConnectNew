@@ -1,19 +1,20 @@
 // Resizes/recompresses every downloaded vendor image in place (max 1600px
-// on the long edge, stripped metadata, sensible quality). Images with real
-// alpha transparency stay PNG/WEBP; everything else converts to JPEG for
-// much better compression. Extension can change (png -> jpg), so this
-// produces a rename map that's applied to functions/_data/products.json and
+// on the long edge, sensible quality). Images with real alpha transparency
+// stay PNG/WEBP; everything else converts to JPEG for much better
+// compression. Extension can change (png -> jpg), so this produces a
+// rename map that's applied to functions/_data/products.json and
 // functions/_data/vendor-resources.json afterward.
 import fs from "fs";
 import path from "path";
-import { execFileSync } from "child_process";
 import { fileURLToPath } from "url";
+import sharp from "sharp";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const imagesRoot = path.join(root, "client", "public", "assets", "vendor-images");
 const dataDir = path.join(root, "functions", "_data");
 const MAX_DIM = 1600;
+const MIN_SIZE_TO_TOUCH = 400 * 1024; // skip files already reasonably small
 
 function walk(dir) {
   let out = [];
@@ -25,32 +26,14 @@ function walk(dir) {
   return out;
 }
 
-function hasAlpha(file) {
-  try {
-    const res = execFileSync("identify", ["-format", "%A", file], { encoding: "utf-8" });
-    return res.trim() === "True" || res.trim() === "Blend";
-  } catch {
-    return false;
-  }
-}
-
-function dims(file) {
-  try {
-    const res = execFileSync("identify", ["-format", "%w %h", file], { encoding: "utf-8" });
-    const [w, h] = res.trim().split(" ").map(Number);
-    return { w, h };
-  } catch {
-    return null;
-  }
-}
-
 const files = walk(imagesRoot).filter((f) => /\.(png|jpe?g|webp|gif)$/i.test(f));
-console.log(`Processing ${files.length} images...`);
+console.log(`Scanning ${files.length} images...`);
 
 let beforeTotal = 0;
 let afterTotal = 0;
 let convertedToJpg = 0;
 let resized = 0;
+let skipped = 0;
 let errors = 0;
 const renameMap = new Map(); // old web path -> new web path
 
@@ -64,49 +47,51 @@ for (const file of files) {
     afterTotal += before; // leave animated/simple gifs untouched
     continue;
   }
+  if (before < MIN_SIZE_TO_TOUCH) {
+    afterTotal += before;
+    skipped++;
+    continue;
+  }
 
   try {
-    const d = dims(file);
-    const needsResize = d && (d.w > MAX_DIM || d.h > MAX_DIM);
-    const alpha = /\.png$/i.test(file) || /\.webp$/i.test(file) ? hasAlpha(file) : false;
+    const buf = fs.readFileSync(file);
+    const meta = await sharp(buf).metadata();
+    const needsResize = meta.width > MAX_DIM || meta.height > MAX_DIM;
     const ext = path.extname(file).toLowerCase();
+    const alpha = (ext === ".png" || ext === ".webp") && !!meta.hasAlpha;
 
-    let targetFile = file;
-    let newExt = ext;
-
-    if (!alpha && ext !== ".jpg" && ext !== ".jpeg") {
-      // No transparency needed -> convert to JPEG for much better compression.
-      newExt = ".jpg";
-      targetFile = file.slice(0, -ext.length) + ".jpg";
-      convertedToJpg++;
-    }
-
-    const args = [file];
+    let pipeline = sharp(buf);
     if (needsResize) {
-      args.push("-resize", `${MAX_DIM}x${MAX_DIM}>`);
+      pipeline = pipeline.resize(MAX_DIM, MAX_DIM, { fit: "inside", withoutEnlargement: true });
       resized++;
     }
-    args.push("-strip");
-    if (newExt === ".jpg") {
-      args.push("-quality", "85", "-sampling-factor", "4:2:0", "-interlace", "Plane");
-    } else if (newExt === ".png") {
-      args.push("-quality", "90", "-define", "png:compression-level=9");
-    } else if (newExt === ".webp") {
-      args.push("-quality", "85");
+
+    let targetFile = file;
+    let outBuf;
+    if (alpha) {
+      outBuf = ext === ".webp" ? await pipeline.webp({ quality: 85 }).toBuffer() : await pipeline.png({ compressionLevel: 9, palette: true }).toBuffer();
+    } else {
+      if (ext !== ".jpg" && ext !== ".jpeg") {
+        targetFile = file.slice(0, -ext.length) + ".jpg";
+        convertedToJpg++;
+      }
+      outBuf = await pipeline.flatten({ background: "#ffffff" }).jpeg({ quality: 85, mozjpeg: true }).toBuffer();
     }
-    args.push(targetFile === file ? file : targetFile);
 
-    execFileSync("convert", args, { stdio: ["ignore", "ignore", "pipe"] });
+    if (outBuf.length >= before) {
+      afterTotal += before;
+      skipped++;
+      continue;
+    }
 
+    fs.writeFileSync(targetFile, outBuf);
     if (targetFile !== file) {
       fs.unlinkSync(file);
       const newRel = path.relative(path.join(root, "client", "public"), targetFile);
       const newWebPath = "/" + newRel.split(path.sep).join("/");
       renameMap.set(oldWebPath, newWebPath);
-      afterTotal += fs.statSync(targetFile).size;
-    } else {
-      afterTotal += fs.statSync(file).size;
     }
+    afterTotal += outBuf.length;
   } catch (err) {
     errors++;
     afterTotal += before;
@@ -116,7 +101,7 @@ for (const file of files) {
 
 console.log(`Before: ${(beforeTotal / 1024 / 1024).toFixed(1)} MB`);
 console.log(`After:  ${(afterTotal / 1024 / 1024).toFixed(1)} MB`);
-console.log(`Converted to JPEG: ${convertedToJpg}, Resized: ${resized}, Errors: ${errors}`);
+console.log(`Converted to JPEG: ${convertedToJpg}, Resized: ${resized}, Skipped (already small): ${skipped}, Errors: ${errors}`);
 console.log(`Extension renames: ${renameMap.size}`);
 
 // Apply renames (extension changes) to the two data files.
@@ -127,9 +112,6 @@ function applyRenames(images) {
 const productsPath = path.join(dataDir, "products.json");
 const products = JSON.parse(fs.readFileSync(productsPath, "utf-8"));
 for (const p of products) {
-  // Apply to every product with locally-hosted images, not just the
-  // original vendor-sweep entries (later passes also self-host images for
-  // pre-existing catalog products, e.g. the missing-image backfill).
   if (Array.isArray(p.images)) p.images = applyRenames(p.images);
   if (p.primaryImage && renameMap.has(p.primaryImage)) p.primaryImage = renameMap.get(p.primaryImage);
 }
