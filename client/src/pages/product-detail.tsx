@@ -344,7 +344,7 @@ export default function ProductDetail() {
                   </Link>
                 </Button>
                 <Button variant="outline" className="w-full" size="lg" asChild data-testid="button-call-us">
-                  <a href="tel:+1-555-0123">
+                  <a href="tel:+18889821997">
                     <Phone className="mr-2 h-4 w-4" />
                     Call Us
                   </a>

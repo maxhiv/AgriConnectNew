@@ -149,14 +149,14 @@ export default function ResourceDetail() {
             </Card>
           )}
 
-          {resource.category === "manual" && resource.pdfUrl ? (
-            <Card className="mb-10 bg-slate-50 border-slate-200">
+          {resource.category === "manual" && resource.pdfUrl && (
+            <Card className="mb-8 bg-slate-50 border-slate-200">
               <CardContent className="pt-6 flex items-center justify-between gap-4 flex-wrap">
                 <div className="flex items-center gap-3">
                   <FileDown className="h-8 w-8 text-slate-600 flex-shrink-0" />
                   <div>
                     <div className="font-medium">Official PTx Trimble Documentation</div>
-                    <div className="text-sm text-muted-foreground">PDF download</div>
+                    <div className="text-sm text-muted-foreground">Full PDF available below</div>
                   </div>
                 </div>
                 <Button asChild size="lg">
@@ -167,12 +167,12 @@ export default function ResourceDetail() {
                 </Button>
               </CardContent>
             </Card>
-          ) : (
-            <div
-              className="prose prose-lg max-w-none mb-10 [&_h3]:text-2xl [&_h3]:font-bold [&_h3]:mt-8 [&_h3]:mb-3 [&_h4]:text-xl [&_h4]:font-semibold [&_h4]:mt-6 [&_h4]:mb-2 [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_a]:text-primary [&_a]:underline"
-              dangerouslySetInnerHTML={{ __html: resource.bodyHtml }}
-            />
           )}
+
+          <div
+            className="prose prose-lg max-w-none mb-10 [&_h3]:text-2xl [&_h3]:font-bold [&_h3]:mt-8 [&_h3]:mb-3 [&_h4]:text-xl [&_h4]:font-semibold [&_h4]:mt-6 [&_h4]:mb-2 [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_a]:text-primary [&_a]:underline"
+            dangerouslySetInnerHTML={{ __html: resource.bodyHtml }}
+          />
 
           {resource.tags.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-10">

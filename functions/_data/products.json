@@ -867,19 +867,43 @@
     "brand": "PTx Trimble",
     "equipment": "Software",
     "category": "Software",
-    "tagline": "Farm operations management platform",
-    "shortDescription": "Farm operations management software focused on fleet connectivity and operational control.",
+    "tagline": "The next generation of farm operations management software built to bring simplicity, connectivity, and control to your entire fleet.",
+    "shortDescription": "Farm operations management platform enabling users to manage equipment fleets regardless of brand or model year from field or office locations. Supports pre-season planning, in-season execution, and post-season analysis workflows, with two tiers: Data (basic) and Operations (advanced analytics).",
     "oemUrl": "https://www.ptxag.com/en/farmengage/",
     "highlights": [
-      "Fleet management",
-      "Real-time monitoring",
-      "Operations analytics"
+      "On-demand real-time status data across mixed fleet operations",
+      "Automated data transfer and syncing between office and in-cab displays",
+      "Centralized data management with automatic information collection",
+      "Live team communication and work order capabilities"
     ],
     "keyFeatures": [
-      "Fleet connectivity",
-      "Operational control"
+      "On-demand real-time status data across mixed fleet operations",
+      "Automated data transfer and syncing between office and in-cab displays",
+      "Centralized data management with automatic information collection",
+      "Live team communication and work order capabilities",
+      "Connectivity Center (for AGCO equipment users)",
+      "Field Manager resource creation and management tools",
+      "Direct Send technology for targeted device deployment",
+      "AutoSync automatic synchronization across connected devices",
+      "Work Orders for streamlined in-field task management",
+      "Third-party data integrations (Raven, John Deere, Case IH, New Holland)",
+      "App Central library on GFX displays",
+      "Two tier options: Data (basic) and Operations (advanced analytics)"
     ],
-    "specs": [],
+    "specs": [
+      "On-demand real-time status data across mixed fleet operations",
+      "Automated data transfer and syncing between office and in-cab displays",
+      "Centralized data management with automatic information collection",
+      "Live team communication and work order capabilities",
+      "Connectivity Center (for AGCO equipment users)",
+      "Field Manager resource creation and management tools",
+      "Direct Send technology for targeted device deployment",
+      "AutoSync automatic synchronization across connected devices",
+      "Work Orders for streamlined in-field task management",
+      "Third-party data integrations (Raven, John Deere, Case IH, New Holland)",
+      "App Central library on GFX displays",
+      "Two tier options: Data (basic) and Operations (advanced analytics)"
+    ],
     "worksWith": [
       "All PTx Trimble hardware"
     ],
@@ -891,17 +915,42 @@
     "images": [
       "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-3.webp",
       "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-5.webp",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-7.webp"
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-7.webp",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-2.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-3.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-4.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-5.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-6.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-7.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-8.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-9.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-10.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-11.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-12.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-13.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-14.jpg"
     ],
     "createdAt": "2025-12-16T23:41:21.145Z",
-    "updatedAt": "2026-07-27T20:07:11.781Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
+    "updatedAt": "2026-07-31T13:40:15.251Z",
+    "enrichedDescription": "Farm operations management platform enabling users to manage equipment fleets regardless of brand or model year from field or office locations. Supports pre-season planning, in-season execution, and post-season analysis workflows, with two tiers: Data (basic) and Operations (advanced analytics).",
+    "detailedFeatures": [
+      "Field Manager for building and editing boundaries, guidance lines, landmarks, management zones, crop zones, and rate-zone prescriptions from a desktop map",
+      "AutoSync wirelessly syncs fields, boundaries, vehicles, implements, materials, and as-applied task data with connected GFX/XCN displays (Precision-IQ 6.0+, 6.2+ for full vehicle/implement/material sync)",
+      "Connectivity Center links AGCO machines (Fendt, Massey Ferguson, Valtra) and third-party platforms like John Deere Operations Center for cross-brand fleet data routing",
+      "Work Orders sync automatically to Precision-IQ displays when display-compatible, tracking status from Planned through Done",
+      "Crop Zone Activities track Profitability, Seeding, Fertility, Crop Protection, Harvest, and Irrigation history per crop zone",
+      "Resource exports support PTx Trimble AgData, AgGPS, ISOXML, CNH, Ag Leader, John Deere, and Loup RDS formats, sent directly to a vehicle or downloaded",
+      "Cross-organization Data Inbox sharing lets one operation send fields, boundaries, and materials to another with preview/accept/reject control"
+    ],
+    "benefits": [
+      "One login (AGCO ID) covers FarmENGAGE, FendtONE offboard, and NEXT Farming Live",
+      "Runs mixed-brand fleets from a single platform instead of juggling separate manufacturer software",
+      "Wireless AutoSync and Connectivity Center remove most manual file transfers between the field and the office"
+    ],
     "researchFindings": null,
     "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-31T13:41:33.791Z"
   },
   {
     "id": "f6c486d2-a6e8-466b-b33f-f22efe57436d",
@@ -909,19 +958,39 @@
     "brand": "PTx Trimble",
     "equipment": "Hardware",
     "category": "Application Control",
-    "tagline": "Complete crop input management system",
-    "shortDescription": "Manages flow and application to prevent overlap, control rate, monitor delivery/blockage, and automate spreading controls.",
+    "tagline": "Proprietary technology that makes planting, seeding and application activities more productive and efficient.",
+    "shortDescription": "PTx Trimble's Field-IQ system manages flow and application to prevent seed and fertilizer overlap, control the rate of material applied, monitor seed delivery and fertilizer blockage, and automatically control spinner speed for spreading.",
     "oemUrl": "https://ptxtrimble.com/en/products/hardware/flow-application-control/field-iq-crop-input-control-system",
     "highlights": [
-      "Section control",
-      "Variable rate",
-      "Blockage monitoring"
+      "Compatible with planters, spreaders, sprayers, air seeders, and liquid strip-till bars",
+      "Variable rate application control using Trimble Rawson drives",
+      "Automatic section control with optional Tru Count Electric Row Clutch and Tru Count LiquiBlock Valves",
+      "Seed monitoring functionality"
     ],
     "keyFeatures": [
-      "Flow management",
-      "Overlap prevention"
+      "Compatible with planters, spreaders, sprayers, air seeders, and liquid strip-till bars",
+      "Variable rate application control using Trimble Rawson drives",
+      "Automatic section control with optional Tru Count Electric Row Clutch and Tru Count LiquiBlock Valves",
+      "Seed monitoring functionality",
+      "Spinner speed control",
+      "Modular design enabling expansion and flexibility",
+      "Multi-channel, multi-section, and multi-row control capabilities",
+      "Population and blockage monitoring",
+      "Skip, multiple, and spacing management during operations",
+      "Broad implement compatibility regardless of make/model"
     ],
-    "specs": [],
+    "specs": [
+      "Compatible with planters, spreaders, sprayers, air seeders, and liquid strip-till bars",
+      "Variable rate application control using Trimble Rawson drives",
+      "Automatic section control with optional Tru Count Electric Row Clutch and Tru Count LiquiBlock Valves",
+      "Seed monitoring functionality",
+      "Spinner speed control",
+      "Modular design enabling expansion and flexibility",
+      "Multi-channel, multi-section, and multi-row control capabilities",
+      "Population and blockage monitoring",
+      "Skip, multiple, and spacing management during operations",
+      "Broad implement compatibility regardless of make/model"
+    ],
     "worksWith": [
       "GFX displays",
       "Planters",
@@ -933,17 +1002,33 @@
     "logoWhite": null,
     "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-fieldiq-cropinput-planter.jpg",
     "images": [
-      "/assets/vendor-images/ptx-trimble/ptx-fieldiq-cropinput-planter.jpg"
+      "/assets/vendor-images/ptx-trimble/ptx-fieldiq-cropinput-planter.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-1.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-1.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-2.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-3.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-4.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-5.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-6.jpg"
     ],
     "createdAt": "2025-12-16T23:41:20.856Z",
-    "updatedAt": "2026-07-27T20:07:11.469Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
+    "updatedAt": "2026-07-31T13:40:15.254Z",
+    "enrichedDescription": "PTx Trimble's Field-IQ system manages flow and application to prevent seed and fertilizer overlap, control the rate of material applied, monitor seed delivery and fertilizer blockage, and automatically control spinner speed for spreading.",
+    "detailedFeatures": [
+      "Configures Field-IQ implements with sensors, implement switches, and a signal input module for planting or spraying application control",
+      "Section Master status widgets and live rate/section detail on the Precision-IQ Run screen",
+      "Field-IQ channel calibration plus module unlock/upgrade paths for adding capability to an existing module",
+      "Compatible with Master Switch Box (MSB) and 12-section switch box hardware, including multichannel fence-row handling",
+      "Automatic coverage logging tied to the Engage function, with editable coverage layers"
+    ],
+    "benefits": [
+      "Row-by-row and section-level control reduces input overlap and waste on planters and sprayers",
+      "Works alongside Serial VR/TUVR and ISOBUS application control on the same Precision-IQ display"
+    ],
     "researchFindings": null,
     "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-31T13:41:33.791Z"
   },
   {
     "id": "1bb28f21-ebde-4328-bfcb-9a495acda47e",
@@ -951,19 +1036,45 @@
     "brand": "PTx Trimble",
     "equipment": "Hardware",
     "category": "Application Control",
-    "tagline": "ISOBUS-compatible liquid application control",
-    "shortDescription": "Universal liquid control system with ISOBUS compatibility.",
+    "tagline": "Unlock the full potential of your equipment with less time spent troubleshooting.",
+    "shortDescription": "An industry-standard protocol enabling cross-brand equipment compatibility. Settings store on implement ECUs and auto-transfer to compatible displays for plug-and-play functionality, managing seed, fertilizer, spray, spread, and slurry applications across mixed-brand fleets.",
     "oemUrl": "https://ptxtrimble.com/en/products/hardware/flow-application-control/field-iq-isobus-liquid-control-system",
     "highlights": [
-      "ISOBUS compatible",
-      "Universal connectivity",
-      "Precise control"
+      "ISOBUS-compatible display integration",
+      "Electronic Control Unit (ECU) storage",
+      "Multi-implement management from single display",
+      "Seeder/Planter control with overlap reduction"
     ],
     "keyFeatures": [
-      "ISOBUS protocol",
-      "Liquid application"
+      "ISOBUS-compatible display integration",
+      "Electronic Control Unit (ECU) storage",
+      "Multi-implement management from single display",
+      "Seeder/Planter control with overlap reduction",
+      "Spreader control with bin monitoring",
+      "Advanced sprayer section and boom control",
+      "Orchard/Vineyard specialized spraying",
+      "Liquid application rate control (including NH3)",
+      "Slurry system management (up to 18 sections)",
+      "Retrofit capability for older equipment",
+      "Weather station integration",
+      "Blockage sensor system",
+      "Physical aux-switch control options"
     ],
-    "specs": [],
+    "specs": [
+      "ISOBUS-compatible display integration",
+      "Electronic Control Unit (ECU) storage",
+      "Multi-implement management from single display",
+      "Seeder/Planter control with overlap reduction",
+      "Spreader control with bin monitoring",
+      "Advanced sprayer section and boom control",
+      "Orchard/Vineyard specialized spraying",
+      "Liquid application rate control (including NH3)",
+      "Slurry system management (up to 18 sections)",
+      "Retrofit capability for older equipment",
+      "Weather station integration",
+      "Blockage sensor system",
+      "Physical aux-switch control options"
+    ],
     "worksWith": [
       "ISOBUS implements",
       "GFX displays"
@@ -975,17 +1086,36 @@
     "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-fieldiq-isobus-liquid-tanker.jpg",
     "images": [
       "/assets/vendor-images/ptx-trimble/ptx-fieldiq-isobus-liquid-tanker.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-fieldiq-isobus-liquid-orchard.jpg"
+      "/assets/vendor-images/ptx-trimble/ptx-fieldiq-isobus-liquid-orchard.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-1.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-1.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-2.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-3.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-4.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-5.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-6.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-7.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-8.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-9.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-10.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-11.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-12.jpg"
     ],
     "createdAt": "2025-12-16T23:41:20.955Z",
-    "updatedAt": "2026-07-27T20:07:11.572Z",
-    "enrichedDescription": null,
-    "detailedFeatures": null,
-    "benefits": null,
+    "updatedAt": "2026-07-31T13:40:15.254Z",
+    "enrichedDescription": "An industry-standard protocol enabling cross-brand equipment compatibility. Settings store on implement ECUs and auto-transfer to compatible displays for plug-and-play functionality, managing seed, fertilizer, spray, spread, and slurry applications across mixed-brand fleets.",
+    "detailedFeatures": [
+      "Configures ISOBUS implements with switch details and an implement summary specific to ISOBUS application control",
+      "Runs on the same Precision-IQ Run screen as Field-IQ and Serial VR/TUVR controllers, with Section Master status and rate/section widgets",
+      "Coverage layer logging and editing for as-applied liquid records"
+    ],
+    "benefits": [
+      "Standardized ISOBUS control means the same GFX display can run ISOBUS-certified implements from multiple manufacturers"
+    ],
     "researchFindings": null,
     "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": null
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-31T13:41:33.791Z"
   },
   {
     "id": "b84e3bc1-cc99-4c65-925e-3d1ab24120f4",
@@ -2605,19 +2735,37 @@
     "brand": "PTx Trimble",
     "equipment": "Hardware",
     "category": "Steering Systems",
-    "tagline": "Active implement steering for perfect row alignment",
-    "shortDescription": "Keeps implements precisely on the guidance line regardless of field conditions.",
+    "tagline": "Uses your Autopilot system to actively guide the implement independently from your tractor.",
+    "shortDescription": "The TrueTracker implement steering system provides independent control of implement positioning during farming operations, enabling separate calibration, multiple guidance patterns, and individualized steering control. It maintains accuracy on challenging terrain and works with implements featuring ",
     "oemUrl": "https://ptxtrimble.com/en/products/hardware/steering-systems/truetracker-implement-steering-system",
     "highlights": [
-      "Active implement control",
-      "Reduces skips and overlaps",
-      "Works on hillsides"
+      "Corrects implement position independently from tractor guidance path",
+      "Down to 1 inch (2.5 cm) accuracy on repeatable paths",
+      "Advanced terrain compensation for rough/difficult environments and side-slopes",
+      "Works in reverse for improved maneuverability of large implements"
     ],
     "keyFeatures": [
-      "Implement guidance",
-      "Active steering"
+      "Corrects implement position independently from tractor guidance path",
+      "Down to 1 inch (2.5 cm) accuracy on repeatable paths",
+      "Advanced terrain compensation for rough/difficult environments and side-slopes",
+      "Works in reverse for improved maneuverability of large implements",
+      "Steer to Zero feature for automatic centering after lifting",
+      "Dual Stage Engage for customized engagement timing",
+      "Compatible with implements with or without built-in steering controls",
+      "Requires GFX-1260 or GFX-1060 display, NAV-960 or NAV-900 controller, and Autopilot/EZ-Pilot Pro system",
+      "Implement-mounted NAV-960 or NAV-900 controller with TrueTracker license"
     ],
-    "specs": [],
+    "specs": [
+      "Corrects implement position independently from tractor guidance path",
+      "Down to 1 inch (2.5 cm) accuracy on repeatable paths",
+      "Advanced terrain compensation for rough/difficult environments and side-slopes",
+      "Works in reverse for improved maneuverability of large implements",
+      "Steer to Zero feature for automatic centering after lifting",
+      "Dual Stage Engage for customized engagement timing",
+      "Compatible with implements with or without built-in steering controls",
+      "Requires GFX-1260 or GFX-1060 display, NAV-960 or NAV-900 controller, and Autopilot/EZ-Pilot Pro system",
+      "Implement-mounted NAV-960 or NAV-900 controller with TrueTracker license"
+    ],
     "worksWith": [
       "Autopilot",
       "NAV-960"
@@ -2631,11 +2779,20 @@
       "/assets/vendor-images/ptx-trimble/ptx-truetracker-hero.jpg",
       "/assets/vendor-images/ptx-trimble/ptx-truetracker-tractor.jpg",
       "/assets/vendor-images/ptx-trimble/ptx-truetracker-implement.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-truetracker-incab.jpg"
+      "/assets/vendor-images/ptx-trimble/ptx-truetracker-incab.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-1.webp",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-1.webp",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-2.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-3.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-4.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-5.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-6.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-7.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-8.jpg"
     ],
     "createdAt": "2025-12-16T23:41:20.807Z",
-    "updatedAt": "2026-07-27T20:07:11.419Z",
-    "enrichedDescription": null,
+    "updatedAt": "2026-07-31T13:40:15.254Z",
+    "enrichedDescription": "The TrueTracker implement steering system provides independent control of implement positioning during farming operations, enabling separate calibration, multiple guidance patterns, and individualized steering control. It maintains accuracy on challenging terrain and works with implements featuring steerable controls or aftermarket steering solutions.",
     "detailedFeatures": null,
     "benefits": null,
     "researchFindings": null,
@@ -2750,19 +2907,41 @@
     "brand": "PTx Trimble",
     "equipment": "Hardware",
     "category": "Application Control",
-    "tagline": "See-and-spray weed detection system",
-    "shortDescription": "Real-time weed detection and targeted application to reduce chemical use.",
+    "tagline": "Your Sprayer, Only Smarter.",
+    "shortDescription": "PTx Trimble's spot spraying technology uses advanced optics and processing power to detect and eliminate resistant weeds. The system works in various environments including row crops, orchards, and parking areas, enabling herbicide application only to detected weeds.",
     "oemUrl": "https://ptxtrimble.com/en/products/hardware/flow-application-control/weedseeker-2-spot-spray-system",
     "highlights": [
-      "90% chemical savings",
-      "Real-time detection",
-      "Fallow field application"
+      "Intelligent sensor technology",
+      "Lightweight sensors and cabling",
+      "Weed mapping and automatic section control",
+      "Automatic turn compensation"
     ],
     "keyFeatures": [
-      "Optical sensing",
-      "Targeted spraying"
+      "Intelligent sensor technology",
+      "Lightweight sensors and cabling",
+      "Weed mapping and automatic section control",
+      "Automatic turn compensation",
+      "Universal mount for easy installation",
+      "Day/night operation capability",
+      "Operating speeds up to 25 mph (40 kph)",
+      "Quick automatic calibration",
+      "Herbicide reduction up to 90%",
+      "ISOBUS-compatible display compatibility",
+      "Retrofit capability to existing equipment"
     ],
-    "specs": [],
+    "specs": [
+      "Intelligent sensor technology",
+      "Lightweight sensors and cabling",
+      "Weed mapping and automatic section control",
+      "Automatic turn compensation",
+      "Universal mount for easy installation",
+      "Day/night operation capability",
+      "Operating speeds up to 25 mph (40 kph)",
+      "Quick automatic calibration",
+      "Herbicide reduction up to 90%",
+      "ISOBUS-compatible display compatibility",
+      "Retrofit capability to existing equipment"
+    ],
     "worksWith": [
       "Sprayers",
       "GFX displays"
@@ -2774,11 +2953,17 @@
     "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-weedseeker2-hero.jpg",
     "images": [
       "/assets/vendor-images/ptx-trimble/ptx-weedseeker2-hero.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-weedseeker2-field.jpg"
+      "/assets/vendor-images/ptx-trimble/ptx-weedseeker2-field.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-2.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-2.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-3.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-4.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-5.jpg",
+      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-6.jpg"
     ],
     "createdAt": "2025-12-16T23:41:20.910Z",
-    "updatedAt": "2026-07-27T20:07:11.522Z",
-    "enrichedDescription": null,
+    "updatedAt": "2026-07-31T13:40:15.255Z",
+    "enrichedDescription": "PTx Trimble's spot spraying technology uses advanced optics and processing power to detect and eliminate resistant weeds. The system works in various environments including row crops, orchards, and parking areas, enabling herbicide application only to detected weeds.",
     "detailedFeatures": null,
     "benefits": null,
     "researchFindings": null,
@@ -4030,12 +4215,23 @@
     "createdAt": "2026-07-27T22:23:12.421Z",
     "updatedAt": "2026-07-27T22:23:12.421Z",
     "enrichedDescription": "GFX displays, powered by Precision-IQ, provide a single hub for managing in-field work, including auto-guidance and application control. The GFX-350 is the entry-level model in the GFX lineup with a 7-inch high-definition touchscreen.",
-    "detailedFeatures": null,
-    "benefits": null,
+    "detailedFeatures": [
+      "Built-in Wi-Fi and Bluetooth on every GFX display for wireless connectivity without add-on hardware",
+      "App Central marketplace for browsing and installing licensed third-party apps, plus over-the-air (OTA) firmware updates",
+      "Precision-IQ Home and Run screens unify guidance, resource management, and application control in one interface",
+      "AutoSync wirelessly syncs fields, boundaries, guidance lines, vehicles, implements, and as-applied task data with FarmENGAGE",
+      "Dedicated Ethernet/power port for connecting and powering a NAV-family GNSS guidance controller",
+      "Aux-N auxiliary input passthrough and single external camera support"
+    ],
+    "benefits": [
+      "One display handles guidance, mapping, and application control instead of running separate systems",
+      "Wireless AutoSync eliminates manual USB file transfers between the field and the office",
+      "App Central and OTA updates keep the display current without a dealer visit"
+    ],
     "researchFindings": null,
     "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": "2026-07-27T22:23:12.421Z",
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-31T13:41:33.789Z",
     "brochures": [],
     "isVendorSweep": true,
     "vendorPriority": true
@@ -4098,12 +4294,22 @@
     "createdAt": "2026-07-27T22:23:12.421Z",
     "updatedAt": "2026-07-27T22:23:12.421Z",
     "enrichedDescription": "GFX displays, powered by Precision-IQ, provide a single hub for managing in-field work, including auto-guidance and application control. The GFX-1060 is the mid-tier model with a 10.1-inch touchscreen and expanded I/O for multi-channel application control.",
-    "detailedFeatures": null,
-    "benefits": null,
+    "detailedFeatures": [
+      "Built-in Wi-Fi and Bluetooth, App Central app marketplace, and over-the-air firmware updates",
+      "Precision-IQ Home and Run screens for guidance, resource management, and application control",
+      "AutoSync wirelessly syncs fields, boundaries, guidance lines, vehicles, implements, and as-applied data with FarmENGAGE",
+      "Supports Remote Output (with a NAV-900 receiver, RTK-class correction, and a Field-IQ Rate and Section Control module) for triggering third-party equipment off a grid pattern or field feature",
+      "Dedicated Ethernet/power ports for NAV-family GNSS guidance controllers, plus Aux-N passthrough and external camera support"
+    ],
+    "benefits": [
+      "Larger high-definition screen than the GFX-350 for more on-screen guidance and application detail",
+      "Remote Output support opens up precision activation of third-party implements the display wasn't originally wired for",
+      "Wireless AutoSync keeps FarmENGAGE records current without manual file transfers"
+    ],
     "researchFindings": null,
     "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": "2026-07-27T22:23:12.421Z",
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-31T13:41:33.791Z",
     "brochures": [],
     "isVendorSweep": true,
     "vendorPriority": true
@@ -4163,12 +4369,22 @@
     "createdAt": "2026-07-27T22:23:12.421Z",
     "updatedAt": "2026-07-27T22:23:12.421Z",
     "enrichedDescription": "GFX displays, powered by Precision-IQ, provide a single hub for managing in-field work, including auto-guidance and application control. The GFX-1260 is the flagship model with a 12.1-inch touchscreen and the most extensive I/O for large, complex operations.",
-    "detailedFeatures": null,
-    "benefits": null,
+    "detailedFeatures": [
+      "Built-in Wi-Fi and Bluetooth, App Central app marketplace, and over-the-air firmware updates",
+      "Precision-IQ Home and Run screens for guidance, resource management, and application control",
+      "AutoSync wirelessly syncs fields, boundaries, guidance lines, vehicles, implements, and as-applied data with FarmENGAGE",
+      "Supports Remote Output (with a NAV-900 receiver, RTK-class correction, and a Field-IQ Rate and Section Control module) for triggering third-party equipment off a grid pattern or field feature",
+      "Dual Ethernet/power ports for connecting two NAV-family GNSS guidance controllers, plus Aux-N passthrough and external camera support"
+    ],
+    "benefits": [
+      "The largest screen in the GFX lineup for operators running complex, multi-channel application jobs",
+      "Remote Output support opens up precision activation of third-party implements the display wasn't originally wired for",
+      "Dual GNSS controller ports support advanced guidance setups other GFX models can't run"
+    ],
     "researchFindings": null,
     "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": "2026-07-27T22:23:12.421Z",
+    "contentEnriched": true,
+    "lastContentUpdate": "2026-07-31T13:41:33.791Z",
     "brochures": [
       "https://cdn.bfldr.com/7M6SII1K/as/h9k88sbtmrtmqr24kzhpnx9t/GFX-1260_Datasheet__EN-US"
     ],
@@ -4639,291 +4855,6 @@
     "vendorPriority": true
   },
   {
-    "id": "e27ac192-efd8-4804-9c19-c2801b7b8c73",
-    "name": "TrueTracker Implement Steering System",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Steering Systems",
-    "tagline": "Uses your Autopilot system to actively guide the implement independently from your tractor.",
-    "shortDescription": "The TrueTracker implement steering system provides independent control of implement positioning during farming operations, enabling separate calibration, multiple guidance patterns, and individualized steering control. It maintains accuracy on challenging terrain and works with implements featuring ",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/steering-systems/truetracker-implement-steering-system",
-    "highlights": [
-      "Corrects implement position independently from tractor guidance path",
-      "Down to 1 inch (2.5 cm) accuracy on repeatable paths",
-      "Advanced terrain compensation for rough/difficult environments and side-slopes",
-      "Works in reverse for improved maneuverability of large implements"
-    ],
-    "keyFeatures": [
-      "Corrects implement position independently from tractor guidance path",
-      "Down to 1 inch (2.5 cm) accuracy on repeatable paths",
-      "Advanced terrain compensation for rough/difficult environments and side-slopes",
-      "Works in reverse for improved maneuverability of large implements",
-      "Steer to Zero feature for automatic centering after lifting",
-      "Dual Stage Engage for customized engagement timing",
-      "Compatible with implements with or without built-in steering controls",
-      "Requires GFX-1260 or GFX-1060 display, NAV-960 or NAV-900 controller, and Autopilot/EZ-Pilot Pro system",
-      "Implement-mounted NAV-960 or NAV-900 controller with TrueTracker license"
-    ],
-    "specs": [
-      "Corrects implement position independently from tractor guidance path",
-      "Down to 1 inch (2.5 cm) accuracy on repeatable paths",
-      "Advanced terrain compensation for rough/difficult environments and side-slopes",
-      "Works in reverse for improved maneuverability of large implements",
-      "Steer to Zero feature for automatic centering after lifting",
-      "Dual Stage Engage for customized engagement timing",
-      "Compatible with implements with or without built-in steering controls",
-      "Requires GFX-1260 or GFX-1060 display, NAV-960 or NAV-900 controller, and Autopilot/EZ-Pilot Pro system",
-      "Implement-mounted NAV-960 or NAV-900 controller with TrueTracker license"
-    ],
-    "worksWith": [],
-    "slug": "truetracker-implement-steering-system",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-1.webp",
-    "images": [
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-1.webp",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-2.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-3.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-4.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-5.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-6.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-7.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-8.jpg"
-    ],
-    "createdAt": "2026-07-27T22:23:12.421Z",
-    "updatedAt": "2026-07-27T22:23:12.421Z",
-    "enrichedDescription": "The TrueTracker implement steering system provides independent control of implement positioning during farming operations, enabling separate calibration, multiple guidance patterns, and individualized steering control. It maintains accuracy on challenging terrain and works with implements featuring steerable controls or aftermarket steering solutions.",
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": "2026-07-27T22:23:12.421Z",
-    "brochures": [
-      "https://cdn.bfldr.com/7M6SII1K/as/45pj4r7z2x36b9j654qvk653/TrueTracker_Data_Sheet"
-    ],
-    "isVendorSweep": true,
-    "vendorPriority": true
-  },
-  {
-    "id": "1e43dc24-dd4a-4ce4-a956-9a286fda9a19",
-    "name": "Field-IQ Crop Input Control System",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Application Control",
-    "tagline": "Proprietary technology that makes planting, seeding and application activities more productive and efficient.",
-    "shortDescription": "PTx Trimble's Field-IQ system manages flow and application to prevent seed and fertilizer overlap, control the rate of material applied, monitor seed delivery and fertilizer blockage, and automatically control spinner speed for spreading.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/flow-application-control/field-iq-crop-input-control-system",
-    "highlights": [
-      "Compatible with planters, spreaders, sprayers, air seeders, and liquid strip-till bars",
-      "Variable rate application control using Trimble Rawson drives",
-      "Automatic section control with optional Tru Count Electric Row Clutch and Tru Count LiquiBlock Valves",
-      "Seed monitoring functionality"
-    ],
-    "keyFeatures": [
-      "Compatible with planters, spreaders, sprayers, air seeders, and liquid strip-till bars",
-      "Variable rate application control using Trimble Rawson drives",
-      "Automatic section control with optional Tru Count Electric Row Clutch and Tru Count LiquiBlock Valves",
-      "Seed monitoring functionality",
-      "Spinner speed control",
-      "Modular design enabling expansion and flexibility",
-      "Multi-channel, multi-section, and multi-row control capabilities",
-      "Population and blockage monitoring",
-      "Skip, multiple, and spacing management during operations",
-      "Broad implement compatibility regardless of make/model"
-    ],
-    "specs": [
-      "Compatible with planters, spreaders, sprayers, air seeders, and liquid strip-till bars",
-      "Variable rate application control using Trimble Rawson drives",
-      "Automatic section control with optional Tru Count Electric Row Clutch and Tru Count LiquiBlock Valves",
-      "Seed monitoring functionality",
-      "Spinner speed control",
-      "Modular design enabling expansion and flexibility",
-      "Multi-channel, multi-section, and multi-row control capabilities",
-      "Population and blockage monitoring",
-      "Skip, multiple, and spacing management during operations",
-      "Broad implement compatibility regardless of make/model"
-    ],
-    "worksWith": [],
-    "slug": "field-iq-crop-input-control-system",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-1.jpg",
-    "images": [
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-1.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-2.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-3.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-4.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-5.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-6.jpg"
-    ],
-    "createdAt": "2026-07-27T22:23:12.421Z",
-    "updatedAt": "2026-07-27T22:23:12.421Z",
-    "enrichedDescription": "PTx Trimble's Field-IQ system manages flow and application to prevent seed and fertilizer overlap, control the rate of material applied, monitor seed delivery and fertilizer blockage, and automatically control spinner speed for spreading.",
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": "2026-07-27T22:23:12.421Z",
-    "brochures": [
-      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
-    ],
-    "isVendorSweep": true,
-    "vendorPriority": true
-  },
-  {
-    "id": "19fce5d1-7ed9-4540-b62c-66dd609f7125",
-    "name": "Field-IQ ISOBUS Solutions",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Application Control",
-    "tagline": "Unlock the full potential of your equipment with less time spent troubleshooting.",
-    "shortDescription": "An industry-standard protocol enabling cross-brand equipment compatibility. Settings store on implement ECUs and auto-transfer to compatible displays for plug-and-play functionality, managing seed, fertilizer, spray, spread, and slurry applications across mixed-brand fleets.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/flow-application-control/field-iq-isobus-liquid-control-system",
-    "highlights": [
-      "ISOBUS-compatible display integration",
-      "Electronic Control Unit (ECU) storage",
-      "Multi-implement management from single display",
-      "Seeder/Planter control with overlap reduction"
-    ],
-    "keyFeatures": [
-      "ISOBUS-compatible display integration",
-      "Electronic Control Unit (ECU) storage",
-      "Multi-implement management from single display",
-      "Seeder/Planter control with overlap reduction",
-      "Spreader control with bin monitoring",
-      "Advanced sprayer section and boom control",
-      "Orchard/Vineyard specialized spraying",
-      "Liquid application rate control (including NH3)",
-      "Slurry system management (up to 18 sections)",
-      "Retrofit capability for older equipment",
-      "Weather station integration",
-      "Blockage sensor system",
-      "Physical aux-switch control options"
-    ],
-    "specs": [
-      "ISOBUS-compatible display integration",
-      "Electronic Control Unit (ECU) storage",
-      "Multi-implement management from single display",
-      "Seeder/Planter control with overlap reduction",
-      "Spreader control with bin monitoring",
-      "Advanced sprayer section and boom control",
-      "Orchard/Vineyard specialized spraying",
-      "Liquid application rate control (including NH3)",
-      "Slurry system management (up to 18 sections)",
-      "Retrofit capability for older equipment",
-      "Weather station integration",
-      "Blockage sensor system",
-      "Physical aux-switch control options"
-    ],
-    "worksWith": [],
-    "slug": "field-iq-isobus-solutions",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-1.jpg",
-    "images": [
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-1.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-2.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-3.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-4.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-5.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-6.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-7.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-8.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-9.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-10.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-11.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-12.jpg"
-    ],
-    "createdAt": "2026-07-27T22:23:12.421Z",
-    "updatedAt": "2026-07-27T22:23:12.421Z",
-    "enrichedDescription": "An industry-standard protocol enabling cross-brand equipment compatibility. Settings store on implement ECUs and auto-transfer to compatible displays for plug-and-play functionality, managing seed, fertilizer, spray, spread, and slurry applications across mixed-brand fleets.",
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": "2026-07-27T22:23:12.421Z",
-    "brochures": [
-      "https://cdn.bfldr.com/7M6SII1K/as/8hr8hfrns2mrv6ckxrws4kx/PTx_Trimble_ISOBUS_eBook"
-    ],
-    "isVendorSweep": true,
-    "vendorPriority": true
-  },
-  {
-    "id": "4c11e006-01cc-4058-a252-8fe7526df954",
-    "name": "WeedSeeker 2 Spot Spray System",
-    "brand": "PTx Trimble",
-    "equipment": "Hardware",
-    "category": "Application Control",
-    "tagline": "Your Sprayer, Only Smarter.",
-    "shortDescription": "PTx Trimble's spot spraying technology uses advanced optics and processing power to detect and eliminate resistant weeds. The system works in various environments including row crops, orchards, and parking areas, enabling herbicide application only to detected weeds.",
-    "oemUrl": "https://ptxtrimble.com/en/products/hardware/flow-application-control/weedseeker-2-spot-spray-system",
-    "highlights": [
-      "Intelligent sensor technology",
-      "Lightweight sensors and cabling",
-      "Weed mapping and automatic section control",
-      "Automatic turn compensation"
-    ],
-    "keyFeatures": [
-      "Intelligent sensor technology",
-      "Lightweight sensors and cabling",
-      "Weed mapping and automatic section control",
-      "Automatic turn compensation",
-      "Universal mount for easy installation",
-      "Day/night operation capability",
-      "Operating speeds up to 25 mph (40 kph)",
-      "Quick automatic calibration",
-      "Herbicide reduction up to 90%",
-      "ISOBUS-compatible display compatibility",
-      "Retrofit capability to existing equipment"
-    ],
-    "specs": [
-      "Intelligent sensor technology",
-      "Lightweight sensors and cabling",
-      "Weed mapping and automatic section control",
-      "Automatic turn compensation",
-      "Universal mount for easy installation",
-      "Day/night operation capability",
-      "Operating speeds up to 25 mph (40 kph)",
-      "Quick automatic calibration",
-      "Herbicide reduction up to 90%",
-      "ISOBUS-compatible display compatibility",
-      "Retrofit capability to existing equipment"
-    ],
-    "worksWith": [],
-    "slug": "weedseeker-2-spot-spray-system",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-2.jpg",
-    "images": [
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-2.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-3.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-4.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-5.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-6.jpg"
-    ],
-    "createdAt": "2026-07-27T22:23:12.421Z",
-    "updatedAt": "2026-07-27T22:23:12.421Z",
-    "enrichedDescription": "PTx Trimble's spot spraying technology uses advanced optics and processing power to detect and eliminate resistant weeds. The system works in various environments including row crops, orchards, and parking areas, enabling herbicide application only to detected weeds.",
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": "2026-07-27T22:23:12.421Z",
-    "brochures": [
-      "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
-    ],
-    "isVendorSweep": true,
-    "vendorPriority": true
-  },
-  {
     "id": "cacb0e2d-1936-4a71-acb5-f8caf2d43619",
     "name": "WM-FieldForm",
     "brand": "PTx Trimble",
@@ -5223,86 +5154,6 @@
     "lastContentUpdate": "2026-07-27T22:23:12.421Z",
     "brochures": [
       "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
-    ],
-    "isVendorSweep": true,
-    "vendorPriority": true
-  },
-  {
-    "id": "67a9c6c3-71f9-4dac-88ff-3a6322e7cc6a",
-    "name": "PTx FarmENGAGE",
-    "brand": "PTx Trimble",
-    "equipment": "Software",
-    "category": "Software",
-    "tagline": "The next generation of farm operations management software built to bring simplicity, connectivity, and control to your entire fleet.",
-    "shortDescription": "Farm operations management platform enabling users to manage equipment fleets regardless of brand or model year from field or office locations. Supports pre-season planning, in-season execution, and post-season analysis workflows, with two tiers: Data (basic) and Operations (advanced analytics).",
-    "oemUrl": "https://www.ptxag.com/en/farmengage/",
-    "highlights": [
-      "On-demand real-time status data across mixed fleet operations",
-      "Automated data transfer and syncing between office and in-cab displays",
-      "Centralized data management with automatic information collection",
-      "Live team communication and work order capabilities"
-    ],
-    "keyFeatures": [
-      "On-demand real-time status data across mixed fleet operations",
-      "Automated data transfer and syncing between office and in-cab displays",
-      "Centralized data management with automatic information collection",
-      "Live team communication and work order capabilities",
-      "Connectivity Center (for AGCO equipment users)",
-      "Field Manager resource creation and management tools",
-      "Direct Send technology for targeted device deployment",
-      "AutoSync automatic synchronization across connected devices",
-      "Work Orders for streamlined in-field task management",
-      "Third-party data integrations (Raven, John Deere, Case IH, New Holland)",
-      "App Central library on GFX displays",
-      "Two tier options: Data (basic) and Operations (advanced analytics)"
-    ],
-    "specs": [
-      "On-demand real-time status data across mixed fleet operations",
-      "Automated data transfer and syncing between office and in-cab displays",
-      "Centralized data management with automatic information collection",
-      "Live team communication and work order capabilities",
-      "Connectivity Center (for AGCO equipment users)",
-      "Field Manager resource creation and management tools",
-      "Direct Send technology for targeted device deployment",
-      "AutoSync automatic synchronization across connected devices",
-      "Work Orders for streamlined in-field task management",
-      "Third-party data integrations (Raven, John Deere, Case IH, New Holland)",
-      "App Central library on GFX displays",
-      "Two tier options: Data (basic) and Operations (advanced analytics)"
-    ],
-    "worksWith": [],
-    "slug": "ptx-ptx-farmengage",
-    "logoBlack": null,
-    "logoDarkGreen": null,
-    "logoWhite": null,
-    "primaryImage": "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-1.webp",
-    "images": [
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-1.webp",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-2.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-3.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-4.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-5.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-6.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-7.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-8.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-9.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-10.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-11.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-12.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-13.jpg",
-      "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-14.jpg"
-    ],
-    "createdAt": "2026-07-27T22:23:12.421Z",
-    "updatedAt": "2026-07-27T22:23:12.421Z",
-    "enrichedDescription": "Farm operations management platform enabling users to manage equipment fleets regardless of brand or model year from field or office locations. Supports pre-season planning, in-season execution, and post-season analysis workflows, with two tiers: Data (basic) and Operations (advanced analytics).",
-    "detailedFeatures": null,
-    "benefits": null,
-    "researchFindings": null,
-    "compatibilityDetails": null,
-    "contentEnriched": null,
-    "lastContentUpdate": "2026-07-27T22:23:12.421Z",
-    "brochures": [
-      "https://cdn.bfldr.com/7M6SII1K/as/wfn55827gh4mftm7j66p2jv/PTxT_DataSheet_FarmENGAGE_Overview"
     ],
     "isVendorSweep": true,
     "vendorPriority": true
