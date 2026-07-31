@@ -419,7 +419,7 @@
         ],
         "images": [
           "/assets/vendor-images/ag-leader/ag-leader-incommand-go-16-1.png",
-          "/assets/vendor-images/ag-leader/ag-leader-incommand-go-10-1.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-incommand-go-10-1.png",
           "/assets/vendor-images/ag-leader/ag-leader-incommand-go-10-2.png",
           "/assets/vendor-images/ag-leader/ag-leader-incommand-go-10-3.png",
           "/assets/vendor-images/ag-leader/ag-leader-incommand-go-10-4.png",
@@ -484,9 +484,9 @@
           "/assets/vendor-images/ag-leader/ag-leader-steadysteer-1.png",
           "/assets/vendor-images/ag-leader/ag-leader-steadysteer-2.png",
           "/assets/vendor-images/ag-leader/ag-leader-steadysteer-3.png",
-          "/assets/vendor-images/ag-leader/ag-leader-steadysteer-4.jpg",
-          "/assets/vendor-images/ag-leader/ag-leader-steadysteer-5.jpg",
-          "/assets/vendor-images/ag-leader/ag-leader-steadysteer-6.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-steadysteer-4.png",
+          "/assets/vendor-images/ag-leader/ag-leader-steadysteer-5.png",
+          "/assets/vendor-images/ag-leader/ag-leader-steadysteer-6.png",
           "/assets/vendor-images/ag-leader/ag-leader-steadysteer-7.png"
         ],
         "brochures": [],
@@ -514,7 +514,7 @@
         "images": [
           "/assets/vendor-images/ag-leader/ag-leader-gps-7500-1.png",
           "/assets/vendor-images/ag-leader/ag-leader-gps-7500-2.png",
-          "/assets/vendor-images/ag-leader/ag-leader-gps-7500-3.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-gps-7500-3.png",
           "/assets/vendor-images/ag-leader/ag-leader-gps-7500-4.jpg",
           "/assets/vendor-images/ag-leader/ag-leader-gps-7500-5.png"
         ],
@@ -597,7 +597,7 @@
         ],
         "images": [
           "/assets/vendor-images/ag-leader/ag-leader-turnpath-1.png",
-          "/assets/vendor-images/ag-leader/ag-leader-turnpath-2.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-turnpath-2.png",
           "/assets/vendor-images/ag-leader/ag-leader-turnpath-3.png",
           "/assets/vendor-images/ag-leader/ag-leader-turnpath-4.png",
           "/assets/vendor-images/ag-leader/ag-leader-turnpath-5.png",
@@ -628,11 +628,11 @@
         ],
         "images": [
           "/assets/vendor-images/ag-leader/ag-leader-rightpath-1.png",
-          "/assets/vendor-images/ag-leader/ag-leader-rightpath-2.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-rightpath-2.png",
           "/assets/vendor-images/ag-leader/ag-leader-rightpath-3.png",
           "/assets/vendor-images/ag-leader/ag-leader-rightpath-4.png",
-          "/assets/vendor-images/ag-leader/ag-leader-rightpath-5.jpg",
-          "/assets/vendor-images/ag-leader/ag-leader-rightpath-6.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-rightpath-5.png",
+          "/assets/vendor-images/ag-leader/ag-leader-rightpath-6.png",
           "/assets/vendor-images/ag-leader/ag-leader-rightpath-7.png"
         ],
         "brochures": [],
@@ -688,7 +688,7 @@
         ],
         "images": [
           "/assets/vendor-images/ag-leader/ag-leader-surespeed-1.png",
-          "/assets/vendor-images/ag-leader/ag-leader-surespeed-2.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-surespeed-2.png",
           "/assets/vendor-images/ag-leader/ag-leader-surespeed-3.png",
           "/assets/vendor-images/ag-leader/ag-leader-surespeed-4.png"
         ],
@@ -717,7 +717,7 @@
         ],
         "images": [
           "/assets/vendor-images/ag-leader/ag-leader-suredrive-1.png",
-          "/assets/vendor-images/ag-leader/ag-leader-suredrive-2.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-suredrive-2.png",
           "/assets/vendor-images/ag-leader/ag-leader-suredrive-3.png",
           "/assets/vendor-images/ag-leader/ag-leader-suredrive-4.png"
         ],
@@ -809,7 +809,7 @@
           "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-5.png",
           "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-6.png",
           "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-7.jpg",
-          "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-8.jpg"
+          "/assets/vendor-images/ag-leader/ag-leader-directcommand-l2-8.png"
         ],
         "brochures": [],
         "priority": false,
@@ -835,7 +835,7 @@
           "/assets/vendor-images/ag-leader/ag-leader-boomloop-1.png",
           "/assets/vendor-images/ag-leader/ag-leader-boomloop-2.png",
           "/assets/vendor-images/ag-leader/ag-leader-boomloop-3.png",
-          "/assets/vendor-images/ag-leader/ag-leader-boomloop-4.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-boomloop-4.png",
           "/assets/vendor-images/ag-leader/ag-leader-boomloop-5.png"
         ],
         "brochures": [],
@@ -891,7 +891,7 @@
           "/assets/vendor-images/ag-leader/ag-leader-yield-monitor-1.png",
           "/assets/vendor-images/ag-leader/ag-leader-yield-monitor-2.jpg",
           "/assets/vendor-images/ag-leader/ag-leader-yield-monitor-3.jpg",
-          "/assets/vendor-images/ag-leader/ag-leader-yield-monitor-4.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-yield-monitor-4.png",
           "/assets/vendor-images/ag-leader/ag-leader-yield-monitor-5.png"
         ],
         "brochures": [],
@@ -944,10 +944,10 @@
         ],
         "images": [
           "/assets/vendor-images/ag-leader/ag-leader-z-row-1.png",
-          "/assets/vendor-images/ag-leader/ag-leader-z-row-2.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-z-row-2.png",
           "/assets/vendor-images/ag-leader/ag-leader-z-row-3.png",
           "/assets/vendor-images/ag-leader/ag-leader-z-row-4.png",
-          "/assets/vendor-images/ag-leader/ag-leader-z-row-5.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-z-row-5.png",
           "/assets/vendor-images/ag-leader/ag-leader-z-row-6.png",
           "https://www.agleader.com/wp-content/uploads/2026/04/Z-Row-CLP.png"
         ],
@@ -978,7 +978,7 @@
           "/assets/vendor-images/ag-leader/ag-leader-intellislope-3.png",
           "/assets/vendor-images/ag-leader/ag-leader-intellislope-4.png",
           "/assets/vendor-images/ag-leader/ag-leader-intellislope-5.gif",
-          "/assets/vendor-images/ag-leader/ag-leader-intellislope-6.jpg",
+          "/assets/vendor-images/ag-leader/ag-leader-intellislope-6.png",
           "/assets/vendor-images/ag-leader/ag-leader-intellislope-7.png"
         ],
         "brochures": [],
@@ -2188,7 +2188,7 @@
         ],
         "images": [
           "/assets/vendor-images/harvest-international/harvest-international-the-challenger-head-trailer-1.jpg",
-          "/assets/vendor-images/harvest-international/harvest-international-the-challenger-head-trailer-2.jpg"
+          "/assets/vendor-images/harvest-international/harvest-international-the-challenger-head-trailer-2.png"
         ],
         "brochures": [
           "https://drive.google.com/file/d/1yUF-9lW99Vw0LoiYlzU1eZSVgHUNLN1C/view?usp=sharing"
@@ -2212,7 +2212,7 @@
         ],
         "images": [
           "/assets/vendor-images/harvest-international/harvest-international-the-commander-head-trailer-1.jpg",
-          "/assets/vendor-images/harvest-international/harvest-international-the-challenger-head-trailer-2.jpg"
+          "/assets/vendor-images/harvest-international/harvest-international-the-challenger-head-trailer-2.png"
         ],
         "brochures": [
           "https://drive.google.com/file/d/1yUF-9lW99Vw0LoiYlzU1eZSVgHUNLN1C/view?usp=sharing"
@@ -2280,9 +2280,9 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-gfx-1060-display-1.png",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-gfx-1060-display-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-gfx-1060-display-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-gfx-1060-display-4.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-gfx-1060-display-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-gfx-1060-display-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-gfx-1060-display-4.webp"
         ],
         "brochures": [],
         "priority": true,
@@ -2343,12 +2343,12 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-6.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-7.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-6.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-7.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/378nrcvg49mwk3xjfhv62f/TMX-2050_Data_Sheet__EN-US"
@@ -2377,8 +2377,8 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-smart570-universal-terminal-display-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-smart570-universal-terminal-display-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-smart570-universal-terminal-display-3.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-smart570-universal-terminal-display-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-smart570-universal-terminal-display-3.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/tchp4fmnhpjj4g65mj7ww/SMART570_Data_Sheet__EN-US"
@@ -2408,15 +2408,15 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-6.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-7.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-8.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-9.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-10.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-6.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-7.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-8.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-9.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-10.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/x94ps5xp3r3wbw3crv97wn/PTx_Trimble_NAV-960_Data_Sheet_-_English"
@@ -2443,9 +2443,9 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-500-guidance-controller-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-500-guidance-controller-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-500-guidance-controller-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-500-guidance-controller-4.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-500-guidance-controller-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-500-guidance-controller-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-500-guidance-controller-4.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2475,13 +2475,13 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-7.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-6.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-7.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-960-guidance-controller-7.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-6.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-7.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2507,7 +2507,7 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-ag-392-receiver-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ag-392-receiver-2.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ag-392-receiver-2.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2537,9 +2537,9 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-r750-modular-gnss-receiver-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-r750-modular-gnss-receiver-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-r750-modular-gnss-receiver-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-r750-modular-gnss-receiver-4.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-r750-modular-gnss-receiver-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-r750-modular-gnss-receiver-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-r750-modular-gnss-receiver-4.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2571,14 +2571,14 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-6.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-7.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-8.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-9.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-6.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-7.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-8.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-9.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/6z3gfvtnbn9rvj6f79hgtv5p/Guidance__Steering_Brochure__EN-US"
@@ -2609,9 +2609,9 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-4.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-4.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/6z3gfvtnbn9rvj6f79hgtv5p/Guidance__Steering_Brochure__EN-US"
@@ -2639,13 +2639,13 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-pilot-pro-steering-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-pilot-pro-steering-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-pilot-pro-steering-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-pilot-pro-steering-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-7.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-8.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-9.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-pilot-pro-steering-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-pilot-pro-steering-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-pilot-pro-steering-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-7.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-8.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-autopilot-automated-steering-9.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/xx6mngt547hxg7h3ngtgwphc/EZ-Pilot_Pro_Data_Sheet__EN-US"
@@ -2675,9 +2675,9 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-steer-assisted-steering-system-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-steer-assisted-steering-system-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-steer-assisted-steering-system-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-steer-assisted-steering-system-4.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-steer-assisted-steering-system-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-steer-assisted-steering-system-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ez-steer-assisted-steering-system-4.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/8q6gmfx39s7sph45j47stsr/EZ-Steer_System_Data_Sheet__EN-US"
@@ -2706,13 +2706,13 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-6.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-7.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-8.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-6.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-7.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-truetracker-implement-steering-system-8.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/45pj4r7z2x36b9j654qvk653/TrueTracker_Data_Sheet"
@@ -2737,9 +2737,9 @@
           "Compatible with various guidance paths"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trueguide-implement-guidance-system-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trueguide-implement-guidance-system-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trueguide-implement-guidance-system-3.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trueguide-implement-guidance-system-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trueguide-implement-guidance-system-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trueguide-implement-guidance-system-3.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2768,12 +2768,12 @@
           "Broad implement compatibility regardless of make/model"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-6.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-crop-input-control-system-6.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2805,18 +2805,18 @@
           "Physical aux-switch control options"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-6.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-7.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-8.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-9.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-10.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-11.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-12.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-6.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-7.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-8.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-9.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-10.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-11.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-field-iq-isobus-solutions-12.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/8hr8hfrns2mrv6ckxrws4kx/PTx_Trimble_ISOBUS_eBook"
@@ -2847,11 +2847,11 @@
         ],
         "images": [
           "https://s7d9.scene7.com/is/image/agco/ptxt-weekseeker2-product-hero?fmt=png-alpha",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-6.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-weedseeker-2-spot-spray-system-6.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2877,9 +2877,9 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-greenseeker-handheld-crop-sensor-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-greenseeker-handheld-crop-sensor-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-greenseeker-handheld-crop-sensor-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-greenseeker-handheld-crop-sensor-4.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-greenseeker-handheld-crop-sensor-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-greenseeker-handheld-crop-sensor-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-greenseeker-handheld-crop-sensor-4.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2908,11 +2908,11 @@
           "GNSS positioning via NAV-960 guidance controller"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-5.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-5.webp"
         ],
         "brochures": [],
         "priority": true,
@@ -2934,7 +2934,7 @@
           "Enables live data collection for efficient grade control maintenance over time"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-verticalpoint-rtk-grade-control-1.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-verticalpoint-rtk-grade-control-1.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2962,9 +2962,9 @@
           "Integration with WM-Subsurface and WM-Form software"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-fieldlevel-ii-system-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-fieldlevel-ii-system-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-fieldlevel-ii-system-3.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-fieldlevel-ii-system-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-fieldlevel-ii-system-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-fieldlevel-ii-system-3.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -2990,13 +2990,13 @@
           "Coming soon: WM-FieldDrain with automated height control on Precision-IQ"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-6.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-tmx-2050-display-system-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-6.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/npqcmjtgkbs8995v53zjpq3/WM-FieldDrain_Data_Sheet_-_A4",
@@ -3024,8 +3024,8 @@
           "Desktop installation on Microsoft Windows 7 or above"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-subsurface-design-software-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-5.jpg",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-subsurface-design-software-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-5.webp",
           "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-subsurface-design-software-2.webp"
         ],
         "brochures": [
@@ -3053,9 +3053,9 @@
           "Compatible with PTx Trimble display systems"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-form-design-software-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-form-design-software-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-form-design-software-3.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-form-design-software-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-form-design-software-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-form-design-software-3.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/hkj7m4vhpn8m5gmm7zr544m6/PTx_Trimble_Product_Portfolio__EN-US"
@@ -3085,10 +3085,10 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-survey-ii-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-6.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-survey-ii-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-survey-ii-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-survey-ii-4.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-6.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-survey-ii-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-survey-ii-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-survey-ii-4.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/6rpwqv8bmkqv6b578xrrp4ng/WM-Survey_II_Data_Sheet__EN-US"
@@ -3120,19 +3120,19 @@
         ],
         "images": [
           "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-1.webp",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-6.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-7.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-8.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-9.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-10.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-11.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-12.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-13.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-14.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-6.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-7.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-8.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-9.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-10.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-11.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-12.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-13.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-ptx-farmengage-14.webp"
         ],
         "brochures": [
           "https://cdn.bfldr.com/7M6SII1K/as/wfn55827gh4mftm7j66p2jv/PTxT_DataSheet_FarmENGAGE_Overview"
@@ -3161,12 +3161,12 @@
           "Wireless app control from any location"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-6.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-outrun-retrofit-autonomy-kit-6.webp"
         ],
         "brochures": [],
         "priority": false,
@@ -3191,11 +3191,11 @@
           "Four service tiers: CenterPoint RTX, RangePoint RTX, ViewPoint RTX, and xFill Premium"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-rtx-correction-service-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-rtx-correction-service-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-rtx-correction-service-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-rtx-correction-service-4.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-rtx-correction-service-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-nav-900-guidance-controller-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-rtx-correction-service-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-rtx-correction-service-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-rtx-correction-service-4.webp"
         ],
         "brochures": [],
         "priority": false,
@@ -3220,11 +3220,11 @@
           "Applications: drainage, drip irrigation, land forming, strip-till, planting/seeding, spraying, spreading, harvesting"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-centerpoint-vrs-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-fieldlevel-ii-system-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-5.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-centerpoint-vrs-2.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-centerpoint-vrs-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-fieldlevel-ii-system-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-drain-solution-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-wm-fieldform-5.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-centerpoint-vrs-2.webp"
         ],
         "brochures": [],
         "priority": false,
@@ -3248,11 +3248,11 @@
           "Suitable for strip-till, planting/seeding, spraying, spreading, and harvesting applications"
         ],
         "images": [
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-xfill-1.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-xfill-2.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-xfill-3.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-xfill-4.jpg",
-          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-centerpoint-vrs-2.jpg"
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-xfill-1.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-xfill-2.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-xfill-3.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-xfill-4.webp",
+          "/assets/vendor-images/ptx-trimble/ptx-trimble-trimble-centerpoint-vrs-2.webp"
         ],
         "brochures": [],
         "priority": false,
@@ -3404,10 +3404,10 @@
           "/assets/vendor-images/salford/salford-sniper-spinner-spreader-4.jpg",
           "/assets/vendor-images/salford/salford-sniper-spinner-spreader-5.jpg",
           "/assets/vendor-images/salford/salford-sniper-spinner-spreader-6.jpg",
-          "/assets/vendor-images/salford/salford-sniper-spinner-spreader-7.jpg",
-          "/assets/vendor-images/salford/salford-sniper-spinner-spreader-8.jpg",
-          "/assets/vendor-images/salford/salford-sniper-spinner-spreader-9.jpg",
-          "/assets/vendor-images/salford/salford-sniper-spinner-spreader-10.jpg"
+          "/assets/vendor-images/salford/salford-sniper-spinner-spreader-7.png",
+          "/assets/vendor-images/salford/salford-sniper-spinner-spreader-8.png",
+          "/assets/vendor-images/salford/salford-sniper-spinner-spreader-9.png",
+          "/assets/vendor-images/salford/salford-sniper-spinner-spreader-10.png"
         ],
         "brochures": [
           "https://salfordgroup.com/wp-content/uploads/2025/04/10016963-BBI-Spreaders.LR_.pdf",
@@ -3727,7 +3727,7 @@
           "Flotation tires for maximum field flotation"
         ],
         "images": [
-          "/assets/vendor-images/salford/salford-halo-vrt-1.jpg",
+          "/assets/vendor-images/salford/salford-halo-vrt-1.png",
           "/assets/vendor-images/salford/salford-halo-vrt-2.jpg",
           "/assets/vendor-images/salford/salford-halo-vrt-3.jpg",
           "/assets/vendor-images/salford/salford-halo-vrt-4.jpg",
